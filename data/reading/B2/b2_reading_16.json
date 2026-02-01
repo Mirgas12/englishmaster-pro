@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_16",
+  "level": "B2",
+  "title": "The Science of Creativity",
+  "title_ru": "Наука творчества",
+  "word_count": 295,
+  "topic": "psychology",
+  "text": "Creativity, long considered mysterious and beyond scientific analysis, is increasingly understood through psychological research. While we may never fully explain how masterpieces emerge, we can identify conditions that foster creative thinking and break common myths about the creative process.\n\nThe romantic image of creativity – sudden inspiration striking like lightning – is largely myth. Research shows that creative breakthroughs typically follow extensive preparation and hard work. The 'aha moment' feels sudden, but it builds on prolonged incubation, during which the unconscious mind works on problems. Taking breaks, particularly engaging in undemanding activities, often helps solutions emerge.\n\nDivergent thinking, the ability to generate many different ideas, is fundamental to creativity. This can be practiced and improved. Brainstorming techniques, mind mapping, and deliberately seeking unusual connections all build divergent thinking capacity.\n\nConstraints, perhaps counterintuitively, often enhance creativity. When resources or options are limited, people think more creatively about using what's available. Some of the most innovative solutions emerge from severe constraints. This explains why some artists deliberately impose restrictions on themselves.\n\nEnvironment matters significantly. Physical spaces that are relaxed and allow movement tend to foster creativity better than rigid office settings. Exposure to diverse perspectives and experiences provides raw material for creative connections. Teams with cognitive diversity often outperform homogeneous groups on creative tasks.\n\nMood affects creativity differently depending on the task. Positive moods enhance broad, associative thinking useful for idea generation. More negative moods can enhance critical evaluation and careful implementation. The creative process typically involves alternating between these phases.\n\nCreativity isn't restricted to the arts. Scientific discovery, entrepreneurship, everyday problem-solving, and social innovation all require creativity. The skills that support creative thinking can be developed at any age through deliberate practice.\n\nUnderstanding creativity science empowers us to create conditions where innovative thinking flourishes.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does research show about creative breakthroughs?", "options": ["They come suddenly without preparation", "They build on preparation and hard work", "They only happen to geniuses"], "correct": 1},
+    {"type": "multiple_choice", "question": "How do constraints affect creativity?", "options": ["They block it", "They often enhance it", "They have no effect"], "correct": 1},
+    {"type": "true_false", "question": "Positive moods are best for all creative tasks.", "correct": false},
+    {"type": "true_false", "question": "Creativity skills can be developed at any age.", "correct": true},
+    {"type": "fill_gap", "question": "Divergent thinking is the ability to generate many different ___.", "answer": "ideas"}
+  ],
+  "vocabulary": ["divergent thinking", "incubation", "constraints", "cognitive diversity", "associative"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

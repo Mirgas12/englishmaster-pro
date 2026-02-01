@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_09",
+  "level": "B2",
+  "title": "Democracy in Crisis?",
+  "title_ru": "Демократия в кризисе?",
+  "media_type": "audio",
+  "duration_seconds": 115,
+  "description": "Political analysis of democratic institutions",
+  "transcript": "After decades of expansion, democracy appears to be retreating globally. Democratic institutions are weakening even in established democracies, while authoritarian models gain appeal in some regions. What's driving this trend? Several factors converge. Economic anxiety, particularly among middle classes who feel left behind by globalization, has fueled support for populist movements that challenge traditional democratic norms. Social media has disrupted information ecosystems, making it easier to spread disinformation and harder to build shared understanding of facts. Trust in institutions – governments, media, experts – has declined precipitously. Democratic processes seem too slow to address urgent problems. Elections produce gridlock; compromise looks like weakness. Some look to more decisive forms of governance. Yet democracy's apparent weakness may be overstated. Democratic countries remain wealthier, more innovative, and more peaceful than alternatives. Citizens in authoritarian states consistently express desire for more voice. When given the chance, people choose democracy. Perhaps what we're witnessing isn't democracy's death but its evolution. New forms of participation – deliberative assemblies, digital engagement – might reinvigorate democratic practice. The question is whether democratic institutions can adapt quickly enough to address contemporary challenges while maintaining their essential values.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What has fueled populist movements?", "options": ["Environmental concerns", "Economic anxiety", "Foreign influence"], "correct": 1},
+    {"type": "multiple_choice", "question": "What has disrupted information ecosystems?", "options": ["Print media", "Social media", "Radio"], "correct": 1},
+    {"type": "true_false", "question": "Trust in institutions has increased recently.", "correct": false},
+    {"type": "true_false", "question": "Democratic countries tend to be more innovative.", "correct": true},
+    {"type": "fill_gap", "question": "Perhaps we're witnessing democracy's ___, not its death.", "answer": "evolution"}
+  ],
+  "vocabulary": ["authoritarian", "populist", "disinformation", "precipitously", "deliberative"],
+  "key_phrases": ["appears to be retreating", "several factors converge", "may be overstated", "reinvigorate democratic practice"]
+}

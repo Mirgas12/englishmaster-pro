@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_02",
+  "level": "A1",
+  "title": "My Family",
+  "title_ru": "Моя семья",
+  "media_type": "video",
+  "duration_seconds": 50,
+  "description": "A child introduces their family members",
+  "transcript": "Hello! I want to tell you about my family. This is my father. His name is John. He is tall. This is my mother. Her name is Sarah. She is kind. I have one brother. His name is Tom. He is ten years old. I also have a sister. Her name is Lily. She is five. We have a dog. His name is Max. I love my family very much.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the father's name?", "options": ["Tom", "John", "Max"], "correct": 1},
+    {"type": "multiple_choice", "question": "How old is the sister?", "options": ["Five", "Ten", "Seven"], "correct": 0},
+    {"type": "true_false", "question": "The brother's name is Tom.", "correct": true},
+    {"type": "true_false", "question": "The family has a cat.", "correct": false},
+    {"type": "fill_gap", "question": "The mother is ___.", "answer": "kind"}
+  ],
+  "vocabulary": ["father", "mother", "brother", "sister", "family"],
+  "key_phrases": ["This is my", "His name is", "Her name is", "I love my family"]
+}

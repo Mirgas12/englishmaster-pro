@@ -1,0 +1,283 @@
+{
+  "id": "a1_imperatives",
+  "level": "A1",
+  "title": "Imperatives",
+  "title_ru": "Повелительное наклонение",
+  "estimatedMinutes": 20,
+  "prerequisites": ["a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read these instructions. Notice the highlighted verbs at the beginning.",
+      "instruction_ru": "Прочитай эти инструкции. Обрати внимание на выделенные глаголы в начале.",
+      "content": {
+        "text": "How to make tea:\n1. <highlight>Boil</highlight> some water.\n2. <highlight>Put</highlight> a tea bag in a cup.\n3. <highlight>Pour</highlight> the hot water into the cup.\n4. <highlight>Wait</highlight> for 3-5 minutes.\n5. <highlight>Remove</highlight> the tea bag.\n6. <highlight>Add</highlight> milk or sugar if you like.\n7. <highlight>Enjoy</highlight> your tea!\n\nImportant: <highlight>Don't</highlight> use boiling water for green tea. <highlight>Be</highlight> careful with hot water!",
+        "question": "What is special about these verbs? Who is the subject?",
+        "question_ru": "Что особенного в этих глаголах? Кто является подлежащим?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Imperatives - Giving commands and instructions",
+        "title_ru": "Повелительное наклонение - Команды и инструкции",
+        "points": [
+          {
+            "rule": "Form: base verb (no subject)",
+            "rule_ru": "Форма: базовый глагол (без подлежащего)",
+            "example": "Open the door. Sit down. Listen!",
+            "marker": "verb only"
+          },
+          {
+            "rule": "Negative: Don't + verb",
+            "rule_ru": "Отрицание: Don't + глагол",
+            "example": "Don't run! Don't be late. Don't forget!",
+            "marker": "don't + verb"
+          },
+          {
+            "rule": "Use: commands, instructions, advice, offers",
+            "rule_ru": "Используем: команды, инструкции, советы, предложения",
+            "example": "Stop! (command) Turn left. (instruction) Take an umbrella. (advice) Have a cookie! (offer)",
+            "marker": "various uses"
+          },
+          {
+            "rule": "Polite: add 'please'",
+            "rule_ru": "Вежливо: добавляем 'please'",
+            "example": "Please sit down. Close the door, please.",
+            "marker": "please"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Command", "positive": "Stop!", "negative": "Don't stop!"},
+          {"type": "Instruction", "positive": "Turn right.", "negative": "Don't turn left."},
+          {"type": "Advice", "positive": "Take a break.", "negative": "Don't work too hard."},
+          {"type": "Offer", "positive": "Have some tea.", "negative": "Don't be shy!"},
+          {"type": "Warning", "positive": "Be careful!", "negative": "Don't touch that!"}
+        ]
+      },
+      "duration_minutes": 4
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all imperatives. Identify: command, instruction, advice, or offer?",
+      "instruction_ru": "Найди все повелительные формы. Определи: команда, инструкция, совет или предложение?",
+      "tasks": [
+        {
+          "text": "Classroom rules: Come to class on time. Don't be late. Bring your books every day. Listen to the teacher. Don't use your phone in class. Raise your hand to ask a question. Don't eat or drink in the classroom. Help your classmates. Be respectful. Have a great year!",
+          "find": [
+            {"imperative": "Come to class on time", "type": "instruction"},
+            {"imperative": "Don't be late", "type": "command/rule"},
+            {"imperative": "Bring your books", "type": "instruction"},
+            {"imperative": "Listen to the teacher", "type": "instruction"},
+            {"imperative": "Don't use your phone", "type": "rule"},
+            {"imperative": "Raise your hand", "type": "instruction"},
+            {"imperative": "Don't eat or drink", "type": "rule"},
+            {"imperative": "Help your classmates", "type": "advice"},
+            {"imperative": "Be respectful", "type": "advice"},
+            {"imperative": "Have a great year", "type": "wish/offer"}
+          ]
+        }
+      ],
+      "reflection_question": "Why don't we use 'you' in these sentences?",
+      "reflection_question_ru": "Почему мы не используем 'you' в этих предложениях?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the imperative form.",
+          "sentences": [
+            {"sentence": "___ (open) the window, please.", "answer": "Open"},
+            {"sentence": "___ (not/run) in the hall!", "answer": "Don't run"},
+            {"sentence": "___ (turn) left at the corner.", "answer": "Turn"},
+            {"sentence": "___ (be) quiet, please.", "answer": "Be"},
+            {"sentence": "___ (not/forget) your keys!", "answer": "Don't forget"},
+            {"sentence": "___ (have) a nice day!", "answer": "Have"},
+            {"sentence": "___ (not/touch) that!", "answer": "Don't touch"},
+            {"sentence": "___ (call) me later.", "answer": "Call"},
+            {"sentence": "___ (not/be) afraid.", "answer": "Don't be"},
+            {"sentence": "___ (sit) down, please.", "answer": "Sit"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "___ careful! The floor is wet.",
+              "options": ["Be", "Are", "Being"],
+              "correct": 0,
+              "explanation": "Imperative = base verb"
+            },
+            {
+              "sentence": "___ smoke here!",
+              "options": ["No", "Not", "Don't"],
+              "correct": 2,
+              "explanation": "Negative imperative = Don't + verb"
+            },
+            {
+              "sentence": "___ the door.",
+              "options": ["Closing", "Close", "Closes"],
+              "correct": 1,
+              "explanation": "Imperative = base verb"
+            },
+            {
+              "sentence": "___ worry. Everything will be fine.",
+              "options": ["Not", "Don't", "Doesn't"],
+              "correct": 1,
+              "explanation": "Negative imperative = Don't + verb"
+            },
+            {
+              "sentence": "___ me the salt, please.",
+              "options": ["Pass", "Passing", "To pass"],
+              "correct": 0,
+              "explanation": "Imperative = base verb"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "Not touch that!",
+              "correct": "Don't touch that!",
+              "explanation": "Negative imperative = Don't (not just 'not')"
+            },
+            {
+              "incorrect": "You be quiet!",
+              "correct": "Be quiet!",
+              "explanation": "No subject in imperatives"
+            },
+            {
+              "incorrect": "Doesn't run in the hall.",
+              "correct": "Don't run in the hall.",
+              "explanation": "Use 'Don't' (not 'Doesn't') for imperatives"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write 5 rules for your home or classroom using imperatives.",
+      "instruction_ru": "Напиши 5 правил для дома или класса, используя повелительное наклонение.",
+      "prompts": [
+        "Rules about noise and behavior",
+        "Rules about cleanliness",
+        "Rules about respect",
+        "Things you should do",
+        "Things you should NOT do"
+      ],
+      "example": "Keep the room clean. Don't leave your things on the floor. Be quiet after 10 PM. Don't eat in the bedroom. Respect others. Help with housework. Don't forget to lock the door.",
+      "ai_check": true,
+      "criteria": [
+        "Uses base verb for positive imperatives",
+        "Uses Don't + verb for negative imperatives",
+        "At least 5 rules",
+        "Mix of positive and negative"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many imperatives.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Recipe: Scrambled Eggs",
+          "level": "A1",
+          "word_count": 60,
+          "target_structures": 10,
+          "content": "Break two eggs into a bowl. Add salt and pepper. Beat the eggs with a fork. Heat butter in a pan. Pour the eggs into the pan. Stir gently. Don't overcook them. Remove from heat. Serve immediately. Enjoy!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Safety Instructions",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 11,
+          "content": "In case of fire: Stay calm. Don't panic. Leave the building immediately. Don't use the elevator. Use the stairs. Go to the meeting point. Don't go back inside. Call the fire department. Wait for help. Follow all instructions from emergency services."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Gym Rules",
+          "level": "A1",
+          "word_count": 55,
+          "target_structures": 9,
+          "content": "Welcome to our gym! Bring a towel. Wipe equipment after use. Don't drop weights. Put equipment back. Don't use phones in the gym area. Wear appropriate clothes. Don't leave belongings unattended. Respect other members. Have a great workout!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Travel Tips",
+          "level": "A1",
+          "word_count": 60,
+          "target_structures": 10,
+          "content": "Pack light. Bring comfortable shoes. Don't forget your passport. Make copies of important documents. Learn a few words in the local language. Don't carry too much cash. Be open to new experiences. Take many photos. Try local food. Enjoy your trip!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Study Advice",
+          "level": "A1",
+          "word_count": 55,
+          "target_structures": 9,
+          "content": "Find a quiet place to study. Turn off your phone. Don't study for too long without breaks. Take short breaks every hour. Drink water. Don't skip sleep. Review your notes regularly. Ask questions. Don't be afraid to make mistakes. Believe in yourself!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "___ (sit) down, please.",
+          "back": "Sit down, please.\n\nImperative = base verb"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: Open the door.\nNegative: ?",
+          "back": "Don't open the door.\n\nDon't + verb"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"You close the window.\"",
+          "back": "Close the window.\n\nNo subject in imperatives"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"Not eat here.\"",
+          "back": "Don't eat here.\n\nUse 'Don't' (not just 'Not')"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ (be) careful!",
+          "back": "Be careful!\n\nBase form of 'be'"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Adding subject (You sit down)",
+      "Using 'Not' instead of 'Don't'",
+      "Using 'Doesn't' instead of 'Don't'",
+      "Wrong verb form (Opening the door)"
+    ],
+    "related_topics": ["a1_present_simple", "a1_can"],
+    "ielts_relevance": "Medium - used in instructions and directions",
+    "frequency_in_english": "High"
+  }
+}

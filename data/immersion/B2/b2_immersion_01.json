@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_01",
+  "level": "B2",
+  "title": "The Psychology of Decision Making",
+  "title_ru": "Психология принятия решений",
+  "media_type": "video",
+  "duration_seconds": 120,
+  "description": "TED-style talk about cognitive biases",
+  "transcript": "Every day, we make thousands of decisions, from trivial choices about what to eat to life-changing decisions about careers and relationships. We like to think we're rational beings, carefully weighing options and choosing logically. But decades of research in behavioral economics reveals a different story. Our brains rely on mental shortcuts called heuristics that usually serve us well but can lead to systematic errors called cognitive biases. Consider the anchoring effect. When negotiating a salary, the first number mentioned heavily influences the final outcome, regardless of whether it's reasonable. Or the confirmation bias – we naturally seek information that confirms our existing beliefs while dismissing contradictory evidence. The availability heuristic makes us overestimate the likelihood of dramatic events, like plane crashes, because they're memorable, while underestimating more common risks. Perhaps most troubling is our overconfidence in our own judgments. Studies consistently show that experts are no better than chance at predicting many outcomes, yet remain highly confident. Understanding these biases doesn't eliminate them, but awareness helps us design better decision-making processes – whether in business, medicine, or personal life.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What are mental shortcuts called?", "options": ["Biases", "Heuristics", "Algorithms"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does the anchoring effect influence?", "options": ["Memory", "First impressions", "Negotiations"], "correct": 2},
+    {"type": "true_false", "question": "We seek information that confirms our existing beliefs.", "correct": true},
+    {"type": "true_false", "question": "Understanding biases completely eliminates them.", "correct": false},
+    {"type": "fill_gap", "question": "We overestimate the likelihood of ___ events because they're memorable.", "answer": "dramatic"}
+  ],
+  "vocabulary": ["heuristics", "cognitive biases", "anchoring effect", "confirmation bias", "overconfidence"],
+  "key_phrases": ["systematic errors", "heavily influences", "seek information that confirms", "design better processes"]
+}

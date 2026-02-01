@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_11",
+  "level": "B2",
+  "title": "The Neuroscience of Learning",
+  "title_ru": "Нейронаука обучения",
+  "word_count": 300,
+  "topic": "science",
+  "text": "Our understanding of how the brain learns has advanced dramatically in recent decades, with implications for education, training, and personal development. Neuroscience research reveals principles that can help optimize learning effectiveness.\n\nNeuroplasticity – the brain's ability to reorganize itself by forming new neural connections – underlies all learning. Contrary to older beliefs that the brain becomes fixed in adulthood, we now know it remains remarkably adaptable throughout life. This means it's never too late to learn new skills, though the process may require more effort with age.\n\nSpaced repetition, reviewing material at increasing intervals, is among the most effective learning strategies. This approach leverages how memory consolidation works – we forget rapidly at first, but each review strengthens the memory and slows the forgetting curve. Cramming, by contrast, produces short-term retention but poor long-term learning.\n\nInterleaving – mixing different topics or types of problems during practice – outperforms blocked practice for long-term retention. Though it feels harder and less productive, the additional cognitive effort strengthens learning. Struggling with material is actually more effective than easy fluency.\n\nSleep plays a crucial role in learning. During sleep, the brain consolidates memories, moving information from short-term to long-term storage. Studies show that learning before sleep, rather than in the morning, improves retention. Sleep deprivation significantly impairs learning and memory.\n\nEmotional states affect learning too. Moderate stress can enhance memory formation, while excessive stress impairs it. Positive emotional associations with material improve retention. The myth that learning must be painful is contradicted by evidence that engagement and enjoyment enhance learning.\n\nTeaching others is one of the most effective ways to learn – forcing us to organize knowledge and identify gaps in understanding. Active engagement generally outperforms passive consumption.\n\nApplying these principles doesn't require neuroscience expertise – just willingness to adopt evidence-based strategies over intuitive but ineffective approaches.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is neuroplasticity?", "options": ["Brain damage", "Brain's ability to form new connections", "Brain size changes"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does spaced repetition leverage?", "options": ["Memory consolidation", "Quick learning", "Multitasking"], "correct": 0},
+    {"type": "true_false", "question": "The brain cannot learn new things after adulthood.", "correct": false},
+    {"type": "true_false", "question": "Sleep deprivation impairs learning.", "correct": true},
+    {"type": "fill_gap", "question": "Interleaving feels harder but ___ learning.", "answer": "strengthens"}
+  ],
+  "vocabulary": ["neuroplasticity", "spaced repetition", "interleaving", "consolidation", "retention"],
+  "grammar_focus": ["present_simple", "comparatives"]
+}

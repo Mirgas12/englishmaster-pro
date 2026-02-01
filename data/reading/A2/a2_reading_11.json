@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_11",
+  "level": "A2",
+  "title": "The Camping Trip",
+  "title_ru": "Поход с палаткой",
+  "word_count": 165,
+  "topic": "outdoor",
+  "text": "Last month, our scout group went camping in the mountains. We carried heavy backpacks with tents, sleeping bags, and food. The walk to the campsite took three hours. My legs hurt, but the view was worth it! We set up our tents next to a river. The water was cold but clean. Some of us went swimming, while others collected wood for the fire. In the evening, we cooked sausages over the campfire. They were the best sausages I've ever eaten! After dinner, we told scary stories and looked at the stars. There were so many stars - much more than in the city. At night, it was very cold. I wore all my clothes inside my sleeping bag. I didn't sleep very well because of strange noises outside. My friend said it was just animals, but I was a bit scared. The next morning, we had breakfast and hiked back. I'd love to go camping again!",
+  "questions": [
+    {"type": "multiple_choice", "question": "How long was the walk to the campsite?", "options": ["Two hours", "Three hours", "Four hours"], "correct": 1},
+    {"type": "multiple_choice", "question": "What did they cook?", "options": ["Hot dogs", "Sausages", "Burgers"], "correct": 1},
+    {"type": "true_false", "question": "The writer slept very well.", "correct": false},
+    {"type": "true_false", "question": "They set up tents near a river.", "correct": true},
+    {"type": "fill_gap", "question": "They saw many ___ at night.", "answer": "stars"}
+  ],
+  "vocabulary": ["camping", "backpack", "tent", "campfire", "scary"],
+  "grammar_focus": ["past_simple", "comparatives"]
+}

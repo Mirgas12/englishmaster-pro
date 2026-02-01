@@ -1,0 +1,301 @@
+{
+  "id": "a1_present_continuous",
+  "level": "A1",
+  "title": "Present Continuous",
+  "title_ru": "Настоящее продолженное время",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a1_to_be", "a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about what's happening right now. Notice the highlighted verbs.",
+      "instruction_ru": "Прочитай о том, что происходит прямо сейчас. Обрати внимание на выделенные глаголы.",
+      "content": {
+        "text": "Look at my family right now! My mother <highlight>is cooking</highlight> dinner in the kitchen. She <highlight>is making</highlight> pasta. My father <highlight>is watching</highlight> TV in the living room. My sister <highlight>is talking</highlight> on the phone. She <highlight>is laughing</highlight> a lot! My brother <highlight>is playing</highlight> video games. I <highlight>am writing</highlight> this text. The dog <highlight>is sleeping</highlight> on the sofa. We <highlight>are all doing</highlight> different things!",
+        "question": "What form do all these verbs have in common?",
+        "question_ru": "Какая общая форма у всех этих глаголов?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Continuous - Actions happening NOW",
+        "title_ru": "Present Continuous - Действия, происходящие СЕЙЧАС",
+        "points": [
+          {
+            "rule": "Form: am/is/are + verb-ing",
+            "rule_ru": "Форма: am/is/are + глагол-ing",
+            "example": "I am working. She is reading. They are playing.",
+            "marker": "be + -ing"
+          },
+          {
+            "rule": "Use 1: Actions happening NOW",
+            "rule_ru": "Использование 1: Действия СЕЙЧАС",
+            "example": "I am eating breakfast now. She is sleeping.",
+            "marker": "now, right now, at the moment"
+          },
+          {
+            "rule": "Use 2: Temporary situations",
+            "rule_ru": "Использование 2: Временные ситуации",
+            "example": "I am living with my parents this month.",
+            "marker": "this week, these days, temporarily"
+          },
+          {
+            "rule": "Spelling: drop -e, add -ing (make → making)",
+            "rule_ru": "Правописание: убираем -e, добавляем -ing",
+            "example": "write → writing, dance → dancing, come → coming",
+            "marker": "-e → -ing"
+          },
+          {
+            "rule": "Spelling: double consonant (sit → sitting)",
+            "rule_ru": "Правописание: удваиваем согласную",
+            "example": "run → running, swim → swimming, stop → stopping",
+            "marker": "CVC → doubling"
+          }
+        ],
+        "comparison_table": [
+          {
+            "form": "Positive",
+            "I": "I am working",
+            "He/She/It": "He is working",
+            "We/You/They": "They are working"
+          },
+          {
+            "form": "Negative",
+            "I": "I am not working",
+            "He/She/It": "He isn't working",
+            "We/You/They": "They aren't working"
+          },
+          {
+            "form": "Question",
+            "I": "Am I working?",
+            "He/She/It": "Is he working?",
+            "We/You/They": "Are they working?"
+          }
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all Present Continuous verbs. Identify the subject and the -ing form.",
+      "instruction_ru": "Найди все глаголы в Present Continuous. Определи подлежащее и форму на -ing.",
+      "tasks": [
+        {
+          "text": "It's a busy day at the office. The boss is having a meeting. Some employees are working on computers. Two people are talking near the coffee machine. One woman is making copies. The phones are ringing. Nobody is answering them! The receptionist is eating lunch. I am writing an email. My colleague is helping me with a project. We are all working hard today.",
+          "find": [
+            {"subject": "The boss", "verb": "is having", "base_form": "have"},
+            {"subject": "Some employees", "verb": "are working", "base_form": "work"},
+            {"subject": "Two people", "verb": "are talking", "base_form": "talk"},
+            {"subject": "One woman", "verb": "is making", "base_form": "make"},
+            {"subject": "The phones", "verb": "are ringing", "base_form": "ring"},
+            {"subject": "Nobody", "verb": "is answering", "base_form": "answer"},
+            {"subject": "The receptionist", "verb": "is eating", "base_form": "eat"},
+            {"subject": "I", "verb": "am writing", "base_form": "write"},
+            {"subject": "My colleague", "verb": "is helping", "base_form": "help"},
+            {"subject": "We", "verb": "are working", "base_form": "work"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is it 'making' (not 'makeing') and 'running' (not 'runing')?",
+      "reflection_question_ru": "Почему 'making' (не 'makeing') и 'running' (не 'runing')?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the Present Continuous form.",
+          "sentences": [
+            {"sentence": "She ___ (read) a book now.", "answer": "is reading"},
+            {"sentence": "They ___ (play) football in the park.", "answer": "are playing"},
+            {"sentence": "I ___ (not/work) today.", "answer": "am not working"},
+            {"sentence": "He ___ (write) an email.", "answer": "is writing"},
+            {"sentence": "We ___ (wait) for the bus.", "answer": "are waiting"},
+            {"sentence": "___ you ___ (listen) to me?", "answer": "Are, listening"},
+            {"sentence": "The baby ___ (sleep) now.", "answer": "is sleeping"},
+            {"sentence": "I ___ (make) dinner.", "answer": "am making"},
+            {"sentence": "She ___ (sit) on the sofa.", "answer": "is sitting"},
+            {"sentence": "They ___ (not/watch) TV.", "answer": "aren't watching"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "Look! It ___ .",
+              "options": ["rains", "is raining", "raining"],
+              "correct": 1,
+              "explanation": "'Look!' = happening now = Present Continuous"
+            },
+            {
+              "sentence": "She ___ to music right now.",
+              "options": ["listens", "is listening", "listening"],
+              "correct": 1,
+              "explanation": "'Right now' = Present Continuous"
+            },
+            {
+              "sentence": "What ___ you ___ ?",
+              "options": ["do/do", "are/doing", "is/doing"],
+              "correct": 1,
+              "explanation": "'You' + are + -ing"
+            },
+            {
+              "sentence": "He ___ a shower at the moment.",
+              "options": ["takes", "is taking", "taking"],
+              "correct": 1,
+              "explanation": "'At the moment' = Present Continuous"
+            },
+            {
+              "sentence": "The children ___ in the garden.",
+              "options": ["are playing", "is playing", "plays"],
+              "correct": 0,
+              "explanation": "Children (they) + are + -ing"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She is runing fast.",
+              "correct": "She is running fast.",
+              "explanation": "run → running (double 'n')"
+            },
+            {
+              "incorrect": "I am writeing a letter.",
+              "correct": "I am writing a letter.",
+              "explanation": "write → writing (drop 'e')"
+            },
+            {
+              "incorrect": "He working now.",
+              "correct": "He is working now.",
+              "explanation": "Need 'is' before -ing"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Look around and describe what is happening right now.",
+      "instruction_ru": "Посмотри вокруг и опиши, что происходит прямо сейчас.",
+      "prompts": [
+        "What are you doing right now?",
+        "What are other people doing?",
+        "What is happening outside?",
+        "What sounds are you hearing?"
+      ],
+      "example": "I am sitting at my desk. I am writing this text. My cat is sleeping on my bed. Outside, a car is passing by. The sun is shining. My neighbor is cutting the grass. I am listening to music.",
+      "ai_check": true,
+      "criteria": [
+        "Uses am/is/are + -ing correctly",
+        "Uses time markers (now, right now, at the moment)",
+        "Correct spelling of -ing forms",
+        "At least 5 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many Present Continuous verbs.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "At the Beach",
+          "level": "A1",
+          "word_count": 75,
+          "target_structures": 11,
+          "content": "It's a beautiful day at the beach! People are enjoying the sun. Children are building sandcastles. A dog is running in the water. Some teenagers are playing volleyball. A woman is reading a book under an umbrella. Her husband is sleeping next to her. I am eating ice cream. Everyone is having a great time!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Phone Call",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "Hello? Hi Mom! What am I doing? I am cooking dinner. The TV is playing in the background. My roommate is taking a shower. We are having pasta tonight. What are you doing? Are you watching that show? Yes, I am coming home next week. I am looking forward to seeing you!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Morning Rush",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "It's 7:30 AM. Everyone is getting ready. My mother is making breakfast. My father is shaving in the bathroom. My sister is drying her hair. I am looking for my keys. The dog is barking at the mailman. We are all running late! The bus is coming in 5 minutes!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "The Restaurant",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "The restaurant is very busy tonight. Waiters are carrying plates. Customers are eating and talking. A chef is cooking in the kitchen. A couple is celebrating their anniversary. They are drinking champagne. A baby is crying at one table. The manager is trying to help. Music is playing softly."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "The Park",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "I am walking through the park. People are exercising everywhere. Some are jogging on the path. Others are doing yoga on the grass. A group is practicing tai chi. Dogs are playing with their owners. Birds are singing in the trees. Children are laughing on the playground. Everyone is enjoying the fresh air."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "She ___ (work) now.",
+          "back": "She is working now.\n\nis + -ing"
+        },
+        {
+          "type": "fill_gap",
+          "front": "They ___ (not/sleep).",
+          "back": "They aren't sleeping.\n\naren't + -ing"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: She is cooking.\nQuestion: ?",
+          "back": "Is she cooking?\n\nIs + subject + -ing?"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He is siting down.\"",
+          "back": "He is sitting down.\n\nsit → sitting (double 't')"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She makeing dinner.\"",
+          "back": "She is making dinner.\n\n1. Need 'is'\n2. make → making (drop 'e')"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 7,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting am/is/are (She working)",
+      "Wrong spelling: -ing after -e (writeing)",
+      "Not doubling consonant (runing, siting)",
+      "Using Present Simple instead (I work now)"
+    ],
+    "related_topics": ["a1_to_be", "a1_present_simple", "a2_past_continuous"],
+    "ielts_relevance": "High - used to describe pictures in Speaking",
+    "frequency_in_english": "Very high"
+  }
+}

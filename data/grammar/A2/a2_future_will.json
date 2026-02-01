@@ -1,0 +1,291 @@
+{
+  "id": "a2_future_will",
+  "level": "A2",
+  "title": "Future with Will",
+  "title_ru": "Будущее время с Will",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read these predictions about the future. Notice 'will' and 'won't'.",
+      "instruction_ru": "Прочитай эти предсказания о будущем. Обрати внимание на 'will' и 'won't'.",
+      "content": {
+        "text": "Life in 2050: I think life <highlight>will be</highlight> very different. Cars <highlight>will fly</highlight>! People <highlight>will live</highlight> longer. Robots <highlight>will do</highlight> many jobs. But some things <highlight>won't change</highlight>. People <highlight>will still need</highlight> friends and family. Children <highlight>will still play</highlight> games. <highlight>Will</highlight> we live on Mars? Maybe! One thing is sure: technology <highlight>will help</highlight> us.",
+        "question": "What word appears before the main verb? Does it change for he/she?",
+        "question_ru": "Какое слово появляется перед основным глаголом? Меняется ли оно для he/she?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Will - Future predictions, decisions, promises",
+        "title_ru": "Will - Предсказания, решения, обещания",
+        "points": [
+          {
+            "rule": "Form: will + base verb (same for all subjects)",
+            "rule_ru": "Форма: will + базовый глагол (одинаково для всех)",
+            "example": "I will go. She will go. They will go.",
+            "marker": "will + verb"
+          },
+          {
+            "rule": "Short form: 'll",
+            "rule_ru": "Краткая форма: 'll",
+            "example": "I'll go. She'll help. We'll see.",
+            "marker": "'ll"
+          },
+          {
+            "rule": "Negative: will not / won't",
+            "rule_ru": "Отрицание: will not / won't",
+            "example": "I won't be late. She won't forget.",
+            "marker": "won't"
+          },
+          {
+            "rule": "Use 1: Predictions (I think...)",
+            "rule_ru": "Использование 1: Предсказания (Я думаю...)",
+            "example": "I think it will rain tomorrow. She will pass the exam.",
+            "marker": "predictions"
+          },
+          {
+            "rule": "Use 2: Spontaneous decisions",
+            "rule_ru": "Использование 2: Спонтанные решения",
+            "example": "I'll have the pizza. I'll help you with that.",
+            "marker": "deciding now"
+          },
+          {
+            "rule": "Use 3: Promises and offers",
+            "rule_ru": "Использование 3: Обещания и предложения",
+            "example": "I'll call you tomorrow. I'll carry that for you.",
+            "marker": "promises"
+          }
+        ],
+        "comparison_table": [
+          {"form": "Positive", "full": "I will go", "short": "I'll go"},
+          {"form": "Negative", "full": "I will not go", "short": "I won't go"},
+          {"form": "Question", "full": "Will you go?", "short": "-"},
+          {"form": "Short answer", "full": "Yes, I will. / No, I won't.", "short": "-"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all uses of 'will/won't'. Identify: prediction, decision, or promise?",
+      "instruction_ru": "Найди все случаи 'will/won't'. Определи: предсказание, решение или обещание?",
+      "tasks": [
+        {
+          "text": "A: It's getting cold. B: I'll close the window. A: Thanks! Do you think it will snow tomorrow? B: I don't know. The weather report said it won't be very cold. A: I hope it will be nice for the weekend. B: Me too! I promise I'll call you if the weather changes. A: Great! I'll bring an umbrella just in case. B: Good idea. I'll bring one too.",
+          "find": [
+            {"phrase": "I'll close the window", "type": "spontaneous decision"},
+            {"phrase": "it will snow", "type": "prediction"},
+            {"phrase": "it won't be very cold", "type": "prediction"},
+            {"phrase": "it will be nice", "type": "prediction/hope"},
+            {"phrase": "I'll call you", "type": "promise"},
+            {"phrase": "I'll bring an umbrella", "type": "decision"},
+            {"phrase": "I'll bring one too", "type": "decision"}
+          ]
+        }
+      ],
+      "reflection_question": "When do we use 'will' vs 'going to' for the future?",
+      "reflection_question_ru": "Когда мы используем 'will', а когда 'going to' для будущего?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with will ('ll) or won't.",
+          "sentences": [
+            {"sentence": "I think it ___ rain tomorrow.", "answer": "will"},
+            {"sentence": "She ___ help you. She's very kind.", "answer": "will"},
+            {"sentence": "Don't worry, I ___ be late.", "answer": "won't"},
+            {"sentence": "I'm tired. I ___ go to bed early.", "answer": "'ll"},
+            {"sentence": "___ you come to the party?", "answer": "Will"},
+            {"sentence": "He ___ forget. He always remembers.", "answer": "won't"},
+            {"sentence": "I promise I ___ call you.", "answer": "will"},
+            {"sentence": "Robots ___ do many things in the future.", "answer": "will"},
+            {"sentence": "I ___ have the chicken, please.", "answer": "'ll"},
+            {"sentence": "She ___ pass the exam. She didn't study.", "answer": "won't"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I think she ___ the job.",
+              "options": ["will get", "will gets", "gets"],
+              "correct": 0,
+              "explanation": "will + base verb (no -s)"
+            },
+            {
+              "sentence": "Don't worry. I ___ tell anyone.",
+              "options": ["willn't", "won't", "will don't"],
+              "correct": 1,
+              "explanation": "Negative = won't (will not)"
+            },
+            {
+              "sentence": "___ you help me with this?",
+              "options": ["Do", "Are", "Will"],
+              "correct": 2,
+              "explanation": "Question = Will + subject + verb"
+            },
+            {
+              "sentence": "A: It's cold! B: I ___ close the window.",
+              "options": ["'ll", "going to", "will to"],
+              "correct": 0,
+              "explanation": "Spontaneous decision = will ('ll)"
+            },
+            {
+              "sentence": "In 50 years, people ___ on Mars.",
+              "options": ["will lives", "will live", "live"],
+              "correct": 1,
+              "explanation": "Prediction = will + base verb"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She will goes to the party.",
+              "correct": "She will go to the party.",
+              "explanation": "will + base verb (no -s)"
+            },
+            {
+              "incorrect": "I willn't forget.",
+              "correct": "I won't forget.",
+              "explanation": "Negative = won't (not willn't)"
+            },
+            {
+              "incorrect": "Will she comes tomorrow?",
+              "correct": "Will she come tomorrow?",
+              "explanation": "Will + base verb (no -s)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write predictions about life in 50 years.",
+      "instruction_ru": "Напиши предсказания о жизни через 50 лет.",
+      "prompts": [
+        "Technology - what will change?",
+        "Transport - how will people travel?",
+        "Work - what jobs will exist?",
+        "Environment - will it get better or worse?",
+        "Your personal predictions"
+      ],
+      "example": "In 50 years, life will be very different. Cars will fly. Robots will do many jobs. People will live longer. I think we will live on Mars. Schools will be virtual. But some things won't change. People will still need love and friendship.",
+      "ai_check": true,
+      "criteria": [
+        "Uses will/won't correctly",
+        "Uses prediction phrases (I think...)",
+        "No -s after will",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many will/won't structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "New Year Resolutions",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 11,
+          "content": "This year I'll make some changes. I'll exercise more and I'll eat healthier food. I won't eat fast food every day. I'll save money. I'll learn a new language. I won't waste time on my phone so much. I'll spend more time with family. I promise I'll keep these resolutions!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Weather Forecast",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "Here's the weather for tomorrow. It will be cloudy in the morning. The temperature will reach 15 degrees. It won't rain until evening. There will be strong winds in the afternoon. It will get colder at night. The weekend will be sunny. It won't be as cold as today."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Restaurant Order",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "Waiter: Are you ready to order? Customer 1: Yes, I'll have the steak, please. Customer 2: I'll take the fish. Waiter: Any drinks? Customer 1: I'll have water. Customer 2: I'll have orange juice. Waiter: I'll bring your drinks right away. Your food will be ready in 15 minutes."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Technology in 2100",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 12,
+          "content": "By 2100, technology will change everything. Robots will do most household work. People will travel in flying cars. Doctors will cure most diseases. Computers will be tiny. We'll talk to machines like friends. But some problems will remain. There will still be challenges. Will humans be happier? I hope so!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Job Interview Follow-up",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "Thank you for the interview. I'll send you the documents tomorrow. I won't forget. I'll email my references as well. The HR team will review everything. They'll call you next week. You'll receive an offer letter if successful. It won't take longer than two weeks. We'll be in touch soon."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I think it ___ rain.",
+          "back": "will\n\nPrediction = will + verb"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: I will go.\nNegative: ?",
+          "back": "I won't go.\n\nwill → won't"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: She will help.\nQuestion: ?",
+          "back": "Will she help?\n\nWill + subject + verb?"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He will goes home.\"",
+          "back": "He will go home.\n\nwill + base verb (no -s)"
+        },
+        {
+          "type": "choose",
+          "front": "\"It's cold!\" - \"I ___ the window.\"",
+          "back": "I'll close the window.\n\nSpontaneous decision = will"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Adding -s after will (will goes)",
+      "Wrong negative (willn't instead of won't)",
+      "Confusing will and going to",
+      "Using will for planned future (should use going to)"
+    ],
+    "related_topics": ["a2_future_going_to", "b1_future_continuous"],
+    "ielts_relevance": "High - used for predictions in Speaking Part 3",
+    "frequency_in_english": "Very high"
+  }
+}

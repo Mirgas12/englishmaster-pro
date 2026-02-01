@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_02",
+  "level": "B1",
+  "title": "Environmental Awareness",
+  "title_ru": "Экологическая осведомлённость",
+  "media_type": "video",
+  "duration_seconds": 85,
+  "description": "Documentary excerpt about environmental issues",
+  "transcript": "Climate change is one of the biggest challenges facing our planet. Scientists have been warning us for decades that human activities are warming the Earth. Burning fossil fuels releases carbon dioxide into the atmosphere, which traps heat and causes global temperatures to rise. The effects are already visible: melting ice caps, rising sea levels, and more frequent extreme weather events. But there's hope. Many countries are investing in renewable energy like solar and wind power. Electric vehicles are becoming more popular. Individuals can also make a difference by reducing, reusing, and recycling. Simple changes like using public transport, eating less meat, and reducing plastic consumption can have a significant impact if millions of people adopt them. We need to act now before it's too late. The decisions we make today will determine what kind of planet we leave for future generations.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What traps heat in the atmosphere?", "options": ["Oxygen", "Carbon dioxide", "Nitrogen"], "correct": 1},
+    {"type": "multiple_choice", "question": "What are examples of renewable energy?", "options": ["Coal and oil", "Solar and wind", "Natural gas"], "correct": 1},
+    {"type": "true_false", "question": "Scientists started warning about climate change recently.", "correct": false},
+    {"type": "true_false", "question": "Individual actions can make a difference.", "correct": true},
+    {"type": "fill_gap", "question": "Climate change causes rising sea ___ and extreme weather.", "answer": "levels"}
+  ],
+  "vocabulary": ["fossil fuels", "carbon dioxide", "atmosphere", "renewable", "consumption"],
+  "key_phrases": ["one of the biggest challenges", "the effects are already visible", "make a difference", "before it's too late"]
+}

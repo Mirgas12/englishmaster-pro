@@ -1,0 +1,172 @@
+{
+  "level": "A1",
+  "total_words": 300,
+  "categories": [
+    {
+      "name": "Greetings & Basics",
+      "name_ru": "Приветствия и основы",
+      "words": [
+        {"word": "hello", "translation": "привет", "example": "Hello! How are you?", "phonetic": "/həˈləʊ/"},
+        {"word": "goodbye", "translation": "до свидания", "example": "Goodbye! See you tomorrow.", "phonetic": "/ɡʊdˈbaɪ/"},
+        {"word": "please", "translation": "пожалуйста", "example": "Please help me.", "phonetic": "/pliːz/"},
+        {"word": "thank you", "translation": "спасибо", "example": "Thank you very much!", "phonetic": "/θæŋk juː/"},
+        {"word": "yes", "translation": "да", "example": "Yes, I understand.", "phonetic": "/jes/"},
+        {"word": "no", "translation": "нет", "example": "No, I don't like it.", "phonetic": "/nəʊ/"},
+        {"word": "sorry", "translation": "извините", "example": "Sorry, I'm late.", "phonetic": "/ˈsɒri/"},
+        {"word": "excuse me", "translation": "простите", "example": "Excuse me, where is the bank?", "phonetic": "/ɪkˈskjuːz miː/"},
+        {"word": "good morning", "translation": "доброе утро", "example": "Good morning, teacher!", "phonetic": "/ɡʊd ˈmɔːnɪŋ/"},
+        {"word": "good night", "translation": "спокойной ночи", "example": "Good night, sleep well.", "phonetic": "/ɡʊd naɪt/"}
+      ]
+    },
+    {
+      "name": "Numbers",
+      "name_ru": "Числа",
+      "words": [
+        {"word": "one", "translation": "один", "example": "I have one book.", "phonetic": "/wʌn/"},
+        {"word": "two", "translation": "два", "example": "Two apples, please.", "phonetic": "/tuː/"},
+        {"word": "three", "translation": "три", "example": "Three is my lucky number.", "phonetic": "/θriː/"},
+        {"word": "four", "translation": "четыре", "example": "I have four brothers.", "phonetic": "/fɔː/"},
+        {"word": "five", "translation": "пять", "example": "Five minutes, please.", "phonetic": "/faɪv/"},
+        {"word": "six", "translation": "шесть", "example": "I wake up at six.", "phonetic": "/sɪks/"},
+        {"word": "seven", "translation": "семь", "example": "Seven days in a week.", "phonetic": "/ˈsevn/"},
+        {"word": "eight", "translation": "восемь", "example": "I work eight hours.", "phonetic": "/eɪt/"},
+        {"word": "nine", "translation": "девять", "example": "Nine students in class.", "phonetic": "/naɪn/"},
+        {"word": "ten", "translation": "десять", "example": "Ten fingers on my hands.", "phonetic": "/ten/"},
+        {"word": "twenty", "translation": "двадцать", "example": "I'm twenty years old.", "phonetic": "/ˈtwenti/"},
+        {"word": "hundred", "translation": "сто", "example": "One hundred percent!", "phonetic": "/ˈhʌndrəd/"}
+      ]
+    },
+    {
+      "name": "Family",
+      "name_ru": "Семья",
+      "words": [
+        {"word": "mother", "translation": "мать", "example": "My mother is a doctor.", "phonetic": "/ˈmʌðə/"},
+        {"word": "father", "translation": "отец", "example": "My father works in an office.", "phonetic": "/ˈfɑːðə/"},
+        {"word": "sister", "translation": "сестра", "example": "I have one sister.", "phonetic": "/ˈsɪstə/"},
+        {"word": "brother", "translation": "брат", "example": "My brother is older than me.", "phonetic": "/ˈbrʌðə/"},
+        {"word": "son", "translation": "сын", "example": "He is my son.", "phonetic": "/sʌn/"},
+        {"word": "daughter", "translation": "дочь", "example": "She is my daughter.", "phonetic": "/ˈdɔːtə/"},
+        {"word": "grandmother", "translation": "бабушка", "example": "My grandmother is 70.", "phonetic": "/ˈɡrænˌmʌðə/"},
+        {"word": "grandfather", "translation": "дедушка", "example": "My grandfather lives in the village.", "phonetic": "/ˈɡrænˌfɑːðə/"},
+        {"word": "husband", "translation": "муж", "example": "This is my husband.", "phonetic": "/ˈhʌzbənd/"},
+        {"word": "wife", "translation": "жена", "example": "My wife is a teacher.", "phonetic": "/waɪf/"}
+      ]
+    },
+    {
+      "name": "Colors",
+      "name_ru": "Цвета",
+      "words": [
+        {"word": "red", "translation": "красный", "example": "The apple is red.", "phonetic": "/red/"},
+        {"word": "blue", "translation": "синий", "example": "The sky is blue.", "phonetic": "/bluː/"},
+        {"word": "green", "translation": "зелёный", "example": "Grass is green.", "phonetic": "/ɡriːn/"},
+        {"word": "yellow", "translation": "жёлтый", "example": "The sun is yellow.", "phonetic": "/ˈjeləʊ/"},
+        {"word": "black", "translation": "чёрный", "example": "My car is black.", "phonetic": "/blæk/"},
+        {"word": "white", "translation": "белый", "example": "Snow is white.", "phonetic": "/waɪt/"},
+        {"word": "orange", "translation": "оранжевый", "example": "Oranges are orange.", "phonetic": "/ˈɒrɪndʒ/"},
+        {"word": "pink", "translation": "розовый", "example": "She likes pink flowers.", "phonetic": "/pɪŋk/"},
+        {"word": "brown", "translation": "коричневый", "example": "The table is brown.", "phonetic": "/braʊn/"},
+        {"word": "grey", "translation": "серый", "example": "The clouds are grey.", "phonetic": "/ɡreɪ/"}
+      ]
+    },
+    {
+      "name": "Days & Time",
+      "name_ru": "Дни и время",
+      "words": [
+        {"word": "Monday", "translation": "понедельник", "example": "I work on Monday.", "phonetic": "/ˈmʌndeɪ/"},
+        {"word": "Tuesday", "translation": "вторник", "example": "Tuesday is my free day.", "phonetic": "/ˈtjuːzdeɪ/"},
+        {"word": "Wednesday", "translation": "среда", "example": "We have a meeting on Wednesday.", "phonetic": "/ˈwenzdeɪ/"},
+        {"word": "Thursday", "translation": "четверг", "example": "Thursday is movie night.", "phonetic": "/ˈθɜːzdeɪ/"},
+        {"word": "Friday", "translation": "пятница", "example": "Thank God it's Friday!", "phonetic": "/ˈfraɪdeɪ/"},
+        {"word": "Saturday", "translation": "суббота", "example": "I sleep late on Saturday.", "phonetic": "/ˈsætədeɪ/"},
+        {"word": "Sunday", "translation": "воскресенье", "example": "Sunday is a rest day.", "phonetic": "/ˈsʌndeɪ/"},
+        {"word": "today", "translation": "сегодня", "example": "Today is a good day.", "phonetic": "/təˈdeɪ/"},
+        {"word": "tomorrow", "translation": "завтра", "example": "See you tomorrow.", "phonetic": "/təˈmɒrəʊ/"},
+        {"word": "yesterday", "translation": "вчера", "example": "I called you yesterday.", "phonetic": "/ˈjestədeɪ/"}
+      ]
+    },
+    {
+      "name": "Food & Drinks",
+      "name_ru": "Еда и напитки",
+      "words": [
+        {"word": "water", "translation": "вода", "example": "I drink water every day.", "phonetic": "/ˈwɔːtə/"},
+        {"word": "bread", "translation": "хлеб", "example": "I eat bread for breakfast.", "phonetic": "/bred/"},
+        {"word": "milk", "translation": "молоко", "example": "Children drink milk.", "phonetic": "/mɪlk/"},
+        {"word": "coffee", "translation": "кофе", "example": "I love coffee in the morning.", "phonetic": "/ˈkɒfi/"},
+        {"word": "tea", "translation": "чай", "example": "Would you like some tea?", "phonetic": "/tiː/"},
+        {"word": "apple", "translation": "яблоко", "example": "An apple a day keeps the doctor away.", "phonetic": "/ˈæpl/"},
+        {"word": "banana", "translation": "банан", "example": "Bananas are yellow.", "phonetic": "/bəˈnɑːnə/"},
+        {"word": "chicken", "translation": "курица", "example": "I like chicken for dinner.", "phonetic": "/ˈtʃɪkɪn/"},
+        {"word": "rice", "translation": "рис", "example": "Rice is popular in Asia.", "phonetic": "/raɪs/"},
+        {"word": "egg", "translation": "яйцо", "example": "I eat eggs for breakfast.", "phonetic": "/eɡ/"},
+        {"word": "cheese", "translation": "сыр", "example": "Cheese is made from milk.", "phonetic": "/tʃiːz/"},
+        {"word": "fish", "translation": "рыба", "example": "Fish is healthy food.", "phonetic": "/fɪʃ/"}
+      ]
+    },
+    {
+      "name": "Body Parts",
+      "name_ru": "Части тела",
+      "words": [
+        {"word": "head", "translation": "голова", "example": "My head hurts.", "phonetic": "/hed/"},
+        {"word": "hand", "translation": "рука (кисть)", "example": "Wash your hands.", "phonetic": "/hænd/"},
+        {"word": "arm", "translation": "рука", "example": "I broke my arm.", "phonetic": "/ɑːm/"},
+        {"word": "leg", "translation": "нога", "example": "My legs are tired.", "phonetic": "/leɡ/"},
+        {"word": "foot", "translation": "стопа", "example": "I hurt my foot.", "phonetic": "/fʊt/"},
+        {"word": "eye", "translation": "глаз", "example": "She has blue eyes.", "phonetic": "/aɪ/"},
+        {"word": "ear", "translation": "ухо", "example": "I have earache.", "phonetic": "/ɪə/"},
+        {"word": "nose", "translation": "нос", "example": "My nose is running.", "phonetic": "/nəʊz/"},
+        {"word": "mouth", "translation": "рот", "example": "Open your mouth.", "phonetic": "/maʊθ/"},
+        {"word": "hair", "translation": "волосы", "example": "She has long hair.", "phonetic": "/heə/"}
+      ]
+    },
+    {
+      "name": "House & Home",
+      "name_ru": "Дом",
+      "words": [
+        {"word": "house", "translation": "дом", "example": "This is my house.", "phonetic": "/haʊs/"},
+        {"word": "room", "translation": "комната", "example": "My room is big.", "phonetic": "/ruːm/"},
+        {"word": "kitchen", "translation": "кухня", "example": "I cook in the kitchen.", "phonetic": "/ˈkɪtʃɪn/"},
+        {"word": "bathroom", "translation": "ванная", "example": "The bathroom is upstairs.", "phonetic": "/ˈbɑːθruːm/"},
+        {"word": "bedroom", "translation": "спальня", "example": "I sleep in my bedroom.", "phonetic": "/ˈbedruːm/"},
+        {"word": "door", "translation": "дверь", "example": "Please close the door.", "phonetic": "/dɔː/"},
+        {"word": "window", "translation": "окно", "example": "Open the window, please.", "phonetic": "/ˈwɪndəʊ/"},
+        {"word": "table", "translation": "стол", "example": "The book is on the table.", "phonetic": "/ˈteɪbl/"},
+        {"word": "chair", "translation": "стул", "example": "Sit on the chair.", "phonetic": "/tʃeə/"},
+        {"word": "bed", "translation": "кровать", "example": "I sleep in my bed.", "phonetic": "/bed/"}
+      ]
+    },
+    {
+      "name": "Common Verbs",
+      "name_ru": "Частые глаголы",
+      "words": [
+        {"word": "be", "translation": "быть", "example": "I am happy.", "phonetic": "/biː/"},
+        {"word": "have", "translation": "иметь", "example": "I have a dog.", "phonetic": "/hæv/"},
+        {"word": "do", "translation": "делать", "example": "What do you do?", "phonetic": "/duː/"},
+        {"word": "go", "translation": "идти", "example": "I go to school.", "phonetic": "/ɡəʊ/"},
+        {"word": "eat", "translation": "есть", "example": "I eat breakfast at 8.", "phonetic": "/iːt/"},
+        {"word": "drink", "translation": "пить", "example": "I drink water.", "phonetic": "/drɪŋk/"},
+        {"word": "sleep", "translation": "спать", "example": "I sleep 8 hours.", "phonetic": "/sliːp/"},
+        {"word": "work", "translation": "работать", "example": "I work in an office.", "phonetic": "/wɜːk/"},
+        {"word": "like", "translation": "нравиться", "example": "I like music.", "phonetic": "/laɪk/"},
+        {"word": "want", "translation": "хотеть", "example": "I want coffee.", "phonetic": "/wɒnt/"},
+        {"word": "see", "translation": "видеть", "example": "I see the bird.", "phonetic": "/siː/"},
+        {"word": "come", "translation": "приходить", "example": "Come here, please.", "phonetic": "/kʌm/"}
+      ]
+    },
+    {
+      "name": "Common Adjectives",
+      "name_ru": "Частые прилагательные",
+      "words": [
+        {"word": "big", "translation": "большой", "example": "The house is big.", "phonetic": "/bɪɡ/"},
+        {"word": "small", "translation": "маленький", "example": "The cat is small.", "phonetic": "/smɔːl/"},
+        {"word": "good", "translation": "хороший", "example": "This is a good book.", "phonetic": "/ɡʊd/"},
+        {"word": "bad", "translation": "плохой", "example": "The weather is bad.", "phonetic": "/bæd/"},
+        {"word": "new", "translation": "новый", "example": "I have a new phone.", "phonetic": "/njuː/"},
+        {"word": "old", "translation": "старый", "example": "My car is old.", "phonetic": "/əʊld/"},
+        {"word": "hot", "translation": "горячий", "example": "The coffee is hot.", "phonetic": "/hɒt/"},
+        {"word": "cold", "translation": "холодный", "example": "The water is cold.", "phonetic": "/kəʊld/"},
+        {"word": "happy", "translation": "счастливый", "example": "I am happy today.", "phonetic": "/ˈhæpi/"},
+        {"word": "tired", "translation": "уставший", "example": "I am very tired.", "phonetic": "/ˈtaɪəd/"}
+      ]
+    }
+  ]
+}

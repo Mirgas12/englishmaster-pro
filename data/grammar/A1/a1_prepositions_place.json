@@ -1,0 +1,298 @@
+{
+  "id": "a1_prepositions_place",
+  "level": "A1",
+  "title": "Prepositions of Place",
+  "title_ru": "Предлоги места",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a1_to_be", "a1_there_is_are"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about this room. Notice the highlighted prepositions.",
+      "instruction_ru": "Прочитай описание комнаты. Обрати внимание на выделенные предлоги.",
+      "content": {
+        "text": "Welcome to my room! There is a bed <highlight>in</highlight> the corner. <highlight>On</highlight> the bed, there is a cat. <highlight>Under</highlight> the bed, there are some boxes. There is a desk <highlight>near</highlight> the window. <highlight>On</highlight> the desk, there is a computer. <highlight>In</highlight> the drawer, there are pencils. There are pictures <highlight>on</highlight> the wall. The bookshelf is <highlight>next to</highlight> the door. <highlight>Between</highlight> the desk and the bed, there is a small table. My bag is <highlight>behind</highlight> the door.",
+        "question": "What do these prepositions tell us?",
+        "question_ru": "Что нам говорят эти предлоги?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Prepositions of Place - Where things are",
+        "title_ru": "Предлоги места - Где находятся вещи",
+        "points": [
+          {
+            "rule": "IN - inside something",
+            "rule_ru": "IN - внутри чего-то",
+            "example": "in the box, in the room, in the car, in Moscow",
+            "marker": "inside/enclosed"
+          },
+          {
+            "rule": "ON - on a surface",
+            "rule_ru": "ON - на поверхности",
+            "example": "on the table, on the wall, on the floor, on the bus",
+            "marker": "surface/touching"
+          },
+          {
+            "rule": "UNDER - below something",
+            "rule_ru": "UNDER - под чем-то",
+            "example": "under the table, under the bed",
+            "marker": "below"
+          },
+          {
+            "rule": "NEXT TO / NEAR - beside something",
+            "rule_ru": "NEXT TO / NEAR - рядом с чем-то",
+            "example": "next to the bank, near the park",
+            "marker": "beside"
+          },
+          {
+            "rule": "BETWEEN - in the middle of two things",
+            "rule_ru": "BETWEEN - между двумя вещами",
+            "example": "between the chairs, between me and you",
+            "marker": "two things"
+          },
+          {
+            "rule": "BEHIND / IN FRONT OF - back/front",
+            "rule_ru": "BEHIND / IN FRONT OF - сзади/спереди",
+            "example": "behind the house, in front of the school",
+            "marker": "back/front"
+          }
+        ],
+        "comparison_table": [
+          {"preposition": "in", "image": "📦", "meaning": "inside", "example": "in the box"},
+          {"preposition": "on", "image": "📋", "meaning": "surface", "example": "on the table"},
+          {"preposition": "under", "image": "⬇️", "meaning": "below", "example": "under the bed"},
+          {"preposition": "next to", "image": "↔️", "meaning": "beside", "example": "next to the door"},
+          {"preposition": "between", "image": "🔀", "meaning": "middle", "example": "between A and B"},
+          {"preposition": "behind", "image": "⬅️", "meaning": "back", "example": "behind the tree"},
+          {"preposition": "in front of", "image": "➡️", "meaning": "front", "example": "in front of the car"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all prepositions and identify what they describe.",
+      "instruction_ru": "Найди все предлоги и определи, что они описывают.",
+      "tasks": [
+        {
+          "text": "I live in a small apartment. The kitchen is next to the living room. There is a big window in the living room. On the window, there are flowers. Under the window, there is a sofa. The TV is in front of the sofa. Between the sofa and the TV, there is a coffee table. My cat likes to sleep under the table. There is a painting on the wall behind the sofa. My bedroom is between the bathroom and the kitchen.",
+          "find": [
+            {"preposition": "in", "phrase": "in a small apartment", "describes": "location inside"},
+            {"preposition": "next to", "phrase": "next to the living room", "describes": "beside"},
+            {"preposition": "in", "phrase": "in the living room", "describes": "location inside room"},
+            {"preposition": "On", "phrase": "On the window", "describes": "surface"},
+            {"preposition": "Under", "phrase": "Under the window", "describes": "below"},
+            {"preposition": "in front of", "phrase": "in front of the sofa", "describes": "facing"},
+            {"preposition": "Between", "phrase": "Between the sofa and the TV", "describes": "middle position"},
+            {"preposition": "under", "phrase": "under the table", "describes": "below"},
+            {"preposition": "on", "phrase": "on the wall", "describes": "surface"},
+            {"preposition": "behind", "phrase": "behind the sofa", "describes": "at the back"},
+            {"preposition": "between", "phrase": "between the bathroom and the kitchen", "describes": "middle position"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'in the table' and 'on the table'?",
+      "reflection_question_ru": "В чём разница между 'in the table' и 'on the table'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct preposition.",
+          "sentences": [
+            {"sentence": "The book is ___ the table.", "answer": "on"},
+            {"sentence": "She lives ___ London.", "answer": "in"},
+            {"sentence": "The cat is ___ the bed.", "answer": "under"},
+            {"sentence": "The bank is ___ the supermarket.", "answer": "next to"},
+            {"sentence": "I am sitting ___ my two friends.", "answer": "between"},
+            {"sentence": "The car is ___ the house.", "answer": "in front of"},
+            {"sentence": "There is a garden ___ the house.", "answer": "behind"},
+            {"sentence": "The keys are ___ my bag.", "answer": "in"},
+            {"sentence": "The picture is ___ the wall.", "answer": "on"},
+            {"sentence": "The shop is ___ the cinema.", "answer": "near"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct preposition.",
+          "questions": [
+            {
+              "sentence": "The phone is ___ the drawer.",
+              "options": ["on", "in", "under"],
+              "correct": 1,
+              "explanation": "Inside the drawer = in"
+            },
+            {
+              "sentence": "There is a poster ___ the wall.",
+              "options": ["in", "on", "under"],
+              "correct": 1,
+              "explanation": "Surface of the wall = on"
+            },
+            {
+              "sentence": "The dog is sleeping ___ the table.",
+              "options": ["on", "in", "under"],
+              "correct": 2,
+              "explanation": "Below the table = under"
+            },
+            {
+              "sentence": "My house is ___ the park and the school.",
+              "options": ["next to", "between", "behind"],
+              "correct": 1,
+              "explanation": "Two locations = between"
+            },
+            {
+              "sentence": "I'm waiting ___ the cinema.",
+              "options": ["in front of", "under", "on"],
+              "correct": 0,
+              "explanation": "At the entrance = in front of"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "The book is in the table.",
+              "correct": "The book is on the table.",
+              "explanation": "On the surface = on (not in)"
+            },
+            {
+              "incorrect": "I live on Moscow.",
+              "correct": "I live in Moscow.",
+              "explanation": "Inside a city = in"
+            },
+            {
+              "incorrect": "The cinema is among the bank and the shop.",
+              "correct": "The cinema is between the bank and the shop.",
+              "explanation": "Two things = between (not among)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe where things are in your room.",
+      "instruction_ru": "Опиши, где находятся вещи в твоей комнате.",
+      "prompts": [
+        "Where is your bed?",
+        "What is on your desk?",
+        "What is under your bed?",
+        "What is next to the window?",
+        "What is on the walls?"
+      ],
+      "example": "My bed is in the corner of the room. On my bed, there is a pillow. Under my bed, there are some boxes. Next to the window, there is my desk. On the desk, there is my laptop. There are posters on the wall. Behind the door, there is my bag.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'in' correctly",
+        "Uses 'on' correctly",
+        "Uses at least 4 different prepositions",
+        "At least 5 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many prepositions of place.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Finding the Keys",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "Where are my keys? They are not on the table. They are not in my bag. Let me look under the sofa. No, not there. Maybe they are behind the cushion? Yes! They were between the cushions on the sofa. They are always in strange places!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "My Street",
+          "level": "A1",
+          "word_count": 75,
+          "target_structures": 11,
+          "content": "I live on a nice street. My house is between two big buildings. In front of my house, there is a small garden. Behind the house, there is a parking area. Next to my house, there is a bakery. Near the bakery, there is a pharmacy. There is a bus stop on the corner."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "The Office",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 11,
+          "content": "In my office, there is a big desk. On the desk, there is a computer. Under the desk, there are cables. The printer is next to the window. There are files in the drawer. A calendar is on the wall behind my chair. My bag is under my desk."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "The Park",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "The park is near my house. In the park, there are many trees. There is a pond in the center. Ducks swim on the pond. Between the trees, there are benches. Children play on the grass. Behind the pond, there is a cafe."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "The Kitchen",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 11,
+          "content": "In my kitchen, there is a big fridge. On the fridge, there are magnets. Next to the fridge, there is the stove. There are pots on the stove. Under the counter, there are cabinets. In the cabinets, there are plates. On the counter, there is a microwave."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "choose",
+          "front": "The book is ___ the table.\n(in / on / under)",
+          "back": "on the table\n\nOn a surface = on"
+        },
+        {
+          "type": "choose",
+          "front": "I live ___ Tokyo.\n(in / on / at)",
+          "back": "in Tokyo\n\nInside a city = in"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The cat is hiding ___ the bed.",
+          "back": "under the bed\n\nBelow = under"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The bank is ___ the post office and the cafe.",
+          "back": "between\n\nTwo locations = between"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"The picture is in the wall.\"",
+          "back": "The picture is on the wall.\n\nSurface = on (not in)"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Confusing in/on (in the table vs on the table)",
+      "Using at instead of in for cities",
+      "Forgetting 'of' in 'in front of'",
+      "Confusing between/among"
+    ],
+    "related_topics": ["a1_there_is_are", "a2_prepositions_time"],
+    "ielts_relevance": "High - used in Speaking Part 2 to describe places",
+    "frequency_in_english": "Very high"
+  }
+}

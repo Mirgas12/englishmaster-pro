@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_11",
+  "level": "B1",
+  "title": "Sleep and Health",
+  "title_ru": "Сон и здоровье",
+  "media_type": "audio",
+  "duration_seconds": 80,
+  "description": "Doctor explains importance of sleep",
+  "transcript": "We spend about one third of our lives sleeping, yet many of us don't prioritize it. Sleep is when your body repairs itself and your brain processes information from the day. Poor sleep affects everything – mood, concentration, immune function, even weight. Adults need seven to nine hours per night, but quality matters as much as quantity. To improve sleep quality, maintain a consistent schedule. Going to bed and waking up at the same time – even on weekends – regulates your body clock. Avoid screens before bed; blue light disrupts the production of melatonin, the sleep hormone. Keep your bedroom cool, dark, and quiet. Limit caffeine after noon and alcohol before bed – both interfere with sleep cycles. If you can't fall asleep within twenty minutes, get up and do something relaxing until you feel drowsy. Lying awake creates anxiety. Chronic sleep problems deserve medical attention. Don't accept poor sleep as normal. Quality rest is not a luxury – it's a necessity for physical and mental health.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How much of our lives do we spend sleeping?", "options": ["One quarter", "One third", "One half"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does blue light disrupt?", "options": ["Digestion", "Melatonin production", "Appetite"], "correct": 1},
+    {"type": "true_false", "question": "Adults need exactly seven hours of sleep.", "correct": false},
+    {"type": "true_false", "question": "Alcohol before bed interferes with sleep cycles.", "correct": true},
+    {"type": "fill_gap", "question": "Quality rest is not a luxury – it's a ___.", "answer": "necessity"}
+  ],
+  "vocabulary": ["prioritize", "immune function", "melatonin", "chronic", "drowsy"],
+  "key_phrases": ["quality matters as much as quantity", "regulates your body clock", "don't accept as normal", "physical and mental health"]
+}

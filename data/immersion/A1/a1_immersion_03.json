@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_03",
+  "level": "A1",
+  "title": "At the Shop",
+  "title_ru": "В магазине",
+  "media_type": "audio",
+  "duration_seconds": 40,
+  "description": "A simple conversation at a grocery store",
+  "transcript": "Shop assistant: Hello! Can I help you?\nCustomer: Yes, please. I want some apples.\nShop assistant: How many apples?\nCustomer: Five apples, please. And two bananas.\nShop assistant: Anything else?\nCustomer: Yes. One bottle of milk.\nShop assistant: OK. That's three dollars.\nCustomer: Here you are.\nShop assistant: Thank you. Goodbye!\nCustomer: Goodbye!",
+  "questions": [
+    {"type": "multiple_choice", "question": "How many apples does the customer want?", "options": ["Three", "Five", "Seven"], "correct": 1},
+    {"type": "multiple_choice", "question": "How much is the total?", "options": ["Two dollars", "Three dollars", "Five dollars"], "correct": 1},
+    {"type": "true_false", "question": "The customer buys oranges.", "correct": false},
+    {"type": "true_false", "question": "The customer buys milk.", "correct": true},
+    {"type": "fill_gap", "question": "The customer wants two ___.", "answer": "bananas"}
+  ],
+  "vocabulary": ["shop", "apples", "bananas", "milk", "dollars"],
+  "key_phrases": ["Can I help you", "I want some", "How many", "Here you are"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_08",
+  "level": "C1",
+  "title": "Moral Philosophy and Artificial Intelligence",
+  "title_ru": "Моральная философия и ИИ",
+  "media_type": "video",
+  "duration_seconds": 150,
+  "description": "Ethical frameworks for AI decision-making",
+  "transcript": "As artificial intelligence systems make increasingly consequential decisions – from loan approvals to criminal sentencing to autonomous weapons – urgent questions arise about their moral status and governance. Should AI follow human ethical frameworks, and if so, which ones? Consider the classic trolley problem adapted for autonomous vehicles. Should a self-driving car swerve to avoid five pedestrians if doing so kills one? Utilitarian calculus suggests minimizing total harm. But deontological ethics questions whether the car should actively cause a death, even to prevent greater harm. Virtue ethics asks what a virtuous driver would do, but how do we program virtue? Different cultures have different moral intuitions about such dilemmas. Whose values should global AI systems embody? Some propose learning ethics from human feedback, training AI on human moral judgments. But human moral judgments are inconsistent, often biased, and culturally variable. Should AI replicate these flaws or somehow transcend them? The alignment problem extends beyond specific dilemmas to the general goal of ensuring AI systems pursue objectives beneficial to humanity. Sufficiently advanced AI might find unexpected ways to achieve specified goals that violate our intentions – a problem known as specification gaming. Some researchers advocate for AI systems that maintain uncertainty about human values and seek to learn rather than assume them. Others argue for value pluralism, AI that acknowledges ethical disagreement rather than imposing a single framework. The philosophical challenges of AI ethics may force humanity to articulate moral commitments more explicitly than ever before.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does utilitarian calculus suggest?", "options": ["Following rules strictly", "Minimizing total harm", "Preserving individual rights"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is 'specification gaming'?", "options": ["Programming ethics", "AI achieving goals in unintended ways", "Learning from feedback"], "correct": 1},
+    {"type": "true_false", "question": "Human moral judgments are always consistent.", "correct": false},
+    {"type": "true_false", "question": "Different cultures have different moral intuitions.", "correct": true},
+    {"type": "fill_gap", "question": "The ___ problem involves ensuring AI pursues objectives beneficial to humanity.", "answer": "alignment"}
+  ],
+  "vocabulary": ["consequential", "deontological", "utilitarian", "specification gaming", "pluralism"],
+  "key_phrases": ["increasingly consequential decisions", "cultural moral intuitions", "maintain uncertainty about values", "articulate moral commitments"]
+}

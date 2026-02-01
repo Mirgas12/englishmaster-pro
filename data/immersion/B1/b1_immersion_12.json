@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_12",
+  "level": "B1",
+  "title": "The Gig Economy",
+  "title_ru": "Экономика подработок",
+  "media_type": "video",
+  "duration_seconds": 85,
+  "description": "News report about modern work trends",
+  "transcript": "The gig economy is changing how we work. Instead of traditional full-time jobs, more people are working as freelancers, contractors, or through apps like Uber and Deliveroo. This shift offers flexibility – you can choose when to work and take on multiple projects. For some, it's a way to earn extra income alongside a regular job. For others, it's their primary livelihood. However, gig workers often lack benefits that traditional employees enjoy – health insurance, paid holidays, pension contributions. Income can be unpredictable, with some weeks much busier than others. There's also the issue of worker classification. Are gig workers independent contractors or should they be classified as employees with corresponding rights? Courts in different countries have ruled differently on this question. Supporters say the gig economy provides opportunities for people who want flexibility. Critics argue it creates insecurity and shifts risk from companies to workers. As technology advances, this debate will only become more important for society to address.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does the gig economy offer?", "options": ["Job security", "Flexibility", "Pension plans"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do gig workers often lack?", "options": ["Smartphones", "Benefits like health insurance", "Internet access"], "correct": 1},
+    {"type": "true_false", "question": "All gig workers use the gig economy as their primary income.", "correct": false},
+    {"type": "true_false", "question": "Income in the gig economy can be unpredictable.", "correct": true},
+    {"type": "fill_gap", "question": "Critics argue the gig economy creates ___ for workers.", "answer": "insecurity"}
+  ],
+  "vocabulary": ["freelancers", "contractors", "livelihood", "classification", "insecurity"],
+  "key_phrases": ["changing how we work", "take on multiple projects", "lack benefits", "shifts risk from"]
+}

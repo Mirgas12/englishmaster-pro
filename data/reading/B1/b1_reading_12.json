@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_12",
+  "level": "B1",
+  "title": "Coffee Culture Around the World",
+  "title_ru": "Кофейная культура в мире",
+  "word_count": 230,
+  "topic": "culture",
+  "text": "Coffee is one of the world's most popular drinks, consumed by billions of people daily. But the way people drink coffee varies enormously across different cultures, reflecting local traditions and social customs.\n\nIn Italy, coffee is typically enjoyed quickly, standing at a bar. The classic espresso is drunk in a few sips. Ordering a cappuccino after 11 am is considered unusual by Italians. In contrast, Scandinavian countries have a tradition called 'fika' – taking a break for coffee and pastries. This social ritual is an important part of daily life in Sweden.\n\nTurkish coffee has a history dating back centuries. The finely ground coffee is boiled in a special pot and served unfiltered. In Ethiopia, where coffee originated, traditional coffee ceremonies are elaborate affairs that can last hours, symbolizing respect and friendship.\n\nAmerican coffee culture has evolved significantly in recent decades. The rise of specialty coffee shops transformed coffee from a simple commodity into an artisanal product. Baristas now craft elaborate drinks, and many consumers are interested in where their coffee comes from and how it's produced.\n\nThe global coffee industry is worth over $100 billion annually. However, coffee farmers in developing countries often receive only a tiny fraction of the final price. Fair trade initiatives aim to ensure better conditions and prices for these producers.\n\nWhether you prefer a quick espresso or a leisurely latte, coffee brings people together across cultures and continents.",
+  "questions": [
+    {"type": "multiple_choice", "question": "When is cappuccino unusual to order in Italy?", "options": ["Before 8 am", "After 11 am", "After 6 pm"], "correct": 1},
+    {"type": "multiple_choice", "question": "Where did coffee originate?", "options": ["Brazil", "Ethiopia", "Colombia"], "correct": 1},
+    {"type": "true_false", "question": "Swedish 'fika' is just about drinking coffee.", "correct": false},
+    {"type": "true_false", "question": "Coffee farmers often receive little of the final price.", "correct": true},
+    {"type": "fill_gap", "question": "The global coffee industry is worth over $100 ___ annually.", "answer": "billion"}
+  ],
+  "vocabulary": ["espresso", "artisanal", "barista", "commodity", "fair trade"],
+  "grammar_focus": ["present_simple", "present_perfect"]
+}

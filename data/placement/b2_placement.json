@@ -1,0 +1,80 @@
+{
+  "level": "B2",
+  "total_questions": 54,
+  "sections": [
+    {
+      "type": "grammar",
+      "questions": [
+        {"id": 1, "question": "Had I known about the delay, I ___ my plans differently.", "options": ["would arrange", "would have arranged", "will arrange", "arranged"], "correct": 1},
+        {"id": 2, "question": "The proposal is worth ___.", "options": ["consider", "to consider", "considering", "considered"], "correct": 2},
+        {"id": 3, "question": "By this time next year, she ___ her degree.", "options": ["completes", "will complete", "will have completed", "has completed"], "correct": 2},
+        {"id": 4, "question": "No sooner had he arrived ___ the phone rang.", "options": ["when", "than", "that", "as"], "correct": 1},
+        {"id": 5, "question": "___ the expense, we decided to hire professional help.", "options": ["Despite", "In spite", "Given", "Although"], "correct": 2},
+        {"id": 6, "question": "It's high time you ___ a decision.", "options": ["make", "made", "making", "have made"], "correct": 1},
+        {"id": 7, "question": "The suspect is believed ___ the country.", "options": ["to leave", "to have left", "leaving", "left"], "correct": 1},
+        {"id": 8, "question": "Seldom ___ such dedication in a student.", "options": ["I have seen", "have I seen", "I saw", "did I saw"], "correct": 1},
+        {"id": 9, "question": "He speaks as if he ___ everything.", "options": ["knows", "knew", "has known", "knowing"], "correct": 1},
+        {"id": 10, "question": "Were it not for your help, I ___ failed.", "options": ["would have", "would", "will have", "had"], "correct": 0},
+        {"id": 11, "question": "The project, ___ took three years, was finally completed.", "options": ["that", "which", "what", "who"], "correct": 1},
+        {"id": 12, "question": "Only after reading the report ___ the seriousness.", "options": ["I understood", "did I understand", "I did understand", "understood I"], "correct": 1},
+        {"id": 13, "question": "He insisted ___ paying for dinner.", "options": ["in", "on", "at", "for"], "correct": 1},
+        {"id": 14, "question": "___ you need any assistance, please call this number.", "options": ["Would", "Should", "Could", "Might"], "correct": 1},
+        {"id": 15, "question": "The meeting was put ___ until next week.", "options": ["on", "off", "up", "away"], "correct": 1},
+        {"id": 16, "question": "Not until I arrived home ___ I had forgotten my keys.", "options": ["I realized", "did I realize", "I did realize", "realized I"], "correct": 1},
+        {"id": 17, "question": "Little ___ that she would become famous.", "options": ["she knew", "did she know", "she did know", "knew she"], "correct": 1},
+        {"id": 18, "question": "I'd sooner you ___ mention this to anyone.", "options": ["don't", "didn't", "won't", "haven't"], "correct": 1}
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "questions": [
+        {"id": 19, "question": "'Meticulous' means ___.", "options": ["careless", "detailed", "fast", "simple"], "correct": 1},
+        {"id": 20, "question": "A 'paradigm' is a ___.", "options": ["problem", "model", "paradox", "parallel"], "correct": 1},
+        {"id": 21, "question": "'Ubiquitous' means ___.", "options": ["rare", "unique", "everywhere", "obsolete"], "correct": 2},
+        {"id": 22, "question": "To 'mitigate' means to ___.", "options": ["increase", "reduce", "eliminate", "ignore"], "correct": 1},
+        {"id": 23, "question": "'Ambiguous' means ___.", "options": ["clear", "uncertain", "ambitious", "obvious"], "correct": 1},
+        {"id": 24, "question": "A 'precedent' is ___.", "options": ["a president", "a prediction", "an earlier example", "a precaution"], "correct": 2},
+        {"id": 25, "question": "'Resilient' means ___.", "options": ["weak", "able to recover", "resistant", "rigid"], "correct": 1},
+        {"id": 26, "question": "To 'exacerbate' means to ___.", "options": ["improve", "explain", "worsen", "examine"], "correct": 2},
+        {"id": 27, "question": "'Inherent' means ___.", "options": ["inherited", "built-in", "learned", "external"], "correct": 1},
+        {"id": 28, "question": "A 'deterrent' is something that ___.", "options": ["attracts", "discourages", "determines", "detects"], "correct": 1},
+        {"id": 29, "question": "'Pragmatic' means ___.", "options": ["idealistic", "practical", "problematic", "dramatic"], "correct": 1},
+        {"id": 30, "question": "To 'proliferate' means to ___.", "options": ["decrease", "spread rapidly", "profile", "prohibit"], "correct": 1},
+        {"id": 31, "question": "'Salient' means ___.", "options": ["hidden", "salty", "notable", "silent"], "correct": 2},
+        {"id": 32, "question": "To 'reconcile' means to ___.", "options": ["remember", "recognize", "restore harmony", "record"], "correct": 2},
+        {"id": 33, "question": "'Viable' means ___.", "options": ["visible", "valuable", "workable", "variable"], "correct": 2},
+        {"id": 34, "question": "An 'anomaly' is ___.", "options": ["an analysis", "something abnormal", "an animal", "anonymity"], "correct": 1},
+        {"id": 35, "question": "'Tangible' means ___.", "options": ["imaginary", "touchable", "tangled", "targeted"], "correct": 1},
+        {"id": 36, "question": "To 'substantiate' means to ___.", "options": ["substitute", "prove with evidence", "subtract", "suspect"], "correct": 1}
+      ]
+    },
+    {
+      "type": "reading",
+      "questions": [
+        {"id": 37, "text": "The concept of emotional intelligence, popularized by Daniel Goleman in the 1990s, has fundamentally changed how organizations approach leadership and team dynamics. Unlike IQ, which remains relatively stable throughout life, emotional intelligence can be developed through conscious effort. Research suggests that leaders with high emotional intelligence create more engaged teams and achieve better business outcomes. However, critics argue that emotional intelligence has been oversimplified and commercialized, with some questioning whether it can be reliably measured.", "question": "What can be developed according to the text?", "options": ["IQ", "emotional intelligence", "team size", "business models"], "correct": 1},
+        {"id": 38, "text": "The concept of emotional intelligence, popularized by Daniel Goleman in the 1990s, has fundamentally changed how organizations approach leadership and team dynamics. Unlike IQ, which remains relatively stable throughout life, emotional intelligence can be developed through conscious effort. Research suggests that leaders with high emotional intelligence create more engaged teams and achieve better business outcomes. However, critics argue that emotional intelligence has been oversimplified and commercialized, with some questioning whether it can be reliably measured.", "question": "What do critics say about emotional intelligence?", "options": ["It's perfect", "It's too complex", "It may be oversimplified", "It replaces IQ"], "correct": 2},
+        {"id": 39, "text": "The concept of emotional intelligence, popularized by Daniel Goleman in the 1990s, has fundamentally changed how organizations approach leadership and team dynamics. Unlike IQ, which remains relatively stable throughout life, emotional intelligence can be developed through conscious effort. Research suggests that leaders with high emotional intelligence create more engaged teams and achieve better business outcomes. However, critics argue that emotional intelligence has been oversimplified and commercialized, with some questioning whether it can be reliably measured.", "question": "Who popularized emotional intelligence?", "options": ["Einstein", "Goleman", "Darwin", "Freud"], "correct": 1},
+        {"id": 40, "text": "The circular economy represents a departure from the traditional linear model of 'take, make, dispose.' Instead of treating products as having a finite lifespan ending in landfills, the circular economy emphasizes designing for durability, repairability, and recyclability. Companies embracing this model are finding it not only reduces environmental impact but can also create competitive advantages through resource efficiency and new revenue streams from recycled materials.", "question": "What does the circular economy emphasize?", "options": ["quick disposal", "short product life", "durability and recyclability", "more production"], "correct": 2},
+        {"id": 41, "text": "The circular economy represents a departure from the traditional linear model of 'take, make, dispose.' Instead of treating products as having a finite lifespan ending in landfills, the circular economy emphasizes designing for durability, repairability, and recyclability. Companies embracing this model are finding it not only reduces environmental impact but can also create competitive advantages through resource efficiency and new revenue streams from recycled materials.", "question": "What benefits do companies find?", "options": ["only environmental", "only financial", "both environmental and competitive", "none"], "correct": 2},
+        {"id": 42, "text": "The circular economy represents a departure from the traditional linear model of 'take, make, dispose.' Instead of treating products as having a finite lifespan ending in landfills, the circular economy emphasizes designing for durability, repairability, and recyclability. Companies embracing this model are finding it not only reduces environmental impact but can also create competitive advantages through resource efficiency and new revenue streams from recycled materials.", "question": "What is the traditional model?", "options": ["circular", "sustainable", "take, make, dispose", "recycle"], "correct": 2},
+        {"id": 43, "text": "Neuroscience research has revealed the remarkable plasticity of the adult brain, overturning long-held beliefs that brain development essentially stops after childhood. Studies show that learning new skills, whether languages, musical instruments, or complex cognitive tasks, creates new neural pathways and can even increase gray matter in relevant brain regions. This has profound implications for education and cognitive rehabilitation, suggesting that meaningful learning and recovery are possible at any age.", "question": "What has research revealed about the adult brain?", "options": ["it stops developing", "it has plasticity", "it cannot learn", "it shrinks"], "correct": 1},
+        {"id": 44, "text": "Neuroscience research has revealed the remarkable plasticity of the adult brain, overturning long-held beliefs that brain development essentially stops after childhood. Studies show that learning new skills, whether languages, musical instruments, or complex cognitive tasks, creates new neural pathways and can even increase gray matter in relevant brain regions. This has profound implications for education and cognitive rehabilitation, suggesting that meaningful learning and recovery are possible at any age.", "question": "What happens when learning new skills?", "options": ["brain damage", "new neural pathways form", "memory loss", "nothing"], "correct": 1},
+        {"id": 45, "text": "Neuroscience research has revealed the remarkable plasticity of the adult brain, overturning long-held beliefs that brain development essentially stops after childhood. Studies show that learning new skills, whether languages, musical instruments, or complex cognitive tasks, creates new neural pathways and can even increase gray matter in relevant brain regions. This has profound implications for education and cognitive rehabilitation, suggesting that meaningful learning and recovery are possible at any age.", "question": "What does this imply for education?", "options": ["learning is impossible after childhood", "learning is possible at any age", "only children can learn", "education is useless"], "correct": 1}
+      ]
+    },
+    {
+      "type": "listening_simulation",
+      "questions": [
+        {"id": 46, "scenario": "Business presentation: 'Our Q3 results exceeded expectations, with revenue up 12% year-over-year. This growth is primarily attributed to our expansion into Asian markets.'", "question": "What caused the growth?", "options": ["cost cutting", "Asian expansion", "new products", "staff reduction"], "correct": 1},
+        {"id": 47, "scenario": "Academic lecture: 'The Anthropocene, a proposed geological epoch, suggests that human activity has fundamentally altered Earth's systems to a degree comparable to major geological forces.'", "question": "What is the Anthropocene?", "options": ["a new planet", "a proposed epoch", "a climate model", "a human activity"], "correct": 1},
+        {"id": 48, "scenario": "Radio interview: 'While automation will certainly displace some jobs, history suggests that technological revolutions ultimately create more employment than they eliminate.'", "question": "What does history suggest about automation?", "options": ["it destroys all jobs", "it creates more jobs than it eliminates", "it has no effect", "it only helps machines"], "correct": 1},
+        {"id": 49, "scenario": "Conference call: 'We need to address the bottleneck in our supply chain. I propose we diversify our suppliers to reduce dependency on any single source.'", "question": "What solution is proposed?", "options": ["single supplier", "no suppliers", "diverse suppliers", "cheaper suppliers"], "correct": 2},
+        {"id": 50, "scenario": "News analysis: 'The implications of this ruling extend far beyond this individual case. It sets a precedent that will affect similar disputes for decades.'", "question": "What does the ruling set?", "options": ["a limit", "a precedent", "a deadline", "a budget"], "correct": 1},
+        {"id": 51, "scenario": "Documentary: 'Contrary to popular belief, most ecosystems are not in equilibrium but exist in a state of constant dynamic change, responding to both natural and human-induced pressures.'", "question": "What is true about ecosystems?", "options": ["they are stable", "they change constantly", "they are simple", "they resist change"], "correct": 1},
+        {"id": 52, "scenario": "Panel discussion: 'The correlation between screen time and mental health issues in teenagers, while statistically significant, does not necessarily imply causation.'", "question": "What does the speaker say about correlation?", "options": ["it proves causation", "it doesn't prove causation", "it is insignificant", "it is irrelevant"], "correct": 1},
+        {"id": 53, "scenario": "TED talk: 'The most successful innovators aren't necessarily the most creative. They're the ones who can implement ideas effectively, navigating organizational and market realities.'", "question": "What makes innovators successful?", "options": ["pure creativity", "effective implementation", "luck", "resources"], "correct": 1},
+        {"id": 54, "scenario": "Strategy meeting: 'Rather than competing on price, which erodes margins, we should differentiate through superior customer experience and build brand loyalty.'", "question": "What strategy is recommended?", "options": ["price competition", "differentiation", "cost cutting", "expansion"], "correct": 1}
+      ]
+    }
+  ]
+}

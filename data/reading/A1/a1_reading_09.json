@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_09",
+  "level": "A1",
+  "title": "At School",
+  "title_ru": "В школе",
+  "word_count": 96,
+  "topic": "school",
+  "text": "I go to Lincoln Primary School. My school is big and has many classrooms. I am in class 5B. My teacher is Mrs. Brown. She is very nice. My favorite subject is art because I love drawing. I also like music and P.E. Math is difficult for me, but I try hard. We have lunch at 12 o'clock in the cafeteria. After lunch, we have more lessons. School finishes at 3 o'clock. I walk home with my friends. I like my school!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the writer's favorite subject?", "options": ["math", "art", "music"], "correct": 1},
+    {"type": "multiple_choice", "question": "What time does school finish?", "options": ["2 o'clock", "3 o'clock", "4 o'clock"], "correct": 1},
+    {"type": "true_false", "question": "Math is easy for the writer.", "correct": false},
+    {"type": "true_false", "question": "The teacher is Mrs. Brown.", "correct": true},
+    {"type": "fill_gap", "question": "They have lunch in the ___.", "answer": "cafeteria"}
+  ],
+  "vocabulary": ["school", "subject", "teacher", "classroom", "lesson"],
+  "grammar_focus": ["present_simple", "time_prepositions"]
+}

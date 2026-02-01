@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_07",
+  "level": "A1",
+  "title": "My Pet Dog",
+  "title_ru": "Моя собака",
+  "word_count": 93,
+  "topic": "pets",
+  "text": "I have a pet dog. His name is Max. He is 3 years old. Max is a golden retriever. He has soft brown fur and big brown eyes. Max is very friendly and playful. He likes to run and catch balls. Every morning, I walk Max in the park. He loves to meet other dogs. Max eats dog food twice a day. At night, he sleeps in his bed next to mine. Max is my best friend. I love him very much!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What kind of dog is Max?", "options": ["bulldog", "golden retriever", "poodle"], "correct": 1},
+    {"type": "multiple_choice", "question": "How old is Max?", "options": ["2 years", "3 years", "4 years"], "correct": 1},
+    {"type": "true_false", "question": "Max has black fur.", "correct": false},
+    {"type": "true_false", "question": "Max sleeps next to the writer's bed.", "correct": true},
+    {"type": "fill_gap", "question": "Max likes to run and catch ___.", "answer": "balls"}
+  ],
+  "vocabulary": ["pet", "dog", "friendly", "playful", "walk"],
+  "grammar_focus": ["present_simple", "adjectives"]
+}

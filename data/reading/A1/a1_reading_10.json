@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_10",
+  "level": "A1",
+  "title": "A Birthday Party",
+  "title_ru": "День рождения",
+  "word_count": 98,
+  "topic": "celebrations",
+  "text": "Yesterday was my birthday! I am 11 years old now. My parents had a party for me. All my friends came to my house. There were balloons everywhere. The cake was chocolate - my favorite! We played games and listened to music. I got many presents. My best present was a new bike from my parents. It is red and very fast. We ate pizza and drank lemonade. At the end, we sang \"Happy Birthday.\" It was the best day ever! I can't wait for next year!",
+  "questions": [
+    {"type": "multiple_choice", "question": "How old is the writer now?", "options": ["10", "11", "12"], "correct": 1},
+    {"type": "multiple_choice", "question": "What flavor was the cake?", "options": ["vanilla", "strawberry", "chocolate"], "correct": 2},
+    {"type": "true_false", "question": "The best present was a computer.", "correct": false},
+    {"type": "true_false", "question": "They ate pizza at the party.", "correct": true},
+    {"type": "fill_gap", "question": "The new bike is ___ and very fast.", "answer": "red"}
+  ],
+  "vocabulary": ["birthday", "party", "present", "cake", "balloon"],
+  "grammar_focus": ["past_simple", "there_was_were"]
+}

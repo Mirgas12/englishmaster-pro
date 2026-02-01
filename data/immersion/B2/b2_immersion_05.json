@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_05",
+  "level": "B2",
+  "title": "Urbanization in the 21st Century",
+  "title_ru": "Урбанизация в 21 веке",
+  "media_type": "audio",
+  "duration_seconds": 110,
+  "description": "Expert discusses urban development trends",
+  "transcript": "More than half the world's population now lives in cities, and this proportion is rising rapidly. By 2050, an estimated 68 percent of humanity will be urban dwellers. This unprecedented urbanization presents both opportunities and challenges. Cities are engines of economic growth, innovation, and cultural dynamism. Concentrated populations allow for efficient delivery of services, from healthcare to education. Ideas spread quickly in dense environments, fostering creativity and entrepreneurship. However, rapid urbanization often outpaces infrastructure development. Megacities in developing countries struggle with inadequate housing, transportation, sanitation, and healthcare. Informal settlements – slums – house a significant portion of urban populations in conditions lacking basic amenities. Environmental pressures are acute. Cities consume vast resources and produce enormous waste. Urban heat islands, where temperatures significantly exceed surrounding areas, intensify with development. Yet cities also offer solutions – compact living reduces per-capita carbon footprints compared to suburban sprawl. Smart city technologies promise to optimize resource use, manage traffic, and improve services. Sustainable urban planning – green spaces, public transport, mixed-use development – can make cities more livable. The cities we build today will shape human civilization for generations to come.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What percent will be urban by 2050?", "options": ["50 percent", "68 percent", "80 percent"], "correct": 1},
+    {"type": "multiple_choice", "question": "What are cities called in terms of economy?", "options": ["Consumers", "Engines", "Problems"], "correct": 1},
+    {"type": "true_false", "question": "Compact living increases carbon footprints.", "correct": false},
+    {"type": "true_false", "question": "Urban heat islands have higher temperatures than surroundings.", "correct": true},
+    {"type": "fill_gap", "question": "Rapid urbanization often outpaces ___ development.", "answer": "infrastructure"}
+  ],
+  "vocabulary": ["urbanization", "megacities", "sanitation", "per-capita", "sprawl"],
+  "key_phrases": ["unprecedented urbanization", "engines of economic growth", "outpaces infrastructure", "shape human civilization"]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "a2_have_to",
+  "level": "A2",
+  "title": "Have to / Don't have to",
+  "title_ru": "Have to / Don't have to",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_present_simple", "a1_can"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about work rules. Notice 'have to' and 'don't have to'.",
+      "instruction_ru": "Прочитай о рабочих правилах. Обрати внимание на 'have to' и 'don't have to'.",
+      "content": {
+        "text": "My job has some rules. I <highlight>have to</highlight> arrive at 9 AM. I <highlight>have to</highlight> wear a uniform. I <highlight>don't have to</highlight> work on weekends - that's optional. My colleague <highlight>has to</highlight> work on Saturdays sometimes. We <highlight>have to</highlight> be polite to customers. We <highlight>don't have to</highlight> stay after 5 PM unless there's urgent work. <highlight>Do</highlight> you <highlight>have to</highlight> travel for your job?",
+        "question": "What's the difference between 'have to' and 'don't have to'?",
+        "question_ru": "В чём разница между 'have to' и 'don't have to'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Have to - Obligation and necessity",
+        "title_ru": "Have to - Обязательство и необходимость",
+        "points": [
+          {
+            "rule": "Have to = must, it's necessary (external rule)",
+            "rule_ru": "Have to = должен, необходимо (внешнее правило)",
+            "example": "I have to wear a uniform. (the company says so)",
+            "marker": "obligation"
+          },
+          {
+            "rule": "He/She/It → has to",
+            "rule_ru": "He/She/It → has to",
+            "example": "She has to work tomorrow. He has to leave early.",
+            "marker": "has to"
+          },
+          {
+            "rule": "Don't have to = not necessary (but you can if you want)",
+            "rule_ru": "Don't have to = не обязательно (но можешь, если хочешь)",
+            "example": "I don't have to work on Sundays. (but I can if I want)",
+            "marker": "not necessary"
+          },
+          {
+            "rule": "Question: Do/Does + subject + have to",
+            "rule_ru": "Вопрос: Do/Does + подлежащее + have to",
+            "example": "Do you have to work weekends? Does she have to travel?",
+            "marker": "questions"
+          }
+        ],
+        "comparison_table": [
+          {"form": "I/You/We/They", "positive": "have to work", "negative": "don't have to work"},
+          {"form": "He/She/It", "positive": "has to work", "negative": "doesn't have to work"},
+          {"form": "Question", "example": "Do you have to...? / Does he have to...?", "negative": "-"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all 'have to/has to' forms. Identify: obligation or no obligation?",
+      "instruction_ru": "Найди все формы 'have to/has to'. Определи: обязательство или нет?",
+      "tasks": [
+        {
+          "text": "Working from home has different rules. I have to be online by 9 AM. I don't have to wear formal clothes. I have to attend video meetings. I don't have to commute - that's the best part! My manager has to check our work daily. She doesn't have to visit the office every day. Do I have to work the same hours? Yes, but I don't have to take a lunch break at a specific time.",
+          "find": [
+            {"phrase": "I have to be online", "type": "obligation"},
+            {"phrase": "I don't have to wear formal clothes", "type": "no obligation"},
+            {"phrase": "I have to attend video meetings", "type": "obligation"},
+            {"phrase": "I don't have to commute", "type": "no obligation"},
+            {"phrase": "My manager has to check", "type": "obligation (she)"},
+            {"phrase": "She doesn't have to visit", "type": "no obligation (she)"},
+            {"phrase": "Do I have to work", "type": "question"},
+            {"phrase": "I don't have to take a lunch break", "type": "no obligation"}
+          ]
+        }
+      ],
+      "reflection_question": "'Don't have to' vs 'mustn't' - what's the difference?",
+      "reflection_question_ru": "'Don't have to' vs 'mustn't' - в чём разница?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with have to, has to, don't have to, doesn't have to.",
+          "sentences": [
+            {"sentence": "I ___ wear a tie to work.", "answer": "have to"},
+            {"sentence": "She ___ work on Sundays.", "answer": "doesn't have to"},
+            {"sentence": "We ___ finish this today.", "answer": "have to"},
+            {"sentence": "He ___ take an exam next week.", "answer": "has to"},
+            {"sentence": "You ___ come if you're tired.", "answer": "don't have to"},
+            {"sentence": "___ you ___ travel for work?", "answer": "Do, have to"},
+            {"sentence": "Students ___ do homework every day.", "answer": "have to"},
+            {"sentence": "She ___ pay - it's free.", "answer": "doesn't have to"},
+            {"sentence": "___ he ___ wear a uniform?", "answer": "Does, have to"},
+            {"sentence": "I ___ cook tonight - we're eating out.", "answer": "don't have to"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "She ___ get up early tomorrow.",
+              "options": ["have to", "has to", "having to"],
+              "correct": 1,
+              "explanation": "She → has to"
+            },
+            {
+              "sentence": "You ___ bring anything - I have everything.",
+              "options": ["don't have to", "doesn't have to", "haven't to"],
+              "correct": 0,
+              "explanation": "You → don't have to"
+            },
+            {
+              "sentence": "___ they ___ work overtime?",
+              "options": ["Have / to", "Do / have to", "Does / have to"],
+              "correct": 1,
+              "explanation": "They → Do they have to"
+            },
+            {
+              "sentence": "He ___ take medicine every day.",
+              "options": ["have to", "has to", "having to"],
+              "correct": 1,
+              "explanation": "He → has to"
+            },
+            {
+              "sentence": "I ___ go now. It's getting late.",
+              "options": ["has to", "have to", "had to"],
+              "correct": 1,
+              "explanation": "I → have to"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She have to work tomorrow.",
+              "correct": "She has to work tomorrow.",
+              "explanation": "She → has to"
+            },
+            {
+              "incorrect": "He doesn't has to come.",
+              "correct": "He doesn't have to come.",
+              "explanation": "doesn't + base form (have)"
+            },
+            {
+              "incorrect": "Do she have to study?",
+              "correct": "Does she have to study?",
+              "explanation": "She → Does she have to"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about rules at your work or school.",
+      "instruction_ru": "Напиши о правилах на работе или в школе.",
+      "prompts": [
+        "What do you have to do?",
+        "What don't you have to do?",
+        "What does your boss/teacher have to do?",
+        "Compare with a friend's job/school"
+      ],
+      "example": "At my job, I have to arrive by 9 AM. I have to attend meetings every Monday. I don't have to wear formal clothes - we have a casual dress code. I don't have to stay late if I finish my work. My boss has to check our reports. She doesn't have to travel much.",
+      "ai_check": true,
+      "criteria": [
+        "Uses have to correctly",
+        "Uses don't have to correctly",
+        "Uses has to for he/she",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with have to/don't have to.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "School Rules",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "At my school, students have to wear uniforms. We have to arrive by 8:30. We don't have to bring lunch - the cafeteria is good. We have to do homework every day. We don't have to study on Saturdays. Teachers have to prepare lessons. They don't have to stay after 4 PM."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Driving License",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "To get a driving license, you have to pass two tests. You have to pass a theory test first. Then you have to pass a practical test. You don't have to take lessons, but it's recommended. You have to be at least 18 years old. You don't have to own a car."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Gym Membership",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "At my gym, members have to scan their card to enter. You have to bring a towel. You don't have to book classes in advance. You have to wear proper shoes. You don't have to shower there - you can go home. Personal trainers have to be certified."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Apartment Rules",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "I rent an apartment. I have to pay rent on the first of each month. I don't have to pay for water - it's included. I have to be quiet after 10 PM. I don't have to ask permission for guests. But I have to inform the landlord about long-term visitors. I don't have to decorate."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "New Job",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "I started a new job. I have to learn many new things. I have to attend training for a week. I don't have to work overtime in the first month. My supervisor has to help me. She doesn't have to check everything I do. I have to ask questions when I don't understand."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ work tomorrow. (obligation)",
+          "back": "have to\n\nObligation = have to"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She ___ come. (obligation)",
+          "back": "has to\n\nShe → has to"
+        },
+        {
+          "type": "fill_gap",
+          "front": "You ___ pay. It's free. (no obligation)",
+          "back": "don't have to\n\nNo obligation = don't have to"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: She has to work.\nQuestion: ?",
+          "back": "Does she have to work?\n\nDoes + she + have to"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He have to leave now.\"",
+          "back": "He has to leave now.\n\nHe → has to"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using have to with he/she (He have to)",
+      "Wrong negative (doesn't has to)",
+      "Confusing don't have to and mustn't",
+      "Wrong question form (Have you to...?)"
+    ],
+    "related_topics": ["a1_can", "a2_should", "b1_modals_probability"],
+    "ielts_relevance": "High - used for describing obligations",
+    "frequency_in_english": "Very high"
+  }
+}

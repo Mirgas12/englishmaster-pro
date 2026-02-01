@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_02",
+  "level": "C1",
+  "title": "The Anthropocene Epoch",
+  "title_ru": "Эпоха антропоцена",
+  "media_type": "audio",
+  "duration_seconds": 140,
+  "description": "Scientific discussion of human impact on Earth",
+  "transcript": "Geologists are debating whether to formally recognize a new epoch: the Anthropocene, the age of humans. The proposal acknowledges that humanity has become a geological force, fundamentally altering Earth's systems in ways that will be visible in the rock record for millions of years. The evidence is compelling. We've transformed over half the planet's ice-free land surface through agriculture and urbanization. We've redirected rivers, acidified oceans, and driven mass extinction. Synthetic materials like plastics and concrete now layer the earth. Radioactive isotopes from nuclear testing provide a distinctive marker in sediments worldwide. Atmospheric carbon dioxide levels exceed anything in three million years. But when did the Anthropocene begin? Some propose the agricultural revolution ten thousand years ago, when humans began reshaping ecosystems. Others suggest the Industrial Revolution, when fossil fuel combustion initiated rapid climate change. The most common proposal points to the 'Great Acceleration' around 1950, when population, consumption, and environmental impact surged exponentially. Beyond scientific classification, the Anthropocene carries philosophical weight. It challenges the nature-culture divide, recognizing humans as embedded in and responsible for planetary systems. It raises questions about our species' long-term trajectory. Are we capable of consciously shaping a sustainable future, or will we leave behind only evidence of collapse?",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does the Anthropocene acknowledge?", "options": ["Climate stability", "Humanity as a geological force", "Natural evolution"], "correct": 1},
+    {"type": "multiple_choice", "question": "When do many propose the Anthropocene began?", "options": ["1850", "1950", "2000"], "correct": 1},
+    {"type": "true_false", "question": "Radioactive isotopes provide a marker in global sediments.", "correct": true},
+    {"type": "true_false", "question": "The Anthropocene has been formally recognized by all geologists.", "correct": false},
+    {"type": "fill_gap", "question": "The 'Great ___' refers to the surge around 1950.", "answer": "Acceleration"}
+  ],
+  "vocabulary": ["epoch", "anthropocene", "sediments", "isotopes", "trajectory"],
+  "key_phrases": ["fundamentally altering", "distinctive marker", "exponentially", "nature-culture divide"]
+}

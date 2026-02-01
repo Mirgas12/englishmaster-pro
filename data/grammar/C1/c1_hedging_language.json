@@ -1,0 +1,290 @@
+{
+  "id": "c1_hedging_language",
+  "level": "C1",
+  "title": "Hedging and Tentative Language",
+  "title_ru": "Хеджирование и предположительный язык",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_modals_past_deduction", "b2_discourse_markers"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this research summary. Notice how claims are softened.",
+      "instruction_ru": "Прочитай это резюме исследования. Обрати внимание, как смягчаются утверждения.",
+      "content": {
+        "text": "The results <highlight>suggest</highlight> that exercise <highlight>may</highlight> improve cognitive function. <highlight>It appears</highlight> that regular activity <highlight>could</highlight> reduce decline. <highlight>To some extent</highlight>, lifestyle factors <highlight>seem to</highlight> play a role. <highlight>It is possible that</highlight> diet <highlight>might</highlight> also contribute. The evidence <highlight>tends to indicate</highlight> positive effects. <highlight>In general</highlight>, findings <highlight>appear to</highlight> support the hypothesis. <highlight>It would seem</highlight> that prevention is <highlight>relatively</highlight> effective. <highlight>One possible explanation</highlight> is improved blood flow. Results are <highlight>somewhat</highlight> promising, though <highlight>tentative</highlight>.",
+        "question": "Why don't researchers make definite claims?",
+        "question_ru": "Почему исследователи не делают определённых утверждений?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Hedging in Academic and Professional Discourse",
+        "title_ru": "Хеджирование в академическом и профессиональном дискурсе",
+        "points": [
+          {
+            "rule": "Modal verbs: may, might, could, would (for possibility/probability)",
+            "rule_ru": "Модальные глаголы: may, might, could, would (для возможности/вероятности)",
+            "example": "This could explain the results. It may be significant.",
+            "marker": "modals"
+          },
+          {
+            "rule": "Hedging verbs: suggest, indicate, appear, seem, tend to",
+            "rule_ru": "Глаголы хеджирования: suggest, indicate, appear, seem, tend to",
+            "example": "The data suggest... It appears that... Results tend to show...",
+            "marker": "hedging verbs"
+          },
+          {
+            "rule": "Adverbs of probability: probably, possibly, perhaps, apparently",
+            "rule_ru": "Наречия вероятности: probably, possibly, perhaps, apparently",
+            "example": "This is probably true. Perhaps more research is needed.",
+            "marker": "adverbs"
+          },
+          {
+            "rule": "Qualifying phrases: to some extent, in general, on the whole",
+            "rule_ru": "Оговаривающие фразы: to some extent, in general, on the whole",
+            "example": "To some extent, this is valid. In general, results support...",
+            "marker": "qualifiers"
+          },
+          {
+            "rule": "Impersonal constructions: It is possible that, It could be argued that",
+            "rule_ru": "Безличные конструкции: It is possible that, It could be argued that",
+            "example": "It is possible that factors were overlooked. It could be argued that...",
+            "marker": "impersonal"
+          }
+        ],
+        "comparison_table": [
+          {"strong": "X causes Y", "hedged": "X may cause Y / X appears to cause Y"},
+          {"strong": "The results prove", "hedged": "The results suggest/indicate"},
+          {"strong": "This is true", "hedged": "This seems to be true / This appears to be the case"},
+          {"strong": "Everyone knows", "hedged": "It is generally accepted / It would appear"},
+          {"strong": "The study shows", "hedged": "The study tends to show / The study seems to indicate"},
+          {"strong": "We conclude", "hedged": "It might be concluded / One possible conclusion is"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify hedging devices and explain why they're used.",
+      "instruction_ru": "Определи устройства хеджирования и объясни, почему они используются.",
+      "tasks": [
+        {
+          "text": "Research conclusions:\n\n1. The findings suggest a possible link between stress and illness.\n2. It would appear that early intervention could be beneficial.\n3. There seems to be evidence supporting this hypothesis.\n4. To some extent, the results are consistent with previous studies.\n5. One possible explanation might be genetic factors.\n6. The data tend to indicate a correlation.\n7. Perhaps further research could clarify these issues.\n8. It is likely that environmental factors play a role.\n9. The evidence appears to support this interpretation.\n10. In general, the outcomes were somewhat positive.",
+          "find": [
+            {"sentence": 1, "hedges": ["suggest", "possible"], "type": "verb + adjective"},
+            {"sentence": 2, "hedges": ["would appear", "could"], "type": "modal constructions"},
+            {"sentence": 3, "hedges": ["seems to be"], "type": "hedging verb"},
+            {"sentence": 4, "hedges": ["To some extent"], "type": "qualifying phrase"},
+            {"sentence": 5, "hedges": ["possible", "might"], "type": "adjective + modal"},
+            {"sentence": 6, "hedges": ["tend to indicate"], "type": "hedging verb"},
+            {"sentence": 7, "hedges": ["Perhaps", "could"], "type": "adverb + modal"},
+            {"sentence": 8, "hedges": ["It is likely that"], "type": "impersonal construction"},
+            {"sentence": 9, "hedges": ["appears to"], "type": "hedging verb"},
+            {"sentence": 10, "hedges": ["In general", "somewhat"], "type": "qualifier + adverb"}
+          ]
+        }
+      ],
+      "reflection_question": "What is the difference between 'X causes Y' and 'X may cause Y'?",
+      "reflection_question_ru": "В чём разница между 'X causes Y' и 'X may cause Y'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Make these claims more tentative using hedging.",
+          "sentences": [
+            {"strong": "The drug cures the disease.", "hedged": "The drug may/could cure the disease."},
+            {"strong": "Social media causes depression.", "hedged": "Social media appears to contribute to / may cause depression."},
+            {"strong": "The results prove our theory.", "hedged": "The results seem to support / tend to indicate our theory."},
+            {"strong": "Everyone agrees with this view.", "hedged": "It is generally accepted that... / Most experts tend to agree..."},
+            {"strong": "The experiment shows clearly.", "hedged": "The experiment seems to suggest / appears to indicate..."},
+            {"strong": "This is the only explanation.", "hedged": "This could be one possible explanation."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with appropriate hedging language.",
+          "sentences": [
+            {"sentence": "The data ___ ___ a correlation between the variables.", "answer": "seem to suggest / appear to indicate"},
+            {"sentence": "It ___ ___ that further research is needed.", "answer": "would appear / seems likely"},
+            {"sentence": "___ ___ ___, the results support the hypothesis.", "answer": "To some extent / On the whole"},
+            {"sentence": "One ___ ___ is inadequate sample size.", "answer": "possible explanation"},
+            {"sentence": "These findings ___ ___ with previous research.", "answer": "tend to agree / appear consistent"},
+            {"sentence": "It ___ ___ ___ that other factors are involved.", "answer": "is possible that / could be argued"},
+            {"sentence": "___ this approach would be effective.", "answer": "Perhaps / Possibly"},
+            {"sentence": "The evidence is ___ convincing.", "answer": "somewhat / relatively"}
+          ]
+        },
+        {
+          "type": "choose_register",
+          "instruction": "Choose the appropriate level of hedging for the context.",
+          "questions": [
+            {
+              "context": "Academic paper conclusion",
+              "options": ["X definitely causes Y", "X appears to cause Y", "X might possibly perhaps cause Y"],
+              "correct": 1,
+              "explanation": "Academic writing needs hedging but not excessive uncertainty"
+            },
+            {
+              "context": "Warning on medicine bottle",
+              "options": ["This might cause drowsiness", "This may cause drowsiness", "This possibly could cause drowsiness"],
+              "correct": 1,
+              "explanation": "'May' is standard for medical warnings - clear but not absolute"
+            },
+            {
+              "context": "Scientific claim needing caution",
+              "options": ["The results prove", "The results suggest", "The results absolutely show"],
+              "correct": 1,
+              "explanation": "'Suggest' allows for uncertainty in scientific claims"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Fix the inappropriate hedging.",
+          "sentences": [
+            {
+              "incorrect": "The results definitely might prove the theory.",
+              "correct": "The results seem to support the theory.",
+              "explanation": "'Definitely' and 'might' contradict each other"
+            },
+            {
+              "incorrect": "It is absolutely possible that this is true.",
+              "correct": "It is possible that this is true. / This is possibly true.",
+              "explanation": "'Absolutely' undermines the hedging function"
+            },
+            {
+              "incorrect": "Perhaps certainly this could maybe work.",
+              "correct": "Perhaps this could work. / This might work.",
+              "explanation": "Too many hedging devices creates confusion"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write an academic paragraph using appropriate hedging.",
+      "instruction_ru": "Напиши академический абзац, используя соответствующее хеджирование.",
+      "prompts": [
+        "Summarize research findings cautiously",
+        "Discuss possible causes of a phenomenon",
+        "Make recommendations based on evidence",
+        "Compare theories without absolute claims"
+      ],
+      "example": "The relationship between sleep and academic performance appears to be significant. Recent studies suggest that students who sleep fewer than seven hours may experience cognitive difficulties. It would seem that memory consolidation, which occurs during sleep, could be particularly important for learning. To some extent, the evidence tends to support the recommendation for adequate rest. However, it is possible that individual differences play a role. One possible explanation for varying results might be differences in sleep quality rather than quantity. In general, the findings appear to indicate that sleep should perhaps be considered an important factor in educational outcomes.",
+      "ai_check": true,
+      "criteria": [
+        "Uses modal verbs for hedging",
+        "Uses hedging verbs (suggest, appear, seem)",
+        "Uses qualifying phrases",
+        "Uses impersonal constructions",
+        "Appropriate balance (not too strong or too weak)",
+        "At least 8 hedging devices"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 academic texts with appropriate hedging.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Psychology Research",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The findings suggest that emotional intelligence may play a significant role in workplace success. It appears that individuals with higher EQ tend to perform better in team environments. To some extent, this could explain variation in leadership effectiveness. One possible interpretation is that self-awareness enables better interpersonal relationships. The evidence seems to indicate that EQ can be developed through training. It would appear that early intervention might be particularly beneficial. However, it is likely that other factors also contribute to professional outcomes."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Environmental Science",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The data appear to support the hypothesis that urban green spaces may reduce stress levels. It seems that exposure to nature could have measurable psychological benefits. To some extent, this might explain the growing interest in biophilic design. The results tend to indicate that even brief contact with greenery appears beneficial. It is possible that evolutionary factors play a role. Perhaps future research could clarify the mechanisms involved. On the whole, the evidence suggests that urban planning should possibly incorporate more natural elements."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Medical Study",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The treatment appears to be relatively effective for certain patient groups. Initial findings suggest that side effects may be minimal in most cases. It would seem that the drug could offer an alternative to current therapies. To some extent, individual responses tend to vary. One possible explanation might be genetic differences in metabolism. The evidence seems to indicate that longer trials could provide more conclusive data. It is likely that dosage adjustments may be necessary for optimal outcomes."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Economic Analysis",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Current trends seem to suggest that inflation may stabilize by mid-year. It appears that supply chain improvements could contribute to price moderation. To some extent, consumer behavior tends to influence market dynamics. The data indicate that interest rate changes might have delayed effects. One possible interpretation is that the economy appears more resilient than previously thought. It would seem that a gradual recovery is likely. Perhaps further policy adjustments could accelerate improvement. In general, the outlook seems cautiously optimistic."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Educational Research",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The study suggests that technology integration may enhance student engagement. It appears that interactive methods could improve retention to some extent. The results tend to indicate that blended learning might be effective for certain subjects. One possible explanation is that variety seems to maintain attention. It is possible that individual learning styles play a role. The evidence appears to support a balanced approach. Perhaps future research could identify optimal combinations. On the whole, findings seem promising though tentative."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "The study proves X.\nHedge it:",
+          "back": "The study suggests/indicates X.\nOR: The study seems to show X."
+        },
+        {
+          "type": "fill_gap",
+          "front": "It ___ ___ that more research is needed.",
+          "back": "would appear / seems likely\n\nImpersonal hedging construction"
+        },
+        {
+          "type": "example",
+          "front": "Modal verbs for hedging:",
+          "back": "may, might, could, would\n\n'This may explain...' 'It could be argued...'"
+        },
+        {
+          "type": "example",
+          "front": "Hedging verbs:",
+          "back": "suggest, indicate, appear, seem, tend to\n\n'The data suggest...' 'Results tend to show...'"
+        },
+        {
+          "type": "transformation",
+          "front": "This is true.\nHedge it:",
+          "back": "This appears to be true.\nThis seems to be the case.\nIt would appear that this is true."
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 10,
+    "question_types": ["transformation", "fill_gap", "choose_register", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using contradictory hedging (definitely might)",
+      "Over-hedging (too many tentative markers)",
+      "Under-hedging (making absolute claims)",
+      "Wrong register for context"
+    ],
+    "related_topics": ["b2_modals_past_deduction", "c1_academic_writing"],
+    "ielts_relevance": "Essential for Band 7+ Writing",
+    "cae_relevance": "Writing, Speaking Part 3",
+    "frequency_in_english": "Very high in academic/scientific writing"
+  }
+}

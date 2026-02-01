@@ -1,0 +1,288 @@
+{
+  "id": "b1_present_perfect_unfinished",
+  "level": "B1",
+  "title": "Present Perfect for Unfinished Time",
+  "title_ru": "Present Perfect для незавершённого времени",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_present_perfect_experience"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about activities this week. Notice when we use Present Perfect.",
+      "instruction_ru": "Прочитай о делах на этой неделе. Обрати внимание, когда мы используем Present Perfect.",
+      "content": {
+        "text": "It's Friday and I <highlight>have had</highlight> a busy week! I <highlight>have worked</highlight> overtime <highlight>this week</highlight>. I <highlight>have attended</highlight> five meetings <highlight>so far</highlight>. <highlight>This month</highlight>, our team <highlight>has completed</highlight> three projects. I <highlight>have written</highlight> ten reports <highlight>this year</highlight>. <highlight>Today</highlight>, I <highlight>have drunk</highlight> four cups of coffee! How many emails <highlight>have</highlight> you <highlight>sent</highlight> <highlight>today</highlight>? I <highlight>have been</highlight> to the gym twice <highlight>this week</highlight>.",
+        "question": "Why do we use Present Perfect with 'this week' and 'today'?",
+        "question_ru": "Почему мы используем Present Perfect с 'this week' и 'today'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Perfect for Unfinished Time Periods",
+        "title_ru": "Present Perfect для незавершённых периодов времени",
+        "points": [
+          {
+            "rule": "Use Present Perfect for time periods that include NOW",
+            "rule_ru": "Используем Present Perfect для периодов, которые включают СЕЙЧАС",
+            "example": "I have worked a lot today. (today isn't finished yet)",
+            "marker": "includes now"
+          },
+          {
+            "rule": "today, this week/month/year = still happening",
+            "rule_ru": "today, this week/month/year = ещё продолжается",
+            "example": "I have met three clients this morning. (it's still morning)",
+            "marker": "this + period"
+          },
+          {
+            "rule": "so far, up to now, until now = from past until now",
+            "rule_ru": "so far, up to now, until now = от прошлого до сейчас",
+            "example": "We have sold 100 cars so far this year.",
+            "marker": "so far"
+          },
+          {
+            "rule": "for + period (how long), since + point (when it started)",
+            "rule_ru": "for + период (как долго), since + момент (когда началось)",
+            "example": "I have lived here for 5 years / since 2019.",
+            "marker": "for/since"
+          },
+          {
+            "rule": "Compare: yesterday (finished) vs today (unfinished)",
+            "rule_ru": "Сравни: yesterday (закончилось) vs today (не закончилось)",
+            "example": "I worked a lot yesterday. vs I have worked a lot today.",
+            "marker": "finished vs unfinished"
+          }
+        ],
+        "comparison_table": [
+          {"period": "today", "type": "unfinished", "tense": "Present Perfect", "example": "I have done a lot today."},
+          {"period": "yesterday", "type": "finished", "tense": "Past Simple", "example": "I did a lot yesterday."},
+          {"period": "this week", "type": "unfinished", "tense": "Present Perfect", "example": "I have worked hard this week."},
+          {"period": "last week", "type": "finished", "tense": "Past Simple", "example": "I worked hard last week."},
+          {"period": "so far", "type": "unfinished", "tense": "Present Perfect", "example": "I have written 3 emails so far."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all time expressions. Is the period finished or unfinished?",
+      "instruction_ru": "Найди все временные выражения. Период завершён или нет?",
+      "tasks": [
+        {
+          "text": "It's December 15th. This has been an amazing year! I have achieved so many goals. Since January, I have learned a new language. I have read 24 books so far this year. This month, I have started a new project at work. I worked very hard last month, but this month has been calmer. Today, I have had three meetings. Yesterday I had five! How many goals have you achieved this year? For the past six months, I have been exercising regularly.",
+          "find": [
+            {"expression": "This year", "status": "unfinished", "verb": "has been"},
+            {"expression": "Since January", "status": "unfinished", "verb": "have learned"},
+            {"expression": "so far this year", "status": "unfinished", "verb": "have read"},
+            {"expression": "This month", "status": "unfinished", "verb": "have started"},
+            {"expression": "last month", "status": "finished", "verb": "worked"},
+            {"expression": "this month", "status": "unfinished", "verb": "has been"},
+            {"expression": "Today", "status": "unfinished", "verb": "have had"},
+            {"expression": "Yesterday", "status": "finished", "verb": "had"},
+            {"expression": "this year", "status": "unfinished", "verb": "have achieved"},
+            {"expression": "For the past six months", "status": "unfinished", "verb": "have been exercising"}
+          ]
+        }
+      ],
+      "reflection_question": "If it's Monday morning and someone says 'I have worked 10 hours this week', is that a lot?",
+      "reflection_question_ru": "Если сейчас утро понедельника и кто-то говорит 'I have worked 10 hours this week', это много?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Present Perfect or Past Simple.",
+          "sentences": [
+            {"sentence": "I ___ (have) three coffees today.", "answer": "have had"},
+            {"sentence": "She ___ (work) late yesterday.", "answer": "worked"},
+            {"sentence": "We ___ (sell) 50 products so far this month.", "answer": "have sold"},
+            {"sentence": "They ___ (finish) the project last week.", "answer": "finished"},
+            {"sentence": "He ___ (be) sick for three days.", "answer": "has been"},
+            {"sentence": "I ___ (visit) the doctor twice this month.", "answer": "have visited"},
+            {"sentence": "She ___ (not/eat) anything today.", "answer": "hasn't eaten"},
+            {"sentence": "We ___ (live) here since 2020.", "answer": "have lived"},
+            {"sentence": "They ___ (go) to Paris last summer.", "answer": "went"},
+            {"sentence": "How many pages ___ you ___ (read) so far?", "answer": "have, read"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct tense.",
+          "questions": [
+            {
+              "sentence": "I ___ five emails today.",
+              "options": ["wrote", "have written", "had written"],
+              "correct": 1,
+              "explanation": "Today = unfinished period = Present Perfect"
+            },
+            {
+              "sentence": "She ___ to London last year.",
+              "options": ["has been", "went", "has gone"],
+              "correct": 1,
+              "explanation": "Last year = finished period = Past Simple"
+            },
+            {
+              "sentence": "We ___ here since Monday.",
+              "options": ["are", "were", "have been"],
+              "correct": 2,
+              "explanation": "Since Monday = up to now = Present Perfect"
+            },
+            {
+              "sentence": "He ___ three meetings yesterday.",
+              "options": ["has had", "had", "has"],
+              "correct": 1,
+              "explanation": "Yesterday = finished period = Past Simple"
+            },
+            {
+              "sentence": "They ___ 10 projects so far this year.",
+              "options": ["completed", "have completed", "complete"],
+              "correct": 1,
+              "explanation": "So far this year = unfinished = Present Perfect"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I have worked late yesterday.",
+              "correct": "I worked late yesterday.",
+              "explanation": "Yesterday = finished period = Past Simple"
+            },
+            {
+              "incorrect": "She lived here since 2018.",
+              "correct": "She has lived here since 2018.",
+              "explanation": "Since 2018 = up to now = Present Perfect"
+            },
+            {
+              "incorrect": "We did a lot of work so far.",
+              "correct": "We have done a lot of work so far.",
+              "explanation": "So far = up to now = Present Perfect"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about what you have done today, this week, and this year.",
+      "instruction_ru": "Напиши о том, что ты сделал сегодня, на этой неделе и в этом году.",
+      "prompts": [
+        "What have you accomplished today so far?",
+        "What has happened this week at work/school?",
+        "What goals have you achieved this year?",
+        "Compare this week with last week"
+      ],
+      "example": "It's been a productive day so far! I have answered about 30 emails today. I have also had two long meetings. This week, I have finished an important project. I have worked overtime twice. So far this year, I have read 15 books. I haven't traveled much this year, but I went to Spain last year. Since January, I have been trying to learn Spanish. Last month I was very busy, but this month has been calmer.",
+      "ai_check": true,
+      "criteria": [
+        "Uses Present Perfect for unfinished periods",
+        "Uses Past Simple for finished periods",
+        "Includes time expressions correctly",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with unfinished time expressions.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Weekly Report",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "This has been a great week for our team! We have closed three major deals so far. Since Monday, we have received 50 new orders. I have personally spoken to 20 clients this week. Last week was slower - we only made 10 sales. But this month has already exceeded last month's numbers. We have worked hard, and it shows! How has your week been? We have had a lot of success lately."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Student's Diary",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "This semester has been challenging! I have had five exams so far. I have passed all of them! Today I have studied for six hours. Last night I went to bed at 2 AM. Since September, I have learned so much. This month, I have written three essays. I haven't had much free time this year. But next month I will relax - the semester ends soon!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Fitness Journey",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "I started going to the gym in January. Since then, I have lost 10 kilos! This year has changed my life. I have exercised 150 times so far this year. This week, I have been to the gym four times. Yesterday I ran 5 kilometers. Today I have only done yoga. I have eaten healthy food for the past three months. Last year I was overweight, but this year I have become fit!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Business Update",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Good news! Our company has grown a lot this year. We have hired 20 new employees since March. This quarter, we have opened two new offices. Last quarter was difficult, but this quarter has been much better. So far today, we have received 100 customer calls. Since last Monday, we have launched three new products. Business has been booming lately!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Parenting Life",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Having a baby has changed everything! I haven't slept much this week. Since he was born, I have learned so much about being a parent. Today I have changed ten diapers! Yesterday was easier - he slept more. This month, he has started smiling. For the past few weeks, he has been growing so fast. I have never been so tired but so happy in my life!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ (write) three emails today.",
+          "back": "have written\n\ntoday = unfinished period"
+        },
+        {
+          "type": "choose",
+          "front": "She ___ here since 2019.\n(lived / has lived)",
+          "back": "has lived\n\nsince = up to now"
+        },
+        {
+          "type": "fill_gap",
+          "front": "We ___ (sell) 50 cars so far.",
+          "back": "have sold\n\nso far = until now"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I have seen him yesterday.\"",
+          "back": "I saw him yesterday.\n\nyesterday = finished period"
+        },
+        {
+          "type": "choose",
+          "front": "They ___ to Paris last month.\n(went / have gone)",
+          "back": "went\n\nlast month = finished period"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using Present Perfect with finished periods (yesterday)",
+      "Using Past Simple with unfinished periods (this week)",
+      "Confusing for and since",
+      "Mixing up this week vs last week"
+    ],
+    "related_topics": ["b1_present_perfect_experience", "b1_present_perfect_vs_past"],
+    "ielts_relevance": "Very high - essential for describing current situations",
+    "frequency_in_english": "Very high"
+  }
+}

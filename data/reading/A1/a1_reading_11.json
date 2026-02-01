@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_11",
+  "level": "A1",
+  "title": "My Hobbies",
+  "title_ru": "Мои хобби",
+  "word_count": 92,
+  "topic": "hobbies",
+  "text": "I have many hobbies. I love playing video games. My favorite game is Minecraft. I play it every day after homework. I also like reading books. I read before bed. Fantasy books are my favorite. On weekends, I play football with my friends in the park. I'm not very good, but it's fun. I also like drawing. I draw pictures of animals and superheroes. My mum says I am very creative. What are your hobbies?",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the writer's favorite video game?", "options": ["Fortnite", "Minecraft", "Roblox"], "correct": 1},
+    {"type": "multiple_choice", "question": "What kind of books does the writer like?", "options": ["horror", "fantasy", "comedy"], "correct": 1},
+    {"type": "true_false", "question": "The writer plays football every day.", "correct": false},
+    {"type": "true_false", "question": "The writer draws animals and superheroes.", "correct": true},
+    {"type": "fill_gap", "question": "The writer reads ___ bed.", "answer": "before"}
+  ],
+  "vocabulary": ["hobby", "play", "read", "draw", "creative"],
+  "grammar_focus": ["present_simple", "frequency_adverbs"]
+}

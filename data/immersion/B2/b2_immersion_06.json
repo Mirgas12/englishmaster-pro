@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_06",
+  "level": "B2",
+  "title": "The Attention Economy",
+  "title_ru": "Экономика внимания",
+  "media_type": "video",
+  "duration_seconds": 115,
+  "description": "Analysis of digital attention and media",
+  "transcript": "In the digital age, attention has become perhaps the most valuable commodity. Tech companies compete fiercely for our eyes and minds, deploying sophisticated algorithms designed to maximize engagement. Every notification, every auto-playing video, every infinite scroll is engineered to capture and hold your attention. The business model is straightforward: attention equals advertising revenue. The more time you spend on a platform, the more ads you see, the more data you generate. This creates perverse incentives. Content that provokes outrage, anxiety, or curiosity – regardless of its truth or value – tends to spread virally because it captures attention effectively. The consequences for individuals include shortened attention spans, increased anxiety, and reduced capacity for deep thinking. Studies link heavy social media use with depression, particularly among teenagers. The constant stream of notifications trains our brains to expect stimulation, making focused work increasingly difficult. Some argue we need regulatory intervention, treating addictive design patterns like public health issues. Others call for personal digital hygiene – deliberate choices about technology use. The challenge is that the same technologies that fragment attention also provide genuine benefits: connection, information, entertainment. Navigating this landscape requires developing new forms of literacy and self-regulation.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What equals advertising revenue?", "options": ["Quality content", "Attention", "User satisfaction"], "correct": 1},
+    {"type": "multiple_choice", "question": "What kind of content tends to spread virally?", "options": ["Educational", "Outrage-provoking", "Long-form"], "correct": 1},
+    {"type": "true_false", "question": "Heavy social media use is linked with improved mental health.", "correct": false},
+    {"type": "true_false", "question": "Constant notifications make focused work more difficult.", "correct": true},
+    {"type": "fill_gap", "question": "Some call for personal digital ___ – deliberate choices about technology.", "answer": "hygiene"}
+  ],
+  "vocabulary": ["commodity", "algorithms", "engagement", "perverse incentives", "self-regulation"],
+  "key_phrases": ["the most valuable commodity", "engineered to capture", "perverse incentives", "developing new forms of literacy"]
+}

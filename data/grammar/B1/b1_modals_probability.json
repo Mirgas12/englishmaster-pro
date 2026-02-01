@@ -1,0 +1,281 @@
+{
+  "id": "b1_modals_probability",
+  "level": "B1",
+  "title": "Modals of Probability",
+  "title_ru": "Модальные глаголы вероятности",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a1_can", "a2_should"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read people making guesses. Notice the different levels of certainty.",
+      "instruction_ru": "Прочитай, как люди строят догадки. Обрати внимание на разные уровни уверенности.",
+      "content": {
+        "text": "Where's Tom? He's not at his desk. He <highlight>must be</highlight> at lunch - it's 12:30. Or he <highlight>might be</highlight> in a meeting. He <highlight>could be</highlight> in the break room. He <highlight>can't be</highlight> sick - I saw him this morning and he looked fine. Wait, his car <highlight>may be</highlight> in the parking lot. Let me check... No, it's not there. He <highlight>must have</highlight> gone out. He <highlight>might have</highlight> had a doctor's appointment. He <highlight>couldn't have</highlight> left for the day - it's too early!",
+        "question": "Which word shows strongest certainty? Which shows possibility? Which shows impossibility?",
+        "question_ru": "Какое слово показывает наибольшую уверенность? Какое - возможность? Какое - невозможность?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Modal Verbs for Probability and Certainty",
+        "title_ru": "Модальные глаголы для вероятности и уверенности",
+        "points": [
+          {
+            "rule": "must be = almost certain (90%+) - logical conclusion",
+            "rule_ru": "must be = почти уверен (90%+) - логический вывод",
+            "example": "He works here - he must be smart.",
+            "marker": "must = certain"
+          },
+          {
+            "rule": "might/may/could be = possible (50%) - not sure",
+            "rule_ru": "might/may/could be = возможно (50%) - не уверен",
+            "example": "She might be at home. She may be busy. She could be asleep.",
+            "marker": "might/may/could = possible"
+          },
+          {
+            "rule": "can't be / couldn't be = almost certain NOT (negative conclusion)",
+            "rule_ru": "can't be / couldn't be = почти уверен, что НЕТ (отрицательный вывод)",
+            "example": "He can't be 50 - he looks so young!",
+            "marker": "can't = impossible"
+          },
+          {
+            "rule": "Past: must have / might have / can't have + past participle",
+            "rule_ru": "Прошлое: must have / might have / can't have + причастие прош. времени",
+            "example": "She must have forgotten. He might have left. They can't have seen us.",
+            "marker": "past probability"
+          },
+          {
+            "rule": "NOT: must not be for impossibility - use can't be",
+            "rule_ru": "НЕ: must not be для невозможности - используй can't be",
+            "example": "He can't be the thief. (NOT: He mustn't be the thief)",
+            "marker": "can't not mustn't"
+          }
+        ],
+        "comparison_table": [
+          {"certainty": "100%", "modal": "is/are", "example": "He is at home.", "meaning": "I know for sure"},
+          {"certainty": "90%", "modal": "must be", "example": "He must be at home.", "meaning": "I'm almost certain"},
+          {"certainty": "50%", "modal": "might/may/could be", "example": "He might be at home.", "meaning": "It's possible"},
+          {"certainty": "10%", "modal": "can't be / couldn't be", "example": "He can't be at home.", "meaning": "I'm almost certain NOT"},
+          {"certainty": "0%", "modal": "isn't", "example": "He isn't at home.", "meaning": "I know for sure not"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all modals of probability. Rate each one's certainty level.",
+      "instruction_ru": "Найди все модальные глаголы вероятности. Оцени уровень уверенности каждого.",
+      "tasks": [
+        {
+          "text": "Detective: Let's think about the crime. The window is broken - someone must have entered that way. The thief can't have used the door; it was locked from inside. Look at this footprint - it might be the thief's. It could be a size 10 shoe. The crime must have happened after midnight - the alarm was off. The thief may have known the code. Wait - this is an inside job! The person can't have been a stranger. It must be someone who works here. The manager might have done it. Or it could have been the security guard!",
+          "find": [
+            {"modal": "must have entered", "certainty": "90%", "type": "logical conclusion"},
+            {"modal": "can't have used", "certainty": "certain NOT", "type": "impossibility"},
+            {"modal": "might be", "certainty": "50%", "type": "possibility"},
+            {"modal": "could be", "certainty": "50%", "type": "possibility"},
+            {"modal": "must have happened", "certainty": "90%", "type": "logical conclusion"},
+            {"modal": "may have known", "certainty": "50%", "type": "possibility"},
+            {"modal": "can't have been", "certainty": "certain NOT", "type": "impossibility"},
+            {"modal": "must be", "certainty": "90%", "type": "logical conclusion"},
+            {"modal": "might have done", "certainty": "50%", "type": "possibility"},
+            {"modal": "could have been", "certainty": "50%", "type": "possibility"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we use 'can't' for negative certainty instead of 'mustn't'?",
+      "reflection_question_ru": "Почему мы используем 'can't' для отрицательной уверенности, а не 'mustn't'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the best modal based on the context.",
+          "questions": [
+            {
+              "context": "Look! There's water on the floor.",
+              "sentence": "It ___ be raining outside. (I'm almost certain)",
+              "options": ["can't", "must", "might"],
+              "correct": 1,
+              "explanation": "Must = logical conclusion based on evidence"
+            },
+            {
+              "context": "The phone is ringing.",
+              "sentence": "It ___ be mom or it ___ be a wrong number.",
+              "options": ["must / must", "could / could", "can't / can't"],
+              "correct": 1,
+              "explanation": "Could = two possibilities, not certain"
+            },
+            {
+              "context": "John said he was tired.",
+              "sentence": "He ___ be at the party now. He's probably asleep.",
+              "options": ["must", "can't", "might"],
+              "correct": 1,
+              "explanation": "Can't = based on logic, very unlikely"
+            },
+            {
+              "context": "Sarah's light is off.",
+              "sentence": "She ___ be sleeping, or she ___ be out.",
+              "options": ["must / must", "might / might", "can't / can't"],
+              "correct": 1,
+              "explanation": "Might = two possibilities"
+            },
+            {
+              "context": "He's lived in France for 10 years.",
+              "sentence": "He ___ speak French very well by now!",
+              "options": ["can't", "might", "must"],
+              "correct": 2,
+              "explanation": "Must = logical conclusion"
+            }
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with must, might/may/could, or can't.",
+          "sentences": [
+            {"sentence": "She's not answering. She ___ be busy.", "answer": "must/might/could", "context": "logical or possible"},
+            {"sentence": "He got 100% on the test. He ___ have cheated - he studied hard!", "answer": "can't", "context": "impossibility"},
+            {"sentence": "There's smoke coming from the kitchen. Something ___ be burning!", "answer": "must", "context": "logical conclusion"},
+            {"sentence": "I'm not sure where she is. She ___ be at the library.", "answer": "might/may/could", "context": "possibility"},
+            {"sentence": "He ___ be only 25! He looks at least 40!", "answer": "can't", "context": "disbelief"},
+            {"sentence": "They won the lottery! They ___ be so happy!", "answer": "must", "context": "logical conclusion"},
+            {"sentence": "I don't know if I'll come. I ___ have time, or I ___ not.", "answer": "might/may, might/may", "context": "uncertain"}
+          ]
+        },
+        {
+          "type": "past_probability",
+          "instruction": "Complete with must have, might have, or can't have + past participle.",
+          "sentences": [
+            {"sentence": "She knew everything about the meeting. Someone ___ (tell) her.", "answer": "must have told"},
+            {"sentence": "He ___ (forget) - I reminded him three times!", "answer": "can't have forgotten"},
+            {"sentence": "I'm not sure what happened. They ___ (leave) early.", "answer": "might have left"},
+            {"sentence": "The streets are wet. It ___ (rain) last night.", "answer": "must have rained"},
+            {"sentence": "She ___ (see) us - she was looking the other way.", "answer": "can't have seen"}
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about a mystery or make guesses about a situation.",
+      "instruction_ru": "Напиши о загадке или сделай предположения о ситуации.",
+      "prompts": [
+        "You find your friend's phone at home. Where might they be?",
+        "There's a strange noise outside. What could it be?",
+        "Your coworker didn't come to work. What might have happened?",
+        "Something mysterious happened in your neighborhood"
+      ],
+      "example": "My neighbor's car is gone and their lights are off. They must be on vacation. They can't be at work - it's Saturday. They might have gone to visit family. I saw suitcases last week, so they must have planned a trip. Wait - their dog is still here! They couldn't have gone on vacation and left the dog. Someone might be taking care of it. Their daughter could have come to dog-sit. Or maybe they're just out shopping and will be back soon!",
+      "ai_check": true,
+      "criteria": [
+        "Uses must for logical conclusions",
+        "Uses might/may/could for possibilities",
+        "Uses can't for negative certainty",
+        "Uses past forms correctly (must have, etc.)",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with modals of probability.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Missing Keys",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Where are my keys? They must be somewhere in the house. They can't be in my pocket - I already checked. They might be on the kitchen table. Or they could be in my coat. Wait, I had them at the gym. I must have left them there! No, I drove home, so I couldn't have left them. They might have fallen behind the sofa. Let me check... Found them! They must have slipped out of my bag."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "The New Colleague",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Have you met the new guy? He must be really smart - he went to Harvard. He can't be older than 30, but he's already a director. He might have worked at a big company before. His accent sounds British, so he could be from England. He must speak several languages - I heard him on the phone in French. He can't have been in this field long, though. He might have changed careers recently."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Strange Sounds",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Did you hear that noise? It came from upstairs. It might be the cat. But it sounded too heavy - it couldn't have been the cat. It must be the wind moving something. Or there could be a bird in the attic. Wait - it sounds like footsteps! It can't be a burglar - the alarm is on. It must have been my imagination. Actually, it might be my sister - she comes home around this time."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Late Train",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The train is 30 minutes late. There must be a problem on the line. It might be a signal failure. Or there could have been an accident. It can't be the weather - it's sunny today. The announcement says delays. Something must have happened ahead. Passengers look frustrated - they must have important appointments. The train might arrive in 10 minutes. Or it could be even longer. I may have to take a taxi!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Party Aftermath",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Wow, this place is a mess! The party must have been wild! Look at all these bottles - they can't have drunk all of that! Someone must have spilled juice on the carpet. The neighbors might have complained about the noise. They couldn't have had more than 50 people - the apartment is too small. The host must be exhausted. She may have gone to bed already. We could help clean up tomorrow."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "He works 12 hours a day. He ___ be exhausted. (90% sure)",
+          "back": "must\n\nmust = logical conclusion"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I'm not sure where she is. She ___ be at home. (50%)",
+          "back": "might/may/could\n\nPossibility"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He ___ be 60! He looks 40! (impossible)",
+          "back": "can't\n\ncan't = certainty it's NOT true"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The ground is wet. It ___ have ___ last night.",
+          "back": "must have rained\n\nPast logical conclusion"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She mustn't be at home.\" (meaning: impossible)",
+          "back": "She can't be at home.\n\nUse can't for impossibility"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'mustn't' for impossibility (should be 'can't')",
+      "Forgetting 'have' in past probability",
+      "Using 'must' when 'might' is more appropriate",
+      "Confusing certainty levels"
+    ],
+    "related_topics": ["a1_can", "a2_should", "a2_have_to"],
+    "ielts_relevance": "High - common in Speaking for speculation",
+    "frequency_in_english": "Very high"
+  }
+}

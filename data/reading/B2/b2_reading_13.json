@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_13",
+  "level": "B2",
+  "title": "The Philosophy of Happiness",
+  "title_ru": "Философия счастья",
+  "word_count": 300,
+  "topic": "philosophy",
+  "text": "What constitutes a good life? Philosophers have debated this question for millennia, and their insights remain relevant as modern psychology increasingly investigates wellbeing. Different frameworks offer distinct answers about what we should pursue.\n\nHedonism, in its philosophical sense, identifies happiness with pleasure and the absence of pain. On this view, the good life maximizes positive experiences. While seemingly straightforward, critics argue it fails to capture everything valuable. Would a life of shallow pleasures, even if pleasant, really be best?\n\nAristotle offered a different answer: eudaimonia, often translated as flourishing or fulfillment. Rather than momentary pleasure, this involves realizing one's potential and living virtuously. A life of achievement, meaningful relationships, and moral excellence constitutes true happiness.\n\nModern positive psychology, pioneered by Martin Seligman, has developed related ideas. His PERMA model identifies five components of wellbeing: Positive emotions, Engagement, Relationships, Meaning, and Accomplishment. Happiness encompasses more than feeling good – it involves using strengths, connecting with others, and pursuing something larger than oneself.\n\nThe distinction between hedonic and eudaimonic wellbeing appears in research findings. While hedonic happiness involves feeling good, eudaimonic wellbeing involves living well – having purpose, growth, and autonomy. Some activities, like pursuing challenging goals, may reduce short-term pleasure while increasing long-term flourishing.\n\nExternal circumstances affect happiness less than often assumed. After basic needs are met, additional wealth has diminishing returns. Major life events, both positive and negative, affect happiness less permanently than expected – a phenomenon called hedonic adaptation.\n\nInternal factors, including mindset and habits, matter more. Gratitude, mindfulness, and strong relationships consistently predict higher wellbeing. Crucially, these are somewhat within our control.\n\nUnderstanding different conceptions of happiness can help us make wiser choices about what to pursue. Perhaps the question isn't simply 'what makes me feel good?' but 'what kind of life is worth living?'",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is eudaimonia?", "options": ["Pleasure", "Flourishing", "Wealth"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does PERMA stand for?", "options": ["Personal Excellence Ratio Model Analysis", "Positive emotions, Engagement, Relationships, Meaning, Accomplishment", "Primary Emotional Response Measurement Assessment"], "correct": 1},
+    {"type": "true_false", "question": "Wealth beyond basic needs significantly increases happiness.", "correct": false},
+    {"type": "true_false", "question": "Hedonic adaptation affects how we respond to life events.", "correct": true},
+    {"type": "fill_gap", "question": "Gratitude and mindfulness ___ higher wellbeing.", "answer": "predict"}
+  ],
+  "vocabulary": ["hedonism", "eudaimonia", "flourishing", "wellbeing", "hedonic adaptation"],
+  "grammar_focus": ["present_simple", "modal_verbs"]
+}

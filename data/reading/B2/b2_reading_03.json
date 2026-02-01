@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_03",
+  "level": "B2",
+  "title": "The Gig Economy Revolution",
+  "title_ru": "Революция экономики подработок",
+  "word_count": 300,
+  "topic": "economy",
+  "text": "The traditional employment model – working for a single employer with stable hours and benefits – is giving way to something fundamentally different. The gig economy, characterized by short-term contracts and freelance work rather than permanent jobs, is reshaping labor markets worldwide.\n\nPlatforms like Uber, Deliveroo, and Fiverr connect workers directly with clients, eliminating traditional employers from the equation. Proponents argue this offers unprecedented flexibility. Workers can set their own hours, work for multiple clients, and balance work with other life priorities. For some, particularly those with caregiving responsibilities or pursuing education, this flexibility is invaluable.\n\nHowever, critics contend that the gig economy often transfers risk from companies to workers. Gig workers typically lack employment protections: no sick pay, no pension contributions, no job security. They bear the costs of equipment, training, and downtime between assignments. Some earn less than minimum wage when all costs are factored in.\n\nThe classification of workers lies at the heart of legal battles worldwide. Companies claim their workers are independent contractors, while many workers and regulators argue they should be classified as employees entitled to full protections. Court decisions have varied by jurisdiction, creating an uncertain landscape.\n\nThe pandemic highlighted both the vulnerabilities and importance of gig workers. Delivery drivers and couriers became essential, yet many worked without protective equipment or sick leave. This sparked renewed calls for reform.\n\nSome jurisdictions are creating intermediate categories that provide some protections while preserving flexibility. Others are strengthening enforcement of existing employment laws. Tech companies are experimenting with benefit portability – attaching benefits to workers rather than jobs.\n\nThe future of work likely involves a blend of traditional employment and gig arrangements. Finding the right balance between flexibility and security remains a defining challenge for 21st-century labor policy.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do gig workers typically lack?", "options": ["Flexibility", "Multiple clients", "Employment protections"], "correct": 2},
+    {"type": "multiple_choice", "question": "What is the central legal debate about?", "options": ["Tax rates", "Worker classification", "Minimum age"], "correct": 1},
+    {"type": "true_false", "question": "All gig workers earn above minimum wage.", "correct": false},
+    {"type": "true_false", "question": "The pandemic showed the importance of gig workers.", "correct": true},
+    {"type": "fill_gap", "question": "Benefit ___ attaches benefits to workers rather than jobs.", "answer": "portability"}
+  ],
+  "vocabulary": ["gig economy", "freelance", "contractor", "jurisdiction", "portability"],
+  "grammar_focus": ["present_continuous", "passive_voice"]
+}

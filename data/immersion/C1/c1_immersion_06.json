@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_06",
+  "level": "C1",
+  "title": "Language and Thought",
+  "title_ru": "Язык и мышление",
+  "media_type": "video",
+  "duration_seconds": 145,
+  "description": "Linguistic analysis of the Sapir-Whorf hypothesis",
+  "transcript": "Does language shape thought, or does thought shape language? The Sapir-Whorf hypothesis, named after linguists Edward Sapir and Benjamin Lee Whorf, proposed that the structure of a language influences the worldview of its speakers. In its strong form, linguistic determinism claims that language determines thought – that concepts unexpressible in a language are literally unthinkable for its speakers. This strong version has been largely abandoned. We clearly can think about concepts for which we lack words; otherwise, we could never invent new terminology. Translation between languages would be impossible, yet it occurs routinely. However, weaker versions of linguistic relativity – that language influences thought without determining it – have received empirical support. Research suggests that speakers of languages with different grammatical structures attend to different aspects of experience. Languages that grammatically mark time exhibit different temporal reasoning patterns. Speakers of languages with absolute spatial terms instead of relative terms like 'left' and 'right' develop enhanced spatial orientation. Color perception provides another example. Languages divide the color spectrum differently, and speakers of languages with more color terms discriminate colors more readily in memory tasks. This doesn't mean they see differently – the perceptual apparatus is identical – but linguistic categories influence cognitive processing. The relationship between language and thought appears bidirectional and complex, with neither fully determining the other.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What did the strong Sapir-Whorf hypothesis claim?", "options": ["Language influences thought", "Language determines thought", "Thought determines language"], "correct": 1},
+    {"type": "multiple_choice", "question": "What has received empirical support?", "options": ["Strong determinism", "Linguistic relativity", "Language independence"], "correct": 1},
+    {"type": "true_false", "question": "The strong version of linguistic determinism is now widely accepted.", "correct": false},
+    {"type": "true_false", "question": "Languages divide the color spectrum differently.", "correct": true},
+    {"type": "fill_gap", "question": "The relationship between language and thought appears ___ and complex.", "answer": "bidirectional"}
+  ],
+  "vocabulary": ["determinism", "relativity", "perceptual", "cognitive", "apparatus"],
+  "key_phrases": ["influences the worldview", "largely abandoned", "attend to different aspects", "divide the spectrum differently"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_02",
+  "level": "A2",
+  "title": "At the Restaurant",
+  "title_ru": "В ресторане",
+  "media_type": "audio",
+  "duration_seconds": 55,
+  "description": "A customer orders food at a restaurant",
+  "transcript": "Waiter: Good evening! Welcome to Mario's Restaurant. Here is the menu.\nCustomer: Thank you. I need a few minutes to decide.\nWaiter: Of course. Would you like something to drink?\nCustomer: Yes, I'll have a glass of orange juice, please.\nWaiter: Sure. Are you ready to order food?\nCustomer: Yes. I'd like the pasta with tomato sauce as a starter. And for the main course, I'll have grilled chicken with vegetables.\nWaiter: Excellent choice. Would you like any dessert?\nCustomer: Maybe later. Thank you.\nWaiter: Your food will be ready in fifteen minutes.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does the customer order to drink?", "options": ["Water", "Coffee", "Orange juice"], "correct": 2},
+    {"type": "multiple_choice", "question": "What is the main course?", "options": ["Fish", "Grilled chicken", "Steak"], "correct": 1},
+    {"type": "true_false", "question": "The customer orders dessert immediately.", "correct": false},
+    {"type": "true_false", "question": "The starter is pasta with tomato sauce.", "correct": true},
+    {"type": "fill_gap", "question": "The food will be ready in ___ minutes.", "answer": "fifteen"}
+  ],
+  "vocabulary": ["menu", "starter", "main course", "dessert", "order"],
+  "key_phrases": ["I'd like", "Would you like", "I'll have", "Are you ready to order"]
+}

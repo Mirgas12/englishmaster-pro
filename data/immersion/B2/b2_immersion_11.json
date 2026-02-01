@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_11",
+  "level": "B2",
+  "title": "The Economics of Climate Change",
+  "title_ru": "Экономика изменения климата",
+  "media_type": "audio",
+  "duration_seconds": 115,
+  "description": "Economic analysis of environmental policy",
+  "transcript": "Climate change is often framed as an environmental issue, but it's fundamentally an economic one. Carbon emissions are the classic example of an externality – a cost imposed on others not reflected in market prices. When companies burn fossil fuels, they don't pay for the resulting climate damage. This market failure means we produce more emissions than we should. Economists have long advocated carbon pricing – making polluters pay for emissions through taxes or cap-and-trade systems. By incorporating the true cost of carbon, markets would naturally shift toward cleaner alternatives. Some jurisdictions have implemented these policies with measurable success. The transition away from fossil fuels will create winners and losers. Renewable energy industries are booming, creating millions of jobs. But coal miners and oil workers face displacement. Managing this transition fairly – through retraining programs, social support, and investment in affected communities – is essential for maintaining political support for climate action. Critics argue that climate action hurts economic growth. But the costs of inaction far exceed the costs of transition. Extreme weather, rising sea levels, agricultural disruption, and mass migration would impose devastating economic damage. Investment in clean technology can drive innovation and economic opportunity. The question isn't whether we can afford climate action – it's whether we can afford not to act.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What are carbon emissions an example of?", "options": ["Market success", "Externality", "Subsidy"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do economists advocate for?", "options": ["Carbon pricing", "More subsidies", "Deregulation"], "correct": 0},
+    {"type": "true_false", "question": "The costs of inaction exceed the costs of transition.", "correct": true},
+    {"type": "true_false", "question": "Carbon pricing has never been successfully implemented.", "correct": false},
+    {"type": "fill_gap", "question": "The transition will create ___ and losers.", "answer": "winners"}
+  ],
+  "vocabulary": ["externality", "cap-and-trade", "displacement", "retraining", "devastating"],
+  "key_phrases": ["fundamentally an economic one", "market failure", "managing this transition fairly", "can afford not to act"]
+}

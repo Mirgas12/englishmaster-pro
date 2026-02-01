@@ -1,0 +1,142 @@
+{
+  "level": "C1",
+  "total_words": 400,
+  "categories": [
+    {
+      "name": "Academic Writing",
+      "name_ru": "Академическое письмо",
+      "words": [
+        {"word": "elucidate", "translation": "прояснять", "example": "Let me elucidate this point.", "phonetic": "/ɪˈluːsɪdeɪt/"},
+        {"word": "corroborate", "translation": "подтверждать", "example": "Evidence corroborates the theory.", "phonetic": "/kəˈrɒbəreɪt/"},
+        {"word": "substantiate", "translation": "обосновывать", "example": "Substantiate your claims.", "phonetic": "/səbˈstænʃieɪt/"},
+        {"word": "extrapolate", "translation": "экстраполировать", "example": "We cannot extrapolate from this data.", "phonetic": "/ɪkˈstræpəleɪt/"},
+        {"word": "synthesize", "translation": "синтезировать", "example": "Synthesize the information.", "phonetic": "/ˈsɪnθəsaɪz/"},
+        {"word": "postulate", "translation": "постулировать", "example": "Scientists postulate that...", "phonetic": "/ˈpɒstjʊleɪt/"},
+        {"word": "delineate", "translation": "очерчивать", "example": "Delineate the boundaries clearly.", "phonetic": "/dɪˈlɪnieɪt/"},
+        {"word": "juxtapose", "translation": "сопоставлять", "example": "Juxtapose the two approaches.", "phonetic": "/ˌdʒʌkstəˈpəʊz/"},
+        {"word": "disambiguate", "translation": "устранять неоднозначность", "example": "We need to disambiguate the term.", "phonetic": "/ˌdɪsæmˈbɪɡjueɪt/"},
+        {"word": "operationalize", "translation": "операционализировать", "example": "Operationalize the concept.", "phonetic": "/ˌɒpəreɪʃənəˈlaɪz/"},
+        {"word": "paradigmatic", "translation": "парадигматический", "example": "A paradigmatic example.", "phonetic": "/ˌpærədɪɡˈmætɪk/"},
+        {"word": "epistemological", "translation": "эпистемологический", "example": "Epistemological questions arise.", "phonetic": "/ɪˌpɪstɪməˈlɒdʒɪkl/"}
+      ]
+    },
+    {
+      "name": "Nuanced Discourse",
+      "name_ru": "Нюансированный дискурс",
+      "words": [
+        {"word": "nuance", "translation": "нюанс", "example": "Capture the nuance.", "phonetic": "/ˈnjuːɒns/"},
+        {"word": "ambiguity", "translation": "неоднозначность", "example": "The text is full of ambiguity.", "phonetic": "/ˌæmbɪˈɡjuːəti/"},
+        {"word": "connotation", "translation": "коннотация", "example": "Consider the connotations.", "phonetic": "/ˌkɒnəˈteɪʃn/"},
+        {"word": "implication", "translation": "подтекст", "example": "The implications are serious.", "phonetic": "/ˌɪmplɪˈkeɪʃn/"},
+        {"word": "innuendo", "translation": "инсинуация", "example": "Political innuendo is common.", "phonetic": "/ˌɪnjuˈendəʊ/"},
+        {"word": "inference", "translation": "умозаключение", "example": "Draw an inference from the data.", "phonetic": "/ˈɪnfərəns/"},
+        {"word": "subtle", "translation": "тонкий", "example": "A subtle distinction.", "phonetic": "/ˈsʌtl/"},
+        {"word": "ostensibly", "translation": "якобы", "example": "Ostensibly for our benefit.", "phonetic": "/ɒˈstensəbli/"},
+        {"word": "purportedly", "translation": "предположительно", "example": "Purportedly the best solution.", "phonetic": "/pəˈpɔːtɪdli/"},
+        {"word": "tacit", "translation": "молчаливый", "example": "Tacit agreement was reached.", "phonetic": "/ˈtæsɪt/"},
+        {"word": "implicit", "translation": "подразумеваемый", "example": "The implicit message is clear.", "phonetic": "/ɪmˈplɪsɪt/"},
+        {"word": "explicit", "translation": "явный", "example": "Make it explicit.", "phonetic": "/ɪkˈsplɪsɪt/"}
+      ]
+    },
+    {
+      "name": "Philosophy & Thought",
+      "name_ru": "Философия и мышление",
+      "words": [
+        {"word": "ontological", "translation": "онтологический", "example": "Ontological arguments for existence.", "phonetic": "/ˌɒntəˈlɒdʒɪkl/"},
+        {"word": "metaphysical", "translation": "метафизический", "example": "Metaphysical questions persist.", "phonetic": "/ˌmetəˈfɪzɪkl/"},
+        {"word": "phenomenological", "translation": "феноменологический", "example": "A phenomenological approach.", "phonetic": "/fɪˌnɒmɪnəˈlɒdʒɪkl/"},
+        {"word": "teleological", "translation": "телеологический", "example": "Teleological explanations of purpose.", "phonetic": "/ˌteliəˈlɒdʒɪkl/"},
+        {"word": "dialectical", "translation": "диалектический", "example": "Dialectical reasoning involves thesis and antithesis.", "phonetic": "/ˌdaɪəˈlektɪkl/"},
+        {"word": "reductionist", "translation": "редукционистский", "example": "A reductionist approach.", "phonetic": "/rɪˈdʌkʃənɪst/"},
+        {"word": "relativism", "translation": "релятивизм", "example": "Cultural relativism is debated.", "phonetic": "/ˈrelətɪvɪzəm/"},
+        {"word": "utilitarianism", "translation": "утилитаризм", "example": "Utilitarianism seeks the greatest good.", "phonetic": "/juːˌtɪlɪˈteəriənɪzəm/"},
+        {"word": "determinism", "translation": "детерминизм", "example": "Hard determinism denies free will.", "phonetic": "/dɪˈtɜːmɪnɪzəm/"},
+        {"word": "nihilism", "translation": "нигилизм", "example": "Nihilism questions all meaning.", "phonetic": "/ˈnaɪɪlɪzəm/"}
+      ]
+    },
+    {
+      "name": "Sophisticated Adjectives",
+      "name_ru": "Изысканные прилагательные",
+      "words": [
+        {"word": "ubiquitous", "translation": "вездесущий", "example": "Smartphones are ubiquitous.", "phonetic": "/juːˈbɪkwɪtəs/"},
+        {"word": "ephemeral", "translation": "эфемерный", "example": "Fame is ephemeral.", "phonetic": "/ɪˈfemərəl/"},
+        {"word": "salient", "translation": "существенный", "example": "The salient points are...", "phonetic": "/ˈseɪliənt/"},
+        {"word": "pernicious", "translation": "пагубный", "example": "A pernicious influence.", "phonetic": "/pəˈnɪʃəs/"},
+        {"word": "tenuous", "translation": "слабый", "example": "A tenuous connection.", "phonetic": "/ˈtenjuəs/"},
+        {"word": "pervasive", "translation": "повсеместный", "example": "Corruption is pervasive.", "phonetic": "/pəˈveɪsɪv/"},
+        {"word": "nascent", "translation": "зарождающийся", "example": "A nascent democracy.", "phonetic": "/ˈnæsnt/"},
+        {"word": "spurious", "translation": "ложный", "example": "Spurious arguments.", "phonetic": "/ˈspjʊəriəs/"},
+        {"word": "cogent", "translation": "убедительный", "example": "A cogent argument.", "phonetic": "/ˈkəʊdʒənt/"},
+        {"word": "quintessential", "translation": "квинтэссенциальный", "example": "The quintessential example.", "phonetic": "/ˌkwɪntɪˈsenʃl/"},
+        {"word": "tangential", "translation": "касательный", "example": "A tangential point.", "phonetic": "/tænˈdʒenʃl/"},
+        {"word": "inimitable", "translation": "неподражаемый", "example": "Her inimitable style.", "phonetic": "/ɪˈnɪmɪtəbl/"}
+      ]
+    },
+    {
+      "name": "Literary Terms",
+      "name_ru": "Литературные термины",
+      "words": [
+        {"word": "allegory", "translation": "аллегория", "example": "The novel is an allegory.", "phonetic": "/ˈælɪɡəri/"},
+        {"word": "metaphor", "translation": "метафора", "example": "Use metaphor effectively.", "phonetic": "/ˈmetəfə/"},
+        {"word": "motif", "translation": "мотив", "example": "A recurring motif.", "phonetic": "/məʊˈtiːf/"},
+        {"word": "protagonist", "translation": "протагонист", "example": "The protagonist faces challenges.", "phonetic": "/prəˈtæɡənɪst/"},
+        {"word": "denouement", "translation": "развязка", "example": "The denouement resolves the plot.", "phonetic": "/deɪˈnuːmɒ̃/"},
+        {"word": "irony", "translation": "ирония", "example": "The irony was not lost.", "phonetic": "/ˈaɪrəni/"},
+        {"word": "satire", "translation": "сатира", "example": "Political satire is powerful.", "phonetic": "/ˈsætaɪə/"},
+        {"word": "hyperbole", "translation": "гипербола", "example": "That's hyperbole.", "phonetic": "/haɪˈpɜːbəli/"},
+        {"word": "rhetoric", "translation": "риторика", "example": "Empty rhetoric.", "phonetic": "/ˈretərɪk/"},
+        {"word": "pathos", "translation": "пафос", "example": "The speech was full of pathos.", "phonetic": "/ˈpeɪθɒs/"}
+      ]
+    },
+    {
+      "name": "Rare but Useful Verbs",
+      "name_ru": "Редкие, но полезные глаголы",
+      "words": [
+        {"word": "obviate", "translation": "устранять", "example": "This obviates the need for...", "phonetic": "/ˈɒbvieɪt/"},
+        {"word": "precipitate", "translation": "ускорять", "example": "This precipitated a crisis.", "phonetic": "/prɪˈsɪpɪteɪt/"},
+        {"word": "ameliorate", "translation": "улучшать", "example": "Ameliorate the situation.", "phonetic": "/əˈmiːliəreɪt/"},
+        {"word": "exacerbate", "translation": "обострять", "example": "This will exacerbate the problem.", "phonetic": "/ɪɡˈzæsəbeɪt/"},
+        {"word": "conflate", "translation": "смешивать", "example": "Don't conflate the two issues.", "phonetic": "/kənˈfleɪt/"},
+        {"word": "predicate", "translation": "основывать", "example": "The theory is predicated on...", "phonetic": "/ˈpredɪkeɪt/"},
+        {"word": "eschew", "translation": "избегать", "example": "Eschew violence.", "phonetic": "/ɪsˈtʃuː/"},
+        {"word": "militate", "translation": "препятствовать", "example": "This militates against success.", "phonetic": "/ˈmɪlɪteɪt/"},
+        {"word": "promulgate", "translation": "обнародовать", "example": "Promulgate new regulations.", "phonetic": "/ˈprɒmlɡeɪt/"},
+        {"word": "abrogate", "translation": "отменять", "example": "Abrogate the treaty.", "phonetic": "/ˈæbrəɡeɪt/"},
+        {"word": "countenance", "translation": "допускать", "example": "I cannot countenance this.", "phonetic": "/ˈkaʊntənəns/"},
+        {"word": "obfuscate", "translation": "запутывать", "example": "Don't obfuscate the issue.", "phonetic": "/ˈɒbfʌskeɪt/"}
+      ]
+    },
+    {
+      "name": "Connecting & Hedging",
+      "name_ru": "Связки и смягчения",
+      "words": [
+        {"word": "ostensibly", "translation": "якобы", "example": "Ostensibly for research.", "phonetic": "/ɒˈstensəbli/"},
+        {"word": "conceivably", "translation": "возможно", "example": "Conceivably, this could work.", "phonetic": "/kənˈsiːvəbli/"},
+        {"word": "arguably", "translation": "пожалуй", "example": "Arguably the best option.", "phonetic": "/ˈɑːɡjuəbli/"},
+        {"word": "inasmuch", "translation": "поскольку", "example": "Inasmuch as this is true...", "phonetic": "/ˌɪnəzˈmʌtʃ/"},
+        {"word": "hitherto", "translation": "до сих пор", "example": "Hitherto unknown facts.", "phonetic": "/ˌhɪðəˈtuː/"},
+        {"word": "forthwith", "translation": "немедленно", "example": "Proceed forthwith.", "phonetic": "/ˌfɔːθˈwɪθ/"},
+        {"word": "prima facie", "translation": "на первый взгляд", "example": "Prima facie evidence.", "phonetic": "/ˌpraɪmə ˈfeɪʃi/"},
+        {"word": "ipso facto", "translation": "тем самым", "example": "Ipso facto, this is invalid.", "phonetic": "/ˌɪpsəʊ ˈfæktəʊ/"},
+        {"word": "apropos", "translation": "кстати", "example": "Apropos of nothing...", "phonetic": "/ˌæprəˈpəʊ/"},
+        {"word": "qua", "translation": "в качестве", "example": "Art qua art.", "phonetic": "/kwɑː/"}
+      ]
+    },
+    {
+      "name": "Complex Nouns",
+      "name_ru": "Сложные существительные",
+      "words": [
+        {"word": "dichotomy", "translation": "дихотомия", "example": "The dichotomy between theory and practice.", "phonetic": "/daɪˈkɒtəmi/"},
+        {"word": "hegemony", "translation": "гегемония", "example": "Cultural hegemony.", "phonetic": "/hɪˈɡeməni/"},
+        {"word": "anomaly", "translation": "аномалия", "example": "This is an anomaly.", "phonetic": "/əˈnɒməli/"},
+        {"word": "contingency", "translation": "непредвиденное обстоятельство", "example": "Plan for contingencies.", "phonetic": "/kənˈtɪndʒənsi/"},
+        {"word": "paradigm", "translation": "парадигма", "example": "A paradigm shift.", "phonetic": "/ˈpærədaɪm/"},
+        {"word": "zeitgeist", "translation": "дух времени", "example": "The zeitgeist of the era.", "phonetic": "/ˈzaɪtɡaɪst/"},
+        {"word": "antithesis", "translation": "антитеза", "example": "The antithesis of freedom.", "phonetic": "/ænˈtɪθəsɪs/"},
+        {"word": "corollary", "translation": "следствие", "example": "A corollary of this is...", "phonetic": "/kəˈrɒləri/"},
+        {"word": "panacea", "translation": "панацея", "example": "There's no panacea.", "phonetic": "/ˌpænəˈsɪə/"},
+        {"word": "zenith", "translation": "зенит", "example": "At the zenith of power.", "phonetic": "/ˈzenɪθ/"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_06",
+  "level": "B2",
+  "title": "Mental Health in the Digital Age",
+  "title_ru": "Психическое здоровье в цифровую эпоху",
+  "word_count": 310,
+  "topic": "health",
+  "text": "The relationship between digital technology and mental health is complex and increasingly urgent. While technology offers unprecedented connectivity and access to resources, growing evidence suggests that excessive use, particularly of social media, may negatively affect psychological wellbeing.\n\nResearch has documented associations between heavy social media use and increased rates of anxiety, depression, and loneliness, especially among adolescents. Several mechanisms may explain these correlations. Social comparison, when people measure themselves against carefully curated online presentations, can damage self-esteem. Fear of missing out (FOMO) creates anxiety about being excluded from experiences. Cyberbullying can cause severe psychological harm.\n\nSleep disruption is another pathway linking technology and mental health. Blue light from screens suppresses melatonin production, making falling asleep harder. The infinite scroll of content keeps users engaged past bedtime. Notifications interrupt rest. Poor sleep, in turn, strongly predicts mental health problems.\n\nHowever, the relationship isn't straightforwardly negative. Technology also provides mental health benefits. Online communities offer support for people dealing with specific challenges. Therapy apps extend access to mental health care. Digital tools help people track moods and develop coping strategies. For isolated individuals, online connection may reduce loneliness.\n\nThe quality of digital interaction matters more than quantity. Passive consumption – endlessly scrolling without meaningful engagement – appears most harmful. Active, purposeful use that facilitates real relationships tends to be beneficial.\n\nExperts recommend digital hygiene practices: setting time limits, disabling non-essential notifications, avoiding screens before bed, and periodically taking breaks from social media entirely. Parents face particular challenges in guiding children's digital consumption while technology becomes ever more pervasive.\n\nUnderstanding the nuanced impacts of technology on mental health requires moving beyond simplistic 'technology is bad' narratives. The goal should be cultivating a healthy relationship with digital tools that maximizes benefits while minimizing harms.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does FOMO stand for?", "options": ["Fear of Making Objectives", "Fear of Missing Out", "Finding Online Media Options"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does blue light suppress?", "options": ["Appetite", "Melatonin production", "Memory"], "correct": 1},
+    {"type": "true_false", "question": "All technology use is harmful to mental health.", "correct": false},
+    {"type": "true_false", "question": "Passive scrolling appears more harmful than active use.", "correct": true},
+    {"type": "fill_gap", "question": "Online communities offer ___ for people dealing with challenges.", "answer": "support"}
+  ],
+  "vocabulary": ["correlation", "cyberbullying", "melatonin", "digital hygiene", "curated"],
+  "grammar_focus": ["present_simple", "modal_verbs"]
+}

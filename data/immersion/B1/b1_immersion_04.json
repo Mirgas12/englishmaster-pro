@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_04",
+  "level": "B1",
+  "title": "Healthy Eating Habits",
+  "title_ru": "Здоровое питание",
+  "media_type": "video",
+  "duration_seconds": 85,
+  "description": "Nutritionist explains healthy eating",
+  "transcript": "Let's talk about developing healthy eating habits. Many people think that healthy eating means strict diets, but it's actually about balance and making sustainable choices. Start by eating more whole foods – fruits, vegetables, whole grains, and lean proteins. Avoid processed foods that are high in sugar, salt, and unhealthy fats. Reading nutrition labels can help you make better choices. Pay attention to portion sizes; even healthy food can cause weight gain if you eat too much. Stay hydrated by drinking plenty of water throughout the day. Many people mistake thirst for hunger. Planning meals ahead can prevent unhealthy last-minute choices. When you're hungry and have no plan, you're more likely to order fast food. Don't skip breakfast – it provides energy for the day and helps control appetite. Finally, allow yourself occasional treats. Completely restricting favorite foods often leads to binge eating later. The goal is a healthy relationship with food, not perfection.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What should you eat more of?", "options": ["Processed foods", "Whole foods", "Fast food"], "correct": 1},
+    {"type": "multiple_choice", "question": "Why shouldn't you skip breakfast?", "options": ["It's the cheapest meal", "It provides energy and controls appetite", "It's required by law"], "correct": 1},
+    {"type": "true_false", "question": "Healthy eating means strict diets.", "correct": false},
+    {"type": "true_false", "question": "People sometimes mistake thirst for hunger.", "correct": true},
+    {"type": "fill_gap", "question": "Reading ___ labels helps you make better choices.", "answer": "nutrition"}
+  ],
+  "vocabulary": ["sustainable", "processed", "portion", "hydrated", "appetite"],
+  "key_phrases": ["about balance", "pay attention to", "prevents unhealthy choices", "healthy relationship with food"]
+}

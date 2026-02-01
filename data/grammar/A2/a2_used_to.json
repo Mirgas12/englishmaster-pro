@@ -1,0 +1,280 @@
+{
+  "id": "a2_used_to",
+  "level": "A2",
+  "title": "Used to",
+  "title_ru": "Used to (раньше)",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a2_past_simple_regular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about someone's past life. Notice 'used to'.",
+      "instruction_ru": "Прочитай о прошлой жизни человека. Обрати внимание на 'used to'.",
+      "content": {
+        "text": "My life has changed a lot! When I was young, I <highlight>used to live</highlight> in a small village. I <highlight>used to walk</highlight> to school every day. I <highlight>used to play</highlight> outside with my friends. We <highlight>didn't use to have</highlight> computers. I <highlight>used to read</highlight> a lot of books. My grandmother <highlight>used to tell</highlight> me stories. Now everything is different. I live in a city. <highlight>Did</highlight> you <highlight>use to live</highlight> somewhere else?",
+        "question": "What does 'used to' tell us about? The past or the present?",
+        "question_ru": "О чём говорит 'used to'? О прошлом или настоящем?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Used to - Past habits and states that are no longer true",
+        "title_ru": "Used to - Прошлые привычки и состояния, которые больше не актуальны",
+        "points": [
+          {
+            "rule": "Used to + base verb (for past habits/states)",
+            "rule_ru": "Used to + базовый глагол (для прошлых привычек/состояний)",
+            "example": "I used to smoke. (I don't smoke now)",
+            "marker": "past habit"
+          },
+          {
+            "rule": "Meaning: Something was true before, but not now",
+            "rule_ru": "Значение: Что-то было правдой раньше, но не сейчас",
+            "example": "She used to live in Paris. (Now she lives somewhere else)",
+            "marker": "no longer true"
+          },
+          {
+            "rule": "Negative: didn't use to (no 'd'!)",
+            "rule_ru": "Отрицание: didn't use to (без 'd'!)",
+            "example": "I didn't use to like vegetables. (Now I do)",
+            "marker": "didn't use to"
+          },
+          {
+            "rule": "Question: Did + subject + use to?",
+            "rule_ru": "Вопрос: Did + подлежащее + use to?",
+            "example": "Did you use to play sports?",
+            "marker": "did...use to"
+          }
+        ],
+        "comparison_table": [
+          {"form": "Positive", "structure": "used to + verb", "example": "I used to swim."},
+          {"form": "Negative", "structure": "didn't use to + verb", "example": "I didn't use to swim."},
+          {"form": "Question", "structure": "Did ... use to + verb?", "example": "Did you use to swim?"},
+          {"form": "Now", "structure": "Present Simple", "example": "I don't swim now."}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all 'used to' structures. What changed from past to present?",
+      "instruction_ru": "Найди все структуры 'used to'. Что изменилось с прошлого до настоящего?",
+      "tasks": [
+        {
+          "text": "When I was a child, things were different. I used to wake up early for school. I used to have short hair. I didn't use to drink coffee - I hated it! My father used to work in a factory. Now he's retired. We used to have a dog named Max. He used to follow me everywhere. Did you use to have pets? My mother used to cook every day. Now we often order food. Life used to be simpler, I think.",
+          "find": [
+            {"past": "used to wake up early", "now": "doesn't wake up early for school"},
+            {"past": "used to have short hair", "now": "has different hair now"},
+            {"past": "didn't use to drink coffee", "now": "drinks coffee now"},
+            {"past": "father used to work in a factory", "now": "he's retired"},
+            {"past": "used to have a dog", "now": "doesn't have that dog"},
+            {"past": "dog used to follow me", "now": "the dog is gone"},
+            {"past": "Did you use to have pets?", "now": "question about past"},
+            {"past": "mother used to cook", "now": "orders food often"},
+            {"past": "Life used to be simpler", "now": "life is more complex"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'I used to live' and 'I lived'?",
+      "reflection_question_ru": "В чём разница между 'I used to live' и 'I lived'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with used to, didn't use to, or did...use to.",
+          "sentences": [
+            {"sentence": "I ___ (have) long hair when I was young.", "answer": "used to have"},
+            {"sentence": "She ___ (not/like) vegetables, but now she loves them.", "answer": "didn't use to like"},
+            {"sentence": "___ you ___ (play) any sports?", "answer": "Did, use to play"},
+            {"sentence": "They ___ (live) in London before moving here.", "answer": "used to live"},
+            {"sentence": "He ___ (not/drink) coffee, but now he can't live without it.", "answer": "didn't use to drink"},
+            {"sentence": "We ___ (go) to the beach every summer.", "answer": "used to go"},
+            {"sentence": "___ your parents ___ (travel) a lot?", "answer": "Did, use to travel"},
+            {"sentence": "I ___ (be) shy, but I'm more confident now.", "answer": "used to be"},
+            {"sentence": "She ___ (not/speak) English very well.", "answer": "didn't use to speak"},
+            {"sentence": "Life ___ (be) harder without technology.", "answer": "used to be"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I ___ play tennis, but I stopped.",
+              "options": ["use to", "used to", "was used to"],
+              "correct": 1,
+              "explanation": "Past habit = used to"
+            },
+            {
+              "sentence": "She ___ like spicy food.",
+              "options": ["didn't used to", "didn't use to", "doesn't used to"],
+              "correct": 1,
+              "explanation": "Negative = didn't use to (no 'd')"
+            },
+            {
+              "sentence": "___ you ___ have a beard?",
+              "options": ["Did / used to", "Did / use to", "Do / use to"],
+              "correct": 1,
+              "explanation": "Question = Did ... use to"
+            },
+            {
+              "sentence": "He ___ work here, but he retired.",
+              "options": ["used to", "use to", "uses to"],
+              "correct": 0,
+              "explanation": "Past state = used to"
+            },
+            {
+              "sentence": "They ___ live in a small apartment.",
+              "options": ["use to", "used to", "were used to"],
+              "correct": 1,
+              "explanation": "Past state = used to"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I didn't used to like coffee.",
+              "correct": "I didn't use to like coffee.",
+              "explanation": "After 'didn't' = use to (no 'd')"
+            },
+            {
+              "incorrect": "She use to work here.",
+              "correct": "She used to work here.",
+              "explanation": "Positive = used to (with 'd')"
+            },
+            {
+              "incorrect": "Did you used to smoke?",
+              "correct": "Did you use to smoke?",
+              "explanation": "After 'did' = use to (no 'd')"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about how your life has changed.",
+      "instruction_ru": "Напиши о том, как изменилась твоя жизнь.",
+      "prompts": [
+        "What did you use to do as a child?",
+        "What didn't you use to like?",
+        "How has your city/school changed?",
+        "What habits did you use to have?"
+      ],
+      "example": "My life has changed a lot. When I was a child, I used to live in a small town. I used to walk to school with my friends. I didn't use to have a phone. I used to play outside every day. I didn't use to drink coffee - I hated it! Now I drink coffee every morning. My town used to be quiet. Now it's a busy city.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'used to' for past habits/states",
+        "Uses 'didn't use to' for negatives",
+        "Contrasts past with present",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with 'used to'.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Childhood Memories",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "I used to love summer holidays. We used to go to our grandparents' village. I used to play in the river. My grandmother used to make delicious cookies. I didn't use to like vegetables then. My brother and I used to catch butterflies. We used to stay up late. Life used to feel endless and magical."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Before and After",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 9,
+          "content": "Before I got this job, my life was different. I used to wake up late. I didn't use to have much money. I used to eat fast food a lot. I didn't use to exercise. Now everything is different. Did you use to be different too? We all used to have different lives."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Old Technology",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Technology has changed so much! We used to use cassette tapes. We didn't use to have smartphones. I used to wait for my favorite TV show. We didn't use to stream movies. People used to write letters. We used to rent videos from stores. Did you use to have a Walkman? I used to love mine!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "School Days",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 9,
+          "content": "My school days were fun. I used to sit in the back row. I didn't use to like math. My best friend used to help me with homework. We used to eat lunch together. I used to be afraid of the principal. I didn't use to study much, but I passed!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "City Changes",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 9,
+          "content": "My city used to be very different. There didn't use to be a metro. People used to use buses only. There used to be more trees. There didn't use to be so many cars. The air used to be cleaner. Did it use to be better? I think so. But we used to have fewer opportunities."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ (live) in Paris. (past habit)",
+          "back": "used to live\n\nPast habit = used to + verb"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She ___ (not/like) coffee. (past)",
+          "back": "didn't use to like\n\nNegative = didn't use to (no 'd')"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: He used to smoke.\nQuestion: ?",
+          "back": "Did he use to smoke?\n\nDid + use to (no 'd')"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I didn't used to like it.\"",
+          "back": "I didn't use to like it.\n\nAfter 'didn't' = use to"
+        },
+        {
+          "type": "fill_gap",
+          "front": "We ___ (be) poor, but now we're okay.",
+          "back": "used to be\n\nPast state that changed"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Spelling: 'use to' in positives (should be 'used to')",
+      "Using 'used to' after didn't/did",
+      "Confusing 'used to' with 'be used to'",
+      "Using 'used to' for single past events"
+    ],
+    "related_topics": ["a2_past_simple_regular", "b1_would_past_habits"],
+    "ielts_relevance": "Medium - useful for Speaking Part 2",
+    "frequency_in_english": "High"
+  }
+}

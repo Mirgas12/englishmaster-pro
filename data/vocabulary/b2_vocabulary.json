@@ -1,0 +1,142 @@
+{
+  "level": "B2",
+  "total_words": 500,
+  "categories": [
+    {
+      "name": "Academic Vocabulary",
+      "name_ru": "Академическая лексика",
+      "words": [
+        {"word": "analyze", "translation": "анализировать", "example": "Analyze the data carefully.", "phonetic": "/ˈænəlaɪz/"},
+        {"word": "conclude", "translation": "заключать", "example": "We can conclude that...", "phonetic": "/kənˈkluːd/"},
+        {"word": "demonstrate", "translation": "демонстрировать", "example": "The study demonstrates that...", "phonetic": "/ˈdemənstreɪt/"},
+        {"word": "evaluate", "translation": "оценивать", "example": "Evaluate the results.", "phonetic": "/ɪˈvæljueɪt/"},
+        {"word": "imply", "translation": "подразумевать", "example": "What does this imply?", "phonetic": "/ɪmˈplaɪ/"},
+        {"word": "justify", "translation": "обосновывать", "example": "Justify your answer.", "phonetic": "/ˈdʒʌstɪfaɪ/"},
+        {"word": "maintain", "translation": "утверждать", "example": "He maintains that it's true.", "phonetic": "/meɪnˈteɪn/"},
+        {"word": "contradict", "translation": "противоречить", "example": "This contradicts the theory.", "phonetic": "/ˌkɒntrəˈdɪkt/"},
+        {"word": "hypothesis", "translation": "гипотеза", "example": "Test the hypothesis.", "phonetic": "/haɪˈpɒθəsɪs/"},
+        {"word": "phenomenon", "translation": "явление", "example": "This is a rare phenomenon.", "phonetic": "/fəˈnɒmɪnən/"},
+        {"word": "criterion", "translation": "критерий", "example": "What criteria did you use?", "phonetic": "/kraɪˈtɪəriən/"},
+        {"word": "paradigm", "translation": "парадигма", "example": "A paradigm shift occurred.", "phonetic": "/ˈpærədaɪm/"}
+      ]
+    },
+    {
+      "name": "Psychology & Behavior",
+      "name_ru": "Психология и поведение",
+      "words": [
+        {"word": "motivation", "translation": "мотивация", "example": "What's your motivation?", "phonetic": "/ˌməʊtɪˈveɪʃn/"},
+        {"word": "perception", "translation": "восприятие", "example": "Perception affects behavior.", "phonetic": "/pəˈsepʃn/"},
+        {"word": "cognitive", "translation": "когнитивный", "example": "Cognitive abilities decline with age.", "phonetic": "/ˈkɒɡnətɪv/"},
+        {"word": "subconscious", "translation": "подсознательный", "example": "It was a subconscious decision.", "phonetic": "/ˌsʌbˈkɒnʃəs/"},
+        {"word": "bias", "translation": "предвзятость", "example": "Everyone has unconscious biases.", "phonetic": "/ˈbaɪəs/"},
+        {"word": "empathy", "translation": "эмпатия", "example": "Show some empathy.", "phonetic": "/ˈempəθi/"},
+        {"word": "resilience", "translation": "устойчивость", "example": "Resilience helps us recover.", "phonetic": "/rɪˈzɪliəns/"},
+        {"word": "anxiety", "translation": "тревожность", "example": "He suffers from anxiety.", "phonetic": "/æŋˈzaɪəti/"},
+        {"word": "trauma", "translation": "травма", "example": "Childhood trauma affects adults.", "phonetic": "/ˈtrɔːmə/"},
+        {"word": "instinct", "translation": "инстинкт", "example": "Trust your instincts.", "phonetic": "/ˈɪnstɪŋkt/"},
+        {"word": "intuition", "translation": "интуиция", "example": "My intuition told me to leave.", "phonetic": "/ˌɪntjuˈɪʃn/"},
+        {"word": "rational", "translation": "рациональный", "example": "Make a rational decision.", "phonetic": "/ˈræʃənl/"}
+      ]
+    },
+    {
+      "name": "Politics & Society",
+      "name_ru": "Политика и общество",
+      "words": [
+        {"word": "democracy", "translation": "демократия", "example": "Democracy requires participation.", "phonetic": "/dɪˈmɒkrəsi/"},
+        {"word": "constitution", "translation": "конституция", "example": "It's in the constitution.", "phonetic": "/ˌkɒnstɪˈtjuːʃn/"},
+        {"word": "ideology", "translation": "идеология", "example": "Political ideology varies.", "phonetic": "/ˌaɪdiˈɒlədʒi/"},
+        {"word": "legislature", "translation": "законодательный орган", "example": "The legislature passed the law.", "phonetic": "/ˈledʒɪslətʃə/"},
+        {"word": "referendum", "translation": "референдум", "example": "A referendum was held.", "phonetic": "/ˌrefəˈrendəm/"},
+        {"word": "sovereignty", "translation": "суверенитет", "example": "National sovereignty is important.", "phonetic": "/ˈsɒvrənti/"},
+        {"word": "inequality", "translation": "неравенство", "example": "Economic inequality is growing.", "phonetic": "/ˌɪnɪˈkwɒləti/"},
+        {"word": "discrimination", "translation": "дискриминация", "example": "Fight against discrimination.", "phonetic": "/dɪˌskrɪmɪˈneɪʃn/"},
+        {"word": "integration", "translation": "интеграция", "example": "European integration continues.", "phonetic": "/ˌɪntɪˈɡreɪʃn/"},
+        {"word": "reform", "translation": "реформа", "example": "The reform is necessary.", "phonetic": "/rɪˈfɔːm/"},
+        {"word": "sanction", "translation": "санкция", "example": "Economic sanctions were imposed.", "phonetic": "/ˈsæŋkʃn/"},
+        {"word": "bureaucracy", "translation": "бюрократия", "example": "Bureaucracy slows things down.", "phonetic": "/bjʊəˈrɒkrəsi/"}
+      ]
+    },
+    {
+      "name": "Economics",
+      "name_ru": "Экономика",
+      "words": [
+        {"word": "inflation", "translation": "инфляция", "example": "Inflation is rising.", "phonetic": "/ɪnˈfleɪʃn/"},
+        {"word": "recession", "translation": "рецессия", "example": "The country is in recession.", "phonetic": "/rɪˈseʃn/"},
+        {"word": "commodity", "translation": "товар", "example": "Oil is a valuable commodity.", "phonetic": "/kəˈmɒdəti/"},
+        {"word": "entrepreneur", "translation": "предприниматель", "example": "She's a successful entrepreneur.", "phonetic": "/ˌɒntrəprəˈnɜː/"},
+        {"word": "subsidy", "translation": "субсидия", "example": "Government subsidies help farmers.", "phonetic": "/ˈsʌbsədi/"},
+        {"word": "monopoly", "translation": "монополия", "example": "They have a monopoly on the market.", "phonetic": "/məˈnɒpəli/"},
+        {"word": "tariff", "translation": "тариф", "example": "Import tariffs increased.", "phonetic": "/ˈtærɪf/"},
+        {"word": "deficit", "translation": "дефицит", "example": "The budget deficit is high.", "phonetic": "/ˈdefɪsɪt/"},
+        {"word": "dividend", "translation": "дивиденд", "example": "Shareholders receive dividends.", "phonetic": "/ˈdɪvɪdend/"},
+        {"word": "consumption", "translation": "потребление", "example": "Consumption is increasing.", "phonetic": "/kənˈsʌmpʃn/"},
+        {"word": "aggregate", "translation": "совокупный", "example": "Aggregate demand fell.", "phonetic": "/ˈæɡrɪɡət/"},
+        {"word": "fiscal", "translation": "фискальный", "example": "Fiscal policy affects the economy.", "phonetic": "/ˈfɪskl/"}
+      ]
+    },
+    {
+      "name": "Philosophy & Ethics",
+      "name_ru": "Философия и этика",
+      "words": [
+        {"word": "morality", "translation": "мораль", "example": "Questions of morality arise.", "phonetic": "/məˈræləti/"},
+        {"word": "conscience", "translation": "совесть", "example": "My conscience is clear.", "phonetic": "/ˈkɒnʃəns/"},
+        {"word": "virtue", "translation": "добродетель", "example": "Patience is a virtue.", "phonetic": "/ˈvɜːtʃuː/"},
+        {"word": "dilemma", "translation": "дилемма", "example": "It's an ethical dilemma.", "phonetic": "/dɪˈlemə/"},
+        {"word": "principle", "translation": "принцип", "example": "I have strong principles.", "phonetic": "/ˈprɪnsəpl/"},
+        {"word": "integrity", "translation": "честность", "example": "He's a man of integrity.", "phonetic": "/ɪnˈteɡrəti/"},
+        {"word": "skepticism", "translation": "скептицизм", "example": "Healthy skepticism is good.", "phonetic": "/ˈskeptɪsɪzəm/"},
+        {"word": "paradox", "translation": "парадокс", "example": "It's a paradox.", "phonetic": "/ˈpærədɒks/"},
+        {"word": "existential", "translation": "экзистенциальный", "example": "Existential questions trouble us.", "phonetic": "/ˌeɡzɪˈstenʃl/"},
+        {"word": "determinism", "translation": "детерминизм", "example": "Determinism vs free will.", "phonetic": "/dɪˈtɜːmɪnɪzəm/"}
+      ]
+    },
+    {
+      "name": "Arts & Culture",
+      "name_ru": "Искусство и культура",
+      "words": [
+        {"word": "aesthetic", "translation": "эстетический", "example": "The aesthetic value is high.", "phonetic": "/iːsˈθetɪk/"},
+        {"word": "contemporary", "translation": "современный", "example": "Contemporary art is diverse.", "phonetic": "/kənˈtempərəri/"},
+        {"word": "abstract", "translation": "абстрактный", "example": "I prefer abstract art.", "phonetic": "/ˈæbstrækt/"},
+        {"word": "masterpiece", "translation": "шедевр", "example": "It's a literary masterpiece.", "phonetic": "/ˈmɑːstəpiːs/"},
+        {"word": "exhibition", "translation": "выставка", "example": "The exhibition opens tomorrow.", "phonetic": "/ˌeksɪˈbɪʃn/"},
+        {"word": "sculpture", "translation": "скульптура", "example": "Ancient Greek sculpture.", "phonetic": "/ˈskʌlptʃə/"},
+        {"word": "narrative", "translation": "повествование", "example": "The narrative is compelling.", "phonetic": "/ˈnærətɪv/"},
+        {"word": "genre", "translation": "жанр", "example": "What genre do you prefer?", "phonetic": "/ˈʒɒnrə/"},
+        {"word": "heritage", "translation": "наследие", "example": "Cultural heritage must be preserved.", "phonetic": "/ˈherɪtɪdʒ/"},
+        {"word": "renaissance", "translation": "ренессанс", "example": "The Renaissance period.", "phonetic": "/rɪˈneɪsns/"}
+      ]
+    },
+    {
+      "name": "Advanced Technology",
+      "name_ru": "Продвинутые технологии",
+      "words": [
+        {"word": "automation", "translation": "автоматизация", "example": "Automation replaces workers.", "phonetic": "/ˌɔːtəˈmeɪʃn/"},
+        {"word": "encryption", "translation": "шифрование", "example": "Data encryption is essential.", "phonetic": "/ɪnˈkrɪpʃn/"},
+        {"word": "interface", "translation": "интерфейс", "example": "The user interface is intuitive.", "phonetic": "/ˈɪntəfeɪs/"},
+        {"word": "bandwidth", "translation": "пропускная способность", "example": "Bandwidth is limited.", "phonetic": "/ˈbændwɪdθ/"},
+        {"word": "virtual", "translation": "виртуальный", "example": "Virtual reality is immersive.", "phonetic": "/ˈvɜːtʃuəl/"},
+        {"word": "compatible", "translation": "совместимый", "example": "The devices are compatible.", "phonetic": "/kəmˈpætəbl/"},
+        {"word": "obsolete", "translation": "устаревший", "example": "The technology is obsolete.", "phonetic": "/ˈɒbsəliːt/"},
+        {"word": "prototype", "translation": "прототип", "example": "They built a prototype.", "phonetic": "/ˈprəʊtətaɪp/"},
+        {"word": "simulation", "translation": "симуляция", "example": "Run a computer simulation.", "phonetic": "/ˌsɪmjuˈleɪʃn/"},
+        {"word": "infrastructure", "translation": "инфраструктура", "example": "Digital infrastructure is critical.", "phonetic": "/ˈɪnfrəstrʌktʃə/"}
+      ]
+    },
+    {
+      "name": "Formal Expressions",
+      "name_ru": "Формальные выражения",
+      "words": [
+        {"word": "nonetheless", "translation": "тем не менее", "example": "Nonetheless, we proceeded.", "phonetic": "/ˌnʌnðəˈles/"},
+        {"word": "notwithstanding", "translation": "несмотря на", "example": "Notwithstanding the difficulties...", "phonetic": "/ˌnɒtwɪθˈstændɪŋ/"},
+        {"word": "henceforth", "translation": "впредь", "example": "Henceforth, this is the rule.", "phonetic": "/ˌhensˈfɔːθ/"},
+        {"word": "whereby", "translation": "посредством чего", "example": "A system whereby everyone benefits.", "phonetic": "/weəˈbaɪ/"},
+        {"word": "whereas", "translation": "тогда как", "example": "He's tall, whereas she's short.", "phonetic": "/weərˈæz/"},
+        {"word": "albeit", "translation": "хотя и", "example": "A good, albeit difficult solution.", "phonetic": "/ɔːlˈbiːɪt/"},
+        {"word": "furthermore", "translation": "кроме того", "example": "Furthermore, we need more data.", "phonetic": "/ˌfɜːðəˈmɔː/"},
+        {"word": "hereby", "translation": "настоящим", "example": "I hereby declare...", "phonetic": "/hɪəˈbaɪ/"},
+        {"word": "insofar", "translation": "поскольку", "example": "Insofar as I know...", "phonetic": "/ˌɪnsəʊˈfɑː/"},
+        {"word": "therein", "translation": "в этом", "example": "Therein lies the problem.", "phonetic": "/ˌðeərˈɪn/"}
+      ]
+    }
+  ]
+}

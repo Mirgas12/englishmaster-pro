@@ -1,0 +1,292 @@
+{
+  "id": "b1_so_such",
+  "level": "B1",
+  "title": "So and Such",
+  "title_ru": "So и Such",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a2_comparatives"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the movie review. Notice how the reviewer emphasizes their opinions.",
+      "instruction_ru": "Прочитай рецензию на фильм. Обрати внимание, как рецензент подчёркивает своё мнение.",
+      "content": {
+        "text": "This movie was <highlight>so good</highlight>! The acting was <highlight>so incredible</highlight> that I cried. It was <highlight>such a beautiful</highlight> film. The story was <highlight>so touching</highlight>. I've never seen <highlight>such amazing</highlight> special effects! The director is <highlight>so talented</highlight>. The movie was <highlight>so long</highlight> that I needed a break. But it was <highlight>such an exciting</highlight> adventure that the time flew by. It had <highlight>such wonderful</highlight> music! I was <highlight>so impressed</highlight>. This was <highlight>such a great</highlight> experience!",
+        "question": "When do we use 'so'? When do we use 'such'? What comes after each?",
+        "question_ru": "Когда мы используем 'so'? Когда 'such'? Что идёт после каждого?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "So and Such for Emphasis",
+        "title_ru": "So и Such для усиления",
+        "points": [
+          {
+            "rule": "so + adjective/adverb",
+            "rule_ru": "so + прилагательное/наречие",
+            "example": "She is so beautiful. He runs so fast.",
+            "marker": "so + adj/adv"
+          },
+          {
+            "rule": "such + (a/an) + adjective + noun",
+            "rule_ru": "such + (a/an) + прилагательное + существительное",
+            "example": "She is such a beautiful woman. They are such nice people.",
+            "marker": "such + noun"
+          },
+          {
+            "rule": "so/such... that = result/consequence",
+            "rule_ru": "so/such... that = результат/следствие",
+            "example": "It was so hot that we stayed inside. It was such a hot day that we stayed inside.",
+            "marker": "so/such...that"
+          },
+          {
+            "rule": "so much/many + noun (not such)",
+            "rule_ru": "so much/many + существительное (не such)",
+            "example": "There was so much traffic. There were so many people.",
+            "marker": "so much/many"
+          },
+          {
+            "rule": "such a + singular noun; such + plural noun (no 'a')",
+            "rule_ru": "such a + ед. число; such + мн. число (без 'a')",
+            "example": "Such a nice day! Such nice people!",
+            "marker": "a with singular"
+          }
+        ],
+        "comparison_table": [
+          {"pattern": "so + adjective", "example": "so beautiful", "wrong": "such beautiful"},
+          {"pattern": "so + adverb", "example": "so quickly", "wrong": "such quickly"},
+          {"pattern": "such + a + adj + noun", "example": "such a good movie", "wrong": "so a good movie"},
+          {"pattern": "such + adj + plural noun", "example": "such good movies", "wrong": "such a good movies"},
+          {"pattern": "so much + uncountable", "example": "so much water", "wrong": "such much water"},
+          {"pattern": "so many + countable", "example": "so many books", "wrong": "such many books"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all uses of so and such. What word type follows each?",
+      "instruction_ru": "Найди все случаи использования so и such. Какой тип слова следует за каждым?",
+      "tasks": [
+        {
+          "text": "My vacation was amazing! The weather was so perfect. We had such a relaxing time. The beaches were so beautiful that we didn't want to leave. It was such an unforgettable experience! The food was so delicious. We met such friendly people. There was so much to see and do. We took so many photos! The hotel was so comfortable. It was such a lovely room. We were so happy. Our trip was such a success! I miss it so much already.",
+          "find": [
+            {"expression": "so perfect", "pattern": "so + adjective"},
+            {"expression": "such a relaxing time", "pattern": "such + a + adj + noun"},
+            {"expression": "so beautiful that", "pattern": "so + adj + that (result)"},
+            {"expression": "such an unforgettable experience", "pattern": "such + a/an + adj + noun"},
+            {"expression": "so delicious", "pattern": "so + adjective"},
+            {"expression": "such friendly people", "pattern": "such + adj + plural noun"},
+            {"expression": "so much to see", "pattern": "so much + noun phrase"},
+            {"expression": "so many photos", "pattern": "so many + countable noun"},
+            {"expression": "so comfortable", "pattern": "so + adjective"},
+            {"expression": "such a lovely room", "pattern": "such + a + adj + noun"},
+            {"expression": "so happy", "pattern": "so + adjective"},
+            {"expression": "such a success", "pattern": "such + a + noun"},
+            {"expression": "so much", "pattern": "so much (adverb)"}
+          ]
+        }
+      ],
+      "reflection_question": "Can you create a rule for when to use 'so' vs 'such'?",
+      "reflection_question_ru": "Можешь ли ты создать правило, когда использовать 'so' vs 'such'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with so, such, or such a/an.",
+          "sentences": [
+            {"sentence": "The movie was ___ boring!", "answer": "so"},
+            {"sentence": "It was ___ boring movie!", "answer": "such a"},
+            {"sentence": "They are ___ kind people.", "answer": "such"},
+            {"sentence": "She speaks ___ quickly!", "answer": "so"},
+            {"sentence": "We had ___ good time.", "answer": "such a"},
+            {"sentence": "There were ___ many mistakes.", "answer": "so"},
+            {"sentence": "I've never met ___ intelligent person.", "answer": "such an"},
+            {"sentence": "The test was ___ easy that everyone passed.", "answer": "so"},
+            {"sentence": "It was ___ easy test that everyone passed.", "answer": "such an"},
+            {"sentence": "I have ___ much work to do!", "answer": "so"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose so or such.",
+          "questions": [
+            {
+              "sentence": "The weather is ___ nice today!",
+              "options": ["so", "such", "such a"],
+              "correct": 0,
+              "explanation": "so + adjective (nice)"
+            },
+            {
+              "sentence": "It's ___ a beautiful day!",
+              "options": ["so", "such", "such an"],
+              "correct": 1,
+              "explanation": "such + a + adjective + noun"
+            },
+            {
+              "sentence": "There were ___ many people at the concert.",
+              "options": ["so", "such", "such a"],
+              "correct": 0,
+              "explanation": "so many + countable plural"
+            },
+            {
+              "sentence": "He drives ___ fast that I feel scared.",
+              "options": ["so", "such", "such a"],
+              "correct": 0,
+              "explanation": "so + adverb (fast)"
+            },
+            {
+              "sentence": "They have ___ lovely children.",
+              "options": ["so", "such", "such a"],
+              "correct": 1,
+              "explanation": "such + adjective + plural noun"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "It was such beautiful weather.",
+              "correct": "It was such beautiful weather. OR The weather was so beautiful.",
+              "explanation": "Both are actually correct! 'Weather' is uncountable, no 'a' needed."
+            },
+            {
+              "incorrect": "She is such nice.",
+              "correct": "She is so nice. OR She is such a nice person.",
+              "explanation": "so + adjective OR such + a + adj + noun"
+            },
+            {
+              "incorrect": "There was such many people.",
+              "correct": "There were so many people.",
+              "explanation": "Use 'so many' with countable plurals"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a review of something (movie, restaurant, trip) using so and such.",
+      "instruction_ru": "Напиши рецензию на что-то (фильм, ресторан, поездку), используя so и such.",
+      "prompts": [
+        "Write a review of a movie or TV show",
+        "Describe a restaurant experience",
+        "Write about a memorable trip",
+        "Review a product you bought"
+      ],
+      "example": "I went to this new Italian restaurant last weekend and it was such a fantastic experience! The pasta was so delicious that I ordered seconds. They had such a cozy atmosphere. The staff were so friendly and helpful. There was so much food on my plate! The prices were so reasonable for such high-quality dishes. I've never had such amazing tiramisu! It was so good that I went back the next day. I highly recommend it - it's such a great find!",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'so' with adjectives/adverbs",
+        "Uses 'such' with (a/an) + adjective + noun",
+        "Uses so/such...that for results",
+        "At least 6 sentences with so/such"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with so and such.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Concert Review",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 12,
+          "content": "The concert was so amazing! I've never heard such talented musicians. The singer has such a powerful voice. The guitar solos were so impressive that the crowd went wild. There was so much energy in the room. We were so close to the stage! It was such an unforgettable night. The band played for so long - almost three hours! Such incredible performers! I had such a great time."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "New Apartment",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "My new apartment is so perfect! It has such a beautiful view of the park. The rooms are so spacious. There's so much natural light! The kitchen is such a great size for cooking. The neighbors are so quiet and friendly. It's in such a convenient location - so close to everything. The rent is so reasonable for such a nice place. I'm so happy I found it! It was such good luck!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Difficult Day",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Today was such a terrible day! I was so tired because I slept so badly. The traffic was so bad that I was late for work. My boss was in such a bad mood. There was so much work to do! I made such a stupid mistake on the report. I was so embarrassed. By the end, I had such a headache. But my friend was so supportive. She gave me such good advice. Tomorrow will be better!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Learning to Cook",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Cooking is so fun! I took such a great class last month. The teacher was so patient with us. She made it seem so easy! We learned such delicious recipes. I was so nervous at first, but the dishes turned out so well. My family was so impressed! They said it was such good food. Now I cook so often. It's such a rewarding hobby. I have so much more confidence now!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Beach Vacation",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 12,
+          "content": "Our beach vacation was so relaxing! The weather was so perfect every day. We stayed at such a lovely resort. The beach was so beautiful - such white sand and such clear water! There were so many water activities to try. The sunsets were so stunning that we watched them every evening. We took so many photos! The seafood was so fresh. It was such a needed break. We felt so refreshed!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "She is ___ beautiful.",
+          "back": "so\n\nso + adjective"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She is ___ beautiful woman.",
+          "back": "such a\n\nsuch a + adj + noun"
+        },
+        {
+          "type": "fill_gap",
+          "front": "They are ___ nice people.",
+          "back": "such\n\nsuch + adj + plural"
+        },
+        {
+          "type": "fill_gap",
+          "front": "There is ___ much traffic!",
+          "back": "so\n\nso much + uncountable"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"It was so a good day.\"",
+          "back": "It was such a good day.\n\nsuch + a + adj + noun"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'so' before nouns",
+      "Using 'such' before adjectives alone",
+      "Forgetting 'a/an' with singular countable nouns",
+      "Using 'such many' instead of 'so many'"
+    ],
+    "related_topics": ["a2_comparatives", "b1_too_enough"],
+    "ielts_relevance": "High - useful for emphasis in Speaking",
+    "frequency_in_english": "Very high"
+  }
+}

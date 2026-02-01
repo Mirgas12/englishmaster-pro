@@ -1,0 +1,269 @@
+{
+  "id": "b1_zero_conditional",
+  "level": "B1",
+  "title": "Zero Conditional",
+  "title_ru": "Нулевой тип условных предложений",
+  "estimatedMinutes": 20,
+  "prerequisites": ["a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about scientific facts and general truths. Notice the pattern.",
+      "instruction_ru": "Прочитай о научных фактах и общих истинах. Обрати внимание на структуру.",
+      "content": {
+        "text": "<highlight>If</highlight> you <highlight>heat</highlight> water to 100°C, it <highlight>boils</highlight>. <highlight>If</highlight> you <highlight>mix</highlight> red and yellow, you <highlight>get</highlight> orange. <highlight>When</highlight> it <highlight>rains</highlight>, the grass <highlight>gets</highlight> wet. <highlight>If</highlight> you <highlight>don't water</highlight> plants, they <highlight>die</highlight>. <highlight>When</highlight> the sun <highlight>goes</highlight> down, it <highlight>gets</highlight> dark. <highlight>If</highlight> you <highlight>press</highlight> this button, the machine <highlight>starts</highlight>. <highlight>If</highlight> babies <highlight>are</highlight> hungry, they <highlight>cry</highlight>.",
+        "question": "What tense is used in both parts? Are these situations always true?",
+        "question_ru": "Какое время используется в обеих частях? Эти ситуации всегда верны?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Zero Conditional - Facts and General Truths",
+        "title_ru": "Нулевой тип условных - Факты и общие истины",
+        "points": [
+          {
+            "rule": "Form: If/When + Present Simple, Present Simple",
+            "rule_ru": "Форма: If/When + Present Simple, Present Simple",
+            "example": "If you heat ice, it melts.",
+            "marker": "present + present"
+          },
+          {
+            "rule": "Use: Scientific facts, laws of nature",
+            "rule_ru": "Использование: Научные факты, законы природы",
+            "example": "If you drop something, it falls.",
+            "marker": "scientific"
+          },
+          {
+            "rule": "Use: Things that are always true",
+            "rule_ru": "Использование: То, что всегда верно",
+            "example": "If you don't eat, you get hungry.",
+            "marker": "always true"
+          },
+          {
+            "rule": "If = when (interchangeable for zero conditional)",
+            "rule_ru": "If = when (взаимозаменяемы для нулевого условного)",
+            "example": "When/If the sun sets, it gets dark.",
+            "marker": "if = when"
+          },
+          {
+            "rule": "Can use imperative in result clause for instructions",
+            "rule_ru": "Можно использовать повелительное наклонение для инструкций",
+            "example": "If you feel dizzy, sit down.",
+            "marker": "instructions"
+          }
+        ],
+        "comparison_table": [
+          {"conditional": "Zero", "if_clause": "If + Present Simple", "result_clause": "Present Simple", "meaning": "Always true / Facts"},
+          {"conditional": "First", "if_clause": "If + Present Simple", "result_clause": "will + infinitive", "meaning": "Real possibility (future)"},
+          {"conditional": "Zero", "example": "If you freeze water, it becomes ice.", "type": "Fact"},
+          {"conditional": "First", "example": "If it rains tomorrow, I will stay home.", "type": "Prediction"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all zero conditionals. Identify if they describe facts, instructions, or general truths.",
+      "instruction_ru": "Найди все нулевые условные. Определи, описывают ли они факты, инструкции или общие истины.",
+      "tasks": [
+        {
+          "text": "Here are some life tips and facts:\n\nIf you exercise regularly, you feel healthier. When you don't get enough sleep, you feel tired. If you eat too much sugar, it's bad for your teeth. When you study consistently, you learn better. If you smile at people, they usually smile back. When you're kind to others, life is easier. If you press Ctrl+S, it saves your document. If the battery is low, charge your phone. When water reaches 0°C, it freezes. If plants don't get sunlight, they can't grow.",
+          "find": [
+            {"sentence": "If you exercise regularly, you feel healthier", "type": "general truth"},
+            {"sentence": "When you don't get enough sleep, you feel tired", "type": "general truth"},
+            {"sentence": "If you eat too much sugar, it's bad for your teeth", "type": "fact"},
+            {"sentence": "When you study consistently, you learn better", "type": "general truth"},
+            {"sentence": "If you smile at people, they usually smile back", "type": "general observation"},
+            {"sentence": "When you're kind to others, life is easier", "type": "general truth"},
+            {"sentence": "If you press Ctrl+S, it saves your document", "type": "instruction/fact"},
+            {"sentence": "If the battery is low, charge your phone", "type": "instruction"},
+            {"sentence": "When water reaches 0°C, it freezes", "type": "scientific fact"},
+            {"sentence": "If plants don't get sunlight, they can't grow", "type": "scientific fact"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'If you heat water, it boils' and 'If you heat water, it will boil'?",
+      "reflection_question_ru": "В чём разница между 'If you heat water, it boils' и 'If you heat water, it will boil'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the zero conditional sentences.",
+          "sentences": [
+            {"sentence": "If you ___ (heat) metal, it ___ (expand).", "answer": "heat, expands"},
+            {"sentence": "When babies ___ (be) tired, they ___ (cry).", "answer": "are, cry"},
+            {"sentence": "If you ___ (mix) blue and yellow, you ___ (get) green.", "answer": "mix, get"},
+            {"sentence": "Water ___ (freeze) if the temperature ___ (drop) below 0°C.", "answer": "freezes, drops"},
+            {"sentence": "If you ___ (not water) plants, they ___ (die).", "answer": "don't water, die"},
+            {"sentence": "When the sun ___ (rise), it ___ (get) light outside.", "answer": "rises, gets"},
+            {"sentence": "If you ___ (touch) fire, you ___ (get) burned.", "answer": "touch, get"},
+            {"sentence": "People ___ (feel) cold if they ___ (not wear) warm clothes.", "answer": "feel, don't wear"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose Zero or First Conditional based on meaning.",
+          "questions": [
+            {
+              "sentence": "If you ___ water to 100°C, it ___ (scientific fact)",
+              "options": ["heat / boils", "heat / will boil", "will heat / boils"],
+              "correct": 0,
+              "explanation": "Scientific fact = Zero Conditional"
+            },
+            {
+              "sentence": "If it ___ tomorrow, we ___ at home. (prediction)",
+              "options": ["rains / stay", "rains / will stay", "will rain / stay"],
+              "correct": 1,
+              "explanation": "Future prediction = First Conditional"
+            },
+            {
+              "sentence": "When you ___ something, it ___ (law of nature)",
+              "options": ["drop / falls", "drop / will fall", "will drop / falls"],
+              "correct": 0,
+              "explanation": "Law of nature = Zero Conditional"
+            },
+            {
+              "sentence": "If you ___ me, I ___ help you. (promise about specific future)",
+              "options": ["ask / help", "ask / will help", "will ask / help"],
+              "correct": 1,
+              "explanation": "Specific future situation = First Conditional"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "instruction": "Match the if-clause with the correct result.",
+          "pairs": [
+            {"if": "If you don't eat breakfast,", "result": "you feel hungry later."},
+            {"if": "If ice melts,", "result": "it becomes water."},
+            {"if": "If you exercise regularly,", "result": "you stay healthy."},
+            {"if": "When the alarm goes off,", "result": "I wake up."},
+            {"if": "If you add salt to water,", "result": "it boils at a higher temperature."}
+          ]
+        }
+      ],
+      "total_exercises": 15,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about facts, rules, or general truths using zero conditional.",
+      "instruction_ru": "Напиши о фактах, правилах или общих истинах, используя нулевое условное.",
+      "prompts": [
+        "Write about scientific facts you know",
+        "Describe rules in your workplace or school",
+        "Write general truths about life",
+        "Explain how machines or technology work"
+      ],
+      "example": "Here are some things I know about computers and health:\n\nIf you spend too much time at a computer, your eyes get tired. When you don't take breaks, your back starts to hurt. If you keep good posture, you feel better at the end of the day. When you exercise regularly, you have more energy for work. If you eat healthy food, your brain works better. When you get enough sleep, you're more productive. If you press Ctrl+Z, the computer undoes your last action. When you restart a computer, it often fixes small problems!",
+      "ai_check": true,
+      "criteria": [
+        "Uses if/when + present simple + present simple",
+        "Describes facts, truths, or instructions",
+        "Results are always/generally true",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with zero conditional.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Kitchen Science",
+          "level": "B1",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Cooking is full of science! If you heat oil too much, it starts to smoke. When you add baking soda to vinegar, it bubbles. If you cook eggs slowly, they become creamy. When you knead dough, gluten develops. If you freeze meat, it lasts longer. When you caramelize sugar, it turns brown. If you don't refrigerate milk, it goes bad. Cooking is chemistry!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Health Facts",
+          "level": "B1",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Your body is amazing! When you exercise, your heart beats faster. If you drink water, you stay hydrated. When you sleep well, your body repairs itself. If you eat vegetables, you get vitamins. When you stretch, your muscles become flexible. If you breathe deeply, you feel calmer. When you laugh, your body releases happy hormones. If you don't move, your muscles weaken."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Computer Tips",
+          "level": "B1",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Here are useful computer tips! If you press Ctrl+C, it copies text. When you press Ctrl+V, it pastes. If you close all programs, your computer runs faster. When you update software, you get new features. If you click the X button, the window closes. When the internet is slow, restart your router. If you use strong passwords, your accounts stay safe."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Nature Rules",
+          "level": "B1",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Nature follows rules! When the sun sets, nocturnal animals wake up. If there's no rain, plants wilt. When seasons change, birds migrate. If bees pollinate flowers, fruits grow. When predators hunt, prey animals hide. If the moon is full, tides are stronger. When volcanoes erupt, they release ash. If ecosystems are balanced, all species thrive."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Life Wisdom",
+          "level": "B1",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Here's some life wisdom! If you smile, people smile back. When you're honest, people trust you. If you help others, you feel good. When you make mistakes, you learn. If you practice, you improve. When you're patient, good things come. If you believe in yourself, you succeed more often. When you're grateful, you feel happier. Simple truths work!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "If you ___ (heat) ice, it ___ (melt).",
+          "back": "heat / melts\n\nBoth Present Simple"
+        },
+        {
+          "type": "identify",
+          "front": "Zero or First Conditional?\n\"If it rains tomorrow, I will stay home.\"",
+          "back": "First Conditional\n\nSpecific future situation"
+        },
+        {
+          "type": "identify",
+          "front": "Zero or First Conditional?\n\"If you heat water, it boils.\"",
+          "back": "Zero Conditional\n\nScientific fact"
+        },
+        {
+          "type": "fill_gap",
+          "front": "When babies ___ (be) hungry, they ___ (cry).",
+          "back": "are / cry\n\nGeneral truth"
+        },
+        {
+          "type": "transformation",
+          "front": "Water freezes at 0°C.\nRewrite as Zero Conditional:",
+          "back": "If/When water reaches 0°C, it freezes."
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 8,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "identify_type"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'will' in zero conditional",
+      "Confusing with first conditional",
+      "Using past tense",
+      "Forgetting third person -s"
+    ],
+    "related_topics": ["a2_first_conditional", "a1_present_simple"],
+    "ielts_relevance": "Medium - useful for describing processes",
+    "frequency_in_english": "High in academic/scientific contexts"
+  }
+}

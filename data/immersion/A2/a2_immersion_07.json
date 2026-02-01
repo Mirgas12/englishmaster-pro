@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_07",
+  "level": "A2",
+  "title": "A New Job",
+  "title_ru": "Новая работа",
+  "media_type": "video",
+  "duration_seconds": 55,
+  "description": "A person talks about starting a new job",
+  "transcript": "I started my new job last Monday. I work as an assistant in a marketing company. The office is in the city center, on the fifth floor of a big building. My working hours are from nine to five, with a one-hour lunch break. My colleagues are very friendly. They helped me a lot during my first week. My manager, Mr. Wilson, explained my tasks clearly. I mainly answer emails, organize meetings, and help with presentations. The salary is good, and I get twenty days of vacation per year. I'm happy with my new job so far!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the person's job?", "options": ["Manager", "Assistant", "Director"], "correct": 1},
+    {"type": "multiple_choice", "question": "How many vacation days per year?", "options": ["15 days", "20 days", "25 days"], "correct": 1},
+    {"type": "true_false", "question": "The office is on the third floor.", "correct": false},
+    {"type": "true_false", "question": "The colleagues are friendly.", "correct": true},
+    {"type": "fill_gap", "question": "Working hours are from nine to ___ .", "answer": "five"}
+  ],
+  "vocabulary": ["assistant", "marketing", "colleague", "manager", "salary"],
+  "key_phrases": ["I work as", "My working hours are", "They helped me", "I'm happy with"]
+}

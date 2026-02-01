@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_07",
+  "level": "B1",
+  "title": "Traveling Solo",
+  "title_ru": "Путешествие в одиночку",
+  "media_type": "audio",
+  "duration_seconds": 80,
+  "description": "Traveler shares solo travel experiences",
+  "transcript": "I've been traveling solo for five years, and it's transformed my life. At first, I was nervous about going alone. What if I got lost? What if I felt lonely? But I quickly discovered the benefits. When you travel alone, you're completely free. You decide where to go, when to wake up, what to eat. There's no compromising with travel companions. You also become more open to meeting new people. Solo travelers often connect with locals and other travelers because they're approachable. I've made lifelong friends this way. Solo travel builds confidence and problem-solving skills. When things go wrong – and they will – you handle it yourself. This independence carries over into everyday life. Of course, there are challenges. Safety requires more attention, especially at night. Loneliness can hit unexpectedly. Costs aren't shared, so it's often more expensive. My advice? Start with a short trip somewhere safe. Trust your instincts. Stay connected with family. The first solo trip is the hardest, but also the most rewarding.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How long has the speaker been traveling solo?", "options": ["Three years", "Five years", "Ten years"], "correct": 1},
+    {"type": "multiple_choice", "question": "What skill does solo travel build?", "options": ["Cooking", "Confidence", "Driving"], "correct": 1},
+    {"type": "true_false", "question": "Solo travelers rarely meet new people.", "correct": false},
+    {"type": "true_false", "question": "Solo travel is often more expensive.", "correct": true},
+    {"type": "fill_gap", "question": "Solo travelers are more ___ to locals and other travelers.", "answer": "approachable"}
+  ],
+  "vocabulary": ["transformed", "compromising", "approachable", "confidence", "instincts"],
+  "key_phrases": ["at first", "I quickly discovered", "carries over into", "trust your instincts"]
+}

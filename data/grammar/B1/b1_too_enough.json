@@ -1,0 +1,296 @@
+{
+  "id": "b1_too_enough",
+  "level": "B1",
+  "title": "Too and Enough",
+  "title_ru": "Too и Enough",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a2_comparatives"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about a shopping trip. Notice how 'too' and 'enough' express problems.",
+      "instruction_ru": "Прочитай о походе за покупками. Обрати внимание, как 'too' и 'enough' выражают проблемы.",
+      "content": {
+        "text": "Shopping was frustrating today! The first dress was <highlight>too expensive</highlight> for my budget. The second one was <highlight>too small</highlight> - I couldn't zip it up. I'm not <highlight>tall enough</highlight> for that long dress. The third one was <highlight>cheap enough</highlight>, but it wasn't <highlight>good enough</highlight> quality. One dress was <highlight>too tight</highlight> around the waist. I didn't have <highlight>enough time</highlight> to try more. The store was <highlight>too crowded</highlight>. I wasn't <highlight>patient enough</highlight> to wait in line. I'll shop online - that's <highlight>easy enough</highlight>!",
+        "question": "Where does 'too' go? Where does 'enough' go? What's the meaning of each?",
+        "question_ru": "Где ставится 'too'? Где ставится 'enough'? Какое значение у каждого?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Too and Enough - Excess and Sufficiency",
+        "title_ru": "Too и Enough - Избыток и достаточность",
+        "points": [
+          {
+            "rule": "too + adjective/adverb = more than needed (problem/negative)",
+            "rule_ru": "too + прилагательное/наречие = больше чем нужно (проблема/негатив)",
+            "example": "It's too hot. (= more hot than comfortable)",
+            "marker": "too + adj"
+          },
+          {
+            "rule": "adjective/adverb + enough = sufficient",
+            "rule_ru": "прилагательное/наречие + enough = достаточно",
+            "example": "It's warm enough. (= sufficiently warm)",
+            "marker": "adj + enough"
+          },
+          {
+            "rule": "enough + noun = sufficient amount",
+            "rule_ru": "enough + существительное = достаточное количество",
+            "example": "I have enough money. There's enough time.",
+            "marker": "enough + noun"
+          },
+          {
+            "rule": "too + adj + to + infinitive = so much that action is impossible",
+            "rule_ru": "too + прил. + to + инфинитив = настолько, что действие невозможно",
+            "example": "It's too heavy to carry. (= so heavy that I can't carry it)",
+            "marker": "too...to"
+          },
+          {
+            "rule": "adj + enough + to + infinitive = sufficient for action",
+            "rule_ru": "прил. + enough + to + инфинитив = достаточно для действия",
+            "example": "She's old enough to drive. (= sufficiently old)",
+            "marker": "enough...to"
+          }
+        ],
+        "comparison_table": [
+          {"pattern": "too + adjective", "meaning": "more than needed", "example": "too expensive", "result": "problem"},
+          {"pattern": "adjective + enough", "meaning": "sufficiently", "example": "cheap enough", "result": "OK"},
+          {"pattern": "enough + noun", "meaning": "sufficient quantity", "example": "enough money", "result": "OK"},
+          {"pattern": "not + adjective + enough", "meaning": "insufficient", "example": "not warm enough", "result": "problem"},
+          {"pattern": "too...to", "meaning": "so X that impossible", "example": "too tired to work", "result": "can't do"},
+          {"pattern": "enough...to", "meaning": "sufficient to", "example": "strong enough to lift", "result": "can do"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all uses of too and enough. Is each situation positive or negative?",
+      "instruction_ru": "Найди все случаи использования too и enough. Каждая ситуация позитивная или негативная?",
+      "tasks": [
+        {
+          "text": "I wanted to run a marathon but I wasn't fit enough. I was too out of shape to run 42 kilometers. I didn't have enough stamina. The distance was too far for me. So I decided to train. Now I run fast enough to keep a good pace. I'm strong enough to run for hours. I wake up early enough to train before work. I'm not too tired afterward anymore. I have enough energy for the whole day. Soon I'll be ready enough to enter a race!",
+          "find": [
+            {"expression": "wasn't fit enough", "meaning": "insufficient fitness", "positive": false},
+            {"expression": "too out of shape", "meaning": "excess lack of fitness", "positive": false},
+            {"expression": "too out of shape to run", "meaning": "so unfit that couldn't run", "positive": false},
+            {"expression": "enough stamina", "meaning": "sufficient stamina? No (didn't have)", "positive": false},
+            {"expression": "too far", "meaning": "more than I could handle", "positive": false},
+            {"expression": "fast enough", "meaning": "sufficiently fast", "positive": true},
+            {"expression": "strong enough to run", "meaning": "can run for hours", "positive": true},
+            {"expression": "early enough to train", "meaning": "sufficient early time", "positive": true},
+            {"expression": "not too tired", "meaning": "acceptably tired", "positive": true},
+            {"expression": "enough energy", "meaning": "sufficient energy", "positive": true},
+            {"expression": "ready enough", "meaning": "sufficiently ready", "positive": true}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'too small' and 'not big enough'?",
+      "reflection_question_ru": "В чём разница между 'too small' и 'not big enough'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with too, enough, or too/enough + to.",
+          "sentences": [
+            {"sentence": "This coffee is ___ hot to drink.", "answer": "too"},
+            {"sentence": "She's old ___ to vote.", "answer": "enough"},
+            {"sentence": "I don't have ___ time to help you.", "answer": "enough"},
+            {"sentence": "The music is ___ loud! Turn it down!", "answer": "too"},
+            {"sentence": "Is this box light ___ to carry?", "answer": "enough"},
+            {"sentence": "He's ___ young to drive a car.", "answer": "too"},
+            {"sentence": "The water isn't warm ___ to swim.", "answer": "enough"},
+            {"sentence": "There's ___ much salt in the soup.", "answer": "too"},
+            {"sentence": "We arrived early ___ to get good seats.", "answer": "enough"},
+            {"sentence": "This dress is ___ small for me.", "answer": "too"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using the word in brackets.",
+          "sentences": [
+            {
+              "original": "The bag is too heavy to carry. (light)",
+              "answer": "The bag isn't light enough to carry."
+            },
+            {
+              "original": "She's not old enough to drink alcohol. (young)",
+              "answer": "She's too young to drink alcohol."
+            },
+            {
+              "original": "This room is too small for all of us. (big)",
+              "answer": "This room isn't big enough for all of us."
+            },
+            {
+              "original": "He's not tall enough to reach the shelf. (short)",
+              "answer": "He's too short to reach the shelf."
+            },
+            {
+              "original": "The test was too difficult to pass. (easy)",
+              "answer": "The test wasn't easy enough to pass."
+            }
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct word order.",
+          "questions": [
+            {
+              "sentence": "This shirt is ___.",
+              "options": ["enough big", "big enough", "too enough big"],
+              "correct": 1,
+              "explanation": "adjective + enough"
+            },
+            {
+              "sentence": "I don't have ___.",
+              "options": ["money enough", "enough money", "too money"],
+              "correct": 1,
+              "explanation": "enough + noun"
+            },
+            {
+              "sentence": "The water is ___ to drink.",
+              "options": ["too hot", "hot too", "enough hot"],
+              "correct": 0,
+              "explanation": "too + adjective + to"
+            },
+            {
+              "sentence": "She ran ___ to catch the bus.",
+              "options": ["enough fast", "fast enough", "too fast"],
+              "correct": 1,
+              "explanation": "adverb + enough + to (she caught it)"
+            },
+            {
+              "sentence": "There aren't ___ chairs for everyone.",
+              "options": ["too", "enough", "too many enough"],
+              "correct": 1,
+              "explanation": "enough + noun"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about problems or limitations using too and enough.",
+      "instruction_ru": "Напиши о проблемах или ограничениях, используя too и enough.",
+      "prompts": [
+        "Describe problems when shopping for clothes",
+        "Write about a job or activity that was too difficult",
+        "Describe requirements for something (age, qualifications)",
+        "Write about your fitness or skills"
+      ],
+      "example": "Finding the perfect apartment is so difficult! The first one was too far from my office. The commute was too long - almost two hours! The second one wasn't big enough for all my furniture. There weren't enough bedrooms for my family. The third one was nice, but the rent was too expensive. I didn't have enough money for the deposit. Finally, I found one that was close enough to work and cheap enough for my budget. It's small, but it's good enough for now!",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'too + adjective' for excess/problems",
+        "Uses 'adjective + enough' for sufficiency",
+        "Uses 'enough + noun' for sufficient quantity",
+        "Uses 'too...to' and 'enough...to' structures",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with too and enough.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Job Requirements",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I applied for a job but didn't get it. They said I wasn't experienced enough. I didn't have enough qualifications. My typing speed was too slow. I wasn't confident enough in the interview. I was too nervous to answer well. But I learned a lot! Now I'm working hard enough to improve. Soon I'll be skilled enough to apply again. I won't be too shy next time!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Cooking Disaster",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "My first attempt at baking was a disaster! I didn't add enough flour. The batter was too runny. I didn't beat the eggs long enough. The oven was too hot, so the outside burned. But the inside was too raw to eat. I didn't wait long enough for it to cool. I was too impatient! Next time, I'll be careful enough to follow the recipe properly."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Language Learning",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Learning a language is hard! At first, I didn't practice enough. The grammar was too complicated. I wasn't patient enough with myself. But now I study hard enough every day. I'm confident enough to have simple conversations. I'm not fluent enough to watch movies without subtitles. Some words are too difficult to remember. But I've improved enough to feel proud. It's never too late to learn!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Fitness Journey",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "When I started exercising, I was too unfit to run for five minutes. I didn't have enough stamina. The workouts were too intense for me. I wasn't strong enough to lift heavy weights. But I didn't give up! Now I'm fit enough to run 10 kilometers. I have enough energy for long workouts. I'm not too tired after exercise anymore. I'm strong enough to see real progress!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "House Hunting",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Finding a house is stressful! The first house was too old. It had too many problems. The second wasn't big enough for our family. We didn't have enough money for the third one. It was too expensive! The fourth was far enough from the city to be quiet, but too far for commuting. Finally, we found one that was perfect enough. It wasn't too small or too expensive!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "The coffee is ___ hot. (more than comfortable)",
+          "back": "too\n\ntoo + adjective"
+        },
+        {
+          "type": "fill_gap",
+          "front": "Is this box light ___? (sufficient)",
+          "back": "enough\n\nadjective + enough"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I don't have ___ time.",
+          "back": "enough\n\nenough + noun"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She's ___ young to drive.",
+          "back": "too\n\ntoo + adj + to infinitive"
+        },
+        {
+          "type": "transformation",
+          "front": "He's too short to reach.\nRewrite with 'tall enough':",
+          "back": "He isn't tall enough to reach.\n\nnot + adj + enough"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "transformation", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong word order (enough big instead of big enough)",
+      "Using too when enough is needed",
+      "Forgetting 'to' after too/enough + adj",
+      "Using 'too much' with adjectives"
+    ],
+    "related_topics": ["a2_comparatives", "b1_so_such"],
+    "ielts_relevance": "High - useful for describing problems and requirements",
+    "frequency_in_english": "Very high"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "id": "a1_there_is_are",
+  "level": "A1",
+  "title": "There is / There are",
+  "title_ru": "There is / There are",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_to_be", "a1_plurals"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about this room. Notice 'there is' and 'there are'.",
+      "instruction_ru": "Прочитай описание комнаты. Обрати внимание на 'there is' и 'there are'.",
+      "content": {
+        "text": "<highlight>There is</highlight> a big window in my room. <highlight>There is</highlight> a bed near the window. <highlight>There are</highlight> two chairs at my desk. <highlight>There is</highlight> a lamp on the desk. <highlight>There are</highlight> many books on the shelf. <highlight>There is</highlight> a cat on my bed. <highlight>There are</highlight> some pictures on the wall. <highlight>There isn't</highlight> a TV in my room. <highlight>There aren't</highlight> any plants.",
+        "question": "When do we use 'there is' and when 'there are'?",
+        "question_ru": "Когда мы используем 'there is', а когда 'there are'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "There is / There are - Existence",
+        "title_ru": "There is / There are - Существование",
+        "points": [
+          {
+            "rule": "There is + singular noun",
+            "rule_ru": "There is + единственное число",
+            "example": "There is a book on the table. There is a cat here.",
+            "marker": "one thing"
+          },
+          {
+            "rule": "There are + plural noun",
+            "rule_ru": "There are + множественное число",
+            "example": "There are two books on the table. There are some cats.",
+            "marker": "many things"
+          },
+          {
+            "rule": "Negative: There isn't / There aren't",
+            "rule_ru": "Отрицание: There isn't / There aren't",
+            "example": "There isn't a TV. There aren't any chairs.",
+            "marker": "isn't/aren't"
+          },
+          {
+            "rule": "Question: Is there...? / Are there...?",
+            "rule_ru": "Вопрос: Is there...? / Are there...?",
+            "example": "Is there a bathroom? Are there any shops near here?",
+            "marker": "Is/Are + there"
+          }
+        ],
+        "comparison_table": [
+          {
+            "form": "Positive",
+            "singular": "There is a cat.",
+            "plural": "There are cats."
+          },
+          {
+            "form": "Negative",
+            "singular": "There isn't a cat.",
+            "plural": "There aren't any cats."
+          },
+          {
+            "form": "Question",
+            "singular": "Is there a cat?",
+            "plural": "Are there any cats?"
+          }
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all 'there is/are' structures and identify singular or plural.",
+      "instruction_ru": "Найди все структуры 'there is/are' и определи, единственное или множественное число.",
+      "tasks": [
+        {
+          "text": "My town is nice. There is a big park in the center. There are many trees in the park. There is a lake with ducks. There are some benches to sit on. There isn't a museum, but there is a library. There are three schools in my town. There aren't any tall buildings. Is there a cinema? Yes, there is one near the park.",
+          "find": [
+            {"structure": "There is", "noun": "a big park", "type": "singular positive"},
+            {"structure": "There are", "noun": "many trees", "type": "plural positive"},
+            {"structure": "There is", "noun": "a lake", "type": "singular positive"},
+            {"structure": "There are", "noun": "some benches", "type": "plural positive"},
+            {"structure": "There isn't", "noun": "a museum", "type": "singular negative"},
+            {"structure": "there is", "noun": "a library", "type": "singular positive"},
+            {"structure": "There are", "noun": "three schools", "type": "plural positive"},
+            {"structure": "There aren't", "noun": "any tall buildings", "type": "plural negative"},
+            {"structure": "Is there", "noun": "a cinema", "type": "singular question"},
+            {"structure": "there is", "noun": "one", "type": "singular positive"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we use 'There is a park' but 'There are trees'?",
+      "reflection_question_ru": "Почему 'There is a park', но 'There are trees'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with 'there is', 'there are', 'there isn't', or 'there aren't'.",
+          "sentences": [
+            {"sentence": "___ a supermarket near my house.", "answer": "There is"},
+            {"sentence": "___ many students in this class.", "answer": "There are"},
+            {"sentence": "___ any milk in the fridge.", "answer": "There isn't"},
+            {"sentence": "___ some books on the shelf.", "answer": "There are"},
+            {"sentence": "___ a park in my neighborhood.", "answer": "There is"},
+            {"sentence": "___ any restaurants here.", "answer": "There aren't"},
+            {"sentence": "___ two windows in my room.", "answer": "There are"},
+            {"sentence": "___ a TV in the bedroom.", "answer": "There isn't"},
+            {"sentence": "___ some children in the garden.", "answer": "There are"},
+            {"sentence": "___ a problem with the computer.", "answer": "There is"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "___ a bank on this street?",
+              "options": ["Is there", "Are there", "There is"],
+              "correct": 0,
+              "explanation": "Question + singular = Is there"
+            },
+            {
+              "sentence": "___ many people at the party.",
+              "options": ["There is", "There are", "Is there"],
+              "correct": 1,
+              "explanation": "Plural (people) = There are"
+            },
+            {
+              "sentence": "___ any coffee left?",
+              "options": ["Is there", "Are there", "There isn't"],
+              "correct": 0,
+              "explanation": "Question + uncountable (coffee) = Is there"
+            },
+            {
+              "sentence": "___ three bedrooms in the house.",
+              "options": ["There is", "There are", "Is there"],
+              "correct": 1,
+              "explanation": "Plural (three bedrooms) = There are"
+            },
+            {
+              "sentence": "___ any buses after 10 PM.",
+              "options": ["There is", "There isn't", "There aren't"],
+              "correct": 2,
+              "explanation": "Negative + plural = There aren't"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "There are a book on the table.",
+              "correct": "There is a book on the table.",
+              "explanation": "Singular noun (a book) = There is"
+            },
+            {
+              "incorrect": "There is many cars in the parking lot.",
+              "correct": "There are many cars in the parking lot.",
+              "explanation": "Plural noun (cars) = There are"
+            },
+            {
+              "incorrect": "Is there any apples?",
+              "correct": "Are there any apples?",
+              "explanation": "Plural noun (apples) = Are there"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe your neighborhood using 'there is/are'.",
+      "instruction_ru": "Опиши свой район, используя 'there is/are'.",
+      "prompts": [
+        "What buildings are in your area? (shops, schools, hospitals)",
+        "What isn't in your area?",
+        "What parks or nature?",
+        "How many people live there?"
+      ],
+      "example": "I live in a nice neighborhood. There is a supermarket near my house. There are two schools. There is a small park with trees. There are many apartments. There isn't a cinema, but there is a library. There aren't any factories.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'there is' with singular nouns",
+        "Uses 'there are' with plural nouns",
+        "Uses at least one negative form",
+        "At least 5 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many 'there is/are' structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "My Apartment",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "My apartment is small. There is a living room and a bedroom. There is a kitchen too. There are two windows in the living room. There is a balcony. There are some plants on the balcony. There isn't a garden. There are nice neighbors."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "In the Fridge",
+          "level": "A1",
+          "word_count": 60,
+          "target_structures": 9,
+          "content": "Let me check the fridge. There is some milk. There are eggs. There is cheese and butter. There are vegetables. There isn't any meat. There aren't any fruits. There is some juice. I need to go shopping."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "The Classroom",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "Our classroom is big. There are 25 desks. There is a whiteboard on the wall. There are posters too. There is a computer on the teacher's desk. There aren't any windows on one side. There is a door at the back."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "At the Beach",
+          "level": "A1",
+          "word_count": 60,
+          "target_structures": 9,
+          "content": "The beach is beautiful. There is white sand. There are many people today. There is a cafe near the beach. There are some boats in the water. There isn't much wind. There are children building sandcastles."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "My Town",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 11,
+          "content": "My town is small but nice. There is a main street with shops. There are two restaurants. There is a church in the center. There aren't any tall buildings. There is a small hospital. There are buses but there isn't a train station."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "___ a cat in the garden.",
+          "back": "There is a cat in the garden.\n\nSingular = There is"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ many students here.",
+          "back": "There are many students here.\n\nPlural = There are"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: There is a problem.\nNegative: ?",
+          "back": "There isn't a problem.\n\nis → isn't"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: There are shops.\nQuestion: ?",
+          "back": "Are there shops? / Are there any shops?\n\nThere are → Are there"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"There is many books.\"",
+          "back": "There are many books.\n\nPlural (books) = There are"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'There is' with plural nouns",
+      "Using 'There are' with singular nouns",
+      "Forgetting 'there' (Is a bank here?)",
+      "Wrong question form (There are any shops?)"
+    ],
+    "related_topics": ["a1_to_be", "a1_plurals", "a1_articles"],
+    "ielts_relevance": "High - used in Speaking Part 2 to describe places",
+    "frequency_in_english": "Very high"
+  }
+}

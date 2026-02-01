@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_01",
+  "level": "A1",
+  "title": "Morning Routine",
+  "title_ru": "Утренняя рутина",
+  "media_type": "video",
+  "duration_seconds": 45,
+  "description": "A person describes their simple morning routine",
+  "transcript": "Hi! My name is Emma. Every morning I wake up at seven o'clock. I get up and go to the bathroom. I brush my teeth and wash my face. Then I have breakfast. I eat toast and drink coffee. After breakfast, I get dressed. I put on my clothes and shoes. Then I go to work. I take the bus. My morning is simple but nice.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What time does Emma wake up?", "options": ["Six o'clock", "Seven o'clock", "Eight o'clock"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does Emma eat for breakfast?", "options": ["Eggs", "Toast", "Cereal"], "correct": 1},
+    {"type": "true_false", "question": "Emma drinks tea in the morning.", "correct": false},
+    {"type": "true_false", "question": "Emma goes to work by bus.", "correct": true},
+    {"type": "fill_gap", "question": "Emma brushes her ___ every morning.", "answer": "teeth"}
+  ],
+  "vocabulary": ["wake up", "brush teeth", "get dressed", "breakfast", "go to work"],
+  "key_phrases": ["every morning", "I wake up at", "I have breakfast", "I go to"]
+}

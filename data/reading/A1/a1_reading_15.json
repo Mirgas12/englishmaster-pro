@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_15",
+  "level": "A1",
+  "title": "My Favorite Sport",
+  "title_ru": "Мой любимый вид спорта",
+  "word_count": 95,
+  "topic": "sports",
+  "text": "My favorite sport is basketball. I play it three times a week. My team is called the Tigers. We practice on Monday, Wednesday, and Friday. Our coach is Mr. Garcia. He is very tall and plays very well. I am the shortest player on the team, but I am fast! My favorite player is LeBron James. I watch NBA games on TV. Last week, we won a game 45 to 38. I was so happy! I want to be a professional player someday.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the team's name?", "options": ["Lions", "Tigers", "Bears"], "correct": 1},
+    {"type": "multiple_choice", "question": "How many times a week does the writer play?", "options": ["two", "three", "four"], "correct": 1},
+    {"type": "true_false", "question": "The writer is the tallest player.", "correct": false},
+    {"type": "true_false", "question": "They won the game last week.", "correct": true},
+    {"type": "fill_gap", "question": "The coach is Mr. ___.", "answer": "Garcia"}
+  ],
+  "vocabulary": ["sport", "team", "coach", "player", "practice"],
+  "grammar_focus": ["present_simple", "frequency_expressions"]
+}

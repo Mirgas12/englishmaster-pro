@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_08",
+  "level": "B1",
+  "title": "The History of Video Games",
+  "title_ru": "История видеоигр",
+  "word_count": 230,
+  "topic": "entertainment",
+  "text": "Video games have come a long way since their humble beginnings in the 1970s. What started as simple dots and lines on a screen has evolved into a massive global industry worth over $150 billion annually.\n\nThe first widely successful video game was Pong, released in 1972. It was a simple tennis-like game that captivated players in arcades across America. The 1980s saw the rise of home consoles, with Nintendo's NES bringing gaming into living rooms worldwide. Iconic games like Super Mario Bros and The Legend of Zelda were born during this era.\n\nThe 1990s and 2000s brought dramatic improvements in graphics and gameplay. 3D graphics became standard, and online gaming connected players around the world. The introduction of smartphones in the late 2000s created a new category of mobile gaming, making games accessible to millions of casual players.\n\nToday's games are incredibly sophisticated. They feature photorealistic graphics, complex stories, and vast open worlds to explore. Virtual reality technology is opening new possibilities for immersive gaming experiences. Esports – competitive gaming – has become a spectator sport with professional players earning millions.\n\nVideo games are no longer just entertainment. They're used in education, healthcare, and military training. Research suggests that certain games can improve problem-solving skills and hand-eye coordination.\n\nAs technology continues to advance, the future of gaming looks exciting. From cloud gaming to augmented reality, new innovations are constantly reshaping how we play.",
+  "questions": [
+    {"type": "multiple_choice", "question": "When was Pong released?", "options": ["1962", "1972", "1982"], "correct": 1},
+    {"type": "multiple_choice", "question": "How much is the gaming industry worth annually?", "options": ["$50 billion", "$100 billion", "Over $150 billion"], "correct": 2},
+    {"type": "true_false", "question": "Smartphones created mobile gaming.", "correct": true},
+    {"type": "true_false", "question": "Video games are only used for entertainment.", "correct": false},
+    {"type": "fill_gap", "question": "Esports is competitive gaming as a ___ sport.", "answer": "spectator"}
+  ],
+  "vocabulary": ["console", "graphics", "immersive", "esports", "augmented reality"],
+  "grammar_focus": ["past_simple", "present_perfect"]
+}

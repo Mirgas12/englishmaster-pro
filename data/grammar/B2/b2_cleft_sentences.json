@@ -1,0 +1,261 @@
+{
+  "id": "b2_cleft_sentences",
+  "level": "B2",
+  "title": "Cleft Sentences (It is/was... that/who)",
+  "title_ru": "Эмфатические конструкции (It is/was... that/who)",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_relative_defining"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the interview. Notice how emphasis is placed on specific information.",
+      "instruction_ru": "Прочитай интервью. Обрати внимание, как акцент делается на конкретной информации.",
+      "content": {
+        "text": "Interviewer: So you discovered the cure?\nScientist: Actually, <highlight>it was my colleague who</highlight> discovered it. I just helped.\nInterviewer: But you led the research?\nScientist: <highlight>It was the whole team that</highlight> made it possible.\nInterviewer: When did the breakthrough happen?\nScientist: <highlight>It was in 2019 that</highlight> we made the key discovery.\nInterviewer: What motivated you?\nScientist: <highlight>It was the patients' suffering that</highlight> drove us.\nInterviewer: <highlight>What I admire most</highlight> is your humility.",
+        "question": "How do 'It is/was...that/who' structures change the focus of the sentence?",
+        "question_ru": "Как конструкции 'It is/was...that/who' меняют фокус предложения?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Cleft Sentences for Focus and Emphasis",
+        "title_ru": "Эмфатические конструкции для фокуса и выделения",
+        "points": [
+          {
+            "rule": "It-cleft: It is/was + focused element + that/who + rest",
+            "rule_ru": "It-конструкция: It is/was + выделяемый элемент + that/who + остальное",
+            "example": "It was John who broke the window. (focus on John)",
+            "marker": "It is/was...that"
+          },
+          {
+            "rule": "Use 'who' for people, 'that' for things/ideas/times/places",
+            "rule_ru": "Используй 'who' для людей, 'that' для вещей/идей/времени/мест",
+            "example": "It was Mary who called. It was yesterday that I saw him.",
+            "marker": "who vs that"
+          },
+          {
+            "rule": "What-cleft: What + clause + is/was + focused element",
+            "rule_ru": "What-конструкция: What + придаточное + is/was + выделяемый элемент",
+            "example": "What I need is help. What surprised me was his reaction.",
+            "marker": "What...is/was"
+          },
+          {
+            "rule": "All/The thing/The reason: ...that + clause + is/was",
+            "rule_ru": "All/The thing/The reason: ...that + придаточное + is/was",
+            "example": "All I want is peace. The reason I'm here is to help.",
+            "marker": "All/The thing"
+          },
+          {
+            "rule": "Use to correct information or emphasize contrast",
+            "rule_ru": "Используй для исправления информации или выделения контраста",
+            "example": "A: You broke it. B: No, it was Tom who broke it.",
+            "marker": "contrast/correction"
+          }
+        ],
+        "comparison_table": [
+          {"normal": "John broke the window.", "cleft": "It was John who broke the window.", "focus": "John (who did it)"},
+          {"normal": "I need help.", "cleft": "What I need is help.", "focus": "help (what is needed)"},
+          {"normal": "She left yesterday.", "cleft": "It was yesterday that she left.", "focus": "yesterday (when)"},
+          {"normal": "His attitude annoyed me.", "cleft": "What annoyed me was his attitude.", "focus": "his attitude"},
+          {"normal": "I only want peace.", "cleft": "All I want is peace.", "focus": "peace (the only thing)"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify what is being emphasized in each cleft sentence.",
+      "instruction_ru": "Определи, что выделяется в каждой эмфатической конструкции.",
+      "tasks": [
+        {
+          "text": "A discussion about history:\n\n1. It was Columbus who reached America in 1492.\n2. Actually, it was the Vikings who arrived first.\n3. What many people don't know is that there were already millions of people living there.\n4. It was in 1620 that the Pilgrims landed.\n5. The thing that changed everything was European colonization.\n6. What surprises many is how recent this history is.\n7. All we can do now is learn from the past.\n8. It's understanding different perspectives that matters most.",
+          "find": [
+            {"cleft": 1, "focus": "Columbus", "type": "It-cleft (person)", "normal": "Columbus reached America in 1492"},
+            {"cleft": 2, "focus": "the Vikings", "type": "It-cleft (person)", "contrast": "correcting previous statement"},
+            {"cleft": 3, "focus": "millions of people were already living there", "type": "What-cleft", "normal": "Many people don't know that..."},
+            {"cleft": 4, "focus": "1620", "type": "It-cleft (time)", "normal": "The Pilgrims landed in 1620"},
+            {"cleft": 5, "focus": "European colonization", "type": "The thing-cleft", "normal": "European colonization changed everything"},
+            {"cleft": 6, "focus": "how recent this history is", "type": "What-cleft", "normal": "This history is very recent, which surprises many"},
+            {"cleft": 7, "focus": "learn from the past", "type": "All-cleft", "normal": "We can only learn from the past"},
+            {"cleft": 8, "focus": "understanding different perspectives", "type": "It-cleft (thing)", "normal": "Understanding different perspectives matters most"}
+          ]
+        }
+      ],
+      "reflection_question": "When do we use it-clefts vs what-clefts?",
+      "reflection_question_ru": "Когда мы используем it-конструкции vs what-конструкции?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite to emphasize the underlined part using a cleft sentence.",
+          "sentences": [
+            {"normal": "_John_ told me the news.", "cleft": "It was John who told me the news."},
+            {"normal": "I need _more time_.", "cleft": "What I need is more time."},
+            {"normal": "She called _yesterday_.", "cleft": "It was yesterday that she called."},
+            {"normal": "_His laziness_ caused the problem.", "cleft": "What caused the problem was his laziness."},
+            {"normal": "_The noise_ woke me up.", "cleft": "It was the noise that woke me up."},
+            {"normal": "I only want _the truth_.", "cleft": "All I want is the truth."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the cleft sentences.",
+          "sentences": [
+            {"sentence": "___ was my brother ___ broke the vase.", "answer": "It, who/that"},
+            {"sentence": "___ I don't understand is why she left.", "answer": "What"},
+            {"sentence": "___ was in Paris ___ they first met.", "answer": "It, that"},
+            {"sentence": "___ annoys me is his constant complaining.", "answer": "What"},
+            {"sentence": "___ I need is a good night's sleep.", "answer": "All/What"},
+            {"sentence": "___ was the price ___ surprised me.", "answer": "It, that"},
+            {"sentence": "The reason ___ I'm late is the traffic.", "answer": "why/that"},
+            {"sentence": "___ really matters is your health.", "answer": "What"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "It was John which told me.",
+              "correct": "It was John who told me.",
+              "explanation": "Use 'who' for people"
+            },
+            {
+              "incorrect": "What I need it is help.",
+              "correct": "What I need is help.",
+              "explanation": "No extra 'it' in what-clefts"
+            },
+            {
+              "incorrect": "It is yesterday that she called.",
+              "correct": "It was yesterday that she called.",
+              "explanation": "Past time = 'was', not 'is'"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 16,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a paragraph emphasizing key information using cleft sentences.",
+      "instruction_ru": "Напиши параграф, выделяя ключевую информацию с помощью эмфатических конструкций.",
+      "prompts": [
+        "Correct common misconceptions about a topic",
+        "Emphasize what's most important to you",
+        "Describe what surprised you about something",
+        "Explain the reasons for a decision"
+      ],
+      "example": "Many people misunderstand what really happened. It was actually my colleague, not me, who made the discovery. What many don't realize is that we worked on this for years. It was in 2018 that we had our first breakthrough. What drove us was the desire to help patients. All we wanted was to find a cure. The thing that finally worked was a completely new approach. It was teamwork that made it possible. What I've learned is that success is never about one person.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'It is/was...that/who' structures correctly",
+        "Uses 'What...is/was' structures correctly",
+        "Uses appropriate relative pronouns (who for people)",
+        "Creates emphasis and focus",
+        "At least 5 cleft sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with cleft sentences.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Myth vs Reality",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "There are many myths about success. It wasn't luck that made them successful - it was hard work. What people don't see is the years of struggle. It was determination that kept them going. All they had was a dream and persistence. What really matters is never giving up. It's consistency, not talent, that makes the difference. The thing that separates winners from losers is attitude. What I've learned is that everyone faces obstacles."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Solving the Mystery",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "The detective explained the case. It was the butler who committed the crime. What gave him away was a small detail. It was the footprint that led us to him. All we needed was one piece of evidence. It was in the garden that we found it. The thing that surprised us was his motive. What he wanted was simply revenge. It wasn't money that drove him - it was jealousy."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Relationship Advice",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "What makes relationships work? It's communication that's most important. What many couples forget is to listen. It isn't grand gestures that matter - it's small daily acts. All your partner wants is to feel valued. What destroys relationships is taking each other for granted. It's respect that builds trust. The thing that saves most relationships is honest conversation. What I tell my clients is this: it's effort that counts."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Learning Languages",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "What many students don't understand is that grammar isn't everything. It's practice that makes perfect. What you need is consistent exposure. It was daily conversation that improved my fluency. All I did was speak every day. The thing that held me back was fear of mistakes. What changed everything was accepting that errors are natural. It isn't talent that matters - it's dedication. What works is finding methods you enjoy."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Career Change",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "People ask why I changed careers. What motivated me was a desire for purpose. It was boredom that made me reconsider. All I wanted was to make a difference. It wasn't the salary that attracted me - it was the mission. What surprised my friends was my decision to earn less. The thing that convinced me was meeting people in the field. It was in 2020 that I made the change. What I've gained is happiness."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "John broke the window.\nRewrite to focus on 'John':",
+          "back": "It was John who broke the window.\n\nIt + was + person + who"
+        },
+        {
+          "type": "transformation",
+          "front": "I need help.\nRewrite with 'What':",
+          "back": "What I need is help.\n\nWhat + clause + is + focus"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ was yesterday ___ I saw her.",
+          "back": "It / that\n\nIt-cleft for time"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ annoys me is the noise.",
+          "back": "What\n\nWhat-cleft"
+        },
+        {
+          "type": "error_correction",
+          "front": "It was Mary which called.",
+          "back": "It was Mary who called.\n\nUse 'who' for people"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["transformation", "fill_gap", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'which' for people instead of 'who'",
+      "Adding extra pronouns in what-clefts",
+      "Wrong tense (is vs was)",
+      "Not changing sentence structure correctly"
+    ],
+    "related_topics": ["b1_relative_defining", "b2_inversion"],
+    "ielts_relevance": "High - Writing Task 2, Speaking",
+    "frequency_in_english": "High in spoken English"
+  }
+}

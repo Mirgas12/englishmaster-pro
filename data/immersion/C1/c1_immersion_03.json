@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_03",
+  "level": "C1",
+  "title": "The Sociology of Trust",
+  "title_ru": "Социология доверия",
+  "media_type": "video",
+  "duration_seconds": 145,
+  "description": "Academic lecture on social trust mechanisms",
+  "transcript": "Trust is the invisible infrastructure of society, enabling cooperation between strangers and the functioning of complex institutions. Without trust, transactions would require exhaustive verification; social life would grind to a halt. But how is trust generated and maintained, especially in large-scale societies where personal relationships cannot underpin every interaction? Sociologists distinguish between particularized and generalized trust. Particularized trust extends to those we know personally – family, friends, colleagues. Generalized trust, more challenging to establish, encompasses strangers and institutions. High-trust societies tend to exhibit stronger economic growth, better governance, and greater social cohesion. Trust operates through multiple mechanisms. Reputation systems allow past behavior to predict future reliability. Institutions – legal systems, professional standards, regulatory frameworks – create structures that reduce the need for personal trust by ensuring accountability. Shared identities and values foster trust within groups, though sometimes at the expense of trust toward outsiders. The decline of trust in many Western democracies has alarmed scholars. Distrust of government, media, and expertise has risen sharply. Social media may contribute by amplifying division and enabling misinformation. Rebuilding trust requires understanding what erodes it: perceived unfairness, broken promises, lack of transparency, and responsive communication. Trust is fragile – quickly lost and slowly rebuilt.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do high-trust societies tend to exhibit?", "options": ["More conflict", "Stronger economic growth", "Less cooperation"], "correct": 1},
+    {"type": "multiple_choice", "question": "What extends to those we know personally?", "options": ["Generalized trust", "Particularized trust", "Institutional trust"], "correct": 1},
+    {"type": "true_false", "question": "Trust toward outsiders is sometimes reduced by shared in-group identity.", "correct": true},
+    {"type": "true_false", "question": "Trust in Western democracies has increased recently.", "correct": false},
+    {"type": "fill_gap", "question": "Trust is fragile – quickly lost and slowly ___.", "answer": "rebuilt"}
+  ],
+  "vocabulary": ["infrastructure", "particularized", "generalized", "cohesion", "transparency"],
+  "key_phrases": ["invisible infrastructure", "underpin every interaction", "erodes trust", "amplifying division"]
+}

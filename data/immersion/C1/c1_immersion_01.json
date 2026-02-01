@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_01",
+  "level": "C1",
+  "title": "The Philosophy of Consciousness",
+  "title_ru": "Философия сознания",
+  "media_type": "video",
+  "duration_seconds": 150,
+  "description": "Philosophical lecture on the hard problem of consciousness",
+  "transcript": "The question of consciousness presents perhaps the most profound mystery in science and philosophy. We experience the world subjectively – there is something it is like to be you, to see red, to feel pain. This qualitative aspect of experience, what philosophers call 'qualia,' seems resistant to physical explanation. David Chalmers famously distinguished between the 'easy problems' of consciousness – explaining how the brain processes information, discriminates stimuli, and controls behavior – and the 'hard problem' of why these processes are accompanied by subjective experience at all. Even if we fully mapped every neuron and synapse, would we understand why there is an inner movie playing? Materialists argue that consciousness will eventually be explained through neuroscience; it's just brain activity, albeit complex. But this faces the explanatory gap: physical descriptions in terms of neurons firing seem categorically different from descriptions of subjective experience. Dualists posit that mind and matter are fundamentally distinct substances – but this raises the interaction problem: how could immaterial mind affect physical brain? Some philosophers embrace panpsychism – the view that consciousness is a fundamental feature of reality, present in some form even in particles. Others suggest consciousness might be an illusion, or at least radically different from how we conceive it. The debate remains unresolved, and perhaps reveals limits of human understanding.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What did Chalmers call the difficulty of explaining subjective experience?", "options": ["The easy problem", "The hard problem", "The explanatory gap"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is panpsychism?", "options": ["Mind and matter are distinct", "Consciousness is fundamental throughout reality", "Consciousness is an illusion"], "correct": 1},
+    {"type": "true_false", "question": "Qualia refers to the qualitative aspects of experience.", "correct": true},
+    {"type": "true_false", "question": "The consciousness debate has been fully resolved.", "correct": false},
+    {"type": "fill_gap", "question": "Dualists face the ___ problem: how immaterial mind affects physical brain.", "answer": "interaction"}
+  ],
+  "vocabulary": ["consciousness", "qualia", "materialism", "dualism", "panpsychism"],
+  "key_phrases": ["the hard problem", "explanatory gap", "categorically different", "fundamental feature of reality"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_12",
+  "level": "B2",
+  "title": "Global Food Security Challenges",
+  "title_ru": "Проблемы мировой продовольственной безопасности",
+  "word_count": 310,
+  "topic": "global_issues",
+  "text": "Feeding a growing global population while protecting the environment represents one of humanity's greatest challenges. By 2050, the world must produce significantly more food while simultaneously reducing agriculture's environmental footprint. Achieving both goals requires transforming how we produce, distribute, and consume food.\n\nCurrent food systems face multiple pressures. Climate change threatens crop yields through rising temperatures, altered rainfall patterns, and more frequent extreme weather events. Soil degradation reduces productivity on existing farmland. Water scarcity affects irrigation. Meanwhile, converting more natural habitats to agriculture would accelerate biodiversity loss and climate change.\n\nFood waste represents a massive inefficiency. Approximately one-third of all food produced globally is lost or wasted. In developing countries, losses occur mainly in production and storage due to inadequate infrastructure. In wealthy countries, waste happens predominantly at the retail and consumer level. Reducing waste could significantly expand food availability without producing more.\n\nDietary patterns also matter. Meat production, particularly beef, uses substantially more land, water, and energy than plant-based foods. A shift toward more plant-based diets, especially in wealthy countries with high meat consumption, could dramatically reduce agriculture's environmental impact while improving public health.\n\nTechnological innovation offers partial solutions. Precision agriculture uses data and sensors to optimize inputs, reducing waste and environmental damage. Improved crop varieties, including drought-resistant and disease-resistant strains, can increase yields in challenging conditions. Cellular agriculture – growing meat from cells rather than animals – may eventually provide protein with far lower environmental costs.\n\nHowever, technology alone cannot solve food security. Access remains a critical issue – millions go hungry not because insufficient food exists globally, but because they cannot afford it or access it. Political instability, conflict, and poverty drive hunger more than production shortfalls.\n\nAddressing food security requires coordinated action across technological, economic, and political domains. The stakes – for human welfare and planetary health – could hardly be higher.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What percentage of food is lost or wasted globally?", "options": ["About 10%", "About 25%", "About 33%"], "correct": 2},
+    {"type": "multiple_choice", "question": "What does precision agriculture use?", "options": ["More chemicals", "Data and sensors", "More workers"], "correct": 1},
+    {"type": "true_false", "question": "Hunger is caused only by food production shortfalls.", "correct": false},
+    {"type": "true_false", "question": "Beef production uses more resources than plant-based foods.", "correct": true},
+    {"type": "fill_gap", "question": "Cellular agriculture grows meat from ___ rather than animals.", "answer": "cells"}
+  ],
+  "vocabulary": ["food security", "biodiversity", "precision agriculture", "cellular agriculture", "infrastructure"],
+  "grammar_focus": ["present_simple", "modal_verbs"]
+}

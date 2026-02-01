@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_13",
+  "level": "A2",
+  "title": "At the Doctor's Office",
+  "title_ru": "На приёме у врача",
+  "word_count": 155,
+  "topic": "health",
+  "text": "I wasn't feeling well yesterday. I had a headache and my throat hurt. Mum said I needed to see a doctor. At the doctor's office, we waited in the reception area. There were other patients waiting too. A nurse called my name and took me to a small room. She checked my temperature and my blood pressure. Then the doctor came in. She was very friendly. She asked me about my symptoms. She looked at my throat using a small light. She said I had a throat infection and gave me a prescription for antibiotics. She told me to rest for a few days and drink lots of water. At the pharmacy, we bought the medicine. It tastes terrible, but I take it three times a day. Today, I'm feeling a bit better. I stayed home from school and watched movies. I should be fine by Monday.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What was wrong with the writer?", "options": ["Stomachache", "Throat infection", "Broken arm"], "correct": 1},
+    {"type": "multiple_choice", "question": "How often does the writer take medicine?", "options": ["Twice a day", "Three times a day", "Four times a day"], "correct": 1},
+    {"type": "true_false", "question": "The doctor was unfriendly.", "correct": false},
+    {"type": "true_false", "question": "The medicine tastes good.", "correct": false},
+    {"type": "fill_gap", "question": "The nurse checked temperature and blood ___.", "answer": "pressure"}
+  ],
+  "vocabulary": ["headache", "symptoms", "prescription", "antibiotics", "pharmacy"],
+  "grammar_focus": ["past_simple", "modal_verbs"]
+}

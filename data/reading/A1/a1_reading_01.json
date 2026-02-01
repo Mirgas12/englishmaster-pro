@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_01",
+  "level": "A1",
+  "title": "My Daily Routine",
+  "title_ru": "Мой распорядок дня",
+  "word_count": 95,
+  "topic": "daily_life",
+  "text": "Hi! My name is Tom. I am a student. I wake up at 7 o'clock every day. I have breakfast at 7:30. I eat bread and drink milk. I go to school at 8 o'clock. I study from 9 to 3. After school, I play football with my friends. I come home at 5 o'clock. I do my homework. I have dinner with my family at 7. I watch TV and go to bed at 10. I like my daily routine!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What time does Tom wake up?", "options": ["6 o'clock", "7 o'clock", "8 o'clock"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does Tom eat for breakfast?", "options": ["eggs", "bread", "fruit"], "correct": 1},
+    {"type": "true_false", "question": "Tom plays basketball after school.", "correct": false},
+    {"type": "true_false", "question": "Tom has dinner at 7 o'clock.", "correct": true},
+    {"type": "fill_gap", "question": "Tom goes to ___ at 8 o'clock.", "answer": "school"}
+  ],
+  "vocabulary": ["wake up", "breakfast", "school", "homework", "dinner"],
+  "grammar_focus": ["present_simple", "time_expressions"]
+}

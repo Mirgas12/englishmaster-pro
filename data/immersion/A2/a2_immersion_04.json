@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_04",
+  "level": "A2",
+  "title": "Shopping for Clothes",
+  "title_ru": "Покупка одежды",
+  "media_type": "audio",
+  "duration_seconds": 60,
+  "description": "A conversation in a clothing store",
+  "transcript": "Shop assistant: Hello! Can I help you find anything?\nCustomer: Yes, I'm looking for a jacket for autumn.\nShop assistant: We have some nice jackets over here. What size do you need?\nCustomer: I usually wear medium.\nShop assistant: How about this brown one? It's very popular this season.\nCustomer: It looks nice. Can I try it on?\nShop assistant: Of course. The fitting room is over there.\n[After trying on]\nCustomer: It fits well. How much is it?\nShop assistant: It's ninety-five dollars. But we have a sale today – twenty percent off.\nCustomer: Great! I'll take it.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the customer looking for?", "options": ["Shoes", "A jacket", "A shirt"], "correct": 1},
+    {"type": "multiple_choice", "question": "What discount is there today?", "options": ["10%", "20%", "30%"], "correct": 1},
+    {"type": "true_false", "question": "The customer usually wears large size.", "correct": false},
+    {"type": "true_false", "question": "The jacket fits well.", "correct": true},
+    {"type": "fill_gap", "question": "The jacket is ___ dollars.", "answer": "ninety-five"}
+  ],
+  "vocabulary": ["jacket", "size", "fitting room", "sale", "discount"],
+  "key_phrases": ["I'm looking for", "Can I try it on", "How much is it", "I'll take it"]
+}

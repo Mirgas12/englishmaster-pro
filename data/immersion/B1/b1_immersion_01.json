@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_01",
+  "level": "B1",
+  "title": "Job Interview Tips",
+  "title_ru": "Советы для собеседования",
+  "media_type": "video",
+  "duration_seconds": 90,
+  "description": "Career advice about job interviews",
+  "transcript": "Today I want to share some tips for successful job interviews. First, research the company beforehand. Know what they do, their values, and recent news about them. Interviewers are impressed when candidates show genuine interest. Second, prepare examples from your experience. When they ask about your skills, don't just list them – give specific situations where you demonstrated those skills. Third, dress appropriately. It's better to be slightly overdressed than underdressed. Fourth, arrive ten to fifteen minutes early. Being late creates a terrible first impression. During the interview, maintain eye contact and speak clearly. Listen carefully to questions before answering. It's okay to pause and think before responding. Finally, ask thoughtful questions at the end. This shows you're serious about the position. After the interview, send a thank-you email within twenty-four hours. Good luck with your next interview!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What should you research before an interview?", "options": ["Your salary expectations", "The company", "Other candidates"], "correct": 1},
+    {"type": "multiple_choice", "question": "How early should you arrive?", "options": ["5 minutes", "10-15 minutes", "30 minutes"], "correct": 1},
+    {"type": "true_false", "question": "You should just list your skills without examples.", "correct": false},
+    {"type": "true_false", "question": "It's okay to pause before answering questions.", "correct": true},
+    {"type": "fill_gap", "question": "Send a thank-you email within ___ hours.", "answer": "twenty-four"}
+  ],
+  "vocabulary": ["interview", "candidate", "impression", "maintain", "thoughtful"],
+  "key_phrases": ["research beforehand", "give specific situations", "maintain eye contact", "send a thank-you email"]
+}

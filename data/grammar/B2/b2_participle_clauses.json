@@ -1,0 +1,258 @@
+{
+  "id": "b2_participle_clauses",
+  "level": "B2",
+  "title": "Participle Clauses",
+  "title_ru": "Причастные обороты",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a1_present_continuous", "b1_passive_present"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the story. Notice the shortened clauses at the beginning of sentences.",
+      "instruction_ru": "Прочитай историю. Обрати внимание на сокращённые обороты в начале предложений.",
+      "content": {
+        "text": "<highlight>Walking</highlight> through the park, I noticed something strange. <highlight>Looking</highlight> closer, I saw a mysterious box. <highlight>Excited</highlight> by my discovery, I picked it up. <highlight>Not knowing</highlight> what was inside, I hesitated. <highlight>Having decided</highlight> to open it, I carefully lifted the lid. <highlight>Surprised</highlight> by the contents, I gasped. <highlight>Sitting</highlight> inside was a small kitten! <highlight>Abandoned</highlight> by someone, the poor creature was scared. <highlight>Having found</highlight> a new friend, I took the kitten home.",
+        "question": "What information do these -ing and -ed forms give us? How do they relate to the main clause?",
+        "question_ru": "Какую информацию дают нам эти формы на -ing и -ed? Как они связаны с главным предложением?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Participle Clauses - Reduced Clauses",
+        "title_ru": "Причастные обороты - Сокращённые придаточные",
+        "points": [
+          {
+            "rule": "Present participle (-ing): active meaning, same time as main verb",
+            "rule_ru": "Настоящее причастие (-ing): активное значение, одновременно с главным глаголом",
+            "example": "Walking to work, I saw an accident. (= While I was walking...)",
+            "marker": "V-ing = active"
+          },
+          {
+            "rule": "Past participle (-ed/V3): passive meaning",
+            "rule_ru": "Прошедшее причастие (-ed/V3): пассивное значение",
+            "example": "Shocked by the news, she couldn't speak. (= Because she was shocked...)",
+            "marker": "V3 = passive"
+          },
+          {
+            "rule": "Perfect participle (Having + V3): action completed before main verb",
+            "rule_ru": "Перфектное причастие (Having + V3): действие завершено до главного глагола",
+            "example": "Having finished work, I went home. (= After I had finished...)",
+            "marker": "Having V3 = before"
+          },
+          {
+            "rule": "Same subject: The subject of participle clause = subject of main clause",
+            "rule_ru": "Одинаковое подлежащее: Подлежащее причастного оборота = подлежащее главного предложения",
+            "example": "Running fast, she caught the bus. (she was running, she caught)",
+            "marker": "same subject"
+          },
+          {
+            "rule": "Negative: Not + participle",
+            "rule_ru": "Отрицание: Not + причастие",
+            "example": "Not knowing the answer, I guessed. (= Because I didn't know...)",
+            "marker": "Not + V-ing"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Present participle", "form": "V-ing", "meaning": "Active, same time", "full_form": "While/When/Because + S + V", "example": "Seeing the rain, I took an umbrella."},
+          {"type": "Past participle", "form": "V3/-ed", "meaning": "Passive", "full_form": "Because + S + was/were + V3", "example": "Surprised by the noise, she jumped."},
+          {"type": "Perfect participle", "form": "Having + V3", "meaning": "Before main action", "full_form": "After + S + had + V3", "example": "Having eaten, I felt better."},
+          {"type": "Passive perfect", "form": "Having been + V3", "meaning": "Passive, before", "full_form": "After + S + had been + V3", "example": "Having been warned, I was careful."}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the type of each participle clause and what it replaces.",
+      "instruction_ru": "Определи тип каждого причастного оборота и что он заменяет.",
+      "tasks": [
+        {
+          "text": "1. Feeling tired, I went to bed early.\n   (= Because I felt tired...)\n\n2. Written in 1605, the play is still popular.\n   (= The play, which was written in 1605...)\n\n3. Having completed the course, she got a certificate.\n   (= After she had completed...)\n\n4. Not speaking Spanish, I couldn't understand.\n   (= Because I didn't speak Spanish...)\n\n5. Encouraged by friends, he tried again.\n   (= Because he was encouraged by friends...)\n\n6. Having been rejected twice, she didn't apply again.\n   (= After she had been rejected twice...)",
+          "find": [
+            {"sentence": 1, "type": "Present participle", "meaning": "reason/cause", "active/passive": "active"},
+            {"sentence": 2, "type": "Past participle", "meaning": "background info", "active/passive": "passive"},
+            {"sentence": 3, "type": "Perfect participle", "meaning": "completed action before", "active/passive": "active"},
+            {"sentence": 4, "type": "Negative present", "meaning": "reason/cause", "active/passive": "active"},
+            {"sentence": 5, "type": "Past participle", "meaning": "reason/cause", "active/passive": "passive"},
+            {"sentence": 6, "type": "Passive perfect", "meaning": "passive action before", "active/passive": "passive"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do writers use participle clauses instead of full clauses?",
+      "reflection_question_ru": "Почему писатели используют причастные обороты вместо полных придаточных?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using a participle clause.",
+          "sentences": [
+            {"full": "Because I didn't have a car, I walked.", "participle": "Not having a car, I walked."},
+            {"full": "After she had read the letter, she cried.", "participle": "Having read the letter, she cried."},
+            {"full": "Because he was tired, he made mistakes.", "participle": "Being tired, he made mistakes. / Tired, he made mistakes."},
+            {"full": "The book, which was published in 1990, is now a classic.", "participle": "Published in 1990, the book is now a classic."},
+            {"full": "While I was waiting for the bus, I read a book.", "participle": "Waiting for the bus, I read a book."},
+            {"full": "After he had been warned about the danger, he was more careful.", "participle": "Having been warned about the danger, he was more careful."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct participle form.",
+          "sentences": [
+            {"sentence": "___ (realize) my mistake, I apologized immediately.", "answer": "Realizing"},
+            {"sentence": "___ (shock) by the news, she sat down.", "answer": "Shocked"},
+            {"sentence": "___ (finish) the exam, I left the room.", "answer": "Having finished"},
+            {"sentence": "___ (not/want) to be late, I took a taxi.", "answer": "Not wanting"},
+            {"sentence": "___ (build) in the 18th century, the castle is impressive.", "answer": "Built"},
+            {"sentence": "___ (work) all day, I was exhausted.", "answer": "Having worked"},
+            {"sentence": "___ (see) the police, he ran away.", "answer": "Seeing"},
+            {"sentence": "___ (reject) by every company, she started her own business.", "answer": "Having been rejected / Rejected"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "Walked through the park, I saw a bird.",
+              "correct": "Walking through the park, I saw a bird.",
+              "explanation": "Active meaning needs -ing form"
+            },
+            {
+              "incorrect": "Having be told the news, she cried.",
+              "correct": "Having been told the news, she cried.",
+              "explanation": "Passive perfect = Having been + V3"
+            },
+            {
+              "incorrect": "Feeling tired, the bed looked comfortable.",
+              "correct": "Feeling tired, I thought the bed looked comfortable.",
+              "explanation": "Same subject: 'I' was feeling tired, not 'the bed'"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a story or description using participle clauses.",
+      "instruction_ru": "Напиши историю или описание, используя причастные обороты.",
+      "prompts": [
+        "Describe a journey or adventure",
+        "Write about a memorable day",
+        "Describe a person and their achievements",
+        "Write a mystery or suspense story"
+      ],
+      "example": "Having decided to explore the old house, I approached carefully. Not knowing what to expect, I felt nervous. Opening the creaky door, I stepped inside. Covered in dust, the furniture looked ancient. Walking through the rooms, I noticed old photographs on the walls. Fascinated by the history, I examined each one closely. Having been abandoned for years, the house had an eerie atmosphere. Hearing a strange noise upstairs, I froze. Not wanting to investigate alone, I quickly left. Having experienced such a mysterious place, I couldn't stop thinking about it.",
+      "ai_check": true,
+      "criteria": [
+        "Uses present participle (-ing) for active actions",
+        "Uses past participle (-ed/V3) for passive meaning",
+        "Uses perfect participle (having + V3) for earlier actions",
+        "Maintains same subject in both clauses",
+        "At least 6 participle clauses"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with participle clauses.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Adventure Story",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Standing at the edge of the cliff, I took a deep breath. Having trained for months, I felt ready. Looking down at the valley, I saw tiny houses below. Not wanting to wait any longer, I jumped. Falling through the air, I experienced pure freedom. Having opened my parachute, I floated peacefully. Landing safely on the ground, I felt incredibly alive. Thrilled by the experience, I immediately wanted to go again. Having conquered my fears, I felt like a new person."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Famous Inventor",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Born in a small village, Thomas Edison showed early genius. Having received little formal education, he was mostly self-taught. Working tirelessly in his laboratory, he made thousands of experiments. Not discouraged by failures, he kept trying. Having invented the light bulb, he changed the world forever. Driven by curiosity, he continued innovating until his death. Known as one of history's greatest inventors, Edison held over 1,000 patents. Inspired by his example, many young scientists pursue their dreams."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Travel Experience",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Arriving in Tokyo for the first time, I felt overwhelmed. Not speaking Japanese, I struggled to communicate. Wandering through the busy streets, I discovered amazing shops and restaurants. Impressed by the cleanliness, I took many photos. Having gotten lost several times, I learned to use maps better. Exhausted but happy, I returned to my hotel each night. Having experienced such a different culture, I gained new perspectives. Leaving Japan after two weeks, I promised to return someday."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Cooking Disaster",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Attempting to cook a fancy dinner, I made several mistakes. Not having read the recipe carefully, I added too much salt. Distracted by my phone, I let the vegetables burn. Trying to salvage the meal, I made things worse. Having realized my errors, I started over. Determined to succeed, I followed each step precisely. Feeling more confident, I plated the food beautifully. Amazed by the final result, my guests complimented me. Having learned from my mistakes, I became a better cook."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Historical Event",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Completed in 1889, the Eiffel Tower was initially controversial. Designed by Gustave Eiffel, it was built for the World's Fair. Standing 300 meters tall, it was the world's tallest structure. Criticized by many artists, the tower was almost demolished. Having survived two world wars, it became a beloved landmark. Visited by millions annually, it represents Paris worldwide. Lit up at night, it creates a magical atmosphere. Having stood for over 130 years, it remains an engineering marvel."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "Because I was tired, I went home.\nRewrite with participle:",
+          "back": "Being tired, I went home.\nOR: Tired, I went home."
+        },
+        {
+          "type": "transformation",
+          "front": "After she had finished, she left.\nRewrite with participle:",
+          "back": "Having finished, she left.\n\nPerfect participle = earlier action"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ (write) in 1900, the book is still popular.",
+          "back": "Written\n\nPast participle = passive"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ (not/know) the answer, I guessed.",
+          "back": "Not knowing\n\nNegative = Not + V-ing"
+        },
+        {
+          "type": "error_correction",
+          "front": "Walking down the street, my phone rang.",
+          "back": "Walking down the street, I heard my phone ring.\n\nSame subject needed"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Dangling participle (different subjects)",
+      "Using past participle for active meaning",
+      "Confusing perfect and simple participles",
+      "Wrong form after 'having'"
+    ],
+    "related_topics": ["a1_present_continuous", "b1_passive_present"],
+    "ielts_relevance": "Very high - Academic Writing, advanced structures",
+    "frequency_in_english": "High in formal/written English"
+  }
+}

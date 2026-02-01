@@ -1,0 +1,294 @@
+{
+  "id": "b1_question_tags",
+  "level": "B1",
+  "title": "Question Tags",
+  "title_ru": "Разделительные вопросы",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_to_be", "a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the conversation. Notice the short questions at the end of sentences.",
+      "instruction_ru": "Прочитай разговор. Обрати внимание на короткие вопросы в конце предложений.",
+      "content": {
+        "text": "A: Nice weather, <highlight>isn't it</highlight>?\nB: Yes, it's beautiful, <highlight>isn't it</highlight>?\nA: You're from Spain, <highlight>aren't you</highlight>?\nB: Yes, I am. You don't speak Spanish, <highlight>do you</highlight>?\nA: No, I don't. But you can teach me, <highlight>can't you</highlight>?\nB: Sure! We've met before, <highlight>haven't we</highlight>?\nA: I think so! It was at Tom's party, <highlight>wasn't it</highlight>?\nB: That's right! Tom isn't here today, <highlight>is he</highlight>?\nA: No, he couldn't come, <highlight>could he</highlight>?",
+        "question": "What pattern do you notice between the main sentence and the question tag?",
+        "question_ru": "Какую закономерность ты замечаешь между главным предложением и разделительным вопросом?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Question Tags - Seeking Confirmation",
+        "title_ru": "Разделительные вопросы - Для подтверждения",
+        "points": [
+          {
+            "rule": "Positive sentence → Negative tag",
+            "rule_ru": "Положительное предложение → Отрицательный тег",
+            "example": "You are tired, aren't you? She likes coffee, doesn't she?",
+            "marker": "+ → -"
+          },
+          {
+            "rule": "Negative sentence → Positive tag",
+            "rule_ru": "Отрицательное предложение → Положительный тег",
+            "example": "You aren't tired, are you? She doesn't like tea, does she?",
+            "marker": "- → +"
+          },
+          {
+            "rule": "Use the same auxiliary/modal: is/are/was/were/do/does/did/have/has/will/can/could/should",
+            "rule_ru": "Используй тот же вспомогательный/модальный глагол",
+            "example": "He can swim, can't he? They have left, haven't they?",
+            "marker": "same auxiliary"
+          },
+          {
+            "rule": "No auxiliary in sentence? Use do/does/did",
+            "rule_ru": "Нет вспомогательного глагола? Используй do/does/did",
+            "example": "You work here, don't you? She went home, didn't she?",
+            "marker": "do/does/did"
+          },
+          {
+            "rule": "Special: I am → aren't I? / Let's → shall we?",
+            "rule_ru": "Особые случаи: I am → aren't I? / Let's → shall we?",
+            "example": "I'm right, aren't I? Let's go, shall we?",
+            "marker": "exceptions"
+          }
+        ],
+        "comparison_table": [
+          {"sentence_type": "Present Simple (+)", "tag": "don't/doesn't + pronoun?", "example": "She works here, doesn't she?"},
+          {"sentence_type": "Present Simple (-)", "tag": "do/does + pronoun?", "example": "She doesn't work, does she?"},
+          {"sentence_type": "Past Simple (+)", "tag": "didn't + pronoun?", "example": "You saw him, didn't you?"},
+          {"sentence_type": "be (+)", "tag": "isn't/aren't/wasn't/weren't?", "example": "He is here, isn't he?"},
+          {"sentence_type": "Modal (+)", "tag": "modal + n't?", "example": "You can swim, can't you?"},
+          {"sentence_type": "Present Perfect (+)", "tag": "haven't/hasn't?", "example": "You've been, haven't you?"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all question tags. Identify the auxiliary and whether it's positive or negative.",
+      "instruction_ru": "Найди все разделительные вопросы. Определи вспомогательный глагол и его форму.",
+      "tasks": [
+        {
+          "text": "You've been to Paris, haven't you? It's a beautiful city, isn't it? The Eiffel Tower is amazing, isn't it? You didn't climb it, did you? That would be too tiring, wouldn't it? Your brother lives there, doesn't he? He can speak French, can't he? You can't speak it, can you? We should visit together, shouldn't we? That would be fun, wouldn't it? Let's plan a trip, shall we? I'm always up for adventure, aren't I?",
+          "find": [
+            {"sentence": "You've been to Paris", "tag": "haven't you", "pattern": "+ → -"},
+            {"sentence": "It's a beautiful city", "tag": "isn't it", "pattern": "+ → -"},
+            {"sentence": "The Eiffel Tower is amazing", "tag": "isn't it", "pattern": "+ → -"},
+            {"sentence": "You didn't climb it", "tag": "did you", "pattern": "- → +"},
+            {"sentence": "That would be too tiring", "tag": "wouldn't it", "pattern": "+ → -"},
+            {"sentence": "Your brother lives there", "tag": "doesn't he", "pattern": "+ → - (no aux)"},
+            {"sentence": "He can speak French", "tag": "can't he", "pattern": "+ → -"},
+            {"sentence": "You can't speak it", "tag": "can you", "pattern": "- → +"},
+            {"sentence": "We should visit together", "tag": "shouldn't we", "pattern": "+ → -"},
+            {"sentence": "That would be fun", "tag": "wouldn't it", "pattern": "+ → -"},
+            {"sentence": "Let's plan a trip", "tag": "shall we", "pattern": "let's → shall we"},
+            {"sentence": "I'm always up for adventure", "tag": "aren't I", "pattern": "I am → aren't I"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we use question tags in conversation?",
+      "reflection_question_ru": "Почему мы используем разделительные вопросы в разговоре?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Add the correct question tag.",
+          "sentences": [
+            {"sentence": "You're from Brazil, ___?", "answer": "aren't you"},
+            {"sentence": "She can't drive, ___?", "answer": "can she"},
+            {"sentence": "They live in London, ___?", "answer": "don't they"},
+            {"sentence": "He didn't come, ___?", "answer": "did he"},
+            {"sentence": "We've met before, ___?", "answer": "haven't we"},
+            {"sentence": "It was cold yesterday, ___?", "answer": "wasn't it"},
+            {"sentence": "You won't tell anyone, ___?", "answer": "will you"},
+            {"sentence": "She's a doctor, ___?", "answer": "isn't she"},
+            {"sentence": "I'm right, ___?", "answer": "aren't I"},
+            {"sentence": "Let's have dinner, ___?", "answer": "shall we"},
+            {"sentence": "Tom doesn't smoke, ___?", "answer": "does he"},
+            {"sentence": "They haven't arrived, ___?", "answer": "have they"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct question tag.",
+          "questions": [
+            {
+              "sentence": "She works hard, ___?",
+              "options": ["doesn't she", "isn't she", "won't she"],
+              "correct": 0,
+              "explanation": "Present Simple with no auxiliary → doesn't"
+            },
+            {
+              "sentence": "You can swim, ___?",
+              "options": ["don't you", "can't you", "aren't you"],
+              "correct": 1,
+              "explanation": "can → can't"
+            },
+            {
+              "sentence": "They aren't coming, ___?",
+              "options": ["aren't they", "are they", "do they"],
+              "correct": 1,
+              "explanation": "Negative → positive tag"
+            },
+            {
+              "sentence": "He's been to Japan, ___?",
+              "options": ["isn't he", "hasn't he", "doesn't he"],
+              "correct": 1,
+              "explanation": "He's = He has → hasn't he"
+            },
+            {
+              "sentence": "I'm late, ___?",
+              "options": ["am I not", "aren't I", "isn't I"],
+              "correct": 1,
+              "explanation": "I am → aren't I (special case)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She lives here, isn't she?",
+              "correct": "She lives here, doesn't she?",
+              "explanation": "No 'is' in sentence → use 'doesn't'"
+            },
+            {
+              "incorrect": "They can't come, can't they?",
+              "correct": "They can't come, can they?",
+              "explanation": "Negative sentence → positive tag"
+            },
+            {
+              "incorrect": "I am right, amn't I?",
+              "correct": "I am right, aren't I?",
+              "explanation": "Special: I am → aren't I"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a conversation using question tags to confirm information.",
+      "instruction_ru": "Напиши разговор, используя разделительные вопросы для подтверждения информации.",
+      "prompts": [
+        "Meeting someone at a party and confirming what you know about them",
+        "Discussing plans with a friend",
+        "Talking about the weather or your surroundings",
+        "Confirming details about a shared experience"
+      ],
+      "example": "A: Hey, you're Sarah's sister, aren't you?\nB: Yes, I am! We've met before, haven't we?\nA: I think so! It was at the wedding, wasn't it?\nB: That's right! You work with Tom, don't you?\nA: Yes, he's a great colleague, isn't he?\nB: He really is. He doesn't work on weekends, does he?\nA: No, thank goodness! We should all get together sometime, shouldn't we?\nB: Great idea! Let's exchange numbers, shall we?",
+      "ai_check": true,
+      "criteria": [
+        "Uses positive sentence → negative tag pattern",
+        "Uses negative sentence → positive tag pattern",
+        "Matches auxiliary/modal correctly",
+        "Natural conversational use",
+        "At least 6 question tags"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with question tags.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Small Talk",
+          "level": "B1",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Nice day, isn't it? The weather has been perfect, hasn't it? You don't work in this building, do you? You're new here, aren't you? It can be confusing at first, can't it? You've found the coffee machine, haven't you? The coffee here isn't great, is it? We should bring our own, shouldn't we? Let's get lunch together sometime, shall we?"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Checking Understanding",
+          "level": "B1",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "So the meeting is at 3 PM, isn't it? We're meeting in Room 5, aren't we? You'll bring the documents, won't you? John can't attend, can he? He hasn't been well, has he? We should send him the notes, shouldn't we? The presentation isn't too long, is it? Everyone has seen the agenda, haven't they? Let's start on time, shall we?"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Reminiscing",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Remember our school days? We had so much fun, didn't we? You were always late, weren't you? I wasn't much better, was I? Teachers didn't like us much, did they? But we passed all our exams, didn't we? Those were the days, weren't they? We should have a reunion, shouldn't we? Our old friends would love it, wouldn't they? Let's organize one, shall we?"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Travel Companions",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "This hotel is nice, isn't it? The room isn't very big, is it? But the view is amazing, isn't it? You've been here before, haven't you? It hasn't changed much, has it? We should explore the city today, shouldn't we? You can speak some Spanish, can't you? I can't, can I? You'll help me order food, won't you? Let's find a good restaurant, shall we?"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "At the Gym",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "You're new to this gym, aren't you? The equipment here is great, isn't it? You work out regularly, don't you? It isn't easy to stay motivated, is it? You don't use a personal trainer, do you? They can be expensive, can't they? But they really help, don't they? We should exercise together sometime, shouldn't we? I'm usually here at 6 AM, aren't I weird? Let's be workout partners, shall we?"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "She is French, ___?",
+          "back": "isn't she\n\n+ → -"
+        },
+        {
+          "type": "fill_gap",
+          "front": "You don't smoke, ___?",
+          "back": "do you\n\n- → +"
+        },
+        {
+          "type": "fill_gap",
+          "front": "They work here, ___?",
+          "back": "don't they\n\nNo auxiliary → do/don't"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I'm right, ___?",
+          "back": "aren't I\n\nSpecial case"
+        },
+        {
+          "type": "fill_gap",
+          "front": "Let's go, ___?",
+          "back": "shall we\n\nLet's → shall we"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using same polarity (positive + positive)",
+      "Wrong auxiliary verb",
+      "Wrong pronoun in tag",
+      "Using 'amn't I' instead of 'aren't I'"
+    ],
+    "related_topics": ["a1_to_be", "a1_present_simple"],
+    "ielts_relevance": "Medium - natural in conversation",
+    "frequency_in_english": "Very high in spoken English"
+  }
+}

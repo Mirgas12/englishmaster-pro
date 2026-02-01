@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_05",
+  "level": "A1",
+  "title": "Days of the Week",
+  "title_ru": "Дни недели",
+  "media_type": "audio",
+  "duration_seconds": 50,
+  "description": "A person talks about their weekly schedule",
+  "transcript": "Let me tell you about my week. On Monday, I go to school. On Tuesday, I play football with my friends. On Wednesday, I have a piano lesson. On Thursday, I visit my grandmother. On Friday, I go to the cinema with my family. On Saturday, I sleep late and play games. On Sunday, I rest at home and read books. I like weekends the best!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What happens on Tuesday?", "options": ["Piano lesson", "Football", "Cinema"], "correct": 1},
+    {"type": "multiple_choice", "question": "When does the person visit grandmother?", "options": ["Monday", "Thursday", "Sunday"], "correct": 1},
+    {"type": "true_false", "question": "The person goes to cinema on Friday.", "correct": true},
+    {"type": "true_false", "question": "The person has a piano lesson on Monday.", "correct": false},
+    {"type": "fill_gap", "question": "On Sunday, the person reads ___.", "answer": "books"}
+  ],
+  "vocabulary": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "key_phrases": ["On Monday", "I go to", "I play", "I like weekends"]
+}

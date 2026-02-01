@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_09",
+  "level": "B1",
+  "title": "Money Management",
+  "title_ru": "Управление финансами",
+  "media_type": "audio",
+  "duration_seconds": 85,
+  "description": "Financial advisor gives money tips",
+  "transcript": "Let's discuss basic money management skills that everyone should know. First, create a budget. Track your income and expenses to understand where your money goes. Many people are surprised to discover how much they spend on small daily purchases. Second, build an emergency fund. Experts recommend saving three to six months of living expenses. This protects you against unexpected situations like job loss or medical bills. Third, avoid high-interest debt. Credit cards are convenient but dangerous if you don't pay the full balance. Interest charges can spiral quickly. Fourth, start investing early. Even small amounts grow significantly over time thanks to compound interest. The earlier you start, the more time your money has to grow. Fifth, set financial goals. Whether it's buying a house, traveling, or retiring comfortably, having clear goals motivates saving. Review your finances regularly and adjust as needed. Financial literacy isn't taught in most schools, but it's one of the most important life skills.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How many months of expenses should an emergency fund cover?", "options": ["1-2 months", "3-6 months", "12 months"], "correct": 1},
+    {"type": "multiple_choice", "question": "What makes money grow over time?", "options": ["Inflation", "Compound interest", "Tax returns"], "correct": 1},
+    {"type": "true_false", "question": "Most schools teach financial literacy.", "correct": false},
+    {"type": "true_false", "question": "High-interest debt should be avoided.", "correct": true},
+    {"type": "fill_gap", "question": "Create a ___ to track income and expenses.", "answer": "budget"}
+  ],
+  "vocabulary": ["budget", "emergency fund", "debt", "investing", "compound interest"],
+  "key_phrases": ["where your money goes", "protects you against", "spiral quickly", "review regularly"]
+}

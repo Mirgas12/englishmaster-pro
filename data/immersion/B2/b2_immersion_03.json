@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_03",
+  "level": "B2",
+  "title": "Globalization and Its Discontents",
+  "title_ru": "Глобализация и её критики",
+  "media_type": "audio",
+  "duration_seconds": 110,
+  "description": "Analysis of globalization's effects",
+  "transcript": "Globalization has connected the world in ways unimaginable a century ago. Goods, capital, information, and people flow across borders with increasing ease. Proponents point to billions lifted out of poverty, access to global knowledge, and cultural exchange. However, the backlash against globalization has intensified. Critics argue that while globalization has generated enormous wealth, its benefits have been unevenly distributed. Workers in developed countries have seen manufacturing jobs disappear as production moved to lower-wage economies. Income inequality has risen within many nations even as it has fallen between them. The cultural dimension sparks controversy too. Is globalization spreading opportunity, or is it a form of cultural imperialism, homogenizing diverse traditions into a Western-dominated monoculture? Local businesses struggle against multinational corporations with vast resources. Environmental concerns compound these issues. The global supply chain increases carbon emissions as goods travel thousands of miles. Developing nations sometimes sacrifice environmental protection to attract investment. Finding a sustainable model of globalization – one that preserves its benefits while addressing its costs – is perhaps the defining challenge of our era.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What has happened to income inequality within nations?", "options": ["Decreased", "Risen", "Stayed the same"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do critics call globalization's cultural effect?", "options": ["Cultural diversity", "Cultural imperialism", "Cultural preservation"], "correct": 1},
+    {"type": "true_false", "question": "Globalization's benefits are evenly distributed.", "correct": false},
+    {"type": "true_false", "question": "Global supply chains increase carbon emissions.", "correct": true},
+    {"type": "fill_gap", "question": "Finding a ___ model of globalization is the defining challenge.", "answer": "sustainable"}
+  ],
+  "vocabulary": ["proponents", "backlash", "unevenly", "homogenizing", "monoculture"],
+  "key_phrases": ["unimaginable a century ago", "intensified", "sparks controversy", "compound these issues"]
+}

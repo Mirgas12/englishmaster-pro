@@ -1,0 +1,271 @@
+{
+  "id": "b2_passive_advanced",
+  "level": "B2",
+  "title": "Advanced Passive Structures",
+  "title_ru": "Продвинутые конструкции страдательного залога",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b1_passive_present", "b1_passive_past"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this news report. Notice the different passive forms.",
+      "instruction_ru": "Прочитай эту новостную статью. Обрати внимание на разные формы пассива.",
+      "content": {
+        "text": "The discovery <highlight>is believed to be</highlight> revolutionary. Scientists <highlight>are said to have found</highlight> a new energy source. The research <highlight>is reported to have taken</highlight> 10 years. <highlight>It is thought that</highlight> this will change everything. The lead researcher <highlight>is known to have worked</highlight> on similar projects before. The findings <highlight>are expected to be published</highlight> next month. The team <highlight>is considered to be</highlight> among the best. <highlight>It is hoped that</highlight> the technology <highlight>will be made available</highlight> to everyone.",
+        "question": "How do these passive forms combine with other structures like infinitives?",
+        "question_ru": "Как эти пассивные формы сочетаются с другими структурами, такими как инфинитивы?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Advanced Passive Constructions",
+        "title_ru": "Продвинутые пассивные конструкции",
+        "points": [
+          {
+            "rule": "Subject + be + believed/said/thought/reported + to infinitive",
+            "rule_ru": "Подлежащее + be + believed/said/thought/reported + to инфинитив",
+            "example": "He is believed to be innocent. She is said to speak five languages.",
+            "marker": "be + V3 + to inf"
+          },
+          {
+            "rule": "Subject + be + believed/said + to have + past participle (past event)",
+            "rule_ru": "Подлежащее + be + believed/said + to have + причастие прош. времени (событие в прошлом)",
+            "example": "He is believed to have left the country. (people believe he left)",
+            "marker": "be + V3 + to have V3"
+          },
+          {
+            "rule": "It + be + believed/thought/said/reported + that clause",
+            "rule_ru": "It + be + believed/thought/said/reported + that придаточное",
+            "example": "It is believed that he is innocent. It is said that she speaks five languages.",
+            "marker": "It is V3 that..."
+          },
+          {
+            "rule": "Passive with modals: can/could/may/might/should/must + be + V3",
+            "rule_ru": "Пассив с модальными: can/could/may/might/should/must + be + V3",
+            "example": "This problem can be solved. The work should be finished soon.",
+            "marker": "modal + be + V3"
+          },
+          {
+            "rule": "Passive perfect infinitive: to have been + V3",
+            "rule_ru": "Пассивный перфектный инфинитив: to have been + V3",
+            "example": "The report appears to have been written carelessly.",
+            "marker": "to have been + V3"
+          }
+        ],
+        "comparison_table": [
+          {"active": "People believe he is innocent.", "passive1": "He is believed to be innocent.", "passive2": "It is believed that he is innocent."},
+          {"active": "People say she left yesterday.", "passive1": "She is said to have left yesterday.", "passive2": "It is said that she left yesterday."},
+          {"active": "They think the treasure was stolen.", "passive1": "The treasure is thought to have been stolen.", "passive2": "It is thought that the treasure was stolen."},
+          {"active": "We can solve this problem.", "passive": "This problem can be solved.", "note": "modal + be + V3"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Transform each passive into its alternative form.",
+      "instruction_ru": "Преобразуй каждый пассив в его альтернативную форму.",
+      "tasks": [
+        {
+          "text": "News headlines and reports often use these structures:\n\n1. It is reported that the president will visit next week.\n   → The president is reported to visit next week.\n\n2. The actress is believed to be planning a comeback.\n   → It is believed that the actress is planning a comeback.\n\n3. It is thought that the company lost millions.\n   → The company is thought to have lost millions.\n\n4. The criminal is said to have escaped.\n   → It is said that the criminal escaped.\n\n5. It is expected that prices will rise.\n   → Prices are expected to rise.",
+          "find": [
+            {"original": "It is reported that...", "transformation": "Subject + is reported + to infinitive"},
+            {"original": "Subject + is believed + to be...", "transformation": "It is believed that + clause"},
+            {"original": "It is thought that... lost", "transformation": "Subject + is thought to have + V3"},
+            {"original": "Subject + is said to have + V3", "transformation": "It is said that + past tense"},
+            {"original": "It is expected that... will", "transformation": "Subject + is expected to + infinitive"}
+          ]
+        }
+      ],
+      "reflection_question": "When do we use 'to be' and when do we use 'to have been' after these passive constructions?",
+      "reflection_question_ru": "Когда мы используем 'to be' и когда 'to have been' после этих пассивных конструкций?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using the alternative passive structure.",
+          "sentences": [
+            {
+              "original": "It is believed that he is the best candidate.",
+              "transformed": "He is believed to be the best candidate."
+            },
+            {
+              "original": "She is said to have invented a new device.",
+              "transformed": "It is said that she invented a new device."
+            },
+            {
+              "original": "It is thought that the economy will improve.",
+              "transformed": "The economy is thought to improve."
+            },
+            {
+              "original": "They are reported to have left the country.",
+              "transformed": "It is reported that they left the country."
+            },
+            {
+              "original": "It is expected that the project will succeed.",
+              "transformed": "The project is expected to succeed."
+            }
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct passive form.",
+          "sentences": [
+            {"sentence": "The suspect ___ (believe) to be dangerous.", "answer": "is believed"},
+            {"sentence": "It ___ (report) that the fire started at midnight.", "answer": "is reported / was reported"},
+            {"sentence": "The ancient city ___ (think) to have been destroyed by a volcano.", "answer": "is thought"},
+            {"sentence": "This problem can ___ (solve) easily.", "answer": "be solved"},
+            {"sentence": "The document appears to ___ (write) centuries ago.", "answer": "have been written"},
+            {"sentence": "It ___ (say) that practice makes perfect.", "answer": "is said"},
+            {"sentence": "The discovery ___ (expect) to change medicine.", "answer": "is expected"},
+            {"sentence": "The criminal is believed to ___ (escape) through the window.", "answer": "have escaped"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "He is believed to left yesterday.",
+              "correct": "He is believed to have left yesterday.",
+              "explanation": "Past event = to have + past participle"
+            },
+            {
+              "incorrect": "It is thought that she is leaving next week.",
+              "correct": "She is thought to be leaving next week. (OR the original is correct)",
+              "explanation": "Both forms are correct; transformation changes structure"
+            },
+            {
+              "incorrect": "The book is said written by a famous author.",
+              "correct": "The book is said to have been written by a famous author.",
+              "explanation": "Need 'to have been' for passive perfect infinitive"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a news report using advanced passive structures.",
+      "instruction_ru": "Напиши новостной репортаж, используя продвинутые пассивные конструкции.",
+      "prompts": [
+        "Write about a scientific discovery",
+        "Report on a political event or decision",
+        "Write about a celebrity or public figure",
+        "Report on a mystery or unsolved case"
+      ],
+      "example": "Breaking news: A major archaeological discovery has been announced. An ancient tomb is believed to have been found in Egypt. The tomb is thought to belong to a previously unknown pharaoh. It is reported that the discovery was made by a team of international archaeologists. The findings are expected to be published in major scientific journals. The pharaoh is believed to have ruled over 3,000 years ago. It is hoped that further excavations will reveal more treasures. The site is said to contain valuable artifacts that have never been seen before.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'subject + is believed/said/thought/reported + to infinitive'",
+        "Uses 'It is believed/said/thought + that clause'",
+        "Uses passive with modals correctly",
+        "Formal news-style writing",
+        "At least 6 advanced passive sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with advanced passive structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Scientific Discovery",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "A new species of deep-sea fish is believed to have been discovered. The creature is said to live at depths of over 5,000 meters. It is thought that only a few hundred exist. The fish is reported to glow in the dark. Scientists believe the species is thought to be millions of years old. It is expected that more research will be conducted. The discovery is considered to be one of the most important this decade. It is hoped that the species can be protected."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Political News",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The new policy is expected to be announced tomorrow. The Prime Minister is believed to support the changes. It is thought that the reforms will affect millions of people. The opposition is reported to be planning protests. It is said that negotiations have been ongoing for months. The deal is thought to have been finalized last week. Some ministers are known to have had reservations. It is hoped that a compromise can be reached soon."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Celebrity Gossip",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The famous actor is rumored to be retiring. He is said to have made the decision last month. It is believed that health issues played a role. His last film is expected to be released next year. The actor is known to have been in the industry for 40 years. It is reported that a documentary is being planned. His contributions are considered to have transformed cinema. It is hoped that his legacy will be remembered forever."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Historical Mystery",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The lost treasure is believed to have been hidden centuries ago. It is thought that pirates buried it on an island. The location is said to be marked on an ancient map. Several explorers are known to have searched for it. It is reported that clues were found recently. The treasure is estimated to be worth millions. It is believed that gold and jewels are included. The mystery is expected to be solved within the next few years."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Business Report",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The company is reported to be planning a major expansion. New offices are expected to be opened in Asia. It is believed that thousands of jobs will be created. The CEO is known to have visited potential locations. The investment is thought to exceed $500 million. It is said that the board approved the plan unanimously. Competitors are believed to be worried. The expansion is expected to be completed within three years. Success is predicted by analysts."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "It is believed that he is innocent.\nRewrite starting with 'He':",
+          "back": "He is believed to be innocent.\n\nSubject + be V3 + to infinitive"
+        },
+        {
+          "type": "transformation",
+          "front": "She is said to have won.\nRewrite starting with 'It':",
+          "back": "It is said that she won.\n\nIt is V3 that + clause"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The treasure is thought to ___ ___ (steal) long ago.",
+          "back": "have been stolen\n\nto have been + V3 (passive perfect)"
+        },
+        {
+          "type": "fill_gap",
+          "front": "This problem can ___ ___ (solve) easily.",
+          "back": "be solved\n\nmodal + be + V3"
+        },
+        {
+          "type": "choose",
+          "front": "For past events:\nHe is believed to ___ (leave / have left)",
+          "back": "have left\n\nPast event = to have + V3"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'to be' instead of 'to have been' for past events",
+      "Forgetting 'to' before infinitive",
+      "Wrong word order in transformations",
+      "Confusing the two passive patterns"
+    ],
+    "related_topics": ["b1_passive_present", "b1_passive_past", "b1_reported_speech_statements"],
+    "ielts_relevance": "Very high - Academic Writing, Reading",
+    "frequency_in_english": "High in formal/academic writing"
+  }
+}

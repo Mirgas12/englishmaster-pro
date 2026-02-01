@@ -1,0 +1,291 @@
+{
+  "id": "b2_modals_past_deduction",
+  "level": "B2",
+  "title": "Modals of Deduction (Past)",
+  "title_ru": "Модальные глаголы дедукции (прошлое)",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_modals_probability"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the detective's analysis. Notice how certainty is expressed about past events.",
+      "instruction_ru": "Прочитай анализ детектива. Обрати внимание, как выражается уверенность о прошлых событиях.",
+      "content": {
+        "text": "Detective: Let me analyze what happened. The window is broken from the outside - someone <highlight>must have broken</highlight> in this way. They <highlight>can't have come</highlight> through the door; it was locked. The thief <highlight>must have known</highlight> the alarm code - no alarm went off. They <highlight>might have worked</highlight> here before. Look, there's no fingerprints - they <highlight>must have worn</highlight> gloves. The victim <highlight>couldn't have seen</highlight> the attacker - she was asleep. The crime <highlight>may have happened</highlight> around midnight. The neighbors <highlight>might not have heard</highlight> anything.",
+        "question": "How does the detective express different levels of certainty about what happened?",
+        "question_ru": "Как детектив выражает разные уровни уверенности о том, что произошло?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Past Deduction with Modal Perfect",
+        "title_ru": "Дедукция о прошлом с модальными перфектными формами",
+        "points": [
+          {
+            "rule": "must have + V3 = almost certain it happened (logical conclusion)",
+            "rule_ru": "must have + V3 = почти уверен, что произошло (логический вывод)",
+            "example": "She's not here. She must have left early.",
+            "marker": "must have = certain"
+          },
+          {
+            "rule": "can't have / couldn't have + V3 = certain it DIDN'T happen",
+            "rule_ru": "can't have / couldn't have + V3 = уверен, что НЕ произошло",
+            "example": "He can't have seen us - he wasn't there.",
+            "marker": "can't have = impossible"
+          },
+          {
+            "rule": "might have / may have / could have + V3 = possible (not sure)",
+            "rule_ru": "might have / may have / could have + V3 = возможно (не уверен)",
+            "example": "She might have forgotten. He may have been busy.",
+            "marker": "might have = possible"
+          },
+          {
+            "rule": "should have + V3 = expected but didn't happen / criticism",
+            "rule_ru": "should have + V3 = ожидалось, но не произошло / критика",
+            "example": "He should have called. (but he didn't)",
+            "marker": "should have = expected"
+          },
+          {
+            "rule": "needn't have + V3 = did it but it wasn't necessary",
+            "rule_ru": "needn't have + V3 = сделал, но не нужно было",
+            "example": "You needn't have waited. (but you did)",
+            "marker": "needn't have = unnecessary"
+          }
+        ],
+        "comparison_table": [
+          {"modal", "certainty": "90%+", "meaning": "Logical conclusion", "form": "must have + V3", "example": "He must have forgotten."},
+          {"modal", "certainty": "0%", "meaning": "Impossible", "form": "can't/couldn't have + V3", "example": "She can't have known."},
+          {"modal", "certainty": "50%", "meaning": "Possible", "form": "might/may/could have + V3", "example": "They might have left."},
+          {"modal", "certainty": "Expected", "meaning": "Should have happened", "form": "should have + V3", "example": "You should have told me."},
+          {"modal", "certainty": "Unnecessary", "meaning": "Did but didn't need to", "form": "needn't have + V3", "example": "I needn't have hurried."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the level of certainty in each deduction about the past.",
+      "instruction_ru": "Определи уровень уверенности в каждом умозаключении о прошлом.",
+      "tasks": [
+        {
+          "text": "Why didn't Sarah come to the party?\n\n1. She must have been sick - she looked terrible on Friday.\n2. She can't have forgotten - I reminded her twice.\n3. She might have had to work late.\n4. She may have decided to stay home.\n5. She couldn't have missed the bus - she has a car.\n6. She could have gotten stuck in traffic.\n7. She should have called if she couldn't come!\n8. I needn't have prepared so much food for her.\n9. She must not have received my message.",
+          "find": [
+            {"sentence": 1, "modal": "must have been", "certainty": "90%", "conclusion": "logical - she looked sick"},
+            {"sentence": 2, "modal": "can't have forgotten", "certainty": "0%", "conclusion": "impossible - reminded twice"},
+            {"sentence": 3, "modal": "might have had to", "certainty": "50%", "conclusion": "possible"},
+            {"sentence": 4, "modal": "may have decided", "certainty": "50%", "conclusion": "possible"},
+            {"sentence": 5, "modal": "couldn't have missed", "certainty": "0%", "conclusion": "impossible - has a car"},
+            {"sentence": 6, "modal": "could have gotten", "certainty": "50%", "conclusion": "possible"},
+            {"sentence": 7, "modal": "should have called", "certainty": "expected", "conclusion": "criticism"},
+            {"sentence": 8, "modal": "needn't have prepared", "certainty": "unnecessary", "conclusion": "did but didn't need to"},
+            {"sentence": 9, "modal": "must not have received", "certainty": "90%", "conclusion": "logical conclusion"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'must have done' and 'should have done'?",
+      "reflection_question_ru": "В чём разница между 'must have done' и 'should have done'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct modal based on the context.",
+          "questions": [
+            {
+              "context": "The ground is wet.",
+              "sentence": "It ___ rained last night. (logical conclusion)",
+              "options": ["can't have", "must have", "should have"],
+              "correct": 1,
+              "explanation": "Evidence leads to logical conclusion = must have"
+            },
+            {
+              "context": "He was in New York yesterday.",
+              "sentence": "He ___ been in London. (impossible)",
+              "options": ["must have", "can't have", "might have"],
+              "correct": 1,
+              "explanation": "Impossible to be in two places = can't have"
+            },
+            {
+              "context": "I'm not sure where she went.",
+              "sentence": "She ___ gone to the library. (possible)",
+              "options": ["must have", "can't have", "might have"],
+              "correct": 2,
+              "explanation": "Not sure = possibility = might have"
+            },
+            {
+              "context": "He promised to call but didn't.",
+              "sentence": "He ___ called. I was waiting! (expected)",
+              "options": ["must have", "should have", "might have"],
+              "correct": 1,
+              "explanation": "Expected but didn't happen = should have"
+            },
+            {
+              "context": "You brought food, but there was plenty already.",
+              "sentence": "You ___ brought anything. (unnecessary)",
+              "options": ["shouldn't have", "needn't have", "couldn't have"],
+              "correct": 1,
+              "explanation": "Did but wasn't necessary = needn't have"
+            }
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the appropriate modal + have + past participle.",
+          "sentences": [
+            {"sentence": "She passed every exam easily. She ___ (must/study) very hard.", "answer": "must have studied"},
+            {"sentence": "I called him 10 times. He ___ (can't/be) asleep the whole time!", "answer": "can't have been"},
+            {"sentence": "I'm not sure why he's late. He ___ (might/miss) the bus.", "answer": "might have missed"},
+            {"sentence": "You ___ (should/tell) me earlier! Now it's too late.", "answer": "should have told"},
+            {"sentence": "The lights were off. They ___ (must/go) to bed.", "answer": "must have gone"},
+            {"sentence": "She ___ (couldn't/know) about the surprise - we kept it secret.", "answer": "couldn't have known"},
+            {"sentence": "I ___ (needn't/worry) - everything turned out fine.", "answer": "needn't have worried"},
+            {"sentence": "He ___ (may/forget) about the meeting - he's very forgetful.", "answer": "may have forgotten"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She must forgot about the meeting.",
+              "correct": "She must have forgotten about the meeting.",
+              "explanation": "Modal + have + past participle"
+            },
+            {
+              "incorrect": "He mustn't have seen us - he didn't wave.",
+              "correct": "He can't have seen us - he didn't wave.",
+              "explanation": "Use can't have for 'impossible', not mustn't have"
+            },
+            {
+              "incorrect": "You should have not gone there.",
+              "correct": "You shouldn't have gone there.",
+              "explanation": "Contraction: shouldn't have"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about a mystery or unexplained situation, making deductions about what might have happened.",
+      "instruction_ru": "Напиши о загадке или необъяснимой ситуации, делая выводы о том, что могло произойти.",
+      "prompts": [
+        "Analyze a mystery (disappearance, strange occurrence)",
+        "Deduce what someone must have done and why",
+        "Write about evidence and draw conclusions",
+        "Describe what should/shouldn't have happened"
+      ],
+      "example": "When I came home, the door was open. Someone must have been here! The thief can't have come through the window - it was locked from inside. They might have had a key, or they could have picked the lock. Strangely, nothing was stolen. They must have been looking for something specific. They couldn't have known I was coming home early. I should have installed security cameras! The neighbors might have seen something, but they weren't home. The police think someone may have entered by mistake. I needn't have been so worried - nothing was damaged.",
+      "ai_check": true,
+      "criteria": [
+        "Uses must have for logical conclusions",
+        "Uses can't/couldn't have for impossibility",
+        "Uses might/may/could have for possibilities",
+        "Uses should have for expectations/criticism",
+        "At least 6 different past modal structures"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with past modal deductions.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "The Lost Wallet",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "I can't find my wallet! I must have left it somewhere. It can't have been stolen - I would have noticed. I might have dropped it in the taxi. Or I could have left it at the restaurant. I definitely had it at the bank, so I can't have lost it before then. I should have been more careful! My friend says I might have put it in a different pocket. I'll retrace my steps - it must be somewhere!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Historical Mystery",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Historians debate what happened to the lost colony. The colonists must have faced serious problems. They can't have simply vanished. They might have moved to live with Native Americans. They could have been attacked, or they may have starved. The word 'Croatoan' carved on a tree might have been a clue. They must have been trying to communicate something. Researchers believe they couldn't have survived alone - they must have had help."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Failed Project",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The project failed, and we're analyzing why. We should have done more research. We might have underestimated the costs. The team must have been overworked - everyone was tired. We couldn't have predicted the market changes, but we should have been more flexible. The deadline can't have been realistic. Management may have pressured us too much. We needn't have rushed so much. Next time, we must learn from what we could have done better."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Surprise Party Gone Wrong",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The surprise party was ruined! Someone must have told her. It couldn't have been me - I kept it secret. John might have mentioned it accidentally. He could have let something slip. Sarah should have been more careful with the guest list. The birthday girl can't have known before Friday - she seemed genuinely surprised then. Someone must have said something after that. We needn't have worried so much about decorations if she already knew!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Ancient Civilization",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "How did ancient Egyptians build the pyramids? They must have had sophisticated engineering knowledge. They can't have used modern technology - it didn't exist! They might have used ramps and levers. Workers must have been highly organized. It couldn't have been built by slaves alone - recent evidence suggests paid workers. Aliens can't have helped - that's a myth! The builders must have passed down their secrets. Unfortunately, we may never know exactly how they did it."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "The streets are wet. It ___ (must/rain) last night.",
+          "back": "must have rained\n\nLogical conclusion from evidence"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He was in Paris. He ___ (can't/be) in London too.",
+          "back": "can't have been\n\nImpossible"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I'm not sure where she went. She ___ (might/go) home.",
+          "back": "might have gone\n\nPossibility"
+        },
+        {
+          "type": "fill_gap",
+          "front": "You ___ (should/tell) me! I was worried.",
+          "back": "should have told\n\nExpected but didn't happen"
+        },
+        {
+          "type": "choose",
+          "front": "\"Impossible it happened\" = ?\n(must have / can't have / should have)",
+          "back": "can't have\n\nCertainty it didn't happen"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting 'have' (must gone instead of must have gone)",
+      "Using mustn't have for impossibility (should be can't have)",
+      "Confusing should have (criticism) and must have (deduction)",
+      "Wrong past participle forms"
+    ],
+    "related_topics": ["b1_modals_probability", "b2_third_conditional"],
+    "ielts_relevance": "High - Speaking Part 3, Listening",
+    "frequency_in_english": "High"
+  }
+}

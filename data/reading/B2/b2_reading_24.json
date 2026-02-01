@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_24",
+  "level": "B2",
+  "title": "Sleep and Modern Society",
+  "title_ru": "Сон и современное общество",
+  "word_count": 300,
+  "topic": "health",
+  "text": "Modern society has declared war on sleep. We celebrate exhaustion as evidence of productivity and wear sleep deprivation as a badge of honor. Yet mounting scientific evidence reveals that chronic inadequate sleep carries severe costs – for individual health, safety, and economic productivity.\n\nThe biological need for sleep hasn't changed, but our sleeping patterns have. Electric lighting extended productive hours into the night. Digital devices now emit blue light that suppresses melatonin and keep us stimulated past bedtime. Work culture in many industries expects constant availability.\n\nThe consequences are profound. Sleep-deprived individuals suffer impaired judgment, slowed reactions, and diminished creativity – often without recognizing their deficits. Drowsy driving causes thousands of deaths annually, rivaling drunk driving in danger. Medical errors spike after physicians work extended shifts.\n\nLong-term health effects are equally concerning. Chronic sleep deprivation increases risk of heart disease, diabetes, obesity, and depression. It weakens immune function and accelerates aging. Some researchers argue that sleep loss underlies many health problems commonly attributed to other causes.\n\nCognitive effects extend beyond immediate impairment. Sleep is essential for memory consolidation – transferring learning from short-term to long-term storage. Students who sacrifice sleep to study more actually learn less effectively than those who sleep adequately.\n\nSome employers are beginning to recognize sleep's importance. Nap rooms, flexible schedules, and education about sleep hygiene represent growing awareness. However, changing cultural attitudes that equate sleep with laziness remains challenging.\n\nIndividuals can improve sleep through consistent schedules, dark and cool bedrooms, avoiding screens before bed, and limiting caffeine. But systemic change requires addressing working conditions, cultural norms, and policies that encourage sleep deprivation.\n\nSleep isn't a luxury to be minimized but a biological necessity to be protected. Respecting this reality is essential for individual wellbeing and societal functioning.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does blue light from devices do?", "options": ["Helps sleep", "Suppresses melatonin", "Has no effect"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is essential for memory consolidation?", "options": ["Exercise", "Sleep", "Caffeine"], "correct": 1},
+    {"type": "true_false", "question": "Sleep-deprived people usually recognize their deficits.", "correct": false},
+    {"type": "true_false", "question": "Drowsy driving is as dangerous as drunk driving.", "correct": true},
+    {"type": "fill_gap", "question": "Chronic sleep deprivation increases risk of heart disease, diabetes, and ___.", "answer": "obesity"}
+  ],
+  "vocabulary": ["sleep deprivation", "melatonin", "consolidation", "cognitive", "hygiene"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

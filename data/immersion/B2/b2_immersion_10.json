@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_10",
+  "level": "B2",
+  "title": "The Microbiome Revolution",
+  "title_ru": "Революция микробиома",
+  "media_type": "video",
+  "duration_seconds": 115,
+  "description": "Scientific discoveries about gut bacteria",
+  "transcript": "Inside your body live trillions of microorganisms – bacteria, viruses, fungi – collectively known as your microbiome. For most of medical history, we viewed bacteria primarily as threats. But revolutionary research is revealing that these microscopic inhabitants play crucial roles in health. Your gut microbiome influences digestion, immune function, and even mental health through the gut-brain axis. Studies link microbiome composition to conditions ranging from obesity to depression. Children raised with excessive hygiene may develop immune problems because they lack microbial exposure needed for healthy development. This challenges the assumption that sterile is always better. Diet profoundly shapes the microbiome. Fiber feeds beneficial bacteria, while processed foods may promote harmful species. Antibiotics, while sometimes necessary, devastate gut communities and can have lasting effects. Probiotics and prebiotics aim to support healthy microbiomes, though the science remains complex. Future medicine may include microbiome-based treatments. Fecal transplants already cure certain infections. Personalized probiotics tailored to individual microbiomes might address various conditions. Some researchers envision engineering microbes to deliver drugs or correct metabolic disorders. We're just beginning to understand this ecosystem within us, but it's becoming clear that human health cannot be separated from our microbial partners.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the collective term for microorganisms in your body?", "options": ["Genome", "Microbiome", "Ecosystem"], "correct": 1},
+    {"type": "multiple_choice", "question": "What feeds beneficial bacteria?", "options": ["Sugar", "Fiber", "Protein"], "correct": 1},
+    {"type": "true_false", "question": "Sterile environments are always better for health.", "correct": false},
+    {"type": "true_false", "question": "The gut microbiome influences mental health.", "correct": true},
+    {"type": "fill_gap", "question": "Antibiotics ___ gut communities and can have lasting effects.", "answer": "devastate"}
+  ],
+  "vocabulary": ["microbiome", "gut-brain axis", "hygiene", "probiotics", "metabolic"],
+  "key_phrases": ["revolutionary research", "challenges the assumption", "profoundly shapes", "personalized probiotics"]
+}

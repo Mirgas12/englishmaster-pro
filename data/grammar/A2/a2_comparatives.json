@@ -1,0 +1,298 @@
+{
+  "id": "a2_comparatives",
+  "level": "A2",
+  "title": "Comparatives",
+  "title_ru": "Сравнительная степень",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a1_to_be", "a1_articles"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about two cities. Notice how they are compared.",
+      "instruction_ru": "Прочитай о двух городах. Обрати внимание, как они сравниваются.",
+      "content": {
+        "text": "Tokyo and Paris are both amazing cities, but they are different. Tokyo is <highlight>bigger</highlight> than Paris. It's also <highlight>more crowded</highlight>. Paris is <highlight>older</highlight> than Tokyo. The buildings in Paris are <highlight>more beautiful</highlight>. Tokyo is <highlight>more expensive</highlight> than Paris. The food in Tokyo is <highlight>cheaper</highlight>. Paris is <highlight>more romantic</highlight>. Tokyo is <highlight>faster</highlight> and <highlight>more modern</highlight>. Both cities are great, but Tokyo is <highlight>better</highlight> for technology lovers.",
+        "question": "How do we make comparatives? What patterns do you see?",
+        "question_ru": "Как мы образуем сравнительную степень? Какие закономерности ты видишь?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Comparatives - Comparing two things",
+        "title_ru": "Сравнительная степень - Сравнение двух вещей",
+        "points": [
+          {
+            "rule": "Short adjectives (1 syllable): + -er",
+            "rule_ru": "Короткие прилагательные (1 слог): + -er",
+            "example": "tall → taller, fast → faster, old → older",
+            "marker": "+er"
+          },
+          {
+            "rule": "Adjectives ending in -e: + -r",
+            "rule_ru": "Прилагательные на -e: + -r",
+            "example": "nice → nicer, large → larger",
+            "marker": "-e → -er"
+          },
+          {
+            "rule": "Short vowel + consonant: double consonant + -er",
+            "rule_ru": "Краткая гласная + согласная: удваиваем + -er",
+            "example": "big → bigger, hot → hotter, thin → thinner",
+            "marker": "double + -er"
+          },
+          {
+            "rule": "Adjectives ending in -y: y → ier",
+            "rule_ru": "Прилагательные на -y: y → ier",
+            "example": "happy → happier, easy → easier, busy → busier",
+            "marker": "y → ier"
+          },
+          {
+            "rule": "Long adjectives (2+ syllables): more + adjective",
+            "rule_ru": "Длинные прилагательные (2+ слога): more + прилагательное",
+            "example": "beautiful → more beautiful, expensive → more expensive",
+            "marker": "more + adj"
+          },
+          {
+            "rule": "Irregular: good → better, bad → worse, far → farther",
+            "rule_ru": "Неправильные: good → better, bad → worse, far → farther",
+            "example": "This is better. That's worse.",
+            "marker": "irregular"
+          }
+        ],
+        "comparison_table": [
+          {"adjective": "tall", "comparative": "taller", "rule": "short (+er)"},
+          {"adjective": "big", "comparative": "bigger", "rule": "double consonant"},
+          {"adjective": "happy", "comparative": "happier", "rule": "y → ier"},
+          {"adjective": "beautiful", "comparative": "more beautiful", "rule": "more +"},
+          {"adjective": "good", "comparative": "better", "rule": "irregular"},
+          {"adjective": "bad", "comparative": "worse", "rule": "irregular"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all comparatives. Identify the rule used for each.",
+      "instruction_ru": "Найди все сравнительные формы. Определи правило для каждой.",
+      "tasks": [
+        {
+          "text": "My new apartment is better than my old one. It's bigger and brighter. The rooms are nicer. The kitchen is more modern. It's closer to my work, so I get there faster. The neighborhood is quieter and safer. The rent is higher, but it's more comfortable. I'm happier here. My old place was cheaper, but this one is much better!",
+          "find": [
+            {"comparative": "better", "base": "good", "rule": "irregular"},
+            {"comparative": "bigger", "base": "big", "rule": "double consonant + er"},
+            {"comparative": "brighter", "base": "bright", "rule": "+er"},
+            {"comparative": "nicer", "base": "nice", "rule": "-e → -r"},
+            {"comparative": "more modern", "base": "modern", "rule": "more +"},
+            {"comparative": "closer", "base": "close", "rule": "-e → -r"},
+            {"comparative": "faster", "base": "fast", "rule": "+er"},
+            {"comparative": "quieter", "base": "quiet", "rule": "+er"},
+            {"comparative": "safer", "base": "safe", "rule": "-e → -r"},
+            {"comparative": "higher", "base": "high", "rule": "+er"},
+            {"comparative": "more comfortable", "base": "comfortable", "rule": "more +"},
+            {"comparative": "happier", "base": "happy", "rule": "y → ier"},
+            {"comparative": "cheaper", "base": "cheap", "rule": "+er"}
+          ]
+        }
+      ],
+      "reflection_question": "Why 'bigger' (with double g) but 'taller' (single l)?",
+      "reflection_question_ru": "Почему 'bigger' (с двумя g), но 'taller' (с одной l)?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the comparative form.",
+          "sentences": [
+            {"sentence": "Tokyo is ___ (big) than London.", "answer": "bigger"},
+            {"sentence": "This book is ___ (interesting) than that one.", "answer": "more interesting"},
+            {"sentence": "She is ___ (tall) than her sister.", "answer": "taller"},
+            {"sentence": "My coffee is ___ (hot) than yours.", "answer": "hotter"},
+            {"sentence": "This test was ___ (easy) than I expected.", "answer": "easier"},
+            {"sentence": "Gold is ___ (expensive) than silver.", "answer": "more expensive"},
+            {"sentence": "Today is ___ (good) than yesterday.", "answer": "better"},
+            {"sentence": "The weather is ___ (bad) today.", "answer": "worse"},
+            {"sentence": "My brother is ___ (young) than me.", "answer": "younger"},
+            {"sentence": "This restaurant is ___ (popular) than before.", "answer": "more popular"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct comparative.",
+          "questions": [
+            {
+              "sentence": "This movie is ___ than the book.",
+              "options": ["more good", "gooder", "better"],
+              "correct": 2,
+              "explanation": "good → better (irregular)"
+            },
+            {
+              "sentence": "Summer is ___ than spring.",
+              "options": ["hoter", "hotter", "more hot"],
+              "correct": 1,
+              "explanation": "hot → hotter (double consonant)"
+            },
+            {
+              "sentence": "English is ___ than Chinese.",
+              "options": ["more easy", "easier", "easyer"],
+              "correct": 1,
+              "explanation": "easy → easier (y → ier)"
+            },
+            {
+              "sentence": "This car is ___ than that one.",
+              "options": ["expensiver", "more expensive", "expensive"],
+              "correct": 1,
+              "explanation": "expensive → more expensive (long word)"
+            },
+            {
+              "sentence": "The situation is ___ than before.",
+              "options": ["badder", "more bad", "worse"],
+              "correct": 2,
+              "explanation": "bad → worse (irregular)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She is more tall than me.",
+              "correct": "She is taller than me.",
+              "explanation": "Short adjective → +er (not more)"
+            },
+            {
+              "incorrect": "This is gooder than that.",
+              "correct": "This is better than that.",
+              "explanation": "good → better (irregular)"
+            },
+            {
+              "incorrect": "He is more happy now.",
+              "correct": "He is happier now.",
+              "explanation": "happy → happier (y → ier)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Compare two things (cities, people, or objects).",
+      "instruction_ru": "Сравни две вещи (города, людей или предметы).",
+      "prompts": [
+        "Compare two cities you know",
+        "Compare two friends or family members",
+        "Compare summer and winter",
+        "Compare two phones or products"
+      ],
+      "example": "Moscow and Saint Petersburg are both beautiful cities. Moscow is bigger than Saint Petersburg. It's more crowded too. But Saint Petersburg is older and more romantic. The architecture is more beautiful. Moscow is faster and more modern. The metro is better in Moscow. Both cities are great, but I prefer Saint Petersburg.",
+      "ai_check": true,
+      "criteria": [
+        "Uses +er correctly for short adjectives",
+        "Uses more + adjective for long ones",
+        "Uses 'than' correctly",
+        "At least 6 comparisons"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many comparatives.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "New vs Old Phone",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 11,
+          "content": "My new phone is so much better than my old one! It's faster and lighter. The screen is bigger and brighter. The camera is more powerful. The battery lasts longer. It was more expensive, but it's worth it. My old phone was slower and older. The storage was smaller too. I'm happier with this new one."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Country vs City Life",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 12,
+          "content": "Country life is very different from city life. The countryside is quieter and more peaceful. The air is cleaner. People are friendlier. Life is slower but more relaxing. Cities are busier and more stressful. But cities are more exciting. There are more things to do. Jobs are easier to find. Which is better? It depends on what you want!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Comparing Siblings",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "My sister and I are very different. She is taller than me. She is also thinner. I am older but she is more organized. She studies harder. I am funnier and more creative. She is better at math. I am better at languages. She is quieter but I am more sociable. We are different but we love each other!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Restaurant Review",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 11,
+          "content": "I tried two Italian restaurants this week. Mario's is cheaper than Luigi's. The portions are bigger. But Luigi's is more elegant. The pasta is tastier. The service is better and faster. The atmosphere is nicer. Mario's is noisier and more crowded. For a romantic dinner, Luigi's is better. For a quick meal, Mario's is more convenient."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Summer vs Winter",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "I prefer summer to winter. Summer is warmer and brighter. Days are longer. I feel happier and more energetic. Winter is colder and darker. But winter is more romantic. The holidays are more special. Hot chocolate tastes better in winter. Both seasons are beautiful in different ways."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "tall → ___",
+          "back": "taller\n\nShort adjective +er"
+        },
+        {
+          "type": "fill_gap",
+          "front": "big → ___",
+          "back": "bigger\n\nDouble consonant +er"
+        },
+        {
+          "type": "fill_gap",
+          "front": "beautiful → ___",
+          "back": "more beautiful\n\nLong adjective = more +"
+        },
+        {
+          "type": "fill_gap",
+          "front": "good → ___",
+          "back": "better\n\nIrregular"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She is more tall than me.\"",
+          "back": "She is taller than me.\n\nShort adjective → +er"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using more with short adjectives (more tall)",
+      "Wrong irregular forms (gooder, badder)",
+      "Not doubling consonant (biger instead of bigger)",
+      "Using -er with long adjectives (beautifuler)"
+    ],
+    "related_topics": ["a2_superlatives", "a1_articles"],
+    "ielts_relevance": "High - common in Speaking Part 2",
+    "frequency_in_english": "Very high"
+  }
+}

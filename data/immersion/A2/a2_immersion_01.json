@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_01",
+  "level": "A2",
+  "title": "Planning a Trip",
+  "title_ru": "Планирование поездки",
+  "media_type": "video",
+  "duration_seconds": 60,
+  "description": "Two friends discuss their vacation plans",
+  "transcript": "Anna: Hey, Mark! Are you going anywhere this summer?\nMark: Yes! I'm planning a trip to Spain.\nAnna: That sounds amazing! When are you going?\nMark: I'm leaving on July 15th and coming back on July 25th.\nAnna: Ten days! That's great. Where will you stay?\nMark: I booked a hotel near the beach in Barcelona. It wasn't expensive.\nAnna: What are you going to do there?\nMark: I want to visit museums, try Spanish food, and swim in the sea. I'm also going to learn some Spanish words before I go.\nAnna: Have a wonderful trip!",
+  "questions": [
+    {"type": "multiple_choice", "question": "Where is Mark going?", "options": ["Italy", "France", "Spain"], "correct": 2},
+    {"type": "multiple_choice", "question": "How long is the trip?", "options": ["One week", "Ten days", "Two weeks"], "correct": 1},
+    {"type": "true_false", "question": "Mark's hotel is far from the beach.", "correct": false},
+    {"type": "true_false", "question": "Mark wants to try Spanish food.", "correct": true},
+    {"type": "fill_gap", "question": "Mark is leaving on July ___.", "answer": "15th"}
+  ],
+  "vocabulary": ["vacation", "trip", "hotel", "beach", "museum"],
+  "key_phrases": ["I'm planning to", "I'm going to", "When are you going", "I want to"]
+}

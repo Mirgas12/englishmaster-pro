@@ -1,0 +1,291 @@
+{
+  "id": "c1_cleft_advanced",
+  "level": "C1",
+  "title": "Advanced Cleft Sentences",
+  "title_ru": "Продвинутые расщеплённые предложения",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_cleft_sentences", "b2_emphasis_structures"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this analysis. Notice the variety of cleft structures.",
+      "instruction_ru": "Прочитай этот анализ. Обрати внимание на разнообразие расщеплённых структур.",
+      "content": {
+        "text": "<highlight>It was not until the 1990s that</highlight> the internet became mainstream. <highlight>What really transformed society was</highlight> the smartphone. <highlight>The reason why this matters is that</highlight> access became universal. <highlight>It is precisely because of this that</highlight> we must adapt. <highlight>What concerns experts most is</highlight> the speed of change. <highlight>The thing that distinguishes our era is</highlight> connectivity. <highlight>All that is needed is</highlight> a willingness to learn. <highlight>It was only after decades that</highlight> the implications became clear. <highlight>What makes this significant is</highlight> its global reach. <highlight>The place where it began was</highlight> Silicon Valley.",
+        "question": "What different types of information can be emphasized with clefts?",
+        "question_ru": "Какие разные типы информации можно выделить с помощью расщеплённых предложений?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Advanced Cleft Constructions",
+        "title_ru": "Продвинутые расщеплённые конструкции",
+        "points": [
+          {
+            "rule": "It + be + focus + that/who: emphasizes any element (time, reason, person, thing)",
+            "rule_ru": "It + be + фокус + that/who: выделяет любой элемент (время, причину, человека, вещь)",
+            "example": "It was in Paris that they met. It is because of this that we must act.",
+            "marker": "it-cleft"
+          },
+          {
+            "rule": "What-clause: What + S + V + be + focus (emphasizes actions/things)",
+            "rule_ru": "What-придаточное: What + S + V + be + фокус (выделяет действия/вещи)",
+            "example": "What we need is time. What happened was unexpected.",
+            "marker": "wh-cleft"
+          },
+          {
+            "rule": "All-clause: All (that) + S + V + be (emphasizes limitation)",
+            "rule_ru": "All-придаточное: All (that) + S + V + be (выделяет ограничение)",
+            "example": "All I want is peace. All that's needed is patience.",
+            "marker": "all-cleft"
+          },
+          {
+            "rule": "The reason/thing/place/way: The reason why... is that...",
+            "rule_ru": "The reason/thing/place/way: The reason why... is that...",
+            "example": "The reason I'm late is that my car broke down.",
+            "marker": "noun-cleft"
+          },
+          {
+            "rule": "Negative it-clefts: It wasn't until / It is not that... but (that)",
+            "rule_ru": "Отрицательные it-расщеплённые: It wasn't until / It is not that... but (that)",
+            "example": "It wasn't until Monday that I heard. It's not that I don't care, but...",
+            "marker": "negative cleft"
+          }
+        ],
+        "comparison_table": [
+          {"type": "It-cleft (thing)", "pattern": "It was X that...", "example": "It was the silence that disturbed me."},
+          {"type": "It-cleft (person)", "pattern": "It was X who...", "example": "It was John who suggested this."},
+          {"type": "It-cleft (time)", "pattern": "It was then/in 2020 that...", "example": "It was in 2020 that everything changed."},
+          {"type": "It-cleft (reason)", "pattern": "It is because of X that...", "example": "It is because of you that we succeeded."},
+          {"type": "What-cleft", "pattern": "What S V is...", "example": "What I mean is this."},
+          {"type": "All-cleft", "pattern": "All S V is...", "example": "All I ask is honesty."},
+          {"type": "The reason", "pattern": "The reason why... is that...", "example": "The reason I called is that I need help."}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the cleft type and what is being emphasized.",
+      "instruction_ru": "Определи тип расщеплённого предложения и что именно выделяется.",
+      "tasks": [
+        {
+          "text": "From an academic essay:\n\n1. It was Darwin who first proposed this theory.\n2. What distinguishes humans from other animals is language.\n3. The reason why this study is important is its methodology.\n4. All we can do now is wait for the results.\n5. It was not until the 20th century that women gained the vote.\n6. What the research suggests is a need for caution.\n7. The thing that concerns me most is the lack of evidence.\n8. It is precisely this point that critics overlook.\n9. The way in which data was collected is crucial.\n10. It's not that the theory is wrong, but that it's incomplete.",
+          "find": [
+            {"sentence": 1, "type": "It-cleft (person)", "focus": "Darwin"},
+            {"sentence": 2, "type": "What-cleft", "focus": "language"},
+            {"sentence": 3, "type": "Reason-cleft", "focus": "its methodology"},
+            {"sentence": 4, "type": "All-cleft", "focus": "wait (limited action)"},
+            {"sentence": 5, "type": "Negative It-cleft (time)", "focus": "the 20th century"},
+            {"sentence": 6, "type": "What-cleft", "focus": "a need for caution"},
+            {"sentence": 7, "type": "The thing-cleft", "focus": "the lack of evidence"},
+            {"sentence": 8, "type": "It-cleft (thing)", "focus": "this point"},
+            {"sentence": 9, "type": "The way-cleft", "focus": "how data was collected"},
+            {"sentence": 10, "type": "It's not that...but", "focus": "contrast/clarification"}
+          ]
+        }
+      ],
+      "reflection_question": "When would you choose an it-cleft over a what-cleft?",
+      "reflection_question_ru": "Когда бы ты выбрал it-расщеплённое вместо what-расщеплённого?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite to emphasize the underlined element using an appropriate cleft.",
+          "sentences": [
+            {"original": "_John_ solved the problem.", "cleft": "It was John who solved the problem."},
+            {"original": "We need _more time_.", "cleft": "What we need is more time."},
+            {"original": "I want _honesty_.", "cleft": "All I want is honesty."},
+            {"original": "I'm concerned about _the cost_.", "cleft": "What concerns me is the cost. / The thing that concerns me is the cost."},
+            {"original": "We learned the truth _in 2019_.", "cleft": "It was in 2019 that we learned the truth."},
+            {"original": "I left _because I was tired_.", "cleft": "The reason I left was that I was tired."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the cleft construction.",
+          "sentences": [
+            {"sentence": "___ was only after the war ___ peace returned.", "answer": "It, that"},
+            {"sentence": "___ we need now is a clear plan.", "answer": "What"},
+            {"sentence": "___ I ask is your cooperation.", "answer": "All"},
+            {"sentence": "The reason ___ I'm calling is ___ I have news.", "answer": "why, that"},
+            {"sentence": "___ is not the money that matters, ___ the principle.", "answer": "It, but"},
+            {"sentence": "___ ___ me most is the deadline.", "answer": "What concerns"},
+            {"sentence": "The thing ___ makes this special is the location.", "answer": "that"},
+            {"sentence": "It ___ because of her support ___ we succeeded.", "answer": "was, that"}
+          ]
+        },
+        {
+          "type": "choose_cleft_type",
+          "instruction": "Choose the most appropriate cleft structure for the context.",
+          "questions": [
+            {
+              "context": "Emphasizing that money isn't the issue",
+              "options": ["What I want is money", "It's not the money that bothers me", "All is money"],
+              "correct": 1,
+              "explanation": "It's not...that structure for clarification/denial"
+            },
+            {
+              "context": "Emphasizing a very limited request",
+              "options": ["It is your time that I need", "What I need is your time", "All I need is a moment"],
+              "correct": 2,
+              "explanation": "All-cleft emphasizes how limited/modest the request is"
+            },
+            {
+              "context": "Emphasizing when something happened",
+              "options": ["What happened was in 1999", "In 1999 is when it happened", "It was in 1999 that it happened"],
+              "correct": 2,
+              "explanation": "It-cleft with time expression is most natural"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the error in the cleft sentence.",
+          "sentences": [
+            {
+              "incorrect": "It was because of the rain what the match was cancelled.",
+              "correct": "It was because of the rain that the match was cancelled.",
+              "explanation": "It-cleft uses 'that', not 'what'"
+            },
+            {
+              "incorrect": "What I need it is more time.",
+              "correct": "What I need is more time.",
+              "explanation": "No extra 'it' in what-cleft"
+            },
+            {
+              "incorrect": "The reason why I left is because I was tired.",
+              "correct": "The reason why I left is that I was tired.",
+              "explanation": "After 'The reason is', use 'that', not 'because'"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write an analytical piece using various cleft structures for emphasis.",
+      "instruction_ru": "Напиши аналитический текст, используя различные расщеплённые структуры для акцента.",
+      "prompts": [
+        "Analyze why something succeeded or failed",
+        "Explain what makes something unique",
+        "Discuss what concerns you about a trend",
+        "Compare what different perspectives focus on"
+      ],
+      "example": "What distinguishes successful companies from failures is their ability to adapt. It was precisely this quality that allowed certain firms to thrive during the pandemic. The reason why adaptation matters is that markets constantly evolve. All that is required is a willingness to change. It is not that traditional methods are wrong, but that they may become outdated. What concerns analysts most is the speed of technological disruption. The thing that makes the current era unique is the pace of innovation. It was only after major shifts that many companies recognized the need for transformation. All we can predict is that change will continue.",
+      "ai_check": true,
+      "criteria": [
+        "Uses It-cleft structures correctly",
+        "Uses What-cleft structures",
+        "Uses All-cleft for limitation/emphasis",
+        "Uses The reason/thing constructions",
+        "Uses negative clefts (It's not that...but)",
+        "At least 8 cleft structures"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 analytical texts with varied cleft structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Technology Analysis",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "What makes artificial intelligence revolutionary is its learning capability. It was not until recently that this became practical. The reason why progress accelerated is improved computing power. All that was needed was sufficient data. It is precisely this combination that enabled breakthroughs. What concerns ethicists most is the lack of transparency. The thing that distinguishes AI from traditional software is adaptability. It's not that the technology is inherently dangerous, but that governance is lacking. What we must do now is establish frameworks."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Economic Review",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "It was the financial crisis that exposed systemic weaknesses. What the crisis revealed was excessive risk-taking. The reason why reforms were necessary is clear. All that regulators could do was respond reactively. It is because of these failures that new rules emerged. What matters now is implementation. The thing that differentiates this era is interconnection. It was not until markets collapsed that the scale became apparent. What we learned was the importance of oversight. All that remains is to apply these lessons."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Social Commentary",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "What defines modern communication is speed. It was social media that transformed how we interact. The reason why this matters is its influence on society. All we see is the surface level of change. It is precisely the subtle effects that concern researchers. What worries psychologists is the impact on youth. The thing that makes this different from past technologies is its pervasiveness. It's not that social media is entirely negative, but that balance is needed. All that is required is awareness."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Environmental Discussion",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "What makes climate change uniquely challenging is its global nature. It was only in recent decades that scientific consensus emerged. The reason why action has been slow is political complexity. All that scientists can do is present evidence. It is because of resistance from certain interests that progress stalls. What frustrates activists is the gap between knowledge and action. The thing that distinguishes this crisis is urgency. It's not that solutions don't exist, but that implementation is difficult. All we need is political will."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Educational Perspective",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "What distinguishes effective teaching is engagement. It was research into cognitive science that transformed our understanding. The reason why traditional methods persist is institutional inertia. All that is needed is willingness to adapt. It is precisely the emphasis on memorization that limits learning. What concerns educators is the focus on testing. The thing that makes good education valuable is its lasting impact. It's not that standards are unimportant, but that they shouldn't dominate. All students deserve is opportunity."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "John caused the problem.\nEmphasize 'John' with it-cleft:",
+          "back": "It was John who caused the problem."
+        },
+        {
+          "type": "transformation",
+          "front": "We need more resources.\nUse what-cleft:",
+          "back": "What we need is more resources."
+        },
+        {
+          "type": "transformation",
+          "front": "I only want peace.\nUse all-cleft:",
+          "back": "All I want is peace."
+        },
+        {
+          "type": "fill_gap",
+          "front": "It ___ not until 2020 ___ we understood.",
+          "back": "was, that\n\nNegative it-cleft with time"
+        },
+        {
+          "type": "error_correction",
+          "front": "The reason why I left is because I was tired.",
+          "back": "The reason why I left is that I was tired.\n\nUse 'that' after 'The reason is', not 'because'"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_type"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'what' instead of 'that' in it-clefts",
+      "Using 'because' after 'The reason is'",
+      "Adding extra pronouns in cleft structures",
+      "Confusing when to use it-cleft vs what-cleft"
+    ],
+    "related_topics": ["b2_cleft_sentences", "b2_emphasis_structures"],
+    "ielts_relevance": "High - Band 7+ sophisticated structures",
+    "cae_relevance": "Writing, Speaking Part 3",
+    "frequency_in_english": "High in formal/academic English"
+  }
+}

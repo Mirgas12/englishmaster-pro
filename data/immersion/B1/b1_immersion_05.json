@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_05",
+  "level": "B1",
+  "title": "City vs Countryside Living",
+  "title_ru": "Жизнь в городе или за городом",
+  "media_type": "audio",
+  "duration_seconds": 80,
+  "description": "Debate about urban versus rural living",
+  "transcript": "Where is it better to live – in a city or the countryside? Both have advantages and disadvantages. City life offers convenience. You have easy access to shops, restaurants, entertainment, and public transport. There are more job opportunities and usually better healthcare and education. However, cities can be stressful, expensive, and polluted. Noise and crowds are constant companions. Living in the countryside provides peace and quiet. You're surrounded by nature, and the air is cleaner. Houses are typically larger and cheaper. The community tends to be closer-knit, with neighbors knowing each other. The main drawbacks are limited services, fewer job options, and the need to drive everywhere. Many people dream of rural life but find the reality challenging. Perhaps the best solution is living near a city – enjoying countryside benefits while having urban amenities within reach. Ultimately, the choice depends on your priorities, career, and stage of life.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do cities offer more of?", "options": ["Peace and quiet", "Job opportunities", "Clean air"], "correct": 1},
+    {"type": "multiple_choice", "question": "What's a drawback of countryside living?", "options": ["Too many restaurants", "Need to drive everywhere", "Too many neighbors"], "correct": 1},
+    {"type": "true_false", "question": "Houses in the countryside are typically more expensive.", "correct": false},
+    {"type": "true_false", "question": "Cities can be stressful and polluted.", "correct": true},
+    {"type": "fill_gap", "question": "Countryside communities tend to be more ___.", "answer": "close-knit"}
+  ],
+  "vocabulary": ["convenience", "access", "polluted", "drawbacks", "amenities"],
+  "key_phrases": ["advantages and disadvantages", "easy access to", "the main drawbacks are", "depends on your priorities"]
+}

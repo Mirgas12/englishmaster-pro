@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_05",
+  "level": "A2",
+  "title": "Weekend Plans",
+  "title_ru": "Планы на выходные",
+  "media_type": "video",
+  "duration_seconds": 55,
+  "description": "Friends discuss their weekend activities",
+  "transcript": "Lisa: What are you doing this weekend, Tom?\nTom: I'm not sure yet. Maybe I'll go to the cinema on Saturday. There's a new action movie.\nLisa: That sounds fun! I'm meeting some friends for lunch on Saturday.\nTom: Nice! What about Sunday?\nLisa: I'm going to visit my parents. They live in the countryside. We usually have a big family lunch. What about you?\nTom: I'm planning to clean my apartment in the morning. In the afternoon, I might go for a bike ride if the weather is nice.\nLisa: Sounds like a nice weekend!\nTom: Yeah, nothing special, but I need to relax.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What might Tom do on Saturday?", "options": ["Visit parents", "Go to cinema", "Clean apartment"], "correct": 1},
+    {"type": "multiple_choice", "question": "Where do Lisa's parents live?", "options": ["In the city", "In the countryside", "Abroad"], "correct": 1},
+    {"type": "true_false", "question": "Lisa is meeting friends on Sunday.", "correct": false},
+    {"type": "true_false", "question": "Tom wants to go for a bike ride on Sunday.", "correct": true},
+    {"type": "fill_gap", "question": "Tom is planning to ___ his apartment.", "answer": "clean"}
+  ],
+  "vocabulary": ["weekend", "cinema", "countryside", "apartment", "bike ride"],
+  "key_phrases": ["What are you doing", "I'm planning to", "I might go", "if the weather is nice"]
+}

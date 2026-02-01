@@ -1,0 +1,279 @@
+{
+  "id": "a2_future_going_to",
+  "level": "A2",
+  "title": "Future with Going To",
+  "title_ru": "Будущее время с Going To",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a1_present_continuous", "a2_future_will"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about Lisa's weekend plans. Notice 'going to'.",
+      "instruction_ru": "Прочитай о планах Лизы на выходные. Обрати внимание на 'going to'.",
+      "content": {
+        "text": "I have big plans for the weekend! On Saturday, I <highlight>'m going to visit</highlight> my parents. We <highlight>are going to have</highlight> lunch together. In the afternoon, I <highlight>'m going to go</highlight> shopping. I <highlight>'m going to buy</highlight> a new dress for the party next week. On Sunday, my friends <highlight>are going to come</highlight> over. We <highlight>are going to watch</highlight> a movie. Look at those clouds! It <highlight>'s going to rain</highlight>!",
+        "question": "When do we use 'going to'? What's the difference from 'will'?",
+        "question_ru": "Когда мы используем 'going to'? В чём отличие от 'will'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Going to - Plans and predictions with evidence",
+        "title_ru": "Going to - Планы и предсказания с доказательствами",
+        "points": [
+          {
+            "rule": "Form: am/is/are + going to + verb",
+            "rule_ru": "Форма: am/is/are + going to + глагол",
+            "example": "I am going to travel. She is going to study.",
+            "marker": "be + going to + verb"
+          },
+          {
+            "rule": "Use 1: Plans and intentions (decided before)",
+            "rule_ru": "Использование 1: Планы и намерения (уже решено)",
+            "example": "I'm going to buy a car next month. (I already decided)",
+            "marker": "planned before"
+          },
+          {
+            "rule": "Use 2: Predictions with evidence",
+            "rule_ru": "Использование 2: Предсказания с доказательствами",
+            "example": "Look at those clouds! It's going to rain. (I can see evidence)",
+            "marker": "evidence"
+          },
+          {
+            "rule": "Negative: am/is/are + not + going to",
+            "rule_ru": "Отрицание: am/is/are + not + going to",
+            "example": "I'm not going to go. She isn't going to come.",
+            "marker": "not going to"
+          }
+        ],
+        "comparison_table": [
+          {"context": "Spontaneous decision", "use": "WILL", "example": "I'll help you! (deciding now)"},
+          {"context": "Planned before", "use": "GOING TO", "example": "I'm going to visit Paris. (already planned)"},
+          {"context": "Prediction (opinion)", "use": "WILL", "example": "I think it will rain."},
+          {"context": "Prediction (evidence)", "use": "GOING TO", "example": "Look! It's going to rain. (clouds)"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all 'going to' structures. Identify: plan or prediction with evidence?",
+      "instruction_ru": "Найди все структуры 'going to'. Определи: план или предсказание с доказательством?",
+      "tasks": [
+        {
+          "text": "A: What are you going to do this weekend? B: I'm going to visit my grandmother. She's going to cook dinner for us. A: That sounds nice! Look at your brother - he's going to fall off that chair! B: Oh no! Be careful! A: Are you going to stay long at your grandmother's? B: Yes, we're going to stay until Sunday. I'm not going to take my laptop though.",
+          "find": [
+            {"phrase": "are you going to do", "type": "asking about plans"},
+            {"phrase": "I'm going to visit", "type": "plan"},
+            {"phrase": "She's going to cook", "type": "plan"},
+            {"phrase": "he's going to fall", "type": "prediction with evidence (seeing it)"},
+            {"phrase": "Are you going to stay", "type": "asking about plans"},
+            {"phrase": "we're going to stay", "type": "plan"},
+            {"phrase": "I'm not going to take", "type": "negative plan"}
+          ]
+        }
+      ],
+      "reflection_question": "'I'll buy a car' vs 'I'm going to buy a car' - what's the difference?",
+      "reflection_question_ru": "'I'll buy a car' vs 'I'm going to buy a car' - в чём разница?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct form of 'going to'.",
+          "sentences": [
+            {"sentence": "I ___ (visit) my parents tomorrow.", "answer": "'m going to visit"},
+            {"sentence": "She ___ (not/come) to the party.", "answer": "isn't going to come"},
+            {"sentence": "They ___ (buy) a new house.", "answer": "are going to buy"},
+            {"sentence": "___ you ___ (travel) next month?", "answer": "Are, going to travel"},
+            {"sentence": "Look! The baby ___ (cry)!", "answer": "is going to cry"},
+            {"sentence": "We ___ (have) a meeting at 3.", "answer": "are going to have"},
+            {"sentence": "He ___ (not/watch) TV tonight.", "answer": "isn't going to watch"},
+            {"sentence": "I ___ (learn) Spanish next year.", "answer": "'m going to learn"},
+            {"sentence": "Careful! You ___ (drop) that!", "answer": "are going to drop"},
+            {"sentence": "What ___ she ___ (wear)?", "answer": "is, going to wear"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose 'will' or 'going to'.",
+          "questions": [
+            {
+              "sentence": "I've decided. I ___ buy that car.",
+              "options": ["will", "'m going to", "going"],
+              "correct": 1,
+              "explanation": "Already decided = going to"
+            },
+            {
+              "sentence": "A: I can't carry this. B: I ___ help you.",
+              "options": ["'ll", "'m going to", "going to"],
+              "correct": 0,
+              "explanation": "Spontaneous decision = will"
+            },
+            {
+              "sentence": "Look at those clouds. It ___ rain.",
+              "options": ["will", "'s going to", "is"],
+              "correct": 1,
+              "explanation": "Prediction with evidence = going to"
+            },
+            {
+              "sentence": "I think she ___ win the race.",
+              "options": ["will", "'s going to", "going"],
+              "correct": 0,
+              "explanation": "Prediction (opinion) = will"
+            },
+            {
+              "sentence": "We ___ move to London next year. We already found an apartment.",
+              "options": ["will", "'re going to", "goes"],
+              "correct": 1,
+              "explanation": "Already planned = going to"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She going to travel tomorrow.",
+              "correct": "She is going to travel tomorrow.",
+              "explanation": "Need 'is' before 'going to'"
+            },
+            {
+              "incorrect": "I'm going to will study.",
+              "correct": "I'm going to study.",
+              "explanation": "Don't use 'will' with 'going to'"
+            },
+            {
+              "incorrect": "They are going to visits Paris.",
+              "correct": "They are going to visit Paris.",
+              "explanation": "Base verb after 'going to' (no -s)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your plans for next weekend.",
+      "instruction_ru": "Напиши о своих планах на следующие выходные.",
+      "prompts": [
+        "What are you going to do on Saturday morning?",
+        "Who are you going to meet?",
+        "Where are you going to go?",
+        "What are you going to eat?",
+        "What are you NOT going to do?"
+      ],
+      "example": "Next weekend is going to be busy! On Saturday, I'm going to wake up early. I'm going to go to the gym. Then I'm going to meet my friend for coffee. We're going to have lunch at a new restaurant. On Sunday, I'm going to stay home. I'm going to clean my apartment. I'm not going to work at all!",
+      "ai_check": true,
+      "criteria": [
+        "Uses am/is/are + going to correctly",
+        "Uses both positive and negative",
+        "Describes future plans",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many 'going to' structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Vacation Plans",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Next month, we're going to go to Greece! We're going to stay in Athens for three days. We're going to visit the Acropolis. Then we're going to travel to the islands. We're going to swim in the sea every day. I'm going to take many photos. My husband is going to try Greek food. We're not going to think about work at all!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Birthday Party",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "I'm going to have a birthday party next Saturday! I'm going to invite 20 friends. My mom is going to bake a cake. My dad is going to set up the music. We're going to dance all night. I'm not going to cook - we're going to order pizza. Are you going to come? It's going to be amazing!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "New Year Plans",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Next year is going to be different! I'm going to change my life. I'm going to exercise every day. I'm going to eat healthy food. I'm not going to waste time on social media. I'm going to read more books. My family is going to travel together. We're going to visit Japan. It's going to be the best year ever!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Weather Warning",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 9,
+          "content": "Look outside! It's going to be a terrible storm. Look at those dark clouds - it's going to rain heavily. The wind is going to be very strong. We're not going to go outside today. We're going to stay home. I'm going to close all the windows. The roads are going to be dangerous."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Career Plans",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "After university, I'm going to look for a job in marketing. I'm going to apply to big companies. I'm not going to give up easily. My professor is going to write a recommendation letter. I'm going to prepare for interviews. It's going to be challenging, but I'm ready. One day, I'm going to start my own business!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ (visit) Paris next week. (planned)",
+          "back": "'m going to visit\n\nPlanned before = going to"
+        },
+        {
+          "type": "choose",
+          "front": "Look at those clouds! It ___.\n(will rain / 's going to rain)",
+          "back": "'s going to rain\n\nEvidence (clouds) = going to"
+        },
+        {
+          "type": "choose",
+          "front": "I've decided. I ___ a car.\n(will buy / 'm going to buy)",
+          "back": "'m going to buy\n\nAlready decided = going to"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: She is going to travel.\nNegative: ?",
+          "back": "She isn't going to travel."
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I going to study tonight.\"",
+          "back": "I'm going to study tonight.\n\nNeed 'am' before 'going'"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 7,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting am/is/are (I going to...)",
+      "Using will and going to together",
+      "Adding -s to verb after going to",
+      "Confusing will and going to uses"
+    ],
+    "related_topics": ["a2_future_will", "a1_present_continuous"],
+    "ielts_relevance": "High - used for plans in Speaking",
+    "frequency_in_english": "Very high"
+  }
+}

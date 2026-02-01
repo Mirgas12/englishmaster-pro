@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_06",
+  "level": "B1",
+  "title": "Technology and Children",
+  "title_ru": "Технологии и дети",
+  "media_type": "video",
+  "duration_seconds": 85,
+  "description": "Discussion about children's screen time",
+  "transcript": "How much screen time is appropriate for children? This question concerns many parents today. Technology is everywhere, and completely avoiding it is unrealistic. However, excessive screen time has been linked to sleep problems, obesity, and attention difficulties. Experts recommend limits based on age. Children under two should have minimal screen time except for video calls with family. For ages two to five, one hour per day of quality content is suggested. Older children need consistent limits that allow time for physical activity, homework, and social interaction. Not all screen time is equal. Educational apps and creative activities are different from passive video watching. Parents should engage with their children during screen time when possible, discussing what they're watching or playing. Setting rules about no screens during meals or before bedtime helps establish healthy habits. Most importantly, parents should model good behavior – children learn from watching us. Balance is key.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What has excessive screen time been linked to?", "options": ["Better grades", "Sleep problems", "Improved memory"], "correct": 1},
+    {"type": "multiple_choice", "question": "How much screen time is suggested for ages 2-5?", "options": ["No limit", "One hour per day", "Three hours per day"], "correct": 1},
+    {"type": "true_false", "question": "All screen time is equally harmful.", "correct": false},
+    {"type": "true_false", "question": "Parents should model good behavior.", "correct": true},
+    {"type": "fill_gap", "question": "Experts recommend ___ screen time for children under two.", "answer": "minimal"}
+  ],
+  "vocabulary": ["appropriate", "excessive", "passive", "engage", "establish"],
+  "key_phrases": ["has been linked to", "based on age", "not all screen time is equal", "balance is key"]
+}

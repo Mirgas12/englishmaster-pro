@@ -1,0 +1,144 @@
+{
+  "level": "A2",
+  "total_words": 400,
+  "categories": [
+    {
+      "name": "Travel & Transport",
+      "name_ru": "Путешествия и транспорт",
+      "words": [
+        {"word": "airport", "translation": "аэропорт", "example": "The airport is far from the city.", "phonetic": "/ˈeəpɔːt/"},
+        {"word": "train", "translation": "поезд", "example": "I take the train to work.", "phonetic": "/treɪn/"},
+        {"word": "bus", "translation": "автобус", "example": "The bus arrives at 9.", "phonetic": "/bʌs/"},
+        {"word": "plane", "translation": "самолёт", "example": "We flew by plane.", "phonetic": "/pleɪn/"},
+        {"word": "ticket", "translation": "билет", "example": "I bought a return ticket.", "phonetic": "/ˈtɪkɪt/"},
+        {"word": "passport", "translation": "паспорт", "example": "Don't forget your passport.", "phonetic": "/ˈpɑːspɔːt/"},
+        {"word": "hotel", "translation": "отель", "example": "We stayed at a nice hotel.", "phonetic": "/həʊˈtel/"},
+        {"word": "luggage", "translation": "багаж", "example": "My luggage is heavy.", "phonetic": "/ˈlʌɡɪdʒ/"},
+        {"word": "journey", "translation": "путешествие", "example": "It was a long journey.", "phonetic": "/ˈdʒɜːni/"},
+        {"word": "departure", "translation": "отправление", "example": "Check the departure time.", "phonetic": "/dɪˈpɑːtʃə/"},
+        {"word": "arrival", "translation": "прибытие", "example": "The arrival is delayed.", "phonetic": "/əˈraɪvl/"},
+        {"word": "platform", "translation": "платформа", "example": "The train leaves from platform 3.", "phonetic": "/ˈplætfɔːm/"}
+      ]
+    },
+    {
+      "name": "Shopping",
+      "name_ru": "Покупки",
+      "words": [
+        {"word": "shop", "translation": "магазин", "example": "The shop opens at 9.", "phonetic": "/ʃɒp/"},
+        {"word": "price", "translation": "цена", "example": "What's the price?", "phonetic": "/praɪs/"},
+        {"word": "cheap", "translation": "дешёвый", "example": "This is very cheap.", "phonetic": "/tʃiːp/"},
+        {"word": "expensive", "translation": "дорогой", "example": "This bag is too expensive.", "phonetic": "/ɪkˈspensɪv/"},
+        {"word": "sale", "translation": "распродажа", "example": "There's a big sale today.", "phonetic": "/seɪl/"},
+        {"word": "discount", "translation": "скидка", "example": "Can I get a discount?", "phonetic": "/ˈdɪskaʊnt/"},
+        {"word": "cash", "translation": "наличные", "example": "I'll pay cash.", "phonetic": "/kæʃ/"},
+        {"word": "card", "translation": "карта", "example": "Can I pay by card?", "phonetic": "/kɑːd/"},
+        {"word": "receipt", "translation": "чек", "example": "Keep your receipt.", "phonetic": "/rɪˈsiːt/"},
+        {"word": "size", "translation": "размер", "example": "What size do you need?", "phonetic": "/saɪz/"},
+        {"word": "try on", "translation": "примерить", "example": "Can I try this on?", "phonetic": "/traɪ ɒn/"},
+        {"word": "customer", "translation": "покупатель", "example": "The customer is always right.", "phonetic": "/ˈkʌstəmə/"}
+      ]
+    },
+    {
+      "name": "Work & Jobs",
+      "name_ru": "Работа и профессии",
+      "words": [
+        {"word": "job", "translation": "работа", "example": "I found a new job.", "phonetic": "/dʒɒb/"},
+        {"word": "office", "translation": "офис", "example": "I work in an office.", "phonetic": "/ˈɒfɪs/"},
+        {"word": "boss", "translation": "босс", "example": "My boss is nice.", "phonetic": "/bɒs/"},
+        {"word": "colleague", "translation": "коллега", "example": "She's my colleague.", "phonetic": "/ˈkɒliːɡ/"},
+        {"word": "salary", "translation": "зарплата", "example": "The salary is good.", "phonetic": "/ˈsæləri/"},
+        {"word": "meeting", "translation": "встреча", "example": "We have a meeting at 10.", "phonetic": "/ˈmiːtɪŋ/"},
+        {"word": "interview", "translation": "собеседование", "example": "I have an interview tomorrow.", "phonetic": "/ˈɪntəvjuː/"},
+        {"word": "experience", "translation": "опыт", "example": "Do you have experience?", "phonetic": "/ɪkˈspɪəriəns/"},
+        {"word": "company", "translation": "компания", "example": "I work for a big company.", "phonetic": "/ˈkʌmpəni/"},
+        {"word": "manager", "translation": "менеджер", "example": "She's the project manager.", "phonetic": "/ˈmænɪdʒə/"},
+        {"word": "employee", "translation": "сотрудник", "example": "We have 50 employees.", "phonetic": "/ɪmˈplɔɪiː/"},
+        {"word": "unemployed", "translation": "безработный", "example": "He's been unemployed for months.", "phonetic": "/ˌʌnɪmˈplɔɪd/"}
+      ]
+    },
+    {
+      "name": "Health",
+      "name_ru": "Здоровье",
+      "words": [
+        {"word": "doctor", "translation": "врач", "example": "I need to see a doctor.", "phonetic": "/ˈdɒktə/"},
+        {"word": "hospital", "translation": "больница", "example": "She's in hospital.", "phonetic": "/ˈhɒspɪtl/"},
+        {"word": "medicine", "translation": "лекарство", "example": "Take this medicine twice a day.", "phonetic": "/ˈmedsn/"},
+        {"word": "headache", "translation": "головная боль", "example": "I have a terrible headache.", "phonetic": "/ˈhedeɪk/"},
+        {"word": "cold", "translation": "простуда", "example": "I've got a cold.", "phonetic": "/kəʊld/"},
+        {"word": "fever", "translation": "жар", "example": "She has a high fever.", "phonetic": "/ˈfiːvə/"},
+        {"word": "pain", "translation": "боль", "example": "I feel pain in my back.", "phonetic": "/peɪn/"},
+        {"word": "healthy", "translation": "здоровый", "example": "Eat healthy food.", "phonetic": "/ˈhelθi/"},
+        {"word": "sick", "translation": "больной", "example": "I feel sick today.", "phonetic": "/sɪk/"},
+        {"word": "appointment", "translation": "приём", "example": "I made an appointment.", "phonetic": "/əˈpɔɪntmənt/"},
+        {"word": "pharmacy", "translation": "аптека", "example": "The pharmacy is open 24 hours.", "phonetic": "/ˈfɑːməsi/"},
+        {"word": "prescription", "translation": "рецепт", "example": "You need a prescription.", "phonetic": "/prɪˈskrɪpʃn/"}
+      ]
+    },
+    {
+      "name": "Weather",
+      "name_ru": "Погода",
+      "words": [
+        {"word": "sunny", "translation": "солнечно", "example": "It's sunny today.", "phonetic": "/ˈsʌni/"},
+        {"word": "cloudy", "translation": "облачно", "example": "The sky is cloudy.", "phonetic": "/ˈklaʊdi/"},
+        {"word": "rain", "translation": "дождь", "example": "It's going to rain.", "phonetic": "/reɪn/"},
+        {"word": "snow", "translation": "снег", "example": "It snows in winter.", "phonetic": "/snəʊ/"},
+        {"word": "wind", "translation": "ветер", "example": "The wind is strong.", "phonetic": "/wɪnd/"},
+        {"word": "fog", "translation": "туман", "example": "There's thick fog.", "phonetic": "/fɒɡ/"},
+        {"word": "storm", "translation": "шторм", "example": "A storm is coming.", "phonetic": "/stɔːm/"},
+        {"word": "temperature", "translation": "температура", "example": "The temperature is 25 degrees.", "phonetic": "/ˈtemprətʃə/"},
+        {"word": "forecast", "translation": "прогноз", "example": "Check the weather forecast.", "phonetic": "/ˈfɔːkɑːst/"},
+        {"word": "degree", "translation": "градус", "example": "It's 30 degrees outside.", "phonetic": "/dɪˈɡriː/"}
+      ]
+    },
+    {
+      "name": "Hobbies & Free Time",
+      "name_ru": "Хобби и досуг",
+      "words": [
+        {"word": "hobby", "translation": "хобби", "example": "Photography is my hobby.", "phonetic": "/ˈhɒbi/"},
+        {"word": "sport", "translation": "спорт", "example": "I love watching sport.", "phonetic": "/spɔːt/"},
+        {"word": "football", "translation": "футбол", "example": "I play football on Saturdays.", "phonetic": "/ˈfʊtbɔːl/"},
+        {"word": "swimming", "translation": "плавание", "example": "Swimming is good exercise.", "phonetic": "/ˈswɪmɪŋ/"},
+        {"word": "reading", "translation": "чтение", "example": "Reading is relaxing.", "phonetic": "/ˈriːdɪŋ/"},
+        {"word": "cooking", "translation": "готовка", "example": "I enjoy cooking.", "phonetic": "/ˈkʊkɪŋ/"},
+        {"word": "music", "translation": "музыка", "example": "I listen to music every day.", "phonetic": "/ˈmjuːzɪk/"},
+        {"word": "movie", "translation": "фильм", "example": "Let's watch a movie.", "phonetic": "/ˈmuːvi/"},
+        {"word": "game", "translation": "игра", "example": "He plays video games.", "phonetic": "/ɡeɪm/"},
+        {"word": "exercise", "translation": "упражнение", "example": "Exercise is good for you.", "phonetic": "/ˈeksəsaɪz/"},
+        {"word": "gym", "translation": "спортзал", "example": "I go to the gym twice a week.", "phonetic": "/dʒɪm/"},
+        {"word": "party", "translation": "вечеринка", "example": "Are you coming to the party?", "phonetic": "/ˈpɑːti/"}
+      ]
+    },
+    {
+      "name": "Emotions & Feelings",
+      "name_ru": "Эмоции и чувства",
+      "words": [
+        {"word": "angry", "translation": "злой", "example": "Don't be angry with me.", "phonetic": "/ˈæŋɡri/"},
+        {"word": "sad", "translation": "грустный", "example": "I feel sad today.", "phonetic": "/sæd/"},
+        {"word": "excited", "translation": "взволнованный", "example": "I'm excited about the trip.", "phonetic": "/ɪkˈsaɪtɪd/"},
+        {"word": "worried", "translation": "обеспокоенный", "example": "I'm worried about the exam.", "phonetic": "/ˈwʌrid/"},
+        {"word": "surprised", "translation": "удивлённый", "example": "I was surprised to see her.", "phonetic": "/səˈpraɪzd/"},
+        {"word": "bored", "translation": "скучающий", "example": "I'm bored. Let's do something.", "phonetic": "/bɔːd/"},
+        {"word": "scared", "translation": "испуганный", "example": "I'm scared of spiders.", "phonetic": "/skeəd/"},
+        {"word": "nervous", "translation": "нервный", "example": "I'm nervous about the interview.", "phonetic": "/ˈnɜːvəs/"},
+        {"word": "proud", "translation": "гордый", "example": "I'm proud of you.", "phonetic": "/praʊd/"},
+        {"word": "confident", "translation": "уверенный", "example": "She seems very confident.", "phonetic": "/ˈkɒnfɪdənt/"}
+      ]
+    },
+    {
+      "name": "Technology",
+      "name_ru": "Технологии",
+      "words": [
+        {"word": "computer", "translation": "компьютер", "example": "I work on a computer.", "phonetic": "/kəmˈpjuːtə/"},
+        {"word": "phone", "translation": "телефон", "example": "My phone is new.", "phonetic": "/fəʊn/"},
+        {"word": "internet", "translation": "интернет", "example": "The internet is slow.", "phonetic": "/ˈɪntənet/"},
+        {"word": "email", "translation": "электронная почта", "example": "Send me an email.", "phonetic": "/ˈiːmeɪl/"},
+        {"word": "password", "translation": "пароль", "example": "Don't share your password.", "phonetic": "/ˈpɑːswɜːd/"},
+        {"word": "website", "translation": "сайт", "example": "Visit our website.", "phonetic": "/ˈwebsaɪt/"},
+        {"word": "download", "translation": "скачать", "example": "Download the app.", "phonetic": "/ˌdaʊnˈləʊd/"},
+        {"word": "message", "translation": "сообщение", "example": "I got your message.", "phonetic": "/ˈmesɪdʒ/"},
+        {"word": "search", "translation": "искать", "example": "Search for it online.", "phonetic": "/sɜːtʃ/"},
+        {"word": "screen", "translation": "экран", "example": "The screen is too bright.", "phonetic": "/skriːn/"}
+      ]
+    }
+  ]
+}

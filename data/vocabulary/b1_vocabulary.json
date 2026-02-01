@@ -1,0 +1,142 @@
+{
+  "level": "B1",
+  "total_words": 500,
+  "categories": [
+    {
+      "name": "Business & Finance",
+      "name_ru": "Бизнес и финансы",
+      "words": [
+        {"word": "budget", "translation": "бюджет", "example": "We need to cut the budget.", "phonetic": "/ˈbʌdʒɪt/"},
+        {"word": "profit", "translation": "прибыль", "example": "The company made a profit.", "phonetic": "/ˈprɒfɪt/"},
+        {"word": "investment", "translation": "инвестиция", "example": "It's a good investment.", "phonetic": "/ɪnˈvestmənt/"},
+        {"word": "contract", "translation": "контракт", "example": "Sign the contract here.", "phonetic": "/ˈkɒntrækt/"},
+        {"word": "deadline", "translation": "срок", "example": "The deadline is Friday.", "phonetic": "/ˈdedlaɪn/"},
+        {"word": "negotiate", "translation": "вести переговоры", "example": "We need to negotiate the terms.", "phonetic": "/nɪˈɡəʊʃieɪt/"},
+        {"word": "competitor", "translation": "конкурент", "example": "Our main competitor is Apple.", "phonetic": "/kəmˈpetɪtə/"},
+        {"word": "revenue", "translation": "доход", "example": "Revenue increased this quarter.", "phonetic": "/ˈrevənjuː/"},
+        {"word": "strategy", "translation": "стратегия", "example": "We need a new marketing strategy.", "phonetic": "/ˈstrætədʒi/"},
+        {"word": "loan", "translation": "кредит", "example": "I took out a loan.", "phonetic": "/ləʊn/"},
+        {"word": "tax", "translation": "налог", "example": "You must pay your taxes.", "phonetic": "/tæks/"},
+        {"word": "bankruptcy", "translation": "банкротство", "example": "The company filed for bankruptcy.", "phonetic": "/ˈbæŋkrʌptsi/"}
+      ]
+    },
+    {
+      "name": "Education",
+      "name_ru": "Образование",
+      "words": [
+        {"word": "degree", "translation": "степень", "example": "She has a degree in law.", "phonetic": "/dɪˈɡriː/"},
+        {"word": "curriculum", "translation": "учебная программа", "example": "The curriculum has changed.", "phonetic": "/kəˈrɪkjələm/"},
+        {"word": "assignment", "translation": "задание", "example": "Submit your assignment by Monday.", "phonetic": "/əˈsaɪnmənt/"},
+        {"word": "scholarship", "translation": "стипендия", "example": "She won a scholarship.", "phonetic": "/ˈskɒləʃɪp/"},
+        {"word": "lecture", "translation": "лекция", "example": "The lecture starts at 10.", "phonetic": "/ˈlektʃə/"},
+        {"word": "research", "translation": "исследование", "example": "He's doing research on cancer.", "phonetic": "/rɪˈsɜːtʃ/"},
+        {"word": "tuition", "translation": "обучение", "example": "Tuition fees are high.", "phonetic": "/tjuˈɪʃn/"},
+        {"word": "graduate", "translation": "выпускник", "example": "She's a recent graduate.", "phonetic": "/ˈɡrædʒuət/"},
+        {"word": "semester", "translation": "семестр", "example": "The semester ends in December.", "phonetic": "/sɪˈmestə/"},
+        {"word": "thesis", "translation": "диссертация", "example": "I'm writing my thesis.", "phonetic": "/ˈθiːsɪs/"},
+        {"word": "faculty", "translation": "факультет", "example": "She works in the science faculty.", "phonetic": "/ˈfækəlti/"},
+        {"word": "enrollment", "translation": "зачисление", "example": "Enrollment begins next week.", "phonetic": "/ɪnˈrəʊlmənt/"}
+      ]
+    },
+    {
+      "name": "Environment",
+      "name_ru": "Окружающая среда",
+      "words": [
+        {"word": "pollution", "translation": "загрязнение", "example": "Air pollution is a serious problem.", "phonetic": "/pəˈluːʃn/"},
+        {"word": "recycle", "translation": "перерабатывать", "example": "We should recycle more.", "phonetic": "/ˌriːˈsaɪkl/"},
+        {"word": "climate", "translation": "климат", "example": "Climate change affects everyone.", "phonetic": "/ˈklaɪmət/"},
+        {"word": "renewable", "translation": "возобновляемый", "example": "We need renewable energy.", "phonetic": "/rɪˈnjuːəbl/"},
+        {"word": "endangered", "translation": "вымирающий", "example": "Tigers are endangered.", "phonetic": "/ɪnˈdeɪndʒəd/"},
+        {"word": "deforestation", "translation": "вырубка лесов", "example": "Deforestation is destroying habitats.", "phonetic": "/diːˌfɒrɪˈsteɪʃn/"},
+        {"word": "sustainable", "translation": "устойчивый", "example": "We need sustainable solutions.", "phonetic": "/səˈsteɪnəbl/"},
+        {"word": "conservation", "translation": "охрана", "example": "Wildlife conservation is important.", "phonetic": "/ˌkɒnsəˈveɪʃn/"},
+        {"word": "emissions", "translation": "выбросы", "example": "We must reduce carbon emissions.", "phonetic": "/ɪˈmɪʃnz/"},
+        {"word": "ecosystem", "translation": "экосистема", "example": "The ecosystem is fragile.", "phonetic": "/ˈiːkəʊsɪstəm/"},
+        {"word": "habitat", "translation": "среда обитания", "example": "The animal lost its habitat.", "phonetic": "/ˈhæbɪtæt/"},
+        {"word": "biodiversity", "translation": "биоразнообразие", "example": "Biodiversity is declining.", "phonetic": "/ˌbaɪəʊdaɪˈvɜːsəti/"}
+      ]
+    },
+    {
+      "name": "Media & Communication",
+      "name_ru": "Медиа и коммуникация",
+      "words": [
+        {"word": "broadcast", "translation": "транслировать", "example": "The game will be broadcast live.", "phonetic": "/ˈbrɔːdkɑːst/"},
+        {"word": "journalism", "translation": "журналистика", "example": "She studied journalism.", "phonetic": "/ˈdʒɜːnəlɪzəm/"},
+        {"word": "headline", "translation": "заголовок", "example": "Did you see today's headline?", "phonetic": "/ˈhedlaɪn/"},
+        {"word": "source", "translation": "источник", "example": "Check your sources.", "phonetic": "/sɔːs/"},
+        {"word": "coverage", "translation": "освещение", "example": "The media coverage was extensive.", "phonetic": "/ˈkʌvərɪdʒ/"},
+        {"word": "audience", "translation": "аудитория", "example": "Know your audience.", "phonetic": "/ˈɔːdiəns/"},
+        {"word": "article", "translation": "статья", "example": "I read an interesting article.", "phonetic": "/ˈɑːtɪkl/"},
+        {"word": "publish", "translation": "публиковать", "example": "The book was published in 2020.", "phonetic": "/ˈpʌblɪʃ/"},
+        {"word": "editorial", "translation": "редакционный", "example": "Read the editorial section.", "phonetic": "/ˌedɪˈtɔːriəl/"},
+        {"word": "correspondent", "translation": "корреспондент", "example": "She's a foreign correspondent.", "phonetic": "/ˌkɒrɪˈspɒndənt/"}
+      ]
+    },
+    {
+      "name": "Law & Crime",
+      "name_ru": "Право и преступность",
+      "words": [
+        {"word": "court", "translation": "суд", "example": "The case went to court.", "phonetic": "/kɔːt/"},
+        {"word": "lawyer", "translation": "адвокат", "example": "You need a good lawyer.", "phonetic": "/ˈlɔːjə/"},
+        {"word": "trial", "translation": "судебный процесс", "example": "The trial begins tomorrow.", "phonetic": "/ˈtraɪəl/"},
+        {"word": "evidence", "translation": "доказательство", "example": "There's no evidence.", "phonetic": "/ˈevɪdəns/"},
+        {"word": "witness", "translation": "свидетель", "example": "The witness saw everything.", "phonetic": "/ˈwɪtnəs/"},
+        {"word": "sentence", "translation": "приговор", "example": "He received a five-year sentence.", "phonetic": "/ˈsentəns/"},
+        {"word": "guilty", "translation": "виновный", "example": "He pleaded guilty.", "phonetic": "/ˈɡɪlti/"},
+        {"word": "innocent", "translation": "невиновный", "example": "She was proven innocent.", "phonetic": "/ˈɪnəsnt/"},
+        {"word": "verdict", "translation": "вердикт", "example": "The jury reached a verdict.", "phonetic": "/ˈvɜːdɪkt/"},
+        {"word": "theft", "translation": "кража", "example": "He was charged with theft.", "phonetic": "/θeft/"},
+        {"word": "suspect", "translation": "подозреваемый", "example": "The suspect was arrested.", "phonetic": "/ˈsʌspekt/"},
+        {"word": "legislation", "translation": "законодательство", "example": "New legislation was passed.", "phonetic": "/ˌledʒɪsˈleɪʃn/"}
+      ]
+    },
+    {
+      "name": "Relationships",
+      "name_ru": "Отношения",
+      "words": [
+        {"word": "friendship", "translation": "дружба", "example": "Our friendship is strong.", "phonetic": "/ˈfrendʃɪp/"},
+        {"word": "trust", "translation": "доверие", "example": "Trust is essential.", "phonetic": "/trʌst/"},
+        {"word": "respect", "translation": "уважение", "example": "Show some respect.", "phonetic": "/rɪˈspekt/"},
+        {"word": "loyalty", "translation": "верность", "example": "Loyalty is important to me.", "phonetic": "/ˈlɔɪəlti/"},
+        {"word": "commitment", "translation": "обязательство", "example": "Marriage is a big commitment.", "phonetic": "/kəˈmɪtmənt/"},
+        {"word": "compromise", "translation": "компромисс", "example": "We need to compromise.", "phonetic": "/ˈkɒmprəmaɪz/"},
+        {"word": "conflict", "translation": "конфликт", "example": "Avoid unnecessary conflict.", "phonetic": "/ˈkɒnflɪkt/"},
+        {"word": "forgive", "translation": "прощать", "example": "I can forgive but not forget.", "phonetic": "/fəˈɡɪv/"},
+        {"word": "apologize", "translation": "извиняться", "example": "You should apologize.", "phonetic": "/əˈpɒlədʒaɪz/"},
+        {"word": "support", "translation": "поддержка", "example": "I appreciate your support.", "phonetic": "/səˈpɔːt/"}
+      ]
+    },
+    {
+      "name": "Science & Technology",
+      "name_ru": "Наука и технологии",
+      "words": [
+        {"word": "experiment", "translation": "эксперимент", "example": "The experiment was successful.", "phonetic": "/ɪkˈsperɪmənt/"},
+        {"word": "hypothesis", "translation": "гипотеза", "example": "The hypothesis was correct.", "phonetic": "/haɪˈpɒθəsɪs/"},
+        {"word": "theory", "translation": "теория", "example": "Darwin's theory of evolution.", "phonetic": "/ˈθɪəri/"},
+        {"word": "data", "translation": "данные", "example": "Analyze the data carefully.", "phonetic": "/ˈdeɪtə/"},
+        {"word": "discovery", "translation": "открытие", "example": "It was an important discovery.", "phonetic": "/dɪˈskʌvəri/"},
+        {"word": "innovation", "translation": "инновация", "example": "Innovation drives progress.", "phonetic": "/ˌɪnəˈveɪʃn/"},
+        {"word": "artificial", "translation": "искусственный", "example": "Artificial intelligence is advancing.", "phonetic": "/ˌɑːtɪˈfɪʃl/"},
+        {"word": "software", "translation": "программное обеспечение", "example": "Update your software.", "phonetic": "/ˈsɒftweə/"},
+        {"word": "database", "translation": "база данных", "example": "The database was hacked.", "phonetic": "/ˈdeɪtəbeɪs/"},
+        {"word": "algorithm", "translation": "алгоритм", "example": "The algorithm is complex.", "phonetic": "/ˈælɡərɪðəm/"}
+      ]
+    },
+    {
+      "name": "Abstract Concepts",
+      "name_ru": "Абстрактные понятия",
+      "words": [
+        {"word": "opportunity", "translation": "возможность", "example": "It's a great opportunity.", "phonetic": "/ˌɒpəˈtjuːnəti/"},
+        {"word": "challenge", "translation": "вызов", "example": "It's a big challenge.", "phonetic": "/ˈtʃælɪndʒ/"},
+        {"word": "success", "translation": "успех", "example": "Success requires hard work.", "phonetic": "/səkˈses/"},
+        {"word": "failure", "translation": "неудача", "example": "Learn from failure.", "phonetic": "/ˈfeɪljə/"},
+        {"word": "progress", "translation": "прогресс", "example": "We're making progress.", "phonetic": "/ˈprəʊɡres/"},
+        {"word": "responsibility", "translation": "ответственность", "example": "It's your responsibility.", "phonetic": "/rɪˌspɒnsəˈbɪləti/"},
+        {"word": "priority", "translation": "приоритет", "example": "Health is my priority.", "phonetic": "/praɪˈɒrəti/"},
+        {"word": "consequence", "translation": "последствие", "example": "Consider the consequences.", "phonetic": "/ˈkɒnsɪkwəns/"},
+        {"word": "benefit", "translation": "польза", "example": "What are the benefits?", "phonetic": "/ˈbenɪfɪt/"},
+        {"word": "disadvantage", "translation": "недостаток", "example": "There are some disadvantages.", "phonetic": "/ˌdɪsədˈvɑːntɪdʒ/"}
+      ]
+    }
+  ]
+}

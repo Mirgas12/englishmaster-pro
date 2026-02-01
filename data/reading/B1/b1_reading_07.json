@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_07",
+  "level": "B1",
+  "title": "Learning a Musical Instrument",
+  "title_ru": "Обучение игре на музыкальном инструменте",
+  "word_count": 220,
+  "topic": "hobbies",
+  "text": "Learning to play a musical instrument is a rewarding experience at any age. Whether you choose the guitar, piano, violin, or any other instrument, the journey of musical learning offers numerous benefits beyond just making music.\n\nResearch has shown that playing an instrument improves cognitive function. It enhances memory, attention, and problem-solving skills. Learning music involves coordinating different parts of the brain simultaneously – reading notes, moving fingers precisely, and listening to the sounds produced. This mental workout strengthens neural connections.\n\nThere are emotional benefits too. Playing music can be a form of stress relief and self-expression. The sense of achievement that comes from mastering a difficult piece is incredibly satisfying. Many musicians describe entering a state of 'flow' while playing, where they become completely absorbed in the music.\n\nOf course, learning an instrument requires dedication. Regular practice is essential – most teachers recommend at least 30 minutes daily. Progress can feel slow at first, and frustration is normal. The key is to set realistic goals and celebrate small improvements.\n\nIt's never too late to start learning. While children may pick up instruments more easily, adults can also become skilled players. Adult learners often have better motivation and can practice more systematically.\n\nWhether you dream of performing on stage or simply want to play for your own enjoyment, learning an instrument is a journey worth taking.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does learning music improve?", "options": ["Physical strength", "Cognitive function", "Eyesight"], "correct": 1},
+    {"type": "multiple_choice", "question": "How much daily practice do teachers recommend?", "options": ["10 minutes", "30 minutes", "2 hours"], "correct": 1},
+    {"type": "true_false", "question": "Only children can learn to play instruments well.", "correct": false},
+    {"type": "true_false", "question": "Playing music can be stress relief.", "correct": true},
+    {"type": "fill_gap", "question": "Learning music strengthens ___ connections in the brain.", "answer": "neural"}
+  ],
+  "vocabulary": ["instrument", "cognitive", "dedication", "absorb", "systematic"],
+  "grammar_focus": ["present_simple", "modal_verbs"]
+}

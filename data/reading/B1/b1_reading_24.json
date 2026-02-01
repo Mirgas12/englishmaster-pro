@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_24",
+  "level": "B1",
+  "title": "The Art of Public Speaking",
+  "title_ru": "Искусство публичных выступлений",
+  "word_count": 225,
+  "topic": "skills",
+  "text": "Public speaking consistently ranks among people's greatest fears. The thought of standing before an audience makes many people anxious. Yet the ability to speak confidently in public is valuable for career advancement and personal growth. The good news is that it's a skill anyone can develop.\n\nPreparation is the foundation of effective speaking. Know your material thoroughly so you're not dependent on notes. Structure your talk with a clear beginning, middle, and end. Practice out loud, not just in your head – this helps identify awkward phrases and timing issues.\n\nManaging nervousness is crucial. Some anxiety is normal and even helpful, providing energy and focus. Deep breathing before speaking can calm your nerves. Many experienced speakers admit they still feel nervous but have learned to channel it productively.\n\nEngaging your audience requires more than just delivering information. Make eye contact with different people around the room. Use varied vocal tone and pace to maintain interest. Stories and examples make abstract concepts memorable. Appropriate pauses give emphasis and let ideas sink in.\n\nBody language communicates as much as words. Stand confidently with open posture. Use natural gestures to reinforce points. Move purposefully rather than pacing nervously. Your physical presence affects how your message is received.\n\nFinally, seek feedback and opportunities to practice. Every presentation is a chance to improve. Video recording yourself reveals habits you might not notice otherwise. With time and practice, anyone can become a competent speaker.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What helps identify awkward phrases?", "options": ["Reading silently", "Practicing out loud", "Using more notes"], "correct": 1},
+    {"type": "multiple_choice", "question": "What can calm nerves before speaking?", "options": ["Drinking coffee", "Deep breathing", "Reading more notes"], "correct": 1},
+    {"type": "true_false", "question": "Some nervousness can be helpful.", "correct": true},
+    {"type": "true_false", "question": "Body language doesn't affect communication.", "correct": false},
+    {"type": "fill_gap", "question": "Stories and examples make abstract concepts ___.", "answer": "memorable"}
+  ],
+  "vocabulary": ["public speaking", "anxiety", "posture", "gestures", "engagement"],
+  "grammar_focus": ["present_simple", "imperatives"]
+}

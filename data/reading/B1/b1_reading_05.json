@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_05",
+  "level": "B1",
+  "title": "The Science of Sleep",
+  "title_ru": "Наука сна",
+  "word_count": 235,
+  "topic": "science",
+  "text": "We spend about one-third of our lives sleeping, yet many people don't fully understand why sleep is so important. Scientists have made significant discoveries about sleep in recent decades, and their findings highlight just how essential it is for our health and wellbeing.\n\nDuring sleep, our bodies go through several cycles of different sleep stages. Deep sleep is when the body repairs tissues, builds muscle, and strengthens the immune system. REM (Rapid Eye Movement) sleep is when most dreaming occurs and is crucial for memory consolidation and emotional processing.\n\nLack of sleep has serious consequences. In the short term, it affects concentration, decision-making, and mood. Chronic sleep deprivation has been linked to serious health problems including obesity, heart disease, and diabetes. It also weakens the immune system, making us more susceptible to illness.\n\nMost adults need between seven and nine hours of sleep per night, though individual needs vary. Unfortunately, many people in modern society don't get enough. Factors like stress, screen time before bed, and irregular schedules can all interfere with sleep quality.\n\nSleep experts recommend establishing a consistent sleep routine. This means going to bed and waking up at the same time every day, even on weekends. Creating a dark, quiet, and cool sleeping environment also helps. Avoiding caffeine and heavy meals close to bedtime is advisable, as is limiting screen time in the hour before sleep.\n\nGood sleep isn't a luxury – it's a necessity for both physical and mental health.",
+  "questions": [
+    {"type": "multiple_choice", "question": "When does the body repair tissues?", "options": ["During REM sleep", "During deep sleep", "While awake"], "correct": 1},
+    {"type": "multiple_choice", "question": "How much sleep do most adults need?", "options": ["5-6 hours", "7-9 hours", "10-12 hours"], "correct": 1},
+    {"type": "true_false", "question": "Chronic sleep deprivation has no serious health effects.", "correct": false},
+    {"type": "true_false", "question": "REM sleep is important for memory.", "correct": true},
+    {"type": "fill_gap", "question": "Lack of sleep weakens the ___ system.", "answer": "immune"}
+  ],
+  "vocabulary": ["sleep deprivation", "immune system", "consolidation", "chronic", "susceptible"],
+  "grammar_focus": ["present_perfect", "passive_voice"]
+}

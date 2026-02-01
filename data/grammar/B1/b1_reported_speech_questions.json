@@ -1,0 +1,266 @@
+{
+  "id": "b1_reported_speech_questions",
+  "level": "B1",
+  "title": "Reported Speech - Questions",
+  "title_ru": "Косвенная речь - Вопросы",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_reported_speech_statements"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the questions and how they are reported. Notice the word order.",
+      "instruction_ru": "Прочитай вопросы и как они передаются. Обрати внимание на порядок слов.",
+      "content": {
+        "text": "Direct: '<highlight>Where do</highlight> you live?'\nReported: She asked <highlight>where I lived</highlight>.\n\nDirect: '<highlight>Are</highlight> you happy?'\nReported: He asked <highlight>if I was</highlight> happy.\n\nDirect: '<highlight>What are</highlight> you doing?'\nReported: She asked <highlight>what I was</highlight> doing.\n\nDirect: '<highlight>Have</highlight> you finished?'\nReported: He asked <highlight>if I had</highlight> finished.\n\nDirect: '<highlight>Will</highlight> you help me?'\nReported: She asked <highlight>if I would</highlight> help her.",
+        "question": "What happens to word order in reported questions? Do we use question marks?",
+        "question_ru": "Что происходит с порядком слов в косвенных вопросах? Используем ли мы вопросительные знаки?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Reported Questions - Word Order and If/Whether",
+        "title_ru": "Косвенные вопросы - Порядок слов и If/Whether",
+        "points": [
+          {
+            "rule": "Wh-questions: asked + wh-word + subject + verb (statement order)",
+            "rule_ru": "Wh-вопросы: asked + вопр. слово + подлежащее + глагол (порядок утверждения)",
+            "example": "'Where do you work?' → She asked where I worked.",
+            "marker": "wh-questions"
+          },
+          {
+            "rule": "Yes/No questions: asked + if/whether + subject + verb",
+            "rule_ru": "Да/Нет вопросы: asked + if/whether + подлежащее + глагол",
+            "example": "'Are you tired?' → He asked if I was tired.",
+            "marker": "if/whether"
+          },
+          {
+            "rule": "No question marks in reported questions",
+            "rule_ru": "Нет вопросительных знаков в косвенных вопросах",
+            "example": "She asked where I lived. (NOT: where I lived?)",
+            "marker": "no ? mark"
+          },
+          {
+            "rule": "No do/does/did in reported questions",
+            "rule_ru": "Нет do/does/did в косвенных вопросах",
+            "example": "'What do you want?' → asked what I wanted (NOT: what did I want)",
+            "marker": "no do/does/did"
+          },
+          {
+            "rule": "Same tense backshift as statements",
+            "rule_ru": "То же изменение времён, что и в утверждениях",
+            "example": "is → was, will → would, have → had",
+            "marker": "backshift"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Wh-question", "direct": "'Where do you live?'", "reported": "asked where I lived"},
+          {"type": "Wh-question", "direct": "'What is your name?'", "reported": "asked what my name was"},
+          {"type": "Yes/No", "direct": "'Are you coming?'", "reported": "asked if I was coming"},
+          {"type": "Yes/No", "direct": "'Do you like it?'", "reported": "asked if I liked it"},
+          {"type": "Yes/No", "direct": "'Have you seen it?'", "reported": "asked if I had seen it"},
+          {"type": "Yes/No", "direct": "'Will you help?'", "reported": "asked if I would help"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all reported questions. What changed from the original question?",
+      "instruction_ru": "Найди все косвенные вопросы. Что изменилось по сравнению с оригинальным вопросом?",
+      "tasks": [
+        {
+          "text": "At the interview, the manager asked many questions:\n\nHe asked what my name was. (What is your name?)\nHe asked where I had studied. (Where did you study?)\nHe asked if I had any experience. (Do you have any experience?)\nHe asked why I wanted this job. (Why do you want this job?)\nHe asked when I could start. (When can you start?)\nHe asked whether I would relocate. (Will you relocate?)\nHe asked how much I expected to earn. (How much do you expect to earn?)\nHe asked if I had any questions. (Do you have any questions?)",
+          "find": [
+            {"direct": "What is your name?", "reported": "what my name was", "change": "is → was, word order"},
+            {"direct": "Where did you study?", "reported": "where I had studied", "change": "did study → had studied"},
+            {"direct": "Do you have?", "reported": "if I had", "change": "Yes/No → if, do have → had"},
+            {"direct": "Why do you want?", "reported": "why I wanted", "change": "do want → wanted"},
+            {"direct": "When can you start?", "reported": "when I could start", "change": "can → could"},
+            {"direct": "Will you relocate?", "reported": "whether I would relocate", "change": "Yes/No → whether, will → would"},
+            {"direct": "How much do you expect?", "reported": "how much I expected", "change": "do expect → expected"},
+            {"direct": "Do you have?", "reported": "if I had", "change": "Yes/No → if"}
+          ]
+        }
+      ],
+      "reflection_question": "Why don't we use 'do/does/did' in reported questions?",
+      "reflection_question_ru": "Почему мы не используем 'do/does/did' в косвенных вопросах?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Change from direct to reported questions.",
+          "sentences": [
+            {"direct": "'Where do you live?' she asked.", "reported": "She asked where I lived."},
+            {"direct": "'Are you married?' he asked.", "reported": "He asked if I was married."},
+            {"direct": "'What time does the train leave?' she asked.", "reported": "She asked what time the train left."},
+            {"direct": "'Have you been here before?' he asked.", "reported": "He asked if I had been there before."},
+            {"direct": "'Why did you leave your job?' she asked.", "reported": "She asked why I had left my job."},
+            {"direct": "'Can you speak French?' he asked.", "reported": "He asked if I could speak French."},
+            {"direct": "'Where are you going?' she asked.", "reported": "She asked where I was going."},
+            {"direct": "'Will you help me?' he asked.", "reported": "He asked if I would help him."},
+            {"direct": "'What is your email?' she asked.", "reported": "She asked what my email was."},
+            {"direct": "'Do you like pizza?' he asked.", "reported": "He asked if I liked pizza."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the reported questions.",
+          "sentences": [
+            {"sentence": "'Where is the station?' → She asked ___ the station ___.", "answer": "where, was"},
+            {"sentence": "'Do you smoke?' → He asked ___ I ___.", "answer": "if/whether, smoked"},
+            {"sentence": "'What are you reading?' → She asked ___ I ___ reading.", "answer": "what, was"},
+            {"sentence": "'Have you finished?' → He asked ___ I ___ finished.", "answer": "if/whether, had"},
+            {"sentence": "'Why did you call?' → She asked ___ I ___ called.", "answer": "why, had"},
+            {"sentence": "'Will you come?' → He asked ___ I ___ come.", "answer": "if/whether, would"},
+            {"sentence": "'How old are you?' → She asked how old I ___.", "answer": "was"},
+            {"sentence": "'Can you drive?' → He asked ___ I ___ drive.", "answer": "if/whether, could"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She asked where did I live.",
+              "correct": "She asked where I lived.",
+              "explanation": "No 'did' in reported questions, statement word order"
+            },
+            {
+              "incorrect": "He asked do I like coffee?",
+              "correct": "He asked if I liked coffee.",
+              "explanation": "No 'do', use 'if', no question mark"
+            },
+            {
+              "incorrect": "She asked me what is my name.",
+              "correct": "She asked me what my name was.",
+              "explanation": "Statement word order + backshift"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Report questions from an interview, conversation, or quiz.",
+      "instruction_ru": "Передай вопросы из интервью, разговора или викторины.",
+      "prompts": [
+        "Report questions from a job interview",
+        "Report questions a friend asked you",
+        "Report questions from a survey or quiz",
+        "Report questions a doctor or official asked"
+      ],
+      "example": "Yesterday I had a job interview. The interviewer asked many questions. First, she asked what my name was and where I came from. Then she asked if I had worked in this field before. She wanted to know why I was interested in the position. She asked how I would handle difficult situations. She also asked whether I could work weekends. Finally, she asked when I could start if I got the job. She asked if I had any questions for her.",
+      "ai_check": true,
+      "criteria": [
+        "Uses statement word order in reported questions",
+        "Uses if/whether for yes/no questions",
+        "No do/does/did in reported questions",
+        "No question marks in reported questions",
+        "At least 6 reported questions"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with reported questions.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Customs at the Airport",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "When I arrived at the airport, the customs officer asked many questions. He asked where I had come from. He wanted to know how long I was planning to stay. He asked if I had anything to declare. He asked whether I was traveling for business or pleasure. He asked what was in my bag. He asked if I had visited any farms recently. Finally, he asked where I would be staying. I answered all his questions and he let me through."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "First Date Questions",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "On our first date, we asked each other many questions. She asked what I did for work. I asked where she had grown up. She wanted to know if I had any siblings. I asked whether she liked traveling. She asked what my hobbies were. I asked if she had seen any good movies lately. She asked why I had chosen this restaurant. I asked what kind of music she listened to. It was a great conversation!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Police Investigation",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "The detective interviewed the witness carefully. He asked where she had been at 9 PM. She said she had been at home. He asked if she had seen anything unusual. She mentioned she had heard a loud noise. He asked what the noise had sounded like. He wanted to know if she had looked outside. He asked whether she could describe anyone. He asked how long the incident had lasted. He asked if she would recognize the suspect again."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Market Research Survey",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "A researcher stopped me on the street. She asked if I had a few minutes. She asked how often I shopped online. She wanted to know what products I usually bought. She asked whether I preferred shopping online or in stores. She asked how much I spent on average each month. She asked if I was satisfied with delivery services. She asked what would make me shop more online. Finally, she asked how old I was."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Parent Interrogation",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "I came home late and my parents were waiting. Mom asked where I had been. Dad asked why I hadn't called. Mom wanted to know if I had been safe. Dad asked whether I had been drinking. I said I hadn't. Mom asked who I had been with. She asked if I could show her my phone. Dad asked when I would learn to be more responsible. I apologized and promised I would call next time."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "'Where do you live?'\n→ She asked...",
+          "back": "She asked where I lived.\n\nStatement word order"
+        },
+        {
+          "type": "transformation",
+          "front": "'Are you happy?'\n→ He asked...",
+          "back": "He asked if I was happy.\n\nYes/No → if/whether"
+        },
+        {
+          "type": "transformation",
+          "front": "'What time does it start?'\n→ She asked...",
+          "back": "She asked what time it started.\n\nNo 'does', past tense"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He asked where did I work.\"",
+          "back": "He asked where I worked.\n\nNo 'did', statement order"
+        },
+        {
+          "type": "fill_gap",
+          "front": "'Can you swim?'\n→ She asked ___ I ___ swim.",
+          "back": "if/whether, could\n\nYes/No → if, can → could"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Keeping question word order",
+      "Using do/does/did in reported questions",
+      "Using question marks in reported questions",
+      "Forgetting if/whether for yes/no questions"
+    ],
+    "related_topics": ["b1_reported_speech_statements"],
+    "ielts_relevance": "High - important for Listening and Speaking",
+    "frequency_in_english": "Very high"
+  }
+}

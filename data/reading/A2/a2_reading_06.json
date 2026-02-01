@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_06",
+  "level": "A2",
+  "title": "The Football Match",
+  "title_ru": "Футбольный матч",
+  "word_count": 160,
+  "topic": "sports",
+  "text": "Yesterday, I watched an amazing football match with my dad. Our local team, the City Eagles, played against the River United. We went to the stadium early to get good seats. The stadium was full of fans wearing team colors. Everyone was singing and cheering. The match started at 3 o'clock. The first half was exciting but there were no goals. Both teams played well. During the break, we bought hot dogs and drinks. In the second half, things got even more exciting. In the 70th minute, our striker scored a beautiful goal! The crowd went crazy. I hugged my dad and we jumped up and down. But River United didn't give up. They scored in the 85th minute. The final score was 1-1. It was disappointing not to win, but it was still a great experience. I want to go to more matches!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What time did the match start?", "options": ["2 o'clock", "3 o'clock", "4 o'clock"], "correct": 1},
+    {"type": "multiple_choice", "question": "What was the final score?", "options": ["1-0", "1-1", "2-1"], "correct": 1},
+    {"type": "true_false", "question": "There were goals in the first half.", "correct": false},
+    {"type": "true_false", "question": "City Eagles scored first.", "correct": true},
+    {"type": "fill_gap", "question": "During the break, they bought hot dogs and ___.", "answer": "drinks"}
+  ],
+  "vocabulary": ["stadium", "fans", "score", "goal", "crowd"],
+  "grammar_focus": ["past_simple", "time_expressions"]
+}

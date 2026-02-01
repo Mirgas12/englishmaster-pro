@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_08",
+  "level": "A2",
+  "title": "The Science Fair",
+  "title_ru": "Научная ярмарка",
+  "word_count": 162,
+  "topic": "school",
+  "text": "Our school had a science fair last week. Students from all classes made projects. My project was about plants and sunlight. I wanted to know if plants grow better in sunlight or in the dark. I used two plants. One stayed near the window, and the other was in a dark closet. I watered them the same amount every day. After three weeks, the plant near the window was tall and green. The plant in the closet was small and yellow. My conclusion was that plants need sunlight to grow healthy. I made a poster with pictures and wrote down my results. On the day of the fair, many parents came to see the projects. The judges walked around and asked us questions about our experiments. I was nervous, but I answered their questions well. My project won second place! I got a medal and a certificate. My parents were very proud.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What was the project about?", "options": ["Animals", "Plants and sunlight", "Water pollution"], "correct": 1},
+    {"type": "multiple_choice", "question": "What place did the project win?", "options": ["First", "Second", "Third"], "correct": 1},
+    {"type": "true_false", "question": "The plant in the dark grew well.", "correct": false},
+    {"type": "true_false", "question": "The writer made a poster with pictures.", "correct": true},
+    {"type": "fill_gap", "question": "The experiment took ___ weeks.", "answer": "three"}
+  ],
+  "vocabulary": ["experiment", "conclusion", "poster", "results", "judges"],
+  "grammar_focus": ["past_simple", "comparatives"]
+}

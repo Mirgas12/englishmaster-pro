@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_12",
+  "level": "A1",
+  "title": "Going to the Park",
+  "title_ru": "Поход в парк",
+  "word_count": 89,
+  "topic": "outdoor",
+  "text": "Today I go to the park with my dad. The park is near our house. We walk there in 10 minutes. The park has many trees and flowers. There is a big playground with swings and slides. I love the swings! There is also a pond with ducks. We bring bread to feed the ducks. My dad and I sit on a bench and eat ice cream. The sun is warm and the birds are singing. It is a perfect day!",
+  "questions": [
+    {"type": "multiple_choice", "question": "How long does it take to walk to the park?", "options": ["5 minutes", "10 minutes", "15 minutes"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do they bring to feed?", "options": ["fish food", "bread", "seeds"], "correct": 1},
+    {"type": "true_false", "question": "The park has a swimming pool.", "correct": false},
+    {"type": "true_false", "question": "There is a pond with ducks.", "correct": true},
+    {"type": "fill_gap", "question": "They sit on a ___ and eat ice cream.", "answer": "bench"}
+  ],
+  "vocabulary": ["park", "playground", "swing", "pond", "bench"],
+  "grammar_focus": ["there_is_are", "present_simple"]
+}

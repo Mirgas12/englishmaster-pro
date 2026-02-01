@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_14",
+  "level": "B1",
+  "title": "The Benefits of Reading",
+  "title_ru": "Польза чтения",
+  "word_count": 225,
+  "topic": "education",
+  "text": "In an age of endless digital distractions, the simple act of reading a book might seem old-fashioned. Yet research consistently shows that reading offers significant benefits for both mind and body that screens cannot replicate.\n\nReading improves brain function in measurable ways. Studies using brain scans show that reading creates new neural pathways and strengthens existing connections. Regular readers have better memory and slower cognitive decline as they age. Reading fiction, in particular, enhances empathy by allowing us to experience life from other perspectives.\n\nMental health benefits are equally impressive. Reading can reduce stress levels by up to 68%, more than listening to music or taking a walk. It provides an escape from daily worries and promotes relaxation. Reading before bed, especially in print form rather than on screens, can improve sleep quality.\n\nVocabulary and communication skills naturally improve with regular reading. Exposure to well-written prose helps develop writing abilities and critical thinking. These skills are valuable in education and careers.\n\nDespite these benefits, reading rates have declined in many countries. Busy lifestyles and competing entertainment options mean fewer people make time for books. However, audiobooks and e-readers have made reading more accessible, allowing people to enjoy books while commuting or exercising.\n\nWhether you prefer paperbacks, e-readers, or audiobooks, making time for reading is an investment in yourself. Even just 20 minutes a day can make a significant difference over time.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How much can reading reduce stress?", "options": ["Up to 30%", "Up to 50%", "Up to 68%"], "correct": 2},
+    {"type": "multiple_choice", "question": "What does reading fiction enhance?", "options": ["Physical strength", "Empathy", "Mathematical skills"], "correct": 1},
+    {"type": "true_false", "question": "Reading rates have increased in all countries.", "correct": false},
+    {"type": "true_false", "question": "Reading creates new neural pathways.", "correct": true},
+    {"type": "fill_gap", "question": "Regular readers have slower cognitive ___ as they age.", "answer": "decline"}
+  ],
+  "vocabulary": ["cognitive", "empathy", "neural", "decline", "accessible"],
+  "grammar_focus": ["present_simple", "comparatives"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_07",
+  "level": "B2",
+  "title": "The Architecture of Happiness",
+  "title_ru": "Архитектура счастья",
+  "word_count": 300,
+  "topic": "design",
+  "text": "The buildings and spaces we inhabit profoundly influence our moods, behaviors, and wellbeing. Environmental psychology explores how architectural design affects human psychology, offering insights that are increasingly informing how we build homes, offices, and public spaces.\n\nNatural light is one of the most important factors. Exposure to daylight regulates circadian rhythms, affecting sleep, mood, and cognitive function. Buildings with ample windows and skylights tend to have happier, more productive occupants. The shift toward open-plan offices partly reflects this understanding, though it creates other challenges.\n\nBiophilic design – incorporating natural elements into built environments – has gained considerable attention. Plants, water features, natural materials, and views of nature have been shown to reduce stress and enhance creativity. Some modern buildings feature living walls, indoor gardens, or designs that blur boundaries between inside and outside.\n\nColor psychology suggests that different hues evoke different emotional responses. Blue tends to be calming, green is associated with nature and balance, while red can be stimulating or aggressive. These insights inform choices about interior design, though cultural associations with colors vary.\n\nSpatial proportions also matter. Very high ceilings can feel inspiring but also impersonal. Very low ceilings may feel oppressive. The golden ratio, found throughout nature, appears in many buildings considered beautiful across cultures.\n\nBeyond individual buildings, urban design affects mental health at the community level. Walkable neighborhoods with green spaces and gathering places foster social connection. By contrast, car-dependent sprawl can contribute to isolation and reduced physical activity.\n\nThe challenge lies in balancing psychological ideals with practical constraints like cost, climate, and cultural context. Not every building can be a masterpiece, but thoughtful design choices can meaningfully improve quality of life. As we spend more time indoors, the spaces we create matter more than ever.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is biophilic design?", "options": ["Minimalist design", "Incorporating natural elements", "Industrial design"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does natural light regulate?", "options": ["Temperature", "Circadian rhythms", "Humidity"], "correct": 1},
+    {"type": "true_false", "question": "Color associations are the same in all cultures.", "correct": false},
+    {"type": "true_false", "question": "Urban design affects mental health.", "correct": true},
+    {"type": "fill_gap", "question": "Walkable neighborhoods with green spaces foster social ___.", "answer": "connection"}
+  ],
+  "vocabulary": ["biophilic", "circadian", "spatial", "proportions", "sprawl"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

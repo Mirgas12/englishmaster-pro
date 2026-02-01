@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_08",
+  "level": "A1",
+  "title": "The Weather Today",
+  "title_ru": "Погода сегодня",
+  "media_type": "video",
+  "duration_seconds": 40,
+  "description": "A weather report for beginners",
+  "transcript": "Good morning! Here is the weather today. It is sunny in the morning. The temperature is twenty degrees. It is warm and nice. In the afternoon, there are clouds. It is a little windy. In the evening, it rains. Take your umbrella! Tomorrow is cold. Wear a jacket. Have a nice day!",
+  "questions": [
+    {"type": "multiple_choice", "question": "How is the weather in the morning?", "options": ["Rainy", "Sunny", "Snowy"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is the temperature?", "options": ["Ten degrees", "Twenty degrees", "Thirty degrees"], "correct": 1},
+    {"type": "true_false", "question": "It rains in the evening.", "correct": true},
+    {"type": "true_false", "question": "Tomorrow is warm.", "correct": false},
+    {"type": "fill_gap", "question": "Take your ___ because it rains.", "answer": "umbrella"}
+  ],
+  "vocabulary": ["sunny", "cloudy", "rainy", "warm", "cold"],
+  "key_phrases": ["It is sunny", "The temperature is", "It rains", "Take your umbrella"]
+}

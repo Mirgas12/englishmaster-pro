@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_06",
+  "level": "A2",
+  "title": "At the Doctor's Office",
+  "title_ru": "У врача",
+  "media_type": "audio",
+  "duration_seconds": 60,
+  "description": "A patient visits a doctor",
+  "transcript": "Doctor: Hello, Mrs. Johnson. What brings you here today?\nPatient: I've been feeling sick for three days. I have a bad headache and a sore throat.\nDoctor: I see. Do you have a fever?\nPatient: Yes, I checked this morning. It was 38.5 degrees.\nDoctor: Let me examine you. Open your mouth, please. Your throat is red. Have you been coughing?\nPatient: Yes, especially at night.\nDoctor: It looks like you have the flu. I'll prescribe some medicine. Take this three times a day after meals. You should rest at home for a few days.\nPatient: Should I come back if I don't feel better?\nDoctor: Yes, come back in a week if the symptoms don't improve.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How long has the patient been sick?", "options": ["Two days", "Three days", "Five days"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is the patient's temperature?", "options": ["37.5", "38.5", "39.5"], "correct": 1},
+    {"type": "true_false", "question": "The patient has been coughing.", "correct": true},
+    {"type": "true_false", "question": "The doctor says it's a cold.", "correct": false},
+    {"type": "fill_gap", "question": "Take the medicine three times a day after ___.", "answer": "meals"}
+  ],
+  "vocabulary": ["headache", "sore throat", "fever", "flu", "prescribe"],
+  "key_phrases": ["I've been feeling", "Let me examine you", "I'll prescribe", "You should rest"]
+}

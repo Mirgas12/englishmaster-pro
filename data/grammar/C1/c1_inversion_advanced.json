@@ -1,0 +1,266 @@
+{
+  "id": "c1_inversion_advanced",
+  "level": "C1",
+  "title": "Advanced Inversion Patterns",
+  "title_ru": "Продвинутые паттерны инверсии",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_inversion", "b2_emphasis_structures"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this literary excerpt. Notice the sophisticated inversions.",
+      "instruction_ru": "Прочитай этот литературный отрывок. Обрати внимание на сложные инверсии.",
+      "content": {
+        "text": "<highlight>So profound was the silence</highlight> that even breathing seemed intrusive. <highlight>Had I known</highlight> the consequences, I would never have spoken. <highlight>Not until dawn did</highlight> we understand the magnitude of our error. <highlight>Under no circumstances were</highlight> we to reveal the truth. <highlight>Only when the last guest had departed did</highlight> she allow herself to weep. <highlight>Such was her grace</highlight> that all were captivated. <highlight>No sooner had the words left my lips than</highlight> I regretted them. <highlight>Were it not for</highlight> your intervention, disaster would have ensued. <highlight>At no point during the investigation was</highlight> the witness intimidated. <highlight>So moved was the audience that</highlight> a standing ovation followed.",
+        "question": "What triggers inversion in each case?",
+        "question_ru": "Что вызывает инверсию в каждом случае?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Complex Inversion Structures",
+        "title_ru": "Сложные структуры инверсии",
+        "points": [
+          {
+            "rule": "So/Such + adjective/noun + auxiliary + subject: emphasizes degree",
+            "rule_ru": "So/Such + прил./сущ. + вспомогательный + подлежащее: усиливает степень",
+            "example": "So tired was I that I fell asleep instantly. Such was the chaos that nobody could think.",
+            "marker": "so/such inversion"
+          },
+          {
+            "rule": "Had + subject + past participle: formal conditional (= If + had)",
+            "rule_ru": "Had + подлежащее + причастие прошедшего: формальное условие (= If + had)",
+            "example": "Had I known (= If I had known), I would have helped.",
+            "marker": "conditional inversion"
+          },
+          {
+            "rule": "Were + subject + to infinitive / Were it not for: formal hypotheticals",
+            "rule_ru": "Were + подлежащее + to инфинитив / Were it not for: формальные гипотезы",
+            "example": "Were she to ask, I would refuse. Were it not for you, I'd be lost.",
+            "marker": "were inversion"
+          },
+          {
+            "rule": "No sooner...than / Hardly...when / Scarcely...when: immediate sequence",
+            "rule_ru": "No sooner...than / Hardly...when / Scarcely...when: немедленная последовательность",
+            "example": "No sooner had I arrived than the meeting started.",
+            "marker": "time sequence"
+          },
+          {
+            "rule": "Prepositional phrase + verb + subject: literary/dramatic effect",
+            "rule_ru": "Предложный оборот + глагол + подлежащее: литературный/драматический эффект",
+            "example": "In the doorway stood a stranger. Down came the rain.",
+            "marker": "place inversion"
+          }
+        ],
+        "comparison_table": [
+          {"trigger": "So + adj", "pattern": "So + adj + aux + S + that", "example": "So heavy was the burden that..."},
+          {"trigger": "Such", "pattern": "Such + be + noun + that", "example": "Such was the shock that..."},
+          {"trigger": "Had (conditional)", "pattern": "Had + S + V3, S + would", "example": "Had we known, we would have..."},
+          {"trigger": "Were (hypothetical)", "pattern": "Were + S + to V / Were it not for", "example": "Were he to refuse..."},
+          {"trigger": "No sooner", "pattern": "No sooner + had + S + V3 + than", "example": "No sooner had I spoken than..."},
+          {"trigger": "Place adverb", "pattern": "Adverb + V + S", "example": "Here comes the train."}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the type of inversion and rewrite in normal word order.",
+      "instruction_ru": "Определи тип инверсии и перепиши в обычном порядке слов.",
+      "tasks": [
+        {
+          "text": "Literary passages:\n\n1. So eloquent was her speech that the jury was moved to tears.\n2. Had the weather been better, we would have stayed longer.\n3. Not until midnight did the storm finally subside.\n4. Were you to reconsider, I would welcome your decision.\n5. No sooner had the curtain risen than the audience fell silent.\n6. Such was his influence that policies changed overnight.\n7. Scarcely had we begun when problems arose.\n8. Only by working together can we solve this crisis.\n9. At no time during my tenure was I involved in misconduct.\n10. So desperate were the circumstances that extreme measures were taken.",
+          "find": [
+            {"sentence": 1, "type": "So + adj", "normal": "Her speech was so eloquent that..."},
+            {"sentence": 2, "type": "Conditional Had", "normal": "If the weather had been better..."},
+            {"sentence": 3, "type": "Not until", "normal": "The storm didn't subside until midnight."},
+            {"sentence": 4, "type": "Were + to", "normal": "If you were to reconsider..."},
+            {"sentence": 5, "type": "No sooner...than", "normal": "The audience fell silent as soon as the curtain rose."},
+            {"sentence": 6, "type": "Such + be", "normal": "His influence was such that..."},
+            {"sentence": 7, "type": "Scarcely...when", "normal": "We had scarcely begun when..."},
+            {"sentence": 8, "type": "Only by", "normal": "We can solve this crisis only by working together."},
+            {"sentence": 9, "type": "At no time", "normal": "I was not involved in misconduct at any time..."},
+            {"sentence": 10, "type": "So + adj", "normal": "The circumstances were so desperate that..."}
+          ]
+        }
+      ],
+      "reflection_question": "Why might a writer choose inversion over normal word order?",
+      "reflection_question_ru": "Почему писатель может выбрать инверсию вместо обычного порядка слов?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using inversion for formal/literary effect.",
+          "sentences": [
+            {"normal": "I had never experienced such hospitality.", "inverted": "Never had I experienced such hospitality."},
+            {"normal": "If I had realized the danger, I would have warned you.", "inverted": "Had I realized the danger, I would have warned you."},
+            {"normal": "The situation was so critical that immediate action was required.", "inverted": "So critical was the situation that immediate action was required."},
+            {"normal": "If it were not for your support, I couldn't continue.", "inverted": "Were it not for your support, I couldn't continue."},
+            {"normal": "He had no sooner finished speaking than applause erupted.", "inverted": "No sooner had he finished speaking than applause erupted."},
+            {"normal": "A mysterious figure stood in the shadows.", "inverted": "In the shadows stood a mysterious figure."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the inverted structure.",
+          "sentences": [
+            {"sentence": "___ profound ___ the impact that society changed forever.", "answer": "So, was"},
+            {"sentence": "___ I known the truth, I would have acted differently.", "answer": "Had"},
+            {"sentence": "___ it not for her guidance, I would have failed.", "answer": "Were"},
+            {"sentence": "No ___ had the announcement been made ___ protests began.", "answer": "sooner, than"},
+            {"sentence": "___ was the confusion that nobody knew what to do.", "answer": "Such"},
+            {"sentence": "Only by persevering ___ we achieve our goals.", "answer": "can"},
+            {"sentence": "___ no circumstances should this information be shared.", "answer": "Under"},
+            {"sentence": "___ had we settled in when the phone rang.", "answer": "Hardly/Scarcely"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the inversion error.",
+          "sentences": [
+            {
+              "incorrect": "So tired I was that I couldn't continue.",
+              "correct": "So tired was I that I couldn't continue.",
+              "explanation": "Inversion: So + adj + auxiliary + subject"
+            },
+            {
+              "incorrect": "Had I would known, I would have helped.",
+              "correct": "Had I known, I would have helped.",
+              "explanation": "Had replaces 'would have' in conditional inversion"
+            },
+            {
+              "incorrect": "No sooner had he arrived when the trouble started.",
+              "correct": "No sooner had he arrived than the trouble started.",
+              "explanation": "No sooner...than (not when)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 17,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a formal speech or literary narrative using advanced inversions.",
+      "instruction_ru": "Напиши формальную речь или литературное повествование, используя продвинутые инверсии.",
+      "prompts": [
+        "Write a dramatic opening to a novel",
+        "Compose a formal acceptance speech",
+        "Describe a historic moment in formal style",
+        "Write a legal or academic argument"
+      ],
+      "example": "So momentous was this occasion that words seemed inadequate. Never before had our institution faced such challenges, yet never had it shown greater resilience. Had it not been for the dedication of every member, we would not stand here today. Such was the opposition we encountered that lesser organizations would have faltered. Were it not for our unwavering commitment, success would have remained elusive. No sooner had one obstacle been overcome than another presented itself. Only through collective perseverance did we prevail. At no point during this journey did we consider surrender. So profound is my gratitude that I struggle to express it adequately.",
+      "ai_check": true,
+      "criteria": [
+        "Uses So/Such + inversion correctly",
+        "Uses conditional inversion (Had...)",
+        "Uses Were it not for / Were + to",
+        "Uses No sooner...than / Hardly...when",
+        "At least 6 inverted structures",
+        "Appropriate formal/literary register"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with advanced inversions.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Literary Opening",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "So dark was the night that stars themselves seemed to retreat. In the distance stood the ancient castle, silent and foreboding. Never had the traveler felt such isolation. Had he known what awaited, perhaps he would have turned back. Such was his determination that fear could not deter him. No sooner had he approached the gates than they swung open. Were it not for his mission, he would have fled. Scarcely had he entered when the doors sealed behind him."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Formal Speech",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Rarely has this institution witnessed such transformation. So significant were the changes that our very identity evolved. Had we not embraced innovation, stagnation would have followed. Such is our commitment that excellence remains our standard. At no point did we compromise our principles. Only through unity did we achieve these results. Were it not for your contributions, success would be impossible. Not until today could we fully appreciate our progress. So proud am I that words fail me."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Historical Account",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Never before had the nation faced such uncertainty. So divided was the population that civil discourse seemed impossible. Had the leaders failed to act, catastrophe would have ensued. No sooner had negotiations begun than progress became visible. Such was the public's relief that celebrations erupted. Were it not for diplomatic persistence, war might have followed. Only by setting aside differences could peace be achieved. Scarcely had the agreement been signed when hope returned. So profound was this moment that generations would remember."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Legal Argument",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "At no time was the defendant informed of these rights. Had proper procedures been followed, this outcome would differ. So egregious were the violations that dismissal is warranted. Under no circumstances should such conduct be tolerated. Were the evidence to be admitted, injustice would prevail. Not until all facts are examined can judgment be rendered. Such is the gravity of this matter that careful deliberation is essential. Only by upholding standards can we maintain integrity. So clear is the precedent that reversal is justified."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Philosophical Reflection",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "So complex is human nature that simple explanations fail. Rarely do we understand our own motivations. Had Socrates not questioned assumptions, philosophy would differ. Such was his influence that Western thought was transformed. Were it not for doubt, certainty would be assumed. Not until we embrace uncertainty can wisdom emerge. Only through questioning do we approach truth. Scarcely had one question been answered when another arose. So endless is this pursuit that we must find meaning in the journey itself."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "The silence was so profound that...\nRewrite with inversion:",
+          "back": "So profound was the silence that..."
+        },
+        {
+          "type": "transformation",
+          "front": "If I had known...\nRewrite with Had:",
+          "back": "Had I known..."
+        },
+        {
+          "type": "transformation",
+          "front": "If it were not for your help...\nRewrite with Were:",
+          "back": "Were it not for your help..."
+        },
+        {
+          "type": "fill_gap",
+          "front": "No ___ had I arrived ___ the meeting started.",
+          "back": "sooner, than\n\nNo sooner...than for immediate sequence"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ was his genius ___ all were amazed.",
+          "back": "Such, that\n\nSuch + be + noun + that"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["transformation", "fill_gap", "error_correction", "identify"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong auxiliary in So + adj inversion",
+      "Using 'when' instead of 'than' with No sooner",
+      "Incorrect conditional inversion form",
+      "Forgetting inversion after negative adverbials"
+    ],
+    "related_topics": ["b2_inversion", "b2_emphasis_structures", "c1_cleft_advanced"],
+    "ielts_relevance": "Very high - Band 8+ Writing",
+    "cae_relevance": "Essential for Use of English Part 4",
+    "frequency_in_english": "High in formal/literary English"
+  }
+}

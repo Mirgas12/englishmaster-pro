@@ -1,0 +1,80 @@
+{
+  "level": "A2",
+  "total_questions": 54,
+  "sections": [
+    {
+      "type": "grammar",
+      "questions": [
+        {"id": 1, "question": "I ___ to the cinema yesterday.", "options": ["go", "went", "gone", "going"], "correct": 1},
+        {"id": 2, "question": "She has ___ her homework.", "options": ["do", "did", "done", "doing"], "correct": 2},
+        {"id": 3, "question": "We ___ TV when the phone rang.", "options": ["watch", "watched", "were watching", "watching"], "correct": 2},
+        {"id": 4, "question": "He is ___ than his brother.", "options": ["tall", "taller", "tallest", "more tall"], "correct": 1},
+        {"id": 5, "question": "I ___ never been to Paris.", "options": ["have", "has", "had", "having"], "correct": 0},
+        {"id": 6, "question": "She ___ cook when she was young.", "options": ["can", "could", "can't", "couldn't"], "correct": 3},
+        {"id": 7, "question": "We ___ go to the party tomorrow.", "options": ["will", "would", "shall", "should"], "correct": 0},
+        {"id": 8, "question": "This is the ___ book I've ever read.", "options": ["good", "better", "best", "most good"], "correct": 2},
+        {"id": 9, "question": "I've known him ___ 10 years.", "options": ["since", "for", "from", "during"], "correct": 1},
+        {"id": 10, "question": "She ___ dinner when I arrived.", "options": ["cook", "cooked", "was cooking", "has cooked"], "correct": 2},
+        {"id": 11, "question": "He ___ to London three times.", "options": ["go", "went", "has been", "is going"], "correct": 2},
+        {"id": 12, "question": "I'm not ___ tired as you.", "options": ["so", "as", "more", "such"], "correct": 1},
+        {"id": 13, "question": "You ___ smoke here.", "options": ["mustn't", "don't have to", "needn't", "shouldn't"], "correct": 0},
+        {"id": 14, "question": "If it rains, I ___ at home.", "options": ["stay", "stayed", "will stay", "staying"], "correct": 2},
+        {"id": 15, "question": "The book ___ by millions of people.", "options": ["read", "reads", "is read", "reading"], "correct": 2},
+        {"id": 16, "question": "I wish I ___ a car.", "options": ["have", "had", "has", "having"], "correct": 1},
+        {"id": 17, "question": "She asked me ___ I was from.", "options": ["what", "where", "who", "when"], "correct": 1},
+        {"id": 18, "question": "I ___ here since 2010.", "options": ["live", "lived", "have lived", "am living"], "correct": 2}
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "questions": [
+        {"id": 19, "question": "A person who flies a plane is a ___.", "options": ["driver", "pilot", "sailor", "captain"], "correct": 1},
+        {"id": 20, "question": "The place where you catch a train is a ___.", "options": ["airport", "station", "port", "stop"], "correct": 1},
+        {"id": 21, "question": "If you are not busy, you are ___.", "options": ["tired", "free", "boring", "lazy"], "correct": 1},
+        {"id": 22, "question": "Something very good is ___.", "options": ["terrible", "awful", "excellent", "horrible"], "correct": 2},
+        {"id": 23, "question": "To send a letter, you need a ___.", "options": ["ticket", "stamp", "coin", "note"], "correct": 1},
+        {"id": 24, "question": "Rain, snow, and sun are types of ___.", "options": ["climate", "weather", "temperature", "season"], "correct": 1},
+        {"id": 25, "question": "A person who takes care of sick people is a ___.", "options": ["teacher", "nurse", "lawyer", "actor"], "correct": 1},
+        {"id": 26, "question": "The opposite of 'expensive' is ___.", "options": ["free", "cheap", "costly", "rich"], "correct": 1},
+        {"id": 27, "question": "You use a ___ to take photos.", "options": ["radio", "camera", "computer", "phone"], "correct": 1},
+        {"id": 28, "question": "A flat is the same as an ___.", "options": ["house", "apartment", "office", "hotel"], "correct": 1},
+        {"id": 29, "question": "If you are ill, you feel ___.", "options": ["happy", "angry", "sick", "tired"], "correct": 2},
+        {"id": 30, "question": "The person who serves food in a restaurant is a ___.", "options": ["cook", "waiter", "chef", "manager"], "correct": 1},
+        {"id": 31, "question": "To ___ means to come to a place.", "options": ["leave", "arrive", "depart", "exit"], "correct": 1},
+        {"id": 32, "question": "Something that is not interesting is ___.", "options": ["exciting", "boring", "amazing", "surprising"], "correct": 1},
+        {"id": 33, "question": "The opposite of 'remember' is ___.", "options": ["remind", "forget", "think", "recall"], "correct": 1},
+        {"id": 34, "question": "A ___ is a room for cooking.", "options": ["bedroom", "bathroom", "kitchen", "living room"], "correct": 2},
+        {"id": 35, "question": "To ___ means to get something free.", "options": ["buy", "sell", "receive", "pay"], "correct": 2},
+        {"id": 36, "question": "Someone who is not married is ___.", "options": ["divorced", "single", "engaged", "widowed"], "correct": 1}
+      ]
+    },
+    {
+      "type": "reading",
+      "questions": [
+        {"id": 37, "text": "Last summer, my family went on holiday to Spain. We stayed in a small hotel near the beach. Every day we went swimming and played volleyball. In the evenings, we ate at local restaurants. The food was delicious. I loved the paella. We had a wonderful time and took many photos.", "question": "Where did the family go on holiday?", "options": ["Italy", "Greece", "Spain", "France"], "correct": 2},
+        {"id": 38, "text": "Last summer, my family went on holiday to Spain. We stayed in a small hotel near the beach. Every day we went swimming and played volleyball. In the evenings, we ate at local restaurants. The food was delicious. I loved the paella. We had a wonderful time and took many photos.", "question": "What did they do every day?", "options": ["shopping", "hiking", "swimming", "cycling"], "correct": 2},
+        {"id": 39, "text": "Last summer, my family went on holiday to Spain. We stayed in a small hotel near the beach. Every day we went swimming and played volleyball. In the evenings, we ate at local restaurants. The food was delicious. I loved the paella. We had a wonderful time and took many photos.", "question": "What food did they love?", "options": ["pizza", "paella", "pasta", "sushi"], "correct": 1},
+        {"id": 40, "text": "John works at a bank in the city center. He gets up at 6:30 every morning. He takes the train to work because he lives 20 kilometers from the office. He works from 9 to 5. After work, he goes to the gym three times a week. He enjoys his job but sometimes it's stressful.", "question": "How does John get to work?", "options": ["by bus", "by car", "by train", "on foot"], "correct": 2},
+        {"id": 41, "text": "John works at a bank in the city center. He gets up at 6:30 every morning. He takes the train to work because he lives 20 kilometers from the office. He works from 9 to 5. After work, he goes to the gym three times a week. He enjoys his job but sometimes it's stressful.", "question": "What time does John start work?", "options": ["8 am", "9 am", "10 am", "8:30 am"], "correct": 1},
+        {"id": 42, "text": "John works at a bank in the city center. He gets up at 6:30 every morning. He takes the train to work because he lives 20 kilometers from the office. He works from 9 to 5. After work, he goes to the gym three times a week. He enjoys his job but sometimes it's stressful.", "question": "How often does he go to the gym?", "options": ["every day", "twice a week", "three times a week", "once a week"], "correct": 2},
+        {"id": 43, "text": "Dear Sarah, Thank you for your letter. I'm happy to hear about your new job. I've been busy with my studies. I'm learning French and it's quite difficult. Next month, I'm going to visit my grandmother in the countryside. I hope we can meet soon. Love, Emma", "question": "What language is Emma learning?", "options": ["Spanish", "German", "French", "Italian"], "correct": 2},
+        {"id": 44, "text": "Dear Sarah, Thank you for your letter. I'm happy to hear about your new job. I've been busy with my studies. I'm learning French and it's quite difficult. Next month, I'm going to visit my grandmother in the countryside. I hope we can meet soon. Love, Emma", "question": "Who is Emma going to visit?", "options": ["Sarah", "her mother", "her grandmother", "her friend"], "correct": 2},
+        {"id": 45, "text": "Dear Sarah, Thank you for your letter. I'm happy to hear about your new job. I've been busy with my studies. I'm learning French and it's quite difficult. Next month, I'm going to visit my grandmother in the countryside. I hope we can meet soon. Love, Emma", "question": "How does Emma find French?", "options": ["easy", "boring", "difficult", "interesting"], "correct": 2}
+      ]
+    },
+    {
+      "type": "listening_simulation",
+      "questions": [
+        {"id": 46, "scenario": "At a hotel: 'Good evening. I have a reservation for two nights.' - 'Yes, Mr. Johnson. Room 305. Here's your key.'", "question": "How long is the reservation for?", "options": ["one night", "two nights", "three nights", "a week"], "correct": 1},
+        {"id": 47, "scenario": "At a restaurant: 'Are you ready to order?' - 'Yes, I'll have the steak with salad, please.' - 'And to drink?' - 'Just water.'", "question": "What food does the person order?", "options": ["chicken", "fish", "steak", "pizza"], "correct": 2},
+        {"id": 48, "scenario": "Giving directions: 'Go straight for two blocks, then turn left at the bank. The museum is on the right.'", "question": "Where should you turn left?", "options": ["at the school", "at the bank", "at the museum", "at the shop"], "correct": 1},
+        {"id": 49, "scenario": "Weather forecast: 'Tomorrow will be cloudy in the morning, but sunny in the afternoon. Temperatures around 20 degrees.'", "question": "What will the afternoon weather be like?", "options": ["rainy", "cloudy", "sunny", "windy"], "correct": 2},
+        {"id": 50, "scenario": "Making plans: 'How about going to the cinema on Saturday?' - 'Sorry, I'm busy. What about Sunday?'", "question": "When is the person free?", "options": ["Friday", "Saturday", "Sunday", "Monday"], "correct": 2},
+        {"id": 51, "scenario": "Shopping: 'This dress is nice. How much is it?' - 'It's on sale - only 40 euros, down from 60.'", "question": "What is the sale price?", "options": ["20 euros", "40 euros", "60 euros", "80 euros"], "correct": 1},
+        {"id": 52, "scenario": "At the doctor: 'How long have you had this headache?' - 'Since yesterday morning.'", "question": "What is the patient's problem?", "options": ["stomach ache", "headache", "toothache", "backache"], "correct": 1},
+        {"id": 53, "scenario": "On the phone: 'Can I speak to Mrs. Brown, please?' - 'I'm sorry, she's in a meeting. Can I take a message?'", "question": "Why can't the caller speak to Mrs. Brown?", "options": ["She's at lunch", "She's busy", "She's in a meeting", "She's on holiday"], "correct": 2},
+        {"id": 54, "scenario": "At the airport: 'Flight BA256 to Paris is now boarding at Gate 15.' - 'That's our flight!'", "question": "Where is the flight going?", "options": ["London", "Paris", "Rome", "Berlin"], "correct": 1}
+      ]
+    }
+  ]
+}

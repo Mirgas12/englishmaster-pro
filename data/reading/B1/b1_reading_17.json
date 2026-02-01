@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_17",
+  "level": "B1",
+  "title": "Minimalism as a Lifestyle",
+  "title_ru": "Минимализм как образ жизни",
+  "word_count": 220,
+  "topic": "lifestyle",
+  "text": "Minimalism is a lifestyle that focuses on living with less. Followers of this philosophy intentionally reduce their possessions to focus on what truly matters. In a world of constant consumption, minimalism offers an alternative approach.\n\nThe movement has gained popularity through books, documentaries, and social media. Advocates claim that owning fewer things leads to less stress, more freedom, and greater happiness. Instead of accumulating stuff, minimalists invest in experiences and relationships.\n\nMinimalism can take many forms. Some people live in tiny houses with just a few belongings. Others maintain regular-sized homes but carefully consider each purchase. The key principle is questioning whether an item truly adds value to your life.\n\nBeyond personal benefits, minimalism has environmental implications. Buying less means fewer resources consumed and less waste generated. It challenges the culture of constantly wanting more and newer things.\n\nCritics argue that minimalism is a privilege available mainly to those who can afford to buy quality items that last. They point out that discarding possessions only to potentially rebuy them later isn't truly sustainable.\n\nFor many, full minimalism feels too extreme. A more moderate approach involves being more mindful about purchases and regularly decluttering unused items. Even small steps toward owning less can bring benefits.\n\nUltimately, minimalism isn't about deprivation – it's about making room for what matters most.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do minimalists invest in instead of stuff?", "options": ["More stuff", "Experiences and relationships", "Real estate"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do critics say about minimalism?", "options": ["It's too cheap", "It's a privilege", "It's too popular"], "correct": 1},
+    {"type": "true_false", "question": "All minimalists live in tiny houses.", "correct": false},
+    {"type": "true_false", "question": "Minimalism can help the environment.", "correct": true},
+    {"type": "fill_gap", "question": "Minimalism challenges the culture of constantly wanting ___ things.", "answer": "more"}
+  ],
+  "vocabulary": ["minimalism", "possessions", "declutter", "sustainable", "deprivation"],
+  "grammar_focus": ["present_simple", "modal_verbs"]
+}

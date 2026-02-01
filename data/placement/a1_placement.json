@@ -1,0 +1,80 @@
+{
+  "level": "A1",
+  "total_questions": 54,
+  "sections": [
+    {
+      "type": "grammar",
+      "questions": [
+        {"id": 1, "question": "I ___ a student.", "options": ["am", "is", "are", "be"], "correct": 0},
+        {"id": 2, "question": "She ___ in London.", "options": ["live", "lives", "living", "lived"], "correct": 1},
+        {"id": 3, "question": "___ you like coffee?", "options": ["Do", "Does", "Are", "Is"], "correct": 0},
+        {"id": 4, "question": "He ___ to school every day.", "options": ["go", "goes", "going", "gone"], "correct": 1},
+        {"id": 5, "question": "I ___ a car.", "options": ["have", "has", "having", "had"], "correct": 0},
+        {"id": 6, "question": "There ___ a book on the table.", "options": ["is", "are", "am", "be"], "correct": 0},
+        {"id": 7, "question": "We ___ students.", "options": ["is", "am", "are", "be"], "correct": 2},
+        {"id": 8, "question": "My sister ___ not like fish.", "options": ["do", "does", "is", "are"], "correct": 1},
+        {"id": 9, "question": "___ is your name?", "options": ["Who", "What", "Where", "When"], "correct": 1},
+        {"id": 10, "question": "I ___ from Russia.", "options": ["am", "is", "are", "be"], "correct": 0},
+        {"id": 11, "question": "He ___ breakfast at 8 o'clock.", "options": ["have", "has", "having", "had"], "correct": 1},
+        {"id": 12, "question": "They ___ playing football.", "options": ["is", "am", "are", "be"], "correct": 2},
+        {"id": 13, "question": "The children ___ in the park.", "options": ["is", "am", "are", "be"], "correct": 2},
+        {"id": 14, "question": "I ___ read English.", "options": ["can", "cans", "canning", "canned"], "correct": 0},
+        {"id": 15, "question": "She ___ a new dress.", "options": ["want", "wants", "wanting", "wanted"], "correct": 1},
+        {"id": 16, "question": "___ he work here?", "options": ["Do", "Does", "Is", "Are"], "correct": 1},
+        {"id": 17, "question": "This is ___ book.", "options": ["my", "me", "I", "mine"], "correct": 0},
+        {"id": 18, "question": "The cat is ___ the table.", "options": ["in", "on", "at", "under"], "correct": 3}
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "questions": [
+        {"id": 19, "question": "Opposite of 'big' is ___.", "options": ["tall", "small", "long", "short"], "correct": 1},
+        {"id": 20, "question": "A person who teaches is a ___.", "options": ["doctor", "teacher", "driver", "pilot"], "correct": 1},
+        {"id": 21, "question": "The color of grass is ___.", "options": ["red", "blue", "green", "yellow"], "correct": 2},
+        {"id": 22, "question": "We sleep in a ___.", "options": ["kitchen", "bathroom", "bedroom", "garden"], "correct": 2},
+        {"id": 23, "question": "Monday, Tuesday, ___.", "options": ["Thursday", "Wednesday", "Friday", "Saturday"], "correct": 1},
+        {"id": 24, "question": "The opposite of 'hot' is ___.", "options": ["warm", "cold", "cool", "nice"], "correct": 1},
+        {"id": 25, "question": "Your mother's mother is your ___.", "options": ["aunt", "sister", "grandmother", "cousin"], "correct": 2},
+        {"id": 26, "question": "We eat with a knife and ___.", "options": ["spoon", "fork", "plate", "cup"], "correct": 1},
+        {"id": 27, "question": "January, February, ___.", "options": ["April", "March", "May", "June"], "correct": 1},
+        {"id": 28, "question": "The animal that says 'meow' is a ___.", "options": ["dog", "cat", "bird", "fish"], "correct": 1},
+        {"id": 29, "question": "We use ___ to cut paper.", "options": ["pen", "ruler", "scissors", "glue"], "correct": 2},
+        {"id": 30, "question": "The opposite of 'old' is ___.", "options": ["big", "young", "small", "tall"], "correct": 1},
+        {"id": 31, "question": "We drink ___ for breakfast.", "options": ["soup", "juice", "salad", "bread"], "correct": 1},
+        {"id": 32, "question": "A ___ flies in the sky.", "options": ["car", "train", "bus", "plane"], "correct": 3},
+        {"id": 33, "question": "We wash our hands with ___.", "options": ["water", "milk", "juice", "coffee"], "correct": 0},
+        {"id": 34, "question": "The capital of the UK is ___.", "options": ["Paris", "Berlin", "London", "Rome"], "correct": 2},
+        {"id": 35, "question": "We write with a ___.", "options": ["book", "pen", "table", "chair"], "correct": 1},
+        {"id": 36, "question": "A banana is ___.", "options": ["red", "green", "yellow", "blue"], "correct": 2}
+      ]
+    },
+    {
+      "type": "reading",
+      "questions": [
+        {"id": 37, "text": "My name is Tom. I am 10 years old. I live in a small house with my family. I have one brother and one sister. My brother is 12 and my sister is 8. We have a dog. His name is Max.", "question": "How old is Tom?", "options": ["8", "10", "12", "14"], "correct": 1},
+        {"id": 38, "text": "My name is Tom. I am 10 years old. I live in a small house with my family. I have one brother and one sister. My brother is 12 and my sister is 8. We have a dog. His name is Max.", "question": "What pet does the family have?", "options": ["cat", "bird", "dog", "fish"], "correct": 2},
+        {"id": 39, "text": "My name is Tom. I am 10 years old. I live in a small house with my family. I have one brother and one sister. My brother is 12 and my sister is 8. We have a dog. His name is Max.", "question": "How old is Tom's sister?", "options": ["8", "10", "12", "6"], "correct": 0},
+        {"id": 40, "text": "Anna goes to school at 8 o'clock. She has lunch at 12. After school, she plays with her friends. She comes home at 5 o'clock. She does homework and watches TV.", "question": "What time does Anna go to school?", "options": ["7 o'clock", "8 o'clock", "9 o'clock", "10 o'clock"], "correct": 1},
+        {"id": 41, "text": "Anna goes to school at 8 o'clock. She has lunch at 12. After school, she plays with her friends. She comes home at 5 o'clock. She does homework and watches TV.", "question": "What does Anna do after school?", "options": ["sleeps", "studies", "plays with friends", "cooks"], "correct": 2},
+        {"id": 42, "text": "Anna goes to school at 8 o'clock. She has lunch at 12. After school, she plays with her friends. She comes home at 5 o'clock. She does homework and watches TV.", "question": "When does Anna come home?", "options": ["3 o'clock", "4 o'clock", "5 o'clock", "6 o'clock"], "correct": 2},
+        {"id": 43, "text": "I like fruit. My favorite fruit is apple. Apples are red and sweet. I eat an apple every day. Bananas are good too, but I like apples more.", "question": "What is the person's favorite fruit?", "options": ["banana", "orange", "apple", "grape"], "correct": 2},
+        {"id": 44, "text": "I like fruit. My favorite fruit is apple. Apples are red and sweet. I eat an apple every day. Bananas are good too, but I like apples more.", "question": "What color are apples?", "options": ["yellow", "green", "red", "blue"], "correct": 2},
+        {"id": 45, "text": "I like fruit. My favorite fruit is apple. Apples are red and sweet. I eat an apple every day. Bananas are good too, but I like apples more.", "question": "How often does the person eat an apple?", "options": ["never", "sometimes", "every day", "every week"], "correct": 2}
+      ]
+    },
+    {
+      "type": "listening_simulation",
+      "questions": [
+        {"id": 46, "scenario": "At a cafe: 'Hello! Can I have a coffee, please?' - 'Of course. Anything else?'", "question": "Where is this conversation?", "options": ["at home", "at a cafe", "at school", "at work"], "correct": 1},
+        {"id": 47, "scenario": "At a cafe: 'Hello! Can I have a coffee, please?' - 'Of course. Anything else?'", "question": "What does the person want?", "options": ["tea", "water", "coffee", "juice"], "correct": 2},
+        {"id": 48, "scenario": "Meeting someone: 'Hi! My name is John. Nice to meet you.' - 'Nice to meet you too. I'm Sarah.'", "question": "What is the man's name?", "options": ["Tom", "John", "Mike", "Peter"], "correct": 1},
+        {"id": 49, "scenario": "At a shop: 'How much is this?' - 'It's 5 dollars.'", "question": "What does the person ask about?", "options": ["the time", "the price", "the color", "the size"], "correct": 1},
+        {"id": 50, "scenario": "On the phone: 'Hello?' - 'Hi! It's Mom. Are you at home?'", "question": "Who is calling?", "options": ["Dad", "Friend", "Mom", "Teacher"], "correct": 2},
+        {"id": 51, "scenario": "In class: 'Can I borrow your pen?' - 'Sure, here you are.'", "question": "What does the person want to borrow?", "options": ["book", "pen", "ruler", "eraser"], "correct": 1},
+        {"id": 52, "scenario": "Weather: 'What's the weather like?' - 'It's sunny and warm.'", "question": "How is the weather?", "options": ["cold", "rainy", "sunny", "cloudy"], "correct": 2},
+        {"id": 53, "scenario": "Time: 'What time is it?' - 'It's half past three.'", "question": "What time is it?", "options": ["3:00", "3:15", "3:30", "3:45"], "correct": 2},
+        {"id": 54, "scenario": "Age: 'How old are you?' - 'I'm fifteen.'", "question": "How old is the person?", "options": ["14", "15", "16", "17"], "correct": 1}
+      ]
+    }
+  ]
+}

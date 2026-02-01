@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_06",
+  "level": "B1",
+  "title": "Sustainable Fashion",
+  "title_ru": "Устойчивая мода",
+  "word_count": 225,
+  "topic": "environment",
+  "text": "The fashion industry is one of the world's biggest polluters, responsible for about 10% of global carbon emissions. Fast fashion – the practice of producing cheap clothes quickly to match rapidly changing trends – has particularly harmful environmental effects. However, a growing movement toward sustainable fashion is challenging this model.\n\nThe problems with fast fashion are numerous. Clothing production uses vast amounts of water and energy. Many garments end up in landfills after being worn only a few times. Synthetic fabrics release microplastics when washed, polluting our oceans. There are also ethical concerns about poor working conditions in factories.\n\nSustainable fashion offers alternatives. Some brands use organic or recycled materials and ensure fair treatment of workers. Second-hand shopping has become increasingly popular, with vintage stores and online platforms making it easy to buy pre-owned clothes. Many people are also adopting a 'capsule wardrobe' approach, owning fewer but higher-quality items.\n\nConsumers can make a difference through their choices. Buying less but better quality clothing, repairing items instead of throwing them away, and supporting ethical brands all help. Renting clothes for special occasions is another option gaining popularity.\n\nThe fashion industry is slowly changing in response to consumer demand. Major brands are introducing sustainable lines and setting environmental targets. While progress is still too slow, the growing awareness of fashion's environmental impact is a positive sign for the future.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What percentage of global emissions is fashion responsible for?", "options": ["About 5%", "About 10%", "About 20%"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is a 'capsule wardrobe'?", "options": ["Many cheap items", "Fewer quality items", "Only designer clothes"], "correct": 1},
+    {"type": "true_false", "question": "Second-hand shopping has become less popular.", "correct": false},
+    {"type": "true_false", "question": "Synthetic fabrics release microplastics when washed.", "correct": true},
+    {"type": "fill_gap", "question": "Many garments end up in ___ after being worn only a few times.", "answer": "landfills"}
+  ],
+  "vocabulary": ["sustainable", "fast fashion", "garments", "microplastics", "ethical"],
+  "grammar_focus": ["present_perfect", "passive_voice"]
+}

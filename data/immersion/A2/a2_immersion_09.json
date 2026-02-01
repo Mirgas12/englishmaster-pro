@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_09",
+  "level": "A2",
+  "title": "My Hobby",
+  "title_ru": "Моё хобби",
+  "media_type": "video",
+  "duration_seconds": 55,
+  "description": "A person talks about their hobby",
+  "transcript": "I want to tell you about my hobby. I love photography! I started taking photos five years ago when I got my first camera as a birthday present. At first, I took pictures of my family and friends. Now I prefer landscape photography. I love going to beautiful places and capturing nature. Last summer, I went to the mountains and took amazing photos of sunrise. I edit my photos on the computer using special software. Sometimes I share them on social media, and people say nice things. Photography helps me relax and see the world differently. Maybe one day I'll have my own exhibition!",
+  "questions": [
+    {"type": "multiple_choice", "question": "When did the person start photography?", "options": ["3 years ago", "5 years ago", "10 years ago"], "correct": 1},
+    {"type": "multiple_choice", "question": "What type of photography does the person prefer now?", "options": ["Portrait", "Landscape", "Street"], "correct": 1},
+    {"type": "true_false", "question": "The camera was a birthday present.", "correct": true},
+    {"type": "true_false", "question": "The person never shares photos online.", "correct": false},
+    {"type": "fill_gap", "question": "Photography helps the person ___ and see the world differently.", "answer": "relax"}
+  ],
+  "vocabulary": ["photography", "camera", "landscape", "capture", "exhibition"],
+  "key_phrases": ["I love photography", "I started taking photos", "I prefer", "helps me relax"]
+}

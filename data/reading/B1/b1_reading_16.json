@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_16",
+  "level": "B1",
+  "title": "Space Exploration Today",
+  "title_ru": "Освоение космоса сегодня",
+  "word_count": 225,
+  "topic": "science",
+  "text": "Space exploration has entered an exciting new era. After decades dominated by government agencies like NASA and ESA, private companies are now playing a major role. SpaceX, Blue Origin, and other firms are developing new rockets and spacecraft that could transform our relationship with space.\n\nOne significant development is reusable rocket technology. SpaceX has successfully landed and reused rocket boosters multiple times, dramatically reducing the cost of reaching orbit. This innovation makes space more accessible for research, commercial activities, and eventually tourism.\n\nMars has become a primary focus of exploration efforts. Multiple missions are currently studying the red planet, including rovers that drive across its surface. The long-term goal is human colonization, though this remains decades away. Scientists are working on solutions for the many challenges, from radiation exposure to growing food in Martian soil.\n\nCloser to home, the International Space Station continues hosting astronauts from various countries who conduct valuable research in microgravity. Plans are underway for commercial space stations that could replace the aging ISS.\n\nSpace tourism is becoming reality. Several companies now offer brief trips to the edge of space for wealthy customers. While currently expensive, prices may eventually drop enough for more people to experience weightlessness and see Earth from above.\n\nThe benefits of space exploration extend beyond the stars. Technologies developed for space have led to improvements in medicine, materials, and our understanding of our own planet.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What has SpaceX developed?", "options": ["Moon bases", "Reusable rockets", "Space hotels"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is a long-term goal for Mars?", "options": ["Mining", "Human colonization", "Just observation"], "correct": 1},
+    {"type": "true_false", "question": "Only government agencies explore space now.", "correct": false},
+    {"type": "true_false", "question": "Space technologies have improved medicine.", "correct": true},
+    {"type": "fill_gap", "question": "Private companies are playing a major ___ in space exploration.", "answer": "role"}
+  ],
+  "vocabulary": ["reusable", "colonization", "microgravity", "innovation", "radiation"],
+  "grammar_focus": ["present_perfect", "future_plans"]
+}

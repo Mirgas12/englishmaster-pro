@@ -1,0 +1,296 @@
+{
+  "id": "a1_to_be",
+  "level": "A1",
+  "title": "To Be (am/is/are)",
+  "title_ru": "Глагол To Be (am/is/are)",
+  "estimatedMinutes": 30,
+  "prerequisites": [],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this text about a family. Notice the highlighted words.",
+      "instruction_ru": "Прочитай текст о семье. Обрати внимание на выделенные слова.",
+      "content": {
+        "text": "Hello! I <highlight>am</highlight> Anna. I <highlight>am</highlight> 25 years old. I <highlight>am</highlight> a teacher. This <highlight>is</highlight> my family. My mother <highlight>is</highlight> Maria. She <highlight>is</highlight> 50. She <highlight>is</highlight> very kind. My father <highlight>is</highlight> Peter. He <highlight>is</highlight> a doctor. My parents <highlight>are</highlight> wonderful people. We <highlight>are</highlight> a happy family. My brothers <highlight>are</highlight> Tom and Jack. They <highlight>are</highlight> students.",
+        "question": "What words come after 'I', 'she', 'he', 'we', 'they'?",
+        "question_ru": "Какие слова идут после 'I', 'she', 'he', 'we', 'they'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "How to use TO BE",
+        "title_ru": "Как использовать глагол TO BE",
+        "points": [
+          {
+            "rule": "I + am",
+            "rule_ru": "I + am (я есть)",
+            "example": "I am a student. / I am happy.",
+            "marker": "I"
+          },
+          {
+            "rule": "He/She/It + is",
+            "rule_ru": "He/She/It + is (он/она/оно есть)",
+            "example": "He is tall. / She is a doctor. / It is cold.",
+            "marker": "he, she, it"
+          },
+          {
+            "rule": "You/We/They + are",
+            "rule_ru": "You/We/They + are (ты/мы/они есть)",
+            "example": "You are my friend. / We are happy. / They are students.",
+            "marker": "you, we, they"
+          },
+          {
+            "rule": "Short forms: I'm, he's, she's, it's, you're, we're, they're",
+            "rule_ru": "Краткие формы: I'm, he's, she's, it's, you're, we're, they're",
+            "example": "I'm Anna. He's a teacher. They're students.",
+            "marker": "contractions"
+          }
+        ],
+        "comparison_table": [
+          {
+            "subject": "I",
+            "verb": "am",
+            "short": "I'm",
+            "example": "I am / I'm happy."
+          },
+          {
+            "subject": "He/She/It",
+            "verb": "is",
+            "short": "he's/she's/it's",
+            "example": "She is / She's a doctor."
+          },
+          {
+            "subject": "You/We/They",
+            "verb": "are",
+            "short": "you're/we're/they're",
+            "example": "They are / They're friends."
+          }
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find ALL forms of 'to be' in this text. Write am, is, or are.",
+      "instruction_ru": "Найди ВСЕ формы 'to be' в этом тексте. Напиши am, is или are.",
+      "tasks": [
+        {
+          "text": "This is my classroom. It is big and bright. I am a student here. My teacher is Mr. Brown. He is very nice. My classmates are friendly. We are in class 5A. Today is Monday. The lessons are interesting. My favorite subject is English. English is fun!",
+          "find": [
+            {"verb": "is", "subject": "This", "reason": "This = it (singular)"},
+            {"verb": "is", "subject": "It", "reason": "It (singular)"},
+            {"verb": "am", "subject": "I", "reason": "I always uses am"},
+            {"verb": "is", "subject": "My teacher", "reason": "My teacher = he/she (singular)"},
+            {"verb": "is", "subject": "He", "reason": "He (singular)"},
+            {"verb": "are", "subject": "My classmates", "reason": "My classmates = they (plural)"},
+            {"verb": "are", "subject": "We", "reason": "We (plural)"},
+            {"verb": "is", "subject": "Today", "reason": "Today = it (singular)"},
+            {"verb": "are", "subject": "The lessons", "reason": "The lessons = they (plural)"},
+            {"verb": "is", "subject": "My favorite subject", "reason": "Subject = it (singular)"},
+            {"verb": "is", "subject": "English", "reason": "English = it (singular)"}
+          ]
+        }
+      ],
+      "reflection_question": "When do we use 'is' and when do we use 'are'?",
+      "reflection_question_ru": "Когда мы используем 'is', а когда 'are'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with am, is, or are.",
+          "sentences": [
+            {"sentence": "I ___ a student.", "answer": "am"},
+            {"sentence": "She ___ my sister.", "answer": "is"},
+            {"sentence": "They ___ from Russia.", "answer": "are"},
+            {"sentence": "It ___ a cat.", "answer": "is"},
+            {"sentence": "We ___ friends.", "answer": "are"},
+            {"sentence": "He ___ 30 years old.", "answer": "is"},
+            {"sentence": "You ___ very kind.", "answer": "are"},
+            {"sentence": "The book ___ on the table.", "answer": "is"},
+            {"sentence": "My parents ___ at home.", "answer": "are"},
+            {"sentence": "I ___ happy today.", "answer": "am"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "My name ___ Alex.",
+              "options": ["am", "is", "are"],
+              "correct": 1,
+              "explanation": "My name = it (singular), so we use 'is'"
+            },
+            {
+              "sentence": "The children ___ in the park.",
+              "options": ["am", "is", "are"],
+              "correct": 2,
+              "explanation": "The children = they (plural), so we use 'are'"
+            },
+            {
+              "sentence": "I ___ from Moscow.",
+              "options": ["am", "is", "are"],
+              "correct": 0,
+              "explanation": "I always uses 'am'"
+            },
+            {
+              "sentence": "This ___ my house.",
+              "options": ["am", "is", "are"],
+              "correct": 1,
+              "explanation": "This = it (singular), so we use 'is'"
+            },
+            {
+              "sentence": "We ___ students.",
+              "options": ["am", "is", "are"],
+              "correct": 2,
+              "explanation": "We (plural), so we use 'are'"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I is a teacher.",
+              "correct": "I am a teacher.",
+              "explanation": "I always uses 'am', not 'is'"
+            },
+            {
+              "incorrect": "She are beautiful.",
+              "correct": "She is beautiful.",
+              "explanation": "She uses 'is', not 'are'"
+            },
+            {
+              "incorrect": "They is my friends.",
+              "correct": "They are my friends.",
+              "explanation": "They uses 'are', not 'is'"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write 5 sentences about yourself and your family using am, is, are.",
+      "instruction_ru": "Напиши 5 предложений о себе и своей семье, используя am, is, are.",
+      "prompts": [
+        "Your name and age (I am...)",
+        "Your job or school (I am a...)",
+        "Your family members (My mother is..., My brothers are...)",
+        "Your home (My house is...)",
+        "Your feelings today (I am happy/tired...)"
+      ],
+      "example": "I am Maria. I am 22 years old. I am a student. My mother is a teacher. She is very kind. My father is an engineer. My parents are wonderful. We are a happy family.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'am' with I",
+        "Uses 'is' with he/she/it",
+        "Uses 'are' with you/we/they",
+        "At least 5 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts that use TO BE forms frequently.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "My Best Friend",
+          "level": "A1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "My best friend is Kate. She is 24 years old. She is from London. She is a nurse. Her job is interesting. Her eyes are blue. Her hair is long. We are best friends for 10 years. She is kind and funny. I am happy when I am with her."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Our Classroom",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 9,
+          "content": "This is our classroom. It is big. The walls are white. The desks are brown. Our teacher is Mrs. Smith. She is nice. The students are friendly. We are 20 students in the class. I am happy to be here."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "My Pets",
+          "level": "A1",
+          "word_count": 75,
+          "target_structures": 11,
+          "content": "I am a pet lover. My cat is Fluffy. She is white and fluffy. She is 3 years old. My dog is Max. He is brown. He is very friendly. My pets are my best friends. They are always happy. We are a happy family."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "The Weather",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 8,
+          "content": "Today is Monday. It is sunny. The sky is blue. I am happy. Summer is my favorite season. The days are long. The nights are short. We are on vacation. It is wonderful!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "My City",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 9,
+          "content": "My city is Moscow. It is very big. The streets are wide. The buildings are tall. I am proud of my city. The people are friendly. The metro is fast. We are happy here. Moscow is beautiful!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ a student.",
+          "back": "I am a student.\n\nI always uses 'am'"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She ___ beautiful.",
+          "back": "She is beautiful.\n\nShe/He/It uses 'is'"
+        },
+        {
+          "type": "fill_gap",
+          "front": "They ___ my friends.",
+          "back": "They are my friends.\n\nThey/We/You uses 'are'"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"We is happy.\"",
+          "back": "We are happy.\n\nWe uses 'are', not 'is'"
+        },
+        {
+          "type": "transformation",
+          "front": "Full form: He is a doctor.\nShort form: ?",
+          "back": "He's a doctor.\n\nHe is = He's"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'is' with I (I is...)",
+      "Using 'are' with he/she/it",
+      "Forgetting the verb completely (I student)"
+    ],
+    "related_topics": ["a1_present_simple", "a1_articles"],
+    "ielts_relevance": "Foundation - essential for all levels",
+    "frequency_in_english": "Very high - most common verb"
+  }
+}

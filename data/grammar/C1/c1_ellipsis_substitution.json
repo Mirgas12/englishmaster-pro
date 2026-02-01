@@ -1,0 +1,293 @@
+{
+  "id": "c1_ellipsis_substitution",
+  "level": "C1",
+  "title": "Ellipsis and Substitution",
+  "title_ru": "Эллипсис и замещение",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_discourse_markers", "b2_emphasis_structures"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this natural conversation. Notice how words are omitted or replaced.",
+      "instruction_ru": "Прочитай этот естественный разговор. Обрати внимание, как слова опускаются или заменяются.",
+      "content": {
+        "text": "A: Are you coming to the party? B: I'd like <highlight>to</highlight>, but I can't. A: Why not? Everyone else <highlight>is</highlight>. B: I know they <highlight>are</highlight>, but I have work. A: Can't you finish <highlight>it</highlight> tomorrow? B: I wish I <highlight>could</highlight>. A: You said you <highlight>would</highlight>. B: I know I <highlight>did</highlight>. A: Some came early and <highlight>some</highlight> late. B: <highlight>Those who did</highlight> missed the surprise. A: The food was good, or <highlight>so</highlight> I've heard. B: <highlight>So</highlight> it was. Better than expected, <highlight>apparently</highlight>.",
+        "question": "What full forms do these shortened expressions represent?",
+        "question_ru": "Какие полные формы представляют эти сокращённые выражения?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Ellipsis and Substitution for Natural Flow",
+        "title_ru": "Эллипсис и замещение для естественного потока речи",
+        "points": [
+          {
+            "rule": "Ellipsis after 'to': I'd like to (go). She wants to (come). I don't want to (stay).",
+            "rule_ru": "Эллипсис после 'to': I'd like to (go). She wants to (come). I don't want to (stay).",
+            "example": "A: Will you help? B: I'd like to. (= I'd like to help)",
+            "marker": "to-ellipsis"
+          },
+          {
+            "rule": "Auxiliary ellipsis: She can swim and he can (swim) too. I will if you will.",
+            "rule_ru": "Эллипсис вспомогательного: She can swim and he can (swim) too. I will if you will.",
+            "example": "A: Have you finished? B: No, but I will. (= I will finish)",
+            "marker": "auxiliary"
+          },
+          {
+            "rule": "Substitution with 'so/not': I think so. I hope not. It appears so.",
+            "rule_ru": "Замещение с 'so/not': I think so. I hope not. It appears so.",
+            "example": "A: Is it raining? B: I believe so. / I don't think so.",
+            "marker": "so/not"
+          },
+          {
+            "rule": "Substitution with 'do so': He promised to help and he did so willingly.",
+            "rule_ru": "Замещение с 'do so': He promised to help and he did so willingly.",
+            "example": "We were asked to remain and we did so without complaint.",
+            "marker": "do so"
+          },
+          {
+            "rule": "Substitution with 'one/ones': I'll take the red one. These ones are better.",
+            "rule_ru": "Замещение с 'one/ones': I'll take the red one. These ones are better.",
+            "example": "Which book? The one on the table. The blue ones are mine.",
+            "marker": "one/ones"
+          }
+        ],
+        "comparison_table": [
+          {"type": "To-ellipsis", "full": "I want to go", "short": "I want to", "note": "Infinitive understood"},
+          {"type": "Auxiliary", "full": "She has finished", "short": "She has", "note": "Main verb omitted"},
+          {"type": "So substitution", "full": "I think (that) it's true", "short": "I think so", "note": "Clause → so"},
+          {"type": "Not substitution", "full": "I hope (that) it isn't", "short": "I hope not", "note": "Negative clause → not"},
+          {"type": "Do so", "full": "He applied and succeeded", "short": "He applied and did so successfully", "note": "Formal verb substitution"},
+          {"type": "One/ones", "full": "I want the red book", "short": "I want the red one", "note": "Noun substitution"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify what has been omitted or substituted.",
+      "instruction_ru": "Определи, что было опущено или заменено.",
+      "tasks": [
+        {
+          "text": "Conversations:\n\n1. A: Are you going to apply? B: I'm planning to.\n2. A: Has she arrived? B: No, but she will soon.\n3. A: Is it going to rain? B: I hope not.\n4. A: Which pen do you want? B: The blue one.\n5. A: He said he'd help. B: And he did so without hesitation.\n6. A: Can you come? B: I wish I could.\n7. A: Some agreed and some didn't.\n8. A: The exam was difficult. B: So I've heard.\n9. A: You should exercise more. B: I know I should.\n10. A: Is the meeting cancelled? B: It appears so.",
+          "find": [
+            {"sentence": 1, "short": "to", "full": "to apply", "type": "to-ellipsis"},
+            {"sentence": 2, "short": "will", "full": "will arrive", "type": "auxiliary ellipsis"},
+            {"sentence": 3, "short": "not", "full": "that it won't rain", "type": "not substitution"},
+            {"sentence": 4, "short": "one", "full": "pen", "type": "one substitution"},
+            {"sentence": 5, "short": "did so", "full": "helped", "type": "do so substitution"},
+            {"sentence": 6, "short": "could", "full": "could come", "type": "auxiliary ellipsis"},
+            {"sentence": 7, "short": "didn't", "full": "didn't agree", "type": "auxiliary ellipsis"},
+            {"sentence": 8, "short": "So", "full": "That it was difficult", "type": "so substitution"},
+            {"sentence": 9, "short": "should", "full": "should exercise more", "type": "auxiliary ellipsis"},
+            {"sentence": 10, "short": "so", "full": "that it is cancelled", "type": "so substitution"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is ellipsis important for natural-sounding English?",
+      "reflection_question_ru": "Почему эллипсис важен для естественно звучащего английского?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation_shorten",
+          "instruction": "Use ellipsis or substitution to make these more natural.",
+          "sentences": [
+            {"full": "A: Will you come? B: Yes, I will come.", "short": "Yes, I will."},
+            {"full": "I wanted to go but I couldn't go.", "short": "I wanted to but I couldn't."},
+            {"full": "A: Is it true? B: I believe it is true.", "short": "I believe so."},
+            {"full": "I need a pen. Can I borrow the red pen?", "short": "Can I borrow the red one?"},
+            {"full": "He was asked to resign, and he resigned immediately.", "short": "He was asked to resign, and did so immediately."},
+            {"full": "A: She might fail. B: I hope she won't fail.", "short": "I hope not."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the appropriate short form.",
+          "sentences": [
+            {"sentence": "A: Can she swim? B: Yes, she ___.", "answer": "can"},
+            {"sentence": "A: Will they accept? B: I hope ___.", "answer": "so"},
+            {"sentence": "A: Is it closed? B: It would appear ___.", "answer": "so"},
+            {"sentence": "I'd love to help, but I don't know if I'm able ___.", "answer": "to"},
+            {"sentence": "Which shoes? The black ___ or the brown ___?", "answer": "ones, ones"},
+            {"sentence": "He promised to return the book, and he did ___ promptly.", "answer": "so"},
+            {"sentence": "A: Will the price fall? B: I doubt ___.", "answer": "it"},
+            {"sentence": "A: You said you would call. B: I know I ___.", "answer": "did/would"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct substitution.",
+          "questions": [
+            {
+              "context": "Responding to 'Is the concert cancelled?'",
+              "options": ["I hope so", "I hope not"],
+              "correct": 1,
+              "meaning": "You want it to happen",
+              "explanation": "Hope not = hope it isn't cancelled"
+            },
+            {
+              "context": "Replacing 'that clause' after 'think'",
+              "sentence": "A: Is he reliable? B: I ___ ___.",
+              "options": ["think so", "think it", "think yes"],
+              "correct": 0,
+              "explanation": "Think so = think that he is reliable"
+            },
+            {
+              "context": "Replacing the action formally",
+              "sentence": "They were instructed to leave and they ___.",
+              "options": ["did", "did so", "do so"],
+              "correct": 1,
+              "explanation": "Did so = left (formal substitution)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the error.",
+          "sentences": [
+            {
+              "incorrect": "I'd like to go but I'm not able.",
+              "correct": "I'd like to go but I'm not able to.",
+              "explanation": "Keep 'to' in to-ellipsis after 'able'"
+            },
+            {
+              "incorrect": "A: Will it rain? B: I hope so not.",
+              "correct": "A: Will it rain? B: I hope not.",
+              "explanation": "'Hope not' is the correct negative form"
+            },
+            {
+              "incorrect": "Which car? The one red.",
+              "correct": "Which car? The red one.",
+              "explanation": "Adjective before 'one': the red one"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a natural dialogue using ellipsis and substitution to avoid repetition.",
+      "instruction_ru": "Напиши естественный диалог, используя эллипсис и замещение, чтобы избежать повторения.",
+      "prompts": [
+        "Write a conversation about weekend plans",
+        "Create a dialogue about choosing products in a store",
+        "Write a discussion about whether something will happen",
+        "Compose a conversation with promises and agreements"
+      ],
+      "example": "A: Are you coming to the party on Saturday?\nB: I'd like to, but I'm not sure if I can.\nA: Why not? Everyone else is.\nB: I know they are. I have to work.\nA: Can't you finish early?\nB: I wish I could. I promised my boss I would stay.\nA: You could do so another day.\nB: I suggested that but he said no.\nA: That's unfortunate. Some came late last time.\nB: Did they? I wasn't one of those who did.\nA: The food was great, or so I've heard.\nB: So it was. Better than expected, apparently.",
+      "ai_check": true,
+      "criteria": [
+        "Uses to-ellipsis correctly",
+        "Uses auxiliary ellipsis",
+        "Uses so/not substitution",
+        "Uses one/ones substitution",
+        "Natural conversational flow",
+        "At least 8 instances of ellipsis/substitution"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 dialogues with natural ellipsis and substitution.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Weekend Plans",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "A: Are you going to the concert? B: I'd love to, but I can't. A: Why not? Sarah is and Tom is too. B: I know they are. I have to work. A: On Saturday? B: Apparently so. A: You could call in sick. B: I wish I could. A: Would Mark cover for you? B: He might. I'll ask if he can. A: I hope so. It won't be the same without you."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Shopping Decisions",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "A: Which laptop do you recommend? B: The silver one is popular, but the black one is faster. A: Is the black one worth the extra cost? B: I think so. A: Can I try both? B: Of course you can. A: I was planning to buy the cheaper one. B: Many do, but those who choose the premium model rarely regret doing so. A: I'll take the black one then. B: Good choice. Would you like a case for it? A: Yes, the leather one please."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Project Discussion",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "A: Has the client approved the proposal? B: Not yet, but they will. A: Are you sure? B: I believe so. They seemed positive. A: Will they sign today? B: They might. I hope so anyway. A: Some clients take weeks to decide. B: I know they do. A: You said you'd call them. B: I did, and I did so twice. A: And? B: They promised to respond by Friday. A: Let's hope they will."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Health Conversation",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "A: Are you feeling better? B: A bit, but not as much as I'd like to. A: Did you take your medicine? B: Yes, I did. A: Have you eaten? B: I haven't been able to. A: You need to. B: I know I do. A: Will you see the doctor again? B: I might. If I'm not better by tomorrow, I will. A: Do you think it's serious? B: I hope not. A: So do I."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Travel Plans",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "A: Have you booked the flights? B: Not yet, but I'm going to. A: Which airline? The budget one or the premium one? B: I'm considering both. The cheaper one saves money. A: But the better one is more comfortable. B: So it is. A: Can we afford the expensive one? B: We can if we want to. A: Then let's do so. B: Are you sure you want to? A: I think so. Life's too short. B: Indeed it is."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "A: Will you help? B: I'd like ___.",
+          "back": "to\n\nTo-ellipsis: I'd like to (help)"
+        },
+        {
+          "type": "fill_gap",
+          "front": "A: Is it true? B: I think ___.",
+          "back": "so\n\nSubstitutes 'that it's true'"
+        },
+        {
+          "type": "fill_gap",
+          "front": "A: Will it rain? B: I hope ___.",
+          "back": "not\n\nSubstitutes 'that it won't'"
+        },
+        {
+          "type": "transformation",
+          "front": "He was asked to leave and he left.\nMore formal:",
+          "back": "He was asked to leave and did so."
+        },
+        {
+          "type": "fill_gap",
+          "front": "Which book? The red ___.",
+          "back": "one\n\nSubstitutes the noun 'book'"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "transformation", "error_correction", "identify"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Omitting 'to' when it should be kept",
+      "Wrong use of so/not with different verbs",
+      "Incorrect position of adjective with 'one'",
+      "Overusing ellipsis causing confusion"
+    ],
+    "related_topics": ["b2_discourse_markers", "c1_cohesion_coherence"],
+    "ielts_relevance": "High - natural spoken English",
+    "cae_relevance": "Speaking, Use of English",
+    "frequency_in_english": "Very high in spoken English"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "id": "c1_complex_passives",
+  "level": "C1",
+  "title": "Complex Passive Structures",
+  "title_ru": "Сложные пассивные структуры",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_passive_advanced", "b2_reported_speech_advanced"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this news report. Notice the complex passive constructions.",
+      "instruction_ru": "Прочитай эту новостную статью. Обрати внимание на сложные пассивные конструкции.",
+      "content": {
+        "text": "The suspect <highlight>is believed to have fled</highlight> the country. <highlight>It is reported that</highlight> several witnesses saw the incident. The evidence <highlight>is said to have been</highlight> destroyed. <highlight>He is thought to be</highlight> hiding abroad. The documents <highlight>are understood to contain</highlight> classified information. <highlight>It is alleged that</highlight> officials were involved. The meeting <highlight>is expected to be held</highlight> next week. <highlight>She is known to have worked</highlight> for intelligence services. <highlight>It is claimed that</highlight> the investigation was compromised. The announcement <highlight>is due to be made</highlight> tomorrow.",
+        "question": "How do these passives report information without stating the source?",
+        "question_ru": "Как эти пассивы сообщают информацию, не указывая источник?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Advanced Passive Constructions",
+        "title_ru": "Продвинутые пассивные конструкции",
+        "points": [
+          {
+            "rule": "Subject + is said/believed/thought/reported + to infinitive",
+            "rule_ru": "Подлежащее + is said/believed/thought/reported + to инфинитив",
+            "example": "He is said to be wealthy. She is believed to have left.",
+            "marker": "personal passive"
+          },
+          {
+            "rule": "It is said/believed/reported + that clause",
+            "rule_ru": "It is said/believed/reported + that придаточное",
+            "example": "It is reported that the talks have failed.",
+            "marker": "impersonal passive"
+          },
+          {
+            "rule": "Perfect infinitive in passive: is said to have done (past action)",
+            "rule_ru": "Перфектный инфинитив в пассиве: is said to have done (прошлое действие)",
+            "example": "He is believed to have stolen millions. (They believe he stole)",
+            "marker": "perfect infinitive"
+          },
+          {
+            "rule": "Continuous infinitive: is said to be doing (ongoing)",
+            "rule_ru": "Продолженный инфинитив: is said to be doing (продолжающееся)",
+            "example": "She is thought to be working on a new project.",
+            "marker": "continuous infinitive"
+          },
+          {
+            "rule": "Double passive: was made to be seen / was seen to have been opened",
+            "rule_ru": "Двойной пассив: was made to be seen / was seen to have been opened",
+            "example": "The package was seen to have been opened.",
+            "marker": "double passive"
+          }
+        ],
+        "comparison_table": [
+          {"active": "People say he is rich", "passive_impersonal": "It is said that he is rich", "passive_personal": "He is said to be rich"},
+          {"active": "They believe she left", "passive_impersonal": "It is believed that she left", "passive_personal": "She is believed to have left"},
+          {"active": "People think he is working", "passive_impersonal": "It is thought that he is working", "passive_personal": "He is thought to be working"},
+          {"active": "They report the talks failed", "passive_impersonal": "It is reported that the talks failed", "passive_personal": "The talks are reported to have failed"},
+          {"active": "They expect her to resign", "passive_impersonal": "It is expected that she will resign", "passive_personal": "She is expected to resign"}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Transform between active, impersonal passive, and personal passive.",
+      "instruction_ru": "Преобразуй между активным залогом, безличным и личным пассивом.",
+      "tasks": [
+        {
+          "text": "News reports:\n\n1. It is understood that the negotiations are continuing.\n2. The ambassador is believed to have resigned.\n3. People think the economy will recover.\n4. It is alleged that bribes were accepted.\n5. The suspect is thought to be armed.\n6. They say the reforms will be announced soon.\n7. It is reported that casualties are minimal.\n8. The company is known to have evaded taxes.\n9. People expect the decision to be made today.\n10. It is claimed that evidence was fabricated.",
+          "find": [
+            {"sentence": 1, "type": "impersonal passive", "rewrite": "The negotiations are understood to be continuing."},
+            {"sentence": 2, "type": "personal passive + perfect", "rewrite": "It is believed that the ambassador has resigned."},
+            {"sentence": 3, "type": "active", "rewrite": "The economy is thought to recover. / It is thought that..."},
+            {"sentence": 4, "type": "impersonal passive", "rewrite": "Bribes are alleged to have been accepted."},
+            {"sentence": 5, "type": "personal passive + cont.", "rewrite": "It is thought that the suspect is armed."},
+            {"sentence": 6, "type": "active", "rewrite": "The reforms are said to be announced soon."},
+            {"sentence": 7, "type": "impersonal passive", "rewrite": "Casualties are reported to be minimal."},
+            {"sentence": 8, "type": "personal passive + perfect", "rewrite": "It is known that the company evaded taxes."},
+            {"sentence": 9, "type": "active", "rewrite": "The decision is expected to be made today."},
+            {"sentence": 10, "type": "impersonal passive", "rewrite": "Evidence is claimed to have been fabricated."}
+          ]
+        }
+      ],
+      "reflection_question": "Why do journalists use these structures instead of active voice?",
+      "reflection_question_ru": "Почему журналисты используют эти структуры вместо активного залога?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using the personal passive construction.",
+          "sentences": [
+            {"active": "People say she is the best candidate.", "passive": "She is said to be the best candidate."},
+            {"active": "They believe he committed the crime.", "passive": "He is believed to have committed the crime."},
+            {"active": "People think she is living in Paris.", "passive": "She is thought to be living in Paris."},
+            {"active": "They report that the fire has been contained.", "passive": "The fire is reported to have been contained."},
+            {"active": "People expect him to win.", "passive": "He is expected to win."},
+            {"active": "They allege that money was laundered.", "passive": "Money is alleged to have been laundered."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct passive form.",
+          "sentences": [
+            {"sentence": "The suspect is believed ___ ___ (flee) the country.", "answer": "to have fled"},
+            {"sentence": "It ___ ___ (report) that several people were injured.", "answer": "is reported / was reported"},
+            {"sentence": "She ___ ___ ___ (think) be working undercover.", "answer": "is thought to be"},
+            {"sentence": "The painting is said ___ ___ ___ (steal) decades ago.", "answer": "to have been stolen"},
+            {"sentence": "It ___ ___ (expect) that the results will be announced.", "answer": "is expected"},
+            {"sentence": "He ___ ___ ___ (know) have connections to powerful figures.", "answer": "is known to have"},
+            {"sentence": "The documents ___ ___ (allege) contain sensitive information.", "answer": "are alleged to"},
+            {"sentence": "It ___ ___ (understand) that talks are ongoing.", "answer": "is understood"}
+          ]
+        },
+        {
+          "type": "transformation_impersonal",
+          "instruction": "Rewrite using impersonal passive (It is...).",
+          "sentences": [
+            {"personal": "The talks are said to have collapsed.", "impersonal": "It is said that the talks have collapsed."},
+            {"personal": "She is believed to be in hiding.", "impersonal": "It is believed that she is in hiding."},
+            {"personal": "The company is reported to be restructuring.", "impersonal": "It is reported that the company is restructuring."},
+            {"personal": "He is thought to have left the country.", "impersonal": "It is thought that he has left the country."}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the error.",
+          "sentences": [
+            {
+              "incorrect": "He is believed to left yesterday.",
+              "correct": "He is believed to have left yesterday.",
+              "explanation": "Past action requires perfect infinitive: to have left"
+            },
+            {
+              "incorrect": "She is thought that she is innocent.",
+              "correct": "She is thought to be innocent. / It is thought that she is innocent.",
+              "explanation": "Choose either personal or impersonal passive, not mixed"
+            },
+            {
+              "incorrect": "It is expected him to arrive soon.",
+              "correct": "He is expected to arrive soon. / It is expected that he will arrive soon.",
+              "explanation": "With 'It is expected', use 'that clause'; with personal passive, subject + is expected + to"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 21,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a news report using complex passive structures.",
+      "instruction_ru": "Напиши новостную статью, используя сложные пассивные структуры.",
+      "prompts": [
+        "Report on a developing political story",
+        "Cover an ongoing investigation",
+        "Write about a celebrity scandal",
+        "Report on business/economic developments"
+      ],
+      "example": "A major investigation is underway following allegations of corruption at the highest levels of government. The former minister is believed to have accepted bribes over a period of several years. It is alleged that millions of dollars were transferred to offshore accounts. Several officials are thought to be cooperating with investigators. The evidence is said to have been gathered over many months. It is understood that arrests could be made within days. The minister is known to have denied all allegations, but it is reported that key witnesses are prepared to testify. The scandal is expected to have major political implications.",
+      "ai_check": true,
+      "criteria": [
+        "Uses personal passive (is said to be/have)",
+        "Uses impersonal passive (It is reported that)",
+        "Uses perfect infinitive for past events",
+        "Uses continuous infinitive for ongoing",
+        "Appropriate journalistic register",
+        "At least 8 complex passives"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 news-style texts with complex passives.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Political Scandal",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The senator is believed to have misused campaign funds. It is alleged that donations were redirected to personal accounts. Several associates are thought to be cooperating with prosecutors. The senator is known to have denied all wrongdoing. It is reported that evidence has been presented to a grand jury. Key witnesses are understood to have given testimony. It is expected that charges could be filed within weeks. The scandal is said to be the largest in the state's history."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Corporate Investigation",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The company is alleged to have falsified emissions data. It is believed that executives knew about the deception. Several engineers are reported to have raised concerns internally. The CEO is understood to have ordered the cover-up. It is claimed that documents were destroyed before the investigation. The fraud is thought to have continued for years. Customers are expected to be offered compensation. It is said that the fine could reach billions of dollars."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "International Affairs",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Peace talks are reported to be making progress. It is understood that both sides have made concessions. The agreement is expected to be signed next month. Key sticking points are said to have been resolved. It is believed that international pressure played a significant role. The compromise is thought to satisfy both parties. It is hoped that lasting peace can be achieved. The negotiations are known to have been difficult but productive."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Scientific Discovery",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "A new treatment is believed to be highly effective against the disease. It is reported that clinical trials have shown promising results. The drug is thought to work by targeting specific cells. Side effects are said to be minimal compared to current options. It is expected that approval could come within two years. The research team is known to have worked on this for decades. It is hoped that the treatment will be widely accessible."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Celebrity News",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The actor is reported to have signed a record-breaking contract. It is said that the deal is worth over $100 million. The new project is believed to be her most ambitious yet. It is understood that filming will begin next spring. The star is known to have turned down several other offers. It is expected that the film will attract major awards attention. The announcement is thought to signal a new direction in her career."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "People say he is rich.\nPersonal passive:",
+          "back": "He is said to be rich."
+        },
+        {
+          "type": "transformation",
+          "front": "They believe she left.\nPersonal passive:",
+          "back": "She is believed to have left.\n\n(Perfect infinitive for past)"
+        },
+        {
+          "type": "transformation",
+          "front": "He is thought to be hiding.\nImpersonal passive:",
+          "back": "It is thought that he is hiding."
+        },
+        {
+          "type": "fill_gap",
+          "front": "The suspect is believed ___ ___ ___ the country. (flee, past)",
+          "back": "to have fled\n\nPerfect infinitive for completed action"
+        },
+        {
+          "type": "example",
+          "front": "Reporting verbs for this structure:",
+          "back": "said, believed, thought, reported, alleged, understood, known, expected, claimed, considered"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using simple infinitive instead of perfect for past",
+      "Mixing personal and impersonal in same sentence",
+      "Wrong infinitive form (continuous vs simple)",
+      "Missing 'to' before infinitive"
+    ],
+    "related_topics": ["b2_passive_advanced", "b2_reported_speech_advanced"],
+    "ielts_relevance": "High - formal writing and news reports",
+    "cae_relevance": "Use of English Part 4, Writing",
+    "frequency_in_english": "Very high in journalism and formal writing"
+  }
+}

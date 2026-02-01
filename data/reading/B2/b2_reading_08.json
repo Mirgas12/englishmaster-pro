@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_08",
+  "level": "B2",
+  "title": "The Rise of Renewable Energy",
+  "title_ru": "Рост возобновляемой энергетики",
+  "word_count": 305,
+  "topic": "energy",
+  "text": "The global energy landscape is undergoing a historic transformation. Renewable sources – primarily solar and wind – are now the cheapest forms of new electricity generation in most of the world. This cost advantage, combined with climate concerns and energy security considerations, is driving an unprecedented shift away from fossil fuels.\n\nSolar power costs have fallen by over 90% in the past decade, a decline that exceeded virtually all predictions. Improvements in manufacturing, economies of scale, and technological advances have made photovoltaic panels affordable for households and massive utility-scale installations alike. In sunny regions, solar is now the cheapest energy source in history.\n\nWind power has seen similar, if somewhat less dramatic, cost reductions. Offshore wind farms, while more expensive than onshore installations, offer consistent winds and can be built near population centers. Turbines have grown larger and more efficient, with modern units generating enough power for thousands of homes.\n\nEnergy storage, once the Achilles heel of renewables, is rapidly improving. Battery costs have fallen dramatically as electric vehicle production has scaled up. Grid-scale storage projects are increasingly viable, allowing excess solar power generated during the day to be used at night.\n\nHowever, challenges remain. The intermittency of wind and solar requires flexible grids and backup systems. Transmission infrastructure must be expanded to connect renewable-rich areas to demand centers. Some industries, like aviation and heavy manufacturing, remain difficult to decarbonize.\n\nThe transition creates economic winners and losers. Fossil fuel industries face decline, with implications for workers and communities dependent on them. Just transition policies aim to support affected workers while capturing the economic opportunities in clean energy.\n\nWhile the pace of change varies by region, the direction is clear. The future of energy is renewable, and that future is arriving faster than most expected.",
+  "questions": [
+    {"type": "multiple_choice", "question": "By how much have solar costs fallen in a decade?", "options": ["Over 50%", "Over 70%", "Over 90%"], "correct": 2},
+    {"type": "multiple_choice", "question": "What was called the 'Achilles heel' of renewables?", "options": ["Cost", "Energy storage", "Grid connection"], "correct": 1},
+    {"type": "true_false", "question": "All industries can easily switch to renewable energy.", "correct": false},
+    {"type": "true_false", "question": "Battery costs have fallen due to EV production scaling.", "correct": true},
+    {"type": "fill_gap", "question": "Just ___ policies aim to support affected workers.", "answer": "transition"}
+  ],
+  "vocabulary": ["renewable", "photovoltaic", "intermittency", "decarbonize", "infrastructure"],
+  "grammar_focus": ["present_perfect", "passive_voice"]
+}

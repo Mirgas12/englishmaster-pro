@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_10",
+  "level": "B2",
+  "title": "Misinformation and Media Literacy",
+  "title_ru": "Дезинформация и медиаграмотность",
+  "word_count": 310,
+  "topic": "media",
+  "text": "The spread of misinformation has emerged as one of the defining challenges of the digital age. False or misleading information circulates at unprecedented speed and scale through social media, with potentially serious consequences for public health, democracy, and social cohesion.\n\nMisinformation differs from disinformation in intent. Misinformation is false but not deliberately deceptive – people share it believing it to be true. Disinformation is intentionally created to deceive, often for political or financial gain. Both are amplified by the same mechanisms.\n\nSeveral factors drive the spread of false information. Social media algorithms prioritize engagement, and emotionally provocative content – often misleading – generates more reactions. Confirmation bias leads people to share content that aligns with existing beliefs without fact-checking. The sheer volume of information makes thorough verification impossible.\n\nEchochambers and filter bubbles exacerbate the problem. When people primarily encounter information that confirms their views, false beliefs can become entrenched. Breaking out of these information silos requires conscious effort.\n\nMedia literacy – the ability to critically evaluate information sources – has become an essential skill. This includes understanding how to identify reliable sources, recognizing emotional manipulation, checking claims against multiple sources, and understanding the economic models that incentivize sensationalism.\n\nPlatform interventions have had limited success. Labels warning of disputed content may backfire, making unlabeled content seem more credible. Removing content raises concerns about censorship and can increase distrust. Algorithmic changes may help but also affect legitimate speech.\n\nEducational approaches show more promise. Teaching critical thinking and source evaluation from early ages can build resilience against misinformation. Fact-checking organizations provide valuable resources, though they struggle to match the volume of false claims.\n\nUltimately, addressing misinformation requires efforts from platforms, educators, journalists, and individuals. A healthy information ecosystem depends on citizens who are both skeptical and open-minded – willing to question claims while remaining open to evidence.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the difference between misinformation and disinformation?", "options": ["Speed of spread", "Intent to deceive", "Platform used"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do algorithms prioritize?", "options": ["Accuracy", "Engagement", "Length"], "correct": 1},
+    {"type": "true_false", "question": "Warning labels always effectively reduce misinformation spread.", "correct": false},
+    {"type": "true_false", "question": "Media literacy includes understanding economic models of media.", "correct": true},
+    {"type": "fill_gap", "question": "Echo chambers make false beliefs become ___.", "answer": "entrenched"}
+  ],
+  "vocabulary": ["misinformation", "disinformation", "algorithm", "echo chamber", "media literacy"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

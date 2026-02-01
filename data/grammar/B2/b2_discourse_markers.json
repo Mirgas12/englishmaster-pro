@@ -1,0 +1,284 @@
+{
+  "id": "b2_discourse_markers",
+  "level": "B2",
+  "title": "Discourse Markers and Linkers",
+  "title_ru": "Дискурсивные маркеры и связки",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a2_first_conditional"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this essay. Notice the words and phrases that connect ideas.",
+      "instruction_ru": "Прочитай это эссе. Обрати внимание на слова и фразы, которые соединяют идеи.",
+      "content": {
+        "text": "<highlight>To begin with</highlight>, climate change affects everyone. <highlight>Furthermore</highlight>, its effects are accelerating. <highlight>On the one hand</highlight>, we need economic growth; <highlight>on the other hand</highlight>, we must protect the environment. <highlight>As a result</highlight>, finding balance is crucial. <highlight>In spite of</highlight> clear evidence, some deny the problem. <highlight>Nevertheless</highlight>, most scientists agree. <highlight>As far as solutions are concerned</highlight>, renewable energy is key. <highlight>All things considered</highlight>, action is urgent. <highlight>To sum up</highlight>, we must act now.",
+        "question": "What function does each highlighted phrase serve?",
+        "question_ru": "Какую функцию выполняет каждая выделенная фраза?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Discourse Markers - Organizing Ideas",
+        "title_ru": "Дискурсивные маркеры - Организация идей",
+        "points": [
+          {
+            "rule": "Introducing: To begin with, First of all, Initially, To start with",
+            "rule_ru": "Введение: To begin with, First of all, Initially, To start with",
+            "example": "To begin with, let me explain the background.",
+            "marker": "introducing"
+          },
+          {
+            "rule": "Adding: Furthermore, Moreover, In addition, What's more",
+            "rule_ru": "Добавление: Furthermore, Moreover, In addition, What's more",
+            "example": "This is efficient. Furthermore, it's cost-effective.",
+            "marker": "adding"
+          },
+          {
+            "rule": "Contrasting: However, Nevertheless, On the other hand, Whereas",
+            "rule_ru": "Противопоставление: However, Nevertheless, On the other hand, Whereas",
+            "example": "It's expensive. However, it's worth it.",
+            "marker": "contrasting"
+          },
+          {
+            "rule": "Cause/Result: As a result, Consequently, Therefore, Hence",
+            "rule_ru": "Причина/Результат: As a result, Consequently, Therefore, Hence",
+            "example": "Sales dropped. As a result, we cut costs.",
+            "marker": "cause/result"
+          },
+          {
+            "rule": "Concluding: To sum up, In conclusion, All things considered, Overall",
+            "rule_ru": "Заключение: To sum up, In conclusion, All things considered, Overall",
+            "example": "To sum up, the project was successful.",
+            "marker": "concluding"
+          }
+        ],
+        "comparison_table": [
+          {"function": "Introducing", "markers": "To begin with, First of all, Initially", "position": "Start of sentence/paragraph"},
+          {"function": "Sequencing", "markers": "Firstly, Secondly, Finally, Then, Next", "position": "Start"},
+          {"function": "Adding", "markers": "Furthermore, Moreover, In addition, Additionally", "position": "Start"},
+          {"function": "Contrasting", "markers": "However, Nevertheless, On the other hand, Yet", "position": "Start"},
+          {"function": "Concession", "markers": "Although, Despite, In spite of, Even though", "position": "Start/Mid"},
+          {"function": "Result", "markers": "Therefore, Consequently, As a result, Hence", "position": "Start"},
+          {"function": "Giving examples", "markers": "For instance, For example, Such as, Namely", "position": "Start/Mid"},
+          {"function": "Concluding", "markers": "In conclusion, To sum up, All in all, Overall", "position": "Start"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the function of each discourse marker.",
+      "instruction_ru": "Определи функцию каждого дискурсивного маркера.",
+      "tasks": [
+        {
+          "text": "Essay on working from home:\n\n1. To begin with, remote work offers flexibility.\n2. Moreover, it reduces commuting time.\n3. On the other hand, it can be isolating.\n4. Despite these challenges, many prefer it.\n5. For instance, a survey showed 70% support remote work.\n6. However, some jobs require physical presence.\n7. As a result, hybrid models are becoming popular.\n8. Furthermore, technology makes remote collaboration easier.\n9. Nevertheless, face-to-face interaction remains valuable.\n10. All things considered, the future of work is changing.",
+          "find": [
+            {"sentence": 1, "marker": "To begin with", "function": "introducing"},
+            {"sentence": 2, "marker": "Moreover", "function": "adding"},
+            {"sentence": 3, "marker": "On the other hand", "function": "contrasting"},
+            {"sentence": 4, "marker": "Despite", "function": "concession"},
+            {"sentence": 5, "marker": "For instance", "function": "giving example"},
+            {"sentence": 6, "marker": "However", "function": "contrasting"},
+            {"sentence": 7, "marker": "As a result", "function": "result"},
+            {"sentence": 8, "marker": "Furthermore", "function": "adding"},
+            {"sentence": 9, "marker": "Nevertheless", "function": "contrasting (despite what was just said)"},
+            {"sentence": 10, "marker": "All things considered", "function": "concluding"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'however' and 'although'?",
+      "reflection_question_ru": "В чём разница между 'however' и 'although'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the appropriate discourse marker.",
+          "sentences": [
+            {"sentence": "___ the high cost, the project was approved.", "answer": "Despite/In spite of", "function": "concession"},
+            {"sentence": "The plan has many benefits. ___, it's environmentally friendly.", "answer": "Furthermore/Moreover", "function": "adding"},
+            {"sentence": "We faced several problems. ___, we succeeded.", "answer": "Nevertheless/However", "function": "contrast"},
+            {"sentence": "___, let me outline the main arguments.", "answer": "To begin with/First of all", "function": "introducing"},
+            {"sentence": "Prices rose sharply. ___, consumers spent less.", "answer": "As a result/Consequently", "function": "result"},
+            {"sentence": "___, I believe the advantages outweigh the disadvantages.", "answer": "All in all/To sum up", "function": "concluding"},
+            {"sentence": "___ Tokyo, many Asian cities are very modern.", "answer": "For instance/For example", "function": "example"},
+            {"sentence": "Some support the plan. ___, many oppose it.", "answer": "However/On the other hand", "function": "contrast"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the best discourse marker for the context.",
+          "questions": [
+            {
+              "sentence": "The weather was terrible. ___, we enjoyed the trip.",
+              "options": ["Furthermore", "Nevertheless", "As a result"],
+              "correct": 1,
+              "explanation": "Contrast between expectation and reality = Nevertheless"
+            },
+            {
+              "sentence": "___ the fact that he was tired, he kept working.",
+              "options": ["However", "Despite", "Therefore"],
+              "correct": 1,
+              "explanation": "Despite + noun phrase"
+            },
+            {
+              "sentence": "Sales increased by 20%. ___, profits doubled.",
+              "options": ["However", "Consequently", "Although"],
+              "correct": 1,
+              "explanation": "Result follows cause = Consequently"
+            },
+            {
+              "sentence": "___, technology can be useful. ___, it can also be distracting.",
+              "options": ["On the one hand / On the other hand", "Firstly / Secondly", "Therefore / However"],
+              "correct": 0,
+              "explanation": "Presenting two sides = On the one hand...on the other hand"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "Despite he was ill, he came to work.",
+              "correct": "Despite being ill, he came to work. OR Although he was ill, he came to work.",
+              "explanation": "Despite + noun/-ing, Although + clause"
+            },
+            {
+              "incorrect": "The plan failed. Moreover, we tried hard.",
+              "correct": "The plan failed. However, we tried hard.",
+              "explanation": "Moreover = adding similar info, However = contrast"
+            },
+            {
+              "incorrect": "I agree with you. Nevertheless, you're completely right.",
+              "correct": "I agree with you. Furthermore, you're completely right.",
+              "explanation": "Nevertheless = contrast, but here we're agreeing = Furthermore"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write an essay using a variety of discourse markers.",
+      "instruction_ru": "Напиши эссе, используя разнообразные дискурсивные маркеры.",
+      "prompts": [
+        "Write about the advantages and disadvantages of social media",
+        "Discuss whether technology improves our lives",
+        "Write about changes in education",
+        "Argue for or against a topic you care about"
+      ],
+      "example": "Social media has transformed how we communicate. To begin with, it allows us to stay connected with friends and family worldwide. Furthermore, it provides a platform for sharing information quickly. For instance, news spreads within minutes of events happening.\n\nOn the other hand, there are significant drawbacks. Social media can be addictive. Moreover, it often promotes unrealistic expectations. As a result, many young people suffer from anxiety and depression.\n\nDespite these problems, social media isn't going away. Nevertheless, we should use it mindfully. All things considered, the key is finding balance between staying connected and protecting our mental health.",
+      "ai_check": true,
+      "criteria": [
+        "Uses markers for introducing (To begin with, First of all)",
+        "Uses markers for adding (Furthermore, Moreover)",
+        "Uses markers for contrasting (However, Nevertheless)",
+        "Uses markers for concluding (To sum up, All things considered)",
+        "At least 8 different discourse markers"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with discourse markers.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Education Reform",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "To begin with, our education system needs reform. Furthermore, many experts agree that change is overdue. On the one hand, traditional methods have their merits. On the other hand, they don't prepare students for modern challenges. For instance, critical thinking is rarely taught. As a result, students struggle in the workplace. Despite resistance to change, some schools are innovating. Nevertheless, progress is slow. However, technology offers new possibilities. All things considered, reform is essential for our future."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Health and Lifestyle",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "First of all, a healthy lifestyle requires commitment. Moreover, it involves multiple factors: diet, exercise, and sleep. Although many people know this, few follow through. For example, most adults don't get enough physical activity. Consequently, obesity rates are rising. However, small changes can make a difference. In addition, mental health is equally important. Despite busy schedules, we should prioritize self-care. Nevertheless, finding balance is challenging. In conclusion, health should be our top priority."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Urban Development",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "To start with, cities are growing rapidly. Furthermore, urbanization brings both opportunities and challenges. On the one hand, cities drive economic growth. On the other hand, they face pollution and overcrowding. For instance, traffic congestion costs billions in lost productivity. Therefore, urban planning is crucial. Despite limited resources, innovative solutions exist. Such as, green spaces and public transport improvements. Nevertheless, implementation remains slow. However, some cities are leading the way. To sum up, sustainable urban development is vital."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Digital Privacy",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Initially, the internet promised freedom and anonymity. However, today our privacy is constantly threatened. Moreover, companies collect vast amounts of personal data. For example, social media tracks our every click. As a result, targeted advertising has become the norm. Although many accept this trade-off, others are concerned. In spite of new regulations, data breaches occur regularly. Nevertheless, we can take steps to protect ourselves. Furthermore, awareness is growing. All in all, digital privacy requires ongoing vigilance."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Work-Life Balance",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Firstly, work-life balance is increasingly important. Additionally, it affects both mental and physical health. On the one hand, career success requires dedication. On the other hand, neglecting personal life leads to burnout. For instance, many professionals work overtime regularly. Consequently, their relationships suffer. Despite awareness of these issues, change is slow. However, some companies are adopting flexible policies. Furthermore, remote work offers new possibilities. Nevertheless, boundaries remain difficult to maintain. Overall, balance requires conscious effort from everyone."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "function",
+          "front": "What function?\n\"Furthermore, Moreover, In addition\"",
+          "back": "Adding information\n\nUsed to add similar points"
+        },
+        {
+          "type": "function",
+          "front": "What function?\n\"However, Nevertheless, On the other hand\"",
+          "back": "Contrasting\n\nUsed to show opposite ideas"
+        },
+        {
+          "type": "function",
+          "front": "What function?\n\"As a result, Consequently, Therefore\"",
+          "back": "Showing result\n\nUsed to show cause and effect"
+        },
+        {
+          "type": "choose",
+          "front": "___ being tired, he finished the work.\n(Despite / However)",
+          "back": "Despite\n\nDespite + noun/-ing"
+        },
+        {
+          "type": "choose",
+          "front": "He was tired. ___, he finished the work.\n(Despite / However)",
+          "back": "However\n\nHowever + sentence"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "choose_correct", "identify_function", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'despite' with a clause instead of noun/-ing",
+      "Confusing adding vs contrasting markers",
+      "Wrong position in sentence",
+      "Using informal markers in formal writing"
+    ],
+    "related_topics": ["a2_first_conditional", "b2_linking_words_advanced"],
+    "ielts_relevance": "Very high - Writing Tasks, Speaking",
+    "frequency_in_english": "Very high in academic/formal English"
+  }
+}

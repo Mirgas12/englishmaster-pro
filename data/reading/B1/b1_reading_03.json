@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_03",
+  "level": "B1",
+  "title": "Social Media and Mental Health",
+  "title_ru": "Социальные сети и психическое здоровье",
+  "word_count": 225,
+  "topic": "health",
+  "text": "Social media has changed the way we communicate and share information. Platforms like Instagram, TikTok, and Facebook connect billions of people worldwide. However, researchers are increasingly concerned about the effects of social media on mental health, particularly among young people.\n\nStudies have found links between heavy social media use and issues like anxiety, depression, and low self-esteem. One problem is the tendency to compare ourselves to others. People typically share only their best moments online, creating an unrealistic picture of their lives. When we constantly see others looking happy and successful, we may feel inadequate by comparison.\n\nSleep is another concern. Many people check their phones late at night, and the blue light from screens can interfere with sleep patterns. Poor sleep is strongly connected to mental health problems.\n\nDespite these concerns, social media isn't all negative. It helps people stay connected with friends and family, especially those who live far away. It can also provide support communities for people dealing with specific challenges.\n\nExperts recommend setting healthy boundaries with social media. This might include limiting screen time, avoiding phones before bed, and remembering that what we see online isn't always reality. Some people find it helpful to take regular breaks from social media entirely.\n\nFinding a healthy balance is key to enjoying the benefits of social media while protecting our mental wellbeing.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What causes people to feel inadequate on social media?", "options": ["Too many friends", "Comparing to others", "Technical problems"], "correct": 1},
+    {"type": "multiple_choice", "question": "What can blue light from screens affect?", "options": ["Eyesight only", "Sleep patterns", "Hearing"], "correct": 1},
+    {"type": "true_false", "question": "Social media has no positive effects.", "correct": false},
+    {"type": "true_false", "question": "Poor sleep is connected to mental health problems.", "correct": true},
+    {"type": "fill_gap", "question": "Experts recommend setting healthy ___ with social media.", "answer": "boundaries"}
+  ],
+  "vocabulary": ["mental health", "self-esteem", "compare", "boundaries", "wellbeing"],
+  "grammar_focus": ["present_perfect", "modal_verbs"]
+}

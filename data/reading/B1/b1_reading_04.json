@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_04",
+  "level": "B1",
+  "title": "Gap Year: Pros and Cons",
+  "title_ru": "Годовой перерыв: за и против",
+  "word_count": 228,
+  "topic": "education",
+  "text": "A gap year is a period, typically a year, that students take off between finishing school and starting university. Some travel, others work or volunteer, and some simply take time to figure out what they want to do next. The practice has become increasingly popular, but opinions about it are divided.\n\nSupporters of gap years argue that they offer valuable life experiences. Traveling to different countries exposes young people to new cultures and perspectives. Working gives them practical skills and a better understanding of the professional world. Taking time off can also prevent burnout and help students approach university with renewed motivation.\n\nHowever, critics raise valid concerns. There's a risk that students may lose academic momentum and find it difficult to return to studying. A year of travel or volunteering can also be expensive, making gap years accessible mainly to those from wealthier backgrounds. Some employers may also view a gap year as wasted time.\n\nResearch on gap years shows mixed results. Some studies suggest that students who take gap years perform better at university, while others find no significant difference. What seems most important is how the time is spent. A well-planned gap year with clear goals is more beneficial than simply taking time off without purpose.\n\nUltimately, whether a gap year is right depends on the individual. It's important to consider your goals, financial situation, and personal needs before making this decision.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do gap year supporters say about travel?", "options": ["It's expensive", "It exposes to new cultures", "It's not educational"], "correct": 1},
+    {"type": "multiple_choice", "question": "What concern do critics raise about gap years?", "options": ["Too much studying", "Losing academic momentum", "Too short"], "correct": 1},
+    {"type": "true_false", "question": "Research shows gap years are always beneficial.", "correct": false},
+    {"type": "true_false", "question": "How time is spent during a gap year matters.", "correct": true},
+    {"type": "fill_gap", "question": "A gap year can prevent ___ and help motivation.", "answer": "burnout"}
+  ],
+  "vocabulary": ["gap year", "volunteer", "momentum", "burnout", "perspective"],
+  "grammar_focus": ["present_simple", "modal_verbs"]
+}

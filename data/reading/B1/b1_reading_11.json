@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_11",
+  "level": "B1",
+  "title": "The Importance of Volunteering",
+  "title_ru": "Важность волонтёрства",
+  "word_count": 225,
+  "topic": "society",
+  "text": "Volunteering means giving your time and energy to help others without being paid. Around the world, millions of people volunteer for causes they care about, from environmental conservation to supporting homeless people. While the primary goal is to benefit the community, volunteers often find the experience personally rewarding too.\n\nThere are many ways to volunteer. Some people help at local food banks or charity shops. Others mentor young people or visit elderly residents in care homes. Environmental volunteers might clean up beaches or plant trees. Skilled professionals sometimes volunteer their expertise, like doctors providing medical care in developing countries.\n\nThe benefits of volunteering extend beyond the immediate help provided. Volunteers gain valuable skills and experience that can boost their careers. They expand their social networks and make new friends. Research shows that volunteering improves mental health, reducing stress and increasing feelings of happiness and purpose.\n\nFor young people especially, volunteering offers opportunities to explore interests and build confidence. Many universities and employers value volunteer experience as evidence of initiative and commitment.\n\nCommunities also benefit greatly from volunteer efforts. Many essential services, from ambulance crews to youth clubs, rely heavily on volunteers. Without them, these services would be more expensive or might not exist at all.\n\nFinding volunteer opportunities is easier than ever, with websites matching people to causes that interest them. Even a few hours a month can make a difference to others – and to yourself.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do volunteers NOT receive?", "options": ["Experience", "Payment", "Skills"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does research show volunteering does?", "options": ["Increases stress", "Reduces happiness", "Improves mental health"], "correct": 2},
+    {"type": "true_false", "question": "Only unskilled work is available for volunteers.", "correct": false},
+    {"type": "true_false", "question": "Universities value volunteer experience.", "correct": true},
+    {"type": "fill_gap", "question": "Many essential services rely heavily on ___.", "answer": "volunteers"}
+  ],
+  "vocabulary": ["volunteering", "mentor", "charity", "initiative", "commitment"],
+  "grammar_focus": ["present_simple", "modal_verbs"]
+}

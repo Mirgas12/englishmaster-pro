@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_02",
+  "level": "B2",
+  "title": "The Psychology of Decision Making",
+  "title_ru": "Психология принятия решений",
+  "word_count": 305,
+  "topic": "psychology",
+  "text": "We like to think of ourselves as rational beings who carefully weigh options before making decisions. Yet decades of research in behavioral economics and psychology reveal that human decision-making is far more flawed and predictable than we imagine. Understanding these cognitive biases can help us make better choices.\n\nOne pervasive bias is loss aversion – our tendency to feel losses more intensely than equivalent gains. Studies show that losing $100 feels roughly twice as bad as gaining $100 feels good. This asymmetry leads to risk-averse behavior that isn't always optimal. People may hold losing investments too long, hoping to avoid realizing a loss.\n\nThe anchoring effect demonstrates how initial information disproportionately influences our judgments. When asked to estimate something unknown, people unconsciously anchor to whatever number they encounter first, even if it's irrelevant. Skilled negotiators exploit this by making aggressive first offers.\n\nConfirmation bias leads us to seek and interpret information in ways that confirm existing beliefs. We read news sources that align with our views and dismiss contradicting evidence. In an era of algorithmic content curation, this tendency is amplified, creating echo chambers that reinforce polarization.\n\nThe availability heuristic causes us to overestimate the probability of events that come easily to mind, usually because they're recent or dramatic. After seeing news coverage of plane crashes, people overestimate flying risks despite statistics showing it's remarkably safe. Meanwhile, mundane dangers like car accidents receive less attention.\n\nOvercoming these biases isn't easy – awareness alone isn't sufficient. Effective strategies include deliberately seeking opposing viewpoints, using structured decision-making frameworks, and building in delays before important choices. Organizations can implement processes that counteract individual biases, such as diverse teams and devil's advocate roles.\n\nRecognizing that our intuitions often mislead us is humbling but ultimately empowering. By understanding how our minds can deceive us, we gain the ability to make more deliberate, informed decisions.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is loss aversion?", "options": ["Fear of success", "Feeling losses more intensely than gains", "Avoiding all risks"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does confirmation bias cause?", "options": ["Seeking information that confirms beliefs", "Making random choices", "Forgetting important facts"], "correct": 0},
+    {"type": "true_false", "question": "Awareness of biases alone is sufficient to overcome them.", "correct": false},
+    {"type": "true_false", "question": "The anchoring effect influences negotiations.", "correct": true},
+    {"type": "fill_gap", "question": "The availability heuristic causes overestimation of ___ events.", "answer": "dramatic"}
+  ],
+  "vocabulary": ["cognitive bias", "loss aversion", "heuristic", "confirmation bias", "polarization"],
+  "grammar_focus": ["present_simple", "causative_verbs"]
+}

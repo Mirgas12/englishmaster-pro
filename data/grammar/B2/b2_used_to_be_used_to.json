@@ -1,0 +1,286 @@
+{
+  "id": "b2_used_to_be_used_to",
+  "level": "B2",
+  "title": "Used to / Be used to / Get used to",
+  "title_ru": "Used to / Be used to / Get used to",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_past_simple_regular", "b1_gerund_infinitive_basic"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about moving to a new country. Notice the different structures with 'used to'.",
+      "instruction_ru": "Прочитай о переезде в новую страну. Обрати внимание на разные конструкции с 'used to'.",
+      "content": {
+        "text": "When I moved to Japan, everything was different. I <highlight>used to live</highlight> in a warm country, so the cold winters were hard. At first, I <highlight>wasn't used to eating</highlight> raw fish, but now I love sushi! I <highlight>gradually got used to</highlight> taking off my shoes indoors. I <highlight>used to think</highlight> Japanese was impossible, but I <highlight>'m now used to</highlight> hearing it every day. I <highlight>still haven't gotten used to</highlight> the crowded trains, though! I <highlight>used to drive</highlight> everywhere, but I <highlight>'m getting used to</highlight> cycling. Life here is different from what I <highlight>used to know</highlight>.",
+        "question": "What's the difference between 'used to + verb', 'be used to + -ing', and 'get used to + -ing'?",
+        "question_ru": "В чём разница между 'used to + глагол', 'be used to + -ing' и 'get used to + -ing'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Three 'Used to' Structures",
+        "title_ru": "Три конструкции с 'Used to'",
+        "points": [
+          {
+            "rule": "used to + infinitive = past habit/state that is NO LONGER true",
+            "rule_ru": "used to + инфинитив = прошлая привычка/состояние, которое БОЛЬШЕ неверно",
+            "example": "I used to smoke. (I don't smoke anymore)",
+            "marker": "used to + verb"
+          },
+          {
+            "rule": "be used to + noun/-ing = be accustomed to, familiar with (present)",
+            "rule_ru": "be used to + сущ./-ing = быть привычным к чему-то (настоящее)",
+            "example": "I'm used to the noise. I'm used to working late.",
+            "marker": "be used to + noun/-ing"
+          },
+          {
+            "rule": "get used to + noun/-ing = become accustomed to (process)",
+            "rule_ru": "get used to + сущ./-ing = привыкать к чему-то (процесс)",
+            "example": "I'm getting used to my new job. (becoming familiar)",
+            "marker": "get used to + noun/-ing"
+          },
+          {
+            "rule": "be/get used to can be used in any tense",
+            "rule_ru": "be/get used to может использоваться в любом времени",
+            "example": "I was used to it. I'll get used to it. I've gotten used to it.",
+            "marker": "any tense"
+          },
+          {
+            "rule": "Common error: Don't confuse 'used to do' with 'be used to doing'",
+            "rule_ru": "Частая ошибка: Не путай 'used to do' с 'be used to doing'",
+            "example": "I used to work late ≠ I'm used to working late",
+            "marker": "don't confuse"
+          }
+        ],
+        "comparison_table": [
+          {"structure": "used to + infinitive", "meaning": "Past habit/state (not now)", "example": "I used to live in Paris.", "time": "Past only"},
+          {"structure": "be used to + -ing/noun", "meaning": "Be accustomed to", "example": "I'm used to living alone.", "time": "Any tense"},
+          {"structure": "get used to + -ing/noun", "meaning": "Become accustomed to", "example": "I'm getting used to it.", "time": "Any tense"},
+          {"structure": "would + infinitive", "meaning": "Repeated past action (not state)", "example": "I would walk to school.", "time": "Past only"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify which structure is used and what it means in each case.",
+      "instruction_ru": "Определи, какая конструкция используется и что она означает в каждом случае.",
+      "tasks": [
+        {
+          "text": "An expat talking about life changes:\n\n1. I used to work in an office, but now I work from home.\n2. I wasn't used to video calls at first.\n3. Gradually, I got used to virtual meetings.\n4. I used to commute two hours daily.\n5. Now I'm used to having more free time.\n6. It took months to get used to the isolation.\n7. I used to eat lunch with colleagues.\n8. I've gotten used to cooking for myself.\n9. I'm still not used to the silence.\n10. But I'm getting used to this new lifestyle.",
+          "find": [
+            {"sentence": 1, "structure": "used to + infinitive", "meaning": "past habit, no longer true"},
+            {"sentence": 2, "structure": "wasn't used to + noun", "meaning": "wasn't accustomed to"},
+            {"sentence": 3, "structure": "got used to + noun", "meaning": "became accustomed to"},
+            {"sentence": 4, "structure": "used to + infinitive", "meaning": "past habit, no longer true"},
+            {"sentence": 5, "structure": "am used to + -ing", "meaning": "am accustomed to now"},
+            {"sentence": 6, "structure": "get used to + noun", "meaning": "become accustomed to"},
+            {"sentence": 7, "structure": "used to + infinitive", "meaning": "past habit, no longer true"},
+            {"sentence": 8, "structure": "have gotten used to + -ing", "meaning": "have become accustomed to"},
+            {"sentence": 9, "structure": "am not used to + noun", "meaning": "am not accustomed to"},
+            {"sentence": 10, "structure": "am getting used to + noun", "meaning": "am becoming accustomed to"}
+          ]
+        }
+      ],
+      "reflection_question": "What form follows 'be/get used to'? What follows 'used to'?",
+      "reflection_question_ru": "Какая форма идёт после 'be/get used to'? Какая после 'used to'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I ___ smoke, but I quit five years ago.",
+              "options": ["used to", "am used to", "get used to"],
+              "correct": 0,
+              "explanation": "Past habit no longer true = used to + infinitive"
+            },
+            {
+              "sentence": "She ___ waking up early now. It's not a problem anymore.",
+              "options": ["used to", "is used to", "gets used to"],
+              "correct": 1,
+              "explanation": "Currently accustomed = be used to + -ing"
+            },
+            {
+              "sentence": "It took me months to ___ the new software.",
+              "options": ["used to", "be used to", "get used to"],
+              "correct": 2,
+              "explanation": "Process of becoming accustomed = get used to"
+            },
+            {
+              "sentence": "When I was a child, I ___ play in the park every day.",
+              "options": ["used to", "was used to", "got used to"],
+              "correct": 0,
+              "explanation": "Past repeated action = used to + infinitive"
+            },
+            {
+              "sentence": "I'm slowly ___ living alone.",
+              "options": ["used to", "getting used to", "use to"],
+              "correct": 1,
+              "explanation": "Currently adapting = getting used to + -ing"
+            }
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct form of 'used to'.",
+          "sentences": [
+            {"sentence": "I ___ (used to/be used to) live in the city, but now I live in the countryside.", "answer": "used to"},
+            {"sentence": "She ___ (not/be used to) the hot weather yet.", "answer": "isn't used to"},
+            {"sentence": "We ___ (gradually/get used to) our new neighbors.", "answer": "gradually got used to"},
+            {"sentence": "He ___ (used to) work nights, so he's tired during the day now.", "answer": "isn't used to working"},
+            {"sentence": "It took years to ___ (get used to) the culture.", "answer": "get used to"},
+            {"sentence": "I ___ (never/be used to) eating spicy food.", "answer": "have never been used to / am still not used to"},
+            {"sentence": "As a student, I ___ (used to) stay up late studying.", "answer": "used to"},
+            {"sentence": "Don't worry, you'll ___ (get used to) it soon.", "answer": "get used to"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I'm used to get up early now.",
+              "correct": "I'm used to getting up early now.",
+              "explanation": "be used to + -ing (not infinitive)"
+            },
+            {
+              "incorrect": "She used to living in London.",
+              "correct": "She used to live in London.",
+              "explanation": "used to + infinitive (for past habits)"
+            },
+            {
+              "incorrect": "I didn't used to like coffee.",
+              "correct": "I didn't use to like coffee.",
+              "explanation": "No 'd' after 'didn't'"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about changes in your life and what you've had to get used to.",
+      "instruction_ru": "Напиши об изменениях в твоей жизни и к чему тебе пришлось привыкнуть.",
+      "prompts": [
+        "Write about moving to a new place",
+        "Describe how your daily routine has changed",
+        "Write about starting a new job or school",
+        "Describe habits you used to have"
+      ],
+      "example": "My life has changed a lot in the last few years. I used to live with my parents, but now I live alone. At first, I wasn't used to cooking for myself - I used to eat my mother's cooking every day! It took me months to get used to the silence in my apartment. I used to think I would hate living alone, but now I'm completely used to it. I've also gotten used to managing my own finances, which I never used to do. I'm still not used to doing all the housework though. I used to have so much free time, but now I'm getting used to being busier. Life changes, and we have to adapt!",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'used to + infinitive' for past habits",
+        "Uses 'be used to + -ing/noun' for current familiarity",
+        "Uses 'get used to + -ing/noun' for process of adapting",
+        "Correct forms after each structure",
+        "At least 6 examples of these structures"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with all three 'used to' structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "New Parent",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Being a new parent is challenging! I used to sleep eight hours a night, but now I'm lucky to get four. I wasn't used to being responsible for another person. It took time to get used to the constant crying. I used to think I understood tiredness, but I was wrong! I'm getting used to functioning on less sleep. I used to have so much free time. Now I'm used to planning everything around the baby. I'll eventually get used to this new life!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Retirement",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Retirement is a big adjustment! I used to wake up at 6 AM for work. Now I'm not used to having so much free time. I used to interact with colleagues daily. It took a while to get used to the quiet. I wasn't used to being at home all day. I'm gradually getting used to my new routine. I used to define myself by my job. Now I'm getting used to discovering new hobbies. I'm finally used to this slower pace of life."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Remote Worker",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Working from home seemed strange at first. I used to commute to the office every day. I wasn't used to being at home in business clothes. It took months to get used to video meetings. I used to separate work and home life easily. Now I'm used to having them mixed. I'm still getting used to the lack of social interaction. I used to chat with colleagues at lunch. But I've gotten used to my new setup. The flexibility is something I'm definitely used to now!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Vegetarian Journey",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Becoming vegetarian was easier than I expected. I used to eat meat every day. At first, I wasn't used to reading all food labels. I gradually got used to cooking differently. I used to think vegetarian food was boring. Now I'm used to exploring new recipes. My family has gotten used to my choices. I'm still getting used to eating out, as options can be limited. I used to miss burgers, but I'm completely used to plant-based alternatives now."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "City to Country",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Moving from the city to the countryside was a shock! I used to have shops within walking distance. I wasn't used to the darkness at night - no streetlights! It took time to get used to the silence. I used to hear traffic constantly. Now I'm used to hearing birds instead. I'm getting used to driving everywhere. I used to think I needed the city's energy. But I've gotten used to the peaceful pace. I'm completely used to my new rural life now."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ smoke, but I quit. (past habit)",
+          "back": "used to\n\nused to + infinitive"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I ___ the noise now. It doesn't bother me.",
+          "back": "am used to\n\nbe used to + noun/-ing"
+        },
+        {
+          "type": "fill_gap",
+          "front": "It took time to ___ early mornings.",
+          "back": "get used to\n\nget used to + noun/-ing"
+        },
+        {
+          "type": "error_correction",
+          "front": "I'm used to get up early.",
+          "back": "I'm used to getting up early.\n\nbe used to + -ing"
+        },
+        {
+          "type": "choose",
+          "front": "She ___ live here. (past, not now)\n(used to / is used to)",
+          "back": "used to\n\nPast habit no longer true"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["choose_correct", "fill_gap", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using infinitive after 'be/get used to'",
+      "Using -ing after 'used to' for past habits",
+      "Confusing the three structures",
+      "Using 'used to' for current habits"
+    ],
+    "related_topics": ["a2_past_simple_regular", "b1_gerund_infinitive_basic"],
+    "ielts_relevance": "High - Speaking Parts 2-3",
+    "frequency_in_english": "Very high"
+  }
+}

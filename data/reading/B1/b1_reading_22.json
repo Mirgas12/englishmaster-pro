@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_22",
+  "level": "B1",
+  "title": "Urban Gardening",
+  "title_ru": "Городское садоводство",
+  "word_count": 225,
+  "topic": "hobbies",
+  "text": "Urban gardening is bringing plants back into cities. From rooftop farms to window boxes, city dwellers are finding creative ways to grow food and flowers in limited spaces. This trend offers benefits for both individuals and communities.\n\nSpace constraints require creative solutions. Vertical gardens use walls and fences to grow plants upward. Container gardening allows cultivation on balconies and patios. Community gardens transform empty lots into productive green spaces shared by neighbors.\n\nGrowing your own food provides multiple rewards. Fresh vegetables taste better than store-bought alternatives and contain more nutrients. Gardening is also excellent exercise and a proven stress reliever. Many people find it deeply satisfying to eat food they've grown themselves.\n\nUrban gardens contribute to environmental health. Plants absorb carbon dioxide and help clean the air. They provide habitat for pollinators like bees and butterflies. Gardens also reduce the urban heat island effect, cooling neighborhoods during hot weather.\n\nCommunity gardens offer social benefits too. They bring together people of different ages and backgrounds, building neighborhood connections. Gardening knowledge is shared across generations. These spaces often become community gathering places.\n\nGetting started is easier than many people think. Even a sunny windowsill can support herbs or small vegetables. Many cities offer programs that provide plots in community gardens, often at low or no cost.\n\nWhether you have a single pot or a shared plot, growing plants connects you to nature even in the heart of the city.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What are vertical gardens?", "options": ["Underground farms", "Gardens growing upward on walls", "Gardens on boats"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do urban gardens help reduce?", "options": ["Urban heat island effect", "Building height", "Population"], "correct": 0},
+    {"type": "true_false", "question": "You need a large space to start gardening.", "correct": false},
+    {"type": "true_false", "question": "Gardens provide habitat for pollinators.", "correct": true},
+    {"type": "fill_gap", "question": "Fresh vegetables contain more ___ than store-bought.", "answer": "nutrients"}
+  ],
+  "vocabulary": ["urban gardening", "vertical", "container", "pollinators", "cultivation"],
+  "grammar_focus": ["present_simple", "gerunds"]
+}

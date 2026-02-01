@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_18",
+  "level": "A2",
+  "title": "Saving the Environment",
+  "title_ru": "Спасём окружающую среду",
+  "word_count": 160,
+  "topic": "environment",
+  "text": "Our school started a project to help the environment. First, we put recycling bins in every classroom. There are separate bins for paper, plastic, and other waste. We also started a 'no plastic bottles' week. Everyone brought water in reusable bottles instead. It was a big success! Some students planted trees in the school garden. We planted ten oak trees. Our teacher says they will grow very tall. I'm part of the environment club. We meet every Friday to discuss ideas. Last week, we organized a beach cleanup. We collected three bags of rubbish! It was sad to see so much plastic on the beach. We made posters to put around school. The posters explain why we need to protect nature. Small actions can make a big difference. If everyone does something, we can help our planet. I feel proud to be part of this project.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How many types of recycling bins are there?", "options": ["Two", "Three", "Four"], "correct": 1},
+    {"type": "multiple_choice", "question": "How many trees did they plant?", "options": ["Five", "Ten", "Fifteen"], "correct": 1},
+    {"type": "true_false", "question": "The 'no plastic bottles' week failed.", "correct": false},
+    {"type": "true_false", "question": "They collected three bags of rubbish.", "correct": true},
+    {"type": "fill_gap", "question": "The environment club meets every ___.", "answer": "Friday"}
+  ],
+  "vocabulary": ["environment", "recycling", "reusable", "rubbish", "protect"],
+  "grammar_focus": ["past_simple", "present_simple"]
+}

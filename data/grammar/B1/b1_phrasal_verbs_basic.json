@@ -1,0 +1,276 @@
+{
+  "id": "b1_phrasal_verbs_basic",
+  "level": "B1",
+  "title": "Basic Phrasal Verbs",
+  "title_ru": "Базовые фразовые глаголы",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a2_past_simple_regular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about a typical morning. Notice the verb + particle combinations.",
+      "instruction_ru": "Прочитай о типичном утре. Обрати внимание на комбинации глагол + частица.",
+      "content": {
+        "text": "Every morning, I <highlight>wake up</highlight> at 7 AM. I <highlight>get up</highlight> slowly and <highlight>turn on</highlight> the coffee machine. While I wait, I <highlight>look through</highlight> my emails. I <highlight>write down</highlight> important tasks for the day. After breakfast, I <highlight>put on</highlight> my clothes and <highlight>go out</highlight>. I sometimes <highlight>run into</highlight> my neighbor. We <highlight>catch up</highlight> on news. If I'm late, I <highlight>hurry up</highlight>. At work, I <highlight>switch on</highlight> my computer and <highlight>get down to</highlight> work. I <highlight>look forward to</highlight> my lunch break!",
+        "question": "What happens to the meaning when we add 'up', 'on', 'out' to verbs?",
+        "question_ru": "Что происходит со значением, когда мы добавляем 'up', 'on', 'out' к глаголам?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Phrasal Verbs - Verb + Particle",
+        "title_ru": "Фразовые глаголы - Глагол + Частица",
+        "points": [
+          {
+            "rule": "Phrasal verb = verb + particle (up, down, on, off, in, out, etc.)",
+            "rule_ru": "Фразовый глагол = глагол + частица (up, down, on, off, in, out и т.д.)",
+            "example": "wake up, turn off, get in, take out",
+            "marker": "verb + particle"
+          },
+          {
+            "rule": "Meaning often different from original verb",
+            "rule_ru": "Значение часто отличается от исходного глагола",
+            "example": "look = смотреть, look after = заботиться, look up = искать (в словаре)",
+            "marker": "new meaning"
+          },
+          {
+            "rule": "Separable: object can go between verb and particle",
+            "rule_ru": "Разделяемые: дополнение может идти между глаголом и частицей",
+            "example": "Turn off the light = Turn the light off = Turn it off (NOT: Turn off it)",
+            "marker": "separable"
+          },
+          {
+            "rule": "Inseparable: object must come after particle",
+            "rule_ru": "Неразделяемые: дополнение должно идти после частицы",
+            "example": "I ran into my friend. (NOT: I ran my friend into)",
+            "marker": "inseparable"
+          },
+          {
+            "rule": "Pronouns always go between (separable): verb + pronoun + particle",
+            "rule_ru": "Местоимения всегда идут между (разделяемые): глагол + местоимение + частица",
+            "example": "Pick it up. (NOT: Pick up it)",
+            "marker": "pronouns"
+          }
+        ],
+        "comparison_table": [
+          {"phrasal_verb": "wake up", "meaning": "проснуться", "type": "intransitive", "example": "I wake up early."},
+          {"phrasal_verb": "turn on/off", "meaning": "включить/выключить", "type": "separable", "example": "Turn it on."},
+          {"phrasal_verb": "put on", "meaning": "надеть", "type": "separable", "example": "Put your coat on."},
+          {"phrasal_verb": "take off", "meaning": "снять/взлететь", "type": "separable", "example": "Take off your shoes."},
+          {"phrasal_verb": "look after", "meaning": "заботиться", "type": "inseparable", "example": "Look after your sister."},
+          {"phrasal_verb": "run into", "meaning": "случайно встретить", "type": "inseparable", "example": "I ran into Tom."}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all phrasal verbs. Are they separable or inseparable?",
+      "instruction_ru": "Найди все фразовые глаголы. Они разделяемые или неразделяемые?",
+      "tasks": [
+        {
+          "text": "My weekend was busy! On Saturday, I got up late and put on some old clothes. I had to clean up my apartment because my parents were coming over. I threw away old magazines and picked up clothes from the floor. I called up my friend to help me. Together, we figured out how to fix my broken shelf. My parents showed up at 5 PM. We sat down for dinner. We talked about our plans and I brought up my idea to travel. They agreed to think it over. Sunday, I slept in and took it easy!",
+          "find": [
+            {"phrasal_verb": "got up", "meaning": "got out of bed", "type": "intransitive"},
+            {"phrasal_verb": "put on", "meaning": "dressed in", "type": "separable"},
+            {"phrasal_verb": "clean up", "meaning": "make tidy", "type": "separable"},
+            {"phrasal_verb": "coming over", "meaning": "visiting", "type": "intransitive"},
+            {"phrasal_verb": "threw away", "meaning": "discarded", "type": "separable"},
+            {"phrasal_verb": "picked up", "meaning": "lifted/collected", "type": "separable"},
+            {"phrasal_verb": "called up", "meaning": "phoned", "type": "separable"},
+            {"phrasal_verb": "figured out", "meaning": "understood/solved", "type": "separable"},
+            {"phrasal_verb": "showed up", "meaning": "arrived", "type": "intransitive"},
+            {"phrasal_verb": "sat down", "meaning": "took a seat", "type": "intransitive"},
+            {"phrasal_verb": "brought up", "meaning": "mentioned", "type": "separable"},
+            {"phrasal_verb": "think it over", "meaning": "consider carefully", "type": "separable"},
+            {"phrasal_verb": "slept in", "meaning": "slept late", "type": "intransitive"},
+            {"phrasal_verb": "took it easy", "meaning": "relaxed", "type": "idiom"}
+          ]
+        }
+      ],
+      "reflection_question": "Why can we say 'Turn off the TV' and 'Turn the TV off' but only 'Turn it off'?",
+      "reflection_question_ru": "Почему можно сказать 'Turn off the TV' и 'Turn the TV off', но только 'Turn it off'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "match_meaning",
+          "instruction": "Match the phrasal verb with its meaning.",
+          "pairs": [
+            {"phrasal_verb": "give up", "meaning": "stop trying / quit"},
+            {"phrasal_verb": "find out", "meaning": "discover information"},
+            {"phrasal_verb": "look for", "meaning": "search for"},
+            {"phrasal_verb": "carry on", "meaning": "continue"},
+            {"phrasal_verb": "break down", "meaning": "stop working (machine)"},
+            {"phrasal_verb": "get along", "meaning": "have good relationship"},
+            {"phrasal_verb": "take off", "meaning": "remove / leave the ground"},
+            {"phrasal_verb": "set up", "meaning": "establish / arrange"}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct phrasal verb.",
+          "sentences": [
+            {"sentence": "Please ___ the lights when you leave. (extinguish)", "answer": "turn off"},
+            {"sentence": "I need to ___ what time the train leaves. (discover)", "answer": "find out"},
+            {"sentence": "Don't ___ ! Keep trying! (quit)", "answer": "give up"},
+            {"sentence": "Can you ___ my cat while I'm away? (care for)", "answer": "look after"},
+            {"sentence": "The plane ___ at 6 AM. (left the ground)", "answer": "took off"},
+            {"sentence": "I ___ an old friend at the mall. (met unexpectedly)", "answer": "ran into"},
+            {"sentence": "Please ___ your shoes before entering. (remove)", "answer": "take off"},
+            {"sentence": "Let's ___ the meeting for Monday. (arrange)", "answer": "set up"},
+            {"sentence": "My car ___ on the highway. (stopped working)", "answer": "broke down"},
+            {"sentence": "We need to ___ this problem quickly. (solve)", "answer": "figure out"}
+          ]
+        },
+        {
+          "type": "rewrite_with_pronoun",
+          "instruction": "Rewrite using a pronoun.",
+          "sentences": [
+            {
+              "original": "Turn off the TV.",
+              "answer": "Turn it off.",
+              "note": "Pronoun between verb and particle"
+            },
+            {
+              "original": "Pick up the books.",
+              "answer": "Pick them up.",
+              "note": "Pronoun between verb and particle"
+            },
+            {
+              "original": "I threw away the old newspapers.",
+              "answer": "I threw them away.",
+              "note": "Pronoun between verb and particle"
+            },
+            {
+              "original": "She put on her jacket.",
+              "answer": "She put it on.",
+              "note": "Pronoun between verb and particle"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your daily routine or a recent experience using phrasal verbs.",
+      "instruction_ru": "Напиши о своём распорядке дня или недавнем опыте, используя фразовые глаголы.",
+      "prompts": [
+        "Describe your morning routine",
+        "Write about preparing for a trip",
+        "Describe a problem you solved",
+        "Write about meeting up with friends"
+      ],
+      "example": "Yesterday was a crazy day! I woke up late because my alarm didn't go off. I jumped out of bed and quickly put on my clothes. I couldn't find my keys - I looked for them everywhere! Finally, I figured out they were in my coat pocket. I rushed out and ran into my boss on the way. We chatted briefly and then I hurried up to the meeting. Luckily, it hadn't started yet! After work, I met up with friends. We talked about our plans and decided to set up a weekend trip. It turned out to be a great day after all!",
+      "ai_check": true,
+      "criteria": [
+        "Uses at least 8 different phrasal verbs",
+        "Uses them with correct meaning",
+        "Places pronouns correctly (between verb and particle)",
+        "Natural use in context"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts rich in phrasal verbs.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Morning Routine",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "I wake up at 6:30 and get up immediately. I turn on the radio and listen while I get ready. I put on comfortable clothes and go downstairs. I switch on the coffee machine and wait for it to heat up. I usually look through the news on my phone. After breakfast, I clean up the kitchen. Then I put on my work clothes and head out. If I run into neighbors, I always say hello!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Work Problems",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "Yesterday, my computer broke down! I tried to figure out the problem but couldn't. I called up IT support and they came over quickly. They looked into the issue and found out it was a virus. They had to back up all my files first. Then they set up a new system. I had to catch up on all my work later. I wanted to give up, but I carried on until I finished everything."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Travel Story",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "Last month, I set off on a trip to Spain. The plane took off on time. When we landed, I picked up my luggage and checked into the hotel. I wanted to look around the city immediately! I put on comfortable shoes and went out. I ran into some other tourists and we hung out together. We looked for a good restaurant and ended up at a local tapas bar. It turned out to be amazing!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "New Apartment",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "Moving into a new apartment is hard work! First, I had to clear out my old place. I threw away lots of old stuff. My friends came over to help out. We packed up all my things and loaded them into a truck. At the new place, we carried everything in. I set up my furniture and put away my clothes. By evening, I was worn out! But I was happy to finally settle in."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Learning English",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "When I started learning English, I almost gave up many times. But I carried on because I wanted to improve. I signed up for online classes. I wrote down new vocabulary every day. When I came across words I didn't know, I looked them up in the dictionary. I tried to speak up in class, even when nervous. I kept up with my homework. Now my English has really picked up! Don't give up - keep going!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "meaning",
+          "front": "What does 'give up' mean?",
+          "back": "Stop trying / Quit\n\n\"Don't give up!\""
+        },
+        {
+          "type": "meaning",
+          "front": "What does 'look after' mean?",
+          "back": "Take care of\n\n\"Look after your health.\""
+        },
+        {
+          "type": "rewrite",
+          "front": "Turn off the TV. (use pronoun)",
+          "back": "Turn it off.\n\nPronoun goes between"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The plane ___ at noon. (left the ground)",
+          "back": "took off\n\ntake off = leave the ground"
+        },
+        {
+          "type": "meaning",
+          "front": "What does 'run into' mean?",
+          "back": "Meet unexpectedly\n\n\"I ran into my teacher at the store.\""
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["match_meaning", "fill_gap", "rewrite", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Putting pronoun after particle (turn off it)",
+      "Using wrong particle",
+      "Literal translation from native language",
+      "Separating inseparable phrasal verbs"
+    ],
+    "related_topics": ["a2_past_simple_regular"],
+    "ielts_relevance": "Very high - essential for natural speaking",
+    "frequency_in_english": "Very high"
+  }
+}

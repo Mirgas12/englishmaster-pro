@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_17",
+  "level": "A2",
+  "title": "The Music Concert",
+  "title_ru": "Музыкальный концерт",
+  "word_count": 155,
+  "topic": "entertainment",
+  "text": "I went to my first concert last night! It was a pop band called The Stars. I've listened to their music for years, so I was very excited. My older sister bought the tickets as a present for my birthday. We arrived early to get a good spot near the stage. The concert started at 8 pm. When the band came on stage, everyone screamed. The lead singer had amazing energy. She danced and sang for two hours! I knew all the songs, so I sang along. My favorite song was \"Flying High.\" The sound was so loud that my ears were ringing afterwards. At one point, the drummer threw his drumsticks into the crowd. I tried to catch them, but I was too short. After the concert, we bought t-shirts from the merchandise stand. I can't stop talking about the concert. I hope I can go to another one soon!",
+  "questions": [
+    {"type": "multiple_choice", "question": "How long did the concert last?", "options": ["One hour", "Two hours", "Three hours"], "correct": 1},
+    {"type": "multiple_choice", "question": "Who bought the tickets?", "options": ["Parents", "Sister", "Friend"], "correct": 1},
+    {"type": "true_false", "question": "The writer caught the drumsticks.", "correct": false},
+    {"type": "true_false", "question": "The writer's favorite song was 'Flying High'.", "correct": true},
+    {"type": "fill_gap", "question": "The lead singer danced and sang with amazing ___.", "answer": "energy"}
+  ],
+  "vocabulary": ["concert", "band", "stage", "singer", "merchandise"],
+  "grammar_focus": ["past_simple", "present_perfect"]
+}

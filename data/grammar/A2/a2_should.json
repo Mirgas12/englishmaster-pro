@@ -1,0 +1,280 @@
+{
+  "id": "a2_should",
+  "level": "A2",
+  "title": "Should / Shouldn't",
+  "title_ru": "Should / Shouldn't",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_can", "a2_have_to"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this advice. Notice 'should' and 'shouldn't'.",
+      "instruction_ru": "Прочитай эти советы. Обрати внимание на 'should' и 'shouldn't'.",
+      "content": {
+        "text": "Tips for a job interview: You <highlight>should</highlight> arrive 10 minutes early. You <highlight>should</highlight> dress professionally. You <highlight>shouldn't</highlight> be late - that's a bad impression. You <highlight>should</highlight> prepare answers to common questions. You <highlight>shouldn't</highlight> speak negatively about past employers. You <highlight>should</highlight> ask questions at the end. You <highlight>shouldn't</highlight> forget to follow up with a thank-you email!",
+        "question": "Is 'should' an obligation like 'must'? Or is it different?",
+        "question_ru": "'Should' - это обязательство как 'must'? Или это что-то другое?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Should - Advice and recommendations",
+        "title_ru": "Should - Советы и рекомендации",
+        "points": [
+          {
+            "rule": "Should = it's a good idea, advice",
+            "rule_ru": "Should = хорошая идея, совет",
+            "example": "You should exercise more. You should eat vegetables.",
+            "marker": "advice"
+          },
+          {
+            "rule": "Should + base verb (same for all subjects)",
+            "rule_ru": "Should + базовый глагол (одинаково для всех)",
+            "example": "I should go. She should call. They should study.",
+            "marker": "no changes"
+          },
+          {
+            "rule": "Shouldn't = it's not a good idea",
+            "rule_ru": "Shouldn't = плохая идея",
+            "example": "You shouldn't smoke. You shouldn't eat too much sugar.",
+            "marker": "not recommended"
+          },
+          {
+            "rule": "Question: Should + subject + verb?",
+            "rule_ru": "Вопрос: Should + подлежащее + глагол?",
+            "example": "Should I call her? What should I do?",
+            "marker": "asking for advice"
+          }
+        ],
+        "comparison_table": [
+          {"modal": "should", "meaning": "advice, good idea", "example": "You should rest."},
+          {"modal": "shouldn't", "meaning": "not recommended", "example": "You shouldn't worry."},
+          {"modal": "have to", "meaning": "obligation, necessary", "example": "You have to pay."},
+          {"modal": "must", "meaning": "strong obligation", "example": "You must stop."}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all 'should/shouldn't'. Is it advice or a question?",
+      "instruction_ru": "Найди все 'should/shouldn't'. Это совет или вопрос?",
+      "tasks": [
+        {
+          "text": "A: I have a headache. What should I do? B: You should take some medicine. You should also drink water. You shouldn't stare at screens too long. A: Should I stay home? B: If it's bad, yes, you should. You shouldn't go to work sick. You should rest and sleep. A: Thanks for the advice! B: You should feel better soon.",
+          "find": [
+            {"phrase": "What should I do?", "type": "question (asking advice)"},
+            {"phrase": "You should take", "type": "positive advice"},
+            {"phrase": "You should also drink", "type": "positive advice"},
+            {"phrase": "You shouldn't stare", "type": "negative advice"},
+            {"phrase": "Should I stay home?", "type": "question (asking advice)"},
+            {"phrase": "you should", "type": "positive advice"},
+            {"phrase": "You shouldn't go to work", "type": "negative advice"},
+            {"phrase": "You should rest", "type": "positive advice"},
+            {"phrase": "You should feel better", "type": "prediction/expectation"}
+          ]
+        }
+      ],
+      "reflection_question": "'You should go' vs 'You have to go' - what's different?",
+      "reflection_question_ru": "'You should go' vs 'You have to go' - в чём разница?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with should or shouldn't.",
+          "sentences": [
+            {"sentence": "You ___ exercise regularly.", "answer": "should"},
+            {"sentence": "You ___ eat too much sugar.", "answer": "shouldn't"},
+            {"sentence": "He ___ see a doctor.", "answer": "should"},
+            {"sentence": "They ___ spend all their money.", "answer": "shouldn't"},
+            {"sentence": "___ I call her?", "answer": "Should"},
+            {"sentence": "We ___ be more careful.", "answer": "should"},
+            {"sentence": "You ___ worry so much.", "answer": "shouldn't"},
+            {"sentence": "She ___ take a break.", "answer": "should"},
+            {"sentence": "What ___ I do?", "answer": "should"},
+            {"sentence": "You ___ be late for the interview.", "answer": "shouldn't"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "You look tired. You ___ get some rest.",
+              "options": ["should", "shouldn't", "should to"],
+              "correct": 0,
+              "explanation": "Advice to rest = should"
+            },
+            {
+              "sentence": "You ___ drive if you're tired.",
+              "options": ["should", "shouldn't", "should not to"],
+              "correct": 1,
+              "explanation": "Not a good idea = shouldn't"
+            },
+            {
+              "sentence": "___ I bring a gift?",
+              "options": ["Do I should", "Should I", "I should"],
+              "correct": 1,
+              "explanation": "Question = Should + subject"
+            },
+            {
+              "sentence": "She ___ study harder for the exam.",
+              "options": ["shoulds", "should", "should to"],
+              "correct": 1,
+              "explanation": "should + base verb (no changes)"
+            },
+            {
+              "sentence": "What ___ we do about this problem?",
+              "options": ["do we should", "should we", "we should"],
+              "correct": 1,
+              "explanation": "Question = What + should + we"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "You should to go to bed early.",
+              "correct": "You should go to bed early.",
+              "explanation": "should + base verb (no 'to')"
+            },
+            {
+              "incorrect": "She shoulds call the doctor.",
+              "correct": "She should call the doctor.",
+              "explanation": "should never changes (no -s)"
+            },
+            {
+              "incorrect": "Do I should bring food?",
+              "correct": "Should I bring food?",
+              "explanation": "Question: Should + subject (no 'do')"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Give advice for learning English.",
+      "instruction_ru": "Дай советы по изучению английского языка.",
+      "prompts": [
+        "What should people do to learn English?",
+        "What shouldn't they do?",
+        "What should beginners focus on?",
+        "Should they use apps? Watch movies?"
+      ],
+      "example": "If you want to learn English, you should practice every day. You should watch movies in English with subtitles. You shouldn't be afraid to make mistakes - that's how you learn! You should speak as much as possible. You shouldn't translate everything in your head. You should read books at your level.",
+      "ai_check": true,
+      "criteria": [
+        "Uses should correctly",
+        "Uses shouldn't correctly",
+        "No 'to' after should",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with should/shouldn't.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Health Advice",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "To stay healthy, you should exercise regularly. You should eat fruits and vegetables. You shouldn't smoke or drink too much alcohol. You should sleep 7-8 hours a night. You shouldn't skip breakfast. You should drink plenty of water. You shouldn't sit for too long. You should take breaks and walk around."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Study Tips",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "Before an exam, you should review your notes. You should get enough sleep. You shouldn't study all night - it doesn't work! You should eat a good breakfast. You shouldn't panic if you don't know an answer. You should read all questions first. You should manage your time well."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Travel Tips",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "When traveling abroad, you should learn some local phrases. You should carry copies of your documents. You shouldn't carry too much cash. You should try local food. You shouldn't offend local customs. You should respect the culture. You should book hotels in advance. You shouldn't travel without insurance."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Online Safety",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "Online safety is important. You should use strong passwords. You shouldn't share personal information. You should update your software regularly. You shouldn't click on suspicious links. You should check your privacy settings. You shouldn't trust everyone online. You should report suspicious activity."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "First Date Advice",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "On a first date, you should be yourself. You should listen carefully. You shouldn't talk only about yourself. You should ask questions. You shouldn't check your phone constantly. You should be polite. You shouldn't discuss exes. You should have fun!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "You ___ exercise more. (advice)",
+          "back": "should\n\nAdvice = should"
+        },
+        {
+          "type": "fill_gap",
+          "front": "You ___ smoke. (not recommended)",
+          "back": "shouldn't\n\nNot recommended = shouldn't"
+        },
+        {
+          "type": "transformation",
+          "front": "Advice: Call her.\nWith should: ?",
+          "back": "You should call her."
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: I should go.\nQuestion: ?",
+          "back": "Should I go?\n\nShould + subject + verb?"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She should to rest.\"",
+          "back": "She should rest.\n\nNo 'to' after should"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'to' after should (should to go)",
+      "Adding -s (he shoulds)",
+      "Confusing should and have to",
+      "Wrong question form (Do I should?)"
+    ],
+    "related_topics": ["a2_have_to", "a1_can"],
+    "ielts_relevance": "High - used for giving opinions and advice",
+    "frequency_in_english": "Very high"
+  }
+}

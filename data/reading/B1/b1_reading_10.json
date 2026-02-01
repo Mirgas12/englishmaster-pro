@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_10",
+  "level": "B1",
+  "title": "Public Transportation",
+  "title_ru": "Общественный транспорт",
+  "word_count": 225,
+  "topic": "transport",
+  "text": "Public transportation plays a crucial role in modern cities. Buses, trains, trams, and subways move millions of people every day, reducing traffic congestion and environmental pollution. Well-designed public transport systems make cities more livable and accessible for everyone.\n\nOne major advantage is environmental impact. Public transport produces far fewer emissions per passenger than private cars. A single bus can take dozens of cars off the road during rush hour. Many cities are now investing in electric buses and trains to reduce emissions even further.\n\nEconomically, public transport benefits both individuals and society. Regular users save money compared to owning and maintaining a car. Cities with good public transport tend to have stronger economies, as people can access jobs and services more easily.\n\nHowever, many cities struggle with inadequate public transportation. Underfunding leads to unreliable services, overcrowded vehicles, and limited routes. In some places, public transport has a poor reputation and is used mainly by those who cannot afford cars.\n\nSuccessful public transport systems share common features. They're frequent, reliable, and well-connected. They integrate different modes of transport – for example, making it easy to switch from bus to train. They're also affordable and accessible to people with disabilities.\n\nAs cities grow and climate concerns increase, investing in public transportation becomes ever more important. The future may see innovations like autonomous buses and hyperloop systems transforming how we move around our cities.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does public transport reduce?", "options": ["City population", "Traffic congestion", "Employment"], "correct": 1},
+    {"type": "multiple_choice", "question": "What are many cities investing in?", "options": ["More roads", "Electric buses", "Smaller vehicles"], "correct": 1},
+    {"type": "true_false", "question": "Public transport produces more emissions than cars.", "correct": false},
+    {"type": "true_false", "question": "Good public transport helps city economies.", "correct": true},
+    {"type": "fill_gap", "question": "Underfunding leads to unreliable ___ and overcrowding.", "answer": "services"}
+  ],
+  "vocabulary": ["congestion", "emissions", "accessible", "integrate", "autonomous"],
+  "grammar_focus": ["present_simple", "comparatives"]
+}

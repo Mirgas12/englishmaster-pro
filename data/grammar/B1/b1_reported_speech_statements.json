@@ -1,0 +1,274 @@
+{
+  "id": "b1_reported_speech_statements",
+  "level": "B1",
+  "title": "Reported Speech - Statements",
+  "title_ru": "Косвенная речь - Утверждения",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a2_past_simple_irregular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read what people said and how it's reported. Notice the changes.",
+      "instruction_ru": "Прочитай, что люди сказали и как это передаётся. Обрати внимание на изменения.",
+      "content": {
+        "text": "Direct: 'I <highlight>am</highlight> tired,' said Tom.\nReported: Tom said he <highlight>was</highlight> tired.\n\nDirect: 'I <highlight>will</highlight> call you,' she promised.\nReported: She promised she <highlight>would</highlight> call me.\n\nDirect: 'I <highlight>have finished</highlight>,' he announced.\nReported: He announced he <highlight>had finished</highlight>.\n\nDirect: 'I <highlight>can</highlight> help,' Maria offered.\nReported: Maria offered that she <highlight>could</highlight> help.\n\nDirect: 'I <highlight>live</highlight> here,' she explained.\nReported: She explained that she <highlight>lived</highlight> there.",
+        "question": "What happens to the verb tenses when we report what someone said?",
+        "question_ru": "Что происходит с временами глаголов, когда мы передаём чьи-то слова?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Reported Speech - Changing Tenses (Backshift)",
+        "title_ru": "Косвенная речь - Изменение времён (Backshift)",
+        "points": [
+          {
+            "rule": "Present → Past: am/is → was, are → were",
+            "rule_ru": "Настоящее → Прошедшее: am/is → was, are → were",
+            "example": "'I am happy' → He said he was happy.",
+            "marker": "present → past"
+          },
+          {
+            "rule": "Present Simple → Past Simple: work → worked",
+            "rule_ru": "Present Simple → Past Simple: work → worked",
+            "example": "'I work here' → She said she worked there.",
+            "marker": "simple"
+          },
+          {
+            "rule": "Present Continuous → Past Continuous: am working → was working",
+            "rule_ru": "Present Continuous → Past Continuous: am working → was working",
+            "example": "'I am studying' → He said he was studying.",
+            "marker": "continuous"
+          },
+          {
+            "rule": "Present Perfect → Past Perfect: have done → had done",
+            "rule_ru": "Present Perfect → Past Perfect: have done → had done",
+            "example": "'I have finished' → She said she had finished.",
+            "marker": "perfect"
+          },
+          {
+            "rule": "will → would, can → could, may → might",
+            "rule_ru": "will → would, can → could, may → might",
+            "example": "'I will help' → He said he would help.",
+            "marker": "modals"
+          },
+          {
+            "rule": "Pronouns and time/place words also change",
+            "rule_ru": "Местоимения и слова времени/места тоже меняются",
+            "example": "I → he/she, here → there, today → that day, tomorrow → the next day",
+            "marker": "other changes"
+          }
+        ],
+        "comparison_table": [
+          {"direct": "am/is/are", "reported": "was/were", "example": "'I am busy' → was busy"},
+          {"direct": "Present Simple", "reported": "Past Simple", "example": "'I work' → worked"},
+          {"direct": "Present Continuous", "reported": "Past Continuous", "example": "'I am working' → was working"},
+          {"direct": "Past Simple", "reported": "Past Perfect", "example": "'I worked' → had worked"},
+          {"direct": "Present Perfect", "reported": "Past Perfect", "example": "'I have seen' → had seen"},
+          {"direct": "will", "reported": "would", "example": "'I will go' → would go"},
+          {"direct": "can", "reported": "could", "example": "'I can swim' → could swim"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify what changed in each reported sentence.",
+      "instruction_ru": "Определи, что изменилось в каждом косвенном предложении.",
+      "tasks": [
+        {
+          "text": "At the meeting, several people spoke:\n\nJohn: 'I am working on a new project.'\n→ John said he was working on a new project.\n\nSarah: 'We have completed the analysis.'\n→ Sarah announced that they had completed the analysis.\n\nMike: 'I will present the results tomorrow.'\n→ Mike mentioned he would present the results the next day.\n\nLisa: 'The team can finish on time.'\n→ Lisa believed the team could finish on time.\n\nBoss: 'I need these reports today.'\n→ The boss said he needed those reports that day.",
+          "find": [
+            {"direct": "am working", "reported": "was working", "change": "present continuous → past continuous"},
+            {"direct": "I", "reported": "he", "change": "pronoun change"},
+            {"direct": "have completed", "reported": "had completed", "change": "present perfect → past perfect"},
+            {"direct": "we", "reported": "they", "change": "pronoun change"},
+            {"direct": "will present", "reported": "would present", "change": "will → would"},
+            {"direct": "tomorrow", "reported": "the next day", "change": "time expression"},
+            {"direct": "can finish", "reported": "could finish", "change": "can → could"},
+            {"direct": "need", "reported": "needed", "change": "present → past"},
+            {"direct": "today", "reported": "that day", "change": "time expression"},
+            {"direct": "these", "reported": "those", "change": "demonstrative change"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we shift tenses back when reporting speech?",
+      "reflection_question_ru": "Почему мы сдвигаем времена назад при передаче речи?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Change from direct to reported speech.",
+          "sentences": [
+            {"direct": "'I am tired,' she said.", "reported": "She said she was tired."},
+            {"direct": "'I will help you,' he promised.", "reported": "He promised he would help me."},
+            {"direct": "'We have finished,' they announced.", "reported": "They announced they had finished."},
+            {"direct": "'I can speak French,' she told me.", "reported": "She told me she could speak French."},
+            {"direct": "'I am working now,' he explained.", "reported": "He explained he was working then."},
+            {"direct": "'I saw them yesterday,' she said.", "reported": "She said she had seen them the day before."},
+            {"direct": "'I will call you tomorrow,' he said.", "reported": "He said he would call me the next day."},
+            {"direct": "'I live here,' she mentioned.", "reported": "She mentioned she lived there."},
+            {"direct": "'We may come,' they said.", "reported": "They said they might come."},
+            {"direct": "'I don't understand,' he admitted.", "reported": "He admitted he didn't understand."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the reported speech.",
+          "sentences": [
+            {"sentence": "'I am busy.' → She said she ___ busy.", "answer": "was"},
+            {"sentence": "'I will come.' → He said he ___ come.", "answer": "would"},
+            {"sentence": "'I have done it.' → She said she ___ done it.", "answer": "had"},
+            {"sentence": "'I can help.' → He said he ___ help.", "answer": "could"},
+            {"sentence": "'I work here.' → She said she ___ there.", "answer": "worked"},
+            {"sentence": "'I am studying.' → He said he ___ studying.", "answer": "was"},
+            {"sentence": "'We will arrive tomorrow.' → They said they would arrive ___.", "answer": "the next day"},
+            {"sentence": "'I saw it yesterday.' → She said she had seen it ___.", "answer": "the day before"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She said she is tired.",
+              "correct": "She said she was tired.",
+              "explanation": "Present → Past in reported speech"
+            },
+            {
+              "incorrect": "He told he would come.",
+              "correct": "He said he would come. / He told me he would come.",
+              "explanation": "'Told' needs an object (me, her, etc.)"
+            },
+            {
+              "incorrect": "She said she will help me.",
+              "correct": "She said she would help me.",
+              "explanation": "will → would in reported speech"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Report what different people said in a conversation or meeting.",
+      "instruction_ru": "Передай, что сказали разные люди в разговоре или на собрании.",
+      "prompts": [
+        "Report a conversation you had recently",
+        "Report what your family members said",
+        "Report news you heard or read",
+        "Report what your teacher or boss said"
+      ],
+      "example": "I had an interesting conversation with my friend yesterday. She said she was thinking about changing jobs. She explained that she had been working at the same company for five years. She told me she felt stuck and wanted new challenges. She mentioned she would start looking for new opportunities the next week. I said I understood how she felt. I promised I would help her with her CV. She thanked me and said I was a good friend.",
+      "ai_check": true,
+      "criteria": [
+        "Correctly shifts tenses (present→past, etc.)",
+        "Changes pronouns appropriately",
+        "Changes time expressions (tomorrow→the next day)",
+        "At least 6 reported statements"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with reported speech.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "The Interview",
+          "level": "B1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "After the job interview, Maria told me everything. She said the interviewer had been very friendly. He had asked about her experience and she had explained that she had worked in marketing for three years. She mentioned that she was currently looking for new challenges. The interviewer said he was impressed with her portfolio. He told her the team was looking for someone creative. He promised he would call her the next week. Maria said she felt confident about the position."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "News Report",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "The Prime Minister gave a speech yesterday. He said the economy was improving. He explained that unemployment had decreased by 2%. He mentioned that his government had invested in education. He promised they would continue to support businesses. Critics responded immediately. The opposition leader said she didn't believe the figures. She argued that many families were still struggling. She claimed the government had failed to help ordinary people."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Gossip",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Did you hear about Tom and Lisa? My friend told me they had broken up! She said Lisa had told her that Tom never had time for her. Apparently, Tom said he was too busy with work. Lisa explained she had tried to talk to him many times. Tom admitted he had neglected the relationship. He said he would change, but Lisa replied it was too late. She told him she had made her decision. What a sad story!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Doctor's Advice",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "I visited the doctor last week. She said I needed to exercise more. She explained that my blood pressure was a bit high. She recommended that I should reduce salt in my diet. She told me I had to stop smoking immediately. She said it would make a big difference. She mentioned that she had seen many patients improve with lifestyle changes. She promised she would check my progress in a month. I said I would follow her advice."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Parent-Teacher Meeting",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "The teacher spoke to us about our son. She said he was a bright student. She explained that he had been doing well in most subjects. However, she mentioned that his math grades had dropped recently. She said she had noticed he was often distracted in class. She recommended that we should help him with homework. She told us she believed he could improve. We said we would talk to him at home. She promised she would give him extra support."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "'I am happy.' → She said...",
+          "back": "She said she was happy.\n\nam → was"
+        },
+        {
+          "type": "transformation",
+          "front": "'I will help.' → He said...",
+          "back": "He said he would help.\n\nwill → would"
+        },
+        {
+          "type": "transformation",
+          "front": "'I have finished.' → She said...",
+          "back": "She said she had finished.\n\nhave → had"
+        },
+        {
+          "type": "fill_gap",
+          "front": "'I can come tomorrow.'\n→ He said he ___ come ___.",
+          "back": "could / the next day\n\ncan → could, tomorrow → the next day"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He told he was busy.\"",
+          "back": "He said he was busy.\nOR: He told me he was busy.\n\n'Told' needs an object"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Not changing tenses (backshift)",
+      "Not changing pronouns",
+      "Not changing time expressions",
+      "Using 'told' without object"
+    ],
+    "related_topics": ["b1_reported_speech_questions"],
+    "ielts_relevance": "High - used in all parts, especially Writing Task 2",
+    "frequency_in_english": "Very high"
+  }
+}

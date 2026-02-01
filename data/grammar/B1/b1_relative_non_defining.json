@@ -1,0 +1,280 @@
+{
+  "id": "b1_relative_non_defining",
+  "level": "B1",
+  "title": "Non-Defining Relative Clauses",
+  "title_ru": "Неопределительные придаточные предложения",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_relative_defining"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about famous people and places. Notice the extra information in commas.",
+      "instruction_ru": "Прочитай о знаменитых людях и местах. Обрати внимание на дополнительную информацию в запятых.",
+      "content": {
+        "text": "Leonardo da Vinci<highlight>, who was born in 1452,</highlight> was a genius. He painted the Mona Lisa<highlight>, which is now in the Louvre,</highlight> in Paris. Paris<highlight>, where millions of tourists visit each year,</highlight> is the capital of France. The Eiffel Tower<highlight>, which was built in 1889,</highlight> is the city's most famous landmark. My grandmother<highlight>, who is 85 years old,</highlight> still remembers when it looked new. She moved to Paris in 1960<highlight>, when she was just 20.</highlight>",
+        "question": "Can you remove the information between commas and still understand who/what we're talking about?",
+        "question_ru": "Можно ли убрать информацию между запятыми и всё ещё понять, о ком/чём мы говорим?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Non-Defining Relative Clauses - Extra Information",
+        "title_ru": "Неопределительные придаточные - Дополнительная информация",
+        "points": [
+          {
+            "rule": "Non-defining = extra information, not essential to identify",
+            "rule_ru": "Неопределительные = дополнительная информация, не для идентификации",
+            "example": "My mother, who is a doctor, lives in London. (I have only one mother)",
+            "marker": "extra info"
+          },
+          {
+            "rule": "Always use COMMAS around the clause",
+            "rule_ru": "Всегда используем ЗАПЯТЫЕ вокруг придаточного",
+            "example": "Paris, which is beautiful, attracts tourists.",
+            "marker": "commas"
+          },
+          {
+            "rule": "Cannot use 'that' - only who/which/where/when",
+            "rule_ru": "Нельзя использовать 'that' - только who/which/where/when",
+            "example": "My car, which is red, is old. (NOT: that is red)",
+            "marker": "no 'that'"
+          },
+          {
+            "rule": "Often used with proper nouns (names of people, places)",
+            "rule_ru": "Часто используется с именами собственными (имена людей, мест)",
+            "example": "Shakespeare, who wrote Hamlet, was English.",
+            "marker": "proper nouns"
+          },
+          {
+            "rule": "Defines vs Non-defining: compare the meaning",
+            "rule_ru": "Определительные vs Неопределительные: сравни значение",
+            "example": "My brother who lives in Paris... (I have more brothers) vs My brother, who lives in Paris,... (only one brother)",
+            "marker": "meaning difference"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Defining", "commas": "No", "that_allowed": "Yes", "info_type": "Essential", "example": "The sister who lives in Paris"},
+          {"type": "Non-defining", "commas": "Yes", "that_allowed": "No", "info_type": "Extra", "example": "My sister, who lives in Paris,"},
+          {"type": "Defining", "commas": "No", "that_allowed": "Yes", "info_type": "Identifies which", "example": "The book that I read"},
+          {"type": "Non-defining", "commas": "Yes", "that_allowed": "No", "info_type": "Adds detail", "example": "This book, which I read last week,"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find defining vs non-defining clauses. Which give essential info? Which give extra info?",
+      "instruction_ru": "Найди определительные и неопределительные придаточные. Какие дают важную информацию? Какие - дополнительную?",
+      "tasks": [
+        {
+          "text": "London, which is the capital of England, is a huge city. The Thames, which runs through London, is a famous river. I have two cousins. The cousin who lives in London visits us often. My other cousin, who lives in Scotland, rarely visits. Last year, I visited Buckingham Palace, which is where the Queen lived. The guide who showed us around was very knowledgeable. The tour, which lasted two hours, was fascinating. The day when we visited was sunny and beautiful.",
+          "find": [
+            {"clause": "which is the capital of England", "type": "non-defining", "reason": "London is already identified"},
+            {"clause": "which runs through London", "type": "non-defining", "reason": "The Thames is already identified"},
+            {"clause": "who lives in London", "type": "defining", "reason": "tells us WHICH cousin"},
+            {"clause": "who lives in Scotland", "type": "non-defining", "reason": "'my other cousin' already specific"},
+            {"clause": "which is where the Queen lived", "type": "non-defining", "reason": "Buckingham Palace is identified"},
+            {"clause": "who showed us around", "type": "defining", "reason": "identifies which guide"},
+            {"clause": "which lasted two hours", "type": "non-defining", "reason": "extra info about the tour"},
+            {"clause": "when we visited", "type": "defining", "reason": "identifies which day"}
+          ]
+        }
+      ],
+      "reflection_question": "If you remove a non-defining clause, does the main meaning change?",
+      "reflection_question_ru": "Если убрать неопределительное придаточное, изменится ли основное значение?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "add_commas",
+          "instruction": "Add commas if needed (non-defining clause).",
+          "sentences": [
+            {"sentence": "Tokyo which is the capital of Japan is very modern.", "answer": "Tokyo, which is the capital of Japan, is very modern.", "type": "non-defining"},
+            {"sentence": "The students who passed the exam will graduate.", "answer": "The students who passed the exam will graduate.", "type": "defining"},
+            {"sentence": "My father who is 60 still works every day.", "answer": "My father, who is 60, still works every day.", "type": "non-defining"},
+            {"sentence": "The Nile which is the longest river flows through Egypt.", "answer": "The Nile, which is the longest river, flows through Egypt.", "type": "non-defining"},
+            {"sentence": "People who exercise regularly live longer.", "answer": "People who exercise regularly live longer.", "type": "defining"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose defining or non-defining based on the context.",
+          "questions": [
+            {
+              "sentence": "My car ___ is five years old ___ needs repairs.",
+              "options": ["which / (no commas)", ", which / ,", ", that / ,"],
+              "correct": 1,
+              "explanation": "I have one car - extra info = non-defining with commas"
+            },
+            {
+              "sentence": "The car ___ is parked outside is mine.",
+              "options": ["which", ", which,", "who"],
+              "correct": 0,
+              "explanation": "Identifies which car - defining = no commas"
+            },
+            {
+              "sentence": "Albert Einstein ___ developed relativity ___ was German.",
+              "options": ["who / (no commas)", ", who / ,", ", that / ,"],
+              "correct": 1,
+              "explanation": "Einstein is identified - non-defining, and no 'that'"
+            },
+            {
+              "sentence": "I spoke to the man ___ sold me the car.",
+              "options": ["who", ", who,", ", which,"],
+              "correct": 0,
+              "explanation": "Identifies which man - defining"
+            },
+            {
+              "sentence": "New York ___ has 8 million people ___ never sleeps.",
+              "options": ["which / (no commas)", ", which / ,", ", that / ,"],
+              "correct": 1,
+              "explanation": "New York is a proper noun - non-defining"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "Paris, that is beautiful, is in France.",
+              "correct": "Paris, which is beautiful, is in France.",
+              "explanation": "Cannot use 'that' in non-defining clauses"
+            },
+            {
+              "incorrect": "My mother who is a teacher works hard.",
+              "correct": "My mother, who is a teacher, works hard.",
+              "explanation": "Only one mother = non-defining = needs commas"
+            },
+            {
+              "incorrect": "The Amazon, which is the largest rainforest flows through Brazil.",
+              "correct": "The Amazon, which is the largest rainforest, flows through Brazil.",
+              "explanation": "Need closing comma after the clause"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about famous people and places using non-defining relative clauses.",
+      "instruction_ru": "Напиши о знаменитых людях и местах, используя неопределительные придаточные.",
+      "prompts": [
+        "Write about a famous person from your country",
+        "Describe a famous landmark or city",
+        "Write about your family members",
+        "Describe your hometown"
+      ],
+      "example": "Seoul, which is the capital of South Korea, is a fascinating city. It has a population of about 10 million, which makes it one of the largest cities in the world. The Han River, which flows through the center, divides the city into two parts. My aunt, who has lived there for 20 years, loves it. She works near Gyeongbokgung Palace, which was built in 1395. The palace, which is the largest of the Five Grand Palaces, attracts millions of visitors every year.",
+      "ai_check": true,
+      "criteria": [
+        "Uses commas correctly around non-defining clauses",
+        "Uses who/which (not 'that') in non-defining clauses",
+        "Information is extra, not essential for identification",
+        "At least 5 sentences with non-defining clauses"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with non-defining relative clauses.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "World Geography",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The Amazon River, which is the second longest river in the world, flows through South America. Brazil, which contains most of the Amazon rainforest, is the largest country there. The rainforest, which is often called the lungs of the Earth, produces 20% of the world's oxygen. Mount Everest, which is the highest mountain, is in Nepal. The Sahara Desert, which covers much of North Africa, is the largest hot desert."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Famous Artists",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Vincent van Gogh, who was born in the Netherlands, is one of the most famous painters. His painting Starry Night, which hangs in the Museum of Modern Art, is world-renowned. Pablo Picasso, who lived until 1973, created thousands of artworks. Frida Kahlo, whose self-portraits are iconic, was Mexican. Leonardo da Vinci, who also designed machines, painted the Last Supper. This masterpiece, which took three years to complete, can be seen in Milan."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Technology Giants",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Apple, which was founded in 1976, is one of the world's most valuable companies. Steve Jobs, who co-founded Apple, was known for his innovation. The iPhone, which was released in 2007, changed the smartphone industry. Google, which started as a search engine, now offers many services. Sundar Pichai, who became CEO in 2015, leads the company today. These companies, which employ thousands of people, have transformed how we live."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "My Family",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "My grandmother, who turned 80 last month, is still very active. She lives in Barcelona, which is my favorite city in Spain. Her apartment, which overlooks the sea, has a beautiful view. My uncle Carlos, who is her youngest son, visits her every weekend. He brings his dog Max, who my grandmother adores. Family dinners, which happen every Sunday, are always special. My grandmother's cooking, which I have loved since childhood, brings everyone together."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Space Exploration",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "NASA, which stands for National Aeronautics and Space Administration, was founded in 1958. Neil Armstrong, who was the first person on the moon, became a global hero. The Apollo 11 mission, which took place in 1969, was historic. Mars, which is called the Red Planet, is a focus of current exploration. Elon Musk, whose company SpaceX builds rockets, dreams of colonizing Mars. These missions, which cost billions of dollars, expand our knowledge of the universe."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "Paris ___ is in France ___ is beautiful.\n(add clause with commas)",
+          "back": "Paris, which is in France, is beautiful.\n\nNon-defining with commas"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"London, that is huge, has many tourists.\"",
+          "back": "London, which is huge, has many tourists.\n\nNo 'that' in non-defining"
+        },
+        {
+          "type": "choose",
+          "front": "My brother who lives abroad / My brother, who lives abroad,\n(I have one brother)",
+          "back": "My brother, who lives abroad,\n\nOne brother = non-defining"
+        },
+        {
+          "type": "fill_gap",
+          "front": "Einstein ___ developed relativity ___ was a genius.",
+          "back": ", who / ,\n\nProper noun = non-defining"
+        },
+        {
+          "type": "identify",
+          "front": "Defining or Non-defining?\n\"The Amazon, which is huge, flows through Brazil.\"",
+          "back": "Non-defining\n\nCommas + proper noun + extra info"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "add_commas", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting commas",
+      "Using 'that' in non-defining clauses",
+      "Confusing defining and non-defining",
+      "Missing closing comma"
+    ],
+    "related_topics": ["b1_relative_defining"],
+    "ielts_relevance": "High - useful for adding detail in writing and speaking",
+    "frequency_in_english": "High"
+  }
+}

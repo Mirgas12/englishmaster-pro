@@ -1,0 +1,284 @@
+{
+  "id": "b1_passive_present",
+  "level": "B1",
+  "title": "Passive Voice - Present",
+  "title_ru": "Страдательный залог - Настоящее время",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a1_present_simple", "a1_present_continuous"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about how things are made. Notice the verb forms.",
+      "instruction_ru": "Прочитай о том, как делаются вещи. Обрати внимание на формы глаголов.",
+      "content": {
+        "text": "How <highlight>is</highlight> chocolate <highlight>made</highlight>? First, cocoa beans <highlight>are harvested</highlight> in tropical countries. The beans <highlight>are dried</highlight> in the sun. Then they <highlight>are shipped</highlight> to factories. The beans <highlight>are roasted</highlight> and <highlight>are ground</highlight> into a paste. Sugar and milk <highlight>are added</highlight>. The mixture <highlight>is heated</highlight> and <highlight>is poured</highlight> into molds. The chocolate <highlight>is cooled</highlight> and <highlight>is packaged</highlight>. It <highlight>is sold</highlight> in stores around the world. Millions of chocolate bars <highlight>are eaten</highlight> every day!",
+        "question": "Who does these actions? Is it important to know?",
+        "question_ru": "Кто выполняет эти действия? Важно ли это знать?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Simple Passive",
+        "title_ru": "Настоящее простое время в страдательном залоге",
+        "points": [
+          {
+            "rule": "Form: am/is/are + past participle (V3)",
+            "rule_ru": "Форма: am/is/are + причастие прошедшего времени (V3)",
+            "example": "The car is washed. The letters are sent.",
+            "marker": "is/are + V3"
+          },
+          {
+            "rule": "Use: Focus on action or result, not who does it",
+            "rule_ru": "Использование: Фокус на действии или результате, а не на том, кто делает",
+            "example": "English is spoken here. (doesn't matter who)",
+            "marker": "focus on action"
+          },
+          {
+            "rule": "Use: When doer is unknown, obvious, or unimportant",
+            "rule_ru": "Использование: Когда исполнитель неизвестен, очевиден или неважен",
+            "example": "My bike was stolen. (I don't know who)",
+            "marker": "unknown doer"
+          },
+          {
+            "rule": "By + agent: Add if the doer is important",
+            "rule_ru": "By + исполнитель: Добавляем, если важно кто делает",
+            "example": "This book is written by J.K. Rowling.",
+            "marker": "by + agent"
+          },
+          {
+            "rule": "Active → Passive transformation",
+            "rule_ru": "Трансформация: Актив → Пассив",
+            "example": "They make cars. → Cars are made (by them).",
+            "marker": "transformation"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Active", "form": "Subject + verb + object", "example": "They produce cars in Japan."},
+          {"type": "Passive", "form": "Object → Subject + is/are + V3", "example": "Cars are produced in Japan."},
+          {"type": "Passive + by", "form": "+ by + agent", "example": "Cars are produced by Toyota."},
+          {"type": "Negative", "form": "is/are + not + V3", "example": "The report isn't finished."},
+          {"type": "Question", "form": "Is/Are + subject + V3?", "example": "Is English spoken here?"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all passive verbs. Why is passive used instead of active?",
+      "instruction_ru": "Найди все глаголы в пассиве. Почему используется пассив вместо актива?",
+      "tasks": [
+        {
+          "text": "Welcome to our factory tour! This facility was built in 1995. Today, 500 workers are employed here. Every day, thousands of products are manufactured. First, raw materials are delivered by trucks. Then they are processed by machines. Quality is checked at every stage. Products that don't pass inspection are rejected. Final products are packaged and are stored in the warehouse. They are shipped to stores worldwide. Our products are sold in 50 countries!",
+          "find": [
+            {"verb": "was built", "reason": "who built it is not important"},
+            {"verb": "are employed", "reason": "focus on number of workers"},
+            {"verb": "are manufactured", "reason": "process, not who does it"},
+            {"verb": "are delivered", "reason": "by trucks (agent mentioned)"},
+            {"verb": "are processed", "reason": "by machines (agent mentioned)"},
+            {"verb": "is checked", "reason": "process description"},
+            {"verb": "are rejected", "reason": "what happens to bad products"},
+            {"verb": "are packaged", "reason": "process continues"},
+            {"verb": "are stored", "reason": "location focus"},
+            {"verb": "are shipped", "reason": "distribution process"},
+            {"verb": "are sold", "reason": "result/reach"}
+          ]
+        }
+      ],
+      "reflection_question": "When is it better to use active voice? When is passive better?",
+      "reflection_question_ru": "Когда лучше использовать активный залог? Когда пассивный?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Present Simple Passive.",
+          "sentences": [
+            {"sentence": "English ___ (speak) in many countries.", "answer": "is spoken"},
+            {"sentence": "The news ___ (broadcast) every evening.", "answer": "is broadcast"},
+            {"sentence": "These cars ___ (make) in Germany.", "answer": "are made"},
+            {"sentence": "The office ___ (clean) every day.", "answer": "is cleaned"},
+            {"sentence": "Computers ___ (use) in every school.", "answer": "are used"},
+            {"sentence": "Coffee ___ (grow) in Brazil.", "answer": "is grown"},
+            {"sentence": "Millions of emails ___ (send) every minute.", "answer": "are sent"},
+            {"sentence": "This book ___ (read) by students worldwide.", "answer": "is read"},
+            {"sentence": "Fresh bread ___ (bake) here every morning.", "answer": "is baked"},
+            {"sentence": "The museum ___ (visit) by thousands of tourists.", "answer": "is visited"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Change from Active to Passive.",
+          "sentences": [
+            {
+              "active": "They produce wine in France.",
+              "passive": "Wine is produced in France.",
+              "note": "Object → Subject, is + V3"
+            },
+            {
+              "active": "People speak Spanish in Mexico.",
+              "passive": "Spanish is spoken in Mexico.",
+              "note": "Focus on language, not people"
+            },
+            {
+              "active": "The company employs 1000 workers.",
+              "passive": "1000 workers are employed (by the company).",
+              "note": "Focus on workers"
+            },
+            {
+              "active": "Someone cleans the room daily.",
+              "passive": "The room is cleaned daily.",
+              "note": "'Someone' is not mentioned"
+            },
+            {
+              "active": "Millions of people watch this show.",
+              "passive": "This show is watched by millions of people.",
+              "note": "By + agent when significant"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "The report is write every week.",
+              "correct": "The report is written every week.",
+              "explanation": "Need past participle (V3): write → written"
+            },
+            {
+              "incorrect": "English are spoken here.",
+              "correct": "English is spoken here.",
+              "explanation": "English = singular = is"
+            },
+            {
+              "incorrect": "The windows is cleaned every month.",
+              "correct": "The windows are cleaned every month.",
+              "explanation": "Windows = plural = are"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe how something is made or how a process works.",
+      "instruction_ru": "Опиши, как что-то делается или как работает какой-то процесс.",
+      "prompts": [
+        "How is bread made?",
+        "How are smartphones manufactured?",
+        "How is your favorite food prepared?",
+        "What processes are followed at your workplace/school?"
+      ],
+      "example": "Let me tell you how paper is made. First, trees are cut down in forests. The wood is transported to paper mills. At the mill, the wood is cut into small chips. The chips are mixed with water and chemicals. This mixture is heated and is turned into pulp. The pulp is cleaned and is bleached. Then it is pressed into thin sheets. The sheets are dried and are rolled. Finally, the paper is cut and is packaged. It is shipped to stores where it is sold.",
+      "ai_check": true,
+      "criteria": [
+        "Uses am/is/are + V3 correctly",
+        "Describes a process or how something is made",
+        "Uses 'by' when agent is relevant",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with Present Simple Passive.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "How Coffee Is Made",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 12,
+          "content": "Coffee is loved by millions of people worldwide. But how is it made? Coffee beans are grown in tropical countries. They are harvested by hand. The beans are dried in the sun. Then they are roasted at high temperatures. The roasted beans are ground into powder. Hot water is added, and the coffee is brewed. Sugar and milk are often added. Coffee is enjoyed at any time of day!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "News Report",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Today's news: A new hospital is being opened in the city center. 500 patients are expected to be treated here daily. The hospital is equipped with the latest technology. Over 200 doctors and nurses are employed. Free parking is provided for visitors. The building is designed to be eco-friendly - solar panels are installed on the roof. The hospital is funded by the government. It is considered one of the best in the country."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Language Facts",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "English is spoken as a first language by about 400 million people. It is used as a second language by over a billion more. English is taught in schools around the world. It is considered the language of business and science. Many scientific papers are written in English. International meetings are often conducted in English. The language is influenced by many other languages. New words are added to dictionaries every year."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Restaurant Kitchen",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Welcome to our kitchen! Everything here is prepared fresh daily. Vegetables are washed and cut each morning. Meat is stored at the correct temperature. Each dish is cooked to order. Our pasta is made by hand. Pizzas are baked in a wood-fired oven. All ingredients are sourced from local farms. Tables are set before opening. Orders are taken by our friendly staff. Customer satisfaction is guaranteed!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Environmental Report",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Millions of tons of plastic are produced every year. Much of it is thrown away after one use. Only 9% of plastic is recycled globally. The rest is dumped in landfills or oceans. Sea animals are harmed by plastic waste. Action is needed now! Reusable bags are encouraged in many countries. Plastic straws are banned in some places. More recycling facilities are being built. The environment must be protected for future generations."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "English ___ (speak) here.",
+          "back": "is spoken\n\nis + V3"
+        },
+        {
+          "type": "transformation",
+          "front": "Active: They make cars in Japan.\nPassive: ?",
+          "back": "Cars are made in Japan.\n\nObject → Subject"
+        },
+        {
+          "type": "fill_gap",
+          "front": "These products ___ (sell) worldwide.",
+          "back": "are sold\n\nare + V3 (plural)"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"The book is wrote by him.\"",
+          "back": "The book is written by him.\n\nV3 of write = written"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The report ___ (not/finish) yet.",
+          "back": "isn't finished\n\nis + not + V3"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "transformation", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using past tense instead of past participle",
+      "Wrong form of be (is/are agreement)",
+      "Forgetting 'by' when agent is mentioned",
+      "Using active when passive is more natural"
+    ],
+    "related_topics": ["b1_passive_past", "a1_present_simple"],
+    "ielts_relevance": "Very high - essential for Writing Task 1",
+    "frequency_in_english": "Very high"
+  }
+}

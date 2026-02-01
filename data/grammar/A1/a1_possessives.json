@@ -1,0 +1,286 @@
+{
+  "id": "a1_possessives",
+  "level": "A1",
+  "title": "Possessive Adjectives",
+  "title_ru": "Притяжательные прилагательные",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_to_be"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about this family. Notice the highlighted words before nouns.",
+      "instruction_ru": "Прочитай о семье. Обрати внимание на выделенные слова перед существительными.",
+      "content": {
+        "text": "Hello! <highlight>My</highlight> name is Kate. This is <highlight>my</highlight> family. <highlight>My</highlight> mother is a teacher. <highlight>Her</highlight> name is Anna. <highlight>My</highlight> father is a doctor. <highlight>His</highlight> name is Tom. They love <highlight>their</highlight> jobs. I have a brother. <highlight>His</highlight> name is Jack. <highlight>Our</highlight> house is in London. Jack has a dog. <highlight>Its</highlight> name is Max. What's <highlight>your</highlight> name? Tell me about <highlight>your</highlight> family!",
+        "question": "What do these highlighted words tell us about?",
+        "question_ru": "О чём нам говорят выделенные слова?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Possessive Adjectives - Showing ownership",
+        "title_ru": "Притяжательные прилагательные - Показываем принадлежность",
+        "points": [
+          {
+            "rule": "I → my",
+            "rule_ru": "I → my (мой/моя/моё/мои)",
+            "example": "I have a car. My car is red.",
+            "marker": "I → my"
+          },
+          {
+            "rule": "you → your",
+            "rule_ru": "you → your (твой/ваш)",
+            "example": "You have a book. Your book is new.",
+            "marker": "you → your"
+          },
+          {
+            "rule": "he → his, she → her, it → its",
+            "rule_ru": "he → his, she → her, it → its (его/её)",
+            "example": "He is Tom. His house is big. She is Anna. Her car is blue.",
+            "marker": "he/she/it → his/her/its"
+          },
+          {
+            "rule": "we → our, they → their",
+            "rule_ru": "we → our, they → their (наш/их)",
+            "example": "We have a dog. Our dog is friendly. They have a cat. Their cat is lazy.",
+            "marker": "we/they → our/their"
+          }
+        ],
+        "comparison_table": [
+          {"subject": "I", "possessive": "my", "example": "my book"},
+          {"subject": "you", "possessive": "your", "example": "your phone"},
+          {"subject": "he", "possessive": "his", "example": "his car"},
+          {"subject": "she", "possessive": "her", "example": "her bag"},
+          {"subject": "it", "possessive": "its", "example": "its tail"},
+          {"subject": "we", "possessive": "our", "example": "our house"},
+          {"subject": "they", "possessive": "their", "example": "their children"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all possessive adjectives and identify who owns what.",
+      "instruction_ru": "Найди все притяжательные прилагательные и определи, кому что принадлежит.",
+      "tasks": [
+        {
+          "text": "This is my classroom. Our teacher is Mrs. Brown. Her desk is near the window. She has a computer on her desk. My friend Tom sits next to me. His notebook is blue. My notebook is green. We share our pencils. The classroom has its own projector. The students like their classroom. What about your classroom? Is your teacher nice?",
+          "find": [
+            {"possessive": "my", "owner": "I (speaker)", "noun": "classroom"},
+            {"possessive": "Our", "owner": "we (students)", "noun": "teacher"},
+            {"possessive": "Her", "owner": "Mrs. Brown (she)", "noun": "desk"},
+            {"possessive": "her", "owner": "Mrs. Brown (she)", "noun": "desk"},
+            {"possessive": "My", "owner": "I (speaker)", "noun": "friend"},
+            {"possessive": "His", "owner": "Tom (he)", "noun": "notebook"},
+            {"possessive": "My", "owner": "I (speaker)", "noun": "notebook"},
+            {"possessive": "our", "owner": "we", "noun": "pencils"},
+            {"possessive": "its", "owner": "the classroom (it)", "noun": "projector"},
+            {"possessive": "their", "owner": "the students (they)", "noun": "classroom"},
+            {"possessive": "your", "owner": "you (reader)", "noun": "classroom"},
+            {"possessive": "your", "owner": "you (reader)", "noun": "teacher"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'he' and 'his'? Between 'she' and 'her'?",
+      "reflection_question_ru": "В чём разница между 'he' и 'his'? Между 'she' и 'her'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct possessive adjective.",
+          "sentences": [
+            {"sentence": "I love ___ family.", "answer": "my"},
+            {"sentence": "She is washing ___ hair.", "answer": "her"},
+            {"sentence": "He forgot ___ keys.", "answer": "his"},
+            {"sentence": "We are in ___ new house.", "answer": "our"},
+            {"sentence": "They are doing ___ homework.", "answer": "their"},
+            {"sentence": "The cat is eating ___ food.", "answer": "its"},
+            {"sentence": "Is this ___ book?", "answer": "your"},
+            {"sentence": "I called ___ mother yesterday.", "answer": "my"},
+            {"sentence": "She loves ___ job.", "answer": "her"},
+            {"sentence": "Where is ___ car? (you)", "answer": "your"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct possessive adjective.",
+          "questions": [
+            {
+              "sentence": "Tom is tall. ___ hair is brown.",
+              "options": ["His", "Her", "Its"],
+              "correct": 0,
+              "explanation": "Tom is a man (he) → his"
+            },
+            {
+              "sentence": "Maria is a teacher. ___ students like her.",
+              "options": ["His", "Her", "Their"],
+              "correct": 1,
+              "explanation": "Maria is a woman (she) → her"
+            },
+            {
+              "sentence": "We have a cat. ___ name is Fluffy.",
+              "options": ["Our", "Their", "Its"],
+              "correct": 2,
+              "explanation": "The cat (it) → its"
+            },
+            {
+              "sentence": "I am a student. ___ school is near here.",
+              "options": ["Your", "My", "Our"],
+              "correct": 1,
+              "explanation": "I → my"
+            },
+            {
+              "sentence": "The children are playing with ___ toys.",
+              "options": ["his", "her", "their"],
+              "correct": 2,
+              "explanation": "The children (they) → their"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She loves she job.",
+              "correct": "She loves her job.",
+              "explanation": "she (subject) → her (possessive)"
+            },
+            {
+              "incorrect": "They like they teacher.",
+              "correct": "They like their teacher.",
+              "explanation": "they (subject) → their (possessive)"
+            },
+            {
+              "incorrect": "The dog ate it's food.",
+              "correct": "The dog ate its food.",
+              "explanation": "its (possessive) has no apostrophe; it's = it is"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe your family using possessive adjectives.",
+      "instruction_ru": "Опиши свою семью, используя притяжательные прилагательные.",
+      "prompts": [
+        "Your mother: her name, her job, her hobbies",
+        "Your father: his name, his job, his hobbies",
+        "Your siblings: their names, their interests",
+        "Your family together: our home, our traditions"
+      ],
+      "example": "My mother is Maria. Her job is teaching. She loves her work. My father is Tom. His hobby is gardening. My parents love their house. Our home is always warm and welcoming.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'my' for self",
+        "Uses 'his' for males, 'her' for females",
+        "Uses 'their' for plural",
+        "At least 5 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many possessive adjectives.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "My Best Friend",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "My best friend is Sarah. Her eyes are blue. Her hair is long. She loves her family. Her mother is kind. Her father works a lot. I often visit her house. Our friendship is strong. We share our secrets. Her dog loves me too. Its name is Buddy."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "The Office",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "I work in an office. My desk is near the window. My boss is nice. Her name is Ms. Smith. My colleagues are friendly. Their desks are next to mine. We love our coffee breaks. The office has its own kitchen. What about your work?"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Pets",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 11,
+          "content": "I have two pets. My cat is Whiskers. Its fur is soft. My dog is Max. His tail is always wagging. They have their own beds. My sister loves her rabbit. Its ears are long. Our pets are part of our family."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Classroom",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "This is our classroom. Our teacher is kind. Her lessons are interesting. My seat is in the front. My friend sits behind me. His notes are always neat. Their group projects are creative. The school has its own library."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "New Neighbors",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 11,
+          "content": "We have new neighbors. Their family is big. The father is tall. His name is John. The mother is friendly. Her smile is beautiful. Their children play with my brother. Our dogs are friends too. Its nice to have good neighbors."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "She loves ___ (she) family.",
+          "back": "her\n\nshe → her"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He forgot ___ (he) keys.",
+          "back": "his\n\nhe → his"
+        },
+        {
+          "type": "choose",
+          "front": "The cat is eating ___ food.\n(it's / its)",
+          "back": "its\n\nits = possessive\nit's = it is"
+        },
+        {
+          "type": "fill_gap",
+          "front": "We love ___ (we) new house.",
+          "back": "our\n\nwe → our"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"They love they children.\"",
+          "back": "They love their children.\n\nthey → their"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Confusing subject and possessive (she vs her)",
+      "Using it's instead of its",
+      "Confusing his/her",
+      "Using their/there/they're incorrectly"
+    ],
+    "related_topics": ["a1_to_be", "a2_possessive_pronouns"],
+    "ielts_relevance": "High - essential for describing people",
+    "frequency_in_english": "Very high"
+  }
+}

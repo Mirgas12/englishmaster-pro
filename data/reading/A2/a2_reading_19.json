@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_19",
+  "level": "A2",
+  "title": "The Library Visit",
+  "title_ru": "Визит в библиотеку",
+  "word_count": 155,
+  "topic": "education",
+  "text": "Every week, I go to the public library near my house. It's a quiet, peaceful place. I love the smell of old books! The library has thousands of books on different topics. There are sections for children, teenagers, and adults. I usually go to the young adult section. I like adventure and mystery stories. The librarian, Mrs. Parker, is very helpful. She always recommends good books. Last week, she suggested a book about a detective. I couldn't put it down and finished it in two days! I have a library card, so I can borrow books for free. I can keep them for three weeks. The library also has computers for studying and free Wi-Fi. Sometimes I do my homework there because it's quieter than home. There are also reading groups and events. Next month, a famous author is coming to give a talk. I already signed up!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What kind of stories does the writer like?", "options": ["Romance", "Adventure and mystery", "Science fiction"], "correct": 1},
+    {"type": "multiple_choice", "question": "How long can books be borrowed?", "options": ["Two weeks", "Three weeks", "Four weeks"], "correct": 1},
+    {"type": "true_false", "question": "You have to pay to borrow books.", "correct": false},
+    {"type": "true_false", "question": "Mrs. Parker is the librarian.", "correct": true},
+    {"type": "fill_gap", "question": "The library has free ___.", "answer": "Wi-Fi"}
+  ],
+  "vocabulary": ["library", "borrow", "recommend", "author", "detective"],
+  "grammar_focus": ["present_simple", "can"]
+}

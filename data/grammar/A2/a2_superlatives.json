@@ -1,0 +1,296 @@
+{
+  "id": "a2_superlatives",
+  "level": "A2",
+  "title": "Superlatives",
+  "title_ru": "Превосходная степень",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_comparatives"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about world records. Notice how we describe 'number one'.",
+      "instruction_ru": "Прочитай о мировых рекордах. Обрати внимание, как мы описываем 'номер один'.",
+      "content": {
+        "text": "World Records: Mount Everest is <highlight>the tallest</highlight> mountain in the world. Russia is <highlight>the biggest</highlight> country. The cheetah is <highlight>the fastest</highlight> animal on land. Tokyo is one of <highlight>the most expensive</highlight> cities. What's <highlight>the longest</highlight> river? The Nile is <highlight>the longest</highlight>. What's <highlight>the best</highlight> movie you've seen? And what's <highlight>the worst</highlight>? The Burj Khalifa is <highlight>the tallest</highlight> building in the world.",
+        "question": "How do superlatives differ from comparatives?",
+        "question_ru": "Чем превосходная степень отличается от сравнительной?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Superlatives - The number one",
+        "title_ru": "Превосходная степень - Номер один",
+        "points": [
+          {
+            "rule": "Short adjectives: the + adjective + -est",
+            "rule_ru": "Короткие прилагательные: the + прилагательное + -est",
+            "example": "tall → the tallest, fast → the fastest",
+            "marker": "the + -est"
+          },
+          {
+            "rule": "Ending in -e: the + adjective + -st",
+            "rule_ru": "На -e: the + прилагательное + -st",
+            "example": "nice → the nicest, large → the largest",
+            "marker": "-e → -st"
+          },
+          {
+            "rule": "Short vowel + consonant: double + -est",
+            "rule_ru": "Краткая гласная + согласная: удваиваем + -est",
+            "example": "big → the biggest, hot → the hottest",
+            "marker": "double + -est"
+          },
+          {
+            "rule": "Ending in -y: y → iest",
+            "rule_ru": "На -y: y → iest",
+            "example": "happy → the happiest, easy → the easiest",
+            "marker": "y → iest"
+          },
+          {
+            "rule": "Long adjectives: the most + adjective",
+            "rule_ru": "Длинные прилагательные: the most + прилагательное",
+            "example": "beautiful → the most beautiful, expensive → the most expensive",
+            "marker": "the most +"
+          },
+          {
+            "rule": "Irregular: good → the best, bad → the worst",
+            "rule_ru": "Неправильные: good → the best, bad → the worst",
+            "example": "This is the best! That's the worst.",
+            "marker": "irregular"
+          }
+        ],
+        "comparison_table": [
+          {"adjective": "tall", "comparative": "taller", "superlative": "the tallest"},
+          {"adjective": "big", "comparative": "bigger", "superlative": "the biggest"},
+          {"adjective": "happy", "comparative": "happier", "superlative": "the happiest"},
+          {"adjective": "expensive", "comparative": "more expensive", "superlative": "the most expensive"},
+          {"adjective": "good", "comparative": "better", "superlative": "the best"},
+          {"adjective": "bad", "comparative": "worse", "superlative": "the worst"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all superlatives. Identify the base adjective and the rule.",
+      "instruction_ru": "Найди все превосходные степени. Определи базовое прилагательное и правило.",
+      "tasks": [
+        {
+          "text": "My trip to Thailand was the best vacation ever! Bangkok is one of the busiest cities I've visited. The food was the tastiest. Thai curry was the spiciest thing I ate! The beaches were the most beautiful I've seen. The people were the friendliest. The temples were the most impressive. The weather was the hottest. But the prices were the cheapest! It was the happiest week of my year.",
+          "find": [
+            {"superlative": "the best", "base": "good", "rule": "irregular"},
+            {"superlative": "the busiest", "base": "busy", "rule": "y → iest"},
+            {"superlative": "the tastiest", "base": "tasty", "rule": "y → iest"},
+            {"superlative": "the spiciest", "base": "spicy", "rule": "y → iest"},
+            {"superlative": "the most beautiful", "base": "beautiful", "rule": "the most +"},
+            {"superlative": "the friendliest", "base": "friendly", "rule": "y → iest"},
+            {"superlative": "the most impressive", "base": "impressive", "rule": "the most +"},
+            {"superlative": "the hottest", "base": "hot", "rule": "double + est"},
+            {"superlative": "the cheapest", "base": "cheap", "rule": "+est"},
+            {"superlative": "the happiest", "base": "happy", "rule": "y → iest"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we always use 'the' with superlatives?",
+      "reflection_question_ru": "Почему мы всегда используем 'the' с превосходной степенью?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the superlative form.",
+          "sentences": [
+            {"sentence": "Everest is ___ (high) mountain in the world.", "answer": "the highest"},
+            {"sentence": "What's ___ (good) restaurant here?", "answer": "the best"},
+            {"sentence": "This is ___ (expensive) hotel in the city.", "answer": "the most expensive"},
+            {"sentence": "She's ___ (smart) student in the class.", "answer": "the smartest"},
+            {"sentence": "That was ___ (bad) movie I've seen.", "answer": "the worst"},
+            {"sentence": "Russia is ___ (big) country.", "answer": "the biggest"},
+            {"sentence": "This is ___ (easy) question.", "answer": "the easiest"},
+            {"sentence": "He's ___ (funny) person I know.", "answer": "the funniest"},
+            {"sentence": "It was ___ (hot) day of the year.", "answer": "the hottest"},
+            {"sentence": "That's ___ (beautiful) view!", "answer": "the most beautiful"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct superlative.",
+          "questions": [
+            {
+              "sentence": "This is ___ book I've ever read.",
+              "options": ["the better", "the best", "the goodest"],
+              "correct": 1,
+              "explanation": "good → the best (irregular)"
+            },
+            {
+              "sentence": "He's ___ player on the team.",
+              "options": ["the taller", "the tallest", "the most tall"],
+              "correct": 1,
+              "explanation": "tall → the tallest (+est)"
+            },
+            {
+              "sentence": "This is ___ restaurant in town.",
+              "options": ["the most popular", "the popularest", "the more popular"],
+              "correct": 0,
+              "explanation": "popular → the most popular (long word)"
+            },
+            {
+              "sentence": "She's ___ person I know.",
+              "options": ["the happier", "the most happy", "the happiest"],
+              "correct": 2,
+              "explanation": "happy → the happiest (y → iest)"
+            },
+            {
+              "sentence": "That was ___ day of my life.",
+              "options": ["the baddest", "the worst", "the most bad"],
+              "correct": 1,
+              "explanation": "bad → the worst (irregular)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "He is most tall boy in class.",
+              "correct": "He is the tallest boy in class.",
+              "explanation": "Short adjective → the + est"
+            },
+            {
+              "incorrect": "This is the goodest cake ever!",
+              "correct": "This is the best cake ever!",
+              "explanation": "good → the best (irregular)"
+            },
+            {
+              "incorrect": "It's the more beautiful place.",
+              "correct": "It's the most beautiful place.",
+              "explanation": "Superlative = the most (not the more)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about the best/worst/most interesting things in your life.",
+      "instruction_ru": "Напиши о лучших/худших/самых интересных вещах в твоей жизни.",
+      "prompts": [
+        "What's the best movie you've seen?",
+        "Who's the funniest person you know?",
+        "What's the most beautiful place you've visited?",
+        "What's the hardest thing you've done?",
+        "What's the best food you've eaten?"
+      ],
+      "example": "The best movie I've seen is The Shawshank Redemption. It's the most emotional film I know. My brother is the funniest person in my family. The most beautiful place I've visited is Bali. The food there was the tastiest. The hardest exam I took was my driving test. But passing it was the happiest moment!",
+      "ai_check": true,
+      "criteria": [
+        "Uses the + -est for short adjectives",
+        "Uses the most for long adjectives",
+        "Uses irregular forms correctly",
+        "At least 6 superlatives"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many superlatives.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "World Records",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 11,
+          "content": "Here are some amazing world records. The tallest building is the Burj Khalifa. The longest river is the Nile. The biggest ocean is the Pacific. The coldest place is Antarctica. The hottest place is Death Valley. The fastest animal is the cheetah. The most expensive city is Singapore. The smallest country is Vatican City."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Best Vacation Ever",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Last summer was the best vacation of my life! I went to the most beautiful island in Greece. The beaches were the cleanest I've seen. The water was the bluest. The seafood was the freshest and the tastiest. The people were the friendliest. It was the most relaxing week ever. The sunsets were the most stunning. I'll never forget it!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "My Favorite Things",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "My grandmother makes the best cookies in the world. They're the sweetest and the softest. My dog is the cutest pet ever. My best friend is the most loyal person I know. My hometown isn't the biggest city, but it's the warmest place in my heart. These are the most important things in my life."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "School Memories",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "I remember my school years well. Math was the hardest subject for me. English was the easiest. My history teacher was the strictest. But my art teacher was the nicest. The worst day was when I failed my exam. The best day was graduation. Those were the most memorable years of my youth."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "City Guide",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "Welcome to our city! The oldest building is the cathedral from 1200. The tallest tower has the best view. The busiest street is Main Street. The most popular restaurant is Mario's - they have the tastiest pizza! The quietest park is by the river. It's the most peaceful place in the city."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "tall → the ___",
+          "back": "the tallest\n\nShort adjective = the + est"
+        },
+        {
+          "type": "fill_gap",
+          "front": "beautiful → ___",
+          "back": "the most beautiful\n\nLong adjective = the most"
+        },
+        {
+          "type": "fill_gap",
+          "front": "good → ___",
+          "back": "the best\n\nIrregular"
+        },
+        {
+          "type": "fill_gap",
+          "front": "happy → ___",
+          "back": "the happiest\n\ny → iest"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He's most tall in class.\"",
+          "back": "He's the tallest in class.\n\nNeed 'the' + short adj + est"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting 'the' (He is tallest)",
+      "Wrong irregular forms (goodest, badest)",
+      "Using 'most' with short adjectives (the most tall)",
+      "Using -est with long adjectives (beautifulest)"
+    ],
+    "related_topics": ["a2_comparatives", "a1_articles"],
+    "ielts_relevance": "High - used in Speaking Parts 2 and 3",
+    "frequency_in_english": "High"
+  }
+}

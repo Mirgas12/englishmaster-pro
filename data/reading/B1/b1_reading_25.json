@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_25",
+  "level": "B1",
+  "title": "The Future of Food",
+  "title_ru": "Будущее еды",
+  "word_count": 230,
+  "topic": "food",
+  "text": "How we produce and consume food is changing rapidly. With a growing global population and increasing environmental pressures, innovations in food technology are becoming essential. Some developments might seem futuristic, but they're already becoming reality.\n\nLab-grown meat is one breakthrough gaining attention. Scientists can now grow real animal tissue in laboratories without raising and slaughtering animals. This could dramatically reduce the environmental impact of meat production while addressing animal welfare concerns. Though currently expensive, costs are falling rapidly.\n\nVertical farming allows crops to be grown in stacked layers indoors, using LED lights and controlled environments. These facilities use up to 95% less water than traditional farming and can operate year-round regardless of weather. They also eliminate the need for pesticides and reduce transportation distances.\n\nInsects may become a significant protein source. They're already eaten in many cultures and are highly nutritious. Cricket flour is appearing in protein bars and pasta. Insects require far fewer resources to raise than traditional livestock.\n\nFood waste is being tackled through technology too. Apps connect restaurants with surplus food to consumers seeking bargains. Ugly vegetables, once discarded, are now sold at reduced prices. Scientists are developing packaging that keeps food fresh longer.\n\nPersonalized nutrition is another frontier. Genetic testing and AI could eventually provide diet recommendations tailored to your individual biology.\n\nWhile not all innovations will succeed, some will transform our food system. Adapting how we eat may be necessary to feed future generations sustainably.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How much less water can vertical farms use?", "options": ["Up to 50%", "Up to 75%", "Up to 95%"], "correct": 2},
+    {"type": "multiple_choice", "question": "What is lab-grown meat made from?", "options": ["Plants", "Real animal tissue", "Synthetic chemicals"], "correct": 1},
+    {"type": "true_false", "question": "Insects are only eaten in Western countries.", "correct": false},
+    {"type": "true_false", "question": "Vertical farming can operate year-round.", "correct": true},
+    {"type": "fill_gap", "question": "Cricket flour is appearing in protein bars and ___.", "answer": "pasta"}
+  ],
+  "vocabulary": ["lab-grown", "vertical farming", "sustainable", "protein", "genetic"],
+  "grammar_focus": ["present_continuous", "future_predictions"]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "b2_reported_speech_advanced",
+  "level": "B2",
+  "title": "Reported Speech - Advanced",
+  "title_ru": "Косвенная речь - Продвинутый",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b1_reported_speech_statements", "b1_reported_speech_questions"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read how people report various types of speech. Notice the different reporting verbs.",
+      "instruction_ru": "Прочитай, как люди передают различные типы речи. Обрати внимание на разные глаголы передачи.",
+      "content": {
+        "text": "The meeting was intense. John <highlight>admitted stealing</highlight> the money. Sarah <highlight>denied being</highlight> involved. The boss <highlight>accused</highlight> them <highlight>of lying</highlight>. Tom <highlight>warned us not to</highlight> trust them. Lisa <highlight>suggested meeting</highlight> with lawyers. Mark <highlight>insisted on having</highlight> proof. The CEO <highlight>threatened to fire</highlight> everyone. Anna <highlight>apologized for not telling</highlight> the truth earlier. Finally, they <highlight>agreed to investigate</highlight> further. Everyone <highlight>promised not to discuss</highlight> it outside.",
+        "question": "What patterns follow different reporting verbs?",
+        "question_ru": "Какие паттерны следуют за разными глаголами передачи?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Advanced Reporting Verbs and Patterns",
+        "title_ru": "Продвинутые глаголы передачи и их паттерны",
+        "points": [
+          {
+            "rule": "verb + -ing: admit, deny, suggest, recommend, regret",
+            "rule_ru": "глагол + -ing: admit, deny, suggest, recommend, regret",
+            "example": "He admitted taking the money. She denied knowing him.",
+            "marker": "V + -ing"
+          },
+          {
+            "rule": "verb + to infinitive: agree, offer, promise, refuse, threaten",
+            "rule_ru": "глагол + to инфинитив: agree, offer, promise, refuse, threaten",
+            "example": "She agreed to help. He threatened to leave.",
+            "marker": "V + to inf"
+          },
+          {
+            "rule": "verb + object + to infinitive: advise, warn, remind, encourage, persuade",
+            "rule_ru": "глагол + дополнение + to инфинитив: advise, warn, remind, encourage, persuade",
+            "example": "She advised me to wait. He warned them not to go.",
+            "marker": "V + obj + to inf"
+          },
+          {
+            "rule": "verb + preposition + -ing: apologize for, insist on, accuse of",
+            "rule_ru": "глагол + предлог + -ing: apologize for, insist on, accuse of",
+            "example": "He apologized for being late. She accused him of lying.",
+            "marker": "V + prep + -ing"
+          },
+          {
+            "rule": "verb + (that) clause: explain, mention, claim, complain, announce",
+            "rule_ru": "глагол + (that) придаточное: explain, mention, claim, complain, announce",
+            "example": "He explained that he was busy. She complained that it was unfair.",
+            "marker": "V + that"
+          }
+        ],
+        "comparison_table": [
+          {"pattern": "V + -ing", "verbs": "admit, deny, suggest, recommend, regret", "example": "She admitted making a mistake."},
+          {"pattern": "V + to inf", "verbs": "agree, offer, promise, refuse, threaten", "example": "He promised to help."},
+          {"pattern": "V + obj + to inf", "verbs": "advise, warn, remind, encourage, persuade, invite, order", "example": "She warned me not to go."},
+          {"pattern": "V + prep + -ing", "verbs": "apologize for, insist on, accuse of, blame for, congratulate on", "example": "He apologized for being late."},
+          {"pattern": "V + that", "verbs": "explain, mention, claim, complain, announce, admit, deny", "example": "She explained that she was tired."}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Transform direct speech using the given reporting verb.",
+      "instruction_ru": "Преобразуй прямую речь, используя данный глагол передачи.",
+      "tasks": [
+        {
+          "text": "Transform these:\n\n1. 'I took the last cookie.' (admit)\n   → He admitted taking the last cookie.\n\n2. 'I didn't break the window.' (deny)\n   → She denied breaking the window.\n\n3. 'You should see a doctor.' (advise)\n   → He advised me to see a doctor.\n\n4. 'I won't do it again.' (promise)\n   → She promised not to do it again.\n\n5. 'I'm sorry I'm late.' (apologize)\n   → He apologized for being late.\n\n6. 'If you don't stop, I'll call the police.' (threaten)\n   → She threatened to call the police.\n\n7. 'Why don't we take a break?' (suggest)\n   → He suggested taking a break.\n\n8. 'You stole my idea!' (accuse)\n   → She accused him of stealing her idea.",
+          "find": [
+            {"direct": "I took", "reported": "admitted taking", "pattern": "admit + -ing"},
+            {"direct": "I didn't break", "reported": "denied breaking", "pattern": "deny + -ing"},
+            {"direct": "You should see", "reported": "advised me to see", "pattern": "advise + obj + to inf"},
+            {"direct": "I won't do", "reported": "promised not to do", "pattern": "promise + not + to inf"},
+            {"direct": "I'm sorry I'm late", "reported": "apologized for being", "pattern": "apologize for + -ing"},
+            {"direct": "I'll call", "reported": "threatened to call", "pattern": "threaten + to inf"},
+            {"direct": "Why don't we", "reported": "suggested taking", "pattern": "suggest + -ing"},
+            {"direct": "You stole", "reported": "accused him of stealing", "pattern": "accuse + obj + of + -ing"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do different reporting verbs take different patterns?",
+      "reflection_question_ru": "Почему разные глаголы передачи берут разные паттерны?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Report the speech using the verb in brackets.",
+          "sentences": [
+            {"direct": "'Yes, I made a mistake.' (admit)", "reported": "He admitted making a mistake."},
+            {"direct": "'I didn't cheat.' (deny)", "reported": "She denied cheating."},
+            {"direct": "'You should take a break.' (advise)", "reported": "He advised me to take a break."},
+            {"direct": "'I'll help you tomorrow.' (promise)", "reported": "She promised to help me the next day."},
+            {"direct": "'I'm sorry for shouting.' (apologize)", "reported": "He apologized for shouting."},
+            {"direct": "'Don't touch that!' (warn)", "reported": "She warned me not to touch that."},
+            {"direct": "'Let's go to the cinema.' (suggest)", "reported": "He suggested going to the cinema."},
+            {"direct": "'You broke my phone!' (accuse)", "reported": "She accused me of breaking her phone."},
+            {"direct": "'I won't help you.' (refuse)", "reported": "He refused to help me."},
+            {"direct": "'I must see the manager!' (insist)", "reported": "She insisted on seeing the manager."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct form.",
+          "sentences": [
+            {"sentence": "She admitted ___ (take) the money.", "answer": "taking"},
+            {"sentence": "He promised ___ (not/be) late again.", "answer": "not to be"},
+            {"sentence": "They accused him ___ (lie).", "answer": "of lying"},
+            {"sentence": "She advised me ___ (see) a specialist.", "answer": "to see"},
+            {"sentence": "He apologized ___ (not/call) earlier.", "answer": "for not calling"},
+            {"sentence": "They suggested ___ (have) a meeting.", "answer": "having"},
+            {"sentence": "She warned us ___ (not/go) outside.", "answer": "not to go"},
+            {"sentence": "He insisted ___ (pay) the bill.", "answer": "on paying"},
+            {"sentence": "She threatened ___ (resign) if nothing changed.", "answer": "to resign"},
+            {"sentence": "They blamed him ___ (cause) the accident.", "answer": "for causing"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She admitted to take the money.",
+              "correct": "She admitted taking the money.",
+              "explanation": "admit + -ing, not to + infinitive"
+            },
+            {
+              "incorrect": "He warned not to touch it.",
+              "correct": "He warned me not to touch it.",
+              "explanation": "warn needs an object before to + infinitive"
+            },
+            {
+              "incorrect": "She accused him to lie.",
+              "correct": "She accused him of lying.",
+              "explanation": "accuse + object + of + -ing"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Report a conversation or meeting using various reporting verbs.",
+      "instruction_ru": "Передай разговор или встречу, используя различные глаголы передачи.",
+      "prompts": [
+        "Report what happened in a meeting at work",
+        "Describe an argument and how it was resolved",
+        "Report advice people have given you",
+        "Describe a negotiation or discussion"
+      ],
+      "example": "The meeting yesterday was difficult. John admitted making errors in the report. Sarah denied being responsible for the problems. The manager warned everyone not to miss deadlines again. He threatened to cut bonuses if performance didn't improve. Lisa suggested having weekly check-ins. Mark agreed to monitor progress more closely. Anna apologized for not catching the mistakes earlier. The team promised to do better. Finally, Tom recommended hiring additional staff. Everyone agreed to consider the suggestion.",
+      "ai_check": true,
+      "criteria": [
+        "Uses verbs + -ing (admit, deny, suggest)",
+        "Uses verbs + to infinitive (agree, promise, threaten)",
+        "Uses verbs + object + to infinitive (warn, advise)",
+        "Uses verbs + preposition + -ing (apologize for, accuse of)",
+        "At least 8 different reporting verbs"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with advanced reporting.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "The Investigation",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The investigation revealed disturbing facts. The suspect admitted entering the building. He denied stealing anything. Police accused him of lying about his whereabouts. His lawyer advised him not to say anything else. The prosecutor threatened to add more charges. Witnesses suggested checking the security cameras. One claimed to have seen someone running. The judge warned everyone not to discuss the case. The defendant insisted on his innocence. His family promised to support him throughout."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Office Drama",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Office politics can be intense! My colleague accused me of taking credit for her work. I denied doing anything wrong. She threatened to go to HR. I suggested discussing it privately first. She refused to listen. Our manager advised us to be professional. He warned us not to let personal issues affect the team. She apologized for overreacting. I offered to share credit publicly. She agreed to put it behind us. We both promised to communicate better in the future."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Parent-Teen Talk",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Parenting a teenager is challenging! My son admitted sneaking out last weekend. He denied going anywhere dangerous. I warned him not to do it again. He apologized for worrying me. I advised him to be honest in the future. He promised to tell me his plans. He suggested having a later curfew. I agreed to consider it. He threatened to move out if I was too strict. I reminded him not to say things he didn't mean. We agreed to respect each other more."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Contract Negotiation",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The negotiation was tough but successful. They offered to increase the price by 5%. We refused to accept less than 10%. They accused us of being unreasonable. We denied making unrealistic demands. Our lawyer suggested splitting the difference. They agreed to consider the compromise. We warned them not to delay any longer. They promised to respond by Friday. We reminded them to include all terms in writing. Finally, they agreed to sign the contract."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Relationship Counseling",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The counseling session was emotional. She accused him of not listening. He denied ignoring her. She admitted not communicating clearly. He apologized for being distant. The counselor suggested trying weekly date nights. She agreed to give it a chance. He promised to be more present. The counselor warned them not to fall back into old patterns. They both committed to making changes. She recommended keeping a gratitude journal. They thanked her for helping them reconnect."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "pattern",
+          "front": "admit / deny / suggest",
+          "back": "+ -ing\n\nShe admitted stealing it."
+        },
+        {
+          "type": "pattern",
+          "front": "agree / promise / refuse / threaten",
+          "back": "+ to infinitive\n\nHe promised to help."
+        },
+        {
+          "type": "pattern",
+          "front": "advise / warn / remind / encourage",
+          "back": "+ object + to infinitive\n\nShe warned me not to go."
+        },
+        {
+          "type": "pattern",
+          "front": "apologize for / insist on / accuse of",
+          "back": "+ -ing\n\nHe apologized for being late."
+        },
+        {
+          "type": "error_correction",
+          "front": "She admitted to take it.",
+          "back": "She admitted taking it.\n\nadmit + -ing"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using infinitive after admit/deny",
+      "Forgetting object before 'to infinitive' with warn/advise",
+      "Wrong preposition with apologize/accuse/blame",
+      "Mixing up patterns"
+    ],
+    "related_topics": ["b1_reported_speech_statements", "b1_gerund_infinitive_basic"],
+    "ielts_relevance": "Very high - Speaking, Writing",
+    "frequency_in_english": "Very high"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "b2_comparisons_advanced",
+  "level": "B2",
+  "title": "Advanced Comparisons",
+  "title_ru": "Продвинутые сравнения",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_comparatives", "a2_superlatives"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about trends and changes. Notice the comparison structures.",
+      "instruction_ru": "Прочитай о тенденциях и изменениях. Обрати внимание на структуры сравнения.",
+      "content": {
+        "text": "<highlight>The more</highlight> I practice, <highlight>the better</highlight> I become. Life is getting <highlight>more and more</highlight> expensive. <highlight>The sooner</highlight> we act, <highlight>the better</highlight>. This city is <highlight>nowhere near as</highlight> crowded as Tokyo. He's <highlight>by far the best</highlight> player on the team. She's <highlight>not nearly as</highlight> experienced <highlight>as</highlight> she claims. <highlight>The older</highlight> I get, <highlight>the wiser</highlight> I become. Prices are rising <highlight>faster and faster</highlight>. It's <highlight>nothing like as</highlight> difficult <highlight>as</highlight> I expected.",
+        "question": "What patterns do you see for showing progressive change or emphasizing differences?",
+        "question_ru": "Какие паттерны ты видишь для показа прогрессивных изменений или подчёркивания различий?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Advanced Comparison Structures",
+        "title_ru": "Продвинутые структуры сравнения",
+        "points": [
+          {
+            "rule": "The + comparative, the + comparative = parallel change",
+            "rule_ru": "The + сравнительная, the + сравнительная = параллельное изменение",
+            "example": "The more you study, the more you learn. The sooner, the better.",
+            "marker": "the more...the more"
+          },
+          {
+            "rule": "comparative + and + comparative = gradual increase",
+            "rule_ru": "сравнительная + and + сравнительная = постепенное увеличение",
+            "example": "It's getting hotter and hotter. More and more people are moving here.",
+            "marker": "more and more"
+          },
+          {
+            "rule": "not nearly as / nowhere near as = much less than",
+            "rule_ru": "not nearly as / nowhere near as = намного меньше чем",
+            "example": "He's not nearly as smart as he thinks. It's nowhere near as difficult.",
+            "marker": "not nearly as"
+          },
+          {
+            "rule": "by far / easily + superlative = emphasize the extreme",
+            "rule_ru": "by far / easily + превосходная = подчёркивает крайность",
+            "example": "She's by far the best. This is easily the worst mistake.",
+            "marker": "by far + superlative"
+          },
+          {
+            "rule": "nothing like as...as / not anything like = completely different level",
+            "rule_ru": "nothing like as...as / not anything like = совершенно разный уровень",
+            "example": "It's nothing like as expensive as I thought.",
+            "marker": "nothing like as"
+          }
+        ],
+        "comparison_table": [
+          {"structure": "The more...the more", "meaning": "Parallel change", "example": "The harder you work, the more you earn."},
+          {"structure": "more and more", "meaning": "Gradual increase", "example": "It's becoming more and more popular."},
+          {"structure": "less and less", "meaning": "Gradual decrease", "example": "I'm getting less and less interested."},
+          {"structure": "not nearly/nowhere near as...as", "meaning": "Much less than", "example": "It's nowhere near as cold."},
+          {"structure": "by far the + superlative", "meaning": "Extreme emphasis", "example": "This is by far the best option."},
+          {"structure": "nothing like as...as", "meaning": "Very different", "example": "It's nothing like as hard as expected."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the comparison structure and what it expresses.",
+      "instruction_ru": "Определи структуру сравнения и что она выражает.",
+      "tasks": [
+        {
+          "text": "Economic commentary:\n\n1. The more the government spends, the higher the debt becomes.\n2. Inflation is getting worse and worse.\n3. This recession is by far the most serious we've faced.\n4. The recovery is not nearly as fast as predicted.\n5. The sooner we take action, the better the outcome.\n6. Housing costs are rising faster and faster.\n7. This policy is nowhere near as effective as the last one.\n8. The economy is growing more and more slowly.\n9. It's nothing like as simple as politicians claim.\n10. The longer we wait, the harder it gets.",
+          "find": [
+            {"sentence": 1, "structure": "The more...the higher", "meaning": "parallel change"},
+            {"sentence": 2, "structure": "worse and worse", "meaning": "gradual worsening"},
+            {"sentence": 3, "structure": "by far the most", "meaning": "extreme emphasis"},
+            {"sentence": 4, "structure": "not nearly as...as", "meaning": "much less than expected"},
+            {"sentence": 5, "structure": "The sooner...the better", "meaning": "parallel change"},
+            {"sentence": 6, "structure": "faster and faster", "meaning": "accelerating increase"},
+            {"sentence": 7, "structure": "nowhere near as...as", "meaning": "much less effective"},
+            {"sentence": 8, "structure": "more and more slowly", "meaning": "gradual slowing"},
+            {"sentence": 9, "structure": "nothing like as...as", "meaning": "very different from"},
+            {"sentence": 10, "structure": "The longer...the harder", "meaning": "parallel change"}
+          ]
+        }
+      ],
+      "reflection_question": "How are 'The more...the more' and 'more and more' different?",
+      "reflection_question_ru": "Чем отличаются 'The more...the more' и 'more and more'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct comparison structure.",
+          "sentences": [
+            {"sentence": "___ harder you work, ___ more you achieve.", "answer": "The, the"},
+            {"sentence": "Technology is advancing ___ and ___.", "answer": "faster, faster"},
+            {"sentence": "She's ___ far ___ most talented singer I know.", "answer": "by, the"},
+            {"sentence": "This test is ___ nearly ___ difficult ___ the last one.", "answer": "not, as, as"},
+            {"sentence": "___ sooner you start, ___ better.", "answer": "The, the"},
+            {"sentence": "The city is becoming ___ and ___ crowded.", "answer": "more, more"},
+            {"sentence": "The exam was ___ like ___ hard ___ I expected.", "answer": "nothing, as, as"},
+            {"sentence": "___ longer I waited, ___ more nervous I became.", "answer": "The, the"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using the given structure.",
+          "sentences": [
+            {"original": "If you practice a lot, you improve a lot.", "structure": "The more...the more", "answer": "The more you practice, the more you improve."},
+            {"original": "It's becoming increasingly difficult.", "structure": "more and more", "answer": "It's becoming more and more difficult."},
+            {"original": "This is much better than all the others.", "structure": "by far", "answer": "This is by far the best."},
+            {"original": "It's much easier than I expected.", "structure": "not nearly as...as", "answer": "It's not nearly as difficult as I expected."},
+            {"original": "If we leave early, we'll have more time.", "structure": "The earlier...the more", "answer": "The earlier we leave, the more time we'll have."}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "More I study, more I learn.",
+              "correct": "The more I study, the more I learn.",
+              "explanation": "Need 'the' before each comparative"
+            },
+            {
+              "incorrect": "She's by far more talented than him.",
+              "correct": "She's by far the most talented. OR She's far more talented than him.",
+              "explanation": "By far + superlative, or far + comparative"
+            },
+            {
+              "incorrect": "It's not nowhere near as good.",
+              "correct": "It's nowhere near as good. OR It's not nearly as good.",
+              "explanation": "Choose one: 'nowhere near' or 'not nearly'"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 16,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about trends, changes, or comparisons using advanced structures.",
+      "instruction_ru": "Напиши о тенденциях, изменениях или сравнениях, используя продвинутые структуры.",
+      "prompts": [
+        "Write about how life has changed over time",
+        "Compare your expectations with reality",
+        "Describe trends you've noticed",
+        "Write about your learning progress"
+      ],
+      "example": "Learning English has been quite a journey. The more I practice, the more confident I become. My progress is getting faster and faster now. Speaking is by far the most challenging skill for me. However, it's nowhere near as difficult as I thought it would be. The longer I study, the easier grammar becomes. I'm becoming more and more comfortable with native speakers. My vocabulary is growing faster and faster. The exam wasn't anything like as hard as I expected. The sooner I start speaking, the better my fluency will be!",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'The more...the more' structure correctly",
+        "Uses 'comparative and comparative' for gradual change",
+        "Uses 'by far + superlative' for emphasis",
+        "Uses 'not nearly as / nowhere near as' for big differences",
+        "At least 5 advanced comparison structures"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with advanced comparisons.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Climate Change",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The climate crisis is getting worse and worse. The more we delay action, the harder the problem becomes. Temperatures are rising faster and faster each year. This is by far the most serious challenge humanity faces. The situation is nowhere near as manageable as politicians claim. The longer we wait, the more expensive solutions become. We need to act more and more urgently. The sooner we start, the better our chances of success."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Technology Evolution",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Technology is advancing faster and faster. The more we rely on it, the more dependent we become. Smartphones are by far the most influential invention of our time. However, they're nothing like as simple as they first appear. The more features they add, the more complicated they get. We're becoming more and more connected, yet more and more isolated. The younger generation adapts far more quickly than older users."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Fitness Journey",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "My fitness journey has taught me a lot. The more I exercise, the better I feel. Getting fit is nowhere near as easy as influencers suggest. It's by far the most challenging thing I've done. The harder the workout, the greater the satisfaction. Progress comes faster and faster once you build habits. Running 5K is not nearly as impossible as I thought. The longer I stick with it, the more natural it feels."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Language Learning",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The more languages I learn, the easier each new one becomes. Learning Japanese is by far the most challenging language I've attempted. It's nothing like as similar to English as Spanish is. The more I practice kanji, the faster I recognize them. My reading speed is getting faster and faster. The longer I live here, the more natural the language feels. Japanese culture is nowhere near as mysterious as I initially thought."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Career Growth",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "My career has evolved significantly. The more experience I gain, the more confident I become. This job is by far the most rewarding I've had. The work is nowhere near as stressful as my previous position. I'm learning more and more each day. The longer I stay in this field, the better my prospects become. Success comes faster and faster with the right mindset. The harder I work, the luckier I seem to get!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "___ more you practice, ___ better you get.",
+          "back": "The / the\n\nParallel change"
+        },
+        {
+          "type": "fill_gap",
+          "front": "Life is getting ___ and ___ expensive.",
+          "back": "more / more\n\nGradual increase"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She's ___ far ___ best student.",
+          "back": "by / the\n\nEmphasis + superlative"
+        },
+        {
+          "type": "fill_gap",
+          "front": "It's ___ nearly ___ hard ___ I thought.",
+          "back": "not / as / as\n\nMuch less than"
+        },
+        {
+          "type": "error_correction",
+          "front": "More I eat, more I want.",
+          "back": "The more I eat, the more I want.\n\nNeed 'the'"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "transformation", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting 'the' in 'the more...the more'",
+      "Using 'by far' with comparative instead of superlative",
+      "Doubling negatives (not nowhere)",
+      "Wrong word order"
+    ],
+    "related_topics": ["a2_comparatives", "a2_superlatives"],
+    "ielts_relevance": "High - Writing Task 2, Speaking",
+    "frequency_in_english": "High"
+  }
+}

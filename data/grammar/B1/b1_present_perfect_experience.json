@@ -1,0 +1,289 @@
+{
+  "id": "b1_present_perfect_experience",
+  "level": "B1",
+  "title": "Present Perfect for Experience",
+  "title_ru": "Present Perfect для опыта",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_past_simple_irregular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about travel experiences. Notice how we talk about life experiences.",
+      "instruction_ru": "Прочитай об опыте путешествий. Обрати внимание, как мы говорим о жизненном опыте.",
+      "content": {
+        "text": "I love traveling! I <highlight>have visited</highlight> 15 countries in my life. I <highlight>have been</highlight> to Japan twice. I <highlight>have never been</highlight> to Australia, but I want to go. My friend <highlight>has traveled</highlight> around the world. She <highlight>has seen</highlight> amazing places. <highlight>Have</highlight> you ever <highlight>tried</highlight> sushi? I <highlight>have eaten</highlight> it many times. I <highlight>have never tasted</highlight> anything so delicious! <highlight>Has</highlight> your family ever <highlight>lived</highlight> abroad?",
+        "question": "Are we talking about specific times or general life experiences?",
+        "question_ru": "Мы говорим о конкретных моментах или об общем жизненном опыте?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Perfect for Life Experiences",
+        "title_ru": "Present Perfect для жизненного опыта",
+        "points": [
+          {
+            "rule": "Form: have/has + past participle (V3)",
+            "rule_ru": "Форма: have/has + причастие прошедшего времени (V3)",
+            "example": "I have visited Paris. She has seen this movie.",
+            "marker": "have/has + V3"
+          },
+          {
+            "rule": "Use: Experiences in life (time not important)",
+            "rule_ru": "Использование: Опыт в жизни (время не важно)",
+            "example": "I have tried skydiving. (sometime in my life)",
+            "marker": "life experience"
+          },
+          {
+            "rule": "Key words: ever (questions), never (negative), before",
+            "rule_ru": "Ключевые слова: ever (вопросы), never (отрицание), before",
+            "example": "Have you ever been to London? I have never seen snow.",
+            "marker": "ever/never"
+          },
+          {
+            "rule": "How many times: once, twice, three times, many times",
+            "rule_ru": "Сколько раз: once, twice, three times, many times",
+            "example": "I have visited Rome twice. She has read this book three times.",
+            "marker": "frequency"
+          },
+          {
+            "rule": "I/you/we/they → have; he/she/it → has",
+            "rule_ru": "I/you/we/they → have; he/she/it → has",
+            "example": "I have seen it. He has seen it.",
+            "marker": "have/has"
+          }
+        ],
+        "comparison_table": [
+          {"form": "Positive", "structure": "have/has + V3", "example": "I have visited Paris."},
+          {"form": "Negative", "structure": "have/has + not + V3", "example": "I haven't visited Rome."},
+          {"form": "Question", "structure": "Have/Has + subject + V3?", "example": "Have you visited London?"},
+          {"form": "With ever", "structure": "Have/Has + ever + V3?", "example": "Have you ever been abroad?"},
+          {"form": "With never", "structure": "have/has + never + V3", "example": "I have never tried sushi."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all Present Perfect verbs. Identify the experience being described.",
+      "instruction_ru": "Найди все глаголы в Present Perfect. Определи, какой опыт описывается.",
+      "tasks": [
+        {
+          "text": "My grandmother has had an amazing life. She has lived in five different countries. She has learned four languages. She has met famous politicians. She has written two books about her experiences. She has never stopped learning new things. Has she ever regretted her choices? She says she hasn't. She has always followed her dreams. I have never met anyone so inspiring. Have you ever met someone who changed your life?",
+          "find": [
+            {"verb": "has had", "experience": "amazing life overall"},
+            {"verb": "has lived", "experience": "living in different countries"},
+            {"verb": "has learned", "experience": "learning languages"},
+            {"verb": "has met", "experience": "meeting famous people"},
+            {"verb": "has written", "experience": "writing books"},
+            {"verb": "has never stopped", "experience": "continuous learning"},
+            {"verb": "Has she ever regretted", "experience": "question about regrets"},
+            {"verb": "hasn't", "experience": "no regrets"},
+            {"verb": "has always followed", "experience": "following dreams"},
+            {"verb": "have never met", "experience": "meeting inspiring people"},
+            {"verb": "Have you ever met", "experience": "question about meeting someone"}
+          ]
+        }
+      ],
+      "reflection_question": "Why don't we say 'I have visited Paris last year'?",
+      "reflection_question_ru": "Почему мы не говорим 'I have visited Paris last year'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Present Perfect (have/has + V3).",
+          "sentences": [
+            {"sentence": "I ___ (visit) Japan three times.", "answer": "have visited"},
+            {"sentence": "She ___ never ___ (try) Indian food.", "answer": "has, tried"},
+            {"sentence": "___ you ever ___ (see) a shooting star?", "answer": "Have, seen"},
+            {"sentence": "They ___ (be) to Africa twice.", "answer": "have been"},
+            {"sentence": "He ___ never ___ (fly) in a helicopter.", "answer": "has, flown"},
+            {"sentence": "We ___ (meet) many interesting people.", "answer": "have met"},
+            {"sentence": "___ she ever ___ (live) abroad?", "answer": "Has, lived"},
+            {"sentence": "I ___ (read) that book before.", "answer": "have read"},
+            {"sentence": "My parents ___ never ___ (travel) by plane.", "answer": "have, traveled"},
+            {"sentence": "___ you ever ___ (eat) frog legs?", "answer": "Have, eaten"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I ___ to Paris twice.",
+              "options": ["have been", "was", "have went"],
+              "correct": 0,
+              "explanation": "Experience = have been (V3 of 'go' for places)"
+            },
+            {
+              "sentence": "___ you ever ___ a famous person?",
+              "options": ["Did / meet", "Have / met", "Have / meet"],
+              "correct": 1,
+              "explanation": "Ever + Present Perfect = Have + V3"
+            },
+            {
+              "sentence": "She ___ never ___ sushi.",
+              "options": ["has / try", "have / tried", "has / tried"],
+              "correct": 2,
+              "explanation": "She + has + never + V3"
+            },
+            {
+              "sentence": "They ___ many countries.",
+              "options": ["have visit", "has visited", "have visited"],
+              "correct": 2,
+              "explanation": "They + have + V3"
+            },
+            {
+              "sentence": "I have ___ this movie before.",
+              "options": ["see", "saw", "seen"],
+              "correct": 2,
+              "explanation": "Have + V3 (seen is V3 of see)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I have went to London.",
+              "correct": "I have been to / have gone to London.",
+              "explanation": "V3 of 'go' is 'gone' or use 'been' for places"
+            },
+            {
+              "incorrect": "Have you ever eat snake?",
+              "correct": "Have you ever eaten snake?",
+              "explanation": "Need V3: eat → eaten"
+            },
+            {
+              "incorrect": "She have visited many museums.",
+              "correct": "She has visited many museums.",
+              "explanation": "She → has (not have)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your life experiences using Present Perfect.",
+      "instruction_ru": "Напиши о своём жизненном опыте, используя Present Perfect.",
+      "prompts": [
+        "What countries have you visited?",
+        "What unusual food have you tried?",
+        "What experiences have you never had but want to?",
+        "What is something you have done many times?"
+      ],
+      "example": "I have had many interesting experiences in my life. I have visited five countries in Europe. I have been to France twice and Italy once. I have never been to Asia, but I want to go. I have tried many unusual foods. I have eaten snails in France - they were delicious! I have never tried sushi, but I want to. I have met many interesting people from different countries. Have you ever traveled alone? I have done it once and it was amazing!",
+      "ai_check": true,
+      "criteria": [
+        "Uses have/has + V3 correctly",
+        "Uses ever/never appropriately",
+        "Talks about life experiences without specific times",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with Present Perfect for experience.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Travel Bucket List",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "I have always loved traveling. I have visited 20 countries so far. I have been to Europe many times. I have seen the Eiffel Tower and the Colosseum. I have never been to South America, but it's on my list. I have swum in three different oceans. I have hiked in the Alps. Have you ever traveled to a place that changed you? I have found that every trip has taught me something new."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Food Adventures",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "I have tried food from all over the world. I have eaten insects in Thailand - have you ever tried them? I have tasted the spiciest curry in India. I have never eaten raw fish, though. My brother has been more adventurous. He has tried snake and frog. We have both discovered that food is the best way to understand a culture. What unusual food have you eaten?"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Learning Languages",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I have studied three languages in my life. I have learned English and Spanish well. I have tried to learn Japanese, but I haven't mastered it yet. My sister has lived in France for two years and has become fluent. Have you ever felt frustrated learning a language? I have felt that many times! But I have never given up. Languages have opened many doors for me."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Extreme Sports",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Have you ever done something really scary? I have tried several extreme sports. I have been skydiving twice. I have bungee jumped once. I have never felt such excitement! My friend has done even crazier things. She has climbed Mount Everest. She has swum with sharks. I haven't tried those yet. But I have learned that pushing your limits is important for personal growth."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Job Interview",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "Interviewer: Have you ever worked in a team? Candidate: Yes, I have worked in many teams. I have led projects with ten people. Interviewer: Have you ever dealt with a difficult client? Candidate: I have handled many challenging situations. I have never lost my patience with a client. Interviewer: What have you learned from your experiences? Candidate: I have discovered that communication is key. I have grown a lot professionally."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ (visit) Paris twice.",
+          "back": "have visited\n\nhave + V3 (experience)"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ you ever ___ (try) sushi?",
+          "back": "Have / tried\n\nEver in questions"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: I have seen this movie.\nQuestion: ?",
+          "back": "Have you seen this movie?\n\nHave + subject + V3"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She have visited London.\"",
+          "back": "She has visited London.\n\nShe → has"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He ___ never ___ (be) abroad.",
+          "back": "has / been\n\nhas + never + V3"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using Past Simple instead of Present Perfect",
+      "Wrong past participle (have went instead of have been/gone)",
+      "Using have with he/she/it",
+      "Adding specific time (have visited yesterday)"
+    ],
+    "related_topics": ["a2_past_simple_irregular", "b1_present_perfect_recent", "b1_present_perfect_vs_past"],
+    "ielts_relevance": "Very high - essential for Speaking Parts 1-3",
+    "frequency_in_english": "Very high"
+  }
+}

@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#2481cc">
+    <title>EnglishMaster Pro</title>
+
+    <!-- Telegram Web App -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Local Config (gitignored) -->
+    <script src="js/config.local.js" onerror="console.log('Local config not found, using defaults')"></script>
+</head>
+<body>
+    <div id="app" class="app">
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="screen" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+            <div class="spinner"></div>
+            <p class="mt-md text-hint">Loading EnglishMaster Pro...</p>
+        </div>
+
+        <!-- Main App (hidden initially) -->
+        <div id="main-app" class="hidden">
+            <!-- Header -->
+            <header class="header">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h1 class="header-title">EnglishMaster Pro</h1>
+                        <p class="text-hint" id="user-greeting"></p>
+                    </div>
+                    <div class="level-badge" id="user-level">A1</div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="main" id="main-content">
+                <!-- Dashboard Screen -->
+                <div id="dashboard-screen" class="screen">
+                    <!-- Streak & Stats -->
+                    <div class="card">
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-value" id="streak-count">0</div>
+                                <div class="stat-label">Day Streak</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value" id="total-hours">0</div>
+                                <div class="stat-label">Hours Studied</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Today's Tasks -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Today's Tasks</h2>
+                        </div>
+                        <div id="today-tasks">
+                            <p class="text-hint">Loading tasks...</p>
+                        </div>
+                    </div>
+
+                    <!-- Vocabulary Progress -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Vocabulary</h2>
+                            <span class="text-hint" id="vocab-count">0 words</span>
+                        </div>
+                        <div class="mb-sm">
+                            <div class="flex justify-between text-hint mb-sm">
+                                <span>Receptive</span>
+                                <span id="receptive-count">0</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" id="receptive-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between text-hint mb-sm">
+                                <span>Productive</span>
+                                <span id="productive-count">0</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar success" id="productive-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Module Grid -->
+                    <h2 class="card-title mb-md">Modules</h2>
+                    <div class="module-grid" id="module-grid">
+                        <div class="module-card" data-module="vocabulary">
+                            <div class="module-icon">📚</div>
+                            <div class="module-name">Vocabulary</div>
+                            <div class="module-level" id="vocab-level">A1</div>
+                        </div>
+                        <div class="module-card" data-module="grammar">
+                            <div class="module-icon">📝</div>
+                            <div class="module-name">Grammar</div>
+                            <div class="module-level" id="grammar-level">A1</div>
+                        </div>
+                        <div class="module-card" data-module="reading">
+                            <div class="module-icon">📖</div>
+                            <div class="module-name">Reading</div>
+                            <div class="module-level" id="reading-level">A1</div>
+                        </div>
+                        <div class="module-card" data-module="listening">
+                            <div class="module-icon">🎧</div>
+                            <div class="module-name">Listening</div>
+                            <div class="module-level" id="listening-level">A1</div>
+                        </div>
+                        <div class="module-card" data-module="writing">
+                            <div class="module-icon">✍️</div>
+                            <div class="module-name">Writing</div>
+                            <div class="module-level" id="writing-level">A1</div>
+                        </div>
+                        <div class="module-card" data-module="speaking">
+                            <div class="module-icon">🗣️</div>
+                            <div class="module-name">Speaking</div>
+                            <div class="module-level" id="speaking-level">A1</div>
+                        </div>
+                        <div class="module-card" data-module="immersion">
+                            <div class="module-icon">🎬</div>
+                            <div class="module-name">Immersion</div>
+                            <div class="module-level">Watch & Learn</div>
+                        </div>
+                        <div class="module-card" data-module="ielts">
+                            <div class="module-icon">🎯</div>
+                            <div class="module-name">IELTS</div>
+                            <div class="module-level">Test Prep</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vocabulary Screen -->
+                <div id="vocabulary-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-md">Choose Practice Mode</h2>
+                        <div class="flex flex-col gap-sm">
+                            <button class="btn btn-primary btn-block" data-mode="receptive">
+                                EN → RU (Receptive)
+                            </button>
+                            <button class="btn btn-primary btn-block" data-mode="productive">
+                                RU → EN (Productive)
+                            </button>
+                            <button class="btn btn-secondary btn-block" data-mode="spelling">
+                                Spelling Practice
+                            </button>
+                            <button class="btn btn-secondary btn-block" data-mode="timed">
+                                Timed Recall
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Flashcard Area -->
+                    <div id="flashcard-area" class="hidden">
+                        <div class="flashcard" id="flashcard">
+                            <div class="flashcard-inner">
+                                <div class="flashcard-front">
+                                    <div class="flashcard-word" id="card-front-word"></div>
+                                    <div class="flashcard-transcription" id="card-front-transcription"></div>
+                                    <p class="text-hint" id="card-front-prompt"></p>
+                                </div>
+                                <div class="flashcard-back">
+                                    <div class="flashcard-word" id="card-back-word"></div>
+                                    <div class="flashcard-translation" id="card-back-translation"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-block mt-md" id="show-answer-btn">
+                            Show Answer
+                        </button>
+
+                        <div class="answer-buttons hidden" id="answer-buttons">
+                            <button class="answer-btn again" data-quality="0">Again</button>
+                            <button class="answer-btn hard" data-quality="1">Hard</button>
+                            <button class="answer-btn good" data-quality="2">Good</button>
+                            <button class="answer-btn easy" data-quality="3">Easy</button>
+                        </div>
+
+                        <div class="progress mt-md">
+                            <div class="progress-bar" id="session-progress" style="width: 0%"></div>
+                        </div>
+                        <p class="text-center text-hint mt-sm" id="session-counter">0 / 0</p>
+                    </div>
+                </div>
+
+                <!-- Speaking Screen -->
+                <div id="speaking-screen" class="screen hidden">
+                    <!-- Disclaimer -->
+                    <div class="disclaimer">
+                        <div class="disclaimer-title">⚠️ Important</div>
+                        <div class="disclaimer-text">
+                            Speaking practice in this app provides 60-70% of the effect of live conversation.
+                            For B2+ level, you need practice with real people:
+                            <ul style="margin-top: 8px; padding-left: 20px;">
+                                <li>Tandem (free)</li>
+                                <li>HelloTalk (free)</li>
+                                <li>italki (paid)</li>
+                                <li>Cambly (paid)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card mt-md">
+                        <h2 class="card-title mb-md">Practice Mode</h2>
+                        <div class="flex flex-col gap-sm">
+                            <button class="btn btn-primary btn-block" data-speaking-mode="pronunciation">
+                                Pronunciation Drills
+                            </button>
+                            <button class="btn btn-secondary btn-block" data-speaking-mode="shadowing">
+                                Shadowing
+                            </button>
+                            <button class="btn btn-secondary btn-block" data-speaking-mode="conversation">
+                                AI Conversation
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Writing Screen -->
+                <div id="writing-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-md">Writing Task</h2>
+                        <p class="text-hint mb-md" id="writing-prompt">
+                            Some people think that technology is making us less social. Do you agree or disagree?
+                        </p>
+                        <textarea class="input textarea" id="writing-input" placeholder="Write your essay here..." rows="10"></textarea>
+                        <p class="text-hint mt-sm">
+                            <span id="word-count">0</span> words (minimum 250)
+                        </p>
+                        <button class="btn btn-primary btn-block mt-md" id="submit-writing">
+                            Submit for Assessment
+                        </button>
+                    </div>
+
+                    <!-- Self-check -->
+                    <div class="card mt-md">
+                        <h2 class="card-title mb-md">Self-Check</h2>
+                        <ul class="checklist" id="writing-checklist">
+                            <li class="checklist-item">
+                                <div class="checkbox" data-check="intro"></div>
+                                <span>Introduction with thesis</span>
+                            </li>
+                            <li class="checklist-item">
+                                <div class="checkbox" data-check="body"></div>
+                                <span>2-3 body paragraphs</span>
+                            </li>
+                            <li class="checklist-item">
+                                <div class="checkbox" data-check="examples"></div>
+                                <span>Examples included</span>
+                            </li>
+                            <li class="checklist-item">
+                                <div class="checkbox" data-check="conclusion"></div>
+                                <span>Conclusion</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Placement Test Screen -->
+                <div id="placement-screen" class="screen hidden">
+                    <div class="card text-center">
+                        <h2 class="card-title mb-md">Welcome to EnglishMaster Pro!</h2>
+                        <p class="mb-lg">Let's determine your English level with a quick test.</p>
+                        <button class="btn btn-primary btn-lg" id="start-placement">
+                            Start Placement Test
+                        </button>
+                        <p class="text-hint mt-md">Takes about 25-35 minutes</p>
+                    </div>
+                </div>
+
+                <!-- Grammar Screen -->
+                <div id="grammar-screen" class="screen hidden">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Grammar Topics</h2>
+                            <select class="input" id="grammar-level-select" style="width: auto; padding: 8px;">
+                                <option value="A1">A1</option>
+                                <option value="A2">A2</option>
+                                <option value="B1">B1</option>
+                                <option value="B2">B2</option>
+                                <option value="C1">C1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="grammar-topics-list" class="mt-md">
+                        <!-- Topics will be loaded dynamically -->
+                    </div>
+                </div>
+
+                <!-- Grammar Lesson Screen -->
+                <div id="grammar-lesson-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-md" id="lesson-title">Lesson Title</h2>
+                        <div class="progress mb-md">
+                            <div class="progress-bar" id="lesson-progress" style="width: 0%"></div>
+                        </div>
+                        <div class="phase-tabs mb-md">
+                            <button class="tab active" data-phase="discover">Discover</button>
+                            <button class="tab" data-phase="understand">Understand</button>
+                            <button class="tab" data-phase="practice">Practice</button>
+                            <button class="tab" data-phase="produce">Produce</button>
+                        </div>
+                    </div>
+                    <div id="lesson-content" class="mt-md">
+                        <!-- Phase content will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- Reading Screen -->
+                <div id="reading-screen" class="screen hidden">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Reading Practice</h2>
+                            <select class="input" id="reading-level-select" style="width: auto; padding: 8px;">
+                                <option value="A1">A1</option>
+                                <option value="A2">A2</option>
+                                <option value="B1">B1</option>
+                                <option value="B2">B2</option>
+                                <option value="C1">C1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="reading-list" class="mt-md">
+                        <!-- Reading texts will be loaded dynamically -->
+                    </div>
+                </div>
+
+                <!-- Reading Text Screen -->
+                <div id="reading-text-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-sm" id="reading-title">Text Title</h2>
+                        <p class="text-hint mb-md" id="reading-info">Level • Word count • Topic</p>
+                        <div id="reading-content" class="reading-text">
+                            <!-- Text content will be loaded here -->
+                        </div>
+                    </div>
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Comprehension Questions</h3>
+                        <div id="reading-questions">
+                            <!-- Questions will be loaded here -->
+                        </div>
+                        <button class="btn btn-primary btn-block mt-md" id="check-reading-answers">
+                            Check Answers
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Listening Screen -->
+                <div id="listening-screen" class="screen hidden">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Listening Practice</h2>
+                            <select class="input" id="listening-level-select" style="width: auto; padding: 8px;">
+                                <option value="A1">A1</option>
+                                <option value="A2">A2</option>
+                                <option value="B1">B1</option>
+                                <option value="B2">B2</option>
+                                <option value="C1">C1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Choose Practice Type</h3>
+                        <div class="flex flex-col gap-sm">
+                            <button class="btn btn-primary btn-block" data-listening-mode="dictation">
+                                Dictation Practice
+                            </button>
+                            <button class="btn btn-secondary btn-block" data-listening-mode="comprehension">
+                                Listening Comprehension
+                            </button>
+                            <button class="btn btn-secondary btn-block" data-listening-mode="transcription">
+                                Transcription Challenge
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Immersion Screen -->
+                <div id="immersion-screen" class="screen hidden">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title">Immersion Quizzes</h2>
+                            <select class="input" id="immersion-level-select" style="width: auto; padding: 8px;">
+                                <option value="A1">A1</option>
+                                <option value="A2">A2</option>
+                                <option value="B1">B1</option>
+                                <option value="B2">B2</option>
+                                <option value="C1">C1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="immersion-list" class="mt-md">
+                        <!-- Immersion quizzes will be loaded dynamically -->
+                    </div>
+                </div>
+
+                <!-- Immersion Quiz Screen -->
+                <div id="immersion-quiz-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-sm" id="immersion-title">Quiz Title</h2>
+                        <p class="text-hint mb-md" id="immersion-info">Level • Duration • Type</p>
+                        <div class="media-player mb-md">
+                            <div class="media-placeholder" id="media-placeholder">
+                                <span>Media Player</span>
+                            </div>
+                            <div class="media-controls mt-sm">
+                                <button class="btn btn-sm" id="media-play">Play</button>
+                                <button class="btn btn-sm" id="media-pause">Pause</button>
+                                <button class="btn btn-sm" id="media-replay">Replay</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-md" id="immersion-transcript-card" style="display: none;">
+                        <h3 class="card-title mb-md">Transcript</h3>
+                        <div id="immersion-transcript" class="reading-text">
+                            <!-- Transcript will be loaded here -->
+                        </div>
+                    </div>
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Questions</h3>
+                        <div id="immersion-questions">
+                            <!-- Questions will be loaded here -->
+                        </div>
+                        <button class="btn btn-primary btn-block mt-md" id="check-immersion-answers">
+                            Check Answers
+                        </button>
+                        <button class="btn btn-secondary btn-block mt-sm" id="show-transcript">
+                            Show Transcript
+                        </button>
+                    </div>
+                </div>
+
+                <!-- IELTS Screen -->
+                <div id="ielts-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-md">IELTS Preparation</h2>
+                        <p class="text-hint mb-md">Practice for the IELTS exam with targeted exercises.</p>
+                    </div>
+                    <div class="module-grid mt-md">
+                        <div class="module-card" data-ielts="listening">
+                            <div class="module-icon">🎧</div>
+                            <div class="module-name">Listening</div>
+                            <div class="module-level">40 questions</div>
+                        </div>
+                        <div class="module-card" data-ielts="reading">
+                            <div class="module-icon">📖</div>
+                            <div class="module-name">Reading</div>
+                            <div class="module-level">Academic/General</div>
+                        </div>
+                        <div class="module-card" data-ielts="writing">
+                            <div class="module-icon">✍️</div>
+                            <div class="module-name">Writing</div>
+                            <div class="module-level">Task 1 & 2</div>
+                        </div>
+                        <div class="module-card" data-ielts="speaking">
+                            <div class="module-icon">🗣️</div>
+                            <div class="module-name">Speaking</div>
+                            <div class="module-level">3 Parts</div>
+                        </div>
+                    </div>
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Practice Tests</h3>
+                        <div class="flex flex-col gap-sm">
+                            <button class="btn btn-primary btn-block" id="ielts-full-test">
+                                Full Practice Test (2h 45min)
+                            </button>
+                            <button class="btn btn-secondary btn-block" id="ielts-section-test">
+                                Section Test (30-60min)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progress Screen -->
+                <div id="progress-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-md">Your Progress</h2>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-value" id="progress-level">A1</div>
+                                <div class="stat-label">Current Level</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value" id="progress-streak">0</div>
+                                <div class="stat-label">Day Streak</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value" id="progress-hours">0</div>
+                                <div class="stat-label">Total Hours</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value" id="progress-words">0</div>
+                                <div class="stat-label">Words Learned</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Skill Breakdown</h3>
+                        <div class="skill-progress">
+                            <div class="skill-item">
+                                <span class="skill-label">Vocabulary</span>
+                                <div class="progress flex-1 mx-sm">
+                                    <div class="progress-bar" id="skill-vocab" style="width: 0%"></div>
+                                </div>
+                                <span class="skill-level" id="skill-vocab-level">A1</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Grammar</span>
+                                <div class="progress flex-1 mx-sm">
+                                    <div class="progress-bar" id="skill-grammar" style="width: 0%"></div>
+                                </div>
+                                <span class="skill-level" id="skill-grammar-level">A1</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Reading</span>
+                                <div class="progress flex-1 mx-sm">
+                                    <div class="progress-bar" id="skill-reading" style="width: 0%"></div>
+                                </div>
+                                <span class="skill-level" id="skill-reading-level">A1</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Listening</span>
+                                <div class="progress flex-1 mx-sm">
+                                    <div class="progress-bar" id="skill-listening" style="width: 0%"></div>
+                                </div>
+                                <span class="skill-level" id="skill-listening-level">A1</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Writing</span>
+                                <div class="progress flex-1 mx-sm">
+                                    <div class="progress-bar" id="skill-writing" style="width: 0%"></div>
+                                </div>
+                                <span class="skill-level" id="skill-writing-level">A1</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-label">Speaking</span>
+                                <div class="progress flex-1 mx-sm">
+                                    <div class="progress-bar" id="skill-speaking" style="width: 0%"></div>
+                                </div>
+                                <span class="skill-level" id="skill-speaking-level">A1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Weekly Activity</h3>
+                        <div class="activity-chart" id="activity-chart">
+                            <div class="activity-day" data-day="Mon">
+                                <div class="activity-bar" style="height: 0%"></div>
+                                <span>Mon</span>
+                            </div>
+                            <div class="activity-day" data-day="Tue">
+                                <div class="activity-bar" style="height: 0%"></div>
+                                <span>Tue</span>
+                            </div>
+                            <div class="activity-day" data-day="Wed">
+                                <div class="activity-bar" style="height: 0%"></div>
+                                <span>Wed</span>
+                            </div>
+                            <div class="activity-day" data-day="Thu">
+                                <div class="activity-bar" style="height: 0%"></div>
+                                <span>Thu</span>
+                            </div>
+                            <div class="activity-day" data-day="Fri">
+                                <div class="activity-bar" style="height: 0%"></div>
+                                <span>Fri</span>
+                            </div>
+                            <div class="activity-day" data-day="Sat">
+                                <div class="activity-bar" style="height: 0%"></div>
+                                <span>Sat</span>
+                            </div>
+                            <div class="activity-day" data-day="Sun">
+                                <div class="activity-bar" style="height: 0%"></div>
+                                <span>Sun</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profile Screen -->
+                <div id="profile-screen" class="screen hidden">
+                    <div class="card text-center">
+                        <div class="avatar" id="profile-avatar">U</div>
+                        <h2 class="card-title mt-md" id="profile-name">User Name</h2>
+                        <p class="text-hint" id="profile-level">Level: A1</p>
+                        <p class="text-hint" id="profile-joined">Joined: January 2024</p>
+                    </div>
+
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Settings</h3>
+                        <div class="settings-list">
+                            <div class="settings-item">
+                                <span>Daily Goal</span>
+                                <select class="input" id="setting-daily-goal" style="width: auto;">
+                                    <option value="15">15 min</option>
+                                    <option value="30" selected>30 min</option>
+                                    <option value="45">45 min</option>
+                                    <option value="60">60 min</option>
+                                </select>
+                            </div>
+                            <div class="settings-item">
+                                <span>Notifications</span>
+                                <label class="toggle">
+                                    <input type="checkbox" id="setting-notifications" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-item">
+                                <span>Sound Effects</span>
+                                <label class="toggle">
+                                    <input type="checkbox" id="setting-sound" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-item">
+                                <span>Dark Mode</span>
+                                <label class="toggle">
+                                    <input type="checkbox" id="setting-dark-mode">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="settings-item">
+                                <span>Interface Language</span>
+                                <select class="input" id="setting-language" style="width: auto;">
+                                    <option value="en">English</option>
+                                    <option value="ru" selected>Русский</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Account</h3>
+                        <div class="flex flex-col gap-sm">
+                            <button class="btn btn-secondary btn-block" id="retake-placement">
+                                Retake Placement Test
+                            </button>
+                            <button class="btn btn-secondary btn-block" id="export-progress">
+                                Export Progress
+                            </button>
+                            <button class="btn btn-secondary btn-block" id="reset-progress" style="color: var(--tg-theme-destructive-text-color, #ff3b30);">
+                                Reset All Progress
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Study Screen (Hub) -->
+                <div id="study-screen" class="screen hidden">
+                    <div class="card">
+                        <h2 class="card-title mb-md">Study Session</h2>
+                        <p class="text-hint mb-md">Choose what to practice today:</p>
+                    </div>
+                    <div class="module-grid mt-md">
+                        <div class="module-card" data-study="vocabulary">
+                            <div class="module-icon">📚</div>
+                            <div class="module-name">Vocabulary</div>
+                            <div class="module-level" id="study-vocab-due">0 due</div>
+                        </div>
+                        <div class="module-card" data-study="grammar">
+                            <div class="module-icon">📝</div>
+                            <div class="module-name">Grammar</div>
+                            <div class="module-level" id="study-grammar-next">Continue</div>
+                        </div>
+                        <div class="module-card" data-study="reading">
+                            <div class="module-icon">📖</div>
+                            <div class="module-name">Reading</div>
+                            <div class="module-level">New Texts</div>
+                        </div>
+                        <div class="module-card" data-study="listening">
+                            <div class="module-icon">🎧</div>
+                            <div class="module-name">Listening</div>
+                            <div class="module-level">Practice</div>
+                        </div>
+                        <div class="module-card" data-study="writing">
+                            <div class="module-icon">✍️</div>
+                            <div class="module-name">Writing</div>
+                            <div class="module-level">New Task</div>
+                        </div>
+                        <div class="module-card" data-study="speaking">
+                            <div class="module-icon">🗣️</div>
+                            <div class="module-name">Speaking</div>
+                            <div class="module-level">AI Chat</div>
+                        </div>
+                    </div>
+                    <div class="card mt-md">
+                        <h3 class="card-title mb-md">Quick Actions</h3>
+                        <div class="flex flex-col gap-sm">
+                            <button class="btn btn-primary btn-block" id="start-smart-session">
+                                Smart Session (AI Picks)
+                            </button>
+                            <button class="btn btn-secondary btn-block" id="start-review-session">
+                                Review Due Cards
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Bottom Navigation -->
+            <nav class="nav">
+                <a href="#" class="nav-item active" data-nav="dashboard">
+                    <span class="nav-icon">🏠</span>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="nav-item" data-nav="study">
+                    <span class="nav-icon">📚</span>
+                    <span>Study</span>
+                </a>
+                <a href="#" class="nav-item" data-nav="progress">
+                    <span class="nav-icon">📊</span>
+                    <span>Progress</span>
+                </a>
+                <a href="#" class="nav-item" data-nav="profile">
+                    <span class="nav-icon">👤</span>
+                    <span>Profile</span>
+                </a>
+            </nav>
+        </div>
+
+        <!-- Toast -->
+        <div class="toast" id="toast"></div>
+    </div>
+
+    <!-- App Script - Full UI Controller -->
+    <script type="module">
+        import UI from './js/ui.js';
+
+        // Global error handler
+        window.onerror = function(message, source, lineno, colno, error) {
+            console.error('Global error:', { message, source, lineno, colno, error });
+            showErrorScreen('Произошла ошибка. Попробуйте обновить страницу.');
+            return true;
+        };
+
+        // Unhandled promise rejection handler
+        window.onunhandledrejection = function(event) {
+            console.error('Unhandled rejection:', event.reason);
+            // Don't show error for minor issues
+            if (event.reason?.message?.includes('Failed to fetch')) {
+                showOfflineWarning();
+            }
+        };
+
+        // Offline/Online handlers
+        window.addEventListener('online', () => {
+            hideOfflineWarning();
+            UI.showToast('Подключение восстановлено');
+        });
+
+        window.addEventListener('offline', () => {
+            showOfflineWarning();
+        });
+
+        // Show error screen
+        function showErrorScreen(message) {
+            const loading = document.getElementById('loading-screen');
+            if (loading) {
+                loading.innerHTML = `
+                    <div style="text-align: center; padding: 20px;">
+                        <div style="font-size: 48px; margin-bottom: 16px;">⚠️</div>
+                        <h2 style="margin-bottom: 8px;">Ошибка</h2>
+                        <p style="color: var(--tg-theme-hint-color); margin-bottom: 16px;">${message}</p>
+                        <button onclick="location.reload()" class="btn btn-primary">
+                            Обновить страницу
+                        </button>
+                    </div>
+                `;
+                loading.classList.remove('hidden');
+            }
+        }
+
+        // Show offline warning
+        function showOfflineWarning() {
+            let warning = document.getElementById('offline-warning');
+            if (!warning) {
+                warning = document.createElement('div');
+                warning.id = 'offline-warning';
+                warning.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    background: var(--warning);
+                    color: white;
+                    padding: 8px 16px;
+                    text-align: center;
+                    font-size: 14px;
+                    z-index: 9999;
+                `;
+                warning.textContent = '📴 Нет подключения к интернету. Работаем в офлайн режиме.';
+                document.body.prepend(warning);
+            }
+            warning.style.display = 'block';
+        }
+
+        // Hide offline warning
+        function hideOfflineWarning() {
+            const warning = document.getElementById('offline-warning');
+            if (warning) {
+                warning.style.display = 'none';
+            }
+        }
+
+        // Initialize app when DOM ready
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                // Check if offline at start
+                if (!navigator.onLine) {
+                    showOfflineWarning();
+                }
+
+                // Initialize UI controller
+                await UI.init();
+
+                // Hide loading, show main app
+                document.getElementById('loading-screen').classList.add('hidden');
+                document.getElementById('main-app').classList.remove('hidden');
+
+            } catch (error) {
+                console.error('App initialization failed:', error);
+                showErrorScreen('Не удалось загрузить приложение. Проверьте подключение к интернету.');
+            }
+        });
+
+        // Expose UI globally for debugging
+        window.UI = UI;
+    </script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+{
+  "id": "c1_subjunctive_advanced",
+  "level": "C1",
+  "title": "Advanced Subjunctive Mood",
+  "title_ru": "Продвинутое сослагательное наклонение",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_subjunctive", "b2_wish_past"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read these formal and literary examples. Notice the subjunctive forms.",
+      "instruction_ru": "Прочитай эти формальные и литературные примеры. Обрати внимание на формы сослагательного наклонения.",
+      "content": {
+        "text": "The committee <highlight>demands that he resign</highlight> immediately. It is essential <highlight>that every member be</highlight> present. I suggest <highlight>that she reconsider</highlight> her position. <highlight>Be that as it may</highlight>, we must proceed. <highlight>Far be it from me</highlight> to criticize. <highlight>If need be</highlight>, we shall take action. The law requires <highlight>that the accused be</highlight> informed. It is vital <highlight>that this remain</highlight> confidential. <highlight>Suffice it to say</highlight>, the situation is serious. <highlight>Long live</highlight> the spirit of inquiry!",
+        "question": "How does the subjunctive differ from normal verb forms?",
+        "question_ru": "Чем сослагательное наклонение отличается от обычных форм глагола?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "The Subjunctive in Formal English",
+        "title_ru": "Сослагательное наклонение в формальном английском",
+        "points": [
+          {
+            "rule": "Mandative subjunctive: demand/insist/require/suggest + that + base verb",
+            "rule_ru": "Мандативное сослагательное: demand/insist/require/suggest + that + базовый глагол",
+            "example": "I insist that he leave. They demanded that she be present.",
+            "marker": "mandative"
+          },
+          {
+            "rule": "After adjectives: essential/vital/necessary/important + that + base verb",
+            "rule_ru": "После прилагательных: essential/vital/necessary/important + that + базовый глагол",
+            "example": "It is essential that everyone attend. It's vital that he understand.",
+            "marker": "adjective + that"
+          },
+          {
+            "rule": "Fixed expressions: Be that as it may, Far be it from me, If need be, Suffice it to say",
+            "rule_ru": "Устойчивые выражения: Be that as it may, Far be it from me, If need be, Suffice it to say",
+            "example": "Far be it from me to judge. Be that as it may, we continue.",
+            "marker": "fixed expressions"
+          },
+          {
+            "rule": "Formulaic wishes: Long live..., God bless..., Heaven forbid...",
+            "rule_ru": "Формульные пожелания: Long live..., God bless..., Heaven forbid...",
+            "example": "Long live the king! Heaven forbid that should happen.",
+            "marker": "formulaic"
+          },
+          {
+            "rule": "Were for all persons in hypotheticals: If I/he/she/it were",
+            "rule_ru": "Were для всех лиц в гипотетических: If I/he/she/it were",
+            "example": "If she were here, she would agree. I wish it were possible.",
+            "marker": "were subjunctive"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Mandative (demand)", "form": "base verb (no -s)", "example": "I demand that he leave.", "note": "Not 'leaves'"},
+          {"type": "Mandative (suggest)", "form": "base verb", "example": "She suggested that I be early.", "note": "Not 'am'"},
+          {"type": "After adjective", "form": "base verb", "example": "It's vital that she attend.", "note": "Not 'attends'"},
+          {"type": "Were subjunctive", "form": "were (all persons)", "example": "If I were you...", "note": "Not 'was'"},
+          {"type": "Fixed expression", "form": "subjunctive set phrase", "example": "Be that as it may...", "note": "Fixed form"},
+          {"type": "Formulaic", "form": "base verb", "example": "Long live freedom!", "note": "Wishes/blessings"}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify subjunctive forms and their triggers.",
+      "instruction_ru": "Определи формы сослагательного наклонения и их триггеры.",
+      "tasks": [
+        {
+          "text": "Formal documents:\n\n1. The board recommends that the CEO step down.\n2. It is imperative that all documents be submitted by Friday.\n3. The regulation requires that each applicant provide two references.\n4. Be that as it may, the deadline cannot be extended.\n5. The judge ordered that the witness be protected.\n6. It is crucial that this information remain confidential.\n7. Far be it from me to question your expertise.\n8. The treaty demands that all parties cease hostilities.\n9. If need be, emergency measures will be implemented.\n10. It was proposed that a new committee be established.",
+          "find": [
+            {"sentence": 1, "subjunctive": "step", "trigger": "recommends that"},
+            {"sentence": 2, "subjunctive": "be submitted", "trigger": "It is imperative that"},
+            {"sentence": 3, "subjunctive": "provide", "trigger": "requires that"},
+            {"sentence": 4, "subjunctive": "Be that as it may", "trigger": "fixed expression"},
+            {"sentence": 5, "subjunctive": "be protected", "trigger": "ordered that"},
+            {"sentence": 6, "subjunctive": "remain", "trigger": "It is crucial that"},
+            {"sentence": 7, "subjunctive": "Far be it", "trigger": "fixed expression"},
+            {"sentence": 8, "subjunctive": "cease", "trigger": "demands that"},
+            {"sentence": 9, "subjunctive": "If need be", "trigger": "fixed expression"},
+            {"sentence": 10, "subjunctive": "be established", "trigger": "was proposed that"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is the subjunctive more common in American formal English than British?",
+      "reflection_question_ru": "Почему сослагательное наклонение более распространено в американском формальном английском, чем в британском?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct subjunctive form.",
+          "sentences": [
+            {"sentence": "The company insists that every employee ___ (attend) the training.", "answer": "attend"},
+            {"sentence": "It is essential that the report ___ (be) completed on time.", "answer": "be"},
+            {"sentence": "She demanded that he ___ (apologize) immediately.", "answer": "apologize"},
+            {"sentence": "It was recommended that she ___ (take) additional courses.", "answer": "take"},
+            {"sentence": "The law requires that each citizen ___ (pay) taxes.", "answer": "pay"},
+            {"sentence": "It is vital that this matter ___ (remain) confidential.", "answer": "remain"},
+            {"sentence": "The doctor suggested that he ___ (reduce) his stress levels.", "answer": "reduce"},
+            {"sentence": "It is necessary that the committee ___ (meet) weekly.", "answer": "meet"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using formal subjunctive structures.",
+          "sentences": [
+            {"informal": "They want him to resign.", "formal": "They demand that he resign."},
+            {"informal": "It's important for everyone to be on time.", "formal": "It is important that everyone be on time."},
+            {"informal": "The manager wants her to finish the project.", "formal": "The manager insists that she finish the project."},
+            {"informal": "We recommend you should apply early.", "formal": "We recommend that you apply early."},
+            {"informal": "The contract says he has to sign.", "formal": "The contract requires that he sign."}
+          ]
+        },
+        {
+          "type": "match_expression",
+          "instruction": "Match the fixed subjunctive expression to its meaning.",
+          "pairs": [
+            {"expression": "Be that as it may", "meaning": "Nevertheless / However"},
+            {"expression": "Far be it from me to", "meaning": "I wouldn't presume to"},
+            {"expression": "If need be", "meaning": "If necessary"},
+            {"expression": "Suffice it to say", "meaning": "It is enough to say"},
+            {"expression": "Heaven forbid", "meaning": "I hope it doesn't happen"},
+            {"expression": "Long live", "meaning": "May... live long (celebration)"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the subjunctive error.",
+          "sentences": [
+            {
+              "incorrect": "The committee demands that he resigns immediately.",
+              "correct": "The committee demands that he resign immediately.",
+              "explanation": "Mandative subjunctive uses base form (no -s)"
+            },
+            {
+              "incorrect": "It is essential that everyone is present.",
+              "correct": "It is essential that everyone be present.",
+              "explanation": "Subjunctive after 'essential that': use 'be', not 'is'"
+            },
+            {
+              "incorrect": "If I was you, I would reconsider.",
+              "correct": "If I were you, I would reconsider.",
+              "explanation": "Were subjunctive for hypotheticals"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 22,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a formal proposal or legal/academic text using subjunctive structures.",
+      "instruction_ru": "Напиши формальное предложение или юридический/академический текст, используя структуры сослагательного наклонения.",
+      "prompts": [
+        "Write a formal policy recommendation",
+        "Draft requirements for a new regulation",
+        "Compose a formal resolution or motion",
+        "Write a legal brief excerpt"
+      ],
+      "example": "The committee recommends that the following measures be implemented without delay. It is essential that each department head attend the mandatory briefing. We insist that all stakeholders be given adequate notice. Far be it from me to question existing procedures, but it is vital that reforms take place. Be that as it may, the current system cannot continue. We propose that a task force be established to oversee the transition. If need be, additional resources will be allocated. It is imperative that this matter remain a priority. Heaven forbid that we should fail in our obligations to the community.",
+      "ai_check": true,
+      "criteria": [
+        "Uses mandative subjunctive (demand/insist/require that + base verb)",
+        "Uses adjective + that (essential/vital/important that + base verb)",
+        "Uses at least 2 fixed expressions",
+        "Uses were subjunctive where appropriate",
+        "At least 6 subjunctive structures",
+        "Appropriate formal register"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with subjunctive structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Board Resolution",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The Board of Directors hereby resolves that the merger be approved. It is essential that shareholders be informed within 48 hours. We demand that all parties maintain confidentiality. It is crucial that the transition proceed smoothly. The resolution requires that the CEO present quarterly updates. Far be it from us to override management, but it is vital that oversight be strengthened. If need be, extraordinary measures will be taken. Be that as it may, shareholder value remains paramount."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Academic Policy",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The faculty senate recommends that the new curriculum be adopted. It is imperative that each student complete the prerequisite courses. We suggest that advisors meet with students regularly. It is essential that academic standards be maintained. The policy requires that all theses be submitted electronically. Suffice it to say, these changes are necessary. It is vital that faculty receive adequate training. Heaven forbid that educational quality should decline. We insist that resources be allocated accordingly."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Legal Document",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The court orders that the defendant appear at the scheduled hearing. It is essential that all evidence be preserved. The prosecution demands that the witness be made available. It is vital that due process be followed. The ruling requires that both parties submit briefs. Be that as it may, the proceedings must continue. It is crucial that confidentiality be maintained. If need be, protective orders will be issued. Far be it from this court to prejudge the outcome."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Diplomatic Communication",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Our government insists that diplomatic channels remain open. It is essential that all parties exercise restraint. We propose that negotiations resume immediately. It is vital that humanitarian aid be permitted. The agreement requires that both sides cease hostilities. Far be it from us to interfere in internal affairs, but it is imperative that civilian lives be protected. If need be, peacekeeping forces will be deployed. Long live international cooperation. Be that as it may, sovereignty must be respected."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Medical Protocol",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The ethics committee recommends that informed consent be obtained. It is essential that patient confidentiality be protected. The protocol requires that all adverse events be reported. It is vital that proper procedures be followed. We suggest that additional safeguards be implemented. Heaven forbid that patient safety should be compromised. It is crucial that the research team receive training. Far be it from us to impede scientific progress. If need be, the study will be suspended. Be that as it may, ethical standards remain non-negotiable."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "The law requires that each citizen ___ taxes.",
+          "back": "pay\n\nMandative subjunctive: base form, no -s"
+        },
+        {
+          "type": "fill_gap",
+          "front": "It is essential that everyone ___ present.",
+          "back": "be\n\nSubjunctive 'be' after essential that"
+        },
+        {
+          "type": "meaning",
+          "front": "Be that as it may",
+          "back": "= Nevertheless / However\n\nFixed subjunctive expression"
+        },
+        {
+          "type": "meaning",
+          "front": "Far be it from me to...",
+          "back": "= I wouldn't presume to...\n\nFar be it from me to criticize."
+        },
+        {
+          "type": "error_correction",
+          "front": "She demanded that he apologizes.",
+          "back": "She demanded that he apologize.\n\nBase form after demand that"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["fill_gap", "transformation", "error_correction", "match_expression"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Adding -s to third person singular in mandative subjunctive",
+      "Using 'is' instead of 'be' after essential/vital that",
+      "Confusing 'was' and 'were' in hypotheticals",
+      "Unfamiliarity with fixed expressions"
+    ],
+    "related_topics": ["b2_subjunctive", "c1_formal_register"],
+    "ielts_relevance": "High - Band 8+ formal writing",
+    "cae_relevance": "Use of English, formal writing",
+    "frequency_in_english": "Medium - formal/legal/academic contexts"
+  }
+}

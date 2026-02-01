@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_21",
+  "level": "B2",
+  "title": "The Global Water Crisis",
+  "title_ru": "Мировой водный кризис",
+  "word_count": 300,
+  "topic": "global_issues",
+  "text": "Water, essential for life, is increasingly scarce for billions of people. While Earth holds vast quantities of water, less than 1% is freshwater accessible for human use. Population growth, climate change, and mismanagement are intensifying pressure on this critical resource.\n\nWater scarcity takes different forms. Physical scarcity occurs where water resources are insufficient to meet all demands. Economic scarcity exists where water is available but infrastructure is lacking to deliver it. Both forms affect billions of people, with devastating consequences for health, agriculture, and economic development.\n\nAgriculture consumes approximately 70% of global freshwater withdrawals. Irrigation enables food production in dry regions but often uses water inefficiently. Groundwater depletion is accelerating as aquifers are pumped faster than they recharge. Some regions face 'peak water' – having reached the limits of sustainable extraction.\n\nClimate change exacerbates water challenges. Changed precipitation patterns alter water availability. Glaciers, which feed major river systems, are shrinking. More intense droughts and floods make water supplies less predictable and harder to manage.\n\nPollution further reduces available clean water. Agricultural runoff, industrial discharge, and inadequate sanitation contaminate rivers and groundwater. Emerging pollutants like pharmaceuticals and microplastics create new concerns.\n\nSolutions require action on multiple fronts. Efficiency improvements in agriculture, including drip irrigation and drought-resistant crops, can reduce demand. Recycling and reusing water extends supplies. Desalination, though energy-intensive, provides freshwater in coastal areas. Protecting watersheds and wetlands preserves natural water management systems.\n\nWater governance must improve. Pricing that reflects true costs encourages conservation. Transboundary agreements are essential for shared water resources. Investment in infrastructure is needed to reach underserved populations.\n\nThe water crisis intersects with nearly every major global challenge – food security, public health, climate adaptation, and conflict prevention. Addressing it is not optional but existential.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What percentage of freshwater is accessible for human use?", "options": ["About 10%", "Less than 1%", "About 25%"], "correct": 1},
+    {"type": "multiple_choice", "question": "What consumes most global freshwater?", "options": ["Industry", "Households", "Agriculture"], "correct": 2},
+    {"type": "true_false", "question": "Climate change makes water supplies more predictable.", "correct": false},
+    {"type": "true_false", "question": "Desalination can provide freshwater in coastal areas.", "correct": true},
+    {"type": "fill_gap", "question": "Groundwater depletion occurs when aquifers are pumped faster than they ___.", "answer": "recharge"}
+  ],
+  "vocabulary": ["water scarcity", "aquifer", "desalination", "watershed", "transboundary"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

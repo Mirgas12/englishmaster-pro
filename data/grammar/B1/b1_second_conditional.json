@@ -1,0 +1,285 @@
+{
+  "id": "b1_second_conditional",
+  "level": "B1",
+  "title": "Second Conditional",
+  "title_ru": "Второй тип условных предложений",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_first_conditional"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about imaginary situations. Notice the verb forms.",
+      "instruction_ru": "Прочитай о воображаемых ситуациях. Обрати внимание на формы глаголов.",
+      "content": {
+        "text": "If I <highlight>won</highlight> the lottery, I <highlight>would buy</highlight> a big house. If I <highlight>had</highlight> more time, I <highlight>would travel</highlight> the world. If she <highlight>were</highlight> here, she <highlight>would help</highlight> us. What <highlight>would</highlight> you <highlight>do</highlight> if you <highlight>were</highlight> famous? If I <highlight>spoke</highlight> Chinese, I <highlight>would move</highlight> to Beijing. If they <highlight>didn't have</highlight> to work, they <highlight>would spend</highlight> all day at the beach. I <highlight>wouldn't buy</highlight> that car if I <highlight>were</highlight> you.",
+        "question": "Are these situations real or imaginary? What tense is used after 'if'?",
+        "question_ru": "Эти ситуации реальные или воображаемые? Какое время используется после 'if'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Second Conditional - Imaginary/Unlikely Situations",
+        "title_ru": "Второй тип условных - Воображаемые/Маловероятные ситуации",
+        "points": [
+          {
+            "rule": "Form: If + Past Simple, would + infinitive",
+            "rule_ru": "Форма: If + Past Simple, would + инфинитив",
+            "example": "If I had money, I would buy a car.",
+            "marker": "if + past, would + inf"
+          },
+          {
+            "rule": "Use: Imaginary, hypothetical, or unlikely situations NOW or FUTURE",
+            "rule_ru": "Использование: Воображаемые, гипотетические или маловероятные ситуации СЕЙЧАС или В БУДУЩЕМ",
+            "example": "If I were a bird, I would fly. (impossible)",
+            "marker": "imaginary"
+          },
+          {
+            "rule": "Special: If I were / If he were (formal) OR If I was (informal)",
+            "rule_ru": "Особенность: If I were / If he were (формально) ИЛИ If I was (неформально)",
+            "example": "If I were you, I would study harder.",
+            "marker": "were for all"
+          },
+          {
+            "rule": "Would can be replaced: could (ability), might (possibility)",
+            "rule_ru": "Would можно заменить: could (способность), might (возможность)",
+            "example": "If I had time, I could/might help you.",
+            "marker": "could/might"
+          },
+          {
+            "rule": "Compare: First (real) vs Second (imaginary)",
+            "rule_ru": "Сравни: Первый (реальный) vs Второй (воображаемый)",
+            "example": "If it rains, I will stay home. (possible) vs If it rained, I would stay home. (unlikely)",
+            "marker": "real vs imaginary"
+          }
+        ],
+        "comparison_table": [
+          {"form": "Positive", "if_clause": "If + Past Simple", "main_clause": "would + infinitive", "example": "If I knew, I would tell you."},
+          {"form": "Negative", "if_clause": "If + didn't + infinitive", "main_clause": "wouldn't + infinitive", "example": "If I didn't work, I wouldn't have money."},
+          {"form": "Question", "if_clause": "If + Past Simple", "main_clause": "would + subject + infinitive?", "example": "What would you do if you won?"},
+          {"form": "With were", "if_clause": "If I/he/she were...", "main_clause": "would + infinitive", "example": "If I were rich, I would retire."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all conditionals. Are they real (1st) or imaginary (2nd)?",
+      "instruction_ru": "Найди все условные предложения. Они реальные (1-й тип) или воображаемые (2-й тип)?",
+      "tasks": [
+        {
+          "text": "Life is all about choices. If I were younger, I would learn more languages. But I'm not young anymore. If I won the lottery, I would quit my job. But I probably won't win! If I had a million dollars, I would help my family first. My friend says, 'If you don't try, you will never know.' That's true. If I were braver, I would start my own business. What would you do if you could do anything? If I didn't have responsibilities, I might travel for a year. But if I leave my job, I will lose my income. It's complicated!",
+          "find": [
+            {"sentence": "If I were younger, I would learn", "type": "2nd", "reason": "impossible now"},
+            {"sentence": "If I won the lottery, I would quit", "type": "2nd", "reason": "unlikely"},
+            {"sentence": "If I had a million dollars, I would help", "type": "2nd", "reason": "imaginary"},
+            {"sentence": "If you don't try, you will never know", "type": "1st", "reason": "real possibility"},
+            {"sentence": "If I were braver, I would start", "type": "2nd", "reason": "contrary to fact"},
+            {"sentence": "What would you do if you could do anything", "type": "2nd", "reason": "hypothetical"},
+            {"sentence": "If I didn't have responsibilities, I might travel", "type": "2nd", "reason": "contrary to fact"},
+            {"sentence": "if I leave my job, I will lose", "type": "1st", "reason": "real consequence"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we use past tense for imaginary present/future situations?",
+      "reflection_question_ru": "Почему мы используем прошедшее время для воображаемых настоящих/будущих ситуаций?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the Second Conditional sentences.",
+          "sentences": [
+            {"sentence": "If I ___ (be) you, I ___ (accept) the offer.", "answer": "were, would accept"},
+            {"sentence": "If she ___ (have) more money, she ___ (travel) more.", "answer": "had, would travel"},
+            {"sentence": "What ___ you ___ (do) if you ___ (win) a million dollars?", "answer": "would, do, won"},
+            {"sentence": "If he ___ (speak) Spanish, he ___ (get) that job.", "answer": "spoke, would get"},
+            {"sentence": "I ___ (buy) that house if I ___ (can) afford it.", "answer": "would buy, could"},
+            {"sentence": "If they ___ (not/live) so far, we ___ (visit) them more.", "answer": "didn't live, would visit"},
+            {"sentence": "She ___ (be) happier if she ___ (have) a better job.", "answer": "would be, had"},
+            {"sentence": "If I ___ (know) the answer, I ___ (tell) you.", "answer": "knew, would tell"},
+            {"sentence": "We ___ (go) to the beach if the weather ___ (be) better.", "answer": "would go, were/was"},
+            {"sentence": "If you ___ (can) live anywhere, where ___ you ___ (choose)?", "answer": "could, would, choose"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose First or Second Conditional.",
+          "questions": [
+            {
+              "sentence": "If I ___ rich, I would buy a yacht. (imaginary - I'm not rich)",
+              "options": ["am", "was/were", "will be"],
+              "correct": 1,
+              "explanation": "Imaginary present = Second Conditional"
+            },
+            {
+              "sentence": "If it rains tomorrow, I ___ stay home. (real possibility)",
+              "options": ["would", "will", "stayed"],
+              "correct": 1,
+              "explanation": "Real future possibility = First Conditional"
+            },
+            {
+              "sentence": "If I ___ the president, I would change many laws. (impossible)",
+              "options": ["am", "were", "will be"],
+              "correct": 1,
+              "explanation": "Impossible situation = Second Conditional"
+            },
+            {
+              "sentence": "What would you do if you ___ a ghost?",
+              "options": ["see", "saw", "will see"],
+              "correct": 1,
+              "explanation": "Hypothetical = Second Conditional (if + past)"
+            },
+            {
+              "sentence": "If she studies hard, she ___ pass. (likely)",
+              "options": ["will", "would", "passed"],
+              "correct": 0,
+              "explanation": "Likely outcome = First Conditional"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "If I would have more time, I would help.",
+              "correct": "If I had more time, I would help.",
+              "explanation": "If-clause uses Past Simple, not would"
+            },
+            {
+              "incorrect": "If I was you, I would accepted the job.",
+              "correct": "If I were you, I would accept the job.",
+              "explanation": "Were (formal) + would + infinitive (no -ed)"
+            },
+            {
+              "incorrect": "If she will win, she would be happy.",
+              "correct": "If she won, she would be happy.",
+              "explanation": "Second Conditional: if + past, would + infinitive"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about imaginary situations using Second Conditional.",
+      "instruction_ru": "Напиши о воображаемых ситуациях, используя Second Conditional.",
+      "prompts": [
+        "What would you do if you won the lottery?",
+        "If you could have any superpower, what would it be?",
+        "If you could live in any country, where would you live?",
+        "What advice would you give if you were the president?"
+      ],
+      "example": "If I won the lottery, I would completely change my life! First, I would buy a beautiful house by the sea. If I had that much money, I could help all my family members. I would give my parents a big gift. If I were richer, I might quit my job and travel the world. I would visit at least 50 countries. If I could speak every language, I would talk to everyone I met. But honestly, if I were suddenly rich, I think I would also be a bit scared!",
+      "ai_check": true,
+      "criteria": [
+        "Uses if + past simple, would + infinitive",
+        "Talks about imaginary/unlikely situations",
+        "May include could/might for variety",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with Second Conditional.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Dream Life",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "If I could design my perfect life, it would be very different. If I were rich, I wouldn't work in an office. I would spend my days traveling. If I had a private jet, I would visit a new country every week. If I spoke ten languages, I could talk to anyone. If I didn't need to sleep, I would have more time for adventures. What would you do if you could live your dream life?"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Superpowers",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "My friends and I were discussing superpowers. If I could fly, I would never take the bus again! My friend said if she were invisible, she would sneak into concerts. If we could read minds, would we want to? I'm not sure! If I had super strength, I could help people in emergencies. If time travel were possible, I would visit the dinosaurs. What would you choose if you could have any power?"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Career Advice",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "If I were you, I would think carefully about this job offer. If you took it, you would have to move to another city. If your family stayed here, you would miss them. But if you turned it down, you might regret it later. If I had the same opportunity, I would probably accept it. If you didn't try, you would always wonder 'what if.' What would you do if you were in my position?"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Environmental Dreams",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "If everyone cared about the environment, the world would be so different. If we didn't use plastic, the oceans would be cleaner. If people drove less, there would be less pollution. If I were a world leader, I would invest in solar energy. If companies weren't so greedy, they would protect nature more. If we all planted one tree, we could make a difference. What would you change if you could?"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Time Machine",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "If I had a time machine, where would I go? If I traveled to the past, I would meet my grandparents when they were young. If I went to the future, I could see my grandchildren. But would I change anything? If I changed the past, the present might be different. If I knew the future, life wouldn't be exciting. If you could visit any time period, which would you choose? I think I would go to ancient Rome!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "If I ___ (have) time, I would help.",
+          "back": "had\n\nif + past simple"
+        },
+        {
+          "type": "fill_gap",
+          "front": "If she knew, she ___ (tell) us.",
+          "back": "would tell\n\nwould + infinitive"
+        },
+        {
+          "type": "fill_gap",
+          "front": "If I ___ (be) you, I would accept.",
+          "back": "were\n\nIf I were you (advice)"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"If I would know, I would tell you.\"",
+          "back": "If I knew, I would tell you.\n\nNo 'would' in if-clause"
+        },
+        {
+          "type": "transformation",
+          "front": "1st → 2nd Conditional:\n\"If it rains, I will stay home.\"",
+          "back": "If it rained, I would stay home.\n\nif + past, would + inf"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'would' in the if-clause",
+      "Using present tense instead of past",
+      "Using 'was' instead of 'were' with I/he/she (formal)",
+      "Confusing 1st and 2nd conditional"
+    ],
+    "related_topics": ["a2_first_conditional", "b1_wish_present"],
+    "ielts_relevance": "Very high - common in Speaking Part 3",
+    "frequency_in_english": "Very high"
+  }
+}

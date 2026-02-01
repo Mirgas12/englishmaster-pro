@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_02",
+  "level": "A2",
+  "title": "Learning to Cook",
+  "title_ru": "Учусь готовить",
+  "word_count": 152,
+  "topic": "cooking",
+  "text": "I'm learning to cook. Last Saturday, my grandmother taught me how to make pasta. First, we went to the supermarket to buy ingredients. We needed pasta, tomatoes, onions, garlic, and some cheese. At home, grandma showed me how to cut the vegetables safely. She said I should always be careful with knives. Then we made the sauce. We fried the onions and garlic in olive oil. After that, we added the tomatoes and some salt. The sauce cooked for twenty minutes. While we waited, we boiled the pasta in a big pot of water. Finally, we mixed everything together and added cheese on top. The pasta tasted delicious! Grandma was proud of me. Now I cook pasta for my family every week. Next time, grandma will teach me how to make pizza. I can't wait!",
+  "questions": [
+    {"type": "multiple_choice", "question": "Who taught the writer to cook?", "options": ["mother", "grandmother", "father"], "correct": 1},
+    {"type": "multiple_choice", "question": "How long did the sauce cook?", "options": ["10 minutes", "20 minutes", "30 minutes"], "correct": 1},
+    {"type": "true_false", "question": "They used butter to fry the vegetables.", "correct": false},
+    {"type": "true_false", "question": "The writer now cooks pasta every week.", "correct": true},
+    {"type": "fill_gap", "question": "Next time, grandma will teach how to make ___.", "answer": "pizza"}
+  ],
+  "vocabulary": ["ingredients", "sauce", "fry", "boil", "delicious"],
+  "grammar_focus": ["past_simple", "sequencing_words"]
+}

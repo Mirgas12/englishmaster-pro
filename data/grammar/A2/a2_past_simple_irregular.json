@@ -1,0 +1,288 @@
+{
+  "id": "a2_past_simple_irregular",
+  "level": "A2",
+  "title": "Past Simple (Irregular Verbs)",
+  "title_ru": "Past Simple (Неправильные глаголы)",
+  "estimatedMinutes": 40,
+  "prerequisites": ["a2_past_simple_regular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about a trip. Notice these Past Simple verbs - they don't end in -ed!",
+      "instruction_ru": "Прочитай о поездке. Обрати внимание на эти глаголы в Past Simple - они НЕ заканчиваются на -ed!",
+      "content": {
+        "text": "Last summer, I <highlight>went</highlight> to Paris. I <highlight>took</highlight> the train from London. The journey <highlight>took</highlight> only two hours! I <highlight>saw</highlight> the Eiffel Tower on my first day. I <highlight>ate</highlight> croissants every morning. I <highlight>drank</highlight> so much coffee! I <highlight>bought</highlight> many souvenirs. I <highlight>met</highlight> interesting people. I <highlight>spoke</highlight> some French. I <highlight>had</highlight> an amazing time. I <highlight>came</highlight> back after one week.",
+        "question": "These verbs are 'irregular'. Why do we call them that?",
+        "question_ru": "Эти глаголы 'неправильные'. Почему мы их так называем?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Irregular Verbs - No pattern, must memorize!",
+        "title_ru": "Неправильные глаголы - Нет шаблона, нужно запоминать!",
+        "points": [
+          {
+            "rule": "Irregular verbs change form completely",
+            "rule_ru": "Неправильные глаголы полностью меняют форму",
+            "example": "go → went, see → saw, eat → ate, take → took",
+            "marker": "no -ed"
+          },
+          {
+            "rule": "Some verbs don't change at all",
+            "rule_ru": "Некоторые глаголы не меняются",
+            "example": "put → put, cut → cut, let → let, hit → hit",
+            "marker": "same form"
+          },
+          {
+            "rule": "Negative and questions: still use base form",
+            "rule_ru": "Отрицание и вопросы: всё равно базовая форма",
+            "example": "I didn't go. Did you see?",
+            "marker": "didn't/Did + base"
+          }
+        ],
+        "comparison_table": [
+          {"base": "go", "past": "went", "category": "completely different"},
+          {"base": "see", "past": "saw", "category": "vowel change"},
+          {"base": "take", "past": "took", "category": "vowel change"},
+          {"base": "eat", "past": "ate", "category": "vowel change"},
+          {"base": "buy", "past": "bought", "category": "-ought pattern"},
+          {"base": "think", "past": "thought", "category": "-ought pattern"},
+          {"base": "have", "past": "had", "category": "completely different"},
+          {"base": "make", "past": "made", "category": "similar"},
+          {"base": "come", "past": "came", "category": "vowel change"},
+          {"base": "put", "past": "put", "category": "no change"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all irregular verbs. Write the base form for each.",
+      "instruction_ru": "Найди все неправильные глаголы. Напиши базовую форму для каждого.",
+      "tasks": [
+        {
+          "text": "Yesterday was strange. I woke up late because I forgot to set my alarm. I got dressed quickly and ran to work. I caught the bus just in time. When I got to the office, I found a note on my desk. My boss wrote that I had a meeting at 10. I went to the meeting room and sat down. The meeting began and we spoke about the new project. I took notes. I felt tired but I stayed focused. We made important decisions.",
+          "find": [
+            {"past": "woke up", "base": "wake up"},
+            {"past": "forgot", "base": "forget"},
+            {"past": "got", "base": "get"},
+            {"past": "ran", "base": "run"},
+            {"past": "caught", "base": "catch"},
+            {"past": "got", "base": "get"},
+            {"past": "found", "base": "find"},
+            {"past": "wrote", "base": "write"},
+            {"past": "had", "base": "have"},
+            {"past": "went", "base": "go"},
+            {"past": "sat", "base": "sit"},
+            {"past": "began", "base": "begin"},
+            {"past": "spoke", "base": "speak"},
+            {"past": "took", "base": "take"},
+            {"past": "felt", "base": "feel"},
+            {"past": "made", "base": "make"}
+          ]
+        }
+      ],
+      "reflection_question": "How can you remember these irregular forms?",
+      "reflection_question_ru": "Как запомнить эти неправильные формы?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct Past Simple form.",
+          "sentences": [
+            {"sentence": "I ___ (go) to the cinema last night.", "answer": "went"},
+            {"sentence": "She ___ (buy) a new dress.", "answer": "bought"},
+            {"sentence": "We ___ (eat) dinner at 7.", "answer": "ate"},
+            {"sentence": "He ___ (see) his friend yesterday.", "answer": "saw"},
+            {"sentence": "They ___ (take) a taxi home.", "answer": "took"},
+            {"sentence": "I ___ (not/have) time.", "answer": "didn't have"},
+            {"sentence": "___ you ___ (speak) to him?", "answer": "Did, speak"},
+            {"sentence": "She ___ (make) a cake.", "answer": "made"},
+            {"sentence": "He ___ (write) an email.", "answer": "wrote"},
+            {"sentence": "We ___ (come) home late.", "answer": "came"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct past form.",
+          "questions": [
+            {
+              "sentence": "I ___ a great movie last night.",
+              "options": ["see", "saw", "seed"],
+              "correct": 1,
+              "explanation": "see → saw (irregular)"
+            },
+            {
+              "sentence": "She ___ her keys at home.",
+              "options": ["left", "leaved", "leave"],
+              "correct": 0,
+              "explanation": "leave → left (irregular)"
+            },
+            {
+              "sentence": "We ___ sushi for dinner.",
+              "options": ["eated", "eat", "ate"],
+              "correct": 2,
+              "explanation": "eat → ate (irregular)"
+            },
+            {
+              "sentence": "He ___ to Paris last summer.",
+              "options": ["goed", "went", "go"],
+              "correct": 1,
+              "explanation": "go → went (irregular)"
+            },
+            {
+              "sentence": "They ___ English in school.",
+              "options": ["teached", "taught", "teach"],
+              "correct": 1,
+              "explanation": "teach → taught (irregular)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I goed to the store.",
+              "correct": "I went to the store.",
+              "explanation": "go → went (irregular)"
+            },
+            {
+              "incorrect": "She taked many photos.",
+              "correct": "She took many photos.",
+              "explanation": "take → took (irregular)"
+            },
+            {
+              "incorrect": "We didn't went to the party.",
+              "correct": "We didn't go to the party.",
+              "explanation": "didn't + base form (go, not went)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about a trip or special day using irregular verbs.",
+      "instruction_ru": "Напиши о поездке или особом дне, используя неправильные глаголы.",
+      "prompts": [
+        "Where did you go?",
+        "What did you see?",
+        "What did you eat and drink?",
+        "Who did you meet?",
+        "What did you buy?"
+      ],
+      "example": "Last year, I went to Italy. I took the plane from Moscow. I saw the Colosseum in Rome. I ate pizza and pasta every day. I drank Italian coffee. I met many friendly people. I bought souvenirs for my family. I came back after two weeks. I had an amazing trip!",
+      "ai_check": true,
+      "criteria": [
+        "Uses at least 8 irregular verbs",
+        "Correct past forms",
+        "Uses time markers",
+        "At least 7 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many irregular Past Simple verbs.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "A Strange Dream",
+          "level": "A2",
+          "word_count": 85,
+          "target_structures": 14,
+          "content": "Last night I had a strange dream. I was in a forest. I saw a big castle. I went inside and found a room full of gold. I took some coins and put them in my pocket. A dragon came! I ran away. It flew after me. I fell down but got up quickly. I found a door and went through it. I woke up suddenly. What a dream!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "The Lost Phone",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 12,
+          "content": "Yesterday I lost my phone. I thought I left it at home. I went back but it wasn't there. I felt terrible. I drove to the cafe where I had coffee. I spoke to the waiter. He said someone found a phone! He brought it to me. I was so happy! I gave him a tip. What a relief!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Childhood Memory",
+          "level": "A2",
+          "word_count": 85,
+          "target_structures": 13,
+          "content": "When I was young, my grandmother told me stories. She sat in her old chair and I sat on the floor. She spoke about her life. She came from a small village. She met my grandfather at a dance. They fell in love. They got married young. She made the best cookies! I ate them while she told her stories. I never forgot those moments."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "The Big Match",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 12,
+          "content": "Last week our team won the championship. We went to the stadium early. We sat in the front row. The match began at 7. Our team ran fast and fought hard. They caught every ball. The other team lost hope. In the end, we won 3-0! We stood up and sang. We took photos with the players. What a day!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Learning to Cook",
+          "level": "A2",
+          "word_count": 85,
+          "target_structures": 13,
+          "content": "Last month I took cooking classes. I chose a course on Italian food. The teacher taught us to make pasta. I cut vegetables and put them in a pot. I made sauce from fresh tomatoes. I thought it was difficult at first. But I got better each week. I brought food home and my family ate it. They said it was delicious! I felt so proud."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "go → ___",
+          "back": "went\n\ngo → went"
+        },
+        {
+          "type": "fill_gap",
+          "front": "see → ___",
+          "back": "saw\n\nsee → saw"
+        },
+        {
+          "type": "fill_gap",
+          "front": "take → ___",
+          "back": "took\n\ntake → took"
+        },
+        {
+          "type": "fill_gap",
+          "front": "buy → ___",
+          "back": "bought\n\nbuy → bought"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I didn't went home.\"",
+          "back": "I didn't go home.\n\ndidn't + base form"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Adding -ed to irregular verbs (goed, taked)",
+      "Using past form after didn't (didn't went)",
+      "Confusing similar verbs (thought vs taught)",
+      "Not knowing common irregular forms"
+    ],
+    "related_topics": ["a2_past_simple_regular", "a2_past_continuous"],
+    "ielts_relevance": "Very high - essential for all sections",
+    "frequency_in_english": "Very high - most common verbs are irregular"
+  }
+}

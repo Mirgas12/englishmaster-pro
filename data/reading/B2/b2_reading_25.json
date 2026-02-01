@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_25",
+  "level": "B2",
+  "title": "Democracy in the Digital Age",
+  "title_ru": "Демократия в цифровую эпоху",
+  "word_count": 305,
+  "topic": "politics",
+  "text": "Digital technology was initially celebrated as a democratizing force, giving citizens new tools to access information, organize collectively, and hold power accountable. Reality has proven more complex, with technology both empowering democratic participation and enabling new threats to democratic governance.\n\nOn the positive side, the internet has democratized information access. Citizens can research issues, access government documents, and find diverse perspectives that were previously unavailable. Social media enables rapid organization of protests and movements, as seen in various political upheavals worldwide.\n\nHowever, the same platforms that enable citizen voices also enable manipulation. Sophisticated disinformation campaigns, sometimes backed by foreign governments, spread false information at scale. Microtargeting allows political advertisers to deliver different messages to different audiences, undermining shared political discourse. Deepfakes raise concerns about the ability to trust even video evidence.\n\nPolarization has intensified as algorithmic curation creates filter bubbles where users encounter primarily views they already hold. Civil discourse becomes harder when citizens lack shared facts. The emotional dynamics of social media reward outrage over nuance.\n\nSurveillance capabilities have expanded dramatically. Governments can track citizens' movements, communications, and associations with unprecedented precision. While sometimes used for legitimate security purposes, these capabilities also enable authoritarianism. Democratic dissent becomes dangerous when states can identify and target activists.\n\nElection security faces new challenges. Voting systems vulnerable to hacking, voter database breaches, and foreign interference have all materialized as real threats. Maintaining electoral integrity requires continuous vigilance and investment.\n\nAddressing these challenges requires action from platforms, governments, and citizens. Transparency about political advertising, algorithmic accountability, media literacy education, and robust election security measures all contribute to protecting democratic processes.\n\nTechnology isn't inherently democratic or authoritarian – it's a tool whose effects depend on how societies choose to govern it. The digital age requires renewing democracy for new circumstances.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What allows different messages to different audiences?", "options": ["Traditional media", "Microtargeting", "Public broadcasts"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do filter bubbles create?", "options": ["Shared facts", "Exposure to opposing views", "Echo chambers"], "correct": 2},
+    {"type": "true_false", "question": "Digital technology has only positive effects on democracy.", "correct": false},
+    {"type": "true_false", "question": "Surveillance capabilities have increased with technology.", "correct": true},
+    {"type": "fill_gap", "question": "Social media rewards ___ over nuance.", "answer": "outrage"}
+  ],
+  "vocabulary": ["disinformation", "microtargeting", "polarization", "filter bubble", "algorithmic"],
+  "grammar_focus": ["present_perfect", "passive_voice"]
+}

@@ -1,0 +1,282 @@
+{
+  "id": "b2_subjunctive",
+  "level": "B2",
+  "title": "Subjunctive Mood",
+  "title_ru": "Сослагательное наклонение",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_second_conditional", "b1_wish_present"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this formal proposal. Notice the unusual verb forms.",
+      "instruction_ru": "Прочитай это официальное предложение. Обрати внимание на необычные формы глаголов.",
+      "content": {
+        "text": "The committee <highlight>recommends that</highlight> the policy <highlight>be</highlight> changed immediately. We <highlight>suggest that</highlight> the manager <highlight>review</highlight> the proposal. It is <highlight>essential that</highlight> everyone <highlight>be</highlight> present at the meeting. The law <highlight>requires that</highlight> all employees <highlight>receive</highlight> training. We <highlight>demand that</highlight> the company <highlight>take</highlight> responsibility. It is <highlight>vital that</highlight> action <highlight>be taken</highlight> now. <highlight>If need be</highlight>, we will escalate the matter. <highlight>Be that as it may</highlight>, our position remains unchanged.",
+        "question": "What's unusual about the verb forms after 'recommend', 'suggest', 'essential'?",
+        "question_ru": "Что необычного в формах глаголов после 'recommend', 'suggest', 'essential'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "The Subjunctive Mood in English",
+        "title_ru": "Сослагательное наклонение в английском",
+        "points": [
+          {
+            "rule": "After verbs of suggestion/demand: recommend/suggest/insist/demand + that + base form",
+            "rule_ru": "После глаголов предложения/требования: recommend/suggest/insist/demand + that + базовая форма",
+            "example": "I suggest that he leave now. They demand that she be present.",
+            "marker": "verbs of demand"
+          },
+          {
+            "rule": "After adjectives of importance: It is essential/vital/important + that + base form",
+            "rule_ru": "После прилагательных важности: It is essential/vital/important + that + базовая форма",
+            "example": "It is essential that he be here. It is important that she understand.",
+            "marker": "adjectives of importance"
+          },
+          {
+            "rule": "Base form used for all subjects (no -s, no am/is/was)",
+            "rule_ru": "Базовая форма для всех подлежащих (без -s, без am/is/was)",
+            "example": "I suggest he go (NOT goes). It is vital she be (NOT is) present.",
+            "marker": "base form all subjects"
+          },
+          {
+            "rule": "Negative: that + subject + not + base form",
+            "rule_ru": "Отрицание: that + подлежащее + not + базовая форма",
+            "example": "They demanded that he not leave. It is essential that this not happen.",
+            "marker": "negative"
+          },
+          {
+            "rule": "Fixed expressions: If need be, Be that as it may, God bless you, Long live the King",
+            "rule_ru": "Устойчивые выражения: If need be, Be that as it may, God bless you, Long live the King",
+            "example": "If need be, we'll start over. Be that as it may, we must continue.",
+            "marker": "fixed expressions"
+          }
+        ],
+        "comparison_table": [
+          {"verb/adjective": "recommend", "structure": "recommend that + S + base form", "example": "I recommend that she apply."},
+          {"verb/adjective": "suggest", "structure": "suggest that + S + base form", "example": "He suggests that we leave."},
+          {"verb/adjective": "insist", "structure": "insist that + S + base form", "example": "She insists that he come."},
+          {"verb/adjective": "demand", "structure": "demand that + S + base form", "example": "They demand that it be done."},
+          {"verb/adjective": "essential", "structure": "It is essential that + S + base form", "example": "It is essential that you be there."},
+          {"verb/adjective": "important", "structure": "It is important that + S + base form", "example": "It is important that she understand."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the subjunctive forms. What triggers them?",
+      "instruction_ru": "Определи формы сослагательного наклонения. Что их вызывает?",
+      "tasks": [
+        {
+          "text": "Company policy document:\n\n1. Management recommends that all employees attend the training.\n2. It is essential that everyone be familiar with safety procedures.\n3. The policy requires that each worker receive a manual.\n4. We suggest that supervisors monitor progress closely.\n5. It is vital that no one ignore these guidelines.\n6. The board insists that the CEO report monthly.\n7. It is important that the company maintain high standards.\n8. We demand that this information not be shared externally.\n9. If need be, disciplinary action will be taken.\n10. Be that as it may, compliance is mandatory.",
+          "find": [
+            {"sentence": 1, "trigger": "recommends that", "subjunctive": "attend (base form)"},
+            {"sentence": 2, "trigger": "essential that", "subjunctive": "be (not 'is')"},
+            {"sentence": 3, "trigger": "requires that", "subjunctive": "receive (base form)"},
+            {"sentence": 4, "trigger": "suggest that", "subjunctive": "monitor (base form)"},
+            {"sentence": 5, "trigger": "vital that", "subjunctive": "ignore (base form)"},
+            {"sentence": 6, "trigger": "insists that", "subjunctive": "report (base form)"},
+            {"sentence": 7, "trigger": "important that", "subjunctive": "maintain (base form)"},
+            {"sentence": 8, "trigger": "demand that + not", "subjunctive": "not be shared"},
+            {"sentence": 9, "trigger": "fixed expression", "subjunctive": "If need be"},
+            {"sentence": 10, "trigger": "fixed expression", "subjunctive": "Be that as it may"}
+          ]
+        }
+      ],
+      "reflection_question": "Why don't we say 'I suggest that he goes' in formal English?",
+      "reflection_question_ru": "Почему в формальном английском мы не говорим 'I suggest that he goes'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct subjunctive form.",
+          "sentences": [
+            {"sentence": "The doctor recommends that she ___ (take) this medicine.", "answer": "take"},
+            {"sentence": "It is essential that he ___ (be) on time.", "answer": "be"},
+            {"sentence": "I suggest that the meeting ___ (be) postponed.", "answer": "be"},
+            {"sentence": "The law requires that every citizen ___ (pay) taxes.", "answer": "pay"},
+            {"sentence": "It is vital that the report ___ (not/contain) errors.", "answer": "not contain"},
+            {"sentence": "They insist that she ___ (attend) the conference.", "answer": "attend"},
+            {"sentence": "It is important that this information ___ (remain) confidential.", "answer": "remain"},
+            {"sentence": "We demand that the company ___ (not/ignore) our concerns.", "answer": "not ignore"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I suggest that he ___ the manager.",
+              "options": ["calls", "call", "called"],
+              "correct": 1,
+              "explanation": "Subjunctive after 'suggest' = base form"
+            },
+            {
+              "sentence": "It is essential that she ___ here by noon.",
+              "options": ["is", "be", "being"],
+              "correct": 1,
+              "explanation": "Subjunctive after 'essential' = base form (be)"
+            },
+            {
+              "sentence": "The committee demands that the proposal ___ rejected.",
+              "options": ["is not", "not be", "will not be"],
+              "correct": 1,
+              "explanation": "Negative subjunctive = not + base form"
+            },
+            {
+              "sentence": "We recommend that each student ___ the guidelines.",
+              "options": ["reads", "read", "reading"],
+              "correct": 1,
+              "explanation": "Subjunctive = base form (no -s)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I suggest that she goes to the doctor.",
+              "correct": "I suggest that she go to the doctor.",
+              "explanation": "Subjunctive = base form (go), not third person -s"
+            },
+            {
+              "incorrect": "It is important that he is present.",
+              "correct": "It is important that he be present.",
+              "explanation": "Subjunctive = be, not is"
+            },
+            {
+              "incorrect": "They demand that it doesn't happen again.",
+              "correct": "They demand that it not happen again.",
+              "explanation": "Negative subjunctive = not + base form (no 'doesn't')"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 16,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a formal proposal or recommendation using subjunctive forms.",
+      "instruction_ru": "Напиши официальное предложение или рекомендацию, используя формы сослагательного наклонения.",
+      "prompts": [
+        "Write recommendations for improving your workplace",
+        "Write a proposal for a new school policy",
+        "Make suggestions for solving an environmental problem",
+        "Write a formal complaint with demands"
+      ],
+      "example": "To the Board of Directors,\n\nI am writing with recommendations for improving workplace efficiency. First, I suggest that management implement flexible working hours. It is essential that employees have a better work-life balance. I recommend that the company provide additional training opportunities. Furthermore, it is vital that communication between departments be improved. I propose that regular team meetings be scheduled. It is important that all staff receive equal access to resources. Should any issues arise, I request that they be addressed promptly. If need be, I am available to discuss these matters further.\n\nSincerely,\n[Name]",
+      "ai_check": true,
+      "criteria": [
+        "Uses subjunctive after suggest/recommend/demand",
+        "Uses subjunctive after essential/vital/important",
+        "Uses base form for all subjects (no -s)",
+        "Correct negative subjunctive (not + base form)",
+        "At least 5 subjunctive constructions"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with subjunctive mood.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Medical Guidelines",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The health authority recommends that every patient receive a full examination. It is essential that doctors be thorough in their assessments. We suggest that patients not eat before blood tests. It is vital that all symptoms be reported. The guidelines require that hospitals maintain strict hygiene. We insist that staff follow these protocols. It is important that no corners be cut. If need be, additional tests should be ordered."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Legal Document",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The court orders that the defendant appear next Monday. It is required that all evidence be submitted in advance. We demand that the truth be told. The law requires that witnesses not leave the jurisdiction. It is essential that legal procedures be followed. The judge insists that proper decorum be maintained. We recommend that both parties seek legal counsel. It is vital that justice be served. Be that as it may, the hearing will proceed."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Educational Policy",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "The committee suggests that curriculum changes be implemented gradually. It is important that students receive adequate support. We recommend that teachers undergo additional training. It is essential that standards not be lowered. The board demands that resources be allocated fairly. We propose that testing schedules be revised. It is vital that every child have equal opportunities. If need be, extra funding should be sought. Parents insist that their concerns be heard."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Environmental Report",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Scientists recommend that governments take immediate action on climate change. It is essential that emissions be reduced drastically. We suggest that renewable energy investment be increased. It is vital that forests not be destroyed. Experts demand that polluters be held accountable. We propose that new regulations be introduced. It is important that future generations inherit a healthy planet. The report insists that action not be delayed. Be that as it may, progress remains slow."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Company Memo",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Management recommends that all departments review their budgets. It is essential that spending be reduced by 10%. We suggest that unnecessary travel be eliminated. The board demands that efficiency be improved. It is vital that customer service not suffer. We insist that quality standards be maintained. It is important that all staff be informed of changes. Should problems arise, we request that they be reported immediately. If need be, additional measures will be taken."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I recommend that she ___ (be) more careful.",
+          "back": "be\n\nSubjunctive = base form"
+        },
+        {
+          "type": "fill_gap",
+          "front": "It is essential that he ___ (attend) the meeting.",
+          "back": "attend\n\nNo -s in subjunctive"
+        },
+        {
+          "type": "fill_gap",
+          "front": "We demand that it ___ (not/happen) again.",
+          "back": "not happen\n\nNegative = not + base form"
+        },
+        {
+          "type": "error_correction",
+          "front": "I suggest that he goes home.",
+          "back": "I suggest that he go home.\n\nBase form, no -s"
+        },
+        {
+          "type": "error_correction",
+          "front": "It is vital that she is present.",
+          "back": "It is vital that she be present.\n\nbe, not is"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using third person -s (suggests he goes)",
+      "Using is/are instead of be",
+      "Using doesn't instead of not",
+      "Forgetting subjunctive in negative sentences"
+    ],
+    "related_topics": ["b1_second_conditional", "b1_wish_present"],
+    "ielts_relevance": "High - Academic Writing",
+    "frequency_in_english": "Medium - formal/academic English"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_01",
+  "level": "A2",
+  "title": "A Trip to the Beach",
+  "title_ru": "Поездка на пляж",
+  "word_count": 145,
+  "topic": "travel",
+  "text": "Last weekend, my family went to the beach. We left home early in the morning because we didn't want to be stuck in traffic. The drive took about two hours. When we arrived, the beach was almost empty. The weather was perfect - sunny and warm, but not too hot. I helped my dad put up the umbrella while my mum spread out the towels. My little brother immediately ran to the water. I built a sandcastle with my sister. It was huge! After swimming, we had a picnic. Mum made sandwiches and brought some fruit. In the afternoon, we played beach volleyball with another family. They were very friendly. We stayed until sunset. The sky turned orange and pink - it was beautiful. On the way home, everyone fell asleep in the car except dad. It was a perfect day!",
+  "questions": [
+    {"type": "multiple_choice", "question": "Why did they leave early?", "options": ["To see the sunrise", "To avoid traffic", "The beach opened early"], "correct": 1},
+    {"type": "multiple_choice", "question": "How long was the drive?", "options": ["One hour", "Two hours", "Three hours"], "correct": 1},
+    {"type": "true_false", "question": "The beach was crowded when they arrived.", "correct": false},
+    {"type": "true_false", "question": "They played beach volleyball with another family.", "correct": true},
+    {"type": "fill_gap", "question": "The sky turned orange and ___ at sunset.", "answer": "pink"}
+  ],
+  "vocabulary": ["beach", "traffic", "umbrella", "sandcastle", "sunset"],
+  "grammar_focus": ["past_simple", "time_expressions"]
+}

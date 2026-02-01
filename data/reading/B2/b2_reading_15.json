@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_15",
+  "level": "B2",
+  "title": "Urban Planning for the Future",
+  "title_ru": "Городское планирование для будущего",
+  "word_count": 305,
+  "topic": "urban",
+  "text": "Cities are where most humans now live, and their share continues to grow. How we plan and design urban areas has profound implications for quality of life, environmental sustainability, and economic prosperity. New approaches to urban planning are emerging in response to contemporary challenges.\n\nThe concept of the '15-minute city' has gained attention, particularly after the pandemic. The idea is that residents should be able to reach essential services – shops, schools, healthcare, parks, and workplaces – within a 15-minute walk or bike ride. This reduces car dependency, improves quality of life, and creates more resilient communities.\n\nMixed-use development, combining residential, commercial, and recreational spaces, is replacing the rigid zoning that characterized 20th-century planning. When people can live, work, and shop in the same area, transportation needs decrease and neighborhoods become more vibrant at all hours.\n\nGreen infrastructure is increasingly integrated into urban design. Parks and green corridors provide recreation, improve air quality, and reduce urban heat island effects. Green roofs and permeable surfaces manage stormwater. Urban forests and street trees provide shade while absorbing carbon dioxide.\n\nMobility is being reconceptualized. Cities are expanding cycling infrastructure and pedestrianizing central areas. Public transportation is being improved and electrified. Some planners envision cities where private car ownership becomes unnecessary.\n\nHousing affordability presents an ongoing challenge. Many desirable cities have become unaffordable for ordinary workers, driving inequality and long commutes. Solutions being explored include social housing, inclusionary zoning, and reducing regulatory barriers to construction.\n\nResilience planning prepares cities for climate change impacts. Coastal cities must plan for rising seas and storm surges. All cities must prepare for more extreme heat. Green infrastructure helps, but engineering solutions and emergency preparedness are also essential.\n\nThe cities we build today will shape how billions of people live for generations. Getting urban planning right has never been more important.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the 15-minute city concept?", "options": ["Cities with 15-minute commutes to anywhere", "All services within 15-minute walk or bike", "15-minute work breaks"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is mixed-use development?", "options": ["Only residential areas", "Combining residential, commercial, recreational", "Industrial zones only"], "correct": 1},
+    {"type": "true_false", "question": "Green roofs only have aesthetic purposes.", "correct": false},
+    {"type": "true_false", "question": "Housing affordability is a challenge in many cities.", "correct": true},
+    {"type": "fill_gap", "question": "Resilience planning prepares cities for climate change ___.", "answer": "impacts"}
+  ],
+  "vocabulary": ["mixed-use", "green infrastructure", "resilience", "inclusionary zoning", "pedestrianizing"],
+  "grammar_focus": ["present_continuous", "passive_voice"]
+}

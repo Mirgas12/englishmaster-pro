@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_03",
+  "level": "B1",
+  "title": "Working from Home",
+  "title_ru": "Работа из дома",
+  "media_type": "audio",
+  "duration_seconds": 80,
+  "description": "Podcast discussion about remote work",
+  "transcript": "Remote work has become increasingly common, especially after the pandemic. Many employees prefer working from home because it eliminates commuting time and offers more flexibility. You can organize your day according to your own schedule and spend more time with family. However, there are challenges. Some people find it difficult to separate work from personal life when both happen in the same space. There's also the risk of feeling isolated from colleagues. To succeed at remote work, you need discipline and good time management skills. Create a dedicated workspace, even if it's just a corner of your room. Establish clear boundaries – when work ends, close your laptop and step away. Use video calls to maintain connections with your team. Take regular breaks and get outside for fresh air. Remote work isn't for everyone, but for those who master it, it can provide an excellent work-life balance.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What became common after the pandemic?", "options": ["Office parties", "Remote work", "Business travel"], "correct": 1},
+    {"type": "multiple_choice", "question": "What's a risk of remote work?", "options": ["Too many meetings", "Feeling isolated", "Too much exercise"], "correct": 1},
+    {"type": "true_false", "question": "Working from home eliminates commuting time.", "correct": true},
+    {"type": "true_false", "question": "Remote work is perfect for everyone.", "correct": false},
+    {"type": "fill_gap", "question": "Create a ___ workspace in your home.", "answer": "dedicated"}
+  ],
+  "vocabulary": ["remote work", "flexibility", "isolated", "discipline", "boundaries"],
+  "key_phrases": ["increasingly common", "difficult to separate", "establish clear boundaries", "work-life balance"]
+}

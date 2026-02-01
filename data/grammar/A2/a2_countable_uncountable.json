@@ -1,0 +1,292 @@
+{
+  "id": "a2_countable_uncountable",
+  "level": "A2",
+  "title": "Countable and Uncountable Nouns",
+  "title_ru": "Исчисляемые и неисчисляемые существительные",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a1_articles", "a1_plurals"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about a shopping trip. Notice what we can count and what we can't.",
+      "instruction_ru": "Прочитай о походе в магазин. Обрати внимание, что можно посчитать, а что нельзя.",
+      "content": {
+        "text": "I went to the supermarket. I bought <highlight>three apples</highlight> and <highlight>two oranges</highlight>. I also got <highlight>some bread</highlight> and <highlight>some milk</highlight>. I needed <highlight>rice</highlight> for dinner. I picked up <highlight>a bottle of water</highlight> and <highlight>some cheese</highlight>. I got <highlight>five eggs</highlight> but I forgot to buy <highlight>butter</highlight>. I also bought <highlight>some coffee</highlight> and <highlight>a few biscuits</highlight>. My bag had <highlight>a lot of food</highlight> in it!",
+        "question": "Why 'three apples' but 'some bread'? Why can't we say 'three breads'?",
+        "question_ru": "Почему 'three apples', но 'some bread'? Почему нельзя сказать 'three breads'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Countable vs Uncountable Nouns",
+        "title_ru": "Исчисляемые vs неисчисляемые",
+        "points": [
+          {
+            "rule": "Countable: can have a number, can be plural",
+            "rule_ru": "Исчисляемые: можно использовать с числом, есть множественное число",
+            "example": "one apple, two apples, three books, four cars",
+            "marker": "1, 2, 3..."
+          },
+          {
+            "rule": "Uncountable: no number, no plural, no a/an",
+            "rule_ru": "Неисчисляемые: без числа, без множественного, без a/an",
+            "example": "water (NOT: a water, two waters), rice, bread, money",
+            "marker": "no number"
+          },
+          {
+            "rule": "Common uncountable: food, liquids, materials, abstract",
+            "rule_ru": "Частые неисчисляемые: еда, жидкости, материалы, абстрактные",
+            "example": "rice, bread, milk, water, money, information, advice, music",
+            "marker": "categories"
+          },
+          {
+            "rule": "Use 'some' with both, but differently",
+            "rule_ru": "Используем 'some' с обоими, но по-разному",
+            "example": "some apples (plural) / some water (no plural)",
+            "marker": "some"
+          },
+          {
+            "rule": "To count uncountable: use containers/units",
+            "rule_ru": "Чтобы посчитать неисчисляемые: используем ёмкости/единицы",
+            "example": "a bottle of water, a piece of bread, a cup of coffee",
+            "marker": "containers"
+          }
+        ],
+        "comparison_table": [
+          {"countable": "an apple", "uncountable": "rice"},
+          {"countable": "a bottle", "uncountable": "water"},
+          {"countable": "a coin", "uncountable": "money"},
+          {"countable": "a fact", "uncountable": "information"},
+          {"countable": "a suggestion", "uncountable": "advice"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify each noun as countable (C) or uncountable (U).",
+      "instruction_ru": "Определи каждое существительное как исчисляемое (C) или неисчисляемое (U).",
+      "tasks": [
+        {
+          "text": "For breakfast, I usually have some coffee and toast. Sometimes I eat eggs with cheese. I need sugar in my coffee. My sister prefers tea with milk. She also eats fruit - usually an apple or a banana. On weekends, I make pancakes. I use flour, butter, and eggs. I love cooking! It's my favorite hobby.",
+          "find": [
+            {"noun": "coffee", "type": "U", "reason": "liquid, can't count"},
+            {"noun": "toast", "type": "U", "reason": "food item, uncountable form"},
+            {"noun": "eggs", "type": "C", "reason": "can count: one egg, two eggs"},
+            {"noun": "cheese", "type": "U", "reason": "food material"},
+            {"noun": "sugar", "type": "U", "reason": "food material"},
+            {"noun": "tea", "type": "U", "reason": "liquid"},
+            {"noun": "milk", "type": "U", "reason": "liquid"},
+            {"noun": "fruit", "type": "U", "reason": "general category (or C: specific fruits)"},
+            {"noun": "apple", "type": "C", "reason": "can count: one apple"},
+            {"noun": "banana", "type": "C", "reason": "can count: one banana"},
+            {"noun": "pancakes", "type": "C", "reason": "can count: one pancake"},
+            {"noun": "flour", "type": "U", "reason": "food material"},
+            {"noun": "butter", "type": "U", "reason": "food material"},
+            {"noun": "hobby", "type": "C", "reason": "can count: one hobby"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is 'egg' countable but 'butter' uncountable?",
+      "reflection_question_ru": "Почему 'egg' исчисляемое, а 'butter' неисчисляемое?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with a/an, some, or - (nothing).",
+          "sentences": [
+            {"sentence": "I'd like ___ apple, please.", "answer": "an"},
+            {"sentence": "Can I have ___ water?", "answer": "some"},
+            {"sentence": "She eats ___ rice every day.", "answer": "-"},
+            {"sentence": "There's ___ bottle on the table.", "answer": "a"},
+            {"sentence": "I need ___ information about the train.", "answer": "some"},
+            {"sentence": "He gave me ___ good advice.", "answer": "some"},
+            {"sentence": "We bought ___ new furniture.", "answer": "some"},
+            {"sentence": "I have ___ idea!", "answer": "an"},
+            {"sentence": "They don't have ___ money.", "answer": "any"},
+            {"sentence": "I drink ___ coffee every morning.", "answer": "-"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I need ___ for the recipe.",
+              "options": ["a flour", "some flour", "flours"],
+              "correct": 1,
+              "explanation": "flour is uncountable = some flour"
+            },
+            {
+              "sentence": "She bought three ___.",
+              "options": ["bread", "breads", "loaves of bread"],
+              "correct": 2,
+              "explanation": "bread is uncountable, use 'loaves of'"
+            },
+            {
+              "sentence": "I'd like ___ milk, please.",
+              "options": ["a", "some", "two"],
+              "correct": 1,
+              "explanation": "milk is uncountable = some milk"
+            },
+            {
+              "sentence": "There isn't ___ coffee left.",
+              "options": ["a", "some", "any"],
+              "correct": 2,
+              "explanation": "Negative with uncountable = any"
+            },
+            {
+              "sentence": "Can you give me ___ ?",
+              "options": ["an advice", "some advice", "advices"],
+              "correct": 1,
+              "explanation": "advice is uncountable = some advice"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I need an information.",
+              "correct": "I need some information.",
+              "explanation": "information is uncountable (no a/an)"
+            },
+            {
+              "incorrect": "She gave me many advices.",
+              "correct": "She gave me a lot of advice.",
+              "explanation": "advice is uncountable (no plural)"
+            },
+            {
+              "incorrect": "I bought two breads.",
+              "correct": "I bought two loaves of bread.",
+              "explanation": "bread is uncountable, use a counter"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about what you eat and drink. Use countable and uncountable nouns correctly.",
+      "instruction_ru": "Напиши о том, что ты ешь и пьёшь. Правильно используй исчисляемые и неисчисляемые существительные.",
+      "prompts": [
+        "What do you have for breakfast?",
+        "What drinks do you like?",
+        "What food do you buy at the supermarket?",
+        "Use: some, a/an, a piece of, a bottle of, etc."
+      ],
+      "example": "For breakfast, I usually have some toast and a cup of coffee. I sometimes eat two eggs with some cheese. I drink a lot of water during the day. At the supermarket, I buy some rice, a loaf of bread, and a bottle of milk. I also get some fruit - usually apples and bananas.",
+      "ai_check": true,
+      "criteria": [
+        "Uses a/an with countable nouns",
+        "Uses some with uncountable nouns",
+        "No plural for uncountable nouns",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with countable and uncountable nouns.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Shopping List",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 15,
+          "content": "I need to buy some things. I need a kilo of rice and some pasta. I want two bottles of water and some milk. I'll get some bread and a few eggs. I need cheese and butter too. Oh, and some fruit - maybe three apples and a bunch of bananas. I should get some coffee as well."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "At the Restaurant",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 12,
+          "content": "Waiter: What would you like? Customer: I'd like some soup to start. Then I'll have a steak with some rice. Waiter: Any drinks? Customer: A glass of water, please. And some wine with my meal. Waiter: For dessert? Customer: Some ice cream and a cup of coffee."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Healthy Eating",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 14,
+          "content": "To be healthy, eat lots of fruit and vegetables. Have some fish twice a week. Drink plenty of water - at least eight glasses a day. Limit sugar and salt. Eat some nuts for snacks instead of biscuits. Have some rice or pasta with your meals. A little olive oil is good for you."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Making a Cake",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 13,
+          "content": "To make a cake, you need some flour and some sugar. Add two eggs and some butter. Pour in some milk. Mix everything together. Add some chocolate chips if you like. Put the mixture in a pan. Bake for 30 minutes. When ready, add some icing on top. Enjoy a slice with some tea!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Empty Fridge",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 12,
+          "content": "My fridge is almost empty! There isn't any milk. There's no bread either. I have some cheese, but not much. There are a few eggs - maybe three. There's some butter, but I need more. I have no fruit at all. I really need to go shopping. I need money too!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "choose",
+          "front": "I need ___ milk.\n(a / some)",
+          "back": "some milk\n\nmilk is uncountable"
+        },
+        {
+          "type": "choose",
+          "front": "Can I have ___ apple?\n(a / some)",
+          "back": "an apple\n\napple is countable"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I need an advice.\"",
+          "back": "I need some advice.\n\nadvice is uncountable"
+        },
+        {
+          "type": "fill_gap",
+          "front": "Two ___ of bread.",
+          "back": "loaves\n\nloaf of bread = counter"
+        },
+        {
+          "type": "choose",
+          "front": "We don't have ___ rice.\n(some / any)",
+          "back": "any rice\n\nNegative = any"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using a/an with uncountable (a water, an advice)",
+      "Making uncountable plural (informations, advices)",
+      "Wrong quantifier (much apples, many water)",
+      "Forgetting containers (two waters instead of two bottles of water)"
+    ],
+    "related_topics": ["a1_articles", "a2_some_any"],
+    "ielts_relevance": "Medium - important for accuracy",
+    "frequency_in_english": "Very high"
+  }
+}

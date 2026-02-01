@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_08",
+  "level": "B2",
+  "title": "The Nature of Creativity",
+  "title_ru": "Природа креативности",
+  "media_type": "video",
+  "duration_seconds": 110,
+  "description": "Exploration of creative processes",
+  "transcript": "What is creativity, and can it be cultivated? Research has debunked the myth that creativity is a fixed trait belonging only to artistic geniuses. In reality, creativity involves specific cognitive processes that can be developed. Creative thinking often emerges from combining existing ideas in novel ways. The most innovative solutions frequently arise at the intersection of different fields. This suggests that diverse knowledge and experiences enhance creative potential. Constraints, paradoxically, often boost creativity. Having unlimited options can be paralyzing, while working within limitations forces novel approaches. Many artists deliberately impose constraints to stimulate creativity. The creative process typically involves alternating between divergent thinking – generating many possibilities without judgment – and convergent thinking – evaluating and refining ideas. Both modes are essential, but they require different mental states. Incubation plays a crucial role. Taking breaks from a problem allows unconscious processing that often yields breakthroughs. Walking, showering, or sleeping on a problem aren't procrastination – they're part of the creative process. Organizations can foster creativity through psychological safety, allowing failure without punishment, and providing time for exploration beyond immediate demands. The question isn't whether you're creative – it's how you can create conditions for your creativity to flourish.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What often boosts creativity paradoxically?", "options": ["Unlimited resources", "Constraints", "Isolation"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does divergent thinking involve?", "options": ["Judging ideas", "Generating many possibilities", "Narrowing options"], "correct": 1},
+    {"type": "true_false", "question": "Creativity is a fixed trait only for geniuses.", "correct": false},
+    {"type": "true_false", "question": "Taking breaks can help the creative process.", "correct": true},
+    {"type": "fill_gap", "question": "Innovative solutions often arise at the ___ of different fields.", "answer": "intersection"}
+  ],
+  "vocabulary": ["cultivated", "debunked", "divergent", "convergent", "incubation"],
+  "key_phrases": ["combining existing ideas", "working within limitations", "unconscious processing", "conditions for creativity to flourish"]
+}

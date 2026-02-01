@@ -1,0 +1,80 @@
+{
+  "level": "B1",
+  "total_questions": 54,
+  "sections": [
+    {
+      "type": "grammar",
+      "questions": [
+        {"id": 1, "question": "By the time we arrived, the movie ___ already started.", "options": ["has", "had", "have", "having"], "correct": 1},
+        {"id": 2, "question": "If I ___ you, I would accept the offer.", "options": ["am", "was", "were", "be"], "correct": 2},
+        {"id": 3, "question": "She suggested ___ a break.", "options": ["to take", "taking", "take", "took"], "correct": 1},
+        {"id": 4, "question": "The report ___ by tomorrow.", "options": ["will finish", "will be finished", "is finishing", "finished"], "correct": 1},
+        {"id": 5, "question": "He denied ___ the money.", "options": ["steal", "stealing", "to steal", "stolen"], "correct": 1},
+        {"id": 6, "question": "I wish I ___ more time.", "options": ["have", "had", "has", "having"], "correct": 1},
+        {"id": 7, "question": "The man ___ car was stolen called the police.", "options": ["who", "whose", "which", "that"], "correct": 1},
+        {"id": 8, "question": "You ___ better hurry up or you'll miss the train.", "options": ["would", "should", "had", "have"], "correct": 2},
+        {"id": 9, "question": "Despite ___ hard, he failed the exam.", "options": ["study", "studied", "studying", "to study"], "correct": 2},
+        {"id": 10, "question": "She asked me if I ___ help her.", "options": ["can", "could", "may", "will"], "correct": 1},
+        {"id": 11, "question": "I've been working here ___ three years.", "options": ["since", "for", "during", "while"], "correct": 1},
+        {"id": 12, "question": "He ___ working when I called.", "options": ["still was", "was still", "yet was", "was yet"], "correct": 1},
+        {"id": 13, "question": "The more you practice, the ___ you get.", "options": ["good", "better", "best", "well"], "correct": 1},
+        {"id": 14, "question": "She must ___ forgotten about the meeting.", "options": ["has", "have", "had", "be"], "correct": 1},
+        {"id": 15, "question": "I'd rather you ___ tell anyone.", "options": ["don't", "didn't", "won't", "wouldn't"], "correct": 1},
+        {"id": 16, "question": "It's time we ___ home.", "options": ["go", "went", "going", "gone"], "correct": 1},
+        {"id": 17, "question": "He apologized ___ being late.", "options": ["to", "for", "about", "of"], "correct": 1},
+        {"id": 18, "question": "Not only did she win, ___ she broke the record.", "options": ["and", "but", "also", "yet"], "correct": 1}
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "questions": [
+        {"id": 19, "question": "To 'postpone' means to ___.", "options": ["cancel", "delay", "forget", "arrange"], "correct": 1},
+        {"id": 20, "question": "A 'deadline' is ___.", "options": ["a dangerous line", "the final date", "a death line", "a headline"], "correct": 1},
+        {"id": 21, "question": "Something 'inevitable' is something that ___.", "options": ["is possible", "will happen", "might happen", "cannot happen"], "correct": 1},
+        {"id": 22, "question": "To 'compromise' means to ___.", "options": ["agree fully", "refuse", "reach a middle ground", "argue"], "correct": 2},
+        {"id": 23, "question": "'Reliable' means ___.", "options": ["expensive", "trustworthy", "fast", "new"], "correct": 1},
+        {"id": 24, "question": "A 'drawback' is a ___.", "options": ["benefit", "disadvantage", "feature", "drawing"], "correct": 1},
+        {"id": 25, "question": "To 'resign' means to ___.", "options": ["sign again", "quit a job", "renew", "apply"], "correct": 1},
+        {"id": 26, "question": "'Approximately' means ___.", "options": ["exactly", "nearly", "definitely", "perfectly"], "correct": 1},
+        {"id": 27, "question": "Something 'controversial' causes ___.", "options": ["agreement", "happiness", "disagreement", "confusion"], "correct": 2},
+        {"id": 28, "question": "To 'enhance' means to ___.", "options": ["reduce", "improve", "destroy", "maintain"], "correct": 1},
+        {"id": 29, "question": "An 'outcome' is a ___.", "options": ["beginning", "process", "result", "problem"], "correct": 2},
+        {"id": 30, "question": "'Simultaneously' means ___.", "options": ["separately", "slowly", "at the same time", "one by one"], "correct": 2},
+        {"id": 31, "question": "To 'thrive' means to ___.", "options": ["survive", "struggle", "prosper", "fail"], "correct": 2},
+        {"id": 32, "question": "'Allegedly' means ___.", "options": ["certainly", "reportedly", "definitely", "obviously"], "correct": 1},
+        {"id": 33, "question": "A 'breakthrough' is ___.", "options": ["a failure", "an important discovery", "a breakdown", "a routine event"], "correct": 1},
+        {"id": 34, "question": "'Mandatory' means ___.", "options": ["optional", "recommended", "required", "suggested"], "correct": 2},
+        {"id": 35, "question": "To 'allocate' means to ___.", "options": ["locate", "distribute", "collect", "remove"], "correct": 1},
+        {"id": 36, "question": "'Surplus' means ___.", "options": ["shortage", "extra", "enough", "less"], "correct": 1}
+      ]
+    },
+    {
+      "type": "reading",
+      "questions": [
+        {"id": 37, "text": "The rise of remote work has transformed how many people approach their careers. While some employees appreciate the flexibility and elimination of commuting, others struggle with isolation and the blurring of work-life boundaries. Companies are now experimenting with hybrid models that combine office and remote work to capture the benefits of both approaches.", "question": "What is a disadvantage of remote work mentioned in the text?", "options": ["flexibility", "no commuting", "isolation", "hybrid models"], "correct": 2},
+        {"id": 38, "text": "The rise of remote work has transformed how many people approach their careers. While some employees appreciate the flexibility and elimination of commuting, others struggle with isolation and the blurring of work-life boundaries. Companies are now experimenting with hybrid models that combine office and remote work to capture the benefits of both approaches.", "question": "What are companies trying with hybrid models?", "options": ["full remote work", "full office work", "a combination of both", "no work"], "correct": 2},
+        {"id": 39, "text": "The rise of remote work has transformed how many people approach their careers. While some employees appreciate the flexibility and elimination of commuting, others struggle with isolation and the blurring of work-life boundaries. Companies are now experimenting with hybrid models that combine office and remote work to capture the benefits of both approaches.", "question": "What do some employees appreciate about remote work?", "options": ["more meetings", "longer hours", "flexibility", "office politics"], "correct": 2},
+        {"id": 40, "text": "Climate change is forcing cities to rethink urban planning. Rising sea levels threaten coastal areas, while extreme heat events are becoming more common in urban centers. Progressive cities are investing in green infrastructure – parks, tree-lined streets, and green roofs – to combat the 'urban heat island' effect and improve air quality.", "question": "What threatens coastal areas?", "options": ["earthquakes", "rising sea levels", "pollution", "traffic"], "correct": 1},
+        {"id": 41, "text": "Climate change is forcing cities to rethink urban planning. Rising sea levels threaten coastal areas, while extreme heat events are becoming more common in urban centers. Progressive cities are investing in green infrastructure – parks, tree-lined streets, and green roofs – to combat the 'urban heat island' effect and improve air quality.", "question": "What is 'green infrastructure'?", "options": ["new roads", "parks and trees", "factories", "power plants"], "correct": 1},
+        {"id": 42, "text": "Climate change is forcing cities to rethink urban planning. Rising sea levels threaten coastal areas, while extreme heat events are becoming more common in urban centers. Progressive cities are investing in green infrastructure – parks, tree-lined streets, and green roofs – to combat the 'urban heat island' effect and improve air quality.", "question": "What effect does green infrastructure combat?", "options": ["traffic jams", "noise pollution", "urban heat island", "crime"], "correct": 2},
+        {"id": 43, "text": "Artificial intelligence is transforming healthcare in ways that seemed like science fiction just a decade ago. Machine learning algorithms can now detect certain cancers in medical images with accuracy that rivals experienced doctors. However, experts emphasize that AI should augment rather than replace human medical professionals, who bring irreplaceable qualities like empathy and holistic patient care.", "question": "What can AI do in healthcare according to the text?", "options": ["replace doctors", "detect cancers", "perform surgery", "prescribe medicine"], "correct": 1},
+        {"id": 44, "text": "Artificial intelligence is transforming healthcare in ways that seemed like science fiction just a decade ago. Machine learning algorithms can now detect certain cancers in medical images with accuracy that rivals experienced doctors. However, experts emphasize that AI should augment rather than replace human medical professionals, who bring irreplaceable qualities like empathy and holistic patient care.", "question": "What quality do human doctors have that AI lacks?", "options": ["speed", "accuracy", "empathy", "memory"], "correct": 2},
+        {"id": 45, "text": "Artificial intelligence is transforming healthcare in ways that seemed like science fiction just a decade ago. Machine learning algorithms can now detect certain cancers in medical images with accuracy that rivals experienced doctors. However, experts emphasize that AI should augment rather than replace human medical professionals, who bring irreplaceable qualities like empathy and holistic patient care.", "question": "What do experts say about AI and doctors?", "options": ["AI should replace doctors", "AI should assist doctors", "AI is useless", "AI is dangerous"], "correct": 1}
+      ]
+    },
+    {
+      "type": "listening_simulation",
+      "questions": [
+        {"id": 46, "scenario": "Job interview: 'So, why are you interested in this position?' - 'I'm looking for new challenges and your company has an excellent reputation in the industry.'", "question": "Why is the candidate interested in the job?", "options": ["higher salary", "new challenges", "location", "shorter hours"], "correct": 1},
+        {"id": 47, "scenario": "News report: 'The government announced plans to invest 2 billion euros in renewable energy over the next five years. This is expected to create thousands of new jobs in the sector.'", "question": "How much will be invested?", "options": ["1 billion", "2 billion", "5 billion", "10 billion"], "correct": 1},
+        {"id": 48, "scenario": "At the bank: 'I'd like to open a savings account.' - 'Certainly. You'll need two forms of ID and a minimum deposit of 100 euros.'", "question": "What is the minimum deposit?", "options": ["50 euros", "100 euros", "200 euros", "500 euros"], "correct": 1},
+        {"id": 49, "scenario": "University lecture: 'The main causes of the French Revolution include economic crisis, social inequality, and Enlightenment ideas that challenged the monarchy.'", "question": "What is one cause mentioned?", "options": ["war", "economic crisis", "religion", "technology"], "correct": 1},
+        {"id": 50, "scenario": "Travel agency: 'The package includes flights, accommodation, and breakfast for seven days. The total is 1,200 euros per person.'", "question": "What is included in the package?", "options": ["flights only", "flights and accommodation", "flights, accommodation, and breakfast", "everything"], "correct": 2},
+        {"id": 51, "scenario": "Phone call: 'I'm calling to complain about my internet connection. It's been down for three days.' - 'I apologize. I'll send a technician tomorrow between 2 and 4 pm.'", "question": "What is the problem?", "options": ["no electricity", "broken phone", "internet down", "no TV"], "correct": 2},
+        {"id": 52, "scenario": "Meeting: 'We need to reduce costs by 15% without affecting product quality. Any suggestions?' - 'We could negotiate better prices with suppliers.'", "question": "What is the goal?", "options": ["increase sales", "reduce costs", "hire more staff", "expand production"], "correct": 1},
+        {"id": 53, "scenario": "Radio: 'Due to the storm, several flights have been delayed or cancelled. Passengers are advised to check with their airlines before traveling.'", "question": "Why are flights affected?", "options": ["strike", "storm", "technical problems", "security"], "correct": 1},
+        {"id": 54, "scenario": "Doctor: 'Your test results are normal. However, I recommend reducing your salt intake and exercising regularly to maintain your blood pressure.'", "question": "What does the doctor recommend?", "options": ["medication", "surgery", "reducing salt", "more tests"], "correct": 2}
+      ]
+    }
+  ]
+}

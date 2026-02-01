@@ -1,0 +1,283 @@
+{
+  "id": "c1_nominalization",
+  "level": "C1",
+  "title": "Nominalization",
+  "title_ru": "Номинализация",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_passive_advanced", "b2_discourse_markers"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the academic text. Notice how verbs become nouns.",
+      "instruction_ru": "Прочитай академический текст. Обрати внимание, как глаголы становятся существительными.",
+      "content": {
+        "text": "<highlight>The implementation</highlight> of new policies requires careful planning. <highlight>The acquisition</highlight> of language skills is a gradual process. <highlight>The failure</highlight> to address climate change will have serious consequences. <highlight>The reduction</highlight> of emissions is a global priority. <highlight>The establishment</highlight> of democratic institutions took decades. <highlight>The assumption</highlight> that progress is inevitable may be flawed. <highlight>The emergence</highlight> of new technologies has transformed society. <highlight>The recognition</highlight> of human rights remains incomplete. <highlight>The investigation</highlight> into the incident is ongoing. <highlight>The transformation</highlight> of the economy was remarkable.",
+        "question": "How does using nouns instead of verbs change the text's style?",
+        "question_ru": "Как использование существительных вместо глаголов меняет стиль текста?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Nominalization in Academic Writing",
+        "title_ru": "Номинализация в академическом письме",
+        "points": [
+          {
+            "rule": "Verb → Noun: implement → implementation, develop → development",
+            "rule_ru": "Глагол → Существительное: implement → implementation, develop → development",
+            "example": "We implemented the plan → The implementation of the plan...",
+            "marker": "-tion/-ment"
+          },
+          {
+            "rule": "Adjective → Noun: possible → possibility, important → importance",
+            "rule_ru": "Прилагательное → Существительное: possible → possibility, important → importance",
+            "example": "It is important → The importance of this...",
+            "marker": "-ity/-ance"
+          },
+          {
+            "rule": "The + noun + of: The development of technology = Technology developed",
+            "rule_ru": "The + существительное + of: The development of technology = Technology developed",
+            "example": "The discovery of penicillin changed medicine.",
+            "marker": "the + N + of"
+          },
+          {
+            "rule": "Noun + preposition patterns: in response to, as a result of, for the purpose of",
+            "rule_ru": "Существительное + предлог паттерны: in response to, as a result of, for the purpose of",
+            "example": "In response to criticism, changes were made.",
+            "marker": "N + prep"
+          },
+          {
+            "rule": "Purpose: creates objectivity, formality, information density",
+            "rule_ru": "Цель: создаёт объективность, формальность, плотность информации",
+            "example": "Informal: They failed because they didn't plan. Formal: Their failure resulted from a lack of planning.",
+            "marker": "purpose"
+          }
+        ],
+        "comparison_table": [
+          {"verb": "implement", "noun": "implementation", "pattern": "the implementation of X"},
+          {"verb": "develop", "noun": "development", "pattern": "the development of X"},
+          {"verb": "analyze", "noun": "analysis", "pattern": "the analysis of X"},
+          {"verb": "assume", "noun": "assumption", "pattern": "the assumption that"},
+          {"verb": "fail", "noun": "failure", "pattern": "the failure to do X"},
+          {"verb": "acquire", "noun": "acquisition", "pattern": "the acquisition of X"},
+          {"verb": "emerge", "noun": "emergence", "pattern": "the emergence of X"},
+          {"adjective": "important", "noun": "importance", "pattern": "the importance of X"},
+          {"adjective": "possible", "noun": "possibility", "pattern": "the possibility of/that"}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify nominalizations and their original verb/adjective forms.",
+      "instruction_ru": "Определи номинализации и их исходные глагольные/прилагательные формы.",
+      "tasks": [
+        {
+          "text": "Academic sentences:\n\n1. The establishment of the United Nations marked a new era.\n2. The impossibility of complete objectivity is widely accepted.\n3. The reduction of poverty requires global cooperation.\n4. The assumption that markets are efficient has been challenged.\n5. The transformation of rural areas is accelerating.\n6. The recognition of indigenous rights was long overdue.\n7. There is a growing awareness of environmental issues.\n8. The emergence of artificial intelligence raises ethical questions.\n9. The failure to act on climate change will have consequences.\n10. The development of vaccines was remarkably rapid.",
+          "find": [
+            {"sentence": 1, "nominalization": "establishment", "from": "establish (v)"},
+            {"sentence": 2, "nominalization": "impossibility", "from": "impossible (adj)"},
+            {"sentence": 3, "nominalization": "reduction", "from": "reduce (v)"},
+            {"sentence": 4, "nominalization": "assumption", "from": "assume (v)"},
+            {"sentence": 5, "nominalization": "transformation", "from": "transform (v)"},
+            {"sentence": 6, "nominalization": "recognition", "from": "recognize (v)"},
+            {"sentence": 7, "nominalization": "awareness", "from": "aware (adj)"},
+            {"sentence": 8, "nominalization": "emergence", "from": "emerge (v)"},
+            {"sentence": 9, "nominalization": "failure", "from": "fail (v)"},
+            {"sentence": 10, "nominalization": "development", "from": "develop (v)"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is nominalization common in academic and formal writing?",
+      "reflection_question_ru": "Почему номинализация распространена в академическом и формальном письме?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using nominalization for more formal style.",
+          "sentences": [
+            {"informal": "They discovered the vaccine quickly.", "formal": "The discovery of the vaccine was rapid."},
+            {"informal": "The government decided to invest more.", "formal": "The government's decision to invest more..."},
+            {"informal": "We analyzed the data carefully.", "formal": "The careful analysis of the data..."},
+            {"informal": "The economy grew significantly.", "formal": "The significant growth of the economy..."},
+            {"informal": "It is possible that errors occurred.", "formal": "The possibility of errors..."},
+            {"informal": "They failed to meet the deadline.", "formal": "Their failure to meet the deadline..."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct nominalized form.",
+          "sentences": [
+            {"sentence": "The ___ (implement) of the policy was delayed.", "answer": "implementation"},
+            {"sentence": "The ___ (acquire) of new skills takes time.", "answer": "acquisition"},
+            {"sentence": "The ___ (assume) that he is guilty is unfair.", "answer": "assumption"},
+            {"sentence": "The ___ (important) of education cannot be overstated.", "answer": "importance"},
+            {"sentence": "The ___ (reduce) of waste is a priority.", "answer": "reduction"},
+            {"sentence": "The ___ (emerge) of new variants is concerning.", "answer": "emergence"},
+            {"sentence": "The ___ (recognize) of the problem was the first step.", "answer": "recognition"},
+            {"sentence": "The ___ (possible) of success depends on effort.", "answer": "possibility"}
+          ]
+        },
+        {
+          "type": "word_formation",
+          "instruction": "Write the nominalized form.",
+          "words": [
+            {"word": "develop", "answer": "development"},
+            {"word": "analyze", "answer": "analysis"},
+            {"word": "establish", "answer": "establishment"},
+            {"word": "transform", "answer": "transformation"},
+            {"word": "aware", "answer": "awareness"},
+            {"word": "appear", "answer": "appearance"},
+            {"word": "exist", "answer": "existence"},
+            {"word": "different", "answer": "difference"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the nominalization error.",
+          "sentences": [
+            {
+              "incorrect": "The developement of new methods took years.",
+              "correct": "The development of new methods took years.",
+              "explanation": "Spelling: develop → development"
+            },
+            {
+              "incorrect": "The impossibleness of the task was clear.",
+              "correct": "The impossibility of the task was clear.",
+              "explanation": "Correct nominalization of 'impossible' is 'impossibility'"
+            },
+            {
+              "incorrect": "Her failment to respond was unexpected.",
+              "correct": "Her failure to respond was unexpected.",
+              "explanation": "fail → failure (not failment)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 22,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Rewrite an informal text using nominalizations for academic style.",
+      "instruction_ru": "Перепиши неформальный текст, используя номинализации для академического стиля.",
+      "prompts": [
+        "Transform informal explanations into academic prose",
+        "Write an introduction to a research paper",
+        "Summarize a process formally",
+        "Describe a historical development academically"
+      ],
+      "example": "Informal: Scientists discovered that the virus mutates quickly. They analyzed data from many countries. It was hard to develop a vaccine because the virus changed so fast. Governments responded by implementing strict measures.\n\nFormal: The discovery that the virus undergoes rapid mutation presented significant challenges. The analysis of data from multiple countries revealed the extent of variation. The development of an effective vaccine was complicated by the rapidity of viral changes. The governmental response involved the implementation of strict preventive measures.",
+      "ai_check": true,
+      "criteria": [
+        "Uses verb → noun transformations correctly",
+        "Uses adjective → noun transformations",
+        "Uses 'the + noun + of' patterns",
+        "Maintains academic register",
+        "At least 8 nominalizations",
+        "Appropriate formality"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 academic texts with heavy nominalization.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Climate Research",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The acceleration of global warming has led to increased awareness of environmental issues. The reduction of carbon emissions remains a priority for policymakers. The implementation of the Paris Agreement faces significant challenges. The failure to achieve targets would have catastrophic consequences. The transformation of energy systems is essential. The development of renewable technologies offers hope. The recognition of the urgency is growing. The assumption that gradual change is sufficient may prove incorrect."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Economic Analysis",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The emergence of the digital economy has led to a fundamental transformation of business practices. The acquisition of technical skills is now essential for employment. The importance of innovation cannot be overstated. The assumption that traditional models remain valid has been challenged. The failure of many companies to adapt resulted in their decline. The development of new strategies is crucial. The recognition of market changes often comes too late. The implementation of reforms requires careful planning."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Medical Research",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The discovery of antibiotics represented a major advancement in medicine. The development of resistance, however, poses new challenges. The failure to complete courses of treatment contributes to this problem. The implementation of strict protocols is essential. The reduction of unnecessary prescriptions is a priority. The awareness of proper usage must be increased. The possibility of untreatable infections is deeply concerning. The establishment of global monitoring systems is underway."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Educational Theory",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The acquisition of language skills involves complex cognitive processes. The recognition of individual differences is fundamental to effective teaching. The importance of meaningful input has been well established. The assumption that learning is linear has been challenged. The emergence of communicative approaches transformed pedagogy. The implementation of these methods requires appropriate training. The development of fluency takes time and practice. The failure to provide authentic materials limits progress."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Political Science",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The establishment of democratic institutions requires more than elections. The development of civil society is equally important. The recognition of human rights forms the foundation of just governance. The implementation of reforms often meets resistance. The transformation of authoritarian systems is gradual. The failure to address inequality can undermine stability. The assumption that democracy is inevitable has proven naive. The emergence of populist movements presents new challenges."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "They implemented the plan.\nNominalize:",
+          "back": "The implementation of the plan..."
+        },
+        {
+          "type": "word_form",
+          "front": "develop →",
+          "back": "development"
+        },
+        {
+          "type": "word_form",
+          "front": "assume →",
+          "back": "assumption"
+        },
+        {
+          "type": "word_form",
+          "front": "important →",
+          "back": "importance"
+        },
+        {
+          "type": "transformation",
+          "front": "It is possible that X...\nNominalize:",
+          "back": "The possibility of X... / The possibility that X..."
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["transformation", "word_formation", "fill_gap", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Incorrect suffix choice",
+      "Spelling errors in complex nominalizations",
+      "Using nominalization where verb is clearer",
+      "Wrong preposition after nominalization"
+    ],
+    "related_topics": ["b2_passive_advanced", "c1_academic_writing"],
+    "ielts_relevance": "Essential for Band 7+ Writing Task 2",
+    "cae_relevance": "Writing, Use of English",
+    "frequency_in_english": "Very high in academic/formal writing"
+  }
+}

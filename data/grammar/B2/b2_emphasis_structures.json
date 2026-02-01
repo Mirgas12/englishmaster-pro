@@ -1,0 +1,270 @@
+{
+  "id": "b2_emphasis_structures",
+  "level": "B2",
+  "title": "Emphasis Structures",
+  "title_ru": "Структуры усиления",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b2_cleft_sentences", "b2_inversion"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read the speech. Notice how key points are emphasized.",
+      "instruction_ru": "Прочитай речь. Обрати внимание, как выделяются ключевые моменты.",
+      "content": {
+        "text": "<highlight>What we need</highlight> is action, not words. <highlight>It was you who</highlight> made this possible. <highlight>The thing that concerns me most</highlight> is the deadline. <highlight>Do</highlight> remember to submit on time. I <highlight>did</highlight> warn you about this! <highlight>This</highlight> is exactly what I meant. <highlight>Such</highlight> dedication deserves recognition. <highlight>So moved was I</highlight> that I couldn't speak. <highlight>All I ask</highlight> is your best effort. <highlight>Little did we know</highlight> how hard it would be.",
+        "question": "What different techniques are used to add emphasis?",
+        "question_ru": "Какие разные техники используются для добавления акцента?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Various Emphasis Structures",
+        "title_ru": "Различные структуры усиления",
+        "points": [
+          {
+            "rule": "Cleft sentences: What...is..., It is/was...that/who..., The thing that...",
+            "rule_ru": "Эмфатические расщеплённые: What...is..., It is/was...that/who..., The thing that...",
+            "example": "What I need is help. It was John who called.",
+            "marker": "cleft"
+          },
+          {
+            "rule": "Emphatic 'do/does/did': do/does/did + base verb (for emphasis)",
+            "rule_ru": "Эмфатическое 'do/does/did': do/does/did + базовый глагол (для усиления)",
+            "example": "I do understand. She does care. They did try.",
+            "marker": "do/does/did"
+          },
+          {
+            "rule": "Inversion: Never have I..., Rarely does..., Not only...but also",
+            "rule_ru": "Инверсия: Never have I..., Rarely does..., Not only...but also",
+            "example": "Never have I seen such beauty. Not only did she win, but she also set a record.",
+            "marker": "inversion"
+          },
+          {
+            "rule": "Fronting: object/complement at the beginning",
+            "rule_ru": "Выдвижение: дополнение/комплемент в начало",
+            "example": "This I cannot accept. Brilliant, she was!",
+            "marker": "fronting"
+          },
+          {
+            "rule": "Emphatic reflexives: myself, yourself, etc. after noun/pronoun",
+            "rule_ru": "Эмфатические возвратные: myself, yourself и т.д. после сущ./местоимения",
+            "example": "I myself don't believe it. The president himself apologized.",
+            "marker": "reflexives"
+          }
+        ],
+        "comparison_table": [
+          {"structure": "Cleft: What...is", "example": "What I want is peace.", "emphasis": "peace"},
+          {"structure": "Cleft: It is...that", "example": "It was she who told me.", "emphasis": "she"},
+          {"structure": "Emphatic do", "example": "I do appreciate your help.", "emphasis": "appreciate"},
+          {"structure": "Inversion", "example": "Never have I felt so happy.", "emphasis": "never"},
+          {"structure": "Fronting", "example": "This book I must read.", "emphasis": "this book"},
+          {"structure": "Reflexive", "example": "She herself admitted it.", "emphasis": "she"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the emphasis structure and what is being emphasized.",
+      "instruction_ru": "Определи структуру усиления и что именно выделяется.",
+      "tasks": [
+        {
+          "text": "From a motivational speech:\n\n1. What you believe, you can achieve.\n2. It was determination that brought me here.\n3. I do believe in hard work.\n4. Never have I given up on my dreams.\n5. This success I share with all of you.\n6. She herself overcame incredible obstacles.\n7. Not only did she succeed, but she also inspired millions.\n8. The one thing I ask is your commitment.\n9. Such persistence is rare these days.\n10. All I wanted was a chance.",
+          "find": [
+            {"sentence": 1, "structure": "What-cleft", "emphasis": "belief leading to achievement"},
+            {"sentence": 2, "structure": "It-cleft", "emphasis": "determination"},
+            {"sentence": 3, "structure": "Emphatic do", "emphasis": "believe (affirming truth)"},
+            {"sentence": 4, "structure": "Inversion (Never)", "emphasis": "never giving up"},
+            {"sentence": 5, "structure": "Fronting", "emphasis": "this success"},
+            {"sentence": 6, "structure": "Emphatic reflexive", "emphasis": "she (personally)"},
+            {"sentence": 7, "structure": "Inversion (Not only)", "emphasis": "both success and inspiration"},
+            {"sentence": 8, "structure": "The thing-cleft", "emphasis": "commitment"},
+            {"sentence": 9, "structure": "Such + noun", "emphasis": "persistence"},
+            {"sentence": 10, "structure": "All-cleft", "emphasis": "just a chance (nothing more)"}
+          ]
+        }
+      ],
+      "reflection_question": "When would you use each type of emphasis?",
+      "reflection_question_ru": "Когда бы ты использовал каждый тип усиления?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite to emphasize the underlined part using the given structure.",
+          "sentences": [
+            {"original": "I want _peace_. (What...is)", "transformed": "What I want is peace."},
+            {"original": "_John_ broke the window. (It was...who)", "transformed": "It was John who broke the window."},
+            {"original": "I understand the problem. (emphatic do)", "transformed": "I do understand the problem."},
+            {"original": "I have never seen such talent. (inversion)", "transformed": "Never have I seen such talent."},
+            {"original": "The president apologized. (reflexive)", "transformed": "The president himself apologized."},
+            {"original": "I cannot accept _this_. (fronting)", "transformed": "This I cannot accept."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the emphasis structure.",
+          "sentences": [
+            {"sentence": "___ I need is more time.", "answer": "What", "structure": "What-cleft"},
+            {"sentence": "It ___ my mother ___ taught me to cook.", "answer": "was, who", "structure": "It-cleft"},
+            {"sentence": "I ___ appreciate your help!", "answer": "do", "structure": "Emphatic do"},
+            {"sentence": "___ have I been so embarrassed!", "answer": "Never", "structure": "Inversion"},
+            {"sentence": "The CEO ___ made the announcement.", "answer": "herself/himself", "structure": "Reflexive"},
+            {"sentence": "___ ___ did they lose, but they also got injured.", "answer": "Not only", "structure": "Not only...but also"},
+            {"sentence": "___ I ask is honesty.", "answer": "All", "structure": "All-cleft"},
+            {"sentence": "___ concerned me was his attitude.", "answer": "What", "structure": "What-cleft"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct emphasis structure.",
+          "questions": [
+            {
+              "context": "Emphasize that you definitely agree",
+              "sentence": "I ___ agree with you.",
+              "options": ["am", "do", "have"],
+              "correct": 1,
+              "explanation": "Emphatic 'do' emphasizes agreement"
+            },
+            {
+              "context": "Emphasize 'honesty' as what matters",
+              "sentence": "___ matters most is honesty.",
+              "options": ["It", "What", "That"],
+              "correct": 1,
+              "explanation": "What-cleft emphasizes the thing (honesty)"
+            },
+            {
+              "context": "Emphasize 'she' as the person who did it",
+              "sentence": "It was ___ who solved the problem.",
+              "options": ["that", "her", "she"],
+              "correct": 2,
+              "explanation": "It was + subject pronoun + who"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 16,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a persuasive text or speech using various emphasis structures.",
+      "instruction_ru": "Напиши убедительный текст или речь, используя различные структуры усиления.",
+      "prompts": [
+        "Write a motivational speech",
+        "Argue for something you believe in",
+        "Write about someone who inspires you",
+        "Make a persuasive case for a change"
+      ],
+      "example": "What we need today is courage. Never before have we faced such challenges. It is unity that will see us through. I do believe we can overcome this. Not only must we act, but we must also inspire others. The one thing I ask is your commitment. This responsibility we all share together. She herself showed us what's possible. Such determination is what changes the world. All I want is for us to try. What matters most is not whether we fail, but whether we get up again.",
+      "ai_check": true,
+      "criteria": [
+        "Uses What/It cleft sentences",
+        "Uses emphatic do/does/did",
+        "Uses inversion (Never, Not only)",
+        "Uses fronting or reflexive emphasis",
+        "At least 6 different emphasis structures"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with emphasis structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Graduation Speech",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What you've achieved today is remarkable. Never have I been prouder of a graduating class. It was hard work that brought you here. I do remember my own graduation. Not only have you succeeded academically, but you've also grown as people. The one thing I ask is that you stay curious. This moment you've earned yourselves. Such determination deserves celebration. All I want is for you to believe in yourselves. What matters now is your next step."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Award Acceptance",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What I feel right now is overwhelming gratitude. It was my team who made this possible. Never did I imagine standing here. I do appreciate every vote of confidence. Not only did you believe in me, but you also gave me opportunities. This award I accept on behalf of everyone who helped. The one person I must thank is my mentor. She herself never sought recognition. Such generosity is rare. All she wanted was to see others succeed."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Political Speech",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What this country needs is leadership. Never have the stakes been higher. It is action that we demand. We do understand the challenges. Not only must we reform the system, but we must also heal divisions. This responsibility we embrace fully. The one promise I make is transparency. We ourselves will be held accountable. Such trust must be earned. All we ask is a chance to prove ourselves. What happens next depends on all of us."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Product Launch",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What we're unveiling today will change everything. Never before has technology been so accessible. It was customer feedback that shaped this design. We do listen to our users. Not only is it powerful, but it's also affordable. This innovation I'm proud to present. The one feature I love most is the simplicity. Our engineers themselves couldn't believe how well it works. Such dedication went into every detail. All we wanted was to make your life easier."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Personal Story",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What I learned from failure changed my life. Never did I think I'd be grateful for rejection. It was those setbacks that taught me resilience. I do believe everything happens for a reason. Not only did I survive, but I also thrived. This journey I wouldn't trade for anything. The one person who believed in me was my grandmother. She herself faced incredible hardship. Such wisdom she shared with me. All she asked was that I never give up."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "I need help.\nEmphasize 'help' using What-cleft:",
+          "back": "What I need is help."
+        },
+        {
+          "type": "transformation",
+          "front": "John did it.\nEmphasize 'John' using It-cleft:",
+          "back": "It was John who did it."
+        },
+        {
+          "type": "transformation",
+          "front": "I agree.\nAdd emphasis using 'do':",
+          "back": "I do agree."
+        },
+        {
+          "type": "transformation",
+          "front": "I have never seen this.\nUse inversion:",
+          "back": "Never have I seen this."
+        },
+        {
+          "type": "fill_gap",
+          "front": "The manager ___ apologized.",
+          "back": "himself/herself\n\nEmphatic reflexive"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["transformation", "fill_gap", "choose_correct", "identify"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong pronoun in it-cleft (her vs she)",
+      "Forgetting inversion after negative adverbs",
+      "Using emphatic 'do' incorrectly",
+      "Not matching cleft structure to what's emphasized"
+    ],
+    "related_topics": ["b2_cleft_sentences", "b2_inversion"],
+    "ielts_relevance": "High - Writing Task 2, Speaking Part 3",
+    "frequency_in_english": "High in speeches/persuasive writing"
+  }
+}

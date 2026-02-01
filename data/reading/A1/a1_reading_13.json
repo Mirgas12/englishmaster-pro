@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_13",
+  "level": "A1",
+  "title": "My Town",
+  "title_ru": "Мой город",
+  "word_count": 94,
+  "topic": "places",
+  "text": "I live in a small town called Greenville. It has about 5,000 people. There is one main street with shops and cafés. We have a library, a post office, and a bank. The hospital is on Oak Street. My favorite place is the ice cream shop. They have the best chocolate ice cream! There is a cinema too, but it only has one screen. The town is quiet and safe. Everyone knows everyone. I love living here, but I want to visit a big city someday.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How many people live in Greenville?", "options": ["about 3,000", "about 5,000", "about 10,000"], "correct": 1},
+    {"type": "multiple_choice", "question": "Where is the hospital?", "options": ["Main Street", "Oak Street", "Park Street"], "correct": 1},
+    {"type": "true_false", "question": "The cinema has many screens.", "correct": false},
+    {"type": "true_false", "question": "The writer's favorite place is the ice cream shop.", "correct": true},
+    {"type": "fill_gap", "question": "The town is quiet and ___.", "answer": "safe"}
+  ],
+  "vocabulary": ["town", "street", "library", "hospital", "cinema"],
+  "grammar_focus": ["there_is_are", "articles"]
+}

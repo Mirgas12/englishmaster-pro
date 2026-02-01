@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_19",
+  "level": "B1",
+  "title": "The Psychology of Habits",
+  "title_ru": "Психология привычек",
+  "word_count": 230,
+  "topic": "psychology",
+  "text": "Habits shape our daily lives more than we realize. Researchers estimate that about 40% of our actions are habitual – performed automatically without conscious thought. Understanding how habits work can help us build good ones and break bad ones.\n\nEvery habit follows a three-part pattern called the habit loop. First, there's a cue – a trigger that initiates the behavior. This could be a time of day, a location, or an emotional state. Next comes the routine – the behavior itself. Finally, there's the reward – the benefit that reinforces the habit.\n\nForming a new habit requires repetition. Studies suggest it takes anywhere from 18 to 254 days for a new behavior to become automatic, with an average of about 66 days. Starting small makes success more likely. Instead of committing to an hour of exercise, begin with just ten minutes.\n\nBreaking bad habits is often harder than forming good ones. The key is identifying the cue and reward, then substituting a different routine. Someone who eats snacks when stressed might replace eating with a short walk, which can provide similar stress relief.\n\nEnvironment plays a crucial role in habits. Making good habits easier and bad habits harder increases your chances of success. Keep healthy food visible and hide unhealthy snacks. Leave your running shoes by the door.\n\nSmall habits compound over time. Tiny improvements, consistently applied, lead to remarkable results. The person you become is largely the sum of your habits.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What percentage of actions are habitual?", "options": ["About 20%", "About 40%", "About 60%"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is the average time to form a habit?", "options": ["21 days", "66 days", "100 days"], "correct": 1},
+    {"type": "true_false", "question": "Breaking bad habits is easier than forming good ones.", "correct": false},
+    {"type": "true_false", "question": "Environment affects habit formation.", "correct": true},
+    {"type": "fill_gap", "question": "Every habit follows a three-part pattern called the habit ___.", "answer": "loop"}
+  ],
+  "vocabulary": ["habits", "cue", "routine", "reward", "automatic"],
+  "grammar_focus": ["present_simple", "conditionals"]
+}

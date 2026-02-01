@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_04",
+  "level": "C1",
+  "title": "Quantum Computing Explained",
+  "title_ru": "Квантовые вычисления",
+  "media_type": "video",
+  "duration_seconds": 150,
+  "description": "Technical explanation of quantum computing principles",
+  "transcript": "Quantum computing represents a fundamentally different approach to computation, harnessing the counterintuitive properties of quantum mechanics to solve problems intractable for classical computers. Classical computers process information in bits – zeros and ones. Quantum computers use qubits, which can exist in superposition: simultaneously zero and one until measured. This allows quantum computers to explore many possibilities in parallel. Entanglement, another quantum phenomenon, creates correlations between qubits that persist regardless of distance. Measuring one entangled qubit instantly determines the state of its partner. This enables quantum algorithms to manipulate information in ways impossible classically. Quantum algorithms already exist that dramatically outperform classical counterparts for specific problems. Shor's algorithm could break widely used encryption by efficiently factoring large numbers. Grover's algorithm accelerates database searching. Quantum simulation promises to model molecular interactions relevant to drug discovery and materials science. However, practical quantum computing faces enormous challenges. Qubits are extraordinarily sensitive to environmental interference, a problem called decoherence. Maintaining quantum states requires near-absolute-zero temperatures and extreme isolation. Current quantum computers remain small and error-prone. The field is progressing rapidly, with companies and governments investing heavily. Whether quantum computers will achieve their transformative potential – or remain limited to niche applications – is an open question. What's certain is that quantum computing is forcing us to rethink the nature of computation itself.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What can qubits exist in?", "options": ["Only zero", "Superposition", "Only one"], "correct": 1},
+    {"type": "multiple_choice", "question": "What could Shor's algorithm break?", "options": ["Physical barriers", "Encryption", "Speed limits"], "correct": 1},
+    {"type": "true_false", "question": "Decoherence is a major challenge for quantum computing.", "correct": true},
+    {"type": "true_false", "question": "Current quantum computers are large and error-free.", "correct": false},
+    {"type": "fill_gap", "question": "___ creates correlations between qubits that persist regardless of distance.", "answer": "Entanglement"}
+  ],
+  "vocabulary": ["qubit", "superposition", "entanglement", "decoherence", "intractable"],
+  "key_phrases": ["counterintuitive properties", "explore many possibilities in parallel", "extraordinarily sensitive", "rethink the nature of computation"]
+}

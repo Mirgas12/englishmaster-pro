@@ -1,0 +1,286 @@
+{
+  "id": "a2_some_any",
+  "level": "A2",
+  "title": "Some, Any, Much, Many",
+  "title_ru": "Some, Any, Much, Many",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_countable_uncountable"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this conversation. Notice 'some', 'any', 'much', 'many'.",
+      "instruction_ru": "Прочитай диалог. Обрати внимание на 'some', 'any', 'much', 'many'.",
+      "content": {
+        "text": "A: Do we have <highlight>any</highlight> milk?\nB: No, there isn't <highlight>any</highlight>. But we have <highlight>some</highlight> juice.\nA: How <highlight>much</highlight> juice do we have?\nB: Not <highlight>much</highlight>. Maybe one glass.\nA: Are there <highlight>any</highlight> eggs?\nB: Yes, there are <highlight>some</highlight>. About five or six.\nA: Good! And how <highlight>many</highlight> tomatoes do we have?\nB: Not <highlight>many</highlight>. Only two.\nA: I'll buy <highlight>some</highlight> more. Do you want <highlight>anything</highlight> else?\nB: No, I don't need <highlight>anything</highlight>. Thanks!",
+        "question": "When do we use 'some' vs 'any'? When 'much' vs 'many'?",
+        "question_ru": "Когда мы используем 'some' vs 'any'? Когда 'much' vs 'many'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Quantifiers: Some, Any, Much, Many",
+        "title_ru": "Слова количества: Some, Any, Much, Many",
+        "points": [
+          {
+            "rule": "SOME: positive statements, offers, requests",
+            "rule_ru": "SOME: утверждения, предложения, просьбы",
+            "example": "I have some money. Would you like some tea? Can I have some water?",
+            "marker": "+ / offers / requests"
+          },
+          {
+            "rule": "ANY: questions and negatives",
+            "rule_ru": "ANY: вопросы и отрицания",
+            "example": "Do you have any money? I don't have any time.",
+            "marker": "? / -"
+          },
+          {
+            "rule": "MUCH: uncountable nouns (usually ? and -)",
+            "rule_ru": "MUCH: неисчисляемые (обычно ? и -)",
+            "example": "How much water? I don't have much time.",
+            "marker": "uncountable"
+          },
+          {
+            "rule": "MANY: countable nouns (usually ? and -)",
+            "rule_ru": "MANY: исчисляемые (обычно ? и -)",
+            "example": "How many books? I don't have many friends.",
+            "marker": "countable"
+          },
+          {
+            "rule": "A LOT OF: both types, in positive",
+            "rule_ru": "A LOT OF: оба типа, в утверждениях",
+            "example": "I have a lot of money. I have a lot of friends.",
+            "marker": "both, positive"
+          }
+        ],
+        "comparison_table": [
+          {"context": "Positive", "countable": "some books", "uncountable": "some water"},
+          {"context": "Negative", "countable": "not many books", "uncountable": "not much water"},
+          {"context": "Question", "countable": "How many books?", "uncountable": "How much water?"},
+          {"context": "Positive (lots)", "countable": "a lot of books", "uncountable": "a lot of water"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all quantifiers. Identify: positive, negative, or question?",
+      "instruction_ru": "Найди все слова количества. Определи: утверждение, отрицание или вопрос?",
+      "tasks": [
+        {
+          "text": "I went to the store but I didn't have much money. I wanted to buy some fruit. There weren't many apples, so I bought some oranges instead. How much did they cost? Not much - only $2. I also got some bread. There wasn't any whole wheat bread, so I bought white. I didn't buy many things, but I have enough for a few days.",
+          "find": [
+            {"word": "much", "context": "negative", "noun_type": "uncountable"},
+            {"word": "some", "context": "positive", "noun_type": "countable"},
+            {"word": "many", "context": "negative", "noun_type": "countable"},
+            {"word": "some", "context": "positive", "noun_type": "countable"},
+            {"word": "much", "context": "question", "noun_type": "uncountable"},
+            {"word": "much", "context": "negative", "noun_type": "uncountable"},
+            {"word": "some", "context": "positive", "noun_type": "uncountable"},
+            {"word": "any", "context": "negative", "noun_type": "uncountable"},
+            {"word": "many", "context": "negative", "noun_type": "countable"}
+          ]
+        }
+      ],
+      "reflection_question": "Why 'I have some friends' but 'I don't have many friends'?",
+      "reflection_question_ru": "Почему 'I have some friends', но 'I don't have many friends'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with some, any, much, or many.",
+          "sentences": [
+            {"sentence": "Do you have ___ questions?", "answer": "any"},
+            {"sentence": "I have ___ good news!", "answer": "some"},
+            {"sentence": "There isn't ___ time left.", "answer": "much"},
+            {"sentence": "How ___ people came to the party?", "answer": "many"},
+            {"sentence": "I don't have ___ money.", "answer": "any/much"},
+            {"sentence": "Would you like ___ coffee?", "answer": "some"},
+            {"sentence": "There aren't ___ shops near here.", "answer": "many"},
+            {"sentence": "How ___ sugar do you want?", "answer": "much"},
+            {"sentence": "Can I have ___ water, please?", "answer": "some"},
+            {"sentence": "I didn't see ___ problems.", "answer": "any"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct quantifier.",
+          "questions": [
+            {
+              "sentence": "There isn't ___ milk in the fridge.",
+              "options": ["some", "any", "many"],
+              "correct": 1,
+              "explanation": "Negative + uncountable = any"
+            },
+            {
+              "sentence": "How ___ students are in your class?",
+              "options": ["much", "many", "any"],
+              "correct": 1,
+              "explanation": "Question + countable = many"
+            },
+            {
+              "sentence": "Would you like ___ tea?",
+              "options": ["any", "some", "much"],
+              "correct": 1,
+              "explanation": "Offer = some"
+            },
+            {
+              "sentence": "I have ___ homework tonight.",
+              "options": ["many", "a lot of", "any"],
+              "correct": 1,
+              "explanation": "Positive (lots) = a lot of"
+            },
+            {
+              "sentence": "There isn't ___ traffic today.",
+              "options": ["many", "some", "much"],
+              "correct": 2,
+              "explanation": "Negative + uncountable = much"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I don't have some money.",
+              "correct": "I don't have any money.",
+              "explanation": "Negative = any (not some)"
+            },
+            {
+              "incorrect": "How many water do you need?",
+              "correct": "How much water do you need?",
+              "explanation": "Uncountable = much (not many)"
+            },
+            {
+              "incorrect": "There are much people here.",
+              "correct": "There are many people here.",
+              "explanation": "Countable = many (not much)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about what you have and don't have in your home.",
+      "instruction_ru": "Напиши о том, что есть и чего нет в твоём доме.",
+      "prompts": [
+        "What food do you have? (some/not much/many)",
+        "What don't you have? (any)",
+        "How much/many of things?",
+        "What do you need to buy? (some)"
+      ],
+      "example": "In my fridge, I have some milk and some cheese. There isn't much bread left. I have a lot of vegetables but not many fruits. I don't have any eggs. I need to buy some. There's some juice but not much. I have many books in my room but not many games.",
+      "ai_check": true,
+      "criteria": [
+        "Uses some correctly",
+        "Uses any in negatives/questions",
+        "Uses much with uncountable",
+        "Uses many with countable"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many quantifiers.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Fridge Check",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 14,
+          "content": "Let me check the fridge. Do we have any milk? Yes, there's some but not much. How many eggs are there? Only three. We don't have many vegetables. There's some cheese and some butter. Is there any juice? No, there isn't any. We need to buy some food. I don't have much money though."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Party Planning",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "We're having a party! How many people are coming? About 20. That's a lot of guests! We need some food and drinks. Do we have any chairs? Not many. We should get some more. How much time do we have? Not much - the party is tomorrow! Let's buy some snacks."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Travel Questions",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "Do you have any luggage? Yes, I have some bags. How much luggage can I take? Not much - only 20kg. How many bags? Just two. Do you have any liquids? Some water and some perfume. Is there any problem? No, there isn't any. Have a good flight!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Work Meeting",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "Do we have any new projects? Yes, we have some. How many clients are interested? Many - about 15. That's a lot of work! Do we have much time? Not much - the deadline is next week. Are there any problems? Some small ones. We need some more people to help."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Restaurant Order",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 11,
+          "content": "Waiter: Do you have any questions? Customer: How much is the fish? Waiter: $15. Customer: I'll have some soup first. Are there any vegetarian options? Waiter: We have some salads. Customer: Great! And some bread, please. Waiter: How many slices? Customer: Not many - just two."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "choose",
+          "front": "I don't have ___ money.\n(some / any)",
+          "back": "any\n\nNegative = any"
+        },
+        {
+          "type": "choose",
+          "front": "Would you like ___ tea?\n(some / any)",
+          "back": "some\n\nOffer = some"
+        },
+        {
+          "type": "choose",
+          "front": "How ___ water?\n(much / many)",
+          "back": "much\n\nUncountable = much"
+        },
+        {
+          "type": "choose",
+          "front": "How ___ people?\n(much / many)",
+          "back": "many\n\nCountable = many"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"How many money do you have?\"",
+          "back": "How much money do you have?\n\nmoney is uncountable"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using some in negatives (I don't have some)",
+      "Using many with uncountable (many water)",
+      "Using much with countable (much people)",
+      "Forgetting to use any in questions"
+    ],
+    "related_topics": ["a2_countable_uncountable", "a1_articles"],
+    "ielts_relevance": "Medium - important for accuracy",
+    "frequency_in_english": "Very high"
+  }
+}

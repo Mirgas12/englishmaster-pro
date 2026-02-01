@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_02",
+  "level": "B2",
+  "title": "The Future of Artificial Intelligence",
+  "title_ru": "Будущее искусственного интеллекта",
+  "media_type": "video",
+  "duration_seconds": 120,
+  "description": "Documentary about AI development",
+  "transcript": "Artificial intelligence is advancing at an unprecedented pace, transforming industries from healthcare to transportation. Machine learning algorithms now diagnose diseases, compose music, and beat world champions at complex games. But as AI systems become more powerful, we face profound questions about their impact on society. The economic implications are significant. Some economists predict widespread job displacement as automation handles tasks previously requiring human intelligence. Others argue that AI will create new categories of employment we can't yet imagine, just as previous technological revolutions did. The debate about AI safety has moved from science fiction to serious academic study. Researchers worry about aligning AI systems with human values – ensuring that as machines become more capable, they remain beneficial to humanity. This alignment problem becomes critical as we develop more autonomous systems. Perhaps the most fascinating question is whether machines can truly be conscious or creative, or whether they're simply sophisticated pattern-matching systems. Current AI lacks genuine understanding – it processes data without comprehension. The gap between artificial and human intelligence may be narrower than we thought, or it may prove unbridgeable.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do machine learning algorithms now do?", "options": ["Only play games", "Diagnose diseases and compose music", "Only drive cars"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do researchers worry about?", "options": ["AI becoming too slow", "Aligning AI with human values", "AI costing too much"], "correct": 1},
+    {"type": "true_false", "question": "AI advancement is slow and predictable.", "correct": false},
+    {"type": "true_false", "question": "Current AI lacks genuine understanding.", "correct": true},
+    {"type": "fill_gap", "question": "The ___ problem involves ensuring AI remains beneficial to humanity.", "answer": "alignment"}
+  ],
+  "vocabulary": ["unprecedented", "algorithms", "displacement", "autonomous", "alignment"],
+  "key_phrases": ["advancing at an unprecedented pace", "profound questions", "moved from science fiction to", "prove unbridgeable"]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "b1_gerund_infinitive_basic",
+  "level": "B1",
+  "title": "Gerund vs Infinitive",
+  "title_ru": "Герундий vs Инфинитив",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a2_future_going_to"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about hobbies and plans. Notice verb forms after other verbs.",
+      "instruction_ru": "Прочитай о хобби и планах. Обрати внимание на формы глаголов после других глаголов.",
+      "content": {
+        "text": "I <highlight>enjoy swimming</highlight> in the ocean. I <highlight>love going</highlight> to the beach. But I <highlight>want to learn</highlight> surfing. I've <highlight>decided to take</highlight> lessons. My friend <highlight>suggested trying</highlight> a beginner class. She <highlight>offered to come</highlight> with me. I <highlight>can't stand waiting</highlight>, so I <highlight>hope to start</highlight> soon! I <highlight>don't mind getting</highlight> up early. I <highlight>expect to improve</highlight> quickly. I <highlight>avoid going</highlight> when it's crowded. <highlight>Learning</highlight> new things is exciting!",
+        "question": "Which verbs are followed by -ing? Which by 'to + verb'?",
+        "question_ru": "После каких глаголов идёт -ing? После каких 'to + глагол'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Verbs Followed by Gerund or Infinitive",
+        "title_ru": "Глаголы с герундием или инфинитивом",
+        "points": [
+          {
+            "rule": "Gerund (-ing): enjoy, love, like, hate, mind, suggest, avoid, finish, keep, consider",
+            "rule_ru": "Герундий (-ing): enjoy, love, like, hate, mind, suggest, avoid, finish, keep, consider",
+            "example": "I enjoy reading. She avoids eating meat.",
+            "marker": "verb + -ing"
+          },
+          {
+            "rule": "Infinitive (to + verb): want, need, decide, plan, hope, expect, offer, promise, agree, refuse",
+            "rule_ru": "Инфинитив (to + verb): want, need, decide, plan, hope, expect, offer, promise, agree, refuse",
+            "example": "I want to travel. She agreed to help.",
+            "marker": "verb + to + verb"
+          },
+          {
+            "rule": "Both (same meaning): start, begin, continue, prefer",
+            "rule_ru": "Оба (одинаковое значение): start, begin, continue, prefer",
+            "example": "I started learning / to learn English.",
+            "marker": "both OK"
+          },
+          {
+            "rule": "Both (different meaning): stop, remember, forget, try",
+            "rule_ru": "Оба (разное значение): stop, remember, forget, try",
+            "example": "Stop smoking (quit) vs Stop to smoke (pause to smoke)",
+            "marker": "meaning changes"
+          },
+          {
+            "rule": "After prepositions: always use gerund",
+            "rule_ru": "После предлогов: всегда герундий",
+            "example": "I'm interested in learning. I'm good at cooking.",
+            "marker": "preposition + -ing"
+          }
+        ],
+        "comparison_table": [
+          {"category": "Gerund (-ing)", "verbs": "enjoy, avoid, finish, mind, suggest, keep, consider, imagine, practice", "example": "I enjoy reading."},
+          {"category": "Infinitive (to)", "verbs": "want, need, decide, plan, hope, expect, offer, agree, refuse, promise", "example": "I want to read."},
+          {"category": "Both (same)", "verbs": "start, begin, continue, like, love, hate, prefer", "example": "I started reading / to read."},
+          {"category": "Both (different)", "verbs": "stop, remember, forget, try, regret", "example": "Stop reading (quit) / Stop to read (pause)"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all gerunds and infinitives. Group them by the verb before them.",
+      "instruction_ru": "Найди все герундии и инфинитивы. Сгруппируй их по глаголу перед ними.",
+      "tasks": [
+        {
+          "text": "I've decided to change my lifestyle. I want to be healthier. I enjoy eating, but I need to eat better food. I've started exercising regularly. I avoid eating fast food now. I've promised to cook more at home. I don't mind cooking; I actually enjoy making new recipes. I hope to lose weight. I've considered joining a gym. My friend suggested trying yoga. I agreed to go with her next week. I expect to feel better soon!",
+          "find": [
+            {"pattern": "decided to change", "type": "infinitive"},
+            {"pattern": "want to be", "type": "infinitive"},
+            {"pattern": "enjoy eating", "type": "gerund"},
+            {"pattern": "need to eat", "type": "infinitive"},
+            {"pattern": "started exercising", "type": "gerund (or infinitive OK)"},
+            {"pattern": "avoid eating", "type": "gerund"},
+            {"pattern": "promised to cook", "type": "infinitive"},
+            {"pattern": "mind cooking", "type": "gerund"},
+            {"pattern": "enjoy making", "type": "gerund"},
+            {"pattern": "hope to lose", "type": "infinitive"},
+            {"pattern": "considered joining", "type": "gerund"},
+            {"pattern": "suggested trying", "type": "gerund"},
+            {"pattern": "agreed to go", "type": "infinitive"},
+            {"pattern": "expect to feel", "type": "infinitive"}
+          ]
+        }
+      ],
+      "reflection_question": "Can you group verbs that take gerund vs infinitive? What patterns do you notice?",
+      "reflection_question_ru": "Можешь ли сгруппировать глаголы, которые берут герундий vs инфинитив? Какие закономерности замечаешь?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with gerund (-ing) or infinitive (to + verb).",
+          "sentences": [
+            {"sentence": "I enjoy ___ (read) books.", "answer": "reading"},
+            {"sentence": "She wants ___ (travel) to Japan.", "answer": "to travel"},
+            {"sentence": "We decided ___ (stay) at home.", "answer": "to stay"},
+            {"sentence": "He avoids ___ (eat) sugar.", "answer": "eating"},
+            {"sentence": "They hope ___ (win) the competition.", "answer": "to win"},
+            {"sentence": "I don't mind ___ (wait).", "answer": "waiting"},
+            {"sentence": "She offered ___ (help) me.", "answer": "to help"},
+            {"sentence": "I finished ___ (write) the report.", "answer": "writing"},
+            {"sentence": "He promised ___ (call) me.", "answer": "to call"},
+            {"sentence": "I considered ___ (move) to another city.", "answer": "moving"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I enjoy ___ to music.",
+              "options": ["listen", "to listen", "listening"],
+              "correct": 2,
+              "explanation": "enjoy + gerund (-ing)"
+            },
+            {
+              "sentence": "She wants ___ a new car.",
+              "options": ["buying", "to buy", "buy"],
+              "correct": 1,
+              "explanation": "want + infinitive (to)"
+            },
+            {
+              "sentence": "We started ___ Spanish last year.",
+              "options": ["learning", "to learn", "both are correct"],
+              "correct": 2,
+              "explanation": "start can take both with same meaning"
+            },
+            {
+              "sentence": "I can't stand ___ in traffic.",
+              "options": ["to wait", "waiting", "wait"],
+              "correct": 1,
+              "explanation": "can't stand + gerund"
+            },
+            {
+              "sentence": "He agreed ___ the project.",
+              "options": ["doing", "to do", "do"],
+              "correct": 1,
+              "explanation": "agree + infinitive (to)"
+            }
+          ]
+        },
+        {
+          "type": "meaning_difference",
+          "instruction": "Choose the correct meaning.",
+          "questions": [
+            {
+              "sentence_a": "I stopped smoking.",
+              "sentence_b": "I stopped to smoke.",
+              "question": "In which sentence did the person quit the habit?",
+              "answer": "A",
+              "explanation": "Stop + -ing = quit doing. Stop + to = pause in order to do"
+            },
+            {
+              "sentence_a": "I remembered to lock the door.",
+              "sentence_b": "I remember locking the door.",
+              "question": "In which sentence is the person thinking about a past action?",
+              "answer": "B",
+              "explanation": "Remember + -ing = recall past action. Remember + to = not forget to do"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your habits, plans, and preferences using gerunds and infinitives.",
+      "instruction_ru": "Напиши о своих привычках, планах и предпочтениях, используя герундии и инфинитивы.",
+      "prompts": [
+        "What do you enjoy doing in your free time?",
+        "What have you decided to do this year?",
+        "What do you avoid doing? Why?",
+        "What do you hope to achieve in the future?"
+      ],
+      "example": "I really enjoy spending time outdoors. I love hiking and I don't mind walking for hours. I've decided to explore more national parks this year. I hope to visit at least five new places. I avoid going when it's too crowded because I prefer enjoying nature in peace. I've considered buying a better camera to take photos. My friend suggested trying camping, but I'm not sure. I want to learn more about wildlife. I expect to have many adventures this year!",
+      "ai_check": true,
+      "criteria": [
+        "Uses gerunds after appropriate verbs (enjoy, avoid, mind, etc.)",
+        "Uses infinitives after appropriate verbs (want, decide, hope, etc.)",
+        "Mix of both forms",
+        "At least 8 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with gerunds and infinitives.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "New Year's Resolutions",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 14,
+          "content": "This year, I've decided to make some changes. I want to exercise more. I enjoy running, so I plan to run three times a week. I've promised to eat healthier food. I avoid eating junk food now. I hope to lose 5 kilos. I've also started learning to play guitar. I don't mind practicing every day. I expect to improve quickly. I refuse to give up! What do you hope to achieve this year?"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Job Hunting",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 13,
+          "content": "I've been looking for a new job. I enjoy working in marketing, but I want to try something different. I've considered changing careers completely. My friend suggested trying the tech industry. I agreed to send some applications. I don't mind starting from scratch. I hope to find something soon. I avoid applying to companies with bad reviews. I've decided to improve my skills first. I've started taking online courses. I expect to be more competitive soon."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Language Learning",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 14,
+          "content": "Learning a language requires patience. I enjoy practicing with native speakers. I don't mind making mistakes. I've decided to study Japanese. I want to visit Japan someday. I started watching Japanese shows to improve my listening. I avoid translating everything in my head. I hope to become fluent in three years. I've promised to study every day. I consider using apps helpful. I plan to take the JLPT exam. I refuse to give up even when it's hard!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Travel Plans",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 13,
+          "content": "We've decided to travel to South America. I enjoy exploring new cultures. My partner prefers staying in hostels to save money. We plan to visit five countries. We hope to see Machu Picchu. I've started learning some Spanish phrases. I avoid going to tourist traps. We agreed to take a cooking class in Peru. I don't mind traveling by bus. We expect to have an amazing trip. We've promised to take lots of photos!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Healthy Habits",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 14,
+          "content": "My doctor suggested making some changes. I need to exercise more. I enjoy swimming, so I've started going to the pool. I avoid eating too much salt. I don't mind cooking healthy meals. I've decided to stop drinking soda. I want to feel better. I hope to lower my blood pressure. I consider walking great exercise too. I've agreed to have checkups regularly. I refuse to ignore my health anymore. I expect to see improvements soon!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I enjoy ___ (cook).",
+          "back": "cooking\n\nenjoy + gerund"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She wants ___ (learn) French.",
+          "back": "to learn\n\nwant + infinitive"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He suggested ___ (try) a new restaurant.",
+          "back": "trying\n\nsuggest + gerund"
+        },
+        {
+          "type": "fill_gap",
+          "front": "They agreed ___ (help) us.",
+          "back": "to help\n\nagree + infinitive"
+        },
+        {
+          "type": "meaning",
+          "front": "What's the difference?\nStop smoking vs Stop to smoke",
+          "back": "Stop smoking = quit the habit\nStop to smoke = pause to have a cigarette"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "choose_correct", "meaning_difference", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using infinitive after enjoy/avoid/mind",
+      "Using gerund after want/hope/decide",
+      "Forgetting 'to' in infinitive",
+      "Not understanding meaning differences"
+    ],
+    "related_topics": ["a2_future_going_to"],
+    "ielts_relevance": "Very high - natural speech requires correct forms",
+    "frequency_in_english": "Very high"
+  }
+}

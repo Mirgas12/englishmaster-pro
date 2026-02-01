@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_08",
+  "level": "A2",
+  "title": "Booking a Hotel",
+  "title_ru": "Бронирование отеля",
+  "media_type": "audio",
+  "duration_seconds": 55,
+  "description": "A phone call to book a hotel room",
+  "transcript": "Receptionist: Grand Hotel, how can I help you?\nGuest: Hello, I'd like to book a room, please.\nReceptionist: Certainly. When would you like to stay?\nGuest: From August 10th to August 14th.\nReceptionist: That's four nights. Would you prefer a single or double room?\nGuest: A double room, please. Is breakfast included?\nReceptionist: Yes, breakfast is included. We also have free WiFi and a swimming pool.\nGuest: Great. How much is it per night?\nReceptionist: It's one hundred and twenty euros per night.\nGuest: I'll book it. Can I pay when I arrive?\nReceptionist: Yes, you can pay at check-in. We'll need your credit card to guarantee the booking.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How many nights is the booking for?", "options": ["Three nights", "Four nights", "Five nights"], "correct": 1},
+    {"type": "multiple_choice", "question": "How much per night?", "options": ["€100", "€120", "€140"], "correct": 1},
+    {"type": "true_false", "question": "Breakfast is not included.", "correct": false},
+    {"type": "true_false", "question": "The hotel has a swimming pool.", "correct": true},
+    {"type": "fill_gap", "question": "The guest can pay at ___.", "answer": "check-in"}
+  ],
+  "vocabulary": ["book", "single room", "double room", "included", "check-in"],
+  "key_phrases": ["I'd like to book", "Would you prefer", "Is breakfast included", "How much is it"]
+}

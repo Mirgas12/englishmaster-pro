@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_10",
+  "level": "B1",
+  "title": "Cultural Differences",
+  "title_ru": "Культурные различия",
+  "media_type": "video",
+  "duration_seconds": 85,
+  "description": "Speaker discusses cross-cultural communication",
+  "transcript": "Understanding cultural differences is essential in our globalized world. What's polite in one culture may be rude in another. Take personal space, for example. In some cultures, people stand close during conversations. In others, maintaining distance is important. Neither is wrong – they're just different. Business customs vary too. In Japan, exchanging business cards is a formal ritual. In other countries, it's casual. Being late is acceptable in some cultures but highly offensive in others. Even eye contact differs – direct eye contact shows respect in Western cultures but can seem aggressive elsewhere. How do we navigate these differences? First, research before traveling or doing business internationally. Second, observe how locals behave and follow their lead. Third, ask politely if you're unsure. Most people appreciate genuine efforts to understand their culture. When we make mistakes – and we will – apologize sincerely and learn from them. Cultural awareness isn't about memorizing rules but developing sensitivity and openness to different ways of living.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is essential in a globalized world?", "options": ["Speaking English", "Understanding cultural differences", "Traveling frequently"], "correct": 1},
+    {"type": "multiple_choice", "question": "In Japan, what is a formal ritual?", "options": ["Shaking hands", "Exchanging business cards", "Bowing only"], "correct": 1},
+    {"type": "true_false", "question": "Being late is universally offensive.", "correct": false},
+    {"type": "true_false", "question": "Most people appreciate efforts to understand their culture.", "correct": true},
+    {"type": "fill_gap", "question": "Direct eye contact can seem ___ in some cultures.", "answer": "aggressive"}
+  ],
+  "vocabulary": ["globalized", "customs", "ritual", "navigate", "sensitivity"],
+  "key_phrases": ["what's polite in one culture", "vary too", "observe how locals behave", "appreciate genuine efforts"]
+}

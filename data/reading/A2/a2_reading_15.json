@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_15",
+  "level": "A2",
+  "title": "A Day at the Zoo",
+  "title_ru": "День в зоопарке",
+  "word_count": 160,
+  "topic": "animals",
+  "text": "For my birthday, my parents took me to the zoo. It was amazing! The zoo is very big with animals from all around the world. First, we visited the African section. I saw lions, elephants, and giraffes. The giraffes were eating leaves from tall trees. They have such long necks! Then we went to see the penguins. They were swimming and playing in the water. A zookeeper gave a talk about penguins. I learned that they can't fly but are excellent swimmers. After lunch, we watched the sea lion show. They did tricks and caught fish in their mouths. My favorite animals were the monkeys. They were very funny, jumping around and making loud noises. Before we left, I bought a small stuffed elephant from the gift shop. It's now on my bed. I had the best birthday ever! I want to become a zookeeper when I grow up.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What was the occasion for the zoo visit?", "options": ["Holiday", "Birthday", "School trip"], "correct": 1},
+    {"type": "multiple_choice", "question": "What were the writer's favorite animals?", "options": ["Lions", "Penguins", "Monkeys"], "correct": 2},
+    {"type": "true_false", "question": "The giraffes were eating grass.", "correct": false},
+    {"type": "true_false", "question": "Penguins are excellent swimmers.", "correct": true},
+    {"type": "fill_gap", "question": "A ___ gave a talk about penguins.", "answer": "zookeeper"}
+  ],
+  "vocabulary": ["zoo", "animals", "tricks", "stuffed", "excellent"],
+  "grammar_focus": ["past_simple", "present_simple"]
+}

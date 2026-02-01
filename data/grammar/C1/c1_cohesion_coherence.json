@@ -1,0 +1,274 @@
+{
+  "id": "c1_cohesion_coherence",
+  "level": "C1",
+  "title": "Cohesion and Coherence",
+  "title_ru": "Когезия и когерентность",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_discourse_markers", "b2_linking_words_advanced"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this essay. Notice how ideas are connected across sentences.",
+      "instruction_ru": "Прочитай это эссе. Обрати внимание, как идеи связываются между предложениями.",
+      "content": {
+        "text": "Climate change presents unprecedented challenges. <highlight>These challenges</highlight> require global cooperation. <highlight>Such cooperation</highlight>, however, remains elusive. <highlight>This</highlight> is largely due to competing national interests. <highlight>The former</highlight> often take precedence over <highlight>the latter</highlight>. Governments claim to prioritize sustainability; <highlight>their actions</highlight>, nevertheless, suggest otherwise. Scientists have warned about <highlight>these consequences</highlight> for decades. <highlight>Their warnings</highlight> have frequently been ignored. <highlight>The above</highlight> illustrates a fundamental problem: short-term thinking dominates. <highlight>As mentioned earlier</highlight>, cooperation is essential. <highlight>Without it</highlight>, meaningful progress is unlikely.",
+        "question": "How do these reference words create flow between sentences?",
+        "question_ru": "Как эти референтные слова создают связность между предложениями?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Creating Textual Cohesion",
+        "title_ru": "Создание текстуальной когезии",
+        "points": [
+          {
+            "rule": "Reference: this, that, these, those, such, the former/latter",
+            "rule_ru": "Референция: this, that, these, those, such, the former/latter",
+            "example": "The idea was rejected. This surprised everyone. Such decisions are common.",
+            "marker": "reference"
+          },
+          {
+            "rule": "Lexical cohesion: synonyms, hypernyms, repetition, collocation",
+            "rule_ru": "Лексическая когезия: синонимы, гиперонимы, повтор, коллокация",
+            "example": "The author... The writer... This novelist... Her work...",
+            "marker": "lexical"
+          },
+          {
+            "rule": "Conjunctive adverbs: however, nevertheless, furthermore, consequently",
+            "rule_ru": "Союзные наречия: however, nevertheless, furthermore, consequently",
+            "example": "The results were clear. Nevertheless, debate continued.",
+            "marker": "conjunctive"
+          },
+          {
+            "rule": "Meta-discourse: as mentioned, as noted above, in this regard",
+            "rule_ru": "Метадискурс: as mentioned, as noted above, in this regard",
+            "example": "As discussed earlier, the issue is complex. In this regard, caution is advised.",
+            "marker": "meta-discourse"
+          },
+          {
+            "rule": "Thematic progression: Topic → Comment → New Topic",
+            "rule_ru": "Тематическая прогрессия: Тема → Комментарий → Новая Тема",
+            "example": "AI is transforming society. This transformation affects employment. Employment patterns are shifting.",
+            "marker": "thematic"
+          }
+        ],
+        "comparison_table": [
+          {"device": "this/that", "function": "Back-reference", "example": "The policy failed. This was predictable."},
+          {"device": "such", "function": "Reference to type/kind", "example": "Such errors are avoidable."},
+          {"device": "the former/latter", "function": "Distinguish two items", "example": "Art and science: the former inspires, the latter explains."},
+          {"device": "however/nevertheless", "function": "Contrast", "example": "It's difficult. Nevertheless, we must try."},
+          {"device": "furthermore/moreover", "function": "Addition", "example": "It's expensive. Furthermore, it's time-consuming."},
+          {"device": "consequently/therefore", "function": "Result", "example": "Resources are limited. Consequently, choices must be made."},
+          {"device": "as mentioned/noted", "function": "Back-reference to text", "example": "As noted earlier, caution is advised."}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify cohesive devices and what they refer to.",
+      "instruction_ru": "Определи средства когезии и к чему они относятся.",
+      "tasks": [
+        {
+          "text": "Academic paragraph:\n\n1. Two approaches dominate the field: quantitative and qualitative.\n2. The former emphasizes measurable data; the latter focuses on interpretation.\n3. Both methods have their advocates.\n4. These researchers often engage in heated debate.\n5. Such disagreements, however, can be productive.\n6. They force scholars to refine their positions.\n7. This refinement ultimately strengthens the field.\n8. As noted above, both approaches have value.\n9. Consequently, a mixed-methods approach is increasingly favored.\n10. In this regard, recent studies show promising results.",
+          "find": [
+            {"sentence": 2, "device": "The former/the latter", "refers_to": "quantitative/qualitative"},
+            {"sentence": 3, "device": "Both methods", "refers_to": "quantitative and qualitative"},
+            {"sentence": 4, "device": "These researchers", "refers_to": "advocates of both methods"},
+            {"sentence": 5, "device": "Such disagreements", "refers_to": "heated debate"},
+            {"sentence": 5, "device": "however", "function": "contrast"},
+            {"sentence": 6, "device": "They", "refers_to": "disagreements/debates"},
+            {"sentence": 7, "device": "This refinement", "refers_to": "refining positions"},
+            {"sentence": 8, "device": "As noted above", "refers_to": "previous text"},
+            {"sentence": 9, "device": "Consequently", "function": "result"},
+            {"sentence": 10, "device": "In this regard", "refers_to": "mixed-methods approach"}
+          ]
+        }
+      ],
+      "reflection_question": "How would the text read without these cohesive devices?",
+      "reflection_question_ru": "Как читался бы текст без этих средств когезии?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with appropriate cohesive devices.",
+          "sentences": [
+            {"sentence": "The study had two phases: exploration and testing. ___ ___ gathered data; ___ ___ analyzed it.", "answer": "The former, the latter"},
+            {"sentence": "Errors were found. ___ errors could have been prevented.", "answer": "Such"},
+            {"sentence": "The team worked hard. ___, they failed to meet the deadline.", "answer": "Nevertheless/However"},
+            {"sentence": "Resources are limited. ___, priorities must be established.", "answer": "Consequently/Therefore"},
+            {"sentence": "___ ___ earlier, the problem is complex.", "answer": "As mentioned/noted"},
+            {"sentence": "Climate change affects agriculture. ___ affects food security.", "answer": "This"},
+            {"sentence": "Two solutions were proposed. Both ___ have merits.", "answer": "approaches/solutions"},
+            {"sentence": "___ ___ ___, further research is needed.", "answer": "In this regard"}
+          ]
+        },
+        {
+          "type": "rewrite_cohesion",
+          "instruction": "Rewrite to improve cohesion using reference and connectors.",
+          "sentences": [
+            {"original": "The company introduced new policies. The new policies were unpopular. The unpopular policies led to protests.", "improved": "The company introduced new policies. These were unpopular and consequently led to protests."},
+            {"original": "There are advantages and disadvantages. Advantages include efficiency. Disadvantages include cost.", "improved": "There are advantages and disadvantages. The former include efficiency; the latter include cost."},
+            {"original": "The study had limitations. The limitations should be acknowledged. Future research should address the limitations.", "improved": "The study had limitations. These should be acknowledged, and future research should address them."}
+          ]
+        },
+        {
+          "type": "identify_reference",
+          "instruction": "Identify what each reference word refers to.",
+          "sentences": [
+            {"sentence": "Innovation requires risk. This is often underestimated.", "this": "The fact that innovation requires risk"},
+            {"sentence": "Two theories compete: evolution and design. The former has scientific support.", "the former": "evolution"},
+            {"sentence": "Critics raised objections. Such concerns, however, were dismissed.", "such concerns": "the objections raised"},
+            {"sentence": "The proposal was rejected. That was the expected outcome.", "that": "The rejection of the proposal"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Correct the cohesion error.",
+          "sentences": [
+            {
+              "incorrect": "The team succeeded. These success was due to teamwork.",
+              "correct": "The team succeeded. This success was due to teamwork.",
+              "explanation": "'This' for singular reference, not 'these'"
+            },
+            {
+              "incorrect": "Speed and accuracy matter. The latter is speed.",
+              "correct": "Speed and accuracy matter. The former is essential for productivity; the latter ensures quality.",
+              "explanation": "'The latter' refers to the second item (accuracy), not the first (speed)"
+            },
+            {
+              "incorrect": "The project failed. Such was predicted by experts.",
+              "correct": "The project failed. This was predicted by experts. / Such failure was predicted.",
+              "explanation": "'Such' needs a noun or requires restructuring"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 20,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a coherent paragraph using varied cohesive devices.",
+      "instruction_ru": "Напиши связный абзац, используя разнообразные средства когезии.",
+      "prompts": [
+        "Discuss two contrasting approaches to a problem",
+        "Analyze causes and effects of a phenomenon",
+        "Present arguments for and against an issue",
+        "Summarize a development and its implications"
+      ],
+      "example": "Two approaches to education dominate current debates: traditional and progressive. The former emphasizes discipline and structured learning; the latter prioritizes creativity and student autonomy. Both approaches have their merits. Proponents of traditional methods argue that structure provides essential foundations. This view, however, is contested by progressive educators. They contend that rigid systems stifle innovation. Such disagreements reflect deeper philosophical differences. As noted in recent research, context matters considerably. Consequently, a balanced approach may be most effective. In this regard, many schools are now adopting hybrid models. These combine elements from both traditions, thereby maximizing the benefits of each.",
+      "ai_check": true,
+      "criteria": [
+        "Uses reference words (this, these, such)",
+        "Uses the former/the latter correctly",
+        "Uses conjunctive adverbs appropriately",
+        "Uses meta-discourse markers",
+        "Maintains clear thematic progression",
+        "At least 10 cohesive devices"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with strong cohesion.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Technology Impact",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Automation and AI present both opportunities and threats. The former promises increased efficiency; the latter raises concerns about employment. These technologies are advancing rapidly. Such progress, nevertheless, requires careful management. As discussed in recent reports, transition will be challenging. Consequently, retraining programs are essential. In this regard, governments must take action. This is particularly important for vulnerable workers. Their livelihoods depend on such interventions. Without them, inequality may increase further."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Health Research",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Prevention and treatment represent two healthcare priorities. The former is more cost-effective; the latter, however, receives more funding. This imbalance has historical roots. Such allocation patterns persist despite evidence favoring prevention. As noted by public health experts, change is needed. Consequently, advocacy efforts are increasing. In this regard, recent campaigns show promise. These initiatives highlight the long-term benefits of preventive care. Their message is gradually reaching policymakers. This shift, though slow, may eventually transform healthcare systems."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Educational Reform",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Theory and practice often diverge in education. The former guides policy; the latter reveals implementation challenges. These discrepancies frustrate both teachers and administrators. Such gaps, nevertheless, offer learning opportunities. As observed in case studies, adaptation is key. Consequently, flexibility should be built into reforms. In this regard, pilot programs have proven valuable. They allow testing before wider implementation. This approach reduces risk significantly. Its success depends on gathering and analyzing feedback effectively."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Environmental Policy",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Local and global approaches to environmentalism differ significantly. The former addresses immediate community concerns; the latter tackles planetary-scale issues. Both are necessary. Such complementary efforts, however, require coordination. As emphasized in international agreements, cooperation is essential. Consequently, multi-level governance structures are emerging. In this regard, the Paris Agreement represents progress. It connects national commitments to global goals. This framework, though imperfect, provides a foundation. Its effectiveness depends on implementation and accountability."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Economic Analysis",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Growth and sustainability present a fundamental tension. The former drives development; the latter ensures long-term viability. These objectives need not conflict. Such harmony, nevertheless, requires innovative thinking. As argued by ecological economists, new models are possible. Consequently, circular economy concepts are gaining traction. In this regard, several countries lead the way. Their experiences offer valuable lessons. This evidence suggests that alternative approaches work. Its implications for policy are profound and far-reaching."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "usage",
+          "front": "the former / the latter",
+          "back": "Refers to first/second of two items\n\nSpeed and accuracy: the former saves time; the latter ensures quality."
+        },
+        {
+          "type": "usage",
+          "front": "such + noun",
+          "back": "Refers to previously mentioned type/kind\n\nErrors occurred. Such mistakes are preventable."
+        },
+        {
+          "type": "usage",
+          "front": "As mentioned/noted earlier",
+          "back": "Back-reference to previous text\n\nAs noted earlier, the issue is complex."
+        },
+        {
+          "type": "usage",
+          "front": "Consequently / Therefore",
+          "back": "Shows result of previous statement\n\nResources are limited. Consequently, priorities must be set."
+        },
+        {
+          "type": "usage",
+          "front": "In this regard",
+          "back": "Connects to specific point just made\n\nCooperation is essential. In this regard, recent efforts are promising."
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["fill_gap", "identify_reference", "rewrite", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Confusing the former/the latter",
+      "Using 'this' with plural reference",
+      "Unclear reference with 'it' or 'this'",
+      "Overusing simple connectors"
+    ],
+    "related_topics": ["b2_discourse_markers", "b2_linking_words_advanced"],
+    "ielts_relevance": "Essential for Band 7+ Writing coherence",
+    "cae_relevance": "Writing, Use of English",
+    "frequency_in_english": "Very high in academic/formal writing"
+  }
+}

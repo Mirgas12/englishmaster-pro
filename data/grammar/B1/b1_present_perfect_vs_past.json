@@ -1,0 +1,290 @@
+{
+  "id": "b1_present_perfect_vs_past",
+  "level": "B1",
+  "title": "Present Perfect vs Past Simple",
+  "title_ru": "Present Perfect vs Past Simple",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b1_present_perfect_experience", "a2_past_simple_irregular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this interview. Notice when we use Present Perfect and Past Simple.",
+      "instruction_ru": "Прочитай интервью. Обрати внимание, когда используется Present Perfect и Past Simple.",
+      "content": {
+        "text": "Interviewer: <highlight>Have</highlight> you <highlight>traveled</highlight> much?\\nGuest: Yes, I <highlight>have visited</highlight> 30 countries.\\nInterviewer: Wow! When <highlight>did</highlight> you <highlight>start</highlight> traveling?\\nGuest: I <highlight>started</highlight> when I <highlight>was</highlight> 18.\\nInterviewer: What was your first trip?\\nGuest: I <highlight>went</highlight> to France in 2010.\\nInterviewer: <highlight>Have</highlight> you ever <highlight>had</highlight> any problems?\\nGuest: Yes, I <highlight>lost</highlight> my passport in Thailand last year.\\nInterviewer: That sounds stressful! <highlight>Have</highlight> you <highlight>been</highlight> back to Thailand since then?\\nGuest: No, I <highlight>haven't returned</highlight> yet.",
+        "question": "Why do we switch between these two tenses in the conversation?",
+        "question_ru": "Почему мы переключаемся между этими двумя временами в разговоре?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Perfect vs Past Simple - Choosing the Right Tense",
+        "title_ru": "Present Perfect vs Past Simple - Выбор правильного времени",
+        "points": [
+          {
+            "rule": "Present Perfect: experience without specific time",
+            "rule_ru": "Present Perfect: опыт без указания конкретного времени",
+            "example": "I have visited Paris. (sometime in my life)",
+            "marker": "no specific time"
+          },
+          {
+            "rule": "Past Simple: experience with specific time",
+            "rule_ru": "Past Simple: опыт с указанием конкретного времени",
+            "example": "I visited Paris in 2019. (specific time)",
+            "marker": "specific time"
+          },
+          {
+            "rule": "Present Perfect: connection to now / result visible now",
+            "rule_ru": "Present Perfect: связь с настоящим / результат виден сейчас",
+            "example": "I have lost my keys. (I don't have them now)",
+            "marker": "connected to now"
+          },
+          {
+            "rule": "Past Simple: completed action, no connection to now",
+            "rule_ru": "Past Simple: завершённое действие, нет связи с настоящим",
+            "example": "I lost my keys yesterday. (past event)",
+            "marker": "past only"
+          },
+          {
+            "rule": "Question pattern: PP for general → PS for details",
+            "rule_ru": "Шаблон вопросов: PP для общего → PS для деталей",
+            "example": "Have you been to Italy? - Yes. When did you go? - Last summer.",
+            "marker": "general → specific"
+          }
+        ],
+        "comparison_table": [
+          {"aspect": "Time", "present_perfect": "No specific time", "past_simple": "Specific time (in 2020, yesterday)"},
+          {"aspect": "Connection", "present_perfect": "Connected to now", "past_simple": "Finished, in the past"},
+          {"aspect": "Time words", "present_perfect": "ever, never, yet, already, just", "past_simple": "yesterday, last week, in 2020, ago"},
+          {"aspect": "Focus", "present_perfect": "Experience/result", "past_simple": "When/how it happened"},
+          {"aspect": "Follow-up", "present_perfect": "Often leads to Past Simple details", "past_simple": "Tells the story"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify why Present Perfect or Past Simple is used in each case.",
+      "instruction_ru": "Определи, почему используется Present Perfect или Past Simple в каждом случае.",
+      "tasks": [
+        {
+          "text": "A: Have you ever been to Japan?\nB: Yes, I have. I went there in 2018.\nA: What did you do there?\nB: I visited Tokyo and Kyoto. I have never seen such beautiful temples!\nA: How long did you stay?\nB: I stayed for two weeks. It was amazing. Have you ever tried Japanese food?\nA: Yes, I have eaten sushi many times. I first tried it when I was 15.\nB: Did you like it?\nA: I loved it! I have been a fan of Japanese cuisine since then.",
+          "find": [
+            {"verb": "Have you ever been", "tense": "PP", "reason": "asking about general experience"},
+            {"verb": "I went", "tense": "PS", "reason": "specific time (2018)"},
+            {"verb": "did you do", "tense": "PS", "reason": "asking about specific trip"},
+            {"verb": "I visited", "tense": "PS", "reason": "actions during the trip"},
+            {"verb": "have never seen", "tense": "PP", "reason": "life experience"},
+            {"verb": "did you stay", "tense": "PS", "reason": "specific duration of trip"},
+            {"verb": "I stayed", "tense": "PS", "reason": "specific time period"},
+            {"verb": "Have you ever tried", "tense": "PP", "reason": "general experience question"},
+            {"verb": "have eaten", "tense": "PP", "reason": "experience without specific time"},
+            {"verb": "tried", "tense": "PS", "reason": "first time = specific moment"},
+            {"verb": "Did you like", "tense": "PS", "reason": "reaction at that specific time"},
+            {"verb": "have been", "tense": "PP", "reason": "since then = up to now"}
+          ]
+        }
+      ],
+      "reflection_question": "Why can we say 'I have been to Paris' but we must say 'I went to Paris last year'?",
+      "reflection_question_ru": "Почему мы можем сказать 'I have been to Paris', но должны сказать 'I went to Paris last year'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Present Perfect or Past Simple.",
+          "sentences": [
+            {"sentence": "___ you ever ___ (be) to New York?", "answer": "Have, been"},
+            {"sentence": "Yes, I ___ (go) there in 2019.", "answer": "went"},
+            {"sentence": "She ___ (not/finish) her homework yet.", "answer": "hasn't finished"},
+            {"sentence": "They ___ (move) to London last month.", "answer": "moved"},
+            {"sentence": "I ___ (see) that movie three times.", "answer": "have seen"},
+            {"sentence": "When ___ he ___ (start) working here?", "answer": "did, start"},
+            {"sentence": "I ___ (lose) my wallet. Can you help me find it?", "answer": "have lost"},
+            {"sentence": "She ___ (break) her leg last winter.", "answer": "broke"},
+            {"sentence": "___ you ___ (speak) to the manager yet?", "answer": "Have, spoken"},
+            {"sentence": "We ___ (meet) for the first time in 2015.", "answer": "met"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct tense.",
+          "questions": [
+            {
+              "sentence": "I ___ my keys. I can't find them anywhere!",
+              "options": ["lost", "have lost", "was losing"],
+              "correct": 1,
+              "explanation": "Result now = Present Perfect"
+            },
+            {
+              "sentence": "She ___ to three different schools before she was 18.",
+              "options": ["has gone", "went", "has been"],
+              "correct": 1,
+              "explanation": "Specific period in past = Past Simple"
+            },
+            {
+              "sentence": "___ you ever ___ Mexican food?",
+              "options": ["Did / try", "Have / tried", "Did / tried"],
+              "correct": 1,
+              "explanation": "Ever = life experience = Present Perfect"
+            },
+            {
+              "sentence": "I ___ him at the party last night.",
+              "options": ["have met", "met", "have meet"],
+              "correct": 1,
+              "explanation": "Last night = specific time = Past Simple"
+            },
+            {
+              "sentence": "They ___ married for 20 years.",
+              "options": ["were", "have been", "are"],
+              "correct": 1,
+              "explanation": "For + period up to now = Present Perfect"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I have seen him yesterday.",
+              "correct": "I saw him yesterday.",
+              "explanation": "Yesterday = specific time = Past Simple"
+            },
+            {
+              "incorrect": "Did you ever be to Australia?",
+              "correct": "Have you ever been to Australia?",
+              "explanation": "Ever = life experience = Present Perfect"
+            },
+            {
+              "incorrect": "She worked here since 2018.",
+              "correct": "She has worked here since 2018.",
+              "explanation": "Since = up to now = Present Perfect"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a conversation using both Present Perfect and Past Simple.",
+      "instruction_ru": "Напиши диалог, используя оба времени: Present Perfect и Past Simple.",
+      "prompts": [
+        "Interview someone about their travel experiences",
+        "Talk about jobs you have had and when you had them",
+        "Discuss movies you have seen and when you saw them",
+        "Share life achievements and when they happened"
+      ],
+      "example": "A: Have you ever worked abroad?\nB: Yes, I have. I worked in Germany for two years.\nA: When did you move there?\nB: I moved there in 2017.\nA: What did you do there?\nB: I taught English at a language school.\nA: Have you ever thought about going back?\nB: Yes, I have thought about it many times. I really enjoyed my time there. I made great friends and learned a lot. Since I came back, I have missed it!",
+      "ai_check": true,
+      "criteria": [
+        "Uses Present Perfect for experiences without specific time",
+        "Uses Past Simple for specific times and details",
+        "Natural switching between tenses",
+        "At least 8 exchanges"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 dialogues with both tenses.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Job Interview",
+          "level": "B1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Interviewer: Have you worked in sales before? Candidate: Yes, I have worked in sales for five years. Interviewer: Where did you work? Candidate: I worked at ABC Company. I started there in 2019. Interviewer: Why did you leave? Candidate: The company closed last year. Interviewer: Have you ever managed a team? Candidate: Yes, I have. I managed 10 people at my last job. Interviewer: What was your biggest achievement? Candidate: I increased sales by 50% in one year."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Old Friends",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "A: I haven't seen you in ages! How have you been? B: I've been great! I got married last year. A: Congratulations! Have you moved? B: Yes, we bought a house in the suburbs. A: When did you move? B: We moved in June. Have you ever visited our area? A: No, I haven't. But I heard it's nice. B: It is! We have been very happy since we moved there. You should visit sometime!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Movie Night",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "A: Have you seen the new Spider-Man movie? B: Yes, I watched it last weekend. A: Did you like it? B: I loved it! It was amazing. Have you seen it? A: No, I haven't had time yet. B: You should go! I've seen all the Spider-Man movies. A: When did you become such a big fan? B: I first saw Spider-Man when I was 10. Since then, I have been obsessed!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Learning Languages",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Teacher: Have you studied English before? Student: Yes, I have studied it for three years. Teacher: Where did you learn? Student: I went to a language school in my city. Teacher: Have you ever lived in an English-speaking country? Student: No, I haven't. But I visited London last summer. Teacher: How was it? Student: It was great! I have wanted to go back since then. My English improved a lot during that trip."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Career Change",
+          "level": "B1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "A: Have you always been a teacher? B: No, I haven't. I used to be an engineer. A: Really? When did you change careers? B: I made the switch five years ago. A: Why did you decide to change? B: I wasn't happy. Have you ever felt stuck in a job? A: Yes, I have felt that way before. B: Exactly! So I went back to school and got my teaching degree. It was the best decision I have ever made!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "choose",
+          "front": "I ___ to Paris.\n(have been / went) - no time given",
+          "back": "have been\n\nNo specific time = PP"
+        },
+        {
+          "type": "choose",
+          "front": "I ___ there in 2020.\n(have been / went)",
+          "back": "went\n\nIn 2020 = specific time = PS"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ you ever ___ (try) sushi?",
+          "back": "Have / tried\n\nEver = life experience = PP"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I have met him last week.\"",
+          "back": "I met him last week.\n\nLast week = specific time = PS"
+        },
+        {
+          "type": "choose",
+          "front": "She ___ here since 2015.\n(worked / has worked)",
+          "back": "has worked\n\nSince = up to now = PP"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using Present Perfect with specific past times",
+      "Using Past Simple with 'ever' or 'never'",
+      "Not switching to Past Simple for details",
+      "Confusing 'been' and 'gone'"
+    ],
+    "related_topics": ["b1_present_perfect_experience", "b1_present_perfect_unfinished", "a2_past_simple_irregular"],
+    "ielts_relevance": "Critical - tested directly in all parts",
+    "frequency_in_english": "Very high"
+  }
+}

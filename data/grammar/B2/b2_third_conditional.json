@@ -1,0 +1,256 @@
+{
+  "id": "b2_third_conditional",
+  "level": "B2",
+  "title": "Third Conditional",
+  "title_ru": "Третий тип условных предложений",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b1_second_conditional"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about past regrets and hypothetical outcomes. Notice the verb forms.",
+      "instruction_ru": "Прочитай о сожалениях и гипотетических результатах в прошлом. Обрати внимание на формы глаголов.",
+      "content": {
+        "text": "Looking back, I have many regrets. <highlight>If I had studied</highlight> harder, I <highlight>would have passed</highlight> the exam. <highlight>If I hadn't overslept</highlight>, I <highlight>wouldn't have missed</highlight> the interview. My friend says, '<highlight>If you had told</highlight> me about the problem, I <highlight>would have helped</highlight> you.' <highlight>If we had known</highlight> about the traffic, we <highlight>could have left</highlight> earlier. <highlight>If she hadn't made</highlight> that decision, her life <highlight>might have been</highlight> completely different. What <highlight>would have happened</highlight> <highlight>if we had never met</highlight>?",
+        "question": "What time are we talking about? Can we change these situations now?",
+        "question_ru": "О каком времени мы говорим? Можем ли мы изменить эти ситуации сейчас?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Third Conditional - Imaginary Past",
+        "title_ru": "Третий тип условных - Воображаемое прошлое",
+        "points": [
+          {
+            "rule": "Form: If + had + past participle, would have + past participle",
+            "rule_ru": "Форма: If + had + причастие прош. вр., would have + причастие прош. вр.",
+            "example": "If I had known, I would have told you.",
+            "marker": "if had + V3, would have + V3"
+          },
+          {
+            "rule": "Use: Imaginary/unreal situations in the PAST (too late to change)",
+            "rule_ru": "Использование: Воображаемые/нереальные ситуации в ПРОШЛОМ (уже поздно менять)",
+            "example": "If I had won the lottery, I would have bought a house. (I didn't win)",
+            "marker": "unreal past"
+          },
+          {
+            "rule": "Often expresses regret or criticism",
+            "rule_ru": "Часто выражает сожаление или критику",
+            "example": "If you had listened, this wouldn't have happened!",
+            "marker": "regret"
+          },
+          {
+            "rule": "would have can be replaced by could have, might have",
+            "rule_ru": "would have можно заменить на could have, might have",
+            "example": "If I had tried, I could have succeeded. (ability) / I might have succeeded. (possibility)",
+            "marker": "could/might have"
+          },
+          {
+            "rule": "Contractions: I'd = I had / I would (context determines)",
+            "rule_ru": "Сокращения: I'd = I had / I would (контекст определяет)",
+            "example": "If I'd known (had), I'd have told you (would).",
+            "marker": "contractions"
+          }
+        ],
+        "comparison_table": [
+          {"conditional": "Second", "time": "Present/Future (unreal)", "if_clause": "If + Past Simple", "result": "would + infinitive", "example": "If I had money, I would travel."},
+          {"conditional": "Third", "time": "Past (unreal)", "if_clause": "If + Past Perfect", "result": "would have + V3", "example": "If I had had money, I would have traveled."},
+          {"third_form": "Positive", "structure": "If + had + V3, would have + V3", "example": "If he had asked, I would have helped."},
+          {"third_form": "Negative", "structure": "If + hadn't + V3, wouldn't have + V3", "example": "If I hadn't seen it, I wouldn't have believed it."}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all third conditionals. What was the reality vs. the hypothetical?",
+      "instruction_ru": "Найди все условные предложения третьего типа. Какова была реальность vs. гипотеза?",
+      "tasks": [
+        {
+          "text": "The accident report:\n\nThe driver was speeding. If he had driven slower, he would have had more time to react. He wasn't wearing a seatbelt. If he had worn his seatbelt, he might have avoided serious injury. The road was wet, but he didn't slow down. If he had been more careful, this wouldn't have happened. The other driver ran a red light. If she had stopped, there wouldn't have been a collision. Witnesses said if they had called earlier, help could have arrived sooner. The police concluded that if both drivers had followed the rules, no one would have been hurt.",
+          "find": [
+            {"condition": "If he had driven slower", "result": "would have had more time", "reality": "He was speeding"},
+            {"condition": "If he had worn his seatbelt", "result": "might have avoided injury", "reality": "He wasn't wearing one"},
+            {"condition": "If he had been more careful", "result": "this wouldn't have happened", "reality": "He wasn't careful"},
+            {"condition": "If she had stopped", "result": "wouldn't have been a collision", "reality": "She ran the red light"},
+            {"condition": "if they had called earlier", "result": "help could have arrived sooner", "reality": "They called late"},
+            {"condition": "if both drivers had followed the rules", "result": "no one would have been hurt", "reality": "They didn't follow rules"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is the third conditional sometimes called the 'conditional of regret'?",
+      "reflection_question_ru": "Почему третий тип условных иногда называют 'условным сожаления'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the third conditional sentences.",
+          "sentences": [
+            {"sentence": "If I ___ (know) you were ill, I ___ (visit) you.", "answer": "had known, would have visited"},
+            {"sentence": "She ___ (not/miss) the bus if she ___ (leave) earlier.", "answer": "wouldn't have missed, had left"},
+            {"sentence": "If they ___ (invite) me, I ___ (go) to the party.", "answer": "had invited, would have gone"},
+            {"sentence": "We ___ (get) lost if we ___ (not/have) a map.", "answer": "would have gotten, hadn't had"},
+            {"sentence": "If he ___ (study), he ___ (pass) the exam.", "answer": "had studied, would have passed"},
+            {"sentence": "I ___ (not/buy) this car if I ___ (know) about the problems.", "answer": "wouldn't have bought, had known"},
+            {"sentence": "If the weather ___ (be) better, we ___ (go) to the beach.", "answer": "had been, would have gone"},
+            {"sentence": "She ___ (can/become) a doctor if she ___ (not/give up).", "answer": "could have become, hadn't given up"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Write third conditional sentences based on these facts.",
+          "sentences": [
+            {"fact": "I didn't see the sign, so I made a wrong turn.", "conditional": "If I had seen the sign, I wouldn't have made a wrong turn."},
+            {"fact": "She didn't take her umbrella, so she got wet.", "conditional": "If she had taken her umbrella, she wouldn't have gotten wet."},
+            {"fact": "He didn't save his work, so he lost everything.", "conditional": "If he had saved his work, he wouldn't have lost everything."},
+            {"fact": "We didn't book early, so the hotel was full.", "conditional": "If we had booked early, the hotel wouldn't have been full."},
+            {"fact": "They were late, so they missed the beginning.", "conditional": "If they hadn't been late, they wouldn't have missed the beginning."}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "If I would have known, I would have helped.",
+              "correct": "If I had known, I would have helped.",
+              "explanation": "If-clause uses 'had', not 'would have'"
+            },
+            {
+              "incorrect": "If she had studied, she would passed.",
+              "correct": "If she had studied, she would have passed.",
+              "explanation": "Need 'have' after 'would'"
+            },
+            {
+              "incorrect": "If I had saw him, I would have said hello.",
+              "correct": "If I had seen him, I would have said hello.",
+              "explanation": "Had + past participle (seen, not saw)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about past regrets or hypothetical past situations using third conditional.",
+      "instruction_ru": "Напиши о сожалениях или гипотетических ситуациях в прошлом, используя третий тип условных.",
+      "prompts": [
+        "Write about decisions you regret",
+        "What would have been different if you had made other choices?",
+        "Write about a historical 'what if' scenario",
+        "Describe how your life might have been different"
+      ],
+      "example": "Looking back at my life, I sometimes wonder about different paths. If I had studied medicine instead of business, I might have become a doctor. If I had stayed in my hometown, I would have been closer to my family. But then, if I hadn't moved to the city, I wouldn't have met my wife! If I had known how important languages were, I would have studied more in school. If my parents hadn't encouraged me to travel, I might never have seen the world. Every choice matters. If I had made different decisions, my life could have been completely different - but I'm happy with where I am now!",
+      "ai_check": true,
+      "criteria": [
+        "Uses if + had + V3 in condition clause",
+        "Uses would/could/might + have + V3 in result clause",
+        "Talks about unreal past situations",
+        "At least 6 third conditional sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with third conditional.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "The Job Interview",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The interview was a disaster. If I had prepared better, I would have answered more confidently. If I hadn't been so nervous, I wouldn't have forgotten my examples. The interviewer asked about my weaknesses - if I had practiced that question, I would have had a better answer. If I had arrived earlier, I wouldn't have been stressed. If I had researched the company more, I could have asked better questions. But it's done now. If only I had known how important preparation was!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Historical What-Ifs",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "History is full of 'what ifs.' If the Titanic had had more lifeboats, more passengers would have survived. If Kennedy hadn't gone to Dallas, he might not have been assassinated. If the internet hadn't been invented, communication would have been completely different. If Alexander the Great hadn't died young, he might have conquered even more territory. If the printing press hadn't been created, education wouldn't have spread so quickly. These events shaped our world!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Relationship Regrets",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "After the breakup, I had many thoughts. If I had listened more, we might have understood each other better. If I hadn't worked so much, I would have had more time for us. If we had communicated openly, we could have solved our problems. If I had shown my feelings, she wouldn't have felt ignored. If we had met at a different time, things might have worked out. If I had known then what I know now, I would have done things differently."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Business Failure",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Our startup failed, and we analyzed what went wrong. If we had done more market research, we would have known there was no demand. If we had hired experienced advisors, we could have avoided basic mistakes. If we hadn't spent so much on marketing so early, we would have had more runway. If we had listened to customer feedback, we might have pivoted successfully. If we had raised more funding, we would have survived longer. Valuable lessons learned!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Life Choices",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Sometimes I think about alternative paths. If I had gone to a different university, I would have met different people. If I had accepted that job abroad, my career might have been very different. If I hadn't met my partner at that party, we wouldn't be together now. If my parents had stayed in their country, I wouldn't have grown up here. If I hadn't taken that risk, I wouldn't have this opportunity. Every 'if' led me here."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "If I ___ (know), I would have told you.",
+          "back": "had known\n\nif + had + V3"
+        },
+        {
+          "type": "fill_gap",
+          "front": "If she had asked, I ___ (help).",
+          "back": "would have helped\n\nwould have + V3"
+        },
+        {
+          "type": "transformation",
+          "front": "I didn't study, so I failed.\nRewrite as third conditional:",
+          "back": "If I had studied, I wouldn't have failed."
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"If I would have seen it, I would have told you.\"",
+          "back": "If I had seen it, I would have told you.\n\nNo 'would' in if-clause"
+        },
+        {
+          "type": "choose",
+          "front": "If he ___ careful, he wouldn't have fallen.\n(was / had been)",
+          "back": "had been\n\nThird conditional = past perfect"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "transformation", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'would have' in the if-clause",
+      "Forgetting 'have' (would passed)",
+      "Using past simple instead of past perfect",
+      "Mixing second and third conditional"
+    ],
+    "related_topics": ["b1_second_conditional", "b2_mixed_conditionals"],
+    "ielts_relevance": "Very high - Speaking Part 3, Writing Task 2",
+    "frequency_in_english": "High"
+  }
+}

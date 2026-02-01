@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_15",
+  "level": "B1",
+  "title": "The Sharing Economy",
+  "title_ru": "Экономика совместного потребления",
+  "word_count": 230,
+  "topic": "economy",
+  "text": "The sharing economy has transformed how we access goods and services. Instead of owning everything ourselves, we increasingly share, rent, or borrow from others. Platforms like Airbnb, Uber, and TaskRabbit have made this easier than ever before.\n\nThe concept is simple: people with spare capacity – an extra room, a car sitting idle, free time – can earn money by sharing these resources with others. Consumers benefit from lower prices and more choices. Someone might stay in a local apartment instead of an expensive hotel, or hire a neighbor to help with household tasks.\n\nEnvironmentally, the sharing economy makes sense. Sharing resources means fewer things need to be produced. Car-sharing services reduce the number of vehicles on the road. Tool libraries allow people to borrow rarely-used items rather than buying them.\n\nHowever, the sharing economy has faced criticism. It often operates in regulatory gray areas, disrupting traditional industries. Taxi drivers complain about competition from ride-sharing apps. Hotels worry about unlicensed short-term rentals. There are also concerns about worker protections for gig economy participants.\n\nThe pandemic affected different parts of the sharing economy differently. Services requiring physical proximity, like ride-sharing, initially declined. But others, like equipment rental for home projects, actually grew as people spent more time at home.\n\nDespite challenges, the sharing economy continues to evolve. As technology improves and attitudes change, sharing resources is likely to become even more common in the future.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is NOT an example of sharing economy?", "options": ["Airbnb", "Traditional hotels", "Uber"], "correct": 1},
+    {"type": "multiple_choice", "question": "What environmental benefit does sharing offer?", "options": ["More production", "Fewer things produced", "More packaging"], "correct": 1},
+    {"type": "true_false", "question": "Traditional industries support the sharing economy.", "correct": false},
+    {"type": "true_false", "question": "Car-sharing reduces vehicles on roads.", "correct": true},
+    {"type": "fill_gap", "question": "The sharing economy often operates in regulatory gray ___.", "answer": "areas"}
+  ],
+  "vocabulary": ["sharing economy", "platform", "gig economy", "regulatory", "proximity"],
+  "grammar_focus": ["present_perfect", "present_simple"]
+}

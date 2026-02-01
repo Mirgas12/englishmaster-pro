@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_07",
+  "level": "B2",
+  "title": "The Ethics of Genetic Engineering",
+  "title_ru": "Этика генной инженерии",
+  "media_type": "audio",
+  "duration_seconds": 115,
+  "description": "Debate about genetic modification",
+  "transcript": "CRISPR technology has made genetic editing faster, cheaper, and more precise than ever before. We can now modify genes to cure inherited diseases, enhance crop yields, and potentially reshape human evolution itself. These capabilities raise profound ethical questions. On the therapeutic side, few object to correcting genetic disorders that cause suffering. If we can eliminate Huntington's disease or sickle cell anemia, shouldn't we? But the line between treatment and enhancement blurs quickly. What about genes associated with height, intelligence, or athletic ability? Would genetic enhancement create new forms of inequality, dividing humanity into enhanced and unenhanced populations? Germline editing – changes passed to future generations – introduces additional concerns. We would be making irreversible decisions for people who cannot consent. Unforeseen consequences might emerge across generations. Some scientists advocate a moratorium until we better understand the implications. Then there's the question of biodiversity. Engineering crops for higher yields might reduce genetic diversity, making food systems more vulnerable to disease. Releasing genetically modified organisms into wild populations could have unpredictable ecological effects. As our technological capabilities expand, so must our ethical frameworks for guiding their use.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What has CRISPR made possible?", "options": ["Space travel", "Fast genetic editing", "Artificial intelligence"], "correct": 1},
+    {"type": "multiple_choice", "question": "What are changes passed to future generations called?", "options": ["Somatic editing", "Germline editing", "Gene therapy"], "correct": 1},
+    {"type": "true_false", "question": "The line between treatment and enhancement is always clear.", "correct": false},
+    {"type": "true_false", "question": "Engineering crops might reduce genetic diversity.", "correct": true},
+    {"type": "fill_gap", "question": "Some scientists advocate a ___ until we understand the implications.", "answer": "moratorium"}
+  ],
+  "vocabulary": ["therapeutic", "enhancement", "germline", "moratorium", "biodiversity"],
+  "key_phrases": ["profound ethical questions", "the line blurs quickly", "irreversible decisions", "ethical frameworks"]
+}

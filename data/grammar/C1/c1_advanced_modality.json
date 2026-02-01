@@ -1,0 +1,290 @@
+{
+  "id": "c1_advanced_modality",
+  "level": "C1",
+  "title": "Advanced Modality",
+  "title_ru": "Продвинутая модальность",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_modals_past_deduction", "b2_subjunctive"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this analysis of possibilities. Notice the nuanced modal expressions.",
+      "instruction_ru": "Прочитай этот анализ возможностей. Обрати внимание на нюансированные модальные выражения.",
+      "content": {
+        "text": "The incident <highlight>need not have happened</highlight> had precautions been taken. Officials <highlight>would have been aware</highlight> of the risks. They <highlight>should have anticipated</highlight> the consequences. <highlight>You might have thought</highlight> that lessons would be learned. <highlight>Could there have been</highlight> a cover-up? <highlight>It may well be</highlight> that warnings were ignored. <highlight>They were to have met</highlight> yesterday, but circumstances prevented it. <highlight>He would insist on</highlight> ignoring advice. <highlight>You will have noticed</highlight> the pattern by now. <highlight>This is bound to</highlight> cause controversy.",
+        "question": "How do these modal expressions convey subtle shades of meaning?",
+        "question_ru": "Как эти модальные выражения передают тонкие оттенки значения?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Sophisticated Modal Constructions",
+        "title_ru": "Изощрённые модальные конструкции",
+        "points": [
+          {
+            "rule": "need not have + V3: unnecessary past action that was done",
+            "rule_ru": "need not have + V3: ненужное прошлое действие, которое было сделано",
+            "example": "You needn't have worried. (You worried, but it wasn't necessary)",
+            "marker": "needn't have"
+          },
+          {
+            "rule": "would + have + V3 in conditionals and speculation",
+            "rule_ru": "would + have + V3 в условных и предположениях",
+            "example": "They would have known. (In those circumstances, they knew)",
+            "marker": "would have"
+          },
+          {
+            "rule": "may/might well + V: emphasizes probability",
+            "rule_ru": "may/might well + V: усиливает вероятность",
+            "example": "He may well be right. (It's quite likely he's right)",
+            "marker": "may/might well"
+          },
+          {
+            "rule": "be to have + V3: unfulfilled arrangements",
+            "rule_ru": "be to have + V3: невыполненные договорённости",
+            "example": "We were to have met, but she cancelled. (The meeting was arranged but didn't happen)",
+            "marker": "was/were to have"
+          },
+          {
+            "rule": "will/would + insist on/keep + -ing: habitual irritating behavior",
+            "rule_ru": "will/would + insist on/keep + -ing: привычное раздражающее поведение",
+            "example": "He will insist on interrupting. (He always does this annoyingly)",
+            "marker": "will/would insist"
+          }
+        ],
+        "comparison_table": [
+          {"form": "needn't have done", "meaning": "Did it, but wasn't necessary", "example": "You needn't have paid. (You paid, but didn't need to)"},
+          {"form": "didn't need to do", "meaning": "Wasn't necessary (didn't do)", "example": "I didn't need to wait. (It wasn't necessary, so I didn't)"},
+          {"form": "may well be", "meaning": "It's quite likely", "example": "That may well be true."},
+          {"form": "might well have been", "meaning": "Was quite possibly", "example": "He might well have forgotten."},
+          {"form": "was to have done", "meaning": "Was arranged but didn't happen", "example": "We were to have dined together."},
+          {"form": "would keep doing", "meaning": "Kept doing (annoying habit)", "example": "She would keep asking questions."},
+          {"form": "will have noticed", "meaning": "Assumed completed action", "example": "You will have seen the news."}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the modal construction and its precise meaning.",
+      "instruction_ru": "Определи модальную конструкцию и её точное значение.",
+      "tasks": [
+        {
+          "text": "Complex situations:\n\n1. You needn't have brought a gift – we already have too many.\n2. They would have been aware of the regulations.\n3. She may well decide to resign after this.\n4. The conference was to have taken place in Paris.\n5. He will insist on checking everything twice.\n6. You will have heard about the merger by now.\n7. It might well have been a misunderstanding.\n8. The train was to have arrived at noon.\n9. She would keep making the same mistake.\n10. This need not have happened if we had been careful.",
+          "find": [
+            {"sentence": 1, "form": "needn't have brought", "meaning": "You brought it, but it wasn't necessary"},
+            {"sentence": 2, "form": "would have been aware", "meaning": "In that situation, they certainly knew"},
+            {"sentence": 3, "form": "may well decide", "meaning": "It's quite likely she'll decide"},
+            {"sentence": 4, "form": "was to have taken place", "meaning": "It was arranged but didn't happen"},
+            {"sentence": 5, "form": "will insist on", "meaning": "He always does this (habit, slightly annoying)"},
+            {"sentence": 6, "form": "will have heard", "meaning": "I assume you have heard by now"},
+            {"sentence": 7, "form": "might well have been", "meaning": "It was quite possibly"},
+            {"sentence": 8, "form": "was to have arrived", "meaning": "Was scheduled but didn't"},
+            {"sentence": 9, "form": "would keep making", "meaning": "Kept making (habitual, annoying)"},
+            {"sentence": 10, "form": "need not have happened", "meaning": "It happened, but wasn't necessary"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'needn't have done' and 'didn't need to do'?",
+      "reflection_question_ru": "В чём разница между 'needn't have done' и 'didn't need to do'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "choose_meaning",
+          "instruction": "Choose the sentence that matches the meaning.",
+          "questions": [
+            {
+              "meaning": "You paid for the ticket, but it was free.",
+              "options": ["You didn't need to pay", "You needn't have paid", "You couldn't have paid"],
+              "correct": 1,
+              "explanation": "Needn't have = did it, but wasn't necessary"
+            },
+            {
+              "meaning": "The meeting was scheduled but then cancelled.",
+              "options": ["The meeting should have been held", "The meeting was to have been held", "The meeting must have been held"],
+              "correct": 1,
+              "explanation": "Was to have = arranged but didn't happen"
+            },
+            {
+              "meaning": "He has an annoying habit of interrupting.",
+              "options": ["He might interrupt", "He will insist on interrupting", "He should interrupt"],
+              "correct": 1,
+              "explanation": "Will insist on = annoying habitual behavior"
+            }
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct modal construction.",
+          "sentences": [
+            {"sentence": "You ___ ___ ___ (not need/come) – I could have managed alone.", "answer": "needn't have come"},
+            {"sentence": "They ___ ___ (may/well) refuse the offer.", "answer": "may well"},
+            {"sentence": "The ceremony ___ ___ ___ ___ (be/to/take) place outdoors, but it rained.", "answer": "was to have taken"},
+            {"sentence": "She ___ ___ on criticizing everything. (annoying habit)", "answer": "will insist / would insist"},
+            {"sentence": "You ___ ___ ___ the announcement by now. (assume)", "answer": "will have heard"},
+            {"sentence": "It ___ ___ ___ (might/well) been him who called.", "answer": "might well have"},
+            {"sentence": "This accident ___ ___ ___ (not need) happen.", "answer": "need not have happened"},
+            {"sentence": "The guests ___ ___ ___ (be/to/arrive) yesterday.", "answer": "were to have arrived"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using the modal construction in brackets.",
+          "sentences": [
+            {"original": "You bought too much food – we didn't need it. (needn't have)", "transformed": "You needn't have bought so much food."},
+            {"original": "It's quite likely he forgot. (may well)", "transformed": "He may well have forgotten."},
+            {"original": "The event was scheduled for May but was cancelled. (was to have)", "transformed": "The event was to have taken place in May."},
+            {"original": "He always keeps asking annoying questions. (will insist)", "transformed": "He will insist on asking questions."},
+            {"original": "I assume you have read the report. (will have)", "transformed": "You will have read the report."}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the modal error.",
+          "sentences": [
+            {
+              "incorrect": "You needn't to have called – I was about to call you.",
+              "correct": "You needn't have called – I was about to call you.",
+              "explanation": "Needn't have + past participle (no 'to')"
+            },
+            {
+              "incorrect": "The conference was to take place last week but was cancelled.",
+              "correct": "The conference was to have taken place last week but was cancelled.",
+              "explanation": "Was to have + past participle for unfulfilled arrangements"
+            },
+            {
+              "incorrect": "He may well being right about this.",
+              "correct": "He may well be right about this.",
+              "explanation": "May well + base form"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 21,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about a situation involving unfulfilled plans, unnecessary actions, and speculation.",
+      "instruction_ru": "Напиши о ситуации с невыполненными планами, ненужными действиями и предположениями.",
+      "prompts": [
+        "Describe an event that didn't go as planned",
+        "Write about things people did unnecessarily",
+        "Speculate about what might have happened",
+        "Discuss someone's annoying habits"
+      ],
+      "example": "The conference was to have been our biggest event ever. We needn't have booked such a large venue – attendance was lower than expected. The keynote speaker may well have been disappointed, as she had prepared extensively. Certain colleagues would insist on making last-minute changes, which added unnecessary stress. You will have noticed that the timing was problematic. The event might well have succeeded under different circumstances. It need not have been a failure had we planned more carefully. Some participants needn't have traveled so far – they could have joined virtually. This was to have been a turning point, but we learned valuable lessons nonetheless.",
+      "ai_check": true,
+      "criteria": [
+        "Uses needn't have for unnecessary past actions",
+        "Uses was/were to have for unfulfilled arrangements",
+        "Uses may/might well for emphasized probability",
+        "Uses will/would insist for habitual behavior",
+        "Uses will have for assumed completion",
+        "At least 6 different advanced modal constructions"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with advanced modal constructions.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Project Post-Mortem",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The launch was to have taken place in March. We needn't have rushed the development phase. Management may well have underestimated the complexity. They would insist on adding features at the last moment. You will have noticed the pattern in previous projects. The deadline might well have been unrealistic from the start. This delay need not have happened with better planning. The team needn't have worked such long hours. We were to have celebrated the launch today. Lessons may well be learned from this experience."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Travel Complications",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The flight was to have departed at noon but was cancelled. I needn't have arrived at the airport so early. The weather may well have been the main cause. You will have experienced similar frustrations. Airlines would insist on providing minimal information. The delay might well have been avoided with better forecasting. We were to have arrived by evening. This situation need not have occurred with modern technology. I needn't have booked a hotel for that night. Things may well improve with better communication."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Academic Reflection",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The study was to have included more participants. We needn't have limited the scope so drastically. The results may well have been different with a larger sample. Reviewers would insist on additional data. You will have noticed the methodology section addresses this. The conclusions might well have been stronger otherwise. This limitation need not have occurred with more funding. We needn't have excluded certain variables. The research was to have been completed last year. Better outcomes may well follow from future work."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Personal Narrative",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The wedding was to have been in June. We needn't have worried about the weather. My mother would insist on inviting distant relatives. The venue may well have been too small anyway. You will have heard about the complications. Things might well have worked out differently. This stress need not have happened with simpler plans. We needn't have spent so much on decorations. The celebration was to have continued all weekend. Perhaps it may well all be for the best."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Historical Analysis",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "The treaty was to have prevented further conflict. Leaders needn't have made so many concessions. Public opinion may well have influenced decisions. Certain ministers would insist on aggressive policies. You will have read about the consequences. The war might well have been avoided. This tragedy need not have occurred with wiser leadership. Diplomats needn't have abandoned negotiations so quickly. Peace was to have been established permanently. History may well judge this period harshly."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "meaning",
+          "front": "You needn't have done it.",
+          "back": "You did it, but it wasn't necessary.\n\nI needn't have bought the tickets – they were free."
+        },
+        {
+          "type": "meaning",
+          "front": "was/were to have + V3",
+          "back": "Was arranged/scheduled but didn't happen.\n\nWe were to have met, but she cancelled."
+        },
+        {
+          "type": "meaning",
+          "front": "may/might well + V",
+          "back": "It's quite likely that...\n\nHe may well be right."
+        },
+        {
+          "type": "meaning",
+          "front": "will/would insist on + -ing",
+          "back": "Always does something (annoying habit)\n\nShe will insist on checking everything."
+        },
+        {
+          "type": "contrast",
+          "front": "needn't have done vs didn't need to do",
+          "back": "needn't have = did it unnecessarily\ndidn't need to = didn't do it (wasn't needed)"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["choose_meaning", "fill_gap", "transformation", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Confusing needn't have with didn't need to",
+      "Wrong form after 'was to have'",
+      "Using 'to' after needn't have",
+      "Missing 'have' in complex modals"
+    ],
+    "related_topics": ["b2_modals_past_deduction", "c1_subjunctive_advanced"],
+    "ielts_relevance": "High - sophisticated expression",
+    "cae_relevance": "Use of English, Speaking",
+    "frequency_in_english": "Medium - formal and narrative contexts"
+  }
+}

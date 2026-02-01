@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_14",
+  "level": "A2",
+  "title": "Starting Secondary School",
+  "title_ru": "Начало средней школы",
+  "word_count": 165,
+  "topic": "school",
+  "text": "Starting secondary school was scary but exciting. Everything was new and different. The school building was huge - I got lost three times in the first week! Instead of one teacher, we have different teachers for each subject. My favorite is the science teacher, Mr. Collins. He does cool experiments in class. The lessons are more difficult than primary school, but also more interesting. We have to move between classrooms for each subject, which I like. In primary school, we stayed in one room all day. I made new friends quickly. My closest friend is Omar. He sits next to me in math class. We have lunch together every day. There are also many clubs to join. I joined the chess club and the art club. Secondary school has more homework than before. I have to be more organized now. I use a diary to write down all my homework. Overall, I really like secondary school!",
+  "questions": [
+    {"type": "multiple_choice", "question": "Who is the favorite teacher?", "options": ["Mrs. Smith", "Mr. Collins", "Ms. Brown"], "correct": 1},
+    {"type": "multiple_choice", "question": "Which clubs did the writer join?", "options": ["Football and drama", "Chess and art", "Music and science"], "correct": 1},
+    {"type": "true_false", "question": "The writer never got lost at school.", "correct": false},
+    {"type": "true_false", "question": "Omar sits next to the writer in math.", "correct": true},
+    {"type": "fill_gap", "question": "The writer uses a ___ to write down homework.", "answer": "diary"}
+  ],
+  "vocabulary": ["secondary school", "experiments", "organized", "subjects", "clubs"],
+  "grammar_focus": ["present_simple", "comparatives"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_07",
+  "level": "A2",
+  "title": "Moving to a New House",
+  "title_ru": "Переезд в новый дом",
+  "word_count": 156,
+  "topic": "home",
+  "text": "My family is moving to a new house next month. I have mixed feelings about it. I'm excited because the new house is bigger and has a garden. I've always wanted a garden! But I'm also sad because I'll miss my old neighborhood. I've lived here all my life. My best friend Emma lives next door. We walk to school together every day. In the new house, I'll have my own room. Right now, I share a room with my brother. He's messy and plays loud music. The new house is in a different part of the city, so I'll need to take the bus to school. That's a bit scary, but also exciting. Emma promised to visit me every weekend. Mum says I'll make new friends in the new neighborhood. I hope she's right. Change is difficult, but maybe it will be good.",
+  "questions": [
+    {"type": "multiple_choice", "question": "Why is the writer excited?", "options": ["New school", "Bigger house with garden", "New friends"], "correct": 1},
+    {"type": "multiple_choice", "question": "Who is Emma?", "options": ["Sister", "Best friend", "Cousin"], "correct": 1},
+    {"type": "true_false", "question": "The writer shares a room now.", "correct": true},
+    {"type": "true_false", "question": "The new house is very close to school.", "correct": false},
+    {"type": "fill_gap", "question": "Emma promised to visit every ___.", "answer": "weekend"}
+  ],
+  "vocabulary": ["neighborhood", "excited", "scared", "mixed feelings", "promise"],
+  "grammar_focus": ["future_going_to", "present_perfect"]
+}

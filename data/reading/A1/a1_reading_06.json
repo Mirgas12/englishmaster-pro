@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_06",
+  "level": "A1",
+  "title": "The Weather Today",
+  "title_ru": "Погода сегодня",
+  "word_count": 85,
+  "topic": "weather",
+  "text": "Today the weather is nice. The sun is shining and the sky is blue. It is warm outside. It is 25 degrees. I don't need a jacket. In winter, it is very cold here. It snows a lot. In summer, it is hot and sunny. I like summer best. On rainy days, I stay at home and read books. When it is cloudy, I feel a bit sad. But today is perfect for a walk in the park!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the weather like today?", "options": ["rainy", "nice", "cold"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is the temperature?", "options": ["20 degrees", "25 degrees", "30 degrees"], "correct": 1},
+    {"type": "true_false", "question": "In winter, it rains a lot.", "correct": false},
+    {"type": "true_false", "question": "The writer likes summer best.", "correct": true},
+    {"type": "fill_gap", "question": "On rainy days, the writer stays at home and reads ___.", "answer": "books"}
+  ],
+  "vocabulary": ["weather", "sunny", "rainy", "cloudy", "warm"],
+  "grammar_focus": ["present_continuous", "seasons"]
+}

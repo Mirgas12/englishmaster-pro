@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_13",
+  "level": "B1",
+  "title": "Artificial Intelligence in Daily Life",
+  "title_ru": "Искусственный интеллект в повседневной жизни",
+  "word_count": 235,
+  "topic": "technology",
+  "text": "Artificial intelligence (AI) is no longer science fiction – it's part of our everyday lives. From the moment you ask your phone's voice assistant a question to the personalized recommendations you see on streaming services, AI is working behind the scenes.\n\nOne common application is in virtual assistants like Siri, Alexa, and Google Assistant. These use natural language processing to understand spoken commands and provide helpful responses. They can set reminders, play music, answer questions, and control smart home devices.\n\nAI also powers the recommendation systems that suggest what to watch on Netflix or what products to buy on Amazon. These systems analyze your past behavior to predict what you might like. Social media feeds are curated by algorithms that decide which posts you see.\n\nIn transportation, AI enables navigation apps to predict traffic and suggest optimal routes. Self-driving car technology, though still developing, relies heavily on AI to interpret sensor data and make driving decisions.\n\nHealthcare is another area where AI shows promise. Algorithms can analyze medical images to detect diseases sometimes more accurately than human doctors. AI is also accelerating drug discovery and helping to personalize treatments.\n\nHowever, AI raises important questions about privacy and bias. Systems trained on biased data can perpetuate discrimination. There are also concerns about job displacement as AI automates more tasks.\n\nUnderstanding how AI works and its limitations is becoming an essential skill as these technologies become increasingly central to our lives.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do virtual assistants use to understand speech?", "options": ["Camera recognition", "Natural language processing", "Manual coding"], "correct": 1},
+    {"type": "multiple_choice", "question": "What can AI in healthcare do?", "options": ["Replace all doctors", "Analyze medical images", "Perform surgeries alone"], "correct": 1},
+    {"type": "true_false", "question": "AI systems cannot be biased.", "correct": false},
+    {"type": "true_false", "question": "Navigation apps use AI to predict traffic.", "correct": true},
+    {"type": "fill_gap", "question": "Recommendation systems analyze your past ___ to predict preferences.", "answer": "behavior"}
+  ],
+  "vocabulary": ["artificial intelligence", "algorithm", "virtual assistant", "bias", "automate"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

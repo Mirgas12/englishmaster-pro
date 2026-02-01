@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_14",
+  "level": "B2",
+  "title": "The Economics of Healthcare",
+  "title_ru": "Экономика здравоохранения",
+  "word_count": 305,
+  "topic": "economics",
+  "text": "Healthcare systems around the world face a common challenge: how to provide quality care to all citizens while controlling costs. Different countries have developed strikingly different approaches, each with advantages and drawbacks.\n\nSingle-payer systems, like those in Canada and the UK, have the government as the primary insurer. These achieve universal coverage and lower administrative costs, as there's no need for multiple insurance bureaucracies. However, they can face challenges with wait times for non-emergency procedures and may limit patient choice.\n\nMulti-payer systems with regulated markets, common in continental Europe, feature competing insurers operating under strict government regulations. These often achieve excellent outcomes while maintaining choice, though they can be administratively complex and require careful regulation to function well.\n\nThe United States represents a unique hybrid, combining public programs like Medicare and Medicaid with employer-based private insurance and unsubsidized individual markets. Despite spending far more per capita than any other country, the US achieves worse health outcomes on many measures and leaves millions uninsured or underinsured.\n\nSeveral factors drive healthcare cost inflation. Aging populations require more care. New technologies, while improving outcomes, often increase costs. The complexity of healthcare makes it difficult for patients to make informed choices, limiting market competition. Pharmaceutical pricing remains contentious, with drug companies arguing high prices fund research while critics point to massive profits.\n\nCost control efforts include evidence-based medicine to eliminate ineffective treatments, bundled payments that incentivize efficiency, and preventive care that addresses problems before they become expensive. Digital health tools promise to reduce some costs while improving convenience and outcomes.\n\nNo system perfectly balances access, quality, and cost. Trade-offs are inevitable. But comparing different approaches reveals that universal coverage is achievable at reasonable cost – the challenge is political will rather than inherent impossibility.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is a feature of single-payer systems?", "options": ["Multiple insurance companies", "Government as primary insurer", "No regulation"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does the US healthcare system represent?", "options": ["Single-payer", "Unique hybrid", "Pure market"], "correct": 1},
+    {"type": "true_false", "question": "The US spends less than other countries on healthcare.", "correct": false},
+    {"type": "true_false", "question": "Aging populations increase healthcare demands.", "correct": true},
+    {"type": "fill_gap", "question": "Bundled payments ___ efficiency in healthcare.", "answer": "incentivize"}
+  ],
+  "vocabulary": ["single-payer", "universal coverage", "per capita", "preventive care", "bundled payments"],
+  "grammar_focus": ["present_simple", "comparatives"]
+}

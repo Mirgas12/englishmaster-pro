@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_12",
+  "level": "A2",
+  "title": "My Grandmother's Stories",
+  "title_ru": "Истории бабушки",
+  "word_count": 158,
+  "topic": "family",
+  "text": "Every Sunday, I visit my grandmother. She lives alone in a small apartment. I help her with shopping and cleaning, and then we drink tea together. She always tells me stories about her life. When she was young, life was very different. There were no smartphones, computers, or internet. She watched black and white TV and listened to the radio. Her family didn't have a car, so they walked everywhere. She went to school until she was 14, then started working in a factory. She met my grandfather at a dance party. They got married when she was 19. She says young people today have more opportunities but are sometimes too busy with technology. She thinks we should spend more time with family and nature. I love listening to her stories. They make me appreciate what I have. I hope I remember them all so I can tell my grandchildren one day.",
+  "questions": [
+    {"type": "multiple_choice", "question": "When does the writer visit grandmother?", "options": ["Saturday", "Sunday", "Friday"], "correct": 1},
+    {"type": "multiple_choice", "question": "Where did grandmother meet grandfather?", "options": ["At work", "At school", "At a dance"], "correct": 2},
+    {"type": "true_false", "question": "Grandmother's family had a car.", "correct": false},
+    {"type": "true_false", "question": "Grandmother started working at 14.", "correct": true},
+    {"type": "fill_gap", "question": "Grandmother thinks young people should spend more time with family and ___.", "answer": "nature"}
+  ],
+  "vocabulary": ["grandmother", "apartment", "opportunities", "appreciate", "memories"],
+  "grammar_focus": ["past_simple", "used_to"]
+}

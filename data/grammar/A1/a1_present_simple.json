@@ -1,0 +1,310 @@
+{
+  "id": "a1_present_simple",
+  "level": "A1",
+  "title": "Present Simple",
+  "title_ru": "Простое настоящее время",
+  "estimatedMinutes": 45,
+  "prerequisites": ["a1_to_be"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about Tom's daily routine. Notice the highlighted verbs.",
+      "instruction_ru": "Прочитай о распорядке дня Тома. Обрати внимание на выделенные глаголы.",
+      "content": {
+        "text": "I <highlight>wake up</highlight> at 7 every day. My sister <highlight>wakes up</highlight> at 8. We <highlight>eat</highlight> breakfast together. She <highlight>drinks</highlight> coffee, but I <highlight>drink</highlight> tea. After breakfast, I <highlight>go</highlight> to work. I <highlight>work</highlight> in an office. My job <highlight>starts</highlight> at 9 and <highlight>finishes</highlight> at 5. I <highlight>like</highlight> my job because I <highlight>help</highlight> people.",
+        "question": "Look at the verbs with 'I' and 'she'. What is different?",
+        "question_ru": "Посмотри на глаголы с 'I' и 'she'. В чём разница?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Simple - Form and Use",
+        "title_ru": "Present Simple - Форма и использование",
+        "points": [
+          {
+            "rule": "Use for habits and routines",
+            "rule_ru": "Используем для привычек и рутины",
+            "example": "I wake up at 7. She goes to school.",
+            "marker": "every day, always, usually"
+          },
+          {
+            "rule": "Use for general truths",
+            "rule_ru": "Используем для общих истин",
+            "example": "The sun rises in the east. Water boils at 100°C.",
+            "marker": "facts"
+          },
+          {
+            "rule": "I/You/We/They + verb (base form)",
+            "rule_ru": "I/You/We/They + глагол (базовая форма)",
+            "example": "I work. They play. We eat.",
+            "marker": "no change"
+          },
+          {
+            "rule": "He/She/It + verb + s/es",
+            "rule_ru": "He/She/It + глагол + s/es",
+            "example": "He works. She plays. It rains.",
+            "marker": "add -s/-es"
+          },
+          {
+            "rule": "Spelling: -es after s, sh, ch, x, o",
+            "rule_ru": "Правописание: -es после s, sh, ch, x, o",
+            "example": "go → goes, watch → watches, finish → finishes",
+            "marker": "-es"
+          },
+          {
+            "rule": "Spelling: consonant + y → ies",
+            "rule_ru": "Правописание: согласная + y → ies",
+            "example": "study → studies, fly → flies (but: play → plays)",
+            "marker": "-ies"
+          }
+        ],
+        "comparison_table": [
+          {
+            "subject": "I/You/We/They",
+            "positive": "work",
+            "negative": "don't work",
+            "question": "Do ... work?"
+          },
+          {
+            "subject": "He/She/It",
+            "positive": "works",
+            "negative": "doesn't work",
+            "question": "Does ... work?"
+          }
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find ALL Present Simple verbs. Mark if they have -s or not.",
+      "instruction_ru": "Найди ВСЕ глаголы в Present Simple. Отметь, есть ли у них -s.",
+      "tasks": [
+        {
+          "text": "Tom gets up early every morning. He has breakfast at 7:30. He usually eats toast and drinks orange juice. Then he goes to school by bus. School starts at 8:30. His mother works in a bank. She leaves home at 8 and comes back at 6. She loves her job. Tom's father doesn't work. He stays at home and cooks dinner.",
+          "find": [
+            {"verb": "gets up", "subject": "Tom (he)", "has_s": true, "reason": "he + verb + s"},
+            {"verb": "has", "subject": "He", "has_s": true, "reason": "have → has for he/she/it"},
+            {"verb": "eats", "subject": "He", "has_s": true, "reason": "he + verb + s"},
+            {"verb": "drinks", "subject": "He", "has_s": true, "reason": "he + verb + s"},
+            {"verb": "goes", "subject": "he", "has_s": true, "reason": "go → goes"},
+            {"verb": "starts", "subject": "School (it)", "has_s": true, "reason": "it + verb + s"},
+            {"verb": "works", "subject": "His mother (she)", "has_s": true, "reason": "she + verb + s"},
+            {"verb": "leaves", "subject": "She", "has_s": true, "reason": "she + verb + s"},
+            {"verb": "comes", "subject": "She", "has_s": true, "reason": "she + verb + s"},
+            {"verb": "loves", "subject": "She", "has_s": true, "reason": "she + verb + s"},
+            {"verb": "doesn't work", "subject": "Tom's father (he)", "has_s": false, "reason": "doesn't + base form"},
+            {"verb": "stays", "subject": "He", "has_s": true, "reason": "he + verb + s"},
+            {"verb": "cooks", "subject": "He", "has_s": true, "reason": "he + verb + s"}
+          ]
+        }
+      ],
+      "reflection_question": "When do we add -s to verbs?",
+      "reflection_question_ru": "Когда мы добавляем -s к глаголам?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct form of the verb.",
+          "sentences": [
+            {"sentence": "She ___ (work) in a hospital.", "answer": "works"},
+            {"sentence": "I ___ (not/like) coffee.", "answer": "don't like"},
+            {"sentence": "___ he ___ (speak) English?", "answer": "Does, speak"},
+            {"sentence": "They ___ (live) in London.", "answer": "live"},
+            {"sentence": "He ___ (study) every day.", "answer": "studies"},
+            {"sentence": "My cat ___ (sleep) a lot.", "answer": "sleeps"},
+            {"sentence": "We ___ (not/have) a car.", "answer": "don't have"},
+            {"sentence": "___ you ___ (play) tennis?", "answer": "Do, play"},
+            {"sentence": "She ___ (watch) TV in the evening.", "answer": "watches"},
+            {"sentence": "He ___ (go) to the gym.", "answer": "goes"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "My brother ___ football every weekend.",
+              "options": ["play", "plays", "playing"],
+              "correct": 1,
+              "explanation": "My brother = He, so we need 'plays' (verb + s)"
+            },
+            {
+              "sentence": "They ___ to school by bus.",
+              "options": ["goes", "go", "going"],
+              "correct": 1,
+              "explanation": "They + base form (no -s)"
+            },
+            {
+              "sentence": "She ___ English very well.",
+              "options": ["speak", "speaks", "speaking"],
+              "correct": 1,
+              "explanation": "She + verb + s"
+            },
+            {
+              "sentence": "I ___ coffee in the morning.",
+              "options": ["drinks", "drink", "drinking"],
+              "correct": 1,
+              "explanation": "I + base form (no -s)"
+            },
+            {
+              "sentence": "He ___ TV every evening.",
+              "options": ["watch", "watchs", "watches"],
+              "correct": 2,
+              "explanation": "watch → watches (-es after ch)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She don't understand.",
+              "correct": "She doesn't understand.",
+              "explanation": "He/She/It uses 'doesn't', not 'don't'"
+            },
+            {
+              "incorrect": "He work in a bank.",
+              "correct": "He works in a bank.",
+              "explanation": "He/She/It + verb + s"
+            },
+            {
+              "incorrect": "Do he speaks English?",
+              "correct": "Does he speak English?",
+              "explanation": "Does + he + base form (without s)"
+            },
+            {
+              "incorrect": "She studys hard.",
+              "correct": "She studies hard.",
+              "explanation": "study → studies (consonant + y → ies)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 19,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write 5-7 sentences about your daily routine using Present Simple.",
+      "instruction_ru": "Напиши 5-7 предложений о своём распорядке дня, используя Present Simple.",
+      "prompts": [
+        "What time do you wake up?",
+        "What do you eat for breakfast?",
+        "Where do you work/study?",
+        "What do you do in the evening?",
+        "What do you do on weekends?"
+      ],
+      "example": "I wake up at 7 every day. I have breakfast at 7:30. I usually eat eggs and drink tea. I work in an office. My job starts at 9. I finish work at 6. In the evening, I watch TV or read books. On weekends, I meet my friends.",
+      "ai_check": true,
+      "criteria": [
+        "Uses Present Simple correctly",
+        "Uses -s with he/she/it",
+        "At least 5 sentences",
+        "Uses time expressions (every day, usually, always)"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many Present Simple verbs.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "My Morning Routine",
+          "level": "A1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "I wake up at 6:30 every day. I take a shower and get dressed. I have breakfast at 7. I usually eat cereal and drink coffee. I leave home at 7:30. I take the bus to work. The bus comes at 7:40. I arrive at work at 8:15. My work starts at 8:30. I work until 5."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "My Sister's Life",
+          "level": "A1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "My sister lives in Paris. She works as a designer. She loves her job. She wakes up early every day. She goes to the gym before work. She eats healthy food. She doesn't eat fast food. She speaks French and English. She travels a lot. She visits us every summer."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Weekends",
+          "level": "A1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I love weekends! On Saturday, I sleep late. I don't wake up early. I meet my friends in the afternoon. We go to a cafe. We drink coffee and talk. On Sunday, I stay home. I clean my apartment. I watch movies. I cook dinner. I relax."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "My Job",
+          "level": "A1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "I work in a school. I teach English. I love my job. I start work at 8. I teach three classes every day. My students study hard. They do homework every day. I correct their work. I help them learn. I finish work at 3. I go home and rest."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Family Habits",
+          "level": "A1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "My family has different habits. My father wakes up very early. He runs every morning. My mother doesn't like running. She does yoga. My brother plays video games. He plays for hours! My sister reads books. She reads one book every week. I watch TV. We all have dinner together at 7."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She don't like pizza.\"",
+          "back": "She doesn't like pizza.\n\n(He/She/It → doesn't)"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: I work here.\nNegative: ?",
+          "back": "I don't work here.\n\n(I/You/We/They + don't + base form)"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: She speaks French.\nQuestion: ?",
+          "back": "Does she speak French?\n\n(Does + she + base form)"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He ___ (go) to school.",
+          "back": "He goes to school.\n\n(go → goes for he/she/it)"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She ___ (study) hard.",
+          "back": "She studies hard.\n\n(study → studies: y → ies)"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting -s for he/she/it",
+      "Using don't instead of doesn't",
+      "Adding -s in questions (Does he speaks?)",
+      "Wrong spelling: studys instead of studies"
+    ],
+    "related_topics": ["a1_to_be", "a1_present_continuous", "a2_adverbs_frequency"],
+    "ielts_relevance": "High - used in Speaking Part 1 for habits",
+    "frequency_in_english": "Very high"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_03",
+  "level": "A2",
+  "title": "My Daily Commute",
+  "title_ru": "Моя ежедневная дорога",
+  "media_type": "video",
+  "duration_seconds": 55,
+  "description": "A person describes their journey to work",
+  "transcript": "Every day I commute to work in the city center. I live in a suburb about twenty kilometers away. First, I walk to the bus stop. It takes about ten minutes. Then I catch the 8:15 bus. The bus ride takes thirty minutes because of the traffic. After that, I take the metro for three stops. Finally, I walk five minutes to my office. The whole journey takes about fifty minutes. Sometimes I read a book on the bus. When it rains, I drive my car, but parking is expensive in the city.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How far is the suburb from the city?", "options": ["10 km", "20 km", "30 km"], "correct": 1},
+    {"type": "multiple_choice", "question": "How long is the whole journey?", "options": ["30 minutes", "50 minutes", "1 hour"], "correct": 1},
+    {"type": "true_false", "question": "The person takes the metro for three stops.", "correct": true},
+    {"type": "true_false", "question": "Parking in the city is cheap.", "correct": false},
+    {"type": "fill_gap", "question": "The bus ride takes thirty minutes because of the ___.", "answer": "traffic"}
+  ],
+  "vocabulary": ["commute", "suburb", "metro", "traffic", "parking"],
+  "key_phrases": ["It takes about", "I catch the bus", "The whole journey", "When it rains"]
+}

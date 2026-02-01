@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_02",
+  "level": "B1",
+  "title": "The Rise of Electric Vehicles",
+  "title_ru": "Рост популярности электромобилей",
+  "word_count": 220,
+  "topic": "technology",
+  "text": "Electric vehicles (EVs) are transforming the automotive industry. Unlike traditional cars that run on petrol or diesel, EVs use electric motors powered by rechargeable batteries. As concerns about climate change grow, more people are considering making the switch.\n\nOne major advantage of EVs is their environmental impact. They produce zero emissions while driving, which helps reduce air pollution in cities. They're also cheaper to run because electricity costs less than fuel, and electric motors require less maintenance than traditional engines.\n\nHowever, there are still challenges. The main concern is range anxiety – the fear that the battery will run out before reaching a charging station. While early EVs could only travel 100 miles on a single charge, modern models can now travel 300 miles or more. Charging infrastructure is also improving rapidly, with more public charging stations appearing in cities and along highways.\n\nThe price of EVs has been another barrier. They typically cost more than equivalent petrol cars. But prices are dropping as battery technology improves and production increases. Many governments also offer incentives like tax credits to encourage people to buy electric.\n\nMajor car manufacturers have announced plans to phase out petrol vehicles entirely within the next two decades. The transition to electric vehicles seems inevitable, and it's already reshaping how we think about transportation.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is 'range anxiety'?", "options": ["Fear of high speeds", "Fear of battery running out", "Fear of accidents"], "correct": 1},
+    {"type": "multiple_choice", "question": "How far can modern EVs travel on one charge?", "options": ["100 miles", "200 miles", "300+ miles"], "correct": 2},
+    {"type": "true_false", "question": "EVs are more expensive to maintain than petrol cars.", "correct": false},
+    {"type": "true_false", "question": "Governments offer incentives for buying EVs.", "correct": true},
+    {"type": "fill_gap", "question": "EVs produce zero ___ while driving.", "answer": "emissions"}
+  ],
+  "vocabulary": ["electric vehicle", "emissions", "charging station", "infrastructure", "incentives"],
+  "grammar_focus": ["present_continuous", "comparatives"]
+}

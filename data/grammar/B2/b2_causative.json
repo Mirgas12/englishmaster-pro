@@ -1,0 +1,262 @@
+{
+  "id": "b2_causative",
+  "level": "B2",
+  "title": "Causative: Have/Get Something Done",
+  "title_ru": "Каузатив: Have/Get Something Done",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_passive_present", "b1_passive_past"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about services people use. Notice who does the action.",
+      "instruction_ru": "Прочитай о услугах, которые используют люди. Обрати внимание, кто выполняет действие.",
+      "content": {
+        "text": "I don't do everything myself! I <highlight>have my hair cut</highlight> at the salon every month. Last week, I <highlight>had my car serviced</highlight> at the garage. I <highlight>got my windows cleaned</highlight> by professionals. Tomorrow, I'm <highlight>having my photo taken</highlight> for a new passport. I <highlight>got my computer fixed</highlight> last week - it was expensive! We're <highlight>having our house painted</highlight> next month. I need to <highlight>get my suit dry-cleaned</highlight> for the wedding. I <highlight>had my eyes tested</highlight> yesterday.",
+        "question": "Does the speaker do these things personally or arrange for someone else to do them?",
+        "question_ru": "Говорящий делает это сам или организует, чтобы кто-то другой это сделал?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Causative: Having Services Done By Others",
+        "title_ru": "Каузатив: Услуги, выполняемые другими",
+        "points": [
+          {
+            "rule": "have + object + past participle (formal/neutral)",
+            "rule_ru": "have + объект + причастие прош. времени (формально/нейтрально)",
+            "example": "I had my hair cut. (Someone cut my hair for me)",
+            "marker": "have something done"
+          },
+          {
+            "rule": "get + object + past participle (informal)",
+            "rule_ru": "get + объект + причастие прош. времени (неформально)",
+            "example": "I got my car fixed. (Someone fixed my car for me)",
+            "marker": "get something done"
+          },
+          {
+            "rule": "Use: When we arrange for someone else to do something for us",
+            "rule_ru": "Использование: Когда мы организуем, чтобы кто-то другой что-то сделал для нас",
+            "example": "I don't cut my own hair - I have it cut by a hairdresser.",
+            "marker": "arranged service"
+          },
+          {
+            "rule": "All tenses work: have/had/will have/am having + object + V3",
+            "rule_ru": "Все времена работают: have/had/will have/am having + объект + V3",
+            "example": "I'm having my car repaired. I had it repaired. I'll have it repaired.",
+            "marker": "all tenses"
+          },
+          {
+            "rule": "Also used for negative experiences (something happens to you)",
+            "rule_ru": "Также используется для негативного опыта (что-то случается с тобой)",
+            "example": "I had my wallet stolen. She got her phone broken.",
+            "marker": "negative experience"
+          }
+        ],
+        "comparison_table": [
+          {"form": "Active", "example": "I cut my hair.", "meaning": "I did it myself"},
+          {"form": "Causative", "example": "I had my hair cut.", "meaning": "Someone cut it for me"},
+          {"form": "Passive", "example": "My hair was cut.", "meaning": "Focus on hair, not who did it"},
+          {"tense": "Present", "have": "I have my car serviced", "get": "I get my car serviced"},
+          {"tense": "Past", "have": "I had my car serviced", "get": "I got my car serviced"},
+          {"tense": "Future", "have": "I'll have my car serviced", "get": "I'll get my car serviced"},
+          {"tense": "Present Cont.", "have": "I'm having my car serviced", "get": "I'm getting my car serviced"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all causative structures. Identify what service was done and when.",
+      "instruction_ru": "Найди все каузативные конструкции. Определи, какая услуга была выполнена и когда.",
+      "tasks": [
+        {
+          "text": "I'm preparing for my wedding! Yesterday, I had my dress altered to fit perfectly. I'm getting my makeup done by a professional on the day. I've had my invitations printed at a local shop. Next week, I'm having the cake delivered to the venue. My fiancé is getting his suit tailored. We're having our photos taken by a famous photographer. We've already had the venue decorated. Unfortunately, I got my car scratched in the parking lot yesterday - bad timing!",
+          "find": [
+            {"structure": "had my dress altered", "tense": "Past", "service": "dress alteration"},
+            {"structure": "getting my makeup done", "tense": "Present Continuous (future)", "service": "makeup"},
+            {"structure": "had my invitations printed", "tense": "Present Perfect", "service": "printing"},
+            {"structure": "having the cake delivered", "tense": "Present Continuous (future)", "service": "delivery"},
+            {"structure": "getting his suit tailored", "tense": "Present Continuous (future)", "service": "tailoring"},
+            {"structure": "having our photos taken", "tense": "Present Continuous (future)", "service": "photography"},
+            {"structure": "had the venue decorated", "tense": "Present Perfect", "service": "decoration"},
+            {"structure": "got my car scratched", "tense": "Past", "service": "negative experience"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'I cut my hair' and 'I had my hair cut'?",
+      "reflection_question_ru": "В чём разница между 'I cut my hair' и 'I had my hair cut'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using causative (have/get something done).",
+          "sentences": [
+            {"original": "A mechanic services my car every year.", "causative": "I have/get my car serviced every year."},
+            {"original": "A photographer took our wedding photos.", "causative": "We had/got our wedding photos taken."},
+            {"original": "Someone will deliver the furniture tomorrow.", "causative": "I'll have/get the furniture delivered tomorrow."},
+            {"original": "A technician is repairing my computer.", "causative": "I'm having/getting my computer repaired."},
+            {"original": "Someone cleans our office every day.", "causative": "We have/get our office cleaned every day."},
+            {"original": "A dentist checked my teeth yesterday.", "causative": "I had/got my teeth checked yesterday."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete using the correct form of causative.",
+          "sentences": [
+            {"sentence": "I need to ___ my suit ___ (dry-clean) before the interview.", "answer": "have/get, dry-cleaned"},
+            {"sentence": "She ___ her portrait ___ (paint) by a famous artist last year.", "answer": "had/got, painted"},
+            {"sentence": "We're ___ our kitchen ___ (redesign) next month.", "answer": "having/getting, redesigned"},
+            {"sentence": "He ___ his car ___ (steal) last night. (negative experience)", "answer": "had/got, stolen"},
+            {"sentence": "Have you ever ___ your fortune ___ (tell)?", "answer": "had/got, told"},
+            {"sentence": "They ___ their house ___ (build) in 2019.", "answer": "had/got, built"},
+            {"sentence": "I ___ my eyes ___ (test) regularly.", "answer": "have/get, tested"},
+            {"sentence": "She ___ her nails ___ (do) every two weeks.", "answer": "has/gets, done"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I had cut my hair yesterday.",
+              "correct": "I had my hair cut yesterday.",
+              "explanation": "Object goes between 'had' and past participle"
+            },
+            {
+              "incorrect": "She got her car to repair.",
+              "correct": "She got her car repaired.",
+              "explanation": "Use past participle, not infinitive"
+            },
+            {
+              "incorrect": "We are having painted our house.",
+              "correct": "We are having our house painted.",
+              "explanation": "Object before past participle"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about services you use or plan to use, using causative structures.",
+      "instruction_ru": "Напиши об услугах, которыми ты пользуешься или планируешь воспользоваться, используя каузативные конструкции.",
+      "prompts": [
+        "What services do you regularly have done?",
+        "Describe preparations for an event (wedding, party, trip)",
+        "Write about home maintenance services",
+        "Describe a negative experience where something happened to your belongings"
+      ],
+      "example": "I'm quite busy, so I use many services. I have my apartment cleaned twice a month by a cleaning company. I get my car washed every week at the local garage. I had my bathroom renovated last year - it was expensive but worth it! Next week, I'm having my air conditioning serviced because summer is coming. I also need to get my passport renewed soon. Unfortunately, I got my phone screen cracked last month and had it replaced. I'm thinking of having my old photos digitized - I have so many memories in boxes!",
+      "ai_check": true,
+      "criteria": [
+        "Uses have/get + object + past participle correctly",
+        "Uses different tenses appropriately",
+        "Includes both regular services and one-time events",
+        "At least 6 causative sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with causative structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Moving Day",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Moving house is stressful! We had all our furniture transported by a moving company. We got the utilities connected before we arrived. I had my piano tuned after the move - it was out of tune! We're having the walls repainted next week. I got my address changed at the post office. We had the carpets professionally cleaned. My husband is getting his office set up tomorrow. We even had our pets transported safely!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Wedding Preparations",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Our wedding required so much planning! The bride had her dress custom-made. The groom got his suit tailored perfectly. They had their invitations designed and printed. They're having the venue decorated with flowers. The cake is being made by a famous baker - they're having it delivered on the day. They've had their wedding rings engraved. The photographer is having her equipment checked. Everything will be perfect!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Car Troubles",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "My car has been giving me problems! Last month, I had the engine checked. The mechanic found issues, so I got the oil changed and had the brakes replaced. Unfortunately, I also got my window smashed by vandals and had to have it replaced. I'm having the car serviced again next week. I should get the tires rotated too. It's expensive, but I need to have it running smoothly!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Home Renovation",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "We're renovating our house! We had the kitchen completely redesigned. We got new cabinets installed last month. The electrician is coming to have the wiring updated. We're having solar panels fitted on the roof. We had the garden landscaped beautifully. Next, we're getting the bathroom modernized. We've had estimates done by several contractors. It's expensive, but we're having our dream home created!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Personal Care Routine",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "I take good care of myself! I have my hair cut and colored every six weeks. I get my nails done every two weeks. I had my teeth whitened last year. I'm having a facial done this weekend. I get my eyebrows shaped monthly. I had my eyes tested recently and got new glasses fitted. I even had my ears pierced last month! Self-care is important, and I'm happy to have these services done by professionals."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "A hairdresser cuts my hair.\nRewrite with causative:",
+          "back": "I have my hair cut.\n\nhave + object + V3"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I ___ my car ___ (service) last week.",
+          "back": "had / serviced\n\nPast causative"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She's ___ her nails ___ (do) tomorrow.",
+          "back": "having/getting / done\n\nFuture arrangement"
+        },
+        {
+          "type": "transformation",
+          "front": "Someone stole my bike. (negative experience)",
+          "back": "I had my bike stolen.\n\nCausative for unfortunate events"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I had repaired my computer.\"",
+          "back": "I had my computer repaired.\n\nObject between have and V3"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Word order (had repaired my car)",
+      "Using infinitive instead of past participle",
+      "Confusing with passive voice",
+      "Forgetting 'have' changes with tense"
+    ],
+    "related_topics": ["b1_passive_present", "b1_passive_past"],
+    "ielts_relevance": "Medium-High - useful in Speaking",
+    "frequency_in_english": "High"
+  }
+}

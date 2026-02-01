@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_09",
+  "level": "A2",
+  "title": "A Rainy Day Indoors",
+  "title_ru": "Дождливый день дома",
+  "word_count": 150,
+  "topic": "daily_life",
+  "text": "It rained all day today, so I stayed home. At first, I was bored. I wanted to play outside with my friends. But then I decided to make the best of it. In the morning, I played video games for an hour. Then I helped my mum bake cookies. We made chocolate chip cookies - my favorite! While they were in the oven, I read a book. It's about a boy who finds a magic door in his bedroom. After lunch, I did a puzzle with my dad. It had 500 pieces and took us two hours to finish. It was a picture of a tropical beach. That made me think about our summer holiday. In the evening, we watched a movie together as a family. We had popcorn and hot chocolate. By the end of the day, I wasn't bored anymore. Rainy days can be fun too!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What kind of cookies did they make?", "options": ["Oatmeal", "Chocolate chip", "Vanilla"], "correct": 1},
+    {"type": "multiple_choice", "question": "How many pieces was the puzzle?", "options": ["100", "300", "500"], "correct": 2},
+    {"type": "true_false", "question": "The writer was bored all day.", "correct": false},
+    {"type": "true_false", "question": "They watched a movie in the evening.", "correct": true},
+    {"type": "fill_gap", "question": "The puzzle was a picture of a tropical ___.", "answer": "beach"}
+  ],
+  "vocabulary": ["bored", "bake", "puzzle", "magic", "tropical"],
+  "grammar_focus": ["past_simple", "time_expressions"]
+}

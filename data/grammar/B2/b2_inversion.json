@@ -1,0 +1,262 @@
+{
+  "id": "b2_inversion",
+  "level": "B2",
+  "title": "Inversion for Emphasis",
+  "title_ru": "Инверсия для усиления",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a1_present_simple", "b1_passive_present"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this formal speech. Notice the unusual word order in some sentences.",
+      "instruction_ru": "Прочитай эту официальную речь. Обрати внимание на необычный порядок слов в некоторых предложениях.",
+      "content": {
+        "text": "<highlight>Never have I seen</highlight> such dedication. <highlight>Rarely does one find</highlight> such talented people. <highlight>Not only did</highlight> they work hard, <highlight>but they also</highlight> inspired others. <highlight>Only after years of effort did</highlight> they achieve success. <highlight>Little did they know</highlight> what challenges lay ahead. <highlight>Under no circumstances should</highlight> we forget their sacrifice. <highlight>Had I known</highlight> about their struggles, I would have helped. <highlight>So impressed was I</highlight> that I couldn't speak.",
+        "question": "What happens to the word order after these negative or emphatic expressions?",
+        "question_ru": "Что происходит с порядком слов после этих отрицательных или эмфатических выражений?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Inversion - Question Word Order for Emphasis",
+        "title_ru": "Инверсия - Порядок слов вопроса для усиления",
+        "points": [
+          {
+            "rule": "After negative adverbs: Never/Rarely/Seldom/Hardly + aux + subject + verb",
+            "rule_ru": "После отрицательных наречий: Never/Rarely/Seldom/Hardly + вспомогательный + подлежащее + глагол",
+            "example": "Never have I seen this. Rarely does he complain.",
+            "marker": "negative adverb + aux"
+          },
+          {
+            "rule": "Not only...but also: Not only + aux + subject + verb, but...also",
+            "rule_ru": "Not only...but also: Not only + вспомогательный + подлежащее + глагол, but...also",
+            "example": "Not only did she win, but she also broke the record.",
+            "marker": "Not only...but also"
+          },
+          {
+            "rule": "Only + time/after/when: Only then did..., Only after X did...",
+            "rule_ru": "Only + время/after/when: Only then did..., Only after X did...",
+            "example": "Only then did I understand. Only after leaving did I realize.",
+            "marker": "Only + time"
+          },
+          {
+            "rule": "Little/Few: Little did I know... Few people do...",
+            "rule_ru": "Little/Few: Little did I know... Few people do...",
+            "example": "Little did she know what was coming.",
+            "marker": "Little/Few"
+          },
+          {
+            "rule": "Had/Were/Should (conditionals without 'if')",
+            "rule_ru": "Had/Were/Should (условные без 'if')",
+            "example": "Had I known = If I had known. Were I you = If I were you.",
+            "marker": "conditionals"
+          }
+        ],
+        "comparison_table": [
+          {"normal": "I have never seen this.", "inverted": "Never have I seen this.", "trigger": "Never"},
+          {"normal": "She rarely complains.", "inverted": "Rarely does she complain.", "trigger": "Rarely"},
+          {"normal": "She not only won but also...", "inverted": "Not only did she win, but she also...", "trigger": "Not only"},
+          {"normal": "I understood only then.", "inverted": "Only then did I understand.", "trigger": "Only"},
+          {"normal": "If I had known...", "inverted": "Had I known...", "trigger": "Conditional"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all inverted sentences. Identify the trigger and rewrite in normal order.",
+      "instruction_ru": "Найди все предложения с инверсией. Определи триггер и перепиши в обычном порядке.",
+      "tasks": [
+        {
+          "text": "A graduation speech:\n\n\"Rarely have I felt so proud. Never before has this university produced such outstanding graduates. Not only have you excelled academically, but you have also contributed to our community. Little did you know when you started how much you would grow. Only through hard work did you reach this day. Hardly had you begun when challenges appeared. Yet here you are! Should you ever need guidance, remember your professors are here. Had we not believed in you, you wouldn't be here today. Seldom does one see such potential.\"",
+          "find": [
+            {"inverted": "Rarely have I felt", "normal": "I have rarely felt", "trigger": "Rarely"},
+            {"inverted": "Never before has this university produced", "normal": "This university has never before produced", "trigger": "Never"},
+            {"inverted": "Not only have you excelled", "normal": "You have not only excelled", "trigger": "Not only"},
+            {"inverted": "Little did you know", "normal": "You didn't know", "trigger": "Little"},
+            {"inverted": "Only through hard work did you reach", "normal": "You reached only through hard work", "trigger": "Only"},
+            {"inverted": "Hardly had you begun", "normal": "You had hardly begun", "trigger": "Hardly"},
+            {"inverted": "Should you ever need", "normal": "If you should ever need", "trigger": "Conditional Should"},
+            {"inverted": "Had we not believed", "normal": "If we had not believed", "trigger": "Conditional Had"},
+            {"inverted": "Seldom does one see", "normal": "One seldom sees", "trigger": "Seldom"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is inversion used in formal speeches and writing?",
+      "reflection_question_ru": "Почему инверсия используется в официальных речах и письме?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using inversion for emphasis.",
+          "sentences": [
+            {"normal": "I have never heard such nonsense.", "inverted": "Never have I heard such nonsense."},
+            {"normal": "She rarely makes mistakes.", "inverted": "Rarely does she make mistakes."},
+            {"normal": "He not only apologized, but he also offered to help.", "inverted": "Not only did he apologize, but he also offered to help."},
+            {"normal": "I realized only later what had happened.", "inverted": "Only later did I realize what had happened."},
+            {"normal": "They little knew about the danger.", "inverted": "Little did they know about the danger."},
+            {"normal": "If I had seen him, I would have said hello.", "inverted": "Had I seen him, I would have said hello."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct inverted form.",
+          "sentences": [
+            {"sentence": "Never ___ I ___ (see) such beauty.", "answer": "have, seen"},
+            {"sentence": "Rarely ___ he ___ (complain) about anything.", "answer": "does, complain"},
+            {"sentence": "Not only ___ she ___ (win), but she also broke the record.", "answer": "did, win"},
+            {"sentence": "Only then ___ I ___ (understand) the truth.", "answer": "did, understand"},
+            {"sentence": "Little ___ they ___ (know) what was coming.", "answer": "did, know"},
+            {"sentence": "___ I known, I would have helped.", "answer": "Had"},
+            {"sentence": "Seldom ___ one ___ (find) such talent.", "answer": "does, find"},
+            {"sentence": "Under no circumstances ___ you ___ (tell) anyone.", "answer": "should, tell"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "Never I have seen such a thing.",
+              "correct": "Never have I seen such a thing.",
+              "explanation": "Inversion: aux + subject after negative adverb"
+            },
+            {
+              "incorrect": "Not only she won, but she also broke the record.",
+              "correct": "Not only did she win, but she also broke the record.",
+              "explanation": "Inversion needed after 'Not only'"
+            },
+            {
+              "incorrect": "Rarely she does complain.",
+              "correct": "Rarely does she complain.",
+              "explanation": "Question word order: does + subject"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a formal speech or essay using inversion for emphasis.",
+      "instruction_ru": "Напиши официальную речь или эссе, используя инверсию для усиления.",
+      "prompts": [
+        "Write a graduation speech",
+        "Write about someone you admire",
+        "Write a persuasive argument",
+        "Write about a memorable achievement"
+      ],
+      "example": "Never before has our country faced such challenges. Rarely do we see citizens come together like this. Not only have we overcome obstacles, but we have also grown stronger. Little did we know last year what was ahead. Only through unity did we survive. Under no circumstances should we forget the lessons learned. Had we not supported each other, we would have failed. Seldom does one generation face such tests. Yet here we stand, stronger than ever. Should future challenges arise, we will be ready.",
+      "ai_check": true,
+      "criteria": [
+        "Uses negative adverbs with inversion (never, rarely, seldom)",
+        "Uses 'Not only...but also' correctly",
+        "Uses 'Only + time' constructions",
+        "Uses conditional inversion (Had I known...)",
+        "At least 5 inverted sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with inversion.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Award Acceptance",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "Never have I felt so honored. Rarely does an artist receive such recognition. Not only did you vote for me, but you also gave me confidence. Little did I know when I started this journey where it would lead. Only through the support of my fans did I succeed. Had it not been for my family, I would have given up. Seldom do I express my emotions publicly. But tonight, so grateful am I that I must say thank you."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Historical Speech",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "Never before has our nation stood at such a crossroads. Rarely have the choices been so clear. Not only must we act, but we must also act now. Only through decisive action will we succeed. Under no circumstances can we retreat. Little do our enemies know our true strength. Had our founders seen us today, they would be proud. Should we fail, future generations will judge us harshly. Were I to predict, I would say victory is near."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Book Review",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "Seldom have I read such a captivating novel. Never before has an author moved me to tears like this. Not only is the plot gripping, but the characters are also unforgettable. Little did I expect to finish it in one sitting. Only after closing the book did I realize its true impact. So powerful was the ending that I couldn't sleep. Had I known about this author earlier, I would have read everything. Rarely does literature achieve such perfection."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Scientific Discovery",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "Never before has science made such a breakthrough. Rarely do discoveries change our understanding so completely. Not only have we found the answer, but we've also opened new questions. Little did researchers know when they began what they would find. Only after years of work did the pieces come together. Had Einstein seen this, he would have been amazed. So revolutionary is this finding that textbooks must be rewritten. Seldom does a single discovery matter so much."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Sports Commentary",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 8,
+          "content": "Never have I witnessed such a comeback! Rarely does a team recover from such a deficit. Not only did they equalize, but they also won in overtime. Little did anyone expect this result. Only in the final minutes did they find their form. Had the coach not made that substitution, they would have lost. So dramatic was the finish that fans couldn't believe it. Seldom do we see such determination. Had you told me earlier, I wouldn't have believed it."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "I have never seen this.\nRewrite with inversion:",
+          "back": "Never have I seen this.\n\nNegative adverb + aux + subject"
+        },
+        {
+          "type": "transformation",
+          "front": "She not only won but also broke the record.\nRewrite with inversion:",
+          "back": "Not only did she win, but she also broke the record."
+        },
+        {
+          "type": "transformation",
+          "front": "If I had known, I would have helped.\nRewrite with inversion:",
+          "back": "Had I known, I would have helped.\n\nNo 'if', Had + subject"
+        },
+        {
+          "type": "fill_gap",
+          "front": "Rarely ___ she ___ mistakes.",
+          "back": "does / make\n\nRarely + aux + subject + verb"
+        },
+        {
+          "type": "error_correction",
+          "front": "Never I have heard this.",
+          "back": "Never have I heard this.\n\nInversion after negative adverb"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["transformation", "fill_gap", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting to invert after trigger words",
+      "Using normal word order after negative adverbs",
+      "Wrong auxiliary verb",
+      "Not inverting in 'Not only...but also'"
+    ],
+    "related_topics": ["b2_emphasis_structures", "b2_cleft_sentences"],
+    "ielts_relevance": "High - Advanced Writing, Speaking Part 3",
+    "frequency_in_english": "Medium - formal/literary English"
+  }
+}

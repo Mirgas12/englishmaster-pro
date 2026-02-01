@@ -1,0 +1,264 @@
+{
+  "id": "b2_linking_words_advanced",
+  "level": "B2",
+  "title": "Advanced Linking Words",
+  "title_ru": "Продвинутые связующие слова",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b2_discourse_markers"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this academic essay. Notice the sophisticated linking expressions.",
+      "instruction_ru": "Прочитай эту академическую статью. Обрати внимание на сложные связующие выражения.",
+      "content": {
+        "text": "Climate change is one of the most pressing issues of our time. <highlight>Given that</highlight> global temperatures are rising, action is urgent. <highlight>In light of</highlight> recent scientific findings, governments must act. <highlight>Inasmuch as</highlight> human activity is the main cause, we bear responsibility. <highlight>Provided that</highlight> we act quickly, we can limit damage. <highlight>Notwithstanding</highlight> political resistance, progress is being made. <highlight>Insofar as</highlight> technology can help, investment is crucial. <highlight>Assuming that</highlight> current trends continue, the consequences will be severe.",
+        "question": "What makes these linking expressions more formal than simple ones?",
+        "question_ru": "Что делает эти связующие выражения более формальными, чем простые?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Sophisticated Linking Expressions",
+        "title_ru": "Сложные связующие выражения",
+        "points": [
+          {
+            "rule": "Given that / Considering that = because of the fact that",
+            "rule_ru": "Given that / Considering that = учитывая, что",
+            "example": "Given that resources are limited, we must prioritize.",
+            "marker": "given/considering"
+          },
+          {
+            "rule": "In light of / In view of = because of / considering (+ noun)",
+            "rule_ru": "In light of / In view of = в свете / ввиду (+ сущ.)",
+            "example": "In light of recent events, the meeting was postponed.",
+            "marker": "in light of"
+          },
+          {
+            "rule": "Provided (that) / On condition (that) = if and only if",
+            "rule_ru": "Provided (that) / On condition (that) = при условии, что",
+            "example": "You can go, provided that you finish first.",
+            "marker": "provided/condition"
+          },
+          {
+            "rule": "Notwithstanding / Regardless of = despite",
+            "rule_ru": "Notwithstanding / Regardless of = несмотря на",
+            "example": "Notwithstanding the difficulties, they succeeded.",
+            "marker": "notwithstanding"
+          },
+          {
+            "rule": "Insofar as / To the extent that = to the degree that",
+            "rule_ru": "Insofar as / To the extent that = в той мере, в какой",
+            "example": "Insofar as I'm concerned, the matter is closed.",
+            "marker": "insofar as"
+          }
+        ],
+        "comparison_table": [
+          {"formal": "Given that", "informal": "Because", "example": "Given that she's busy, we'll wait."},
+          {"formal": "In light of", "informal": "Because of", "example": "In light of the evidence, he's innocent."},
+          {"formal": "Provided that", "informal": "If", "example": "Provided that you agree, we can proceed."},
+          {"formal": "Notwithstanding", "informal": "Despite", "example": "Notwithstanding the risks, they continued."},
+          {"formal": "Insofar as", "informal": "As far as", "example": "Insofar as we know, it's true."},
+          {"formal": "On the grounds that", "informal": "Because", "example": "Rejected on the grounds that it was late."},
+          {"formal": "Assuming that", "informal": "If we assume", "example": "Assuming that you're right, what next?"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify what each linking expression means and its function.",
+      "instruction_ru": "Определи, что означает каждое связующее выражение и его функцию.",
+      "tasks": [
+        {
+          "text": "Academic passage:\n\n1. Given that economic growth depends on innovation, investment in research is essential.\n2. In light of the pandemic, work patterns have fundamentally changed.\n3. Provided that ethical guidelines are followed, the experiment may proceed.\n4. Notwithstanding initial skepticism, the theory has gained acceptance.\n5. Insofar as education reduces inequality, it should be prioritized.\n6. On the grounds that data was insufficient, the study was rejected.\n7. Assuming that the hypothesis is correct, we should observe changes.\n8. Regardless of political affiliation, most agree on basic principles.\n9. In view of rising costs, budget cuts are inevitable.\n10. To the extent that humans are responsible, we must act.",
+          "find": [
+            {"sentence": 1, "expression": "Given that", "meaning": "because", "function": "reason/cause"},
+            {"sentence": 2, "expression": "In light of", "meaning": "because of", "function": "cause (with noun)"},
+            {"sentence": 3, "expression": "Provided that", "meaning": "if and only if", "function": "condition"},
+            {"sentence": 4, "expression": "Notwithstanding", "meaning": "despite", "function": "concession"},
+            {"sentence": 5, "expression": "Insofar as", "meaning": "to the degree that", "function": "qualification"},
+            {"sentence": 6, "expression": "On the grounds that", "meaning": "because", "function": "reason"},
+            {"sentence": 7, "expression": "Assuming that", "meaning": "if we accept that", "function": "condition/hypothesis"},
+            {"sentence": 8, "expression": "Regardless of", "meaning": "despite", "function": "concession"},
+            {"sentence": 9, "expression": "In view of", "meaning": "considering", "function": "cause (with noun)"},
+            {"sentence": 10, "expression": "To the extent that", "meaning": "insofar as", "function": "qualification"}
+          ]
+        }
+      ],
+      "reflection_question": "When would you use these instead of simpler alternatives?",
+      "reflection_question_ru": "Когда бы ты использовал эти выражения вместо более простых альтернатив?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the appropriate linking expression.",
+          "sentences": [
+            {"sentence": "___ ___ the evidence is clear, a conviction is likely.", "answer": "Given that", "meaning": "because"},
+            {"sentence": "___ ___ ___ recent developments, we must reconsider.", "answer": "In light of", "meaning": "because of"},
+            {"sentence": "You may leave ___ ___ you return by 5.", "answer": "provided that", "meaning": "if"},
+            {"sentence": "___ the difficulties, the project succeeded.", "answer": "Notwithstanding", "meaning": "despite"},
+            {"sentence": "___ ___ the rules allow, we'll be flexible.", "answer": "Insofar as", "meaning": "to the degree that"},
+            {"sentence": "The proposal was rejected ___ ___ ___ ___ it was too expensive.", "answer": "on the grounds that", "meaning": "because"},
+            {"sentence": "___ ___ prices continue rising, inflation will worsen.", "answer": "Assuming that", "meaning": "if"},
+            {"sentence": "___ ___ the outcome, we're grateful for the opportunity.", "answer": "Regardless of", "meaning": "despite"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using the more formal linking expression.",
+          "sentences": [
+            {"informal": "Because she's qualified, she got the job. (Given that)", "formal": "Given that she's qualified, she got the job."},
+            {"informal": "Because of the rain, the match was cancelled. (In light of)", "formal": "In light of the rain, the match was cancelled."},
+            {"informal": "If you agree, we can proceed. (Provided that)", "formal": "Provided that you agree, we can proceed."},
+            {"informal": "Despite the challenges, they succeeded. (Notwithstanding)", "formal": "Notwithstanding the challenges, they succeeded."},
+            {"informal": "As far as I know, it's true. (Insofar as)", "formal": "Insofar as I know, it's true."}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "In light of that the situation is serious, we must act.",
+              "correct": "Given that the situation is serious, we must act. OR In light of the serious situation, we must act.",
+              "explanation": "In light of + noun, Given that + clause"
+            },
+            {
+              "incorrect": "Provided that they will agree, we can continue.",
+              "correct": "Provided that they agree, we can continue.",
+              "explanation": "No 'will' in conditional clauses after 'provided that'"
+            },
+            {
+              "incorrect": "Notwithstanding that the rain, they continued.",
+              "correct": "Notwithstanding the rain, they continued.",
+              "explanation": "Notwithstanding + noun (no 'that')"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write a formal essay or report using advanced linking expressions.",
+      "instruction_ru": "Напиши формальное эссе или отчёт, используя продвинутые связующие выражения.",
+      "prompts": [
+        "Write about an environmental issue",
+        "Discuss the pros and cons of technology",
+        "Analyze a social problem and propose solutions",
+        "Write a business recommendation"
+      ],
+      "example": "The education system requires significant reform. Given that technology has transformed how we access information, traditional teaching methods seem outdated. In light of research showing active learning's benefits, passive lectures should be minimized. Provided that adequate training is given, teachers can adapt successfully. Notwithstanding budget constraints, investment in digital resources is essential. Insofar as education shapes society, these changes affect everyone. On the grounds that equal opportunity is fundamental, all students deserve access to quality education. Assuming that current trends continue, those who fail to modernize will fall behind. Regardless of political differences, most agree that education is a priority.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'Given that' / 'Considering that'",
+        "Uses 'In light of' / 'In view of'",
+        "Uses 'Provided that' / 'On condition that'",
+        "Uses 'Notwithstanding' / 'Regardless of'",
+        "At least 6 advanced linking expressions"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with advanced linking expressions.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Economic Analysis",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The economic outlook remains uncertain. Given that inflation persists, interest rates will likely rise. In light of global supply chain issues, prices are unlikely to stabilize soon. Provided that employment stays strong, consumer spending may hold up. Notwithstanding market volatility, long-term investors should stay calm. Insofar as government policy affects markets, we must watch legislative developments. Assuming that current trends continue, GDP growth will slow. Regardless of short-term fluctuations, fundamentals remain sound."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Environmental Report",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The environmental crisis demands immediate action. Given that CO2 levels continue rising, temperatures will increase. In light of recent weather extremes, climate change is undeniable. Provided that emissions are reduced, we can limit warming to 2°C. Notwithstanding political obstacles, progress is being made. Insofar as individuals can contribute, small actions matter. On the grounds that corporations cause most emissions, regulations are justified. Assuming that renewable energy costs continue falling, adoption will accelerate."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Medical Study",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The new treatment shows promising results. Given that the sample size was large, the findings are significant. In light of previous failed treatments, this breakthrough is welcome. Provided that further trials confirm efficacy, approval may come quickly. Notwithstanding some side effects, the benefits outweigh the risks. Insofar as the mechanism is understood, modifications can be made. On the grounds that early intervention improves outcomes, screening is recommended. Assuming that production scales successfully, widespread access is possible."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Legal Brief",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "The defendant requests dismissal of charges. Given that evidence was obtained improperly, it should be excluded. In light of constitutional protections, the search was illegal. Provided that due process is respected, the case should be dismissed. Notwithstanding the prosecution's arguments, the law is clear. Insofar as precedent guides decisions, this case matches previous rulings. On the grounds that rights were violated, remedies are warranted. Assuming that the court follows established law, dismissal is appropriate."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Policy Recommendation",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 10,
+          "content": "Our organization recommends policy changes. Given that demographic shifts are occurring, healthcare needs are evolving. In light of an aging population, long-term care capacity must increase. Provided that funding is secured, new facilities can be built. Notwithstanding budget pressures, this investment is necessary. Insofar as prevention reduces costs, wellness programs should expand. On the grounds that early intervention is cost-effective, screening should be universal. Assuming that implementation begins now, benefits will be seen within five years."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "meaning",
+          "front": "Given that",
+          "back": "= Because / Considering that\n\nGiven that he's busy, we'll wait."
+        },
+        {
+          "type": "meaning",
+          "front": "In light of",
+          "back": "= Because of (+ noun)\n\nIn light of the evidence, he's innocent."
+        },
+        {
+          "type": "meaning",
+          "front": "Provided that",
+          "back": "= If (conditional)\n\nProvided that you agree, we can proceed."
+        },
+        {
+          "type": "meaning",
+          "front": "Notwithstanding",
+          "back": "= Despite (+ noun)\n\nNotwithstanding the risks, they continued."
+        },
+        {
+          "type": "meaning",
+          "front": "Insofar as",
+          "back": "= To the extent that\n\nInsofar as we know, it's true."
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "transformation", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'will' in conditional clauses",
+      "Mixing 'In light of' (+ noun) with 'Given that' (+ clause)",
+      "Adding 'that' after notwithstanding",
+      "Using informal expressions in academic writing"
+    ],
+    "related_topics": ["b2_discourse_markers"],
+    "ielts_relevance": "Very high - Academic Writing Tasks",
+    "frequency_in_english": "High in academic/formal English"
+  }
+}

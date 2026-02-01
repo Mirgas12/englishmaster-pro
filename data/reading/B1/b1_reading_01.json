@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_01",
+  "level": "B1",
+  "title": "The Benefits of Remote Work",
+  "title_ru": "Преимущества удалённой работы",
+  "word_count": 215,
+  "topic": "work",
+  "text": "Remote work has become increasingly popular in recent years, and the COVID-19 pandemic accelerated this trend dramatically. Many companies discovered that employees could be just as productive working from home as they were in the office.\n\nThere are several advantages to remote work. First, employees save time and money on commuting. The average worker spends over an hour traveling to and from work each day. That's time that could be spent with family or on hobbies. Second, many people find they can concentrate better at home without office distractions like chatty colleagues or noisy meetings.\n\nHowever, remote work isn't perfect for everyone. Some people struggle with the lack of social interaction. They miss the casual conversations with coworkers and feel isolated at home. Others find it difficult to separate work from personal life when their office is in their living room.\n\nCompanies have adapted by creating hybrid models, where employees work from home some days and come to the office on others. This approach aims to combine the best of both worlds. Workers get flexibility while still maintaining face-to-face connections with their teams.\n\nAs technology continues to improve, remote work will likely become even more common. The key is finding the right balance that works for both employers and employees.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What accelerated the trend of remote work?", "options": ["New technology", "The COVID-19 pandemic", "Company policies"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is one disadvantage of remote work mentioned?", "options": ["Lower productivity", "Lack of social interaction", "Higher costs"], "correct": 1},
+    {"type": "true_false", "question": "The average worker commutes less than an hour per day.", "correct": false},
+    {"type": "true_false", "question": "Hybrid models combine home and office work.", "correct": true},
+    {"type": "fill_gap", "question": "Some people find it hard to ___ work from personal life.", "answer": "separate"}
+  ],
+  "vocabulary": ["remote work", "commuting", "productivity", "hybrid", "flexibility"],
+  "grammar_focus": ["present_perfect", "comparatives"]
+}

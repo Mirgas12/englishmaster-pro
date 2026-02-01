@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_12",
+  "level": "B2",
+  "title": "The Psychology of Leadership",
+  "title_ru": "Психология лидерства",
+  "media_type": "video",
+  "duration_seconds": 110,
+  "description": "Research on effective leadership",
+  "transcript": "What makes an effective leader? Early theories focused on traits – the idea that leaders are born, not made, possessing innate characteristics like charisma or decisiveness. But research has largely discredited this view. Leadership effectiveness depends heavily on context; different situations require different leadership styles. Transactional leadership relies on clear structures, rewards, and consequences. It works well for routine operations but may stifle innovation. Transformational leadership inspires followers toward a compelling vision, encouraging them to transcend self-interest for collective goals. This style excels during change but may create overdependence on the leader. Servant leadership prioritizes the development and wellbeing of team members, building trust and loyalty. Authentic leadership emphasizes genuine self-expression and ethical behavior. Emotional intelligence – the ability to understand and manage emotions in oneself and others – emerges as crucial across styles. Leaders who can read situations, empathize with followers, and regulate their own responses tend to be more effective. Perhaps most importantly, effective leaders create other leaders. They develop capabilities in their teams rather than concentrating power. The best leadership legacy is an organization that thrives without you.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What did early theories focus on?", "options": ["Context", "Traits", "Training"], "correct": 1},
+    {"type": "multiple_choice", "question": "What kind of leadership prioritizes team wellbeing?", "options": ["Transactional", "Servant", "Autocratic"], "correct": 1},
+    {"type": "true_false", "question": "Research supports the idea that leaders are born, not made.", "correct": false},
+    {"type": "true_false", "question": "Emotional intelligence is crucial for leaders.", "correct": true},
+    {"type": "fill_gap", "question": "Effective leaders create other ___ rather than concentrating power.", "answer": "leaders"}
+  ],
+  "vocabulary": ["innate", "transactional", "transformational", "transcend", "authentic"],
+  "key_phrases": ["largely discredited", "depends heavily on context", "transcend self-interest", "thrives without you"]
+}

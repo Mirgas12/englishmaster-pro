@@ -1,0 +1,274 @@
+{
+  "id": "b2_future_perfect",
+  "level": "B2",
+  "title": "Future Perfect and Future Continuous",
+  "title_ru": "Future Perfect и Future Continuous",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_future_will", "b1_present_perfect_experience"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about future predictions. Notice the different time perspectives.",
+      "instruction_ru": "Прочитай о прогнозах на будущее. Обрати внимание на разные временные перспективы.",
+      "content": {
+        "text": "By 2030, scientists <highlight>will have discovered</highlight> cures for many diseases. This time next year, I <highlight>will be living</highlight> in a new city. In five years, she <highlight>will have graduated</highlight> from university and <highlight>will be working</highlight> as a doctor. By the time you arrive, the party <highlight>will have started</highlight>. At 8 PM tomorrow, I <highlight>will be having</highlight> dinner with my family. By next month, we <highlight>will have been married</highlight> for 25 years! This time tomorrow, I <highlight>won't be sitting</highlight> in this office - I <highlight>will be relaxing</highlight> on a beach!",
+        "question": "What's the difference between 'will have done' and 'will be doing'?",
+        "question_ru": "В чём разница между 'will have done' и 'will be doing'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Future Perfect and Future Continuous",
+        "title_ru": "Future Perfect и Future Continuous",
+        "points": [
+          {
+            "rule": "Future Perfect: will have + past participle",
+            "rule_ru": "Future Perfect: will have + причастие прош. времени",
+            "example": "By 2025, I will have finished my degree.",
+            "marker": "will have + V3"
+          },
+          {
+            "rule": "Future Perfect Use: Action completed BEFORE a future time",
+            "rule_ru": "Future Perfect: Действие завершено ДО определённого момента в будущем",
+            "example": "By 9 PM, I will have eaten dinner. (completed before 9 PM)",
+            "marker": "completed before"
+          },
+          {
+            "rule": "Future Continuous: will be + verb-ing",
+            "rule_ru": "Future Continuous: will be + глагол-ing",
+            "example": "This time tomorrow, I will be flying to Paris.",
+            "marker": "will be + V-ing"
+          },
+          {
+            "rule": "Future Continuous Use: Action in progress AT a future time",
+            "rule_ru": "Future Continuous: Действие в процессе В определённый момент в будущем",
+            "example": "At 8 PM, I will be watching TV. (in the middle of watching)",
+            "marker": "in progress at"
+          },
+          {
+            "rule": "Key time markers: by (perfect), at/this time (continuous)",
+            "rule_ru": "Ключевые маркеры времени: by (perfect), at/this time (continuous)",
+            "example": "By Friday vs At 3 PM / This time next week",
+            "marker": "time markers"
+          }
+        ],
+        "comparison_table": [
+          {"tense": "Future Simple", "form": "will + infinitive", "use": "prediction/decision", "example": "I will finish."},
+          {"tense": "Future Continuous", "form": "will be + V-ing", "use": "action in progress", "example": "I will be finishing."},
+          {"tense": "Future Perfect", "form": "will have + V3", "use": "action completed by", "example": "I will have finished."},
+          {"tense": "Future Perfect Continuous", "form": "will have been + V-ing", "use": "duration up to", "example": "I will have been working for 10 years."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify Future Perfect vs Future Continuous. What time perspective does each show?",
+      "instruction_ru": "Определи Future Perfect vs Future Continuous. Какую временную перспективу показывает каждое?",
+      "tasks": [
+        {
+          "text": "Planning my trip to Japan:\n\nBy June 1st, I will have saved enough money for the trip. This time next month, I will be booking my flights. By the time I leave, I will have learned some basic Japanese. At 10 AM on June 15th, I will be boarding the plane. By the time I land, I will have been traveling for 12 hours. During my first week, I will be exploring Tokyo. By the end of my trip, I will have visited five cities. This time in July, I will be telling everyone about my amazing adventure!",
+          "find": [
+            {"sentence": "will have saved", "type": "Future Perfect", "time": "completed by June 1st"},
+            {"sentence": "will be booking", "type": "Future Continuous", "time": "in progress at that time"},
+            {"sentence": "will have learned", "type": "Future Perfect", "time": "completed before leaving"},
+            {"sentence": "will be boarding", "type": "Future Continuous", "time": "in progress at 10 AM"},
+            {"sentence": "will have been traveling", "type": "Future Perfect Continuous", "time": "duration up to landing"},
+            {"sentence": "will be exploring", "type": "Future Continuous", "time": "in progress during week"},
+            {"sentence": "will have visited", "type": "Future Perfect", "time": "completed by end"},
+            {"sentence": "will be telling", "type": "Future Continuous", "time": "in progress in July"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we use 'by' with Future Perfect and 'at/this time' with Future Continuous?",
+      "reflection_question_ru": "Почему мы используем 'by' с Future Perfect и 'at/this time' с Future Continuous?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Future Perfect or Future Continuous.",
+          "sentences": [
+            {"sentence": "By next year, I ___ (finish) my degree.", "answer": "will have finished", "type": "FP"},
+            {"sentence": "This time tomorrow, she ___ (fly) to London.", "answer": "will be flying", "type": "FC"},
+            {"sentence": "By the time you arrive, we ___ (eat) dinner.", "answer": "will have eaten", "type": "FP"},
+            {"sentence": "At 8 PM, I ___ (watch) the match.", "answer": "will be watching", "type": "FC"},
+            {"sentence": "By 2030, scientists ___ (discover) new planets.", "answer": "will have discovered", "type": "FP"},
+            {"sentence": "This time next week, we ___ (lie) on the beach.", "answer": "will be lying", "type": "FC"},
+            {"sentence": "By midnight, the party ___ (end).", "answer": "will have ended", "type": "FP"},
+            {"sentence": "At noon tomorrow, I ___ (take) my exam.", "answer": "will be taking", "type": "FC"},
+            {"sentence": "By the end of this course, you ___ (learn) 500 new words.", "answer": "will have learned", "type": "FP"},
+            {"sentence": "In an hour, the meeting ___ (still/go on).", "answer": "will still be going on", "type": "FC"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose Future Perfect or Future Continuous.",
+          "questions": [
+            {
+              "sentence": "By Friday, I ___ the report.",
+              "options": ["will finish", "will be finishing", "will have finished"],
+              "correct": 2,
+              "explanation": "By + time = completed before = Future Perfect"
+            },
+            {
+              "sentence": "This time next month, I ___ in my new job.",
+              "options": ["will work", "will be working", "will have worked"],
+              "correct": 1,
+              "explanation": "This time + future = in progress = Future Continuous"
+            },
+            {
+              "sentence": "By the time she's 30, she ___ three degrees.",
+              "options": ["will get", "will be getting", "will have gotten"],
+              "correct": 2,
+              "explanation": "By the time = completed before = Future Perfect"
+            },
+            {
+              "sentence": "At 3 PM tomorrow, the students ___ their exam.",
+              "options": ["will write", "will be writing", "will have written"],
+              "correct": 1,
+              "explanation": "At + specific time = in progress = Future Continuous"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "By next year, I will be finishing my studies.",
+              "correct": "By next year, I will have finished my studies.",
+              "explanation": "By = completed = Future Perfect"
+            },
+            {
+              "incorrect": "This time tomorrow, I will have flown to Paris.",
+              "correct": "This time tomorrow, I will be flying to Paris.",
+              "explanation": "This time = in progress = Future Continuous"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 16,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your future plans and predictions using both tenses.",
+      "instruction_ru": "Напиши о своих планах и прогнозах на будущее, используя оба времени.",
+      "prompts": [
+        "What will you have achieved by a certain age or date?",
+        "What will you be doing at specific times in the future?",
+        "Predict what will have happened by 2030",
+        "Describe a typical day in your future life"
+      ],
+      "example": "I have big plans for the next few years! By 2025, I will have completed my master's degree. This time next year, I will be working at a new company - hopefully! By the time I'm 35, I will have traveled to at least 30 countries. At this time tomorrow, I will be presenting my project to the team - I'm nervous! By the end of this month, I will have saved enough for a new car. In ten years, I wonder what I will be doing. I hope by then I will have found true happiness!",
+      "ai_check": true,
+      "criteria": [
+        "Uses Future Perfect with 'by' + time",
+        "Uses Future Continuous with 'at/this time'",
+        "Both tenses used correctly",
+        "At least 6 sentences with these tenses"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with Future Perfect and Future Continuous.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Company Vision 2030",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "By 2030, our company will have expanded to 50 countries. We will be employing over 100,000 people worldwide. By then, we will have launched revolutionary products. This time in five years, our AI division will be leading the industry. By the end of the decade, we will have invested billions in research. Our employees will be working in state-of-the-art facilities. By 2030, we will have achieved carbon neutrality."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Personal Goals",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "I've set ambitious goals! By December, I will have run a marathon. This time next month, I will be training for it every day. By my 40th birthday, I will have visited all seven continents. In two years, I will be speaking three languages fluently. By the time I retire, I will have saved a million dollars. At this time next year, I will be celebrating my achievements. I'm excited about what I will have accomplished!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Project Timeline",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Here's our project timeline: By next Monday, we will have finished the research phase. During week two, the team will be designing the prototype. By the end of month one, we will have completed testing. In month two, we will be presenting to stakeholders. By March, we will have launched the product. At that point, we will be gathering customer feedback. By June, we will have made all necessary improvements."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Future Technology",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Technology is advancing fast! By 2040, humans will have landed on Mars. Scientists will be working on colonies there. By 2050, we will have developed true artificial intelligence. People will be interacting with robots daily. By then, cars will have become fully autonomous. We will be traveling in flying vehicles. By the end of this century, humans will have solved many current problems. What an exciting future!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Travel Plans",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "I'm planning an epic trip! By June 1st, I will have saved $10,000. This time in July, I will be backpacking through Europe. By the end of summer, I will have visited 15 countries. During August, I will be hiking in the Alps. By September, I will have taken thousands of photos. At this time next year, I will be planning my next adventure. By then, I will have experienced so much!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "By 2025, I ___ (finish) my degree.\n(completed before)",
+          "back": "will have finished\n\nFuture Perfect"
+        },
+        {
+          "type": "fill_gap",
+          "front": "This time tomorrow, I ___ (fly) to Paris.\n(in progress)",
+          "back": "will be flying\n\nFuture Continuous"
+        },
+        {
+          "type": "choose",
+          "front": "By the time he arrives, we ___ dinner.\n(will eat / will have eaten)",
+          "back": "will have eaten\n\nBy = completed = FP"
+        },
+        {
+          "type": "choose",
+          "front": "At 8 PM, she ___ TV.\n(will watch / will be watching)",
+          "back": "will be watching\n\nAt = in progress = FC"
+        },
+        {
+          "type": "error_correction",
+          "front": "By next month, I will be finishing the course.",
+          "back": "By next month, I will have finished the course.\n\nBy = completed = FP"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Confusing Future Perfect and Future Continuous",
+      "Using wrong time markers",
+      "Forgetting 'have' or 'be' in the structure",
+      "Using Future Perfect for actions in progress"
+    ],
+    "related_topics": ["a2_future_will", "b1_present_perfect_experience"],
+    "ielts_relevance": "High - Writing Task 2, Speaking Part 3",
+    "frequency_in_english": "Medium-High"
+  }
+}

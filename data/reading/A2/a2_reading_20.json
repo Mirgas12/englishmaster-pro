@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_20",
+  "level": "A2",
+  "title": "My Favorite Movie",
+  "title_ru": "Мой любимый фильм",
+  "word_count": 155,
+  "topic": "entertainment",
+  "text": "My favorite movie is 'Harry Potter and the Philosopher's Stone.' I've watched it at least twenty times! It's about a boy named Harry who discovers he's a wizard. He goes to a magic school called Hogwarts. I love the movie because of the magic and adventure. The characters are wonderful. Harry is brave, Hermione is clever, and Ron is funny. My favorite character is Hagrid, the friendly giant. The special effects in the movie are amazing. The castle, the flying broomsticks, and the magical creatures all look so real. The music is also beautiful - I sometimes listen to the soundtrack. I've read all the Harry Potter books too. I think the books are even better than the movies because you learn more details. I would love to visit the Harry Potter studio in London one day. It's like a dream come true!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is Harry Potter?", "options": ["A detective", "A wizard", "A superhero"], "correct": 1},
+    {"type": "multiple_choice", "question": "Who is the writer's favorite character?", "options": ["Harry", "Hermione", "Hagrid"], "correct": 2},
+    {"type": "true_false", "question": "The writer has never read the books.", "correct": false},
+    {"type": "true_false", "question": "The writer thinks books are better than movies.", "correct": true},
+    {"type": "fill_gap", "question": "The Harry Potter studio is in ___.", "answer": "London"}
+  ],
+  "vocabulary": ["wizard", "magic", "adventure", "characters", "special effects"],
+  "grammar_focus": ["present_perfect", "comparatives"]
+}

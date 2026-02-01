@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_19",
+  "level": "B2",
+  "title": "Cultural Intelligence in a Globalized World",
+  "title_ru": "Культурный интеллект в глобализированном мире",
+  "word_count": 295,
+  "topic": "culture",
+  "text": "As business, education, and personal lives become increasingly international, the ability to work effectively across cultures has become a crucial skill. Cultural intelligence (CQ) – the capability to function effectively in situations characterized by cultural diversity – is now considered as important as traditional intelligence or emotional intelligence.\n\nCultural intelligence comprises several components. Cognitive CQ involves knowledge about cultural differences – understanding different values, practices, and norms. Motivational CQ reflects interest and confidence in cross-cultural interactions. Behavioral CQ is the ability to adapt verbal and nonverbal behaviors appropriately.\n\nCultural differences affect communication in profound ways. Direct communication styles, common in Western contexts, may seem rude in cultures that value indirectness. Attitudes toward hierarchy vary significantly – some cultures expect deference to authority while others embrace egalitarianism. Concepts of time differ from punctuality-focused cultures to those with more flexible orientations.\n\nStereotyping represents a significant pitfall. While understanding cultural tendencies provides useful preparation, assuming all individuals from a culture think alike is both inaccurate and offensive. Within any culture, significant individual variation exists. Cultural intelligence requires holding cultural knowledge lightly while remaining responsive to individual differences.\n\nDeveloping cultural intelligence requires more than reading about other cultures. Actual experience with cultural diversity, ideally involving meaningful relationships, builds capability more effectively than theoretical knowledge. Seeking feedback, reflecting on cross-cultural experiences, and deliberately pushing beyond comfort zones accelerates growth.\n\nOrganizations increasingly recognize cultural intelligence as a business imperative. Multicultural teams can outperform homogeneous ones by bringing diverse perspectives, but only when managed effectively. International expansion fails when companies misunderstand local markets and alienate potential customers.\n\nIn our interconnected world, cultural intelligence isn't optional – it's essential. Those who develop this capability will find themselves better equipped for both professional success and enriching personal relationships across cultural boundaries.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does CQ stand for?", "options": ["Cultural Question", "Cultural Intelligence", "Cultural Quality"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is a significant pitfall in cross-cultural interactions?", "options": ["Learning too much", "Stereotyping", "Being too indirect"], "correct": 1},
+    {"type": "true_false", "question": "All people from one culture think alike.", "correct": false},
+    {"type": "true_false", "question": "Experience with diversity is more effective than theoretical knowledge.", "correct": true},
+    {"type": "fill_gap", "question": "Behavioral CQ is the ability to adapt verbal and ___ behaviors.", "answer": "nonverbal"}
+  ],
+  "vocabulary": ["cultural intelligence", "cognitive", "egalitarianism", "diversity", "deference"],
+  "grammar_focus": ["present_simple", "comparatives"]
+}

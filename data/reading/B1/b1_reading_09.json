@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_09",
+  "level": "B1",
+  "title": "Vegetarian and Vegan Diets",
+  "title_ru": "Вегетарианская и веганская диеты",
+  "word_count": 235,
+  "topic": "food",
+  "text": "More people than ever are choosing vegetarian or vegan diets. While vegetarians avoid meat but may eat dairy and eggs, vegans exclude all animal products entirely. There are various reasons why people make these dietary choices, including health, environmental concerns, and animal welfare.\n\nHealth benefits of plant-based diets are well documented. Studies show that vegetarians and vegans typically have lower rates of heart disease, high blood pressure, and certain cancers. They often have healthier body weights and better cholesterol levels. Plant-based diets are naturally rich in fiber, vitamins, and antioxidants.\n\nEnvironmental impact is another major factor. Meat production requires significantly more land, water, and energy than growing plants. Livestock farming is also a major source of greenhouse gas emissions. By eating less meat, individuals can reduce their environmental footprint.\n\nHowever, plant-based diets require careful planning to ensure adequate nutrition. Vegans in particular need to pay attention to getting enough protein, vitamin B12, iron, calcium, and omega-3 fatty acids. Many of these nutrients can be obtained from fortified foods or supplements.\n\nThe availability of vegetarian and vegan options has improved dramatically. Most restaurants now offer meat-free dishes, and supermarkets stock a wide range of plant-based alternatives to meat, milk, and cheese. These products have become increasingly sophisticated and tasty.\n\nWhether someone becomes fully vegan or simply reduces their meat consumption, making more plant-based food choices can benefit both personal health and the environment.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the difference between vegetarian and vegan?", "options": ["No difference", "Vegans avoid all animal products", "Vegetarians eat meat"], "correct": 1},
+    {"type": "multiple_choice", "question": "What nutrient do vegans need to monitor?", "options": ["Sugar", "Vitamin B12", "Sodium"], "correct": 1},
+    {"type": "true_false", "question": "Meat production uses less resources than plants.", "correct": false},
+    {"type": "true_false", "question": "Vegetarians have lower rates of heart disease.", "correct": true},
+    {"type": "fill_gap", "question": "Livestock farming produces greenhouse gas ___.", "answer": "emissions"}
+  ],
+  "vocabulary": ["vegetarian", "vegan", "plant-based", "nutrients", "fortified"],
+  "grammar_focus": ["present_simple", "comparatives"]
+}

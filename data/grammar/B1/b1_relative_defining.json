@@ -1,0 +1,284 @@
+{
+  "id": "b1_relative_defining",
+  "level": "B1",
+  "title": "Defining Relative Clauses",
+  "title_ru": "Определительные придаточные предложения",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_past_simple_regular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about different people. Notice how we give extra information about them.",
+      "instruction_ru": "Прочитай о разных людях. Обрати внимание, как мы даём дополнительную информацию о них.",
+      "content": {
+        "text": "I have many friends. The girl <highlight>who lives</highlight> next door is called Sarah. She's dating a man <highlight>who works</highlight> as a doctor. The restaurant <highlight>where they met</highlight> is very romantic. The day <highlight>when they first talked</highlight> was Valentine's Day. The movie <highlight>which they watched</highlight> on their first date was a comedy. The reason <highlight>why they fell in love</highlight> is simple - they have so much in common! The things <highlight>that they enjoy</highlight> include hiking and cooking.",
+        "question": "What words (who, which, where, when, that) connect the extra information?",
+        "question_ru": "Какие слова (who, which, where, when, that) соединяют дополнительную информацию?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Defining Relative Clauses - Essential Information",
+        "title_ru": "Определительные придаточные - Необходимая информация",
+        "points": [
+          {
+            "rule": "who = for people (subject/object)",
+            "rule_ru": "who = для людей (подлежащее/дополнение)",
+            "example": "The man who called is my boss. The woman who I met was friendly.",
+            "marker": "who"
+          },
+          {
+            "rule": "which = for things and animals",
+            "rule_ru": "which = для вещей и животных",
+            "example": "The book which I bought is interesting. The cat which lives here is cute.",
+            "marker": "which"
+          },
+          {
+            "rule": "that = for people, things, animals (informal, replaces who/which)",
+            "rule_ru": "that = для людей, вещей, животных (неформально, заменяет who/which)",
+            "example": "The man that called... The book that I bought...",
+            "marker": "that"
+          },
+          {
+            "rule": "where = for places; when = for times; why = for reasons",
+            "rule_ru": "where = для мест; when = для времени; why = для причин",
+            "example": "The city where I was born. The day when we met. The reason why I left.",
+            "marker": "where/when/why"
+          },
+          {
+            "rule": "Defining = essential information (no commas), tells us WHICH one",
+            "rule_ru": "Определительные = важная информация (без запятых), говорит нам КАКОЙ именно",
+            "example": "The girl who has red hair is my sister. (Which girl? The one with red hair)",
+            "marker": "essential"
+          }
+        ],
+        "comparison_table": [
+          {"pronoun": "who", "use": "people", "example": "The teacher who teaches math is strict."},
+          {"pronoun": "which", "use": "things/animals", "example": "The car which is red is mine."},
+          {"pronoun": "that", "use": "people/things (informal)", "example": "The man that called left a message."},
+          {"pronoun": "where", "use": "places", "example": "The house where I grew up was small."},
+          {"pronoun": "when", "use": "times", "example": "I remember the day when we met."},
+          {"pronoun": "why", "use": "reasons", "example": "The reason why I'm late is traffic."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all relative clauses. What does each clause tell us?",
+      "instruction_ru": "Найди все относительные предложения. Что каждое из них нам сообщает?",
+      "tasks": [
+        {
+          "text": "Do you know the woman who is standing by the window? She's the author who wrote my favorite book. The book which she wrote has sold millions of copies. The story that she tells is about a place where magic exists. The moment when the hero discovers the truth is amazing. The characters who appear in the book are very realistic. Is there a reason why you haven't read it? The friends that I've told about it all loved it. The bookstore where I bought my copy is on Main Street.",
+          "find": [
+            {"clause": "who is standing by the window", "refers_to": "woman", "info": "identifies which woman"},
+            {"clause": "who wrote my favorite book", "refers_to": "author", "info": "identifies which author"},
+            {"clause": "which she wrote", "refers_to": "book", "info": "identifies which book"},
+            {"clause": "that she tells", "refers_to": "story", "info": "identifies which story"},
+            {"clause": "where magic exists", "refers_to": "place", "info": "describes the place"},
+            {"clause": "when the hero discovers the truth", "refers_to": "moment", "info": "identifies which moment"},
+            {"clause": "who appear in the book", "refers_to": "characters", "info": "specifies which characters"},
+            {"clause": "why you haven't read it", "refers_to": "reason", "info": "asks for the reason"},
+            {"clause": "that I've told about it", "refers_to": "friends", "info": "specifies which friends"},
+            {"clause": "where I bought my copy", "refers_to": "bookstore", "info": "identifies which bookstore"}
+          ]
+        }
+      ],
+      "reflection_question": "Can we remove defining relative clauses and still understand the sentence?",
+      "reflection_question_ru": "Можем ли мы убрать определительные придаточные и всё ещё понять предложение?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with who, which, that, where, when, or why.",
+          "sentences": [
+            {"sentence": "The man ___ lives next door is a pilot.", "answer": "who/that"},
+            {"sentence": "The book ___ you lent me was great.", "answer": "which/that"},
+            {"sentence": "That's the restaurant ___ we had dinner.", "answer": "where"},
+            {"sentence": "Do you remember the day ___ we first met?", "answer": "when"},
+            {"sentence": "The reason ___ she left is unclear.", "answer": "why"},
+            {"sentence": "I know a girl ___ speaks five languages.", "answer": "who/that"},
+            {"sentence": "The movie ___ won the Oscar was fantastic.", "answer": "which/that"},
+            {"sentence": "Is this the place ___ the accident happened?", "answer": "where"},
+            {"sentence": "The people ___ work here are friendly.", "answer": "who/that"},
+            {"sentence": "I'll never forget the moment ___ I heard the news.", "answer": "when"}
+          ]
+        },
+        {
+          "type": "combine_sentences",
+          "instruction": "Combine the sentences using a relative pronoun.",
+          "sentences": [
+            {
+              "sentence1": "I met a woman. She works at the hospital.",
+              "combined": "I met a woman who works at the hospital.",
+              "note": "who for people"
+            },
+            {
+              "sentence1": "This is the car. I bought it last week.",
+              "combined": "This is the car which/that I bought last week.",
+              "note": "which/that for things"
+            },
+            {
+              "sentence1": "That's the hotel. We stayed there.",
+              "combined": "That's the hotel where we stayed.",
+              "note": "where for places"
+            },
+            {
+              "sentence1": "I remember the summer. We went camping then.",
+              "combined": "I remember the summer when we went camping.",
+              "note": "when for times"
+            },
+            {
+              "sentence1": "Tell me the reason. You didn't come to the party.",
+              "combined": "Tell me the reason why you didn't come to the party.",
+              "note": "why for reasons"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "The man which called is my father.",
+              "correct": "The man who/that called is my father.",
+              "explanation": "Use 'who' or 'that' for people, not 'which'"
+            },
+            {
+              "incorrect": "The city who I visited was beautiful.",
+              "correct": "The city which/that I visited was beautiful.",
+              "explanation": "Use 'which' or 'that' for places/things, not 'who'"
+            },
+            {
+              "incorrect": "The reason when I'm late is traffic.",
+              "correct": "The reason why I'm late is traffic.",
+              "explanation": "Use 'why' for reasons"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe people, places, and things using relative clauses.",
+      "instruction_ru": "Опиши людей, места и вещи, используя относительные придаточные.",
+      "prompts": [
+        "Describe your best friend using relative clauses",
+        "Describe a place that is special to you",
+        "Talk about a book or movie that you love",
+        "Describe a memorable moment in your life"
+      ],
+      "example": "My best friend is a person who always makes me laugh. She's the kind of friend who is always there when you need her. The first time we met was at a party where we were both feeling shy. The moment when we started talking was awkward but funny. We discovered that we both love books that make you think. The café where we often meet has become our special place. The reason why our friendship is strong is that we're always honest with each other.",
+      "ai_check": true,
+      "criteria": [
+        "Uses who for people, which/that for things",
+        "Uses where, when, why appropriately",
+        "Clauses give essential identifying information",
+        "At least 6 sentences with relative clauses"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with defining relative clauses.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Job Descriptions",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "We need people who are hardworking. The job that we're offering is challenging but rewarding. Candidates who have experience will be preferred. The skills that we require include communication and teamwork. The office where you'll work is modern and comfortable. The person who gets this job will lead a team. The training that we provide is comprehensive. The salary that we offer is competitive. Apply now if you're someone who wants to make a difference!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Travel Memories",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "The trip that I took last summer was unforgettable. The country where I went was Japan. The people who I met were incredibly kind. The food that I tried was delicious. The temple where I meditated was peaceful. I remember the moment when I saw Mount Fuji. The hostel where I stayed was run by a woman who spoke five languages. The friends that I made there are still in contact with me. It was an experience that changed my perspective."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Product Review",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "This is a product that everyone needs! The company that makes it is known for quality. The materials that are used are eco-friendly. People who have bought it love it. The design that they've created is simple but effective. The price that they charge is reasonable. The store where I got mine had a sale. The reason why I recommend it is the durability. This is something that will last for years!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "My Neighborhood",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "I live in a neighborhood that is very diverse. The street where I live has houses from different eras. The neighbors who live next door are from Brazil. The park that is nearby has a playground where children play. The bakery that opened last year sells bread that smells amazing. The café where I have breakfast is run by a couple who moved here from Italy. The reason why I love this area is the community that we've built here."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "School Days",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "The school that I attended was small but good. The teacher who influenced me most taught English. The classroom where we learned was always full of energy. The books that we read opened new worlds. I remember the day when I won the spelling contest. The friends that I made there are still close to me. The lessons that I learned go beyond academics. The reason why I succeeded is the education that I received."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "The man ___ called is my father. (people)",
+          "back": "who/that\n\nwho for people"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The book ___ I read was great. (thing)",
+          "back": "which/that\n\nwhich for things"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The city ___ I was born is small. (place)",
+          "back": "where\n\nwhere for places"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The day ___ we met was special. (time)",
+          "back": "when\n\nwhen for times"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"The person which won is my sister.\"",
+          "back": "The person who won is my sister.\n\nwho for people"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "combine_sentences", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'which' for people",
+      "Using 'who' for things",
+      "Confusing where/when/why",
+      "Adding unnecessary pronouns (the book which I read it)"
+    ],
+    "related_topics": ["b1_relative_non_defining"],
+    "ielts_relevance": "Very high - essential for complex sentences",
+    "frequency_in_english": "Very high"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_16",
+  "level": "A2",
+  "title": "My City Tour",
+  "title_ru": "Экскурсия по городу",
+  "word_count": 158,
+  "topic": "travel",
+  "text": "Last weekend, tourists from another country visited our city. Our school helped to give them a city tour. I was a guide for a family from Japan. Their names were Yuki and her parents. We walked around the main square and I told them about the history. The town hall is 200 years old. Then we visited the cathedral. It has beautiful stained glass windows. Yuki loved taking photos. For lunch, I took them to a traditional restaurant. They tried local food for the first time. They said it was delicious! In the afternoon, we walked along the river and visited the art museum. The museum has paintings from famous artists. At the end of the day, Yuki gave me a small gift from Japan. It was a beautiful keychain. We exchanged email addresses and promised to stay in touch. Being a tour guide was a great experience!",
+  "questions": [
+    {"type": "multiple_choice", "question": "Where was the family from?", "options": ["China", "Japan", "Korea"], "correct": 1},
+    {"type": "multiple_choice", "question": "How old is the town hall?", "options": ["100 years", "200 years", "300 years"], "correct": 1},
+    {"type": "true_false", "question": "The tourists had tried local food before.", "correct": false},
+    {"type": "true_false", "question": "They visited an art museum.", "correct": true},
+    {"type": "fill_gap", "question": "Yuki gave a ___ as a gift.", "answer": "keychain"}
+  ],
+  "vocabulary": ["tour", "guide", "cathedral", "traditional", "museum"],
+  "grammar_focus": ["past_simple", "possessive_pronouns"]
+}

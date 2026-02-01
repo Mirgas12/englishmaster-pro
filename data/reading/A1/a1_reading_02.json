@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_02",
+  "level": "A1",
+  "title": "My Family",
+  "title_ru": "Моя семья",
+  "word_count": 88,
+  "topic": "family",
+  "text": "I have a big family. My father's name is John. He is 45 years old. He is a doctor. My mother's name is Mary. She is 42. She is a teacher. I have one brother and one sister. My brother is 15. His name is Mike. My sister is 10. Her name is Anna. We have a cat. Its name is Whiskers. We live in a house with a garden. I love my family very much!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the father's job?", "options": ["teacher", "doctor", "driver"], "correct": 1},
+    {"type": "multiple_choice", "question": "How old is the mother?", "options": ["40", "42", "45"], "correct": 1},
+    {"type": "true_false", "question": "Mike is the sister.", "correct": false},
+    {"type": "true_false", "question": "They have a cat.", "correct": true},
+    {"type": "fill_gap", "question": "The family lives in a ___ with a garden.", "answer": "house"}
+  ],
+  "vocabulary": ["father", "mother", "brother", "sister", "family"],
+  "grammar_focus": ["possessive_pronouns", "be_verb"]
+}

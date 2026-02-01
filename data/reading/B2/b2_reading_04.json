@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_04",
+  "level": "B2",
+  "title": "The Science of Climate Change",
+  "title_ru": "Наука об изменении климата",
+  "word_count": 315,
+  "topic": "science",
+  "text": "Climate science rests on well-established physics that has been understood for over a century. The greenhouse effect – whereby certain gases in the atmosphere trap heat that would otherwise escape to space – was first described in the 1820s. Without it, Earth would be too cold for life as we know it. The question isn't whether greenhouse gases warm the planet, but rather how much additional warming human emissions will cause.\n\nSince the Industrial Revolution, atmospheric carbon dioxide levels have increased by about 50%, primarily from burning fossil fuels. This increase is unprecedented in at least 800,000 years, as ice core records demonstrate. The correlation between rising CO2 and rising temperatures is robust, though the relationship is not linear due to feedback mechanisms.\n\nClimate models, while not perfect, have proven remarkably accurate in their projections. Models from the 1970s predicted warming rates that closely match what we've subsequently observed. Scientists have high confidence in the fundamental physics these models employ, even while acknowledging uncertainties in exact regional impacts.\n\nThe consequences of warming are already visible: retreating glaciers, rising sea levels, shifting growing seasons, and increasing frequency of extreme weather events. These impacts will intensify as warming continues. Vulnerable ecosystems like coral reefs face extinction. Coastal cities confront growing flood risks. Agricultural productivity in many regions is threatened.\n\nAddressing climate change requires both mitigation – reducing emissions – and adaptation – preparing for impacts that are now inevitable. The Paris Agreement aims to limit warming to 1.5-2°C above pre-industrial levels, though current policies put the world on track for significantly more warming.\n\nThe scientific consensus on human-caused climate change is overwhelming, supported by virtually every scientific organization worldwide. Remaining debates focus on the precise magnitude and timing of impacts, not whether the problem exists. Understanding the science is crucial for informed policy decisions.",
+  "questions": [
+    {"type": "multiple_choice", "question": "When was the greenhouse effect first described?", "options": ["1920s", "1820s", "1720s"], "correct": 1},
+    {"type": "multiple_choice", "question": "By how much has CO2 increased since the Industrial Revolution?", "options": ["About 25%", "About 50%", "About 75%"], "correct": 1},
+    {"type": "true_false", "question": "Climate models from the 1970s were inaccurate.", "correct": false},
+    {"type": "true_false", "question": "Both mitigation and adaptation are needed to address climate change.", "correct": true},
+    {"type": "fill_gap", "question": "Ice core records cover at least ___ years of CO2 history.", "answer": "800,000"}
+  ],
+  "vocabulary": ["greenhouse effect", "emissions", "mitigation", "adaptation", "consensus"],
+  "grammar_focus": ["present_perfect", "passive_voice"]
+}

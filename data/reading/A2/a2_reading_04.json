@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_04",
+  "level": "A2",
+  "title": "The School Play",
+  "title_ru": "Школьный спектакль",
+  "word_count": 155,
+  "topic": "school",
+  "text": "Our school is preparing a play. It's called 'Romeo and Juliet' by Shakespeare. I tried out for the role of Juliet, and I got it! I was so excited when the teacher told me. We practice every day after school. It's hard work, but it's also fun. I have to learn many lines. My mum helps me practice at home. She reads Romeo's part while I read mine. The costume designer made a beautiful dress for me. It's red and gold. The play is next Friday. I'm a little nervous because many people will come to watch. My grandparents are coming from another city just to see me! I hope I don't forget my lines. My friend Tom plays Romeo. He's a good actor. After the play, there will be a party for all the actors. I can't wait!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What role did the writer get?", "options": ["Romeo", "Juliet", "The nurse"], "correct": 1},
+    {"type": "multiple_choice", "question": "What colors is the costume?", "options": ["Blue and silver", "Red and gold", "White and pink"], "correct": 1},
+    {"type": "true_false", "question": "They practice in the morning.", "correct": false},
+    {"type": "true_false", "question": "The grandparents are coming to watch.", "correct": true},
+    {"type": "fill_gap", "question": "The play is next ___.", "answer": "Friday"}
+  ],
+  "vocabulary": ["play", "role", "costume", "lines", "actor"],
+  "grammar_focus": ["present_continuous", "future_plans"]
+}

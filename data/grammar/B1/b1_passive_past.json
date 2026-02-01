@@ -1,0 +1,284 @@
+{
+  "id": "b1_passive_past",
+  "level": "B1",
+  "title": "Passive Voice - Past",
+  "title_ru": "Страдательный залог - Прошедшее время",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_passive_present", "a2_past_simple_regular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about historical events. Notice the verb forms.",
+      "instruction_ru": "Прочитай об исторических событиях. Обрати внимание на формы глаголов.",
+      "content": {
+        "text": "The Eiffel Tower <highlight>was built</highlight> in 1889. It <highlight>was designed</highlight> by Gustave Eiffel. The tower <highlight>was constructed</highlight> for the World's Fair. Over 18,000 pieces of iron <highlight>were used</highlight>. The structure <highlight>was completed</highlight> in just two years. At first, it <highlight>was criticized</highlight> by many Parisians. But soon it <highlight>was loved</highlight> by everyone. The tower <highlight>was visited</highlight> by millions of people. It <highlight>was declared</highlight> a historical monument in 1964.",
+        "question": "Are we talking about present or past events? What form do we use?",
+        "question_ru": "Мы говорим о настоящих или прошлых событиях? Какую форму мы используем?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Past Simple Passive",
+        "title_ru": "Прошедшее простое время в страдательном залоге",
+        "points": [
+          {
+            "rule": "Form: was/were + past participle (V3)",
+            "rule_ru": "Форма: was/were + причастие прошедшего времени (V3)",
+            "example": "The letter was sent. The windows were broken.",
+            "marker": "was/were + V3"
+          },
+          {
+            "rule": "Use: Past events where action/result is focus",
+            "rule_ru": "Использование: Прошлые события, где важно действие/результат",
+            "example": "America was discovered in 1492.",
+            "marker": "past focus"
+          },
+          {
+            "rule": "Singular subjects → was; Plural subjects → were",
+            "rule_ru": "Единственное число → was; Множественное число → were",
+            "example": "The book was written. The books were written.",
+            "marker": "was/were"
+          },
+          {
+            "rule": "Negative: was/were + not + V3",
+            "rule_ru": "Отрицание: was/were + not + V3",
+            "example": "The project wasn't finished on time.",
+            "marker": "wasn't/weren't"
+          },
+          {
+            "rule": "Question: Was/Were + subject + V3?",
+            "rule_ru": "Вопрос: Was/Were + подлежащее + V3?",
+            "example": "Was the Mona Lisa painted by Da Vinci?",
+            "marker": "Was/Were...?"
+          }
+        ],
+        "comparison_table": [
+          {"tense": "Present Passive", "form": "is/are + V3", "example": "The report is written daily."},
+          {"tense": "Past Passive", "form": "was/were + V3", "example": "The report was written yesterday."},
+          {"tense": "Past Negative", "form": "wasn't/weren't + V3", "example": "The report wasn't finished."},
+          {"tense": "Past Question", "form": "Was/Were + V3?", "example": "Was the report sent?"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all past passive verbs. Identify who did the action if mentioned.",
+      "instruction_ru": "Найди все глаголы в прошедшем пассиве. Определи, кто выполнял действие, если указано.",
+      "tasks": [
+        {
+          "text": "The Titanic was built in Belfast, Ireland. It was launched in 1911 and was completed in 1912. The ship was considered unsinkable. Over 2,200 passengers were carried on its first voyage. Sadly, the ship was struck by an iceberg on April 14, 1912. Distress signals were sent, but help didn't arrive in time. The Titanic was sunk in less than three hours. About 1,500 people were killed. Only 710 passengers were rescued by the ship Carpathia. The disaster was reported around the world. New safety regulations were introduced after this tragedy.",
+          "find": [
+            {"verb": "was built", "agent": "in Belfast (place, not person)"},
+            {"verb": "was launched", "agent": "not mentioned"},
+            {"verb": "was completed", "agent": "not mentioned"},
+            {"verb": "was considered", "agent": "people in general"},
+            {"verb": "were carried", "agent": "not mentioned"},
+            {"verb": "was struck", "agent": "by an iceberg"},
+            {"verb": "were sent", "agent": "not mentioned"},
+            {"verb": "was sunk", "agent": "not mentioned (iceberg implied)"},
+            {"verb": "were killed", "agent": "not mentioned"},
+            {"verb": "were rescued", "agent": "by the ship Carpathia"},
+            {"verb": "was reported", "agent": "not mentioned"},
+            {"verb": "were introduced", "agent": "not mentioned"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we often use passive in news reports and historical accounts?",
+      "reflection_question_ru": "Почему мы часто используем пассив в новостях и исторических описаниях?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Past Simple Passive.",
+          "sentences": [
+            {"sentence": "The pyramids ___ (build) thousands of years ago.", "answer": "were built"},
+            {"sentence": "The letter ___ (send) yesterday.", "answer": "was sent"},
+            {"sentence": "These photos ___ (take) in Paris.", "answer": "were taken"},
+            {"sentence": "The window ___ (break) by a ball.", "answer": "was broken"},
+            {"sentence": "The book ___ (write) by Shakespeare.", "answer": "was written"},
+            {"sentence": "The meeting ___ (cancel) due to bad weather.", "answer": "was canceled/cancelled"},
+            {"sentence": "Many houses ___ (destroy) in the earthquake.", "answer": "were destroyed"},
+            {"sentence": "The thief ___ (catch) by the police.", "answer": "was caught"},
+            {"sentence": "The movie ___ (direct) by Spielberg.", "answer": "was directed"},
+            {"sentence": "All the cookies ___ (eat) by the children.", "answer": "were eaten"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Change from Active to Passive (Past).",
+          "sentences": [
+            {
+              "active": "Someone stole my wallet.",
+              "passive": "My wallet was stolen.",
+              "note": "'Someone' is not mentioned in passive"
+            },
+            {
+              "active": "They built this church in 1850.",
+              "passive": "This church was built in 1850.",
+              "note": "Time expression stays"
+            },
+            {
+              "active": "Alexander Bell invented the telephone.",
+              "passive": "The telephone was invented by Alexander Bell.",
+              "note": "Important person = by + agent"
+            },
+            {
+              "active": "The storm damaged many buildings.",
+              "passive": "Many buildings were damaged by the storm.",
+              "note": "Cause can be mentioned"
+            },
+            {
+              "active": "Millions of people watched the game.",
+              "passive": "The game was watched by millions of people.",
+              "note": "Large number = often mentioned"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "The car was stole last night.",
+              "correct": "The car was stolen last night.",
+              "explanation": "Need V3: steal → stolen"
+            },
+            {
+              "incorrect": "The houses was destroyed.",
+              "correct": "The houses were destroyed.",
+              "explanation": "Houses = plural = were"
+            },
+            {
+              "incorrect": "The Mona Lisa painted by Da Vinci.",
+              "correct": "The Mona Lisa was painted by Da Vinci.",
+              "explanation": "Need was/were in passive"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about a historical event or how something was done in the past.",
+      "instruction_ru": "Напиши об историческом событии или о том, как что-то делалось в прошлом.",
+      "prompts": [
+        "Describe a famous building and when it was built",
+        "Write about an important invention and who it was invented by",
+        "Describe a historical event using passive voice",
+        "Write about something that happened to you using passive"
+      ],
+      "example": "The Great Wall of China is one of the most amazing structures ever built. Construction was started over 2,000 years ago. The wall was built to protect China from invaders. Millions of workers were employed in its construction. Many people were killed during the building process. Stones, bricks, and earth were used as materials. The wall was extended by different emperors over the centuries. It was completed during the Ming Dynasty. Today, the Great Wall is visited by millions of tourists every year.",
+      "ai_check": true,
+      "criteria": [
+        "Uses was/were + V3 correctly",
+        "Describes past events or processes",
+        "Uses 'by' when agent is relevant",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with Past Simple Passive.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "The Moon Landing",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "The first moon landing was achieved in 1969. The Apollo 11 mission was launched on July 16. Three astronauts were sent into space. The spacecraft was designed by NASA engineers. After four days, the moon was reached. Neil Armstrong was chosen to be the first to walk on the moon. His famous words were heard by millions. The American flag was planted on the surface. Samples were collected and were brought back to Earth."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Crime Report",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "A bank was robbed yesterday in the city center. The crime was committed at 3 PM. Three masked men were seen entering the building. The security guard was tied up. Customers were ordered to lie on the floor. The safe was opened and $500,000 was stolen. The robbers were driven away in a black van. The police were called immediately. Two suspects were arrested this morning. The money has not been found yet."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Ancient Rome",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Rome was founded in 753 BC. According to legend, it was established by Romulus and Remus. The city was built on seven hills. Many great structures were constructed, including the Colosseum. Gladiator fights were held there. The Roman Empire was expanded across Europe. Many countries were conquered by Roman armies. Latin was spoken throughout the empire. Roads and aqueducts were built. Rome was eventually weakened by invasions and was sacked in 410 AD."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "My Childhood Home",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Our old house was sold last year. It was built by my grandfather in 1960. I was raised in that house. Many happy memories were created there. Birthday parties were celebrated in the garden. Christmas dinners were cooked in the kitchen. The walls were painted different colors over the years. Some rooms were renovated by my father. But eventually, it was decided to sell. I was saddened when the house was bought by strangers."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "The Discovery of Penicillin",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Penicillin was discovered by Alexander Fleming in 1928. It was found by accident! A petri dish was left uncovered in his lab. Mold was grown on the dish. Bacteria near the mold were killed. Fleming was intrigued by this observation. His discovery was published in a scientific journal. Later, penicillin was developed into a medicine by other scientists. It was first used during World War II. Many lives were saved by this miracle drug. Fleming was awarded the Nobel Prize in 1945."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "The letter ___ (send) yesterday.",
+          "back": "was sent\n\nwas + V3"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The houses ___ (build) in 1920.",
+          "back": "were built\n\nwere + V3 (plural)"
+        },
+        {
+          "type": "transformation",
+          "front": "Active: Someone stole my bike.\nPassive: ?",
+          "back": "My bike was stolen.\n\n'Someone' not mentioned"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"The windows was broken.\"",
+          "back": "The windows were broken.\n\nwindows = plural = were"
+        },
+        {
+          "type": "fill_gap",
+          "front": "The Mona Lisa ___ (paint) by Da Vinci.",
+          "back": "was painted\n\nby + agent"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "transformation", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong past participle (was stole instead of was stolen)",
+      "Was/were agreement errors",
+      "Missing was/were entirely",
+      "Confusing past passive and present passive"
+    ],
+    "related_topics": ["b1_passive_present", "a2_past_simple_irregular"],
+    "ielts_relevance": "Very high - essential for describing processes and history",
+    "frequency_in_english": "Very high"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "present_simple",
+  "level": "A1",
+  "name": "Present Simple",
+  "description": "Basic tense for habits, routines, and general truths",
+
+  "discover": {
+    "text": "I wake up at 7 every day. My sister wakes up at 8. We eat breakfast together. She drinks coffee, but I drink tea. After breakfast, I go to work. I work in an office. My job starts at 9 and finishes at 5. I like my job because I help people.",
+    "highlight": ["wake up", "wakes up", "eat", "drinks", "drink", "go", "work", "starts", "finishes", "like", "help"]
+  },
+
+  "understand": {
+    "rule": "Present Simple is used for:\n1. Habits and routines (I wake up at 7)\n2. General truths (The sun rises in the east)\n3. Permanent states (I live in Moscow)\n\nForm:\n• I/You/We/They + verb (work, go, like)\n• He/She/It + verb + s/es (works, goes, likes)",
+    "examples": [
+      {"correct": "She works in a hospital.", "incorrect": "She work in a hospital."},
+      {"correct": "I don't like coffee.", "incorrect": "I doesn't like coffee."},
+      {"correct": "Does he speak English?", "incorrect": "Do he speaks English?"}
+    ],
+    "tips": [
+      "Add -s for he/she/it: work → works",
+      "Add -es after s, sh, ch, x, o: go → goes, watch → watches",
+      "Change -y to -ies: study → studies (but: play → plays)"
+    ]
+  },
+
+  "notice": {
+    "texts": [
+      "Tom gets up early every morning. He has breakfast at 7:30. He usually eats toast and drinks orange juice. Then he goes to school by bus. School starts at 8:30.",
+      "My mother works in a bank. She leaves home at 8 and comes back at 6. She loves her job. My father doesn't work. He stays at home and cooks dinner."
+    ],
+    "findPattern": "Find all Present Simple verbs. Pay attention to -s endings!"
+  },
+
+  "practice": {
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "sentence": "She ___ (work) in a hospital.",
+        "answer": "works",
+        "explanation": "He/She/It + verb + s"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "I ___ (not/like) coffee.",
+        "answer": "don't like",
+        "explanation": "I/You/We/They + don't + verb"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ he ___ (speak) English?",
+        "answer": "Does, speak",
+        "explanation": "Does + he/she/it + verb (without s)"
+      },
+      {
+        "type": "error_correction",
+        "sentence": "She don't understand.",
+        "answer": "She doesn't understand.",
+        "explanation": "He/She/It uses doesn't, not don't"
+      },
+      {
+        "type": "multiple_choice",
+        "sentence": "My brother ___ football every weekend.",
+        "options": ["play", "plays", "playing", "to play"],
+        "correctAnswer": "plays",
+        "explanation": "My brother = He, so we need plays (verb + s)"
+      }
+    ]
+  },
+
+  "produce": {
+    "prompts": [
+      "Write 5 sentences about your daily routine using Present Simple.",
+      "Describe what your family members do every day.",
+      "Write about your habits. What do you always/usually/sometimes/never do?"
+    ]
+  },
+
+  "grammarCards": [
+    {
+      "type": "error_correction",
+      "front": "She don't like pizza.",
+      "back": "She doesn't like pizza.\n(He/She/It → doesn't)"
+    },
+    {
+      "type": "transformation",
+      "front": "Positive: I work here.\nNegative: ?",
+      "back": "I don't work here."
+    },
+    {
+      "type": "transformation",
+      "front": "Positive: She speaks French.\nQuestion: ?",
+      "back": "Does she speak French?"
+    }
+  ]
+}

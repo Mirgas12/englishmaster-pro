@@ -1,0 +1,295 @@
+{
+  "id": "a2_past_simple_regular",
+  "level": "A2",
+  "title": "Past Simple (Regular Verbs)",
+  "title_ru": "Past Simple (Правильные глаголы)",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about what happened yesterday. Notice the highlighted verbs.",
+      "instruction_ru": "Прочитай о том, что произошло вчера. Обрати внимание на выделенные глаголы.",
+      "content": {
+        "text": "Yesterday was a busy day. I <highlight>woke up</highlight> early and <highlight>walked</highlight> to work. I <highlight>worked</highlight> all day. At lunch, I <highlight>called</highlight> my friend. We <highlight>talked</highlight> for 30 minutes. After work, I <highlight>cooked</highlight> dinner and <highlight>watched</highlight> TV. I <highlight>played</highlight> games for an hour. Then I <highlight>brushed</highlight> my teeth and <highlight>started</highlight> reading a book. I <highlight>finished</highlight> the day at 11 PM.",
+        "question": "What ending do most of these verbs have? What time do they describe?",
+        "question_ru": "Какое окончание у большинства этих глаголов? Какое время они описывают?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Past Simple - Finished actions in the past",
+        "title_ru": "Past Simple - Завершённые действия в прошлом",
+        "points": [
+          {
+            "rule": "Regular verbs: add -ed",
+            "rule_ru": "Правильные глаголы: добавляем -ed",
+            "example": "work → worked, play → played, watch → watched",
+            "marker": "+ed"
+          },
+          {
+            "rule": "Spelling: verb ending in -e → add -d",
+            "rule_ru": "Правописание: глагол на -e → добавляем -d",
+            "example": "live → lived, dance → danced, like → liked",
+            "marker": "-e → -d"
+          },
+          {
+            "rule": "Spelling: consonant + y → ied",
+            "rule_ru": "Правописание: согласная + y → ied",
+            "example": "study → studied, try → tried, carry → carried",
+            "marker": "y → ied"
+          },
+          {
+            "rule": "Spelling: short vowel + consonant → double consonant + ed",
+            "rule_ru": "Правописание: краткая гласная + согласная → удваиваем согласную",
+            "example": "stop → stopped, plan → planned, travel → travelled",
+            "marker": "double consonant"
+          },
+          {
+            "rule": "Negative: didn't + base verb",
+            "rule_ru": "Отрицание: didn't + базовый глагол",
+            "example": "I didn't work. She didn't play.",
+            "marker": "didn't + verb"
+          },
+          {
+            "rule": "Question: Did + subject + base verb?",
+            "rule_ru": "Вопрос: Did + подлежащее + базовый глагол?",
+            "example": "Did you work? Did she play?",
+            "marker": "Did + verb"
+          }
+        ],
+        "comparison_table": [
+          {"form": "Positive", "example": "I worked yesterday."},
+          {"form": "Negative", "example": "I didn't work yesterday."},
+          {"form": "Question", "example": "Did you work yesterday?"},
+          {"form": "Short answer", "example": "Yes, I did. / No, I didn't."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all Past Simple verbs. Identify the base form and spelling pattern.",
+      "instruction_ru": "Найди все глаголы в Past Simple. Определи базовую форму и правило написания.",
+      "tasks": [
+        {
+          "text": "Last weekend, I visited my grandparents. I arrived at their house at 10 AM. We talked about many things. My grandmother cooked a delicious meal. I helped her in the kitchen. We played cards after lunch. I stayed until 6 PM. I hugged them goodbye and walked to the bus stop. I waited 10 minutes for the bus. I really enjoyed my visit.",
+          "find": [
+            {"verb": "visited", "base": "visit", "rule": "+ed"},
+            {"verb": "arrived", "base": "arrive", "rule": "-e → -d"},
+            {"verb": "talked", "base": "talk", "rule": "+ed"},
+            {"verb": "cooked", "base": "cook", "rule": "+ed"},
+            {"verb": "helped", "base": "help", "rule": "+ed"},
+            {"verb": "played", "base": "play", "rule": "+ed"},
+            {"verb": "stayed", "base": "stay", "rule": "+ed"},
+            {"verb": "hugged", "base": "hug", "rule": "double g + ed"},
+            {"verb": "walked", "base": "walk", "rule": "+ed"},
+            {"verb": "waited", "base": "wait", "rule": "+ed"},
+            {"verb": "enjoyed", "base": "enjoy", "rule": "+ed"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is it 'played' (not 'plaied') but 'studied' (not 'studyed')?",
+      "reflection_question_ru": "Почему 'played' (не 'plaied'), но 'studied' (не 'studyed')?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the Past Simple form.",
+          "sentences": [
+            {"sentence": "I ___ (walk) to school yesterday.", "answer": "walked"},
+            {"sentence": "She ___ (study) all night.", "answer": "studied"},
+            {"sentence": "They ___ (not/watch) TV last night.", "answer": "didn't watch"},
+            {"sentence": "___ you ___ (enjoy) the party?", "answer": "Did, enjoy"},
+            {"sentence": "He ___ (stop) the car.", "answer": "stopped"},
+            {"sentence": "We ___ (dance) at the wedding.", "answer": "danced"},
+            {"sentence": "I ___ (try) to call you.", "answer": "tried"},
+            {"sentence": "She ___ (not/like) the movie.", "answer": "didn't like"},
+            {"sentence": "___ they ___ (arrive) on time?", "answer": "Did, arrive"},
+            {"sentence": "He ___ (plan) the whole trip.", "answer": "planned"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "I ___ my homework last night.",
+              "options": ["finish", "finished", "finishd"],
+              "correct": 1,
+              "explanation": "finish → finished (+ed)"
+            },
+            {
+              "sentence": "She ___ to music yesterday.",
+              "options": ["listend", "listened", "listenned"],
+              "correct": 1,
+              "explanation": "listen → listened (+ed)"
+            },
+            {
+              "sentence": "They ___ football last weekend.",
+              "options": ["plaied", "played", "playd"],
+              "correct": 1,
+              "explanation": "play → played (vowel + y → +ed)"
+            },
+            {
+              "sentence": "He ___ smoking last year.",
+              "options": ["stoped", "stopped", "stopd"],
+              "correct": 1,
+              "explanation": "stop → stopped (double p)"
+            },
+            {
+              "sentence": "___ you ___ the test?",
+              "options": ["Did/passed", "Did/pass", "Do/pass"],
+              "correct": 1,
+              "explanation": "Did + base verb"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I stoped at the store.",
+              "correct": "I stopped at the store.",
+              "explanation": "stop → stopped (double 'p')"
+            },
+            {
+              "incorrect": "She didn't watched the movie.",
+              "correct": "She didn't watch the movie.",
+              "explanation": "didn't + base verb (not -ed)"
+            },
+            {
+              "incorrect": "He studyed all day.",
+              "correct": "He studied all day.",
+              "explanation": "study → studied (y → ied)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your last weekend using Past Simple.",
+      "instruction_ru": "Напиши о своих прошлых выходных, используя Past Simple.",
+      "prompts": [
+        "What time did you wake up?",
+        "What did you do in the morning?",
+        "Who did you meet?",
+        "What did you eat?",
+        "How did you feel?"
+      ],
+      "example": "Last weekend was great. I washed my clothes on Saturday morning. I cleaned my room too. In the afternoon, I walked in the park. I called my friend and we talked for an hour. On Sunday, I cooked pasta for lunch. I watched a movie in the evening. I really enjoyed my weekend.",
+      "ai_check": true,
+      "criteria": [
+        "Uses -ed correctly",
+        "Correct spelling patterns",
+        "Uses time markers (yesterday, last week)",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many regular Past Simple verbs.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "My Birthday",
+          "level": "A2",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "Last Saturday was my birthday. I waked up early and opened my presents. My family decorated the house. My mom cooked a special breakfast. I invited my friends to a party. We danced and played games. Everyone laughed a lot. I received many gifts. My friends stayed until 10 PM. I thanked everyone for coming. It was a perfect day!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "The Interview",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Yesterday I attended a job interview. I prepared very well. I arrived 15 minutes early. I waited in the reception area. The interviewer asked many questions. I answered confidently. We discussed my experience. The interview lasted one hour. I thanked the interviewer. She promised to call me next week. I really hope I succeeded!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Cooking Disaster",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "I tried to cook dinner last night. I followed the recipe carefully. First, I washed the vegetables. I chopped them into pieces. I heated oil in a pan. But I burned the onions! I started again. This time I watched more carefully. The food turned out okay in the end. I learned an important lesson!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Moving Day",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "Last month I moved to a new apartment. I packed all my things into boxes. My friends helped me carry them. We loaded everything into a truck. We unloaded at the new place. I unpacked for hours. I arranged the furniture. I cleaned every room. I ordered pizza for my helpers. We all collapsed on the sofa, exhausted!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "First Day of School",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 11,
+          "content": "I remember my first day at university. I arrived early and looked for my classroom. I introduced myself to other students. The professor started the lesson on time. I listened carefully and noted everything. I asked a few questions. After class, I talked to some classmates. We exchanged phone numbers. I walked home feeling excited about my new life."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ (work) yesterday.",
+          "back": "worked\n\nwork + ed"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She ___ (stop) the car.",
+          "back": "stopped\n\nstop → stopped (double 'p')"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He ___ (study) all night.",
+          "back": "studied\n\nstudy → studied (y → ied)"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: I worked.\nNegative: ?",
+          "back": "I didn't work.\n\ndidn't + base verb"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: She played.\nQuestion: ?",
+          "back": "Did she play?\n\nDid + subject + base verb"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 7,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong spelling (stoped instead of stopped)",
+      "Using -ed after didn't (didn't worked)",
+      "Wrong y → ied pattern (plaied instead of played)",
+      "Forgetting to double consonant (planed instead of planned)"
+    ],
+    "related_topics": ["a1_present_simple", "a2_past_simple_irregular", "a2_past_continuous"],
+    "ielts_relevance": "Very high - used in Speaking Part 2",
+    "frequency_in_english": "Very high"
+  }
+}

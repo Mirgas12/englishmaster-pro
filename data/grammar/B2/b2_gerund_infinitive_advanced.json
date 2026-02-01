@@ -1,0 +1,295 @@
+{
+  "id": "b2_gerund_infinitive_advanced",
+  "level": "B2",
+  "title": "Gerund vs Infinitive - Advanced",
+  "title_ru": "Герундий vs Инфинитив - Продвинутый",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b1_gerund_infinitive_basic"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about life experiences. Notice how the same verb can have different meanings.",
+      "instruction_ru": "Прочитай о жизненном опыте. Обрати внимание, как один и тот же глагол может иметь разные значения.",
+      "content": {
+        "text": "I <highlight>remember meeting</highlight> her for the first time - it was magical. I <highlight>remembered to call</highlight> her yesterday, as I promised. I <highlight>stopped smoking</highlight> last year - best decision ever! I had to <highlight>stop to smoke</highlight> during the long drive. I'll <highlight>never forget seeing</highlight> the Northern Lights. Please don't <highlight>forget to lock</highlight> the door. I <highlight>tried pressing</highlight> the button but nothing happened. I <highlight>tried to press</highlight> it harder, but it was stuck. I <highlight>regret telling</highlight> her the truth. I <highlight>regret to tell</highlight> you that you've failed.",
+        "question": "How does the meaning change between gerund and infinitive?",
+        "question_ru": "Как меняется значение между герундием и инфинитивом?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Verbs with Different Meanings: Gerund vs Infinitive",
+        "title_ru": "Глаголы с разными значениями: Герундий vs Инфинитив",
+        "points": [
+          {
+            "rule": "remember + -ing = recall a past action; remember + to = not forget to do",
+            "rule_ru": "remember + -ing = вспомнить прошлое действие; remember + to = не забыть сделать",
+            "example": "I remember locking the door. (I recall doing it) vs Remember to lock the door. (Don't forget)",
+            "marker": "remember"
+          },
+          {
+            "rule": "forget + -ing = not recall a past action; forget + to = fail to do something",
+            "rule_ru": "forget + -ing = не помнить прошлое; forget + to = не сделать что-то",
+            "example": "I'll never forget meeting him. vs I forgot to meet him. (I didn't meet him)",
+            "marker": "forget"
+          },
+          {
+            "rule": "stop + -ing = quit doing; stop + to = pause in order to do",
+            "rule_ru": "stop + -ing = прекратить делать; stop + to = остановиться, чтобы сделать",
+            "example": "Stop talking! (quit) vs I stopped to talk. (paused in order to talk)",
+            "marker": "stop"
+          },
+          {
+            "rule": "try + -ing = experiment; try + to = attempt (with effort)",
+            "rule_ru": "try + -ing = попробовать как эксперимент; try + to = пытаться (с усилием)",
+            "example": "Try adding salt. (experiment) vs Try to add salt. (attempt, it's difficult)",
+            "marker": "try"
+          },
+          {
+            "rule": "regret + -ing = feel sorry about past; regret + to = formal announcement of bad news",
+            "rule_ru": "regret + -ing = сожалеть о прошлом; regret + to = формальное сообщение плохой новости",
+            "example": "I regret saying that. vs I regret to say you failed. (formal)",
+            "marker": "regret"
+          }
+        ],
+        "comparison_table": [
+          {"verb": "remember", "gerund": "remember doing = recall past", "infinitive": "remember to do = don't forget"},
+          {"verb": "forget", "gerund": "forget doing = not recall", "infinitive": "forget to do = fail to do"},
+          {"verb": "stop", "gerund": "stop doing = quit", "infinitive": "stop to do = pause to do"},
+          {"verb": "try", "gerund": "try doing = experiment", "infinitive": "try to do = attempt"},
+          {"verb": "regret", "gerund": "regret doing = sorry about past", "infinitive": "regret to do = announce bad news"},
+          {"verb": "go on", "gerund": "go on doing = continue same", "infinitive": "go on to do = move to next"},
+          {"verb": "mean", "gerund": "mean doing = involve", "infinitive": "mean to do = intend"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify whether each underlined verb takes gerund or infinitive and explain the meaning.",
+      "instruction_ru": "Определи, берёт ли каждый подчёркнутый глагол герундий или инфинитив, и объясни значение.",
+      "tasks": [
+        {
+          "text": "A day in my life:\n\n1. I woke up and remembered to take my medication.\n2. I remember being so healthy as a child.\n3. On my way to work, I stopped to buy coffee.\n4. I've stopped drinking so much caffeine.\n5. I tried opening the window, but it was painted shut.\n6. I tried to open it with more force but failed.\n7. I regret not studying harder in my youth.\n8. I regret to inform you that your application was rejected.\n9. After finishing the report, I went on to check my emails.\n10. I went on working until midnight.",
+          "find": [
+            {"sentence": 1, "form": "to take", "meaning": "didn't forget to do it"},
+            {"sentence": 2, "form": "being", "meaning": "recall the past experience"},
+            {"sentence": 3, "form": "to buy", "meaning": "paused in order to buy"},
+            {"sentence": 4, "form": "drinking", "meaning": "quit the habit"},
+            {"sentence": 5, "form": "opening", "meaning": "experimented to see if it would work"},
+            {"sentence": 6, "form": "to open", "meaning": "attempted with effort"},
+            {"sentence": 7, "form": "not studying", "meaning": "feel sorry about past action"},
+            {"sentence": 8, "form": "to inform", "meaning": "formal announcement of bad news"},
+            {"sentence": 9, "form": "to check", "meaning": "moved to the next activity"},
+            {"sentence": 10, "form": "working", "meaning": "continued the same activity"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is 'I stopped to smoke' different from 'I stopped smoking'?",
+      "reflection_question_ru": "Почему 'I stopped to smoke' отличается от 'I stopped smoking'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "choose_meaning",
+          "instruction": "Choose the correct form based on the intended meaning.",
+          "questions": [
+            {
+              "context": "I didn't forget. I called my mother.",
+              "sentence": "I remembered ___ my mother.",
+              "options": ["calling", "to call"],
+              "correct": 1,
+              "explanation": "Didn't forget to do = remember to + infinitive"
+            },
+            {
+              "context": "I recall the experience of calling her when I was young.",
+              "sentence": "I remember ___ her when I was young.",
+              "options": ["calling", "to call"],
+              "correct": 0,
+              "explanation": "Recall past experience = remember + -ing"
+            },
+            {
+              "context": "He quit the bad habit.",
+              "sentence": "He stopped ___.",
+              "options": ["smoking", "to smoke"],
+              "correct": 0,
+              "explanation": "Quit = stop + -ing"
+            },
+            {
+              "context": "He paused his walk in order to smoke.",
+              "sentence": "He stopped ___.",
+              "options": ["smoking", "to smoke"],
+              "correct": 1,
+              "explanation": "Pause in order to = stop + to infinitive"
+            },
+            {
+              "context": "As an experiment, see if this works.",
+              "sentence": "Try ___ the button.",
+              "options": ["pressing", "to press"],
+              "correct": 0,
+              "explanation": "Experiment = try + -ing"
+            }
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with gerund or infinitive based on the context.",
+          "sentences": [
+            {"sentence": "I'll never forget ___ (see) the Grand Canyon for the first time.", "answer": "seeing", "meaning": "recall experience"},
+            {"sentence": "Don't forget ___ (buy) milk on your way home.", "answer": "to buy", "meaning": "don't fail to do"},
+            {"sentence": "She regrets ___ (not/go) to university.", "answer": "not going", "meaning": "sorry about past"},
+            {"sentence": "We regret ___ (inform) you that your flight is cancelled.", "answer": "to inform", "meaning": "formal bad news"},
+            {"sentence": "If the door doesn't open, try ___ (push) harder.", "answer": "pushing", "meaning": "experiment"},
+            {"sentence": "I tried ___ (call) you but couldn't get through.", "answer": "to call", "meaning": "attempted"},
+            {"sentence": "He went on ___ (talk) for another hour.", "answer": "talking", "meaning": "continued same"},
+            {"sentence": "After graduation, she went on ___ (become) a doctor.", "answer": "to become", "meaning": "next stage"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake based on the context.",
+          "sentences": [
+            {
+              "incorrect": "I stopped to smoke last year. (quit the habit)",
+              "correct": "I stopped smoking last year.",
+              "explanation": "Quit habit = stop + -ing"
+            },
+            {
+              "incorrect": "I remember to meet him at the party. (recall past)",
+              "correct": "I remember meeting him at the party.",
+              "explanation": "Recall past = remember + -ing"
+            },
+            {
+              "incorrect": "I regret saying that you failed. (formal announcement)",
+              "correct": "I regret to say that you failed.",
+              "explanation": "Formal bad news = regret + to infinitive"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about memories, regrets, and things you've tried, showing the meaning differences.",
+      "instruction_ru": "Напиши о воспоминаниях, сожалениях и вещах, которые ты пробовал, показывая различия в значениях.",
+      "prompts": [
+        "Write about things you remember doing and things you remembered to do",
+        "Describe habits you've stopped and times you stopped to do something",
+        "Write about experiments (try + -ing) and attempts (try + to)",
+        "Share regrets about the past and formal announcements"
+      ],
+      "example": "Looking back on my life, I have many memories. I remember playing in my grandmother's garden as a child - those were happy times. I always remembered to call her on her birthday; I never forgot. Last year, I stopped eating junk food - one of my best decisions. Sometimes during work, I stop to eat a healthy snack. When my old computer was slow, I tried reinstalling the software - it worked! I had tried to fix it many times before without success. I regret not spending more time with my grandparents. As their doctor, I regret to inform you that her condition has worsened. After finishing school, she went on to become a successful lawyer.",
+      "ai_check": true,
+      "criteria": [
+        "Uses remember + -ing for past memories",
+        "Uses remember + to for 'don't forget'",
+        "Uses stop + -ing for quitting",
+        "Uses stop + to for pausing",
+        "Uses try/-ing for experiments vs try + to for attempts",
+        "At least 6 correct meaning distinctions"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts showing meaning differences.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Life Changes",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "I remember being young and carefree. I always remembered to do my homework though! Last year, I stopped procrastinating - it changed my life. Sometimes I stop to reflect on how far I've come. I tried meditating and it really helped. I had tried to meditate before but couldn't focus. I regret not starting sooner. I don't regret to say that change is possible for everyone!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Career Journey",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "I remember starting my first job nervously. I always remembered to arrive early - punctuality matters. After ten years, I stopped working there. I stopped to consider my options carefully. I tried freelancing as an experiment - I loved it! I tried to convince my family it was a good idea. I regret not taking risks earlier. I regret to inform you I'm leaving, but I must follow my dreams."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Health Journey",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "I remember being overweight and unhappy. I never forgot to take my medication. Eventually, I stopped eating fast food. During workouts, I'd stop to catch my breath. I tried different diets to see what worked. I tried to exercise every day but it was hard. I regret ignoring my health for so long. My doctor regrets to inform me that my cholesterol was dangerously high."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Learning Languages",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "I remember struggling with French pronunciation. I always remembered to practice daily. After six months, I stopped translating in my head. I'd stop to chat with native speakers. I tried watching films without subtitles - very helpful! I tried to understand every word but that was impossible. I regret not learning languages as a child. She regrets to say that the advanced class is full."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Relationship Story",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 12,
+          "content": "I remember meeting my partner clearly. I always remembered to text good morning. After arguments, we'd stop fighting and talk. Sometimes we'd stop to appreciate small moments. I tried being more patient - it worked wonders. I tried to change some habits but old patterns are hard. I regret saying hurtful things in the past. Now I never regret to say 'I love you' every day."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "meaning",
+          "front": "remember + -ing vs remember + to",
+          "back": "remember doing = recall past action\nremember to do = don't forget to do"
+        },
+        {
+          "type": "meaning",
+          "front": "stop + -ing vs stop + to",
+          "back": "stop doing = quit\nstop to do = pause in order to"
+        },
+        {
+          "type": "meaning",
+          "front": "try + -ing vs try + to",
+          "back": "try doing = experiment\ntry to do = attempt with effort"
+        },
+        {
+          "type": "meaning",
+          "front": "regret + -ing vs regret + to",
+          "back": "regret doing = sorry about past\nregret to do = formal bad news"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I stopped ___ last year. (quit smoking)",
+          "back": "smoking\n\nstop + -ing = quit"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["choose_meaning", "fill_gap", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Confusing stop + -ing (quit) with stop + to (pause)",
+      "Using remember + -ing when meaning 'don't forget'",
+      "Not recognizing regret + to as formal",
+      "Mixing up try meanings"
+    ],
+    "related_topics": ["b1_gerund_infinitive_basic"],
+    "ielts_relevance": "High - nuanced meaning in Speaking/Writing",
+    "frequency_in_english": "Very high"
+  }
+}

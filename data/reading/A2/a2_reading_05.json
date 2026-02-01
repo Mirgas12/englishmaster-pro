@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_05",
+  "level": "A2",
+  "title": "A New Pet",
+  "title_ru": "Новый питомец",
+  "word_count": 148,
+  "topic": "pets",
+  "text": "We got a new pet yesterday! It's a rabbit. Her name is Snowball because she's completely white. We went to the pet shop with my parents. There were many animals there - dogs, cats, fish, and birds. But when I saw Snowball, I knew she was the one. She has soft fur and long ears. She's very shy at first, but she's getting more comfortable now. We bought a big cage for her and put it in my room. I give her food and water every day. She eats vegetables like carrots and lettuce. She also likes to run around the house, but we have to watch her carefully so she doesn't hide under the furniture. Taking care of a pet is a big responsibility, but I love it. Snowball makes me smile every day!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What kind of animal is Snowball?", "options": ["A cat", "A rabbit", "A dog"], "correct": 1},
+    {"type": "multiple_choice", "question": "Why is she named Snowball?", "options": ["She's round", "She's white", "She likes snow"], "correct": 1},
+    {"type": "true_false", "question": "Snowball was very friendly from the beginning.", "correct": false},
+    {"type": "true_false", "question": "The cage is in the writer's room.", "correct": true},
+    {"type": "fill_gap", "question": "Snowball eats vegetables like carrots and ___.", "answer": "lettuce"}
+  ],
+  "vocabulary": ["rabbit", "fur", "cage", "responsibility", "comfortable"],
+  "grammar_focus": ["past_simple", "present_simple"]
+}

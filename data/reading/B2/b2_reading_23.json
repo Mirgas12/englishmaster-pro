@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_23",
+  "level": "B2",
+  "title": "The Art of Negotiation",
+  "title_ru": "Искусство переговоров",
+  "word_count": 295,
+  "topic": "business",
+  "text": "Negotiation is a fundamental life skill, used in situations from salary discussions to resolving conflicts with family members. While some approach it as pure competition, research shows that understanding interests and creating value typically produces better outcomes for all parties.\n\nPreparation is foundational. Knowing your objectives, understanding your alternatives, and researching the other party's likely priorities all improve outcomes. Your Best Alternative To a Negotiated Agreement (BATNA) defines your walkaway point – below which no deal is better than a bad deal.\n\nInterests, not positions, should drive negotiations. Positions are what people say they want; interests are why they want it. Two siblings arguing over an orange might both want it (position), but one wants the juice while the other wants the peel for baking (interests). Understanding underlying interests reveals creative solutions.\n\nActive listening builds rapport and reveals information. Asking open questions, paraphrasing to confirm understanding, and acknowledging the other party's concerns creates a more collaborative atmosphere. People who feel heard are more likely to be flexible.\n\nAnchoring – making the first offer – has strategic advantages but also risks. The first number mentioned tends to influence final agreements. However, aggressive anchors can backfire if they seem unreasonable and damage trust.\n\nEmotional intelligence matters significantly. Recognizing and managing your own emotions prevents reactive behavior you might regret. Reading others' emotional states provides valuable information about their priorities and concerns.\n\nConcessions should be made strategically, becoming smaller over time to signal approaching limits. Labeling concessions ('I'm making an exception for you') increases their perceived value.\n\nThe best negotiators seek to expand the pie before dividing it. By identifying complementary interests and creating options for mutual gain, they achieve outcomes that leave both parties satisfied. Such integrative approaches often preserve relationships while achieving objectives.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does BATNA stand for?", "options": ["Best Approach To New Agreements", "Best Alternative To a Negotiated Agreement", "Basic Terms And Negotiation Approach"], "correct": 1},
+    {"type": "multiple_choice", "question": "What should drive negotiations?", "options": ["Positions", "Interests", "Emotions"], "correct": 1},
+    {"type": "true_false", "question": "Making the first offer has no strategic effect.", "correct": false},
+    {"type": "true_false", "question": "Concessions should become smaller over time.", "correct": true},
+    {"type": "fill_gap", "question": "The best negotiators seek to expand the ___ before dividing it.", "answer": "pie"}
+  ],
+  "vocabulary": ["negotiation", "BATNA", "anchoring", "concession", "integrative"],
+  "grammar_focus": ["present_simple", "gerunds"]
+}

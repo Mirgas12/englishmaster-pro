@@ -1,0 +1,289 @@
+{
+  "id": "b1_present_perfect_recent",
+  "level": "B1",
+  "title": "Present Perfect for Recent Events",
+  "title_ru": "Present Perfect для недавних событий",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_present_perfect_experience"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about recent news. Notice how we describe things that happened recently.",
+      "instruction_ru": "Прочитай о недавних новостях. Обрати внимание, как мы описываем недавние события.",
+      "content": {
+        "text": "Breaking news! A famous actor <highlight>has just announced</highlight> his retirement. The president <highlight>has recently met</highlight> with world leaders. Scientists <highlight>have just discovered</highlight> a new planet. Tech company <highlight>has already released</highlight> a new smartphone. I <highlight>have just finished</highlight> reading the article. <highlight>Have</highlight> you <highlight>heard</highlight> the news <highlight>yet</highlight>? The team <highlight>hasn't arrived</highlight> <highlight>yet</highlight>. They <highlight>have already left</highlight> the airport.",
+        "question": "What words show that these events happened recently?",
+        "question_ru": "Какие слова показывают, что события произошли недавно?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Perfect for Recent Events with just/already/yet",
+        "title_ru": "Present Perfect для недавних событий с just/already/yet",
+        "points": [
+          {
+            "rule": "just = very recently (moments ago)",
+            "rule_ru": "just = совсем недавно (только что)",
+            "example": "I have just eaten. (a few minutes ago)",
+            "marker": "just"
+          },
+          {
+            "rule": "already = sooner than expected (positive)",
+            "rule_ru": "already = раньше ожидаемого (положительные предложения)",
+            "example": "She has already finished. (I'm surprised!)",
+            "marker": "already"
+          },
+          {
+            "rule": "yet = until now (questions and negatives)",
+            "rule_ru": "yet = до сих пор (вопросы и отрицания)",
+            "example": "Have you finished yet? I haven't started yet.",
+            "marker": "yet"
+          },
+          {
+            "rule": "recently/lately = in the recent period",
+            "rule_ru": "recently/lately = в последнее время",
+            "example": "I have recently started a new job. Have you seen any good movies lately?",
+            "marker": "recently/lately"
+          },
+          {
+            "rule": "Word order: have/has + just/already + V3; yet at the end",
+            "rule_ru": "Порядок слов: have/has + just/already + V3; yet в конце",
+            "example": "I have just arrived. Have you eaten yet?",
+            "marker": "word order"
+          }
+        ],
+        "comparison_table": [
+          {"word": "just", "meaning": "очень недавно", "position": "before V3", "example": "I have just finished."},
+          {"word": "already", "meaning": "уже (раньше)", "position": "before V3", "example": "She has already left."},
+          {"word": "yet", "meaning": "ещё (до сих пор)", "position": "end of sentence", "example": "Have you called yet?"},
+          {"word": "recently", "meaning": "недавно", "position": "end or before V3", "example": "I have recently moved."},
+          {"word": "lately", "meaning": "в последнее время", "position": "usually end", "example": "Have you traveled lately?"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all Present Perfect verbs with just/already/yet. What's the difference in meaning?",
+      "instruction_ru": "Найди все глаголы в Present Perfect с just/already/yet. Какая разница в значении?",
+      "tasks": [
+        {
+          "text": "Mom: Have you done your homework yet? Son: I have just started it. Mom: What? You haven't finished it yet? Your sister has already done hers! Son: She has just left for her friend's house. Mom: Has she cleaned her room yet? Son: Yes, she has already cleaned it. I haven't had time yet! Mom: I have just made dinner. Come and eat first, then finish your homework. Son: I have already eaten at Tom's house. Mom: You have recently been spending a lot of time there!",
+          "find": [
+            {"verb": "Have you done yet", "word": "yet", "type": "question, expecting not done"},
+            {"verb": "have just started", "word": "just", "type": "very recent action"},
+            {"verb": "haven't finished yet", "word": "yet", "type": "negative, still in progress"},
+            {"verb": "has already done", "word": "already", "type": "completed sooner than expected"},
+            {"verb": "has just left", "word": "just", "type": "very recently"},
+            {"verb": "Has she cleaned yet", "word": "yet", "type": "question"},
+            {"verb": "has already cleaned", "word": "already", "type": "completed"},
+            {"verb": "haven't had time yet", "word": "yet", "type": "negative"},
+            {"verb": "have just made", "word": "just", "type": "very recent"},
+            {"verb": "have already eaten", "word": "already", "type": "completed"},
+            {"verb": "have recently been spending", "word": "recently", "type": "recent period"}
+          ]
+        }
+      ],
+      "reflection_question": "Can we use 'already' in questions? Can we use 'yet' in positive sentences?",
+      "reflection_question_ru": "Можно ли использовать 'already' в вопросах? Можно ли использовать 'yet' в положительных предложениях?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Present Perfect and just/already/yet.",
+          "sentences": [
+            {"sentence": "I ___ just ___ (arrive) home.", "answer": "have, arrived"},
+            {"sentence": "She ___ already ___ (finish) the project.", "answer": "has, finished"},
+            {"sentence": "___ you ___ (call) him ___? (yet)", "answer": "Have, called, yet"},
+            {"sentence": "They ___ not ___ (start) ___. (yet)", "answer": "have, started, yet"},
+            {"sentence": "The train ___ just ___ (leave).", "answer": "has, left"},
+            {"sentence": "We ___ recently ___ (move) to a new apartment.", "answer": "have, moved"},
+            {"sentence": "I ___ already ___ (see) that movie twice.", "answer": "have, seen"},
+            {"sentence": "___ the meeting ___ (begin) ___? (yet)", "answer": "Has, begun, yet"},
+            {"sentence": "He ___ just ___ (tell) me the news.", "answer": "has, told"},
+            {"sentence": "They ___ not ___ (decide) ___. (yet)", "answer": "have, decided, yet"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct word order.",
+          "questions": [
+            {
+              "sentence": "I have ___ finished my homework.",
+              "options": ["yet", "just", "still"],
+              "correct": 1,
+              "explanation": "Just = very recently, before V3"
+            },
+            {
+              "sentence": "Have you eaten ___?",
+              "options": ["already", "yet", "just"],
+              "correct": 1,
+              "explanation": "Yet = end of question"
+            },
+            {
+              "sentence": "She has ___ left, so you won't find her.",
+              "options": ["yet", "already", "still"],
+              "correct": 1,
+              "explanation": "Already = sooner than expected"
+            },
+            {
+              "sentence": "We haven't received the package ___.",
+              "options": ["just", "already", "yet"],
+              "correct": 2,
+              "explanation": "Yet = end of negative sentence"
+            },
+            {
+              "sentence": "They have ___ announced the winner!",
+              "options": ["yet", "just", "still"],
+              "correct": 1,
+              "explanation": "Just = very recently (excitement)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I have finished just my work.",
+              "correct": "I have just finished my work.",
+              "explanation": "Just comes before V3"
+            },
+            {
+              "incorrect": "Have you yet called your mother?",
+              "correct": "Have you called your mother yet?",
+              "explanation": "Yet comes at the end"
+            },
+            {
+              "incorrect": "She already has left.",
+              "correct": "She has already left.",
+              "explanation": "Already comes between has and V3"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about recent events in your life or the news.",
+      "instruction_ru": "Напиши о недавних событиях в твоей жизни или в новостях.",
+      "prompts": [
+        "What have you just done today?",
+        "What have you already accomplished this week?",
+        "What haven't you done yet but plan to?",
+        "What interesting news have you heard recently?"
+      ],
+      "example": "Today has been a busy day! I have just finished a big project at work. I have already sent it to my boss. I haven't received a reply yet, but I hope she likes it. I have recently started learning to cook. I have just made my first pasta from scratch! My friend has already tried it and said it was delicious. Have you tried any new hobbies lately? I haven't had time for exercise yet this week, but I plan to go running tomorrow.",
+      "ai_check": true,
+      "criteria": [
+        "Uses just/already/yet correctly",
+        "Correct word order",
+        "Mix of positive, negative, and questions",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with just/already/yet.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Morning Rush",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I have just woken up and I'm already late! I haven't had breakfast yet. I have just realized I have a meeting in 30 minutes. Have you ever had mornings like this? My alarm has already rung three times. I haven't showered yet. I have just found my car keys. I have already missed the bus. Has the taxi arrived yet? I have just called one!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Project Update",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Manager: How is the project going? Employee: We have just completed the first phase. Manager: Already? That's impressive! Employee: Yes, but we haven't started the testing yet. Manager: Have the clients seen it yet? Employee: They have just received the preview. Manager: Has anyone found any problems yet? Employee: Not yet, but we have recently added new features. We have already fixed the bugs from last week. Manager: You have just made my day!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Travel Plans",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "We have just booked our vacation! We have already chosen the hotel. Have you ever been to Greece? We haven't decided the dates yet. My husband has recently gotten time off work. I have already started packing! He says I have just bought too many clothes. We haven't told the kids yet - it's a surprise! Have the flights gotten cheaper yet? I haven't checked lately."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Breaking News",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Breaking: Scientists have just made an incredible discovery! They have recently found evidence of water on Mars. This news has already spread around the world. Have you heard about it yet? Experts have just confirmed the findings. The space agency has already announced a new mission. They haven't revealed all the details yet. This has just become the biggest story of the year! Have you ever imagined life on other planets? Dreams have just become closer to reality!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Restaurant Rush",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "The restaurant has just opened and it's already busy! We have just seated 20 customers. Have the orders gone to the kitchen yet? The chef has already started cooking. We haven't received the delivery yet. The fish has just arrived - finally! Has table 5 gotten their drinks yet? No, they have just ordered. I have already checked on them twice. Have we run out of anything yet? Not yet, thankfully!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I have ___ finished. (a moment ago)",
+          "back": "just\n\njust = very recently"
+        },
+        {
+          "type": "fill_gap",
+          "front": "Have you called him ___? (until now)",
+          "back": "yet\n\nyet = end of question"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She has ___ done it. (sooner than expected)",
+          "back": "already\n\nalready = before expected time"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I have yet not finished.\"",
+          "back": "I haven't finished yet.\n\nyet at the end"
+        },
+        {
+          "type": "transformation",
+          "front": "Question: Have you eaten? (just)\nAnswer: ?",
+          "back": "Yes, I have just eaten.\n\njust before V3"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong position of just/already/yet",
+      "Using yet in positive sentences",
+      "Using already at the end",
+      "Confusing just and already"
+    ],
+    "related_topics": ["b1_present_perfect_experience", "b1_present_perfect_unfinished"],
+    "ielts_relevance": "High - common in everyday conversation",
+    "frequency_in_english": "Very high"
+  }
+}

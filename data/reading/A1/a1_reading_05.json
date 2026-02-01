@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_05",
+  "level": "A1",
+  "title": "My Best Friend",
+  "title_ru": "Мой лучший друг",
+  "word_count": 90,
+  "topic": "friends",
+  "text": "My best friend is Lisa. She is 12 years old, like me. She has long brown hair and blue eyes. We go to the same school. Lisa is very kind and funny. She always makes me laugh. We like to play together. On weekends, we ride bikes in the park. We also like to watch movies. Lisa's favorite color is pink. Mine is blue. We are different, but we are best friends. I am happy to have Lisa!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What color are Lisa's eyes?", "options": ["brown", "green", "blue"], "correct": 2},
+    {"type": "multiple_choice", "question": "What is Lisa's favorite color?", "options": ["blue", "pink", "red"], "correct": 1},
+    {"type": "true_false", "question": "Lisa and the writer go to different schools.", "correct": false},
+    {"type": "true_false", "question": "They ride bikes on weekends.", "correct": true},
+    {"type": "fill_gap", "question": "Lisa is very kind and ___.", "answer": "funny"}
+  ],
+  "vocabulary": ["friend", "kind", "funny", "weekend", "favorite"],
+  "grammar_focus": ["adjectives", "possessive_pronouns"]
+}

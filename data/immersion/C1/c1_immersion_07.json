@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_07",
+  "level": "C1",
+  "title": "The Future of Work",
+  "title_ru": "Будущее труда",
+  "media_type": "audio",
+  "duration_seconds": 145,
+  "description": "Analysis of automation and employment trends",
+  "transcript": "Technological change has always transformed work, but the current wave of automation may be qualitatively different. Previous industrial revolutions displaced physical labor, creating new jobs requiring cognitive skills. Artificial intelligence now threatens cognitive work itself – from legal research to medical diagnosis, from financial analysis to creative writing. Economists disagree profoundly about implications. Optimists point to the lump of labor fallacy: the belief that there's a fixed amount of work to be done. Throughout history, automation has ultimately created more jobs than it destroyed by increasing productivity and generating new industries. Pessimists counter that this time is different. Unlike previous technologies that enhanced human capabilities, AI can replace them entirely. The pace of change may outstrip workers' ability to adapt. We could face structural unemployment without historical precedent. Policy responses being discussed include universal basic income – unconditional payments to all citizens, freeing people from labor market dependency. Others advocate massive retraining programs, portable benefits detached from specific employers, or expanded public employment. Some envision a leisure society where machines handle most work and humans pursue fulfillment through non-economic activities. The distributional question looms large. Automation increases productivity but concentrates returns among capital owners and highly skilled workers. Without deliberate policy intervention, technological progress could exacerbate rather than alleviate inequality. The future of work is less a technological question than a political one.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the lump of labor fallacy?", "options": ["That automation creates jobs", "That there's a fixed amount of work", "That technology is harmful"], "correct": 1},
+    {"type": "multiple_choice", "question": "What policy is discussed as a response to automation?", "options": ["More taxes", "Universal basic income", "Fewer regulations"], "correct": 1},
+    {"type": "true_false", "question": "AI threatens cognitive work in addition to physical labor.", "correct": true},
+    {"type": "true_false", "question": "All economists agree about automation's implications.", "correct": false},
+    {"type": "fill_gap", "question": "Without deliberate intervention, technological progress could ___ inequality.", "answer": "exacerbate"}
+  ],
+  "vocabulary": ["automation", "fallacy", "structural unemployment", "distributional", "exacerbate"],
+  "key_phrases": ["qualitatively different", "this time is different", "outstrip workers' ability", "political question"]
+}

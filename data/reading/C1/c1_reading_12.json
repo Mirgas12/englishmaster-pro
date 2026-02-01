@@ -1,0 +1,18 @@
+{
+  "id": "c1_reading_12",
+  "level": "C1",
+  "title": "The Philosophy of Time",
+  "title_ru": "Философия времени",
+  "word_count": 395,
+  "topic": "philosophy",
+  "text": "Time is both intimately familiar and deeply mysterious. We navigate temporal experience constantly, yet fundamental questions about time's nature resist easy answers. Is time real or merely a way of organizing experience? Does the present moment have special ontological status, or is all of time equally real? Philosophy of time grapples with these questions at the intersection of physics, metaphysics, and phenomenology.\n\nThe A-theory, or tensed view of time, accords special status to the present. Past, present, and future are genuinely different; time flows, with the present advancing through reality. This matches common experience – the present feels different from memory of the past or anticipation of the future. But it raises puzzles about what constitutes 'now' and how time flows.\n\nThe B-theory, or tenseless view, treats all times as equally real. 'Earlier' and 'later' are relations between events, like 'left' and 'right' are relations in space. The feeling that the present is special is explained psychologically rather than metaphysically. This view coheres well with physics, where the equations of motion treat all times symmetrically.\n\nRelativity theory further complicates intuitions about time. According to Einstein, simultaneity is relative to observers – events simultaneous for one observer may be sequential for another. There is no absolute, universal 'now.' Time also dilates with velocity; moving clocks tick slower. These are not illusions but aspects of how spacetime fundamentally works.\n\nThe experience of time's passage raises its own puzzles. Why does time seem to flow in one direction – from past to future – when physical laws are largely time-symmetric? The thermodynamic arrow of time, pointing toward increasing entropy, provides one explanation. But why initial conditions had low entropy remains unexplained.\n\nPersonal time experience varies considerably. Time seems to pass more quickly with age, perhaps because each interval represents a smaller proportion of lived experience. Engaged, novel experiences seem longer in memory but shorter in the moment; boredom creates the reverse pattern.\n\nDifferent cultures conceptualize time differently. Western cultures tend toward linear time progressing toward goals; other traditions emphasize cyclical patterns or eternal present. These conceptualizations affect behavior, planning, and the sense of life's meaning.\n\nThe philosophy of time reminds us how much remains puzzling about the most basic features of existence. We live in time but don't fully understand what that means. Perhaps some mysteries are beyond human understanding – or perhaps revolutionary insights await.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does A-theory claim about the present?", "options": ["It doesn't exist", "It has special status", "It equals the past"], "correct": 1},
+    {"type": "multiple_choice", "question": "According to relativity, what is relative to observers?", "options": ["Mass", "Simultaneity", "Energy"], "correct": 1},
+    {"type": "true_false", "question": "Physical laws treat all times symmetrically.", "correct": true},
+    {"type": "true_false", "question": "Time passes at the same rate regardless of velocity.", "correct": false},
+    {"type": "fill_gap", "question": "The thermodynamic arrow points toward increasing ___.", "answer": "entropy"}
+  ],
+  "vocabulary": ["ontological", "tensed", "tenseless", "relativity", "entropy"],
+  "grammar_focus": ["passive_voice", "conditionals"]
+}

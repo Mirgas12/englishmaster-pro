@@ -1,0 +1,19 @@
+{
+  "id": "a2_immersion_10",
+  "level": "A2",
+  "title": "Learning English",
+  "title_ru": "Изучение английского",
+  "media_type": "audio",
+  "duration_seconds": 60,
+  "description": "A student talks about learning English",
+  "transcript": "I've been learning English for two years now. It's not always easy, but I enjoy it. I study English in different ways. Three times a week, I take online lessons with a teacher. We practice speaking and learn grammar. I also use apps on my phone every day. They help me learn new words. In the evening, I watch English movies with subtitles. At first, I used subtitles in my language. Now I use English subtitles. It's much better for learning! I also try to read simple books in English. My goal is to speak fluently one day. I want to travel and communicate with people from different countries.",
+  "questions": [
+    {"type": "multiple_choice", "question": "How long has the person been learning English?", "options": ["One year", "Two years", "Three years"], "correct": 1},
+    {"type": "multiple_choice", "question": "How often are the online lessons?", "options": ["Once a week", "Twice a week", "Three times a week"], "correct": 2},
+    {"type": "true_false", "question": "The person uses apps to learn new words.", "correct": true},
+    {"type": "true_false", "question": "The person still uses subtitles in their language.", "correct": false},
+    {"type": "fill_gap", "question": "The goal is to speak ___ one day.", "answer": "fluently"}
+  ],
+  "vocabulary": ["online lessons", "grammar", "subtitles", "fluently", "communicate"],
+  "key_phrases": ["I've been learning", "I study English", "My goal is to", "I want to"]
+}

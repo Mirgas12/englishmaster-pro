@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_04",
+  "level": "A1",
+  "title": "At the Supermarket",
+  "title_ru": "В супермаркете",
+  "word_count": 98,
+  "topic": "shopping",
+  "text": "Today is Saturday. I go to the supermarket with my mum. We need to buy food for the week. First, we get a shopping cart. We go to the fruit section. We buy apples, bananas, and oranges. Then we get bread and milk. My mum buys some cheese and eggs. I want chocolate, but mum says no. We pay at the checkout. The total is 45 dollars. We put the bags in the car and drive home. Shopping is fun with my mum!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What day is it?", "options": ["Sunday", "Saturday", "Friday"], "correct": 1},
+    {"type": "multiple_choice", "question": "How much is the total?", "options": ["35 dollars", "45 dollars", "55 dollars"], "correct": 1},
+    {"type": "true_false", "question": "They buy chocolate.", "correct": false},
+    {"type": "true_false", "question": "They buy apples and bananas.", "correct": true},
+    {"type": "fill_gap", "question": "They put the bags in the ___.", "answer": "car"}
+  ],
+  "vocabulary": ["supermarket", "buy", "fruit", "checkout", "shopping"],
+  "grammar_focus": ["present_simple", "countable_nouns"]
+}

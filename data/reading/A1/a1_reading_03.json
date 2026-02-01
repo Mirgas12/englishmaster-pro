@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_03",
+  "level": "A1",
+  "title": "My Room",
+  "title_ru": "Моя комната",
+  "word_count": 92,
+  "topic": "home",
+  "text": "This is my room. It is not very big, but I like it. There is a bed near the window. Next to the bed, there is a desk. On the desk, there is a computer and some books. There is a chair in front of the desk. I have a wardrobe for my clothes. It is brown. There are posters on the wall. They are of my favorite bands. My room is always clean because I clean it every week.",
+  "questions": [
+    {"type": "multiple_choice", "question": "Where is the bed?", "options": ["near the door", "near the window", "in the corner"], "correct": 1},
+    {"type": "multiple_choice", "question": "What color is the wardrobe?", "options": ["white", "black", "brown"], "correct": 2},
+    {"type": "true_false", "question": "There is a TV in the room.", "correct": false},
+    {"type": "true_false", "question": "There is a computer on the desk.", "correct": true},
+    {"type": "fill_gap", "question": "There are ___ on the wall.", "answer": "posters"}
+  ],
+  "vocabulary": ["bed", "desk", "chair", "wardrobe", "window"],
+  "grammar_focus": ["there_is_are", "prepositions_of_place"]
+}

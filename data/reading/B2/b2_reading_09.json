@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_09",
+  "level": "B2",
+  "title": "The Future of Education",
+  "title_ru": "Будущее образования",
+  "word_count": 305,
+  "topic": "education",
+  "text": "Educational systems designed for an industrial age are increasingly misaligned with 21st-century needs. As automation transforms labor markets and information becomes universally accessible, the purpose and methods of education require fundamental reimagining.\n\nTraditional education emphasized memorization and standardized assessment. Students learned fixed curricula organized by subject, tested on their ability to recall information. This model made sense when information was scarce and most jobs required following established procedures.\n\nToday, information is abundant and continuously changing. Skills like critical thinking, creativity, and adaptability have become more valuable than factual knowledge alone. Soft skills – communication, collaboration, emotional intelligence – are increasingly recognized as essential for career success.\n\nPersonalized learning, enabled by technology, allows education tailored to individual needs and pace. Adaptive software adjusts difficulty based on student performance. AI tutors can provide one-on-one support at scale. Learning analytics help identify struggling students early.\n\nHowever, technology is not a panacea. Human teachers remain essential for inspiration, mentorship, and social development. The pandemic's forced experiment with remote learning revealed its limitations, particularly for younger children and disadvantaged students.\n\nCompetency-based education focuses on demonstrating mastery rather than accumulating seat time. Students progress when they've shown understanding, not after a fixed period. This approach accommodates different learning speeds and emphasizes outcomes over inputs.\n\nLifelong learning is becoming a necessity as careers increasingly involve multiple reinventions. Traditional front-loaded education followed by a career gives way to continuous skill development. Micro-credentials and modular courses allow working adults to upskill efficiently.\n\nEquity remains a critical concern. Technology can democratize access but also widen divides between those with resources and those without. Quality education remains unevenly distributed along lines of geography and socioeconomic status.\n\nThe future of education likely involves blending the best of traditional and innovative approaches, while ensuring that all students can access pathways to fulfilling lives and livelihoods.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What did traditional education emphasize?", "options": ["Creativity", "Memorization", "Collaboration"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does competency-based education focus on?", "options": ["Seat time", "Demonstrating mastery", "Age groups"], "correct": 1},
+    {"type": "true_false", "question": "Technology can completely replace human teachers.", "correct": false},
+    {"type": "true_false", "question": "Lifelong learning is becoming necessary.", "correct": true},
+    {"type": "fill_gap", "question": "Micro-credentials allow working adults to ___ efficiently.", "answer": "upskill"}
+  ],
+  "vocabulary": ["personalized learning", "competency-based", "lifelong learning", "micro-credentials", "adaptability"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

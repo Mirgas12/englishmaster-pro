@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_03",
+  "level": "A2",
+  "title": "My First Job",
+  "title_ru": "Моя первая работа",
+  "word_count": 158,
+  "topic": "work",
+  "text": "I got my first part-time job last month. I work at a café near my school. I work there on Saturdays and Sundays. My job is to serve customers and clean tables. On my first day, I was very nervous. I didn't know what to do. But my colleague, Sarah, helped me a lot. She showed me how to use the coffee machine and the cash register. The customers are usually nice, but sometimes people are in a hurry and get impatient. I have learned to stay calm and smile. The best part of the job is getting tips! Last weekend, one customer gave me a five-dollar tip because I helped her with her bags. I save most of my money for college, but I also buy small things for myself. Working has taught me to be responsible and organized. I really enjoy my job!",
+  "questions": [
+    {"type": "multiple_choice", "question": "When does the writer work?", "options": ["Weekdays", "Weekends", "Every day"], "correct": 1},
+    {"type": "multiple_choice", "question": "Who helped on the first day?", "options": ["The manager", "Sarah", "A customer"], "correct": 1},
+    {"type": "true_false", "question": "All customers are always patient.", "correct": false},
+    {"type": "true_false", "question": "The writer saves money for college.", "correct": true},
+    {"type": "fill_gap", "question": "The writer works at a ___ near school.", "answer": "café"}
+  ],
+  "vocabulary": ["part-time", "serve", "colleague", "tips", "responsible"],
+  "grammar_focus": ["present_simple", "past_simple"]
+}

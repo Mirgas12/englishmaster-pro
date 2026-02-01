@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_05",
+  "level": "B2",
+  "title": "The Evolution of Language Learning",
+  "title_ru": "Эволюция изучения языков",
+  "word_count": 305,
+  "topic": "education",
+  "text": "Approaches to language learning have transformed dramatically over the past century. From grammar-translation methods dominant in classical education to today's technology-enhanced communicative approaches, our understanding of how languages are best acquired continues to evolve.\n\nThe audio-lingual method, popular mid-20th century, emphasized pattern drills and memorization. Students repeated phrases endlessly, with the theory that language was primarily habit formation. While this produced students who could parrot phrases, it often failed to develop genuine communicative competence.\n\nThe communicative approach, which emerged in the 1970s, shifted focus to meaningful interaction. Rather than perfect grammar, the goal became effective communication. Tasks and real-world scenarios replaced repetitive drills. Errors were tolerated as natural parts of the learning process.\n\nResearch into second language acquisition has revealed insights about how adults learn languages differently from children. While children acquire languages implicitly through exposure, adults benefit from some explicit instruction about grammar patterns. The critical period hypothesis suggests that native-like pronunciation becomes increasingly difficult to achieve after puberty, though this remains debated.\n\nTechnology has revolutionized language learning possibilities. Apps like Duolingo gamify learning, making daily practice engaging. Video calls enable conversation with native speakers anywhere in the world. AI-powered tools can now provide instant feedback on pronunciation and grammar.\n\nImmersion remains the most powerful language learning environment. Living in a country where the target language is spoken forces constant practice and provides rich input. Study abroad programs and immersion schools attempt to recreate these conditions.\n\nDespite technological advances, the fundamental requirements for successful language learning remain unchanged: substantial input, meaningful practice, and consistent effort over time. No app or method can shortcut the thousands of hours needed to achieve fluency. The best approach is often a combination of methods, tailored to individual learning styles and goals.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What did the audio-lingual method emphasize?", "options": ["Communication", "Pattern drills", "Reading literature"], "correct": 1},
+    {"type": "multiple_choice", "question": "When did the communicative approach emerge?", "options": ["1950s", "1970s", "1990s"], "correct": 1},
+    {"type": "true_false", "question": "Children and adults learn languages identically.", "correct": false},
+    {"type": "true_false", "question": "Technology can replace the need for practice hours.", "correct": false},
+    {"type": "fill_gap", "question": "Immersion remains the most ___ language learning environment.", "answer": "powerful"}
+  ],
+  "vocabulary": ["acquisition", "communicative", "immersion", "implicit", "explicit"],
+  "grammar_focus": ["present_perfect", "passive_voice"]
+}

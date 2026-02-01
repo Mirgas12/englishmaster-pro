@@ -1,0 +1,19 @@
+{
+  "id": "b2_immersion_04",
+  "level": "B2",
+  "title": "The Science of Happiness",
+  "title_ru": "Наука о счастье",
+  "media_type": "video",
+  "duration_seconds": 115,
+  "description": "Research findings on well-being",
+  "transcript": "What makes us happy? For decades, psychologists have investigated this question with surprisingly consistent findings. Once basic needs are met, additional income has diminishing returns for happiness. Wealthy nations aren't necessarily happier than moderately prosperous ones. Experiences tend to bring more lasting happiness than material possessions – partly because we adapt to physical goods but continue to savor memories. Social connections emerge as perhaps the strongest predictor of well-being. People with rich social networks, strong family bonds, and meaningful friendships consistently report higher life satisfaction. Loneliness, conversely, correlates with numerous health problems and early mortality. Purpose and meaning matter enormously. People who feel their lives have direction and significance tend to be happier than those seeking pleasure alone. This aligns with ancient philosophical traditions that distinguished between hedonic pleasure and deeper fulfillment. Gratitude practices – regularly noting things we're thankful for – have proven remarkably effective at boosting well-being. So has helping others; paradoxically, giving makes us happier than receiving. The science suggests we often pursue happiness in misguided ways, chasing wealth and status while neglecting relationships, purpose, and gratitude.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What has diminishing returns for happiness?", "options": ["Relationships", "Additional income", "Exercise"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is perhaps the strongest predictor of well-being?", "options": ["Wealth", "Social connections", "Physical health"], "correct": 1},
+    {"type": "true_false", "question": "Material possessions bring more lasting happiness than experiences.", "correct": false},
+    {"type": "true_false", "question": "Giving makes us happier than receiving.", "correct": true},
+    {"type": "fill_gap", "question": "___ practices involve regularly noting things we're thankful for.", "answer": "Gratitude"}
+  ],
+  "vocabulary": ["diminishing returns", "prosperous", "savor", "hedonic", "paradoxically"],
+  "key_phrases": ["once basic needs are met", "strongest predictor", "proven remarkably effective", "pursue happiness in misguided ways"]
+}

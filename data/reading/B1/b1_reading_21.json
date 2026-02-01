@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_21",
+  "level": "B1",
+  "title": "The Power of Podcasts",
+  "title_ru": "Сила подкастов",
+  "word_count": 220,
+  "topic": "media",
+  "text": "Podcasts have exploded in popularity over the past decade. These on-demand audio programs cover virtually every topic imaginable, from true crime to cooking to political analysis. Millions of people now listen regularly, often during commutes or while exercising.\n\nThe format offers unique advantages. Unlike radio, podcasts let you choose exactly what to listen to and when. Episodes can be paused, rewound, and saved for later. This flexibility fits perfectly into busy modern lifestyles.\n\nFor creators, podcasts provide a relatively low-cost way to reach audiences. Basic equipment is affordable, and distribution platforms are free. This accessibility has led to incredible diversity in content, with voices that might never be heard on traditional media.\n\nMany listeners develop strong connections with podcast hosts. The intimate nature of audio – often just one person speaking directly to you – creates a sense of relationship. This has made podcasting an effective medium for both entertainment and education.\n\nThe industry has grown substantially in commercial terms too. Advertising spending on podcasts has reached billions of dollars. Major media companies and celebrities have launched their own shows, attracted by engaged audiences.\n\nEducationally, podcasts offer tremendous value. You can learn about history, science, languages, or business during time that might otherwise be unproductive. Many consider podcasts a form of passive self-improvement.\n\nWhether you prefer long-form interviews or quick daily updates, there's almost certainly a podcast for you.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What can you do with podcast episodes?", "options": ["Only listen live", "Pause, rewind, and save", "Only download once"], "correct": 1},
+    {"type": "multiple_choice", "question": "Why is podcasting good for creators?", "options": ["High cost entry", "Low cost and free distribution", "Requires TV studio"], "correct": 1},
+    {"type": "true_false", "question": "Podcasts only cover serious topics.", "correct": false},
+    {"type": "true_false", "question": "Listeners often feel connected to podcast hosts.", "correct": true},
+    {"type": "fill_gap", "question": "Advertising spending on podcasts has reached ___ of dollars.", "answer": "billions"}
+  ],
+  "vocabulary": ["podcast", "on-demand", "commute", "intimate", "distribution"],
+  "grammar_focus": ["present_perfect", "present_simple"]
+}

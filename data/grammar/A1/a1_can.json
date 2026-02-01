@@ -1,0 +1,295 @@
+{
+  "id": "a1_can",
+  "level": "A1",
+  "title": "Can (ability)",
+  "title_ru": "Can (способность)",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_to_be", "a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about what this family can do. Notice 'can' and 'can't'.",
+      "instruction_ru": "Прочитай о том, что умеет эта семья. Обрати внимание на 'can' и 'can't'.",
+      "content": {
+        "text": "My family has many talents! I <highlight>can</highlight> play the guitar. I <highlight>can</highlight> also sing. My sister <highlight>can</highlight> dance very well, but she <highlight>can't</highlight> sing. My brother <highlight>can</highlight> play football. He <highlight>can't</highlight> play tennis though. My mother <highlight>can</highlight> cook delicious food. My father <highlight>can</highlight> speak three languages. He <highlight>can</highlight> speak English, French, and Spanish. <highlight>Can</highlight> you play any instrument?",
+        "question": "What form comes after 'can'? Does it change for he/she?",
+        "question_ru": "Какая форма глагола идёт после 'can'? Меняется ли для he/she?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "CAN - Ability and Possibility",
+        "title_ru": "CAN - Способность и возможность",
+        "points": [
+          {
+            "rule": "CAN + base verb (no 'to', no changes)",
+            "rule_ru": "CAN + глагол (без 'to', без изменений)",
+            "example": "I can swim. She can swim. (NOT: She cans swim)",
+            "marker": "can + verb"
+          },
+          {
+            "rule": "CAN'T / CANNOT = negative",
+            "rule_ru": "CAN'T / CANNOT = отрицание",
+            "example": "I can't drive. He cannot cook.",
+            "marker": "can't"
+          },
+          {
+            "rule": "CAN + subject = question",
+            "rule_ru": "CAN + подлежащее = вопрос",
+            "example": "Can you swim? Can she speak English?",
+            "marker": "Can + subject"
+          },
+          {
+            "rule": "Use for: ability, permission, requests",
+            "rule_ru": "Используем для: способности, разрешения, просьб",
+            "example": "I can play piano (ability). Can I go? (permission). Can you help me? (request)",
+            "marker": "ability/permission/request"
+          }
+        ],
+        "comparison_table": [
+          {
+            "form": "Positive",
+            "structure": "Subject + can + verb",
+            "example": "I can swim."
+          },
+          {
+            "form": "Negative",
+            "structure": "Subject + can't + verb",
+            "example": "I can't swim."
+          },
+          {
+            "form": "Question",
+            "structure": "Can + subject + verb?",
+            "example": "Can you swim?"
+          },
+          {
+            "form": "Short answer",
+            "structure": "Yes, I can. / No, I can't.",
+            "example": "Can you drive? Yes, I can."
+          }
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all uses of 'can/can't'. Identify: ability, permission, or request.",
+      "instruction_ru": "Найди все случаи 'can/can't'. Определи: способность, разрешение или просьба.",
+      "tasks": [
+        {
+          "text": "My friend Tom is very talented. He can play the piano and the guitar. He can also speak Japanese. But he can't cook at all! Yesterday, he asked me, 'Can you teach me to cook?' I said, 'Of course, I can help you.' At my house, he asked, 'Can I use your kitchen?' I said yes. Now he can make simple meals. He still can't make anything complicated, but he's learning!",
+          "find": [
+            {"phrase": "He can play the piano", "type": "ability"},
+            {"phrase": "He can also speak Japanese", "type": "ability"},
+            {"phrase": "he can't cook", "type": "ability (negative)"},
+            {"phrase": "Can you teach me", "type": "request"},
+            {"phrase": "I can help you", "type": "ability"},
+            {"phrase": "Can I use your kitchen", "type": "permission"},
+            {"phrase": "he can make simple meals", "type": "ability"},
+            {"phrase": "He still can't make anything complicated", "type": "ability (negative)"}
+          ]
+        }
+      ],
+      "reflection_question": "How is 'Can you help?' different from 'Can I go?'",
+      "reflection_question_ru": "Чем отличается 'Can you help?' от 'Can I go?'"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with 'can' or 'can't'.",
+          "sentences": [
+            {"sentence": "Fish ___ swim.", "answer": "can"},
+            {"sentence": "Birds ___ fly, but penguins ___.", "answer": "can, can't"},
+            {"sentence": "She ___ speak French. She learned it in school.", "answer": "can"},
+            {"sentence": "I ___ drive. I don't have a license.", "answer": "can't"},
+            {"sentence": "___ you play the piano?", "answer": "Can"},
+            {"sentence": "He ___ cook. His food is terrible.", "answer": "can't"},
+            {"sentence": "We ___ see the mountains from here.", "answer": "can"},
+            {"sentence": "___ I borrow your pen?", "answer": "Can"},
+            {"sentence": "She ___ dance very well.", "answer": "can"},
+            {"sentence": "I ___ hear you. Please speak louder.", "answer": "can't"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "She ___ play tennis.",
+              "options": ["can", "cans", "can to"],
+              "correct": 0,
+              "explanation": "can + base verb (no changes, no 'to')"
+            },
+            {
+              "sentence": "I ___ swim when I was 5.",
+              "options": ["can", "could", "cans"],
+              "correct": 1,
+              "explanation": "Past ability = could (but at A1, 'can' is main focus)"
+            },
+            {
+              "sentence": "___ you help me?",
+              "options": ["Can", "Do", "Are"],
+              "correct": 0,
+              "explanation": "Request = Can you...?"
+            },
+            {
+              "sentence": "He ___ speak Japanese.",
+              "options": ["can't", "don't can", "no can"],
+              "correct": 0,
+              "explanation": "Negative = can't (not 'don't can')"
+            },
+            {
+              "sentence": "Can you swim? Yes, I ___.",
+              "options": ["do", "can", "am"],
+              "correct": 1,
+              "explanation": "Short answer with 'can'"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She cans play piano.",
+              "correct": "She can play piano.",
+              "explanation": "'Can' never changes (no -s for he/she/it)"
+            },
+            {
+              "incorrect": "I can to swim.",
+              "correct": "I can swim.",
+              "explanation": "can + base verb (no 'to')"
+            },
+            {
+              "incorrect": "He don't can drive.",
+              "correct": "He can't drive.",
+              "explanation": "Negative = can't (not 'don't can')"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about what you can and can't do.",
+      "instruction_ru": "Напиши о том, что ты умеешь и не умеешь делать.",
+      "prompts": [
+        "Sports and physical activities you can/can't do",
+        "Languages you can speak",
+        "Musical instruments you can play",
+        "Other skills (cook, drive, etc.)"
+      ],
+      "example": "I can swim and I can ride a bike. I can't play tennis. I can speak English and Russian. I can't speak French. I can play the guitar, but I can't play the piano. I can cook simple meals. I can't drive yet.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'can' for abilities",
+        "Uses 'can't' for things they cannot do",
+        "No 'to' after can",
+        "At least 5 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many 'can/can't' structures.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Job Interview",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "Interviewer: What can you do? Applicant: I can speak English and German. I can use Microsoft Office. I can work in a team. I can't speak Chinese, but I can learn quickly. Interviewer: Can you work on weekends? Applicant: Yes, I can."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Superhero",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "Superheroes have amazing powers. Superman can fly. He can also see through walls. Spider-Man can climb buildings. He can't fly, but he can swing on webs. Batman can't fly or climb, but he can fight very well. He can also drive cool cars."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Baby's Progress",
+          "level": "A1",
+          "word_count": 60,
+          "target_structures": 8,
+          "content": "My baby is one year old. She can walk now! She can say a few words. She can't talk in sentences yet. She can eat with her hands. She can't use a spoon well. She can recognize her family. Can she read? No, she can't."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Classroom Rules",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "In class, you can ask questions. You can use a dictionary. You can work with a partner. But you can't use your phone. You can't eat in class. Can you drink water? Yes, you can. Can you leave early? No, you can't."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "My Pet",
+          "level": "A1",
+          "word_count": 60,
+          "target_structures": 8,
+          "content": "My dog Max is smart. He can do tricks. He can sit and give his paw. He can fetch a ball. He can't open doors. He can understand simple commands. Can he speak? Of course not! But he can communicate with his eyes."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "She ___ (swim).",
+          "back": "She can swim.\n\ncan + base verb (no -s)"
+        },
+        {
+          "type": "transformation",
+          "front": "Positive: I can drive.\nNegative: ?",
+          "back": "I can't drive.\n\ncan → can't"
+        },
+        {
+          "type": "transformation",
+          "front": "Statement: You can help.\nQuestion: ?",
+          "back": "Can you help?\n\nSubject + can → Can + subject"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He can to play guitar.\"",
+          "back": "He can play guitar.\n\nNo 'to' after can"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She cans speak English.\"",
+          "back": "She can speak English.\n\n'Can' never changes form"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Adding -s (She cans)",
+      "Using 'to' after can (I can to swim)",
+      "Using 'don't/doesn't' (I don't can)",
+      "Wrong question form (Do you can?)"
+    ],
+    "related_topics": ["a1_present_simple", "a2_have_to", "a2_should"],
+    "ielts_relevance": "High - common in Speaking",
+    "frequency_in_english": "Very high"
+  }
+}

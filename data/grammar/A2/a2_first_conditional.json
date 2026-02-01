@@ -1,0 +1,284 @@
+{
+  "id": "a2_first_conditional",
+  "level": "A2",
+  "title": "First Conditional",
+  "title_ru": "Первый тип условных предложений",
+  "estimatedMinutes": 30,
+  "prerequisites": ["a2_future_will", "a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read these sentences about the future. Notice the 'if' structure.",
+      "instruction_ru": "Прочитай эти предложения о будущем. Обрати внимание на структуру с 'if'.",
+      "content": {
+        "text": "<highlight>If</highlight> it rains tomorrow, I <highlight>will</highlight> stay home. <highlight>If</highlight> I pass the exam, my parents <highlight>will</highlight> be happy. <highlight>If</highlight> she doesn't call, I <highlight>won't</highlight> go to the party. <highlight>If</highlight> you study hard, you <highlight>will</highlight> succeed. <highlight>If</highlight> we leave now, we <highlight>will</highlight> arrive on time. <highlight>If</highlight> he doesn't hurry, he <highlight>will</highlight> miss the train. What <highlight>will</highlight> you do <highlight>if</highlight> you win the lottery?",
+        "question": "What tense is used after 'if'? What follows in the main clause?",
+        "question_ru": "Какое время используется после 'if'? Что следует в главной части?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "First Conditional - Real future possibilities",
+        "title_ru": "Первое условное - Реальные возможности в будущем",
+        "points": [
+          {
+            "rule": "If + Present Simple, ... will + verb",
+            "rule_ru": "If + Present Simple, ... will + глагол",
+            "example": "If it rains, I will stay home.",
+            "marker": "if + present, will"
+          },
+          {
+            "rule": "Use: Real possibilities in the future",
+            "rule_ru": "Использование: Реальные возможности в будущем",
+            "example": "If I have time, I will call you. (maybe I will have time)",
+            "marker": "possible future"
+          },
+          {
+            "rule": "Order can change (comma only when 'if' is first)",
+            "rule_ru": "Порядок можно менять (запятая только когда 'if' в начале)",
+            "example": "If you call, I will answer. = I will answer if you call.",
+            "marker": "order"
+          },
+          {
+            "rule": "Negative: If + don't/doesn't, ... won't",
+            "rule_ru": "Отрицание: If + don't/doesn't, ... won't",
+            "example": "If she doesn't come, I won't wait.",
+            "marker": "negatives"
+          },
+          {
+            "rule": "No 'will' after 'if' in this structure!",
+            "rule_ru": "Без 'will' после 'if' в этой структуре!",
+            "example": "If it rains... (NOT: If it will rain...)",
+            "marker": "NO will after if"
+          }
+        ],
+        "comparison_table": [
+          {"type": "If clause", "tense": "Present Simple", "example": "If I have money,"},
+          {"type": "Main clause", "tense": "will + verb", "example": "I will buy a car."},
+          {"type": "Negative if", "tense": "don't/doesn't", "example": "If she doesn't come,"},
+          {"type": "Negative main", "tense": "won't", "example": "I won't wait."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all conditionals. Identify the if-clause and the result clause.",
+      "instruction_ru": "Найди все условные предложения. Определи условие и результат.",
+      "tasks": [
+        {
+          "text": "I'm planning my weekend. If the weather is good, I'll go to the beach. If my friends are free, we'll have a barbecue. If it rains, we'll stay home and watch movies. I'll be disappointed if the weather is bad. If I don't finish my homework tonight, I won't be able to go. My parents will be angry if I don't call them. What will you do if you have free time?",
+          "find": [
+            {"if_clause": "If the weather is good", "result": "I'll go to the beach", "condition": "possible"},
+            {"if_clause": "If my friends are free", "result": "we'll have a barbecue", "condition": "possible"},
+            {"if_clause": "If it rains", "result": "we'll stay home", "condition": "possible"},
+            {"if_clause": "if the weather is bad", "result": "I'll be disappointed", "condition": "possible"},
+            {"if_clause": "If I don't finish my homework", "result": "I won't be able to go", "condition": "negative"},
+            {"if_clause": "if I don't call them", "result": "My parents will be angry", "condition": "negative"},
+            {"if_clause": "if you have free time", "result": "What will you do", "condition": "question"}
+          ]
+        }
+      ],
+      "reflection_question": "Why don't we say 'If it will rain, I will stay home'?",
+      "reflection_question_ru": "Почему мы не говорим 'If it will rain, I will stay home'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the first conditional sentences.",
+          "sentences": [
+            {"sentence": "If it ___ (rain), we ___ (stay) home.", "answer": "rains, will stay"},
+            {"sentence": "If she ___ (study), she ___ (pass) the exam.", "answer": "studies, will pass"},
+            {"sentence": "I ___ (call) you if I ___ (have) time.", "answer": "will call, have"},
+            {"sentence": "If they ___ (not/hurry), they ___ (miss) the bus.", "answer": "don't hurry, will miss"},
+            {"sentence": "What ___ you ___ (do) if you ___ (win)?", "answer": "will, do, win"},
+            {"sentence": "If he ___ (be) late, the boss ___ (be) angry.", "answer": "is, will be"},
+            {"sentence": "She ___ (not/come) if you ___ (not/invite) her.", "answer": "won't come, don't invite"},
+            {"sentence": "If I ___ (see) him, I ___ (tell) him.", "answer": "see, will tell"},
+            {"sentence": "We ___ (go) out if the weather ___ (be) nice.", "answer": "will go, is"},
+            {"sentence": "If you ___ (not/eat), you ___ (be) hungry.", "answer": "don't eat, will be"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form.",
+          "questions": [
+            {
+              "sentence": "If I ___ time, I will call you.",
+              "options": ["will have", "have", "having"],
+              "correct": 1,
+              "explanation": "If + Present Simple (no 'will' after 'if')"
+            },
+            {
+              "sentence": "She will be happy if she ___ the test.",
+              "options": ["will pass", "passes", "passing"],
+              "correct": 1,
+              "explanation": "If + Present Simple"
+            },
+            {
+              "sentence": "If it rains, we ___ go outside.",
+              "options": ["don't", "won't", "doesn't"],
+              "correct": 1,
+              "explanation": "Result = will/won't"
+            },
+            {
+              "sentence": "What will you do if you ___ your job?",
+              "options": ["will lose", "lose", "lost"],
+              "correct": 1,
+              "explanation": "If + Present Simple"
+            },
+            {
+              "sentence": "If you ___ help, just call me.",
+              "options": ["will need", "need", "needed"],
+              "correct": 1,
+              "explanation": "If + Present Simple"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "If it will rain, I will stay home.",
+              "correct": "If it rains, I will stay home.",
+              "explanation": "No 'will' after 'if' - use Present Simple"
+            },
+            {
+              "incorrect": "If she studies, she pass the exam.",
+              "correct": "If she studies, she will pass the exam.",
+              "explanation": "Need 'will' in the result clause"
+            },
+            {
+              "incorrect": "I call you if I have time.",
+              "correct": "I will call you if I have time.",
+              "explanation": "Need 'will' in the result clause"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your plans using first conditional.",
+      "instruction_ru": "Напиши о своих планах, используя первый тип условных предложений.",
+      "prompts": [
+        "What will you do if the weather is good/bad this weekend?",
+        "What will happen if you pass/fail your exams?",
+        "What will you do if you get a promotion/raise?",
+        "What will happen if you don't finish your work?"
+      ],
+      "example": "This weekend, if the weather is good, I will go hiking. If it rains, I'll stay home and read. If my friend calls, we'll go to a cafe. If I have time, I'll start learning guitar. If I don't finish my project, my boss won't be happy. I'll be very happy if I get a raise next month.",
+      "ai_check": true,
+      "criteria": [
+        "Uses Present Simple after 'if'",
+        "Uses will in result clause",
+        "No 'will' after 'if'",
+        "At least 5 conditional sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with first conditional.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Weather Plans",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 8,
+          "content": "I'm checking the weather for my trip. If it's sunny, I'll go to the beach. If it rains, I'll visit museums instead. If it's too hot, I'll stay by the pool. If the weather is perfect, I'll try hiking. If I don't bring sunscreen, I'll get sunburned. I hope the forecast is good!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Job Interview",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 9,
+          "content": "I have a job interview tomorrow. If I get the job, I'll be so happy! If they offer good salary, I'll accept immediately. If I don't get it, I won't give up. I'll keep trying. If they ask about my experience, I'll tell them about my projects. If I'm nervous, I'll take deep breaths. Wish me luck!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Party Planning",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 8,
+          "content": "We're planning a party. If 20 people come, we'll need more food. If it's warm, we'll have it in the garden. If it rains, we'll move inside. If everyone brings a dish, we won't need to cook much. If the music is too loud, the neighbors will complain. It will be fun if everyone comes!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Study Goals",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 8,
+          "content": "I have my exams next week. If I study every day, I'll be ready. If I don't understand something, I'll ask my teacher. If I pass all exams, my parents will be proud. If I fail, I'll take them again. I won't give up if things get hard. If I get good grades, I'll celebrate!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Health Goals",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 8,
+          "content": "I want to be healthier. If I exercise daily, I'll feel better. If I eat vegetables, I'll have more energy. If I don't sleep enough, I'll be tired. If I drink more water, my skin will look better. If I stop eating junk food, I'll lose weight. I'll be happier if I'm healthy."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "If it ___ (rain), I will stay home.",
+          "back": "rains\n\nIf + Present Simple"
+        },
+        {
+          "type": "fill_gap",
+          "front": "If she studies, she ___ (pass).",
+          "back": "will pass\n\nResult = will + verb"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"If I will have time, I will call.\"",
+          "back": "If I have time, I will call.\n\nNo 'will' after 'if'"
+        },
+        {
+          "type": "transformation",
+          "front": "Separate: Maybe it rains. Then I stay home.\nFirst conditional: ?",
+          "back": "If it rains, I will stay home."
+        },
+        {
+          "type": "fill_gap",
+          "front": "She won't come if you ___ (not/invite) her.",
+          "back": "don't invite\n\nNegative if = don't/doesn't"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 7,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'will' after 'if' (If I will go...)",
+      "Forgetting 'will' in result clause",
+      "Using Past tense after 'if'",
+      "Forgetting comma when 'if' clause comes first"
+    ],
+    "related_topics": ["a2_future_will", "b1_second_conditional"],
+    "ielts_relevance": "High - used in Speaking Part 3",
+    "frequency_in_english": "Very high"
+  }
+}

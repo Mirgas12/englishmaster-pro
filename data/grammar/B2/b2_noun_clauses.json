@@ -1,0 +1,264 @@
+{
+  "id": "b2_noun_clauses",
+  "level": "B2",
+  "title": "Noun Clauses",
+  "title_ru": "Именные придаточные предложения",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_reported_speech_statements", "b1_reported_speech_questions"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about opinions and beliefs. Notice the clauses that act as nouns.",
+      "instruction_ru": "Прочитай о мнениях и убеждениях. Обрати внимание на придаточные, которые действуют как существительные.",
+      "content": {
+        "text": "<highlight>That she succeeded</highlight> amazed everyone. <highlight>What he said</highlight> shocked me. I don't know <highlight>why she left</highlight>. <highlight>Whether we should go</highlight> is unclear. He asked <highlight>if I was ready</highlight>. <highlight>What matters most</highlight> is honesty. I believe <highlight>that practice makes perfect</highlight>. The question is <highlight>who will lead the team</highlight>. <highlight>How they did it</highlight> remains a mystery. <highlight>Whoever wins</highlight> will be champion.",
+        "question": "What function do these clauses serve? Can they be replaced by a single noun or pronoun?",
+        "question_ru": "Какую функцию выполняют эти придаточные? Можно ли заменить их одним существительным или местоимением?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Noun Clauses - Clauses as Subjects/Objects",
+        "title_ru": "Именные придаточные - Придаточные как подлежащие/дополнения",
+        "points": [
+          {
+            "rule": "That-clause: That + subject + verb (can be subject or object)",
+            "rule_ru": "That-придаточное: That + подлежащее + глагол (может быть подлежащим или дополнением)",
+            "example": "That he won surprised me. I know that he won.",
+            "marker": "that + clause"
+          },
+          {
+            "rule": "Wh-clause: What/Who/Where/When/Why/How + subject + verb",
+            "rule_ru": "Wh-придаточное: What/Who/Where/When/Why/How + подлежащее + глагол",
+            "example": "What she wants is unclear. I wonder why she left.",
+            "marker": "wh- + clause"
+          },
+          {
+            "rule": "Whether/If-clause: Whether/If + subject + verb (for yes/no questions)",
+            "rule_ru": "Whether/If-придаточное: Whether/If + подлежащее + глагол (для да/нет вопросов)",
+            "example": "Whether he'll come is uncertain. I don't know if it's true.",
+            "marker": "whether/if"
+          },
+          {
+            "rule": "As subject: Noun clause + verb (The clause is the subject)",
+            "rule_ru": "Как подлежащее: Именное придаточное + глагол (Придаточное - подлежащее)",
+            "example": "What you did was wrong. That he lied is obvious.",
+            "marker": "as subject"
+          },
+          {
+            "rule": "As object: Subject + verb + noun clause (The clause is the object)",
+            "rule_ru": "Как дополнение: Подлежащее + глагол + именное придаточное (Придаточное - дополнение)",
+            "example": "I know what you mean. She asked where I lived.",
+            "marker": "as object"
+          }
+        ],
+        "comparison_table": [
+          {"type": "That-clause (subject)", "form": "That + S + V + main verb", "example": "That she passed amazed us.", "function": "Subject"},
+          {"type": "That-clause (object)", "form": "S + V + that + S + V", "example": "I believe that she's right.", "function": "Object"},
+          {"type": "Wh-clause (subject)", "form": "Wh- + S + V + main verb", "example": "What he said upset me.", "function": "Subject"},
+          {"type": "Wh-clause (object)", "form": "S + V + wh- + S + V", "example": "I wonder what he meant.", "function": "Object"},
+          {"type": "Whether-clause", "form": "Whether + S + V", "example": "Whether she'll come is unknown.", "function": "Subject/Object"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify each noun clause and its function (subject or object).",
+      "instruction_ru": "Определи каждое именное придаточное и его функцию (подлежащее или дополнение).",
+      "tasks": [
+        {
+          "text": "A philosophy discussion:\n\n1. That life has meaning is something I believe.\n2. I wonder what the purpose of existence is.\n3. What we believe shapes our reality.\n4. The question is whether free will truly exists.\n5. Nobody knows if there is life after death.\n6. Why humans suffer is a profound question.\n7. I think that happiness comes from within.\n8. How we treat others defines who we are.\n9. Whether you agree or not doesn't matter.\n10. What matters is that we keep questioning.",
+          "find": [
+            {"sentence": 1, "clause": "That life has meaning", "function": "subject", "type": "that-clause"},
+            {"sentence": 2, "clause": "what the purpose of existence is", "function": "object", "type": "wh-clause"},
+            {"sentence": 3, "clause": "What we believe", "function": "subject", "type": "wh-clause"},
+            {"sentence": 4, "clause": "whether free will truly exists", "function": "complement", "type": "whether-clause"},
+            {"sentence": 5, "clause": "if there is life after death", "function": "object", "type": "if-clause"},
+            {"sentence": 6, "clause": "Why humans suffer", "function": "subject", "type": "wh-clause"},
+            {"sentence": 7, "clause": "that happiness comes from within", "function": "object", "type": "that-clause"},
+            {"sentence": 8, "clause": "How we treat others", "function": "subject", "type": "wh-clause"},
+            {"sentence": 9, "clause": "Whether you agree or not", "function": "subject", "type": "whether-clause"},
+            {"sentence": 10, "clause": "What matters", "function": "subject", "type": "wh-clause"}
+          ]
+        }
+      ],
+      "reflection_question": "Can you replace a noun clause with 'something' or 'it'?",
+      "reflection_question_ru": "Можно ли заменить именное придаточное на 'something' или 'it'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the appropriate connector (that, what, whether, if, how, why, etc.).",
+          "sentences": [
+            {"sentence": "___ he refused to help was disappointing.", "answer": "That"},
+            {"sentence": "I don't know ___ she wants.", "answer": "what"},
+            {"sentence": "___ we should cancel the event is still being discussed.", "answer": "Whether"},
+            {"sentence": "She asked ___ I had finished.", "answer": "if/whether"},
+            {"sentence": "___ annoys me is his attitude.", "answer": "What"},
+            {"sentence": "I believe ___ honesty is important.", "answer": "that"},
+            {"sentence": "The mystery is ___ the money disappeared.", "answer": "how"},
+            {"sentence": "___ they will accept is uncertain.", "answer": "Whether/If"},
+            {"sentence": "I wonder ___ she didn't come.", "answer": "why"},
+            {"sentence": "___ said that must be brave.", "answer": "Whoever"}
+          ]
+        },
+        {
+          "type": "transformation",
+          "instruction": "Combine the sentences using a noun clause.",
+          "sentences": [
+            {"sentences": "Something surprised me. He won the race.", "combined": "That he won the race surprised me."},
+            {"sentences": "I don't know something. Where does she live?", "combined": "I don't know where she lives."},
+            {"sentences": "Something is unclear. Will he accept the offer?", "combined": "Whether he will accept the offer is unclear."},
+            {"sentences": "Something matters most. You try your best.", "combined": "What matters most is that you try your best."},
+            {"sentences": "I wonder something. How did they solve the problem?", "combined": "I wonder how they solved the problem."}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "What does she want is a mystery.",
+              "correct": "What she wants is a mystery.",
+              "explanation": "Noun clauses use statement word order, not question order"
+            },
+            {
+              "incorrect": "I wonder that he is coming.",
+              "correct": "I wonder if/whether he is coming.",
+              "explanation": "Use if/whether for yes/no questions, not 'that'"
+            },
+            {
+              "incorrect": "That is important is to be honest.",
+              "correct": "What is important is to be honest.",
+              "explanation": "Use 'what' (not 'that') when meaning 'the thing that'"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your beliefs, uncertainties, and questions using noun clauses.",
+      "instruction_ru": "Напиши о своих убеждениях, неуверенности и вопросах, используя именные придаточные.",
+      "prompts": [
+        "Write about what you believe and why",
+        "Discuss what matters most to you",
+        "Write about things you wonder about",
+        "Explore questions you have about life"
+      ],
+      "example": "I've been thinking about what really matters in life. That happiness isn't about money is something I firmly believe. What I've learned is that relationships are the most important thing. I wonder why so many people focus on material success. Whether I'm making the right choices is something I question often. What concerns me is how quickly time passes. I don't know if I'm living my best life. What I do know is that I try my best every day. How we treat others defines who we are. That's what I believe to be true.",
+      "ai_check": true,
+      "criteria": [
+        "Uses that-clauses as subjects and objects",
+        "Uses wh-clauses (what, how, why, etc.)",
+        "Uses whether/if clauses for uncertainty",
+        "Uses statement word order in noun clauses",
+        "At least 6 different noun clauses"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with noun clauses.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Scientific Inquiry",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What scientists don't know far exceeds what they do. That the universe is expanding is now accepted fact. How life began remains a mystery. Whether we are alone in the universe is the greatest question. I wonder what future discoveries will reveal. What amazes me is how much we've learned in just a century. That gravity exists is obvious, but why it exists puzzles physicists. How consciousness works is still debated."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Self-Reflection",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What I've learned about myself is valuable. That I make mistakes is part of being human. I understand now why I acted that way before. Whether I made the right choice is unclear. What matters is that I learned from it. I know that growth takes time. How I handle challenges defines my character. What I want is to become better. Whether others approve isn't important. That I keep trying is what counts."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Relationship Wisdom",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What makes relationships work is communication. That couples argue is normal and healthy. I believe that trust is fundamental. Whether to forgive is a personal decision. What I've noticed is that respect matters most. How you handle conflict shows your maturity. That love changes over time is natural. What matters is whether you grow together. I wonder why some couples last while others don't. What I know is that effort is required."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Career Decisions",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What career to pursue is a difficult choice. That money isn't everything is true, but it matters. I wonder whether I should change jobs. What interests me might not pay well. Whether to follow passion or pragmatism is the dilemma. I believe that meaningful work is possible. How I spend my days affects my happiness. What I want is balance. That I need to decide soon is clear. How to find the right path is the question."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Global Issues",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "What the future holds is uncertain. That climate change is real is scientific consensus. I wonder whether humanity will act in time. What worries me is how slowly we respond. Whether we can change is the crucial question. That cooperation is needed is obvious. How to achieve it is less clear. What I believe is that individuals matter. That each action counts gives me hope. What matters most is that we don't give up."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "___ she said shocked everyone.\n(That / What)",
+          "back": "What\n\n'What she said' = the thing she said"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ he is guilty is obvious.\n(That / What)",
+          "back": "That\n\n'That he is guilty' = the fact"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I wonder ___ she will come.\n(that / if)",
+          "back": "if/whether\n\nYes/no question = if/whether"
+        },
+        {
+          "type": "transformation",
+          "front": "Something is unclear: Where does he live?\nCombine:",
+          "back": "Where he lives is unclear.\n\nStatement word order"
+        },
+        {
+          "type": "error_correction",
+          "front": "What does he want is a mystery.",
+          "back": "What he wants is a mystery.\n\nStatement order in noun clauses"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "transformation", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using question word order in noun clauses",
+      "Confusing 'what' and 'that'",
+      "Using 'that' instead of 'if/whether' for yes/no questions",
+      "Dropping required connectors"
+    ],
+    "related_topics": ["b1_reported_speech_statements", "b1_reported_speech_questions"],
+    "ielts_relevance": "Very high - Writing, Speaking",
+    "frequency_in_english": "Very high"
+  }
+}

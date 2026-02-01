@@ -1,0 +1,283 @@
+{
+  "id": "a2_past_continuous",
+  "level": "A2",
+  "title": "Past Continuous",
+  "title_ru": "Прошедшее продолженное время",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a1_present_continuous", "a2_past_simple_regular"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about what happened yesterday. Notice the verb forms.",
+      "instruction_ru": "Прочитай о том, что произошло вчера. Обрати внимание на формы глаголов.",
+      "content": {
+        "text": "Yesterday at 8 PM, I <highlight>was watching</highlight> TV. My sister <highlight>was cooking</highlight> dinner. My brother <highlight>was playing</highlight> video games. While we <highlight>were relaxing</highlight>, the doorbell rang. When I <highlight>was walking</highlight> to the door, I heard a strange noise. I opened the door and my friend <highlight>was standing</highlight> there with a surprise gift! At that moment, my mom <highlight>was talking</highlight> on the phone.",
+        "question": "What's the difference between 'I watched' and 'I was watching'?",
+        "question_ru": "В чём разница между 'I watched' и 'I was watching'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Past Continuous - Actions in progress in the past",
+        "title_ru": "Past Continuous - Действия в процессе в прошлом",
+        "points": [
+          {
+            "rule": "Form: was/were + verb-ing",
+            "rule_ru": "Форма: was/were + глагол-ing",
+            "example": "I was working. They were sleeping.",
+            "marker": "was/were + -ing"
+          },
+          {
+            "rule": "Use 1: Action in progress at a specific time in the past",
+            "rule_ru": "Использование 1: Действие в процессе в конкретный момент в прошлом",
+            "example": "At 8 PM, I was watching TV.",
+            "marker": "at a moment"
+          },
+          {
+            "rule": "Use 2: Background action when something else happened",
+            "rule_ru": "Использование 2: Фоновое действие, когда произошло что-то другое",
+            "example": "I was walking when it started to rain.",
+            "marker": "when/while"
+          },
+          {
+            "rule": "Use 3: Two actions happening at the same time",
+            "rule_ru": "Использование 3: Два действия одновременно",
+            "example": "While I was cooking, she was cleaning.",
+            "marker": "parallel actions"
+          },
+          {
+            "rule": "I/He/She/It → was; You/We/They → were",
+            "rule_ru": "I/He/She/It → was; You/We/They → were",
+            "example": "I was sleeping. They were sleeping.",
+            "marker": "was/were"
+          }
+        ],
+        "comparison_table": [
+          {"tense": "Past Simple", "use": "completed action", "example": "I watched a movie."},
+          {"tense": "Past Continuous", "use": "action in progress", "example": "I was watching a movie (at 9 PM)."},
+          {"tense": "Past Continuous + Past Simple", "use": "interrupted action", "example": "I was watching when she called."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all Past Continuous verbs. Is it a background action or main action?",
+      "instruction_ru": "Найди все глаголы в Past Continuous. Это фоновое или основное действие?",
+      "tasks": [
+        {
+          "text": "Last night was crazy! I was sleeping peacefully when suddenly I heard a loud noise. I woke up immediately. My cat was running around the house. She was chasing something. I was looking for my phone to use as a flashlight when the lights went off. Everything was happening so fast! While I was trying to find my cat, I tripped over a chair. Finally, I found her - she was playing with a mouse!",
+          "find": [
+            {"verb": "was sleeping", "type": "background action (interrupted)"},
+            {"verb": "was running", "type": "background action (description)"},
+            {"verb": "was chasing", "type": "background action (description)"},
+            {"verb": "was looking", "type": "background action (interrupted)"},
+            {"verb": "was happening", "type": "background action (description)"},
+            {"verb": "was trying", "type": "background action (interrupted)"},
+            {"verb": "was playing", "type": "background action (final scene)"}
+          ]
+        }
+      ],
+      "reflection_question": "In 'I was watching TV when she called', which is longer - 'watching' or 'called'?",
+      "reflection_question_ru": "В 'I was watching TV when she called', какое действие длиннее - 'watching' или 'called'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Past Continuous.",
+          "sentences": [
+            {"sentence": "At 9 PM, I ___ (watch) a movie.", "answer": "was watching"},
+            {"sentence": "They ___ (not/sleep) when I called.", "answer": "weren't sleeping"},
+            {"sentence": "She ___ (cook) while he ___ (clean).", "answer": "was cooking, was cleaning"},
+            {"sentence": "What ___ you ___ (do) at 6 PM?", "answer": "were, doing"},
+            {"sentence": "I ___ (walk) home when it started to rain.", "answer": "was walking"},
+            {"sentence": "The children ___ (play) in the garden.", "answer": "were playing"},
+            {"sentence": "___ he ___ (work) when you arrived?", "answer": "Was, working"},
+            {"sentence": "We ___ (have) dinner when the phone rang.", "answer": "were having"},
+            {"sentence": "She ___ (not/listen) to me!", "answer": "wasn't listening"},
+            {"sentence": "The sun ___ (shine) brightly that morning.", "answer": "was shining"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose Past Simple or Past Continuous.",
+          "questions": [
+            {
+              "sentence": "I ___ TV when the phone ___.",
+              "options": ["watched / was ringing", "was watching / rang", "watched / rang"],
+              "correct": 1,
+              "explanation": "Long action (was watching) + short action (rang)"
+            },
+            {
+              "sentence": "While I ___, she ___ dinner.",
+              "options": ["studied / cooked", "was studying / was cooking", "studied / was cooking"],
+              "correct": 1,
+              "explanation": "Two parallel actions = both Past Continuous"
+            },
+            {
+              "sentence": "At 8 AM, he ___ breakfast.",
+              "options": ["ate", "was eating", "eats"],
+              "correct": 1,
+              "explanation": "At a specific time = Past Continuous"
+            },
+            {
+              "sentence": "I ___ home when I ___ an old friend.",
+              "options": ["walked / was meeting", "was walking / met", "walked / met"],
+              "correct": 1,
+              "explanation": "Long action (walking) interrupted by short action (met)"
+            },
+            {
+              "sentence": "Yesterday, I ___ for 3 hours.",
+              "options": ["studied", "was studying", "study"],
+              "correct": 0,
+              "explanation": "Completed action with duration = Past Simple"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She was watch TV when I called.",
+              "correct": "She was watching TV when I called.",
+              "explanation": "was + verb-ing (not base form)"
+            },
+            {
+              "incorrect": "I were sleeping at midnight.",
+              "correct": "I was sleeping at midnight.",
+              "explanation": "I → was (not were)"
+            },
+            {
+              "incorrect": "While I was cooking, the phone was rang.",
+              "correct": "While I was cooking, the phone rang.",
+              "explanation": "Short interruption = Past Simple (not continuous)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe what was happening at a specific moment in the past.",
+      "instruction_ru": "Опиши, что происходило в конкретный момент в прошлом.",
+      "prompts": [
+        "What were you doing at 8 PM yesterday?",
+        "What happened while you were doing something?",
+        "Describe a moment when something interrupted you",
+        "Describe what different people were doing at the same time"
+      ],
+      "example": "Yesterday at 8 PM, I was watching a movie with my family. My brother was eating popcorn. My mom was texting on her phone. While we were watching, someone knocked on the door. I was getting up to answer when my dad came home. He was carrying pizza! We were all so happy!",
+      "ai_check": true,
+      "criteria": [
+        "Uses was/were + -ing correctly",
+        "Shows actions in progress",
+        "Uses while/when for connections",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with Past Continuous.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "The Power Outage",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Last night, everything was going normally. I was working on my computer. My wife was reading a book. Our children were sleeping. Suddenly, all the lights went off! It was a power outage. I was looking for candles when my phone rang. My neighbor was calling. He was asking if our power was out too. We were all sitting in the dark for an hour."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Witness Statement",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 9,
+          "content": "Officer, this is what I saw. At 3 PM, I was walking down Main Street. A man was running very fast. He was carrying a bag. A woman was shouting 'Stop!' Behind him, two police officers were chasing him. While all this was happening, I was standing at the bus stop. I wasn't doing anything suspicious!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Surprise Party",
+          "level": "A2",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "We were planning a surprise party for mom. Dad was keeping her busy. My sister was decorating the house. I was making a cake. The guests were hiding in different rooms. Everyone was waiting quietly. When mom opened the door, we were all holding our breath. She was not expecting anything! We shouted 'Surprise!' while she was taking off her coat."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "The Accident",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 9,
+          "content": "I saw the accident. A car was driving too fast. The traffic light was changing to red. A cyclist was crossing the street. The driver wasn't paying attention. He was looking at his phone! While the cyclist was crossing, the car hit him. Luckily, the cyclist was wearing a helmet. People were running to help immediately."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Morning Routine",
+          "level": "A2",
+          "word_count": 75,
+          "target_structures": 10,
+          "content": "At 7 AM this morning, everyone in my house was busy. My dad was taking a shower. My mom was making breakfast. My sister was brushing her teeth. I was getting dressed. The dog was barking at the mailman. While we were all rushing around, my phone alarm was still ringing. Nobody was listening to it!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "At 9 PM, I ___ (sleep).",
+          "back": "was sleeping\n\nI + was + -ing"
+        },
+        {
+          "type": "fill_gap",
+          "front": "They ___ (watch) TV when I arrived.",
+          "back": "were watching\n\nThey + were + -ing"
+        },
+        {
+          "type": "choose",
+          "front": "While I ___ (cook), the phone ___.\n(was cooking/rang OR cooked/was ringing)",
+          "back": "was cooking / rang\n\nLong action (continuous) + short interruption (simple)"
+        },
+        {
+          "type": "transformation",
+          "front": "Past Simple: I worked at 8.\nPast Continuous: ?",
+          "back": "I was working at 8."
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She were sleeping.\"",
+          "back": "She was sleeping.\n\nShe → was (not were)"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong was/were choice (I were sleeping)",
+      "Missing -ing (She was watch)",
+      "Using continuous for short action",
+      "Confusing with Past Simple"
+    ],
+    "related_topics": ["a1_present_continuous", "a2_past_simple_regular", "b2_narrative_tenses"],
+    "ielts_relevance": "High - used for stories in Speaking Part 2",
+    "frequency_in_english": "High"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "id": "a1_articles",
+  "level": "A1",
+  "title": "Articles (a/an/the)",
+  "title_ru": "Артикли (a/an/the)",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a1_to_be"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read this story. Notice the highlighted words before nouns.",
+      "instruction_ru": "Прочитай историю. Обрати внимание на выделенные слова перед существительными.",
+      "content": {
+        "text": "I have <highlight>a</highlight> cat. <highlight>The</highlight> cat is white. I also have <highlight>a</highlight> dog. <highlight>The</highlight> dog is brown. Yesterday, I saw <highlight>an</highlight> elephant at <highlight>the</highlight> zoo! <highlight>The</highlight> elephant was huge. I took <highlight>a</highlight> photo. <highlight>The</highlight> photo is beautiful. I live in <highlight>a</highlight> small apartment. <highlight>The</highlight> apartment is near <highlight>the</highlight> park.",
+        "question": "When do we use 'a', when 'an', and when 'the'?",
+        "question_ru": "Когда мы используем 'a', когда 'an', а когда 'the'?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "How to use A, AN, THE",
+        "title_ru": "Как использовать A, AN, THE",
+        "points": [
+          {
+            "rule": "A/AN = one, any (first mention)",
+            "rule_ru": "A/AN = один, любой (первое упоминание)",
+            "example": "I have a car. I saw a bird.",
+            "marker": "new information"
+          },
+          {
+            "rule": "A + consonant sound, AN + vowel sound",
+            "rule_ru": "A + согласный звук, AN + гласный звук",
+            "example": "a book, a university / an apple, an hour",
+            "marker": "sound, not letter!"
+          },
+          {
+            "rule": "THE = specific, known, already mentioned",
+            "rule_ru": "THE = конкретный, известный, уже упомянутый",
+            "example": "I have a cat. The cat is white.",
+            "marker": "both know which one"
+          },
+          {
+            "rule": "THE = unique things (the sun, the moon, the sky)",
+            "rule_ru": "THE = уникальные вещи (the sun, the moon, the sky)",
+            "example": "The sun is bright. The sky is blue.",
+            "marker": "only one exists"
+          }
+        ],
+        "comparison_table": [
+          {
+            "article": "a",
+            "use": "before consonant sounds",
+            "example": "a book, a house, a university"
+          },
+          {
+            "article": "an",
+            "use": "before vowel sounds",
+            "example": "an apple, an hour, an umbrella"
+          },
+          {
+            "article": "the",
+            "use": "specific/known thing",
+            "example": "the book (that one), the sun"
+          }
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all articles (a, an, the) and explain why each is used.",
+      "instruction_ru": "Найди все артикли (a, an, the) и объясни, почему использован каждый.",
+      "tasks": [
+        {
+          "text": "I live in a small town. The town is beautiful. There is an old church in the center. The church is 200 years old. I have a job at a hospital. The hospital is near my house. Every day, I see the same people on the bus. I have an umbrella because it often rains.",
+          "find": [
+            {"article": "a", "noun": "small town", "reason": "first mention, any town"},
+            {"article": "The", "noun": "town", "reason": "second mention, we know which town"},
+            {"article": "an", "noun": "old church", "reason": "first mention, vowel sound (old)"},
+            {"article": "the", "noun": "center", "reason": "specific - the center of this town"},
+            {"article": "The", "noun": "church", "reason": "second mention"},
+            {"article": "a", "noun": "job", "reason": "first mention, one job"},
+            {"article": "a", "noun": "hospital", "reason": "first mention, one hospital"},
+            {"article": "The", "noun": "hospital", "reason": "second mention"},
+            {"article": "the", "noun": "same people", "reason": "specific people (every day)"},
+            {"article": "the", "noun": "bus", "reason": "the regular bus I take"},
+            {"article": "an", "noun": "umbrella", "reason": "first mention, vowel sound"}
+          ]
+        }
+      ],
+      "reflection_question": "What is the difference between 'I have a car' and 'The car is red'?",
+      "reflection_question_ru": "В чём разница между 'I have a car' и 'The car is red'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with a, an, or the.",
+          "sentences": [
+            {"sentence": "I have ___ apple.", "answer": "an"},
+            {"sentence": "___ apple is red.", "answer": "The"},
+            {"sentence": "She is ___ teacher.", "answer": "a"},
+            {"sentence": "Look at ___ moon!", "answer": "the"},
+            {"sentence": "He has ___ umbrella.", "answer": "an"},
+            {"sentence": "I live in ___ apartment.", "answer": "an"},
+            {"sentence": "___ apartment is big.", "answer": "The"},
+            {"sentence": "She works at ___ university.", "answer": "a"},
+            {"sentence": "I waited for ___ hour.", "answer": "an"},
+            {"sentence": "___ sun is hot today.", "answer": "The"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose a, an, or the.",
+          "questions": [
+            {
+              "sentence": "I bought ___ new phone.",
+              "options": ["a", "an", "the"],
+              "correct": 0,
+              "explanation": "First mention, consonant sound (new)"
+            },
+            {
+              "sentence": "She is ___ honest person.",
+              "options": ["a", "an", "the"],
+              "correct": 1,
+              "explanation": "'Honest' starts with a vowel sound (/ˈɒnɪst/)"
+            },
+            {
+              "sentence": "Where is ___ bathroom?",
+              "options": ["a", "an", "the"],
+              "correct": 2,
+              "explanation": "Specific bathroom (in this place)"
+            },
+            {
+              "sentence": "I saw ___ interesting movie.",
+              "options": ["a", "an", "the"],
+              "correct": 1,
+              "explanation": "'Interesting' starts with a vowel sound"
+            },
+            {
+              "sentence": "___ Earth goes around ___ Sun.",
+              "options": ["A/a", "An/an", "The/the"],
+              "correct": 2,
+              "explanation": "Unique things - only one Earth and Sun"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "She is a honest woman.",
+              "correct": "She is an honest woman.",
+              "explanation": "'Honest' starts with a vowel sound"
+            },
+            {
+              "incorrect": "I need an umbrella. A umbrella is in the car.",
+              "correct": "I need an umbrella. The umbrella is in the car.",
+              "explanation": "Second mention = the"
+            },
+            {
+              "incorrect": "He goes to the school every day.",
+              "correct": "He goes to school every day.",
+              "explanation": "No article with 'go to school' (as a routine)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe your room using a, an, the correctly.",
+      "instruction_ru": "Опиши свою комнату, правильно используя a, an, the.",
+      "prompts": [
+        "What furniture do you have? (a bed, a desk...)",
+        "Describe each item (The bed is...)",
+        "What's special about your room?",
+        "What can you see from the window?"
+      ],
+      "example": "I have a small room. There is a bed near the window. The bed is comfortable. I have a desk and a chair. The desk is brown. There is an old lamp on the desk. The lamp was my grandmother's.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'a' before consonant sounds",
+        "Uses 'an' before vowel sounds",
+        "Uses 'the' for second mention",
+        "At least 5 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many articles.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "A Day at the Zoo",
+          "level": "A1",
+          "word_count": 80,
+          "target_structures": 15,
+          "content": "Yesterday, I went to the zoo. I saw a lion. The lion was sleeping. Then I saw an elephant. The elephant was eating. There was a monkey on a tree. The monkey was funny. I had a great day. The zoo is my favorite place."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "My Apartment",
+          "level": "A1",
+          "word_count": 75,
+          "target_structures": 14,
+          "content": "I live in an apartment. The apartment is small but nice. There is a kitchen and a bedroom. The kitchen has a table and four chairs. The bedroom has a bed and a wardrobe. I love the view from the window."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "A New Friend",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "I met a new friend today. The friend is from Spain. She is an artist. The artist paints beautiful pictures. She gave me a painting. The painting is of the sea. I love the colors."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "The Weather",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "Look at the sky! The sun is shining. There is a cloud. The cloud looks like a dog. I love the weather today. It's a perfect day for a walk in the park."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Shopping",
+          "level": "A1",
+          "word_count": 75,
+          "target_structures": 13,
+          "content": "I went to a store. The store was big. I bought a shirt and an umbrella. The shirt is blue. The umbrella is red. I also bought a book. The book is about history. It was a good shopping day."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "choose",
+          "front": "I saw ___ elephant.\n(a / an / the)",
+          "back": "an elephant\n\n'Elephant' starts with a vowel sound"
+        },
+        {
+          "type": "choose",
+          "front": "She is ___ university student.\n(a / an / the)",
+          "back": "a university student\n\n'University' starts with /j/ sound (consonant)"
+        },
+        {
+          "type": "explain_rule",
+          "front": "Why THE?\n\"Look at the moon!\"",
+          "back": "THE is used for unique things.\nThere is only one moon."
+        },
+        {
+          "type": "fill_gap",
+          "front": "I have ___ car. ___ car is red.",
+          "back": "I have a car. The car is red.\n\nFirst mention = a, Second mention = the"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"He waited for a hour.\"",
+          "back": "He waited for an hour.\n\n'Hour' starts with a vowel sound /aʊ/"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'a' before vowel sounds (a apple)",
+      "Using 'an' before consonant sounds (an university)",
+      "Not using 'the' for second mention",
+      "Forgetting 'the' with unique things"
+    ],
+    "related_topics": ["a1_plurals", "a1_there_is_are"],
+    "ielts_relevance": "Medium - common error in writing",
+    "frequency_in_english": "Very high - articles are essential"
+  }
+}

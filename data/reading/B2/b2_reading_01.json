@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_01",
+  "level": "B2",
+  "title": "The Ethics of Artificial Intelligence",
+  "title_ru": "Этика искусственного интеллекта",
+  "word_count": 310,
+  "topic": "technology",
+  "text": "As artificial intelligence becomes increasingly integrated into critical systems – from hiring decisions to medical diagnoses to criminal sentencing – profound ethical questions demand our attention. These algorithms, often portrayed as objective, can perpetuate or even amplify existing biases in society.\n\nOne fundamental concern involves algorithmic bias. AI systems learn from historical data, which often reflects past discrimination. A hiring algorithm trained on data from a company that historically favored male candidates may inadvertently discriminate against women. Similarly, facial recognition systems have shown significantly higher error rates for people with darker skin, raising serious concerns about their use in law enforcement.\n\nTransparency presents another challenge. Many AI systems operate as 'black boxes,' making decisions through processes that even their creators cannot fully explain. When an algorithm denies someone a loan or parole, the affected person often has no way to understand or challenge the decision. This opacity conflicts with fundamental principles of accountability and due process.\n\nThe question of responsibility becomes particularly complex when AI causes harm. If an autonomous vehicle causes an accident, who bears responsibility – the manufacturer, the software developer, or the owner? Current legal frameworks struggle to address such scenarios adequately.\n\nPrivacy concerns intensify as AI enables unprecedented surveillance capabilities. Facial recognition can track individuals across cities. Predictive algorithms can infer sensitive personal information from seemingly innocuous data. The potential for authoritarian abuse is significant.\n\nAddressing these challenges requires multifaceted approaches. Technical solutions include developing methods to detect and mitigate bias in algorithms. Regulatory frameworks are emerging in various jurisdictions to mandate transparency and accountability. Ethical guidelines are being developed within the tech industry, though critics question their effectiveness without enforcement.\n\nUltimately, ensuring AI serves human flourishing rather than undermining it requires ongoing vigilance, diverse perspectives in development teams, and robust public debate about the values we want these powerful technologies to embody.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the main cause of algorithmic bias?", "options": ["Programming errors", "Learning from historical data with discrimination", "Hardware limitations"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does 'black box' refer to in AI?", "options": ["The computer hardware", "Unexplainable decision processes", "Security features"], "correct": 1},
+    {"type": "true_false", "question": "Facial recognition works equally well for all skin tones.", "correct": false},
+    {"type": "true_false", "question": "Current legal frameworks adequately address AI responsibility.", "correct": false},
+    {"type": "fill_gap", "question": "AI transparency conflicts with principles of accountability and due ___.", "answer": "process"}
+  ],
+  "vocabulary": ["algorithmic bias", "transparency", "accountability", "surveillance", "autonomous"],
+  "grammar_focus": ["passive_voice", "present_perfect"]
+}

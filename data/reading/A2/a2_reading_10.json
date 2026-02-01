@@ -1,0 +1,18 @@
+{
+  "id": "a2_reading_10",
+  "level": "A2",
+  "title": "Learning a New Language",
+  "title_ru": "Изучение нового языка",
+  "word_count": 155,
+  "topic": "education",
+  "text": "I started learning Spanish last year. At first, it was very difficult. The pronunciation was strange, and I couldn't remember the vocabulary. But now it's getting easier. I practice every day using an app on my phone. I also watch Spanish cartoons and listen to Spanish music. My favorite singer is from Mexico. I don't understand all the words, but I'm learning! At school, we have Spanish class twice a week. Our teacher, Mrs. Rodriguez, is from Colombia. She only speaks Spanish in class, which is hard but helpful. I can now introduce myself, order food, and ask for directions in Spanish. Last summer, we went to Spain on holiday. I was able to use my Spanish! I ordered ice cream and asked where the beach was. The waiter was impressed. I want to visit Latin America one day and speak Spanish fluently.",
+  "questions": [
+    {"type": "multiple_choice", "question": "Where is Mrs. Rodriguez from?", "options": ["Spain", "Colombia", "Mexico"], "correct": 1},
+    {"type": "multiple_choice", "question": "How often is Spanish class?", "options": ["Once a week", "Twice a week", "Every day"], "correct": 1},
+    {"type": "true_false", "question": "The writer found Spanish easy at first.", "correct": false},
+    {"type": "true_false", "question": "The writer used Spanish in Spain.", "correct": true},
+    {"type": "fill_gap", "question": "The writer practices using an ___ on the phone.", "answer": "app"}
+  ],
+  "vocabulary": ["language", "pronunciation", "vocabulary", "fluently", "impressed"],
+  "grammar_focus": ["past_simple", "present_continuous"]
+}

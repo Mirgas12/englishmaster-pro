@@ -1,0 +1,18 @@
+{
+  "id": "a1_reading_08",
+  "level": "A1",
+  "title": "My Favorite Food",
+  "title_ru": "Моя любимая еда",
+  "word_count": 91,
+  "topic": "food",
+  "text": "I love food! My favorite food is pizza. I like pizza with cheese and tomatoes. I eat pizza every Friday with my family. For breakfast, I usually eat cereal with milk. Sometimes I have toast with jam. I drink orange juice in the morning. For lunch at school, I have a sandwich and an apple. I don't like vegetables very much, but my mum says they are healthy. I also love ice cream. Chocolate ice cream is the best!",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the writer's favorite food?", "options": ["pasta", "pizza", "burger"], "correct": 1},
+    {"type": "multiple_choice", "question": "When does the writer eat pizza?", "options": ["Monday", "Friday", "Sunday"], "correct": 1},
+    {"type": "true_false", "question": "The writer loves vegetables.", "correct": false},
+    {"type": "true_false", "question": "The writer drinks orange juice in the morning.", "correct": true},
+    {"type": "fill_gap", "question": "For lunch, the writer has a sandwich and an ___.", "answer": "apple"}
+  ],
+  "vocabulary": ["food", "breakfast", "lunch", "healthy", "favorite"],
+  "grammar_focus": ["countable_uncountable", "frequency_adverbs"]
+}

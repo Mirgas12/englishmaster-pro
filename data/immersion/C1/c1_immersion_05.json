@@ -1,0 +1,19 @@
+{
+  "id": "c1_immersion_05",
+  "level": "C1",
+  "title": "The Ethics of Wealth Inequality",
+  "title_ru": "Этика имущественного неравенства",
+  "media_type": "audio",
+  "duration_seconds": 145,
+  "description": "Philosophical debate on economic justice",
+  "transcript": "Wealth inequality has reached extreme levels globally, with a handful of individuals owning more than the poorest half of humanity combined. This prompts fundamental ethical questions. Is such inequality inherently unjust, or does it matter only how wealth is acquired? Libertarian philosophers argue that inequality resulting from voluntary exchanges and legitimate transfers is not unjust, regardless of magnitude. If you invented something valuable and became extraordinarily wealthy through willing customers, what wrong has occurred? Attempting to redistribute would violate property rights. Egalitarians counter that extreme inequality harms society even when legitimately acquired. It distorts democracy as the wealthy gain disproportionate political influence. It undermines equal opportunity, as the children of the rich inherit advantages the poor cannot match. It may even reduce aggregate welfare, since additional wealth provides diminishing benefits to those already comfortable. John Rawls proposed that inequalities are only justified if they benefit the least advantaged members of society. By this standard, much contemporary inequality fails the test, as gains accrue predominantly to those already privileged. Utilitarians weigh whether redistribution would increase overall happiness, considering both the gains to recipients and the potential disincentive effects on wealth creation. The debate connects to deeper questions about desert, luck, and responsibility. How much of success is attributable to individual merit versus circumstances of birth? In a world of unequal starting points, what does fairness require?",
+  "questions": [
+    {"type": "multiple_choice", "question": "What do libertarians argue about legitimately acquired inequality?", "options": ["It should be redistributed", "It is not unjust", "It must be limited"], "correct": 1},
+    {"type": "multiple_choice", "question": "According to Rawls, when are inequalities justified?", "options": ["When they benefit the wealthy", "When they benefit the least advantaged", "Never"], "correct": 1},
+    {"type": "true_false", "question": "Egalitarians argue extreme inequality distorts democracy.", "correct": true},
+    {"type": "true_false", "question": "Libertarians support wealth redistribution.", "correct": false},
+    {"type": "fill_gap", "question": "Additional wealth provides ___ benefits to those already comfortable.", "answer": "diminishing"}
+  ],
+  "vocabulary": ["libertarian", "egalitarian", "redistribution", "aggregate", "disincentive"],
+  "key_phrases": ["inherently unjust", "disproportionate political influence", "fails the test", "circumstances of birth"]
+}

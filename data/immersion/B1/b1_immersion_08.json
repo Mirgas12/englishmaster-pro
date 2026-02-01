@@ -1,0 +1,19 @@
+{
+  "id": "b1_immersion_08",
+  "level": "B1",
+  "title": "Online Learning",
+  "title_ru": "Онлайн обучение",
+  "media_type": "video",
+  "duration_seconds": 80,
+  "description": "Expert discusses online education",
+  "transcript": "Online learning has revolutionized education. Today, you can learn almost anything from anywhere in the world. Want to study at a top university? Many offer free courses online. Want to learn a new skill? Countless tutorials are available. The flexibility is unmatched – you can study at your own pace, at any time. But online learning requires self-discipline. Without a classroom and fixed schedule, it's easy to procrastinate. Successful online learners set specific study times and stick to them. They create a dedicated study space free from distractions. Interaction is important too. Join online forums, participate in discussions, and connect with other learners. This combats isolation and deepens understanding. Choose courses carefully. Read reviews and check if certificates are recognized by employers. Many free courses offer excellent content but lack personalized feedback. If possible, combine online and in-person learning. The future of education is hybrid – taking the best from both worlds.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What has online learning revolutionized?", "options": ["Shopping", "Education", "Healthcare"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does online learning require?", "options": ["Expensive equipment", "Self-discipline", "Perfect internet"], "correct": 1},
+    {"type": "true_false", "question": "Online learning has fixed schedules like classrooms.", "correct": false},
+    {"type": "true_false", "question": "Joining online forums helps combat isolation.", "correct": true},
+    {"type": "fill_gap", "question": "The future of education is ___ – combining online and in-person.", "answer": "hybrid"}
+  ],
+  "vocabulary": ["revolutionized", "flexibility", "procrastinate", "isolation", "hybrid"],
+  "key_phrases": ["at your own pace", "requires self-discipline", "choose courses carefully", "the best from both worlds"]
+}

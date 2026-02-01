@@ -1,0 +1,291 @@
+{
+  "id": "b2_articles_advanced",
+  "level": "B2",
+  "title": "Advanced Article Usage",
+  "title_ru": "Продвинутое использование артиклей",
+  "estimatedMinutes": 35,
+  "prerequisites": ["a1_articles"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about culture and society. Notice the patterns with articles.",
+      "instruction_ru": "Прочитай о культуре и обществе. Обрати внимание на закономерности с артиклями.",
+      "content": {
+        "text": "<highlight>The rich</highlight> and <highlight>the poor</highlight> have different perspectives on <highlight>Ø life</highlight>. <highlight>The unemployed</highlight> face particular challenges in <highlight>Ø society</highlight>. <highlight>The invention</highlight> of <highlight>the Internet</highlight> changed <highlight>Ø history</highlight>. <highlight>The guitar</highlight> is my favorite instrument. She plays <highlight>Ø piano</highlight> beautifully. He went to <highlight>Ø prison</highlight> for <highlight>Ø fraud</highlight>. <highlight>The Thames</highlight> flows through <highlight>Ø London</highlight>. I had <highlight>Ø lunch</highlight> at <highlight>the Hilton</highlight>. <highlight>Ø Professor Smith</highlight> teaches at <highlight>the University of Oxford</highlight>.",
+        "question": "What patterns do you notice with the/a/Ø (zero article)?",
+        "question_ru": "Какие закономерности ты замечаешь с the/a/Ø (нулевой артикль)?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Advanced Article Patterns",
+        "title_ru": "Продвинутые паттерны артиклей",
+        "points": [
+          {
+            "rule": "the + adjective = group of people",
+            "rule_ru": "the + прилагательное = группа людей",
+            "example": "the rich, the poor, the elderly, the unemployed",
+            "marker": "the + adj = people"
+          },
+          {
+            "rule": "the + singular noun = generic use (the species/invention)",
+            "rule_ru": "the + ед. число = обобщение (вид/изобретение)",
+            "example": "The tiger is endangered. The computer has changed our lives.",
+            "marker": "the = generic"
+          },
+          {
+            "rule": "Ø + abstract nouns = general concepts",
+            "rule_ru": "Ø + абстрактные = общие понятия",
+            "example": "Life is short. Love is powerful. Society needs change.",
+            "marker": "Ø + abstract"
+          },
+          {
+            "rule": "Ø + institution (purpose) vs the (building)",
+            "rule_ru": "Ø + учреждение (цель) vs the (здание)",
+            "example": "go to school (study) vs go to the school (building). In hospital (patient) vs in the hospital (visitor)",
+            "marker": "purpose vs building"
+          },
+          {
+            "rule": "Geographical: the + rivers/oceans/ranges, Ø + lakes/mountains/cities/countries",
+            "rule_ru": "Географические: the + реки/океаны/горные цепи, Ø + озёра/горы/города/страны",
+            "example": "the Thames, the Alps, but Ø Lake Geneva, Ø Mount Fuji, Ø London",
+            "marker": "geography"
+          }
+        ],
+        "comparison_table": [
+          {"pattern": "the + adjective (people)", "example": "the young, the blind", "meaning": "young/blind people"},
+          {"pattern": "the + singular (generic)", "example": "the whale is endangered", "meaning": "whales in general"},
+          {"pattern": "Ø + abstract noun", "example": "Ø life, Ø love, Ø death", "meaning": "general concept"},
+          {"pattern": "Ø + institution (purpose)", "example": "go to Ø school/church/prison", "meaning": "for its purpose"},
+          {"pattern": "the + institution (building)", "example": "go to the school", "meaning": "the building"},
+          {"pattern": "the + rivers/oceans", "example": "the Amazon, the Pacific", "meaning": "specific water body"},
+          {"pattern": "Ø + lakes/mountains", "example": "Ø Lake Baikal, Ø Everest", "meaning": "specific peak/lake"}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify why the/a/Ø is used in each case.",
+      "instruction_ru": "Определи, почему используется the/a/Ø в каждом случае.",
+      "tasks": [
+        {
+          "text": "1. The homeless need more support from society.\n2. Life in the countryside is peaceful.\n3. The giraffe is the tallest animal.\n4. He was sent to prison for theft.\n5. I visited the prison where my uncle works.\n6. The Mississippi River is very long.\n7. Mount Kilimanjaro is in Tanzania.\n8. The piano is difficult to master.\n9. She plays piano at the hotel.\n10. The United States borders Canada.",
+          "find": [
+            {"sentence": 1, "word": "The homeless", "rule": "the + adj = group of people", "word2": "society", "rule2": "Ø + abstract"},
+            {"sentence": 2, "word": "Life", "rule": "Ø + abstract noun", "word2": "the countryside", "rule2": "the + specific place"},
+            {"sentence": 3, "word": "The giraffe", "rule": "the + singular = generic species"},
+            {"sentence": 4, "word": "prison", "rule": "Ø + institution for purpose (as prisoner)"},
+            {"sentence": 5, "word": "the prison", "rule": "the + building (as visitor)"},
+            {"sentence": 6, "word": "The Mississippi River", "rule": "the + rivers"},
+            {"sentence": 7, "word": "Mount Kilimanjaro", "rule": "Ø + mountains"},
+            {"sentence": 8, "word": "The piano", "rule": "the + singular = generic instrument"},
+            {"sentence": 9, "word": "piano", "rule": "Ø + play + instrument (activity)"},
+            {"sentence": 10, "word": "The United States", "rule": "the + countries with plural/united/republic"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we say 'go to school' but 'go to the school'?",
+      "reflection_question_ru": "Почему мы говорим 'go to school', но 'go to the school'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the, a/an, or Ø (nothing).",
+          "sentences": [
+            {"sentence": "___ elderly often feel lonely.", "answer": "The", "rule": "the + adj = people"},
+            {"sentence": "___ honesty is the best policy.", "answer": "Ø", "rule": "abstract noun"},
+            {"sentence": "___ whale is a mammal, not a fish.", "answer": "The", "rule": "generic species"},
+            {"sentence": "She's in ___ hospital having surgery.", "answer": "Ø", "rule": "institution (patient)"},
+            {"sentence": "I'm going to ___ hospital to visit her.", "answer": "the", "rule": "building (visitor)"},
+            {"sentence": "___ Nile is the longest river in Africa.", "answer": "The", "rule": "the + rivers"},
+            {"sentence": "___ Lake Victoria is also in Africa.", "answer": "Ø", "rule": "Ø + lakes"},
+            {"sentence": "She plays ___ violin in ___ orchestra.", "answer": "the, an", "rule": "play the + instrument"},
+            {"sentence": "___ Netherlands is below sea level.", "answer": "The", "rule": "the + plural countries"},
+            {"sentence": "___ Professor Brown gave ___ lecture.", "answer": "Ø, a", "rule": "title + name, one lecture"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct option.",
+          "questions": [
+            {
+              "sentence": "___ rich should help ___ poor.",
+              "options": ["The / the", "Ø / Ø", "A / a"],
+              "correct": 0,
+              "explanation": "the + adjective = group of people"
+            },
+            {
+              "sentence": "He went to ___ university to study medicine.",
+              "options": ["a", "the", "Ø"],
+              "correct": 2,
+              "explanation": "go to Ø university = to study (purpose)"
+            },
+            {
+              "sentence": "___ Amazon flows through Brazil.",
+              "options": ["Ø", "The", "An"],
+              "correct": 1,
+              "explanation": "the + rivers"
+            },
+            {
+              "sentence": "I believe in ___ love at first sight.",
+              "options": ["a", "the", "Ø"],
+              "correct": 2,
+              "explanation": "Ø + abstract noun (general concept)"
+            },
+            {
+              "sentence": "___ British drink a lot of tea.",
+              "options": ["Ø", "The", "A"],
+              "correct": 1,
+              "explanation": "the + nationality = the British people"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "The life is beautiful.",
+              "correct": "Life is beautiful.",
+              "explanation": "Ø + abstract noun for general concept"
+            },
+            {
+              "incorrect": "I play the piano for fun, not the guitar.",
+              "correct": "I play piano for fun, not guitar. OR I play the piano, not the guitar.",
+              "explanation": "Consistency - either all 'the' or all Ø for this context"
+            },
+            {
+              "incorrect": "She's in the prison for robbery.",
+              "correct": "She's in prison for robbery.",
+              "explanation": "Ø + institution when for its purpose (as prisoner)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about society, geography, or institutions using correct articles.",
+      "instruction_ru": "Напиши об обществе, географии или учреждениях, используя правильные артикли.",
+      "prompts": [
+        "Write about social issues (the rich/poor, the elderly, etc.)",
+        "Describe a country and its geography",
+        "Write about the importance of education, health, or other institutions",
+        "Discuss how technology has changed life"
+      ],
+      "example": "Modern society faces many challenges. The gap between the rich and the poor is growing. The elderly often feel isolated in our fast-paced world. The invention of the internet has transformed life completely. Young people spend hours online, while the older generation struggles to adapt. In countries like the United States and the United Kingdom, access to healthcare is a major issue. The Amazon rainforest is being destroyed, threatening life on Earth. We must protect nature before it's too late. Education is key - when children go to school, they learn not just facts but also values. Life in the city differs from life in the countryside, but both have their challenges.",
+      "ai_check": true,
+      "criteria": [
+        "Uses 'the + adjective' for groups of people",
+        "Uses Ø with abstract nouns correctly",
+        "Uses 'the' with rivers/oceans, Ø with lakes/mountains",
+        "Distinguishes institution (purpose) vs building uses",
+        "At least 10 different article decisions"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with advanced article usage.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Social Commentary",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 15,
+          "content": "The wealthy live very different lives from the poor. Society often ignores the homeless on our streets. The elderly deserve more respect than they receive. Life in modern cities can be lonely. The invention of the smartphone changed communication forever. The young spend hours on social media, while the old prefer face-to-face conversation. Education is the key to reducing inequality. When people go to university, they gain more than knowledge - they gain confidence."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Geography Lesson",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 15,
+          "content": "The Amazon is the largest river by volume. It flows through Brazil, Peru, and several other countries. The Andes stretch along South America's western coast. Mount Aconcagua is the highest peak in the Americas. Lake Titicaca sits high in the Andes. The Pacific Ocean borders these countries to the west. The United States lies to the north of Mexico. The Caribbean Sea contains many beautiful islands. Nature in South America is incredibly diverse."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Healthcare Debate",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 15,
+          "content": "Healthcare is a basic human right. In the UK, people go to hospital without worrying about cost. The National Health Service treats the sick regardless of wealth. In the US, the uninsured often avoid seeing doctors. Going to the hospital can mean financial ruin. The government should ensure everyone has access to medicine. The elderly especially need affordable care. When someone is in hospital, they should focus on recovery, not bills."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Music History",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 15,
+          "content": "The piano became popular in the 18th century. Beethoven and Mozart played the piano masterfully. The violin is perhaps the most expressive instrument. The guitar has dominated popular music since the 1950s. Learning to play piano requires years of practice. Music brings joy to life. The invention of the radio brought music to the masses. The Beatles changed the history of pop music. Today, the young often prefer electronic sounds."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Education Systems",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 15,
+          "content": "Education shapes society. Children go to school from age five in most countries. The teachers play a crucial role in development. Going to university opens many doors. The University of Oxford is one of the oldest in the world. Professor Einstein taught at the University of Berlin. In prison, education helps rehabilitation. Life after school can be challenging for the young. The educated often earn more than the uneducated. Knowledge is power."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "___ poor need more support.",
+          "back": "The\n\nthe + adjective = group"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ life is beautiful.",
+          "back": "Ø\n\nØ + abstract noun"
+        },
+        {
+          "type": "fill_gap",
+          "front": "He's in ___ prison. (as prisoner)",
+          "back": "Ø\n\nØ + institution for purpose"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ Thames flows through London.",
+          "back": "The\n\nthe + rivers"
+        },
+        {
+          "type": "fill_gap",
+          "front": "___ Mount Everest is the highest peak.",
+          "back": "Ø\n\nØ + individual mountains"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 15,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 12,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'the' with abstract nouns",
+      "Confusing institution (purpose) vs building",
+      "Wrong article with geographical names",
+      "Forgetting 'the' with nationality groups"
+    ],
+    "related_topics": ["a1_articles"],
+    "ielts_relevance": "Very high - affects all parts",
+    "frequency_in_english": "Very high"
+  }
+}

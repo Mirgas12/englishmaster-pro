@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_04",
+  "level": "A1",
+  "title": "My Room",
+  "title_ru": "Моя комната",
+  "media_type": "video",
+  "duration_seconds": 45,
+  "description": "A person describes their bedroom",
+  "transcript": "This is my room. It is not big, but I like it. There is a bed near the window. The bed is blue. There is a desk next to the bed. I do my homework here. There is a chair at the desk. On the wall, there are pictures. I have a lamp on my desk. There is a wardrobe for my clothes. My room is clean and comfortable.",
+  "questions": [
+    {"type": "multiple_choice", "question": "Where is the bed?", "options": ["Near the door", "Near the window", "In the corner"], "correct": 1},
+    {"type": "multiple_choice", "question": "What color is the bed?", "options": ["Red", "Green", "Blue"], "correct": 2},
+    {"type": "true_false", "question": "The room is very big.", "correct": false},
+    {"type": "true_false", "question": "There are pictures on the wall.", "correct": true},
+    {"type": "fill_gap", "question": "There is a ___ for clothes.", "answer": "wardrobe"}
+  ],
+  "vocabulary": ["room", "bed", "desk", "chair", "wardrobe"],
+  "key_phrases": ["There is", "next to", "on the wall", "near the"]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "a2_prepositions_time",
+  "level": "A2",
+  "title": "Prepositions of Time",
+  "title_ru": "Предлоги времени",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_prepositions_place", "a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about someone's schedule. Notice the highlighted prepositions.",
+      "instruction_ru": "Прочитай о чьём-то расписании. Обрати внимание на выделенные предлоги.",
+      "content": {
+        "text": "I'm very busy! <highlight>On</highlight> Monday, I have a meeting <highlight>at</highlight> 9 AM. <highlight>In</highlight> the afternoon, I have training. <highlight>On</highlight> Tuesday and Wednesday, I work from home. <highlight>At</highlight> night, I study English. <highlight>In</highlight> the evening, I usually relax. My birthday is <highlight>in</highlight> March - <highlight>on</highlight> the 15th. I was born <highlight>in</highlight> 1995. I'll see you <highlight>on</highlight> Friday <highlight>at</highlight> noon!",
+        "question": "When do we use 'in', 'on', and 'at' for time?",
+        "question_ru": "Когда мы используем 'in', 'on' и 'at' для времени?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "In, On, At for Time",
+        "title_ru": "In, On, At для времени",
+        "points": [
+          {
+            "rule": "AT - specific times, moments",
+            "rule_ru": "AT - конкретное время, моменты",
+            "example": "at 9 AM, at noon, at midnight, at night, at the weekend (UK)",
+            "marker": "exact time"
+          },
+          {
+            "rule": "ON - days, dates",
+            "rule_ru": "ON - дни, даты",
+            "example": "on Monday, on Friday, on 15th March, on Christmas Day, on my birthday",
+            "marker": "days/dates"
+          },
+          {
+            "rule": "IN - longer periods (months, years, seasons, parts of day)",
+            "rule_ru": "IN - длинные периоды (месяцы, годы, времена года, части дня)",
+            "example": "in March, in 2020, in summer, in the morning, in the evening",
+            "marker": "longer periods"
+          },
+          {
+            "rule": "Exception: at night (NOT in the night)",
+            "rule_ru": "Исключение: at night (НЕ in the night)",
+            "example": "I work at night. (BUT: in the morning/afternoon/evening)",
+            "marker": "at night"
+          },
+          {
+            "rule": "No preposition: this, last, next, every",
+            "rule_ru": "Без предлога: this, last, next, every",
+            "example": "this Monday, last week, next year, every day",
+            "marker": "no prep"
+          }
+        ],
+        "comparison_table": [
+          {"preposition": "AT", "use": "time, moments", "examples": "at 5 PM, at noon, at night"},
+          {"preposition": "ON", "use": "days, dates", "examples": "on Monday, on March 5th"},
+          {"preposition": "IN", "use": "months, years, parts of day", "examples": "in June, in 2020, in the morning"},
+          {"preposition": "- (none)", "use": "this/last/next/every", "examples": "this week, last year, next Monday"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all time prepositions. Identify what type of time expression follows.",
+      "instruction_ru": "Найди все предлоги времени. Определи, какое выражение времени следует за ним.",
+      "tasks": [
+        {
+          "text": "My daily routine: I wake up at 7 AM. In the morning, I have breakfast and read news. I go to work on weekdays. On Saturday, I sleep late. I was born in 1990, on December 25th. In winter, I like to stay home at night. I exercise in the evening, usually at 6 PM. I'm going on vacation next month. This Friday, I'm meeting friends.",
+          "find": [
+            {"preposition": "at", "expression": "7 AM", "type": "specific time"},
+            {"preposition": "In", "expression": "the morning", "type": "part of day"},
+            {"preposition": "on", "expression": "weekdays", "type": "days"},
+            {"preposition": "On", "expression": "Saturday", "type": "day"},
+            {"preposition": "in", "expression": "1990", "type": "year"},
+            {"preposition": "on", "expression": "December 25th", "type": "date"},
+            {"preposition": "In", "expression": "winter", "type": "season"},
+            {"preposition": "at", "expression": "night", "type": "moment (exception)"},
+            {"preposition": "in", "expression": "the evening", "type": "part of day"},
+            {"preposition": "at", "expression": "6 PM", "type": "specific time"},
+            {"preposition": "- (next)", "expression": "next month", "type": "no preposition"},
+            {"preposition": "- (this)", "expression": "This Friday", "type": "no preposition"}
+          ]
+        }
+      ],
+      "reflection_question": "Why 'in the morning' but 'at night'?",
+      "reflection_question_ru": "Почему 'in the morning', но 'at night'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with in, on, at, or - (no preposition).",
+          "sentences": [
+            {"sentence": "I wake up ___ 7 AM.", "answer": "at"},
+            {"sentence": "The meeting is ___ Monday.", "answer": "on"},
+            {"sentence": "I was born ___ 1995.", "answer": "in"},
+            {"sentence": "She works ___ night.", "answer": "at"},
+            {"sentence": "The party is ___ Saturday evening.", "answer": "on"},
+            {"sentence": "I'll see you ___ next week.", "answer": "-"},
+            {"sentence": "We met ___ the summer.", "answer": "in"},
+            {"sentence": "My birthday is ___ March 15th.", "answer": "on"},
+            {"sentence": "I study ___ the morning.", "answer": "in"},
+            {"sentence": "He arrives ___ noon.", "answer": "at"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct preposition.",
+          "questions": [
+            {
+              "sentence": "I'll call you ___ Friday.",
+              "options": ["in", "on", "at"],
+              "correct": 1,
+              "explanation": "Day of week = on"
+            },
+            {
+              "sentence": "The movie starts ___ 8 PM.",
+              "options": ["in", "on", "at"],
+              "correct": 2,
+              "explanation": "Specific time = at"
+            },
+            {
+              "sentence": "She was born ___ December.",
+              "options": ["in", "on", "at"],
+              "correct": 0,
+              "explanation": "Month = in"
+            },
+            {
+              "sentence": "I don't work ___ night.",
+              "options": ["in", "on", "at"],
+              "correct": 2,
+              "explanation": "Night = at (exception)"
+            },
+            {
+              "sentence": "We're going on holiday ___ next summer.",
+              "options": ["in", "on", "- (nothing)"],
+              "correct": 2,
+              "explanation": "'Next' = no preposition"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I'll see you at Monday.",
+              "correct": "I'll see you on Monday.",
+              "explanation": "Day of week = on (not at)"
+            },
+            {
+              "incorrect": "She was born in March 5th.",
+              "correct": "She was born on March 5th.",
+              "explanation": "Specific date = on (not in)"
+            },
+            {
+              "incorrect": "I work in the night.",
+              "correct": "I work at night.",
+              "explanation": "Night = at (exception)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your daily/weekly schedule.",
+      "instruction_ru": "Напиши о своём дневном/недельном расписании.",
+      "prompts": [
+        "When do you wake up?",
+        "What do you do in the morning/afternoon/evening?",
+        "What do you do on different days?",
+        "When is your birthday?"
+      ],
+      "example": "I wake up at 7 AM on weekdays. In the morning, I have breakfast and go to work. On Monday and Wednesday, I go to the gym. I was born in January, on the 20th. In the evening, I usually watch TV. At night, I read before sleeping. Last summer, I went to Italy.",
+      "ai_check": true,
+      "criteria": [
+        "Uses at for specific times",
+        "Uses on for days/dates",
+        "Uses in for months/parts of day",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with time prepositions.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "My Week",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "On Monday, I start work at 9 AM. In the morning, I have meetings. On Tuesday, I work from home. At noon, I have lunch. In the afternoon, I write reports. On Friday at 5 PM, I finish early. At the weekend, I relax. In the evening, I watch movies."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Life Story",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 11,
+          "content": "I was born in 1995, on June 12th. In my childhood, I lived in Moscow. In 2010, I started high school. I graduated in 2013. In the summer of 2014, I started university. I got my first job in 2018. In January, I got married. At night, I sometimes think about my journey."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Party Invitation",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "You're invited to my party! It's on Saturday, March 20th. The party starts at 7 PM. In the evening, we'll have dinner. At midnight, we'll watch fireworks! The party is on the last Saturday of the month. I hope to see you on that day!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Work Schedule",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "I work at a restaurant. On weekdays, I work in the evening. I start at 5 PM and finish at midnight. On Saturdays, I work at noon. In the morning, I usually sleep. At night, I'm always tired! On Sundays, I don't work."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Seasons",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 10,
+          "content": "I love all seasons! In spring, flowers bloom. On sunny days, I go to the park. In summer, I swim at the beach. In autumn, leaves fall. On rainy days, I stay home. In winter, I go skiing. At Christmas, I visit my family."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "choose",
+          "front": "The meeting is ___ 3 PM.\n(in / on / at)",
+          "back": "at\n\nSpecific time = at"
+        },
+        {
+          "type": "choose",
+          "front": "I'll see you ___ Monday.\n(in / on / at)",
+          "back": "on\n\nDay of week = on"
+        },
+        {
+          "type": "choose",
+          "front": "She was born ___ 1990.\n(in / on / at)",
+          "back": "in\n\nYear = in"
+        },
+        {
+          "type": "choose",
+          "front": "I work ___ night.\n(in / on / at)",
+          "back": "at\n\nNight = at (exception!)"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I'll call you at next week.\"",
+          "back": "I'll call you next week.\n\n'Next' = no preposition"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 6,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Confusing on/at/in (at Monday, in 5 PM)",
+      "Using preposition with this/next/last",
+      "Using 'in the night' instead of 'at night'",
+      "Using wrong preposition for dates"
+    ],
+    "related_topics": ["a1_prepositions_place", "a1_present_simple"],
+    "ielts_relevance": "High - used in Speaking for schedules",
+    "frequency_in_english": "Very high"
+  }
+}

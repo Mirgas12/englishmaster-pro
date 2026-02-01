@@ -1,0 +1,266 @@
+{
+  "id": "b2_wish_past",
+  "level": "B2",
+  "title": "Wish + Past Perfect (Past Regrets)",
+  "title_ru": "Wish + Past Perfect (Сожаления о прошлом)",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_wish_present", "b2_third_conditional"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about past regrets. Notice the verb forms after 'wish'.",
+      "instruction_ru": "Прочитай о сожалениях о прошлом. Обрати внимание на формы глаголов после 'wish'.",
+      "content": {
+        "text": "I have so many regrets about the past. I <highlight>wish I had studied</highlight> harder at school. I <highlight>wish I hadn't wasted</highlight> so much time. My friend <highlight>wishes she had traveled</highlight> more when she was young. She <highlight>wishes she hadn't taken</highlight> that boring job. We all <highlight>wish we had known</highlight> then what we know now. My parents <highlight>wish they had saved</highlight> more money. <highlight>If only I had listened</highlight> to their advice!",
+        "question": "What time do these wishes refer to? Can we change these situations?",
+        "question_ru": "К какому времени относятся эти желания? Можем ли мы изменить эти ситуации?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Wish + Past Perfect for Past Regrets",
+        "title_ru": "Wish + Past Perfect для сожалений о прошлом",
+        "points": [
+          {
+            "rule": "wish + past perfect = regret about the PAST",
+            "rule_ru": "wish + past perfect = сожаление о ПРОШЛОМ",
+            "example": "I wish I had studied harder. (I didn't study hard)",
+            "marker": "past regret"
+          },
+          {
+            "rule": "Form: wish + had + past participle",
+            "rule_ru": "Форма: wish + had + причастие прош. времени",
+            "example": "I wish I had known. She wishes she hadn't gone.",
+            "marker": "had + V3"
+          },
+          {
+            "rule": "Same form as third conditional if-clause",
+            "rule_ru": "Та же форма, что и в if-части третьего условного",
+            "example": "If only I had studied = I wish I had studied",
+            "marker": "like 3rd conditional"
+          },
+          {
+            "rule": "If only = stronger wish (often with exclamation)",
+            "rule_ru": "If only = более сильное желание (часто с восклицанием)",
+            "example": "If only I had known! = I really wish I had known!",
+            "marker": "if only = stronger"
+          },
+          {
+            "rule": "Compare with wish + past simple (present regret)",
+            "rule_ru": "Сравни с wish + past simple (сожаление о настоящем)",
+            "example": "I wish I knew (now) vs I wish I had known (then)",
+            "marker": "now vs then"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Present wish", "form": "wish + past simple", "meaning": "Want NOW to be different", "example": "I wish I knew the answer."},
+          {"type": "Past wish", "form": "wish + past perfect", "meaning": "Want PAST to be different", "example": "I wish I had known the answer."},
+          {"type": "Present wish (be)", "form": "wish + were/was", "meaning": "Want to be different now", "example": "I wish I were taller."},
+          {"type": "Past wish", "form": "wish + had been", "meaning": "Wish about past state", "example": "I wish I had been there."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify whether each wish is about the present or past. What was the reality?",
+      "instruction_ru": "Определи, относится ли каждое желание к настоящему или прошлому. Какова была реальность?",
+      "tasks": [
+        {
+          "text": "Reflections on life:\n\n1. I wish I spoke French. (I don't speak it now)\n2. I wish I had learned French at school. (I didn't learn it)\n3. She wishes she were more confident. (She isn't confident now)\n4. She wishes she had been more confident in the interview. (She wasn't confident then)\n5. If only I had more time! (I don't have time now)\n6. If only I had taken that opportunity! (I didn't take it)\n7. We wish we lived closer. (We don't live close now)\n8. We wish we had visited more often. (We didn't visit often)",
+          "find": [
+            {"sentence": 1, "time": "Present", "form": "past simple", "reality": "Doesn't speak French now"},
+            {"sentence": 2, "time": "Past", "form": "past perfect", "reality": "Didn't learn at school"},
+            {"sentence": 3, "time": "Present", "form": "were", "reality": "Isn't confident now"},
+            {"sentence": 4, "time": "Past", "form": "past perfect", "reality": "Wasn't confident then"},
+            {"sentence": 5, "time": "Present", "form": "past simple", "reality": "Doesn't have time now"},
+            {"sentence": 6, "time": "Past", "form": "past perfect", "reality": "Didn't take opportunity"},
+            {"sentence": 7, "time": "Present", "form": "past simple", "reality": "Don't live close now"},
+            {"sentence": 8, "time": "Past", "form": "past perfect", "reality": "Didn't visit often"}
+          ]
+        }
+      ],
+      "reflection_question": "How is 'wish + past perfect' similar to the third conditional?",
+      "reflection_question_ru": "Чем 'wish + past perfect' похоже на третий тип условных?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Write regrets about the past using 'wish' or 'if only'.",
+          "sentences": [
+            {"fact": "I didn't save any money.", "wish": "I wish I had saved money. / If only I had saved money!"},
+            {"fact": "She didn't take the job.", "wish": "She wishes she had taken the job."},
+            {"fact": "We spent too much.", "wish": "We wish we hadn't spent so much."},
+            {"fact": "He wasn't honest with me.", "wish": "I wish he had been honest with me."},
+            {"fact": "I didn't listen to my parents.", "wish": "I wish I had listened to my parents."},
+            {"fact": "They sold their house too early.", "wish": "They wish they hadn't sold their house so early."}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct form based on the time reference.",
+          "questions": [
+            {
+              "sentence": "I don't know how to cook. I wish I ___ when I was young.",
+              "options": ["learned", "had learned", "have learned"],
+              "correct": 1,
+              "explanation": "Past regret = wish + had + V3"
+            },
+            {
+              "sentence": "She's not very fit. She wishes she ___ more.",
+              "options": ["exercises", "exercised", "had exercised"],
+              "correct": 1,
+              "explanation": "Present wish = wish + past simple"
+            },
+            {
+              "sentence": "I missed the concert. If only I ___ about it earlier!",
+              "options": ["knew", "had known", "know"],
+              "correct": 1,
+              "explanation": "Past regret = if only + had + V3"
+            },
+            {
+              "sentence": "He lost his job. He wishes he ___ so lazy at work.",
+              "options": ["isn't", "weren't", "hadn't been"],
+              "correct": 2,
+              "explanation": "Past regret about behavior = hadn't been"
+            }
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with the correct wish structure (present or past).",
+          "sentences": [
+            {"sentence": "I failed the test. I wish I ___ (study) more.", "answer": "had studied", "time": "past"},
+            {"sentence": "It's raining. I wish it ___ (not/rain).", "answer": "weren't raining / wasn't raining", "time": "present"},
+            {"sentence": "I ate too much. If only I ___ (not/eat) so much!", "answer": "hadn't eaten", "time": "past"},
+            {"sentence": "I can't swim. I wish I ___ (can) swim.", "answer": "could", "time": "present"},
+            {"sentence": "We didn't buy that house. We wish we ___ (buy) it.", "answer": "had bought", "time": "past"},
+            {"sentence": "I don't speak Japanese. I wish I ___ (speak) it.", "answer": "spoke", "time": "present"}
+          ]
+        }
+      ],
+      "total_exercises": 16,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your regrets from the past using wish + past perfect.",
+      "instruction_ru": "Напиши о своих сожалениях о прошлом, используя wish + past perfect.",
+      "prompts": [
+        "What do you wish you had done differently in school?",
+        "What opportunities do you wish you hadn't missed?",
+        "What do you wish you had known earlier in life?",
+        "Write about a decision you regret"
+      ],
+      "example": "Looking back at my life, I have some regrets. I wish I had studied abroad when I had the chance. I was too scared, but now I wish I had been braver. If only I had taken that risk! I also wish I had spent more time with my grandparents before they passed away. I wish I hadn't been so focused on work. I wish I had told them how much they meant to me. On the positive side, I'm glad I made some good choices. But sometimes, late at night, I think about what might have been...",
+      "ai_check": true,
+      "criteria": [
+        "Uses wish + had + V3 for past regrets",
+        "Uses 'if only' for emphasis",
+        "Talks about unchangeable past situations",
+        "At least 6 past regret sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with wish + past perfect.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Career Regrets",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "I often think about my career. I wish I had followed my passion for art. I wish I hadn't listened to people who said art wasn't practical. If only I had been more confident! I wish I had taken more risks when I was young. My colleague wishes she had asked for a promotion earlier. She wishes she hadn't waited so long. We all have regrets, but I wish I had understood that it's never too late."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Relationship Reflections",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "After the breakup, he had many regrets. He wishes he had paid more attention. If only he had listened to her! He wishes he hadn't worked so much. She wishes he had been more romantic. They both wish they had communicated better. He wishes they hadn't argued about small things. If only they had seen a counselor! Now they wish they had tried harder, but it's too late."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Financial Mistakes",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "My financial advisor asked about my regrets. I wish I had started saving earlier. If only I had invested when I was young! I wish I hadn't bought that expensive car. I wish I had listened to financial advice. My parents wish they had taught me about money. If only we had known about compound interest! I wish I had been more careful with credit cards. These are lessons I wish I had learned sooner."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Travel Missed",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "I wish I had traveled more in my twenties. If only I had taken that gap year! I wish I hadn't been so worried about my career. My friend traveled the world - I wish I had joined her. I wish I had visited my grandmother in Italy before she passed. If only I had known I would be so busy later in life! I wish I hadn't postponed everything. Now I'm making up for lost time."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Educational Opportunities",
+          "level": "B2",
+          "word_count": 85,
+          "target_structures": 10,
+          "content": "Education is full of 'what ifs.' I wish I had paid more attention in class. If only I had asked more questions! I wish I hadn't dropped that language course. My teacher wishes she had encouraged me more. I wish I had studied harder for those exams. If only I had realized how important grades were! I wish I had taken more challenging courses. But these regrets motivated me to be a lifelong learner."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "I didn't study hard.\nExpress as past wish:",
+          "back": "I wish I had studied hard.\n\nwish + had + V3"
+        },
+        {
+          "type": "choose",
+          "front": "Present or past wish?\n\"I wish I knew the answer.\"",
+          "back": "Present wish\n\nwish + past simple = now"
+        },
+        {
+          "type": "choose",
+          "front": "Present or past wish?\n\"I wish I had known the answer.\"",
+          "back": "Past wish\n\nwish + past perfect = then"
+        },
+        {
+          "type": "transformation",
+          "front": "I didn't listen to my parents.\nExpress with 'if only':",
+          "back": "If only I had listened to my parents!\n\nStronger past regret"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She missed the flight. She wishes she ___ (leave) earlier.",
+          "back": "had left\n\nPast regret = had + V3"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["transformation", "choose_correct", "fill_gap"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using past simple for past regrets",
+      "Confusing present and past wishes",
+      "Forgetting 'had' in past perfect",
+      "Using 'would have' instead of 'had'"
+    ],
+    "related_topics": ["b1_wish_present", "b2_third_conditional"],
+    "ielts_relevance": "High - Speaking Part 2-3",
+    "frequency_in_english": "High"
+  }
+}

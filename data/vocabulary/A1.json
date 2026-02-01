@@ -1,0 +1,85 @@
+{
+  "level": "A1",
+  "words": [
+    {
+      "word": "hello",
+      "transcription": "/həˈloʊ/",
+      "translation": "привет",
+      "definition": "a greeting used when meeting someone",
+      "examples": ["Hello, how are you?", "Hello, nice to meet you."],
+      "frequency": 100
+    },
+    {
+      "word": "name",
+      "transcription": "/neɪm/",
+      "translation": "имя",
+      "definition": "a word by which a person is known",
+      "examples": ["My name is John.", "What is your name?"],
+      "frequency": 150
+    },
+    {
+      "word": "water",
+      "transcription": "/ˈwɔːtər/",
+      "translation": "вода",
+      "definition": "a clear liquid that falls as rain",
+      "examples": ["I drink water every day.", "The water is cold."],
+      "frequency": 200
+    },
+    {
+      "word": "food",
+      "transcription": "/fuːd/",
+      "translation": "еда",
+      "definition": "things that people eat",
+      "examples": ["I like Italian food.", "The food is delicious."],
+      "frequency": 250
+    },
+    {
+      "word": "house",
+      "transcription": "/haʊs/",
+      "translation": "дом",
+      "definition": "a building where people live",
+      "examples": ["This is my house.", "The house is big."],
+      "frequency": 300
+    },
+    {
+      "word": "family",
+      "transcription": "/ˈfæmɪli/",
+      "translation": "семья",
+      "definition": "a group of people related to each other",
+      "examples": ["I love my family.", "My family is small."],
+      "frequency": 350
+    },
+    {
+      "word": "friend",
+      "transcription": "/frend/",
+      "translation": "друг",
+      "definition": "a person you like and enjoy being with",
+      "examples": ["She is my best friend.", "I have many friends."],
+      "frequency": 400
+    },
+    {
+      "word": "work",
+      "transcription": "/wɜːrk/",
+      "translation": "работа",
+      "definition": "activity involving effort to achieve a purpose",
+      "examples": ["I go to work at 9.", "Work is important."],
+      "frequency": 450
+    },
+    {
+      "word": "time",
+      "transcription": "/taɪm/",
+      "translation": "время",
+      "definition": "the indefinite continued progress of existence",
+      "examples": ["What time is it?", "Time flies fast."],
+      "frequency": 500
+    },
+    {
+      "word": "day",
+      "transcription": "/deɪ/",
+      "translation": "день",
+      "definition": "a period of 24 hours",
+      "examples": ["Today is a good day.", "I work every day."],
+      "frequency": 550
+    }
+  ]
+}

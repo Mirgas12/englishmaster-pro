@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_18",
+  "level": "B1",
+  "title": "Ocean Pollution",
+  "title_ru": "Загрязнение океана",
+  "word_count": 230,
+  "topic": "environment",
+  "text": "The world's oceans face an unprecedented pollution crisis. Every year, millions of tons of plastic enter marine environments, endangering wildlife and ecosystems. Images of sea turtles tangled in plastic bags and beaches covered in debris have shocked people worldwide.\n\nPlastic is particularly problematic because it doesn't biodegrade. Instead, it breaks down into smaller pieces called microplastics. These tiny particles have been found everywhere – from Arctic ice to the deepest ocean trenches. Marine animals mistake them for food, introducing plastics into the food chain.\n\nOil spills represent another major threat. While less frequent than plastic pollution, they can cause catastrophic damage to marine life and coastal communities. It can take decades for affected areas to fully recover.\n\nChemical pollution is less visible but equally concerning. Agricultural runoff carries fertilizers and pesticides into the sea. Industrial waste introduces heavy metals and other toxins. These pollutants can accumulate in fish, eventually reaching humans who eat seafood.\n\nAddressing ocean pollution requires action at multiple levels. Governments are banning single-use plastics and improving waste management. Companies are developing alternatives to plastic packaging. Cleanup organizations work to remove debris from beaches and waterways.\n\nIndividual actions matter too. Reducing plastic use, properly disposing of waste, and supporting sustainable seafood choices can all help. The ocean's health is ultimately connected to our own, making this an issue that affects everyone.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What are microplastics?", "options": ["Large plastic items", "Small plastic particles", "Organic materials"], "correct": 1},
+    {"type": "multiple_choice", "question": "Where have microplastics been found?", "options": ["Only in cities", "Only near beaches", "Everywhere, including Arctic ice"], "correct": 2},
+    {"type": "true_false", "question": "Plastic biodegrades quickly in the ocean.", "correct": false},
+    {"type": "true_false", "question": "Chemical pollution can reach humans through seafood.", "correct": true},
+    {"type": "fill_gap", "question": "Oil spills can take ___ for affected areas to recover.", "answer": "decades"}
+  ],
+  "vocabulary": ["pollution", "microplastics", "biodegrade", "debris", "toxins"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

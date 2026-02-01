@@ -1,0 +1,292 @@
+{
+  "id": "a1_plurals",
+  "level": "A1",
+  "title": "Plural Nouns",
+  "title_ru": "Множественное число существительных",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_to_be"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about my classroom. Notice the highlighted plural words.",
+      "instruction_ru": "Прочитай о моём классе. Обрати внимание на выделенные слова во множественном числе.",
+      "content": {
+        "text": "In my classroom, there are twenty <highlight>students</highlight>. We have many <highlight>desks</highlight> and <highlight>chairs</highlight>. On the wall, there are two <highlight>clocks</highlight> and three <highlight>maps</highlight>. The teacher has many <highlight>books</highlight>. Some <highlight>children</highlight> bring their <highlight>lunches</highlight> to school. We also have two <highlight>boxes</highlight> of <highlight>pencils</highlight>. The <highlight>women</highlight> teachers are very kind. There are some <highlight>mice</highlight> in the old classroom!",
+        "question": "How do we make plural nouns? What patterns do you see?",
+        "question_ru": "Как мы образуем множественное число? Какие закономерности ты видишь?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "How to make Plural Nouns",
+        "title_ru": "Как образовать множественное число",
+        "points": [
+          {
+            "rule": "Most nouns: add -s",
+            "rule_ru": "Большинство: добавляем -s",
+            "example": "book → books, car → cars, dog → dogs",
+            "marker": "+s"
+          },
+          {
+            "rule": "Nouns ending in s, ss, sh, ch, x, o: add -es",
+            "rule_ru": "После s, ss, sh, ch, x, o: добавляем -es",
+            "example": "bus → buses, box → boxes, watch → watches, tomato → tomatoes",
+            "marker": "+es"
+          },
+          {
+            "rule": "Nouns ending in consonant + y: change y to ies",
+            "rule_ru": "Согласная + y: меняем y на ies",
+            "example": "city → cities, baby → babies, country → countries",
+            "marker": "y → ies"
+          },
+          {
+            "rule": "Nouns ending in vowel + y: add -s",
+            "rule_ru": "Гласная + y: добавляем -s",
+            "example": "day → days, boy → boys, key → keys",
+            "marker": "vowel + y → +s"
+          },
+          {
+            "rule": "Irregular plurals - memorize!",
+            "rule_ru": "Неправильные - запомни!",
+            "example": "man → men, woman → women, child → children, foot → feet, tooth → teeth, mouse → mice, person → people",
+            "marker": "irregular"
+          }
+        ],
+        "comparison_table": [
+          {"singular": "book", "plural": "books", "rule": "+s"},
+          {"singular": "box", "plural": "boxes", "rule": "+es (after x)"},
+          {"singular": "city", "plural": "cities", "rule": "y → ies"},
+          {"singular": "day", "plural": "days", "rule": "vowel + y → +s"},
+          {"singular": "child", "plural": "children", "rule": "irregular"}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all plural nouns and identify the rule used.",
+      "instruction_ru": "Найди все существительные во множественном числе и определи правило.",
+      "tasks": [
+        {
+          "text": "I have two cats and three dogs. My cats love boxes. They play with toys all day. I live with my parents in a house. We have five rooms. My brothers have many hobbies. They play video games. On weekends, we visit our friends. We eat sandwiches and watch movies.",
+          "find": [
+            {"singular": "cat", "plural": "cats", "rule": "+s"},
+            {"singular": "dog", "plural": "dogs", "rule": "+s"},
+            {"singular": "box", "plural": "boxes", "rule": "+es (after x)"},
+            {"singular": "toy", "plural": "toys", "rule": "vowel + y → +s"},
+            {"singular": "parent", "plural": "parents", "rule": "+s"},
+            {"singular": "room", "plural": "rooms", "rule": "+s"},
+            {"singular": "brother", "plural": "brothers", "rule": "+s"},
+            {"singular": "hobby", "plural": "hobbies", "rule": "y → ies"},
+            {"singular": "game", "plural": "games", "rule": "+s"},
+            {"singular": "weekend", "plural": "weekends", "rule": "+s"},
+            {"singular": "friend", "plural": "friends", "rule": "+s"},
+            {"singular": "sandwich", "plural": "sandwiches", "rule": "+es (after ch)"},
+            {"singular": "movie", "plural": "movies", "rule": "+s"}
+          ]
+        }
+      ],
+      "reflection_question": "Why is it 'hobbies' but 'boys'?",
+      "reflection_question_ru": "Почему 'hobbies', но 'boys'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Write the plural form.",
+          "sentences": [
+            {"sentence": "One book, two ___", "answer": "books"},
+            {"sentence": "One bus, three ___", "answer": "buses"},
+            {"sentence": "One baby, two ___", "answer": "babies"},
+            {"sentence": "One boy, four ___", "answer": "boys"},
+            {"sentence": "One watch, five ___", "answer": "watches"},
+            {"sentence": "One child, many ___", "answer": "children"},
+            {"sentence": "One woman, two ___", "answer": "women"},
+            {"sentence": "One foot, two ___", "answer": "feet"},
+            {"sentence": "One city, many ___", "answer": "cities"},
+            {"sentence": "One tomato, three ___", "answer": "tomatoes"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct plural form.",
+          "questions": [
+            {
+              "sentence": "I have three ___.",
+              "options": ["watchs", "watches", "watchies"],
+              "correct": 1,
+              "explanation": "watch → watches (+es after ch)"
+            },
+            {
+              "sentence": "There are many ___ in the park.",
+              "options": ["childs", "childrens", "children"],
+              "correct": 2,
+              "explanation": "child → children (irregular)"
+            },
+            {
+              "sentence": "I visited five ___.",
+              "options": ["citys", "cities", "cityes"],
+              "correct": 1,
+              "explanation": "city → cities (y → ies)"
+            },
+            {
+              "sentence": "She has two ___.",
+              "options": ["babys", "babyes", "babies"],
+              "correct": 2,
+              "explanation": "baby → babies (y → ies)"
+            },
+            {
+              "sentence": "I see two ___.",
+              "options": ["mans", "mens", "men"],
+              "correct": 2,
+              "explanation": "man → men (irregular)"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I have two boxs.",
+              "correct": "I have two boxes.",
+              "explanation": "box → boxes (+es after x)"
+            },
+            {
+              "incorrect": "There are many peoples here.",
+              "correct": "There are many people here.",
+              "explanation": "person → people (already plural)"
+            },
+            {
+              "incorrect": "She bought three watchs.",
+              "correct": "She bought three watches.",
+              "explanation": "watch → watches (+es after ch)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write 5 sentences about things you have (using plurals).",
+      "instruction_ru": "Напиши 5 предложений о вещах, которые у тебя есть (используя множественное число).",
+      "prompts": [
+        "How many books/pens/phones do you have?",
+        "What pets or plants?",
+        "What's in your bag?",
+        "What's in your room?",
+        "What about your family members?"
+      ],
+      "example": "I have many books on my shelf. I have two cats. In my bag, there are three pens and two notebooks. My room has two windows. I have three brothers.",
+      "ai_check": true,
+      "criteria": [
+        "Uses regular plurals (+s) correctly",
+        "Uses -es correctly (boxes, watches)",
+        "Uses -ies correctly (cities, babies)",
+        "Uses at least one irregular plural"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many plural nouns.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "My Collections",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "I love collecting things. I have 50 stamps from different countries. I also have 20 coins from many cities. My sister has dolls. She has 15 dolls! My brother collects cars. He has toy cars from Japan. We keep our collections in boxes."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "At the Market",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 11,
+          "content": "I went to the market. I bought apples, oranges, and bananas. I also got tomatoes and potatoes. The market has many shops. I saw some ladies selling flowers. Children were eating sandwiches. Men were carrying boxes."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "School Supplies",
+          "level": "A1",
+          "word_count": 60,
+          "target_structures": 10,
+          "content": "For school, I need many things. I have pencils, pens, and erasers. I carry books in my bag. I also have notebooks for classes. My teachers give us exercises. We do homework in the evenings."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "The Zoo",
+          "level": "A1",
+          "word_count": 70,
+          "target_structures": 12,
+          "content": "The zoo has many animals. There are lions, tigers, and elephants. I saw monkeys eating bananas. Children love watching the animals. There are fish in the pond. Some birds are colorful. The zoo has maps for visitors."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Family Party",
+          "level": "A1",
+          "word_count": 65,
+          "target_structures": 11,
+          "content": "We had a family party. Many people came. There were men, women, and children. We made sandwiches and cakes. The babies were sleeping. The kids played games. We took photos. It was one of the best parties ever."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "One box, two ___",
+          "back": "boxes\n\n+es after x"
+        },
+        {
+          "type": "fill_gap",
+          "front": "One baby, three ___",
+          "back": "babies\n\nconsonant + y → ies"
+        },
+        {
+          "type": "fill_gap",
+          "front": "One child, five ___",
+          "back": "children\n\nirregular plural"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I saw many mouses.\"",
+          "back": "I saw many mice.\n\nmouse → mice (irregular)"
+        },
+        {
+          "type": "choose",
+          "front": "One key, two ___\n(keys / keies / keyes)",
+          "back": "keys\n\nvowel + y → just add s"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Adding -s after x, ch, sh (boxs instead of boxes)",
+      "Not changing y to ies (citys instead of cities)",
+      "Wrong irregular plurals (childs, mans, womans)",
+      "Double pluraling (childrens, peoples)"
+    ],
+    "related_topics": ["a1_articles", "a1_there_is_are", "a2_countable_uncountable"],
+    "ielts_relevance": "Medium - basic but important",
+    "frequency_in_english": "Very high"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "id": "c1_mixed_conditionals_advanced",
+  "level": "C1",
+  "title": "Advanced Mixed Conditionals",
+  "title_ru": "Продвинутые смешанные условные",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_third_conditional", "b2_mixed_conditionals"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read these reflections on life choices. Notice the complex conditional combinations.",
+      "instruction_ru": "Прочитай эти размышления о жизненных выборах. Обрати внимание на сложные комбинации условных.",
+      "content": {
+        "text": "<highlight>Had I not met her</highlight>, I wouldn't be who I am today. <highlight>Were I more ambitious</highlight>, I would have applied for that job. <highlight>If she hadn't moved abroad</highlight>, we might still be together now. <highlight>Had it not been for</highlight> his advice, I would never have succeeded. <highlight>Were it not for</highlight> my family, I wouldn't have survived the crisis. <highlight>Should you need</highlight> any assistance, don't hesitate to call. <highlight>But for your help</highlight>, I wouldn't be here today. <highlight>Had I known then what I know now</highlight>, things would be different. <highlight>If I were to do it again</highlight>, I would make the same choice. <highlight>Supposing we had invested earlier</highlight>, we would be wealthy now.",
+        "question": "How do these conditionals mix different time frames?",
+        "question_ru": "Как эти условные смешивают разные временные рамки?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Complex and Mixed Conditional Structures",
+        "title_ru": "Сложные и смешанные условные структуры",
+        "points": [
+          {
+            "rule": "Past condition → Present result: If + had V3, would + V (now)",
+            "rule_ru": "Прошлое условие → Настоящий результат: If + had V3, would + V (сейчас)",
+            "example": "If I had studied medicine, I would be a doctor now.",
+            "marker": "past→present"
+          },
+          {
+            "rule": "Present condition → Past result: If + were/V2, would have + V3",
+            "rule_ru": "Настоящее условие → Прошлый результат: If + were/V2, would have + V3",
+            "example": "If I were braver, I would have asked her out.",
+            "marker": "present→past"
+          },
+          {
+            "rule": "Formal inversion: Had I known, Were I to..., Should you need...",
+            "rule_ru": "Формальная инверсия: Had I known, Were I to..., Should you need...",
+            "example": "Had I known, I would have come. Were I to refuse, they would be offended.",
+            "marker": "inversion"
+          },
+          {
+            "rule": "But for / Were it not for / Had it not been for = If it weren't for / If it hadn't been for",
+            "rule_ru": "But for / Were it not for / Had it not been for = Если бы не",
+            "example": "But for you, I would have failed. Had it not been for the rain, we would have gone.",
+            "marker": "but for"
+          },
+          {
+            "rule": "Supposing (that) / Provided (that) / Assuming (that) + conditional",
+            "rule_ru": "Supposing (that) / Provided (that) / Assuming (that) + условное",
+            "example": "Supposing we had left earlier, we wouldn't be stuck now.",
+            "marker": "supposing"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Past→Present", "pattern": "If + had V3, would V now", "example": "If I had married her, I would be happy now."},
+          {"type": "Present→Past", "pattern": "If + were, would have V3", "example": "If I were more careful, I wouldn't have made that mistake."},
+          {"type": "Inverted (past)", "pattern": "Had + S + V3, would...", "example": "Had I known, I would have helped."},
+          {"type": "Inverted (present)", "pattern": "Were + S + to V, would...", "example": "Were I to refuse, they would be upset."},
+          {"type": "But for (present)", "pattern": "But for X, would V", "example": "But for you, I wouldn't survive."},
+          {"type": "But for (past)", "pattern": "But for X, would have V3", "example": "But for luck, I wouldn't have succeeded."},
+          {"type": "Had it not been for", "pattern": "Had it not been for X, would have V3", "example": "Had it not been for the storm, we would have arrived on time."}
+        ]
+      },
+      "duration_minutes": 8
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the time frame of each clause and the conditional type.",
+      "instruction_ru": "Определи временную рамку каждой части и тип условного.",
+      "tasks": [
+        {
+          "text": "Life reflections:\n\n1. Had I listened to my parents, I wouldn't be in this mess now.\n2. If I were more patient, I wouldn't have yelled at him yesterday.\n3. Were it not for scholarships, I couldn't attend university.\n4. Had it not been for that chance meeting, we wouldn't be married now.\n5. But for modern medicine, she wouldn't have survived.\n6. Should you change your mind, please let me know.\n7. Supposing we had never met, where would I be today?\n8. Were I to win the lottery, I would quit my job immediately.\n9. If she hadn't encouraged me, I wouldn't have the confidence I have now.\n10. Had I been born a century earlier, life would be very different.",
+          "find": [
+            {"sentence": 1, "if_clause": "past", "result_clause": "present", "type": "past→present mixed"},
+            {"sentence": 2, "if_clause": "present", "result_clause": "past", "type": "present→past mixed"},
+            {"sentence": 3, "if_clause": "present", "result_clause": "present", "type": "second conditional (inverted)"},
+            {"sentence": 4, "if_clause": "past", "result_clause": "present", "type": "past→present mixed"},
+            {"sentence": 5, "if_clause": "past", "result_clause": "past", "type": "third conditional (But for)"},
+            {"sentence": 6, "if_clause": "future", "result_clause": "request", "type": "Should inversion (first cond.)"},
+            {"sentence": 7, "if_clause": "past", "result_clause": "present", "type": "past→present (Supposing)"},
+            {"sentence": 8, "if_clause": "hypothetical future", "result_clause": "future", "type": "Were to (second cond.)"},
+            {"sentence": 9, "if_clause": "past", "result_clause": "present", "type": "past→present mixed"},
+            {"sentence": 10, "if_clause": "past", "result_clause": "present", "type": "past→present mixed"}
+          ]
+        }
+      ],
+      "reflection_question": "When do we use mixed conditionals instead of pure second or third?",
+      "reflection_question_ru": "Когда мы используем смешанные условные вместо чистых второго или третьего?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Rewrite using the inverted or advanced form.",
+          "sentences": [
+            {"standard": "If I had known about the traffic, I would have left earlier.", "advanced": "Had I known about the traffic, I would have left earlier."},
+            {"standard": "If it weren't for your help, I couldn't manage.", "advanced": "Were it not for your help, I couldn't manage."},
+            {"standard": "If it hadn't been for the scholarship, I wouldn't have graduated.", "advanced": "Had it not been for the scholarship, I wouldn't have graduated."},
+            {"standard": "If you should need anything, just ask.", "advanced": "Should you need anything, just ask."},
+            {"standard": "If I were to accept the offer, I would have to relocate.", "advanced": "Were I to accept the offer, I would have to relocate."},
+            {"standard": "If it wasn't for luck, he would have failed.", "advanced": "But for luck, he would have failed."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the mixed conditional.",
+          "sentences": [
+            {"sentence": "If I ___ (study) harder at school, I ___ (have) a better job now.", "answer": "had studied, would have"},
+            {"sentence": "If she ___ (be) more confident, she ___ (apply) for that position last month.", "answer": "were, would have applied"},
+            {"sentence": "___ I ___ (know) the consequences, I ___ (act) differently.", "answer": "Had, known, would have acted"},
+            {"sentence": "___ it not ___ for your warning, I ___ (make) a terrible mistake.", "answer": "Had, been, would have made"},
+            {"sentence": "But ___ her support, I ___ (not/be) here today.", "answer": "for, wouldn't be"},
+            {"sentence": "___ you ___ any difficulties, contact me immediately.", "answer": "Should, encounter"},
+            {"sentence": "___ I to retire early, I ___ (travel) the world.", "answer": "Were, would travel"},
+            {"sentence": "If I ___ (be) more assertive, I ___ (negotiate) a better deal yesterday.", "answer": "were, would have negotiated"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the correct mixed conditional form.",
+          "questions": [
+            {
+              "context": "Past action affecting present state",
+              "sentence": "If I ___ that job, I ___ rich now.",
+              "options": ["took / would be", "had taken / would be", "had taken / would have been"],
+              "correct": 1,
+              "explanation": "Past condition (had taken) + present result (would be)"
+            },
+            {
+              "context": "Present characteristic affecting past action",
+              "sentence": "If I ___ more outgoing, I ___ to the party.",
+              "options": ["were / would have gone", "had been / would go", "were / would go"],
+              "correct": 0,
+              "explanation": "Present condition (were) + past result (would have gone)"
+            },
+            {
+              "context": "Formal alternative to 'if it hadn't been for'",
+              "sentence": "___ for the delay, we would have caught the train.",
+              "options": ["But", "Were it not", "Had it not been"],
+              "correct": 0,
+              "explanation": "'But for' is the shortest form meaning 'if not for'"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the conditional error.",
+          "sentences": [
+            {
+              "incorrect": "Had I would know, I would have helped.",
+              "correct": "Had I known, I would have helped.",
+              "explanation": "Had replaces 'would have' in inversion; use past participle"
+            },
+            {
+              "incorrect": "Were it not for your help, I wouldn't survived.",
+              "correct": "Were it not for your help, I wouldn't have survived.",
+              "explanation": "Past result requires 'would have survived'"
+            },
+            {
+              "incorrect": "If I was more careful, I wouldn't have made that mistake.",
+              "correct": "If I were more careful, I wouldn't have made that mistake.",
+              "explanation": "Use 'were' for hypothetical present conditions"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 22,
+      "pass_threshold": 0.75
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about how past decisions affect your present, and how your personality affected past choices.",
+      "instruction_ru": "Напиши о том, как прошлые решения влияют на твоё настоящее, и как твоя личность влияла на прошлые выборы.",
+      "prompts": [
+        "Reflect on a life-changing decision and its current effects",
+        "Consider how your character traits influenced past actions",
+        "Imagine how things would be different with different past choices",
+        "Write about someone who helped shape your life"
+      ],
+      "example": "Had I not decided to study abroad, I wouldn't be the person I am today. That experience changed me fundamentally. Were it not for my parents' support, I wouldn't have had the courage to go. Had it not been for a chance meeting with my future mentor, I wouldn't have discovered my passion. If I were less curious by nature, I would never have taken such a risk. But for that one decision, my entire life trajectory would be different. Should I ever face a similar choice, I would make the same decision again. Were I to advise my younger self, I would say: take the leap. Supposing I had stayed home instead, where would I be now?",
+      "ai_check": true,
+      "criteria": [
+        "Uses past→present mixed conditionals",
+        "Uses present→past mixed conditionals",
+        "Uses inverted forms (Had I, Were I)",
+        "Uses But for / Were it not for / Had it not been for",
+        "Uses Should for formal conditions",
+        "At least 8 advanced conditional structures"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with complex conditionals.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Career Reflection",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Had I chosen a different career, I wouldn't be where I am today. Were it not for my mentor's guidance, I would never have found my path. If I were less determined, I would have given up years ago. But for those early failures, I wouldn't have developed resilience. Had it not been for the support of colleagues, I wouldn't have succeeded. Should anyone ask for advice, I would say persistence matters. Were I to start over, I might make some different choices, but the core direction would remain."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Historical Speculation",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Had the assassination not occurred, history would be different today. Were it not for that single event, the war might never have begun. If leaders had been wiser, millions would be alive now. But for miscommunication, negotiations might have succeeded. Had it not been for nationalism, cooperation could have prevailed. Supposing different decisions had been made, the world map would look different. Were historians to agree, lessons might be learned. Should we ignore the past, we risk repeating mistakes. The consequences continue to shape our present."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Personal Growth",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "If I weren't so stubborn, I would have listened to advice sooner. Had I not made those mistakes, I wouldn't be as wise now. Were it not for difficult experiences, I wouldn't have grown. But for failure, success wouldn't taste so sweet. Had it not been for challenges, I would still be naive. If I were more cautious, I wouldn't have taken risks that paid off. Should you face similar struggles, embrace them. Were I to live my life again, I would change very little."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Relationship Dynamics",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Had we not met that day, I wouldn't be married now. Were it not for mutual friends, we would never have connected. If I were less open, I wouldn't have given him a chance. But for his persistence, we wouldn't have dated. Had it not been for patience, our relationship wouldn't have survived. If I weren't so forgiving, we would have separated years ago. Should couples ask for advice, I would emphasize communication. Were I to describe love, it would include imperfection."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Scientific Discovery",
+          "level": "C1",
+          "word_count": 90,
+          "target_structures": 12,
+          "content": "Had the experiment failed, we wouldn't have this breakthrough now. Were it not for funding, the research wouldn't have continued. If scientists were less persistent, discoveries would be rare. But for accidents, some innovations would never have happened. Had it not been for curiosity, progress would stall. Supposing we had given up, solutions wouldn't exist. Should future researchers continue this work, benefits will multiply. Were I to summarize success, it would include failure as essential."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "pattern",
+          "front": "Past condition → Present result",
+          "back": "If + had V3, would V (now)\n\nIf I had studied law, I would be a lawyer now."
+        },
+        {
+          "type": "pattern",
+          "front": "Present condition → Past result",
+          "back": "If + were, would have V3\n\nIf I were braver, I would have asked."
+        },
+        {
+          "type": "transformation",
+          "front": "If I had known...\nInverted form:",
+          "back": "Had I known..."
+        },
+        {
+          "type": "transformation",
+          "front": "If it hadn't been for X...\nFormal alternatives:",
+          "back": "Had it not been for X...\nBut for X...\nWere it not for X... (present)"
+        },
+        {
+          "type": "usage",
+          "front": "Should + S + V...",
+          "back": "Formal first conditional inversion\n\nShould you need help, call me."
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.75,
+    "time_limit_minutes": 12,
+    "question_types": ["fill_gap", "transformation", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Mixing up time frames incorrectly",
+      "Using 'would' in the if-clause with inversion",
+      "Forgetting 'have' in past results",
+      "Using 'was' instead of 'were' in hypotheticals"
+    ],
+    "related_topics": ["b2_third_conditional", "b2_mixed_conditionals", "c1_inversion_advanced"],
+    "ielts_relevance": "Essential for Band 8+ flexibility",
+    "cae_relevance": "Use of English Part 4, Writing",
+    "frequency_in_english": "High in formal/literary English"
+  }
+}

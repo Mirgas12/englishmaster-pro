@@ -1,0 +1,265 @@
+{
+  "id": "b2_mixed_conditionals",
+  "level": "B2",
+  "title": "Mixed Conditionals",
+  "title_ru": "Смешанные условные предложения",
+  "estimatedMinutes": 35,
+  "prerequisites": ["b2_third_conditional", "b1_second_conditional"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about connections between past actions and present situations. Notice how time shifts.",
+      "instruction_ru": "Прочитай о связи между прошлыми действиями и настоящими ситуациями. Обрати внимание на сдвиги во времени.",
+      "content": {
+        "text": "<highlight>If I had studied</highlight> medicine, I <highlight>would be</highlight> a doctor now. (past action → present result)\n<highlight>If she hadn't moved</highlight> to Paris, she <highlight>wouldn't know</highlight> French. (past action → present result)\n<highlight>If I were</highlight> more organized, I <highlight>wouldn't have lost</highlight> my keys yesterday. (present trait → past result)\n<highlight>If he weren't</highlight> so lazy, he <highlight>would have finished</highlight> the project on time. (present trait → past result)\n<highlight>If we had taken</highlight> that job, we <highlight>would be living</highlight> in Tokyo now.",
+        "question": "What's different about the times in these conditionals?",
+        "question_ru": "Что необычного во временах в этих условных предложениях?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Mixed Conditionals - Crossing Time Zones",
+        "title_ru": "Смешанные условные - Пересечение временных зон",
+        "points": [
+          {
+            "rule": "Type 1: Past condition → Present result",
+            "rule_ru": "Тип 1: Условие в прошлом → Результат в настоящем",
+            "example": "If I had studied law, I would be a lawyer now.",
+            "marker": "past → present"
+          },
+          {
+            "rule": "Form Type 1: If + had + V3, would + infinitive",
+            "rule_ru": "Форма Типа 1: If + had + V3, would + инфинитив",
+            "example": "If he had married her, he would be happy now.",
+            "marker": "had V3 → would be"
+          },
+          {
+            "rule": "Type 2: Present condition → Past result",
+            "rule_ru": "Тип 2: Условие в настоящем → Результат в прошлом",
+            "example": "If she weren't so shy, she would have spoken up yesterday.",
+            "marker": "present → past"
+          },
+          {
+            "rule": "Form Type 2: If + past simple, would have + V3",
+            "rule_ru": "Форма Типа 2: If + past simple, would have + V3",
+            "example": "If I were braver, I would have asked her out.",
+            "marker": "were → would have"
+          },
+          {
+            "rule": "Use: When past and present are linked logically",
+            "rule_ru": "Использование: Когда прошлое и настоящее логически связаны",
+            "example": "Past decisions affect present state; Present traits explain past actions",
+            "marker": "logical connection"
+          }
+        ],
+        "comparison_table": [
+          {"type": "Second", "condition_time": "Present/Future", "result_time": "Present/Future", "example": "If I were rich, I would travel."},
+          {"type": "Third", "condition_time": "Past", "result_time": "Past", "example": "If I had won, I would have celebrated."},
+          {"type": "Mixed 1", "condition_time": "Past", "result_time": "Present", "example": "If I had won, I would be rich now."},
+          {"type": "Mixed 2", "condition_time": "Present", "result_time": "Past", "example": "If I were brave, I would have told her."}
+        ]
+      },
+      "duration_minutes": 7
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Identify the time of condition and result in each sentence.",
+      "instruction_ru": "Определи время условия и результата в каждом предложении.",
+      "tasks": [
+        {
+          "text": "Life is full of 'what ifs':\n\n1. If I had learned to code as a child, I would be a software engineer now.\n2. If she weren't so stubborn, she would have listened to the advice.\n3. If they had invested in Bitcoin early, they would be millionaires today.\n4. If I weren't afraid of heights, I would have tried bungee jumping.\n5. If he had taken that job in 2015, he wouldn't be struggling financially now.\n6. If she were more patient, she wouldn't have given up so quickly.\n7. If I had been born in a different country, my life would be completely different.",
+          "find": [
+            {"sentence": 1, "condition_time": "Past (had learned)", "result_time": "Present (would be)", "type": "Mixed 1"},
+            {"sentence": 2, "condition_time": "Present (weren't)", "result_time": "Past (would have listened)", "type": "Mixed 2"},
+            {"sentence": 3, "condition_time": "Past (had invested)", "result_time": "Present (would be)", "type": "Mixed 1"},
+            {"sentence": 4, "condition_time": "Present (weren't)", "result_time": "Past (would have tried)", "type": "Mixed 2"},
+            {"sentence": 5, "condition_time": "Past (had taken)", "result_time": "Present (wouldn't be)", "type": "Mixed 1"},
+            {"sentence": 6, "condition_time": "Present (were)", "result_time": "Past (wouldn't have given up)", "type": "Mixed 2"},
+            {"sentence": 7, "condition_time": "Past (had been born)", "result_time": "Present (would be)", "type": "Mixed 1"}
+          ]
+        }
+      ],
+      "reflection_question": "When do we use Mixed Type 1 vs Mixed Type 2?",
+      "reflection_question_ru": "Когда мы используем Смешанный Тип 1 vs Смешанный Тип 2?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the mixed conditional sentences.",
+          "sentences": [
+            {"sentence": "If I ___ (study) harder at school, I ___ (have) a better job now.", "answer": "had studied, would have", "type": "Mixed 1"},
+            {"sentence": "If she ___ (be) more confident, she ___ (get) the promotion last year.", "answer": "were/was, would have gotten", "type": "Mixed 2"},
+            {"sentence": "If they ___ (not/move) to London, they ___ (not/be) so successful today.", "answer": "hadn't moved, wouldn't be", "type": "Mixed 1"},
+            {"sentence": "If he ___ (not/be) so forgetful, he ___ (not/miss) the appointment yesterday.", "answer": "weren't, wouldn't have missed", "type": "Mixed 2"},
+            {"sentence": "If I ___ (save) more money in my 20s, I ___ (own) a house now.", "answer": "had saved, would own", "type": "Mixed 1"},
+            {"sentence": "If she ___ (speak) better English, she ___ (understand) the instructions earlier.", "answer": "spoke, would have understood", "type": "Mixed 2"},
+            {"sentence": "If we ___ (buy) Bitcoin in 2010, we ___ (be) millionaires.", "answer": "had bought, would be", "type": "Mixed 1"},
+            {"sentence": "If I ___ (be) taller, I ___ (play) basketball in high school.", "answer": "were, would have played", "type": "Mixed 2"}
+          ]
+        },
+        {
+          "type": "choose_type",
+          "instruction": "Choose the correct type of conditional for each situation.",
+          "questions": [
+            {
+              "situation": "He didn't study medicine, so he's not a doctor now.",
+              "options": ["Second", "Third", "Mixed (past→present)"],
+              "correct": 2,
+              "explanation": "Past decision affects present state"
+            },
+            {
+              "situation": "She's not careful, so she made a mistake yesterday.",
+              "options": ["Second", "Third", "Mixed (present→past)"],
+              "correct": 2,
+              "explanation": "Present trait explains past action"
+            },
+            {
+              "situation": "I didn't see the email yesterday, so I didn't reply.",
+              "options": ["Second", "Third", "Mixed (past→present)"],
+              "correct": 1,
+              "explanation": "Both condition and result are in the past"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "If I had studied medicine, I would have been a doctor now.",
+              "correct": "If I had studied medicine, I would be a doctor now.",
+              "explanation": "Present result = would be, not would have been"
+            },
+            {
+              "incorrect": "If she was more careful, she wouldn't have made that mistake.",
+              "correct": "If she were more careful, she wouldn't have made that mistake.",
+              "explanation": "In formal English: were (not was) in conditionals"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 16,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about how past decisions affect your present, or how your character has influenced past events.",
+      "instruction_ru": "Напиши о том, как прошлые решения влияют на настоящее, или как твой характер повлиял на прошлые события.",
+      "prompts": [
+        "How would your life be different now if you had made different choices?",
+        "What would you have done differently if you had a different personality?",
+        "Write about regrets connecting past and present",
+        "Describe hypothetical alternative life paths"
+      ],
+      "example": "My life would be very different if I had made other choices. If I had studied abroad, I would probably be living in another country now. If I had learned programming when I was young, I would be earning more money today. On the other hand, my personality has also affected my past. If I weren't so shy, I would have made more friends at university. If I were more adventurous, I would have traveled more in my twenties. But I can't complain - if I had taken a different path, I wouldn't have the wonderful family I have now!",
+      "ai_check": true,
+      "criteria": [
+        "Uses Mixed Type 1 (past condition → present result)",
+        "Uses Mixed Type 2 (present condition → past result)",
+        "Shows logical connection between times",
+        "At least 6 mixed conditional sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with mixed conditionals.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Career Reflections",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 8,
+          "content": "Looking back at my career, I think about alternatives. If I had accepted that job in Singapore, I would be living in Asia now. If I weren't so risk-averse, I would have started my own business years ago. If I had learned Chinese in college, I would have more opportunities today. My colleague often says if she weren't so ambitious, she wouldn't have sacrificed so much for her career. If we had known how technology would change, we would all be in different jobs now."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Relationship What-Ifs",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 8,
+          "content": "Sometimes I wonder about past relationships. If I had been more mature then, I would still be with her now. If I weren't so independent, I might have tried harder to make it work. She once said that if she hadn't moved away, we would be married today. If I were better at expressing my feelings, I wouldn't have lost her. But if we had stayed together, would I be the person I am now? Everything happens for a reason."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Financial Decisions",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 8,
+          "content": "Financial experts always discuss what-ifs. If people had saved more in their 20s, they would be more secure now. If I weren't so impulsive, I would have saved more money by now. If investors had recognized the potential of tech stocks early, they would be wealthy today. If I were better with numbers, I wouldn't have made those poor investment decisions. They say if you had put $100 in Amazon in 1997, you would have over $100,000 now!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Education Paths",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 8,
+          "content": "Education shapes our lives. If I had studied engineering, I would be working in a completely different field now. If I weren't so passionate about arts, I would have chosen a more practical major. My parents believe if they had encouraged me more, I would have become a doctor. If I were more disciplined, I would have studied harder and gotten better grades. But if I had followed their advice, I wouldn't be doing what I love today."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Health Choices",
+          "level": "B2",
+          "word_count": 90,
+          "target_structures": 8,
+          "content": "Health is about choices. If I had exercised regularly in my youth, I would be much fitter now. If I weren't so lazy, I would have developed better habits long ago. Doctors say if people had quit smoking earlier, many diseases wouldn't exist today. If I were more health-conscious, I wouldn't have eaten so much junk food in college. My grandfather always says if he had known about healthy eating, he would have lived differently."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "If I ___ (study) medicine, I ___ (be) a doctor now.\n(Mixed Type 1)",
+          "back": "had studied / would be\n\nPast condition → Present result"
+        },
+        {
+          "type": "fill_gap",
+          "front": "If she ___ (be) braver, she ___ (speak) up yesterday.\n(Mixed Type 2)",
+          "back": "were / would have spoken\n\nPresent condition → Past result"
+        },
+        {
+          "type": "identify",
+          "front": "What type?\n\"If I had learned Chinese, I would speak it now.\"",
+          "back": "Mixed Type 1\n\nPast condition (had learned)\nPresent result (would speak)"
+        },
+        {
+          "type": "identify",
+          "front": "What type?\n\"If I weren't shy, I would have talked to her.\"",
+          "back": "Mixed Type 2\n\nPresent condition (weren't)\nPast result (would have talked)"
+        },
+        {
+          "type": "error_correction",
+          "front": "If I had saved money, I would have owned a house now.",
+          "back": "If I had saved money, I would own a house now.\n\n'Now' = present result = would + infinitive"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 12,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 10,
+    "question_types": ["fill_gap", "identify_type", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using 'would have' for present results",
+      "Confusing which time goes where",
+      "Not recognizing when to use mixed vs pure conditionals",
+      "Using 'was' instead of 'were'"
+    ],
+    "related_topics": ["b2_third_conditional", "b1_second_conditional"],
+    "ielts_relevance": "High - Speaking Part 3, Writing Task 2",
+    "frequency_in_english": "Medium-High"
+  }
+}

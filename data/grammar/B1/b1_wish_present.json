@@ -1,0 +1,266 @@
+{
+  "id": "b1_wish_present",
+  "level": "B1",
+  "title": "Wish + Past Simple (Present Wishes)",
+  "title_ru": "Wish + Past Simple (Желания о настоящем)",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_second_conditional"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about things people wish were different. Notice the verb tenses after 'wish'.",
+      "instruction_ru": "Прочитай о том, что люди хотели бы изменить. Обрати внимание на времена глаголов после 'wish'.",
+      "content": {
+        "text": "I <highlight>wish</highlight> I <highlight>had</highlight> more free time. I'm always so busy! My friend <highlight>wishes</highlight> she <highlight>spoke</highlight> better English. She <highlight>wishes</highlight> she <highlight>could</highlight> travel more easily. I <highlight>wish</highlight> I <highlight>were</highlight> taller - I can't reach the top shelf! My brother <highlight>wishes</highlight> he <highlight>didn't have to</highlight> work on weekends. We all <highlight>wish</highlight> life <highlight>were</highlight> simpler. I <highlight>wish</highlight> I <highlight>knew</highlight> how to cook. My parents <highlight>wish</highlight> we <highlight>lived</highlight> closer to them.",
+        "question": "What tense comes after 'wish'? Are these real situations or imaginary?",
+        "question_ru": "Какое время идёт после 'wish'? Это реальные ситуации или воображаемые?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Wish + Past Simple for Present Wishes",
+        "title_ru": "Wish + Past Simple для желаний о настоящем",
+        "points": [
+          {
+            "rule": "wish + past simple = want situation to be different NOW",
+            "rule_ru": "wish + past simple = хотим, чтобы ситуация была другой СЕЙЧАС",
+            "example": "I wish I had a car. (I don't have one now)",
+            "marker": "present wish"
+          },
+          {
+            "rule": "wish + were (for all subjects) - formal/correct",
+            "rule_ru": "wish + were (для всех подлежащих) - формально/правильно",
+            "example": "I wish I were rich. I wish she were here.",
+            "marker": "wish + were"
+          },
+          {
+            "rule": "wish + was (informal, also acceptable)",
+            "rule_ru": "wish + was (неформально, тоже допустимо)",
+            "example": "I wish I was taller. (informal)",
+            "marker": "wish + was"
+          },
+          {
+            "rule": "wish + could = ability/possibility we don't have",
+            "rule_ru": "wish + could = способность/возможность, которой нет",
+            "example": "I wish I could fly. I wish I could speak Chinese.",
+            "marker": "wish + could"
+          },
+          {
+            "rule": "Compare: If only = stronger wish",
+            "rule_ru": "Сравни: If only = более сильное желание",
+            "example": "If only I had more money! (= I really wish...)",
+            "marker": "if only"
+          }
+        ],
+        "comparison_table": [
+          {"reality": "I don't have a car.", "wish": "I wish I had a car."},
+          {"reality": "She isn't here.", "wish": "I wish she were/was here."},
+          {"reality": "I can't swim.", "wish": "I wish I could swim."},
+          {"reality": "I have to work.", "wish": "I wish I didn't have to work."},
+          {"reality": "It's raining.", "wish": "I wish it weren't/wasn't raining."},
+          {"reality": "I don't know the answer.", "wish": "I wish I knew the answer."}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all wishes. What is the reality vs what they wish?",
+      "instruction_ru": "Найди все желания. Какова реальность vs что они хотят?",
+      "tasks": [
+        {
+          "text": "Life is full of wishes!\n\nI'm not rich. I wish I were rich. Then I could travel anywhere!\nI don't speak Japanese. I wish I spoke Japanese. Japan is so interesting.\nI can't play the piano. I wish I could play the piano. Music is beautiful.\nI live in a small apartment. I wish I lived in a big house.\nI have to wake up early. I wish I didn't have to wake up so early.\nMy job isn't exciting. I wish my job were more exciting.\nI don't know many people here. I wish I knew more people.\nThe weather is terrible. If only it were sunny!",
+          "find": [
+            {"reality": "I'm not rich", "wish": "I wish I were rich", "verb": "were"},
+            {"reality": "I don't speak Japanese", "wish": "I wish I spoke Japanese", "verb": "spoke"},
+            {"reality": "I can't play the piano", "wish": "I wish I could play", "verb": "could"},
+            {"reality": "I live in a small apartment", "wish": "I wish I lived in a big house", "verb": "lived"},
+            {"reality": "I have to wake up early", "wish": "I wish I didn't have to", "verb": "didn't have to"},
+            {"reality": "My job isn't exciting", "wish": "I wish it were more exciting", "verb": "were"},
+            {"reality": "I don't know many people", "wish": "I wish I knew more people", "verb": "knew"},
+            {"reality": "The weather is terrible", "wish": "If only it were sunny", "verb": "were"}
+          ]
+        }
+      ],
+      "reflection_question": "Why do we use past tense to talk about present wishes?",
+      "reflection_question_ru": "Почему мы используем прошедшее время, чтобы говорить о желаниях в настоящем?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "transformation",
+          "instruction": "Write wishes based on the reality.",
+          "sentences": [
+            {"reality": "I don't have a garden.", "wish": "I wish I had a garden."},
+            {"reality": "She isn't here.", "wish": "I wish she were/was here."},
+            {"reality": "I can't drive.", "wish": "I wish I could drive."},
+            {"reality": "We live far from the beach.", "wish": "I wish we lived near the beach."},
+            {"reality": "I don't know her name.", "wish": "I wish I knew her name."},
+            {"reality": "It's so cold today.", "wish": "I wish it weren't/wasn't so cold."},
+            {"reality": "I have to work tomorrow.", "wish": "I wish I didn't have to work tomorrow."},
+            {"reality": "My apartment is small.", "wish": "I wish my apartment were/was bigger."},
+            {"reality": "I can't remember his face.", "wish": "I wish I could remember his face."},
+            {"reality": "They don't understand me.", "wish": "I wish they understood me."}
+          ]
+        },
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete the wish sentences.",
+          "sentences": [
+            {"sentence": "I'm so tired. I wish I ___ (be) more energetic.", "answer": "were/was"},
+            {"sentence": "I don't speak French. I wish I ___ (speak) French.", "answer": "spoke"},
+            {"sentence": "She can't come. I wish she ___ (can) come.", "answer": "could"},
+            {"sentence": "It's raining. I wish it ___ (not/rain).", "answer": "weren't raining / wasn't raining"},
+            {"sentence": "I don't have time. I wish I ___ (have) more time.", "answer": "had"},
+            {"sentence": "He doesn't love me. I wish he ___ (love) me.", "answer": "loved"},
+            {"sentence": "We have to leave early. I wish we ___ (not/have to) leave.", "answer": "didn't have to"},
+            {"sentence": "I'm not tall enough. I wish I ___ (be) taller.", "answer": "were/was"}
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I wish I am taller.",
+              "correct": "I wish I were/was taller.",
+              "explanation": "Wish + past tense, not present"
+            },
+            {
+              "incorrect": "She wishes she can speak English.",
+              "correct": "She wishes she could speak English.",
+              "explanation": "Wish + could, not can"
+            },
+            {
+              "incorrect": "I wish I don't have to work.",
+              "correct": "I wish I didn't have to work.",
+              "explanation": "Wish + past tense (didn't)"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about things you wish were different in your life now.",
+      "instruction_ru": "Напиши о вещах, которые ты хотел бы изменить в своей жизни сейчас.",
+      "prompts": [
+        "What do you wish about your job or studies?",
+        "What do you wish about your abilities or skills?",
+        "What do you wish about your life circumstances?",
+        "What do you wish about the world?"
+      ],
+      "example": "There are many things I wish were different in my life. I wish I had more free time. I work too much and I wish I didn't have to work on weekends. I wish I could travel more - there are so many places I want to see! I wish I spoke more languages. If only I had studied Chinese at school! I also wish I lived closer to my family. They live far away and I wish I could see them more often. I wish life weren't so expensive in this city. But mostly, I wish I could stop worrying and just enjoy the present moment!",
+      "ai_check": true,
+      "criteria": [
+        "Uses wish + past simple correctly",
+        "Uses wish + were/was for be",
+        "Uses wish + could for abilities",
+        "Expresses regret about current situations",
+        "At least 6 wish sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with present wishes.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "City Life",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I live in a big city but I wish I lived in the countryside. I wish there were more trees and less traffic. I wish I could hear birds instead of car horns. My apartment is small - I wish it were bigger. I wish I didn't have to pay such high rent. I wish my neighbors weren't so noisy. If only life in the city were more peaceful! I wish I could change things."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Work Complaints",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "My job is okay, but I have some complaints. I wish I earned more money. I wish my boss were more understanding. I wish I didn't have so many meetings. I wish I could work from home more often. I wish my commute weren't so long. I wish I had more creative projects. If only I could do what I really love! But I know many people wish they had a job at all."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Student Life",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Being a student is hard! I wish I were better at math. I wish I could understand everything the first time. I wish I didn't have to study so much. I wish exams weren't so stressful. I wish I had more money for textbooks. I wish my professor were more patient. If only I knew what career to choose! I wish someone could give me the answers!"
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Relationship Wishes",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Relationships are complicated! My friend wishes her boyfriend were more romantic. He wishes she weren't so demanding. She wishes he understood her better. He wishes they didn't argue so much. I wish my friends could get along better. They wish I weren't so busy all the time. We all wish we had more time together. If only life weren't so hectic!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Global Wishes",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I often think about the world and have many wishes. I wish there were no wars. I wish everyone had enough food and water. I wish the environment weren't being destroyed. I wish world leaders were wiser. I wish I could do more to help. I wish people weren't so divided. If only we could all live in peace! I wish kindness were more common. Small wishes can lead to big changes."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "transformation",
+          "front": "I don't have a car.\nExpress as wish:",
+          "back": "I wish I had a car.\n\nwish + past simple"
+        },
+        {
+          "type": "transformation",
+          "front": "She isn't here.\nExpress as wish:",
+          "back": "I wish she were/was here.\n\nwish + were/was"
+        },
+        {
+          "type": "transformation",
+          "front": "I can't fly.\nExpress as wish:",
+          "back": "I wish I could fly.\n\nwish + could"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I wish I am taller.\"",
+          "back": "I wish I were/was taller.\n\nwish + past, not present"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I have to work. I wish I ___ have to work.",
+          "back": "didn't\n\nwish + didn't (negative)"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["transformation", "fill_gap", "error_correction", "choose_correct"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Using present tense after wish",
+      "Using 'can' instead of 'could'",
+      "Using 'don't' instead of 'didn't'",
+      "Confusing wish (unreal) with hope (real possibility)"
+    ],
+    "related_topics": ["b1_second_conditional"],
+    "ielts_relevance": "High - common in Speaking Parts 2-3",
+    "frequency_in_english": "High"
+  }
+}

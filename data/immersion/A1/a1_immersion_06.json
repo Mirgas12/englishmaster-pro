@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_06",
+  "level": "A1",
+  "title": "Colors Around Me",
+  "title_ru": "Цвета вокруг меня",
+  "media_type": "video",
+  "duration_seconds": 40,
+  "description": "A person describes colors of different objects",
+  "transcript": "Look around! There are many colors. The sky is blue. The grass is green. The sun is yellow. My shirt is red. My bag is black. The flowers are pink and purple. The clouds are white. My shoes are brown. I like all colors, but my favorite color is blue. What is your favorite color?",
+  "questions": [
+    {"type": "multiple_choice", "question": "What color is the sky?", "options": ["Green", "Blue", "Yellow"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is the speaker's favorite color?", "options": ["Red", "Green", "Blue"], "correct": 2},
+    {"type": "true_false", "question": "The grass is green.", "correct": true},
+    {"type": "true_false", "question": "The bag is white.", "correct": false},
+    {"type": "fill_gap", "question": "The flowers are pink and ___.", "answer": "purple"}
+  ],
+  "vocabulary": ["blue", "green", "yellow", "red", "white"],
+  "key_phrases": ["The sky is", "My favorite color is", "What color is"]
+}

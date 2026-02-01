@@ -1,0 +1,19 @@
+{
+  "id": "a1_immersion_07",
+  "level": "A1",
+  "title": "Food I Like",
+  "title_ru": "Еда, которую я люблю",
+  "media_type": "audio",
+  "duration_seconds": 45,
+  "description": "A person talks about their favorite foods",
+  "transcript": "I like food very much! For breakfast, I eat bread and cheese. I drink orange juice. For lunch, I have rice and chicken. It is delicious. For dinner, I eat soup and salad. My favorite food is pizza. I love pizza with cheese and tomatoes. I also like ice cream. Chocolate ice cream is the best! I don't like fish very much.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does the person eat for breakfast?", "options": ["Rice", "Bread and cheese", "Soup"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is the person's favorite food?", "options": ["Chicken", "Ice cream", "Pizza"], "correct": 2},
+    {"type": "true_false", "question": "The person likes fish.", "correct": false},
+    {"type": "true_false", "question": "The person drinks orange juice.", "correct": true},
+    {"type": "fill_gap", "question": "Chocolate ice cream is the ___!", "answer": "best"}
+  ],
+  "vocabulary": ["breakfast", "lunch", "dinner", "pizza", "delicious"],
+  "key_phrases": ["I like", "For breakfast", "My favorite food is", "I don't like"]
+}

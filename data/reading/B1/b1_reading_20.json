@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_20",
+  "level": "B1",
+  "title": "Working from Home Tips",
+  "title_ru": "Советы по работе из дома",
+  "word_count": 225,
+  "topic": "work",
+  "text": "Working from home offers flexibility but also presents unique challenges. Without the structure of an office, some people struggle to stay productive and maintain work-life balance. These practical strategies can help you make the most of remote work.\n\nCreate a dedicated workspace. Having a specific area for work helps your brain switch into work mode. It doesn't need to be a separate room – even a designated desk can work. Keep this space organized and free from distractions.\n\nEstablish a routine. Wake up at a consistent time and get dressed as if going to the office. This mental preparation helps maintain professionalism and focus. Set clear start and end times for your workday to prevent overworking.\n\nTake regular breaks. It's easy to sit for hours without moving when working from home. Use techniques like the Pomodoro method – 25 minutes of focused work followed by a 5-minute break. Get up, stretch, or take a short walk.\n\nCommunicate actively with colleagues. Without face-to-face interaction, extra effort is needed to stay connected. Use video calls when possible rather than just messaging. Regular check-ins prevent isolation and miscommunication.\n\nSet boundaries with family members or housemates. Make sure they understand when you're working and shouldn't be interrupted. Use signals like a closed door or headphones to indicate you're busy.\n\nRemember that finding what works best for you takes time. Experiment with different approaches until you find your ideal routine.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does the Pomodoro method involve?", "options": ["Working all day", "25 minutes work, 5 minute break", "Only morning work"], "correct": 1},
+    {"type": "multiple_choice", "question": "Why should you get dressed for work at home?", "options": ["For video calls only", "Mental preparation and focus", "Company policy"], "correct": 1},
+    {"type": "true_false", "question": "You need a separate room to work from home effectively.", "correct": false},
+    {"type": "true_false", "question": "Regular breaks help with productivity.", "correct": true},
+    {"type": "fill_gap", "question": "Set clear start and end times to prevent ___.", "answer": "overworking"}
+  ],
+  "vocabulary": ["remote work", "productivity", "boundaries", "routine", "flexibility"],
+  "grammar_focus": ["imperatives", "present_simple"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_20",
+  "level": "B2",
+  "title": "The Attention Economy",
+  "title_ru": "Экономика внимания",
+  "word_count": 300,
+  "topic": "media",
+  "text": "In an age of information abundance, attention has become the scarcest resource. Technology companies compete intensely for our focus, employing sophisticated psychological techniques to capture and hold it. Understanding the attention economy is essential for navigating modern life intentionally.\n\nThe business model of most digital platforms relies on selling user attention to advertisers. The more time users spend on a platform, the more advertisements they see, and the more revenue the platform generates. This creates powerful incentives to make products as engaging – some would say addictive – as possible.\n\nPersuasive design techniques, drawn from behavioral psychology, maximize engagement. Variable reward schedules, like those used in slot machines, keep users scrolling for the next dopamine hit. Social validation through likes and comments exploits our need for approval. Notifications create urgency and interrupt other activities. Autoplay features and infinite scroll remove natural stopping points.\n\nThe consequences extend beyond wasted time. Fragmented attention undermines deep thinking and learning. The constant availability of distraction makes sustained focus increasingly difficult. Some researchers link heavy social media use to anxiety and depression, though causality remains debated.\n\nThe attention economy also shapes information and culture. Content optimized for engagement often prioritizes outrage and sensationalism over nuance and accuracy. Important but less exciting topics receive less attention than they deserve.\n\nIndividuals can take steps to protect their attention. Disabling non-essential notifications, establishing phone-free times and spaces, and using tools that limit usage can help. Mindfulness practices strengthen the ability to direct attention deliberately.\n\nSome advocate for regulatory intervention, arguing that the externalities of the attention economy justify public policy responses. Proposals include requiring disclosure of persuasive design techniques or limiting data collection that enables personalized manipulation.\n\nOur attention shapes our lives – what we focus on determines what we learn, who we become, and what kind of society we create. Reclaiming intentional control over attention may be among the most important challenges of our time.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What is the business model of most digital platforms based on?", "options": ["Subscription fees", "Selling user attention to advertisers", "Selling products"], "correct": 1},
+    {"type": "multiple_choice", "question": "What do variable reward schedules do?", "options": ["Save time", "Keep users engaged", "Improve learning"], "correct": 1},
+    {"type": "true_false", "question": "Constant notifications help deep thinking.", "correct": false},
+    {"type": "true_false", "question": "Mindfulness can help control attention.", "correct": true},
+    {"type": "fill_gap", "question": "Content optimized for engagement often prioritizes ___ over accuracy.", "answer": "sensationalism"}
+  ],
+  "vocabulary": ["attention economy", "persuasive design", "engagement", "dopamine", "externalities"],
+  "grammar_focus": ["present_simple", "gerunds"]
+}

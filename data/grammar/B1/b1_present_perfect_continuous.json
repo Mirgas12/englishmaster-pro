@@ -1,0 +1,285 @@
+{
+  "id": "b1_present_perfect_continuous",
+  "level": "B1",
+  "title": "Present Perfect Continuous",
+  "title_ru": "Present Perfect Continuous",
+  "estimatedMinutes": 30,
+  "prerequisites": ["b1_present_perfect_experience"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about people's activities. Notice the verb forms.",
+      "instruction_ru": "Прочитай о занятиях людей. Обрати внимание на формы глаголов.",
+      "content": {
+        "text": "Look at Sarah! She's so tired. She <highlight>has been working</highlight> all day. Her eyes are red - she <highlight>has been crying</highlight>. Tom is dirty. He <highlight>has been gardening</highlight> for three hours. I'm exhausted! I <highlight>have been running</highlight> since 7 AM. Why are you wet? <highlight>Have</highlight> you <highlight>been swimming</highlight>? We <highlight>have been waiting</highlight> for the bus for 20 minutes. It still hasn't come. How long <highlight>have</highlight> you <highlight>been learning</highlight> English?",
+        "question": "What do you notice about the activity and the visible result?",
+        "question_ru": "Что ты замечаешь о действии и видимом результате?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Present Perfect Continuous - Actions Continuing Until Now",
+        "title_ru": "Present Perfect Continuous - Действия, продолжающиеся до настоящего момента",
+        "points": [
+          {
+            "rule": "Form: have/has + been + verb-ing",
+            "rule_ru": "Форма: have/has + been + глагол-ing",
+            "example": "I have been working. She has been studying.",
+            "marker": "have/has been + -ing"
+          },
+          {
+            "rule": "Use 1: Action started in past and continues now",
+            "rule_ru": "Использование 1: Действие началось в прошлом и продолжается сейчас",
+            "example": "I have been learning English for 5 years. (still learning)",
+            "marker": "still happening"
+          },
+          {
+            "rule": "Use 2: Recent activity with visible result NOW",
+            "rule_ru": "Использование 2: Недавняя активность с видимым результатом СЕЙЧАС",
+            "example": "He's tired because he has been running. (that's why he's tired)",
+            "marker": "visible result"
+          },
+          {
+            "rule": "Key words: for (duration), since (starting point), all day/morning",
+            "rule_ru": "Ключевые слова: for (длительность), since (начало), all day/morning",
+            "example": "I have been waiting for an hour / since 2 o'clock.",
+            "marker": "for/since"
+          },
+          {
+            "rule": "Question: How long have you been + verb-ing?",
+            "rule_ru": "Вопрос: How long have you been + глагол-ing?",
+            "example": "How long have you been living here?",
+            "marker": "How long"
+          }
+        ],
+        "comparison_table": [
+          {"form": "Positive", "structure": "have/has + been + V-ing", "example": "I have been reading."},
+          {"form": "Negative", "structure": "have/has + not + been + V-ing", "example": "She hasn't been sleeping."},
+          {"form": "Question", "structure": "Have/Has + subject + been + V-ing?", "example": "Have you been waiting long?"},
+          {"form": "How long", "structure": "How long + have/has + been + V-ing?", "example": "How long has it been raining?"}
+        ]
+      },
+      "duration_minutes": 6
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all Present Perfect Continuous verbs. What's the visible result or duration?",
+      "instruction_ru": "Найди все глаголы в Present Perfect Continuous. Какой видимый результат или длительность?",
+      "tasks": [
+        {
+          "text": "Why is everyone so tired at this party? Maria has been dancing all night - her feet hurt. John has been talking non-stop for two hours - his voice is hoarse. The DJ has been playing music since 8 PM - it's now midnight! I have been standing here for an hour and my legs ache. Have you been eating? There's food on your shirt! Tom and Lisa have been arguing all evening - they look upset. The baby has been crying for 30 minutes. How long have you been having this party?",
+          "find": [
+            {"verb": "has been dancing", "duration": "all night", "result": "feet hurt"},
+            {"verb": "has been talking", "duration": "for two hours", "result": "voice is hoarse"},
+            {"verb": "has been playing", "duration": "since 8 PM", "result": "4 hours of music"},
+            {"verb": "have been standing", "duration": "for an hour", "result": "legs ache"},
+            {"verb": "Have you been eating", "duration": "recently", "result": "food on shirt"},
+            {"verb": "have been arguing", "duration": "all evening", "result": "they look upset"},
+            {"verb": "has been crying", "duration": "for 30 minutes", "result": "continuous crying"},
+            {"verb": "have you been having", "duration": "question about duration", "result": "ongoing party"}
+          ]
+        }
+      ],
+      "reflection_question": "What's the difference between 'I have read 3 books' and 'I have been reading all day'?",
+      "reflection_question_ru": "В чём разница между 'I have read 3 books' и 'I have been reading all day'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Complete with Present Perfect Continuous.",
+          "sentences": [
+            {"sentence": "I ___ (wait) for you for an hour!", "answer": "have been waiting"},
+            {"sentence": "She ___ (study) all morning.", "answer": "has been studying"},
+            {"sentence": "How long ___ you ___ (learn) to drive?", "answer": "have, been learning"},
+            {"sentence": "It ___ (rain) since yesterday.", "answer": "has been raining"},
+            {"sentence": "They ___ (work) on this project for weeks.", "answer": "have been working"},
+            {"sentence": "He ___ (not/sleep) well lately.", "answer": "hasn't been sleeping"},
+            {"sentence": "___ she ___ (cry)? Her eyes are red.", "answer": "Has, been crying"},
+            {"sentence": "We ___ (live) here since 2010.", "answer": "have been living"},
+            {"sentence": "I ___ (try) to call you all day!", "answer": "have been trying"},
+            {"sentence": "How long ___ it ___ (snow)?", "answer": "has, been snowing"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose Present Perfect Simple or Continuous.",
+          "questions": [
+            {
+              "sentence": "I ___ three cups of coffee today. (focus: quantity)",
+              "options": ["have drunk", "have been drinking", "was drinking"],
+              "correct": 0,
+              "explanation": "Focus on quantity/result = Present Perfect Simple"
+            },
+            {
+              "sentence": "I ___ coffee all morning. (focus: duration)",
+              "options": ["have drunk", "have been drinking", "was drinking"],
+              "correct": 1,
+              "explanation": "Focus on duration/activity = Present Perfect Continuous"
+            },
+            {
+              "sentence": "She ___ for 2 hours. That's why she's tired.",
+              "options": ["has run", "has been running", "ran"],
+              "correct": 1,
+              "explanation": "Duration + visible result = Present Perfect Continuous"
+            },
+            {
+              "sentence": "He ___ 5 kilometers. (completed distance)",
+              "options": ["has run", "has been running", "ran"],
+              "correct": 0,
+              "explanation": "Completed quantity = Present Perfect Simple"
+            },
+            {
+              "sentence": "How long ___ English?",
+              "options": ["have you learned", "have you been learning", "did you learn"],
+              "correct": 1,
+              "explanation": "How long + ongoing = Present Perfect Continuous"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I have been waiting since two hours.",
+              "correct": "I have been waiting for two hours.",
+              "explanation": "For + duration (two hours), since + point in time"
+            },
+            {
+              "incorrect": "She has been work all day.",
+              "correct": "She has been working all day.",
+              "explanation": "have/has been + verb-ing"
+            },
+            {
+              "incorrect": "How long have you been know him?",
+              "correct": "How long have you known him?",
+              "explanation": "'Know' is a state verb - use Present Perfect Simple"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Describe what people have been doing based on visible results.",
+      "instruction_ru": "Опиши, что люди делали, основываясь на видимых результатах.",
+      "prompts": [
+        "Someone is very tired - what have they been doing?",
+        "Someone's hands are dirty - what have they been doing?",
+        "How long have you been learning English?",
+        "What have you been working on recently?"
+      ],
+      "example": "Look at my friend Tom! He looks exhausted. He has been working overtime all week. His boss has been giving him extra projects. I can see he has been sleeping badly - he has dark circles under his eyes. I have been trying to help him, but he has been refusing to take breaks. We have been friends for 10 years, and I have never seen him this stressed. How long has your job been causing you problems, Tom?",
+      "ai_check": true,
+      "criteria": [
+        "Uses have/has been + verb-ing correctly",
+        "Shows connection between activity and result",
+        "Uses for/since appropriately",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with Present Perfect Continuous.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "After the Marathon",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I have been training for this marathon for six months. I have been running every day since January. My coach has been helping me with my technique. Today I finished! I'm exhausted - I have been running for four hours! My legs have been hurting since kilometer 30. But I'm so happy! My family has been waiting for me at the finish line. They have been cheering for hours!"
+        },
+        {
+          "id": "input_flood_2",
+          "title": "House Renovation",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "We have been renovating our house for three months. The builders have been working here since March. I have been choosing paint colors all week - it's so difficult! My husband has been installing new floors. The children have been complaining because there's dust everywhere. We haven't been sleeping well lately because of the noise. How long have you been living in chaos? It feels like forever! But it's going to be beautiful!"
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Learning Guitar",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "I have been learning guitar for two years. I have been practicing every day since I started. My fingers have been hurting a lot! My teacher has been giving me harder songs recently. I have been trying to play my favorite song for weeks. Have you been playing any instruments? It's harder than I expected! But I haven't been giving up. I have been making progress slowly."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Busy at Work",
+          "level": "B1",
+          "word_count": 85,
+          "target_structures": 11,
+          "content": "Sorry I haven't called! I have been working crazy hours. Our team has been preparing a big presentation. I have been staying late every night this week. My boss has been asking for more and more changes. I have been drinking too much coffee! I haven't been eating properly either. How long have you been waiting for my call? I'm sorry! Things have been getting better though. I have been looking forward to the weekend!"
+        },
+        {
+          "id": "input_flood_5",
+          "title": "New Neighbors",
+          "level": "B1",
+          "word_count": 80,
+          "target_structures": 10,
+          "content": "Our new neighbors have been making a lot of noise! They have been playing loud music since they moved in. I have been trying to talk to them but they're never home. They have been having parties every weekend. I haven't been sleeping well because of them. How long have they been living here? Only two weeks but it feels like months! I have been thinking about complaining to the landlord."
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ (wait) for 2 hours!",
+          "back": "have been waiting\n\nhave + been + V-ing"
+        },
+        {
+          "type": "fill_gap",
+          "front": "How long ___ you ___ (study)?",
+          "back": "have / been studying\n\nHow long + PPC"
+        },
+        {
+          "type": "choose",
+          "front": "I ___ three books. (quantity)\n(have read / have been reading)",
+          "back": "have read\n\nQuantity = PP Simple"
+        },
+        {
+          "type": "choose",
+          "front": "I ___ all day. (activity)\n(have read / have been reading)",
+          "back": "have been reading\n\nActivity/duration = PP Continuous"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"She has been wait for an hour.\"",
+          "back": "She has been waiting for an hour.\n\nbeen + V-ing"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 8,
+    "question_types": ["fill_gap", "choose_correct", "error_correction", "transformation"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Forgetting 'been' (have working)",
+      "Using with state verbs (have been knowing)",
+      "Confusing for and since",
+      "Using when PP Simple is needed (quantity)"
+    ],
+    "related_topics": ["b1_present_perfect_experience", "b1_present_perfect_unfinished"],
+    "ielts_relevance": "High - useful for describing ongoing situations",
+    "frequency_in_english": "High"
+  }
+}

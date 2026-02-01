@@ -1,0 +1,18 @@
+{
+  "id": "b1_reading_23",
+  "level": "B1",
+  "title": "Understanding Cryptocurrency",
+  "title_ru": "Понимание криптовалюты",
+  "word_count": 230,
+  "topic": "finance",
+  "text": "Cryptocurrency has moved from a niche technology to mainstream awareness. Bitcoin, Ethereum, and thousands of other digital currencies have attracted investors, speculators, and sceptics alike. But what exactly is cryptocurrency, and how does it work?\n\nAt its core, cryptocurrency is digital money that uses cryptography for security. Unlike traditional currencies controlled by central banks, most cryptocurrencies are decentralized, meaning no single authority controls them. Transactions are recorded on a blockchain – a shared digital ledger that's extremely difficult to alter.\n\nBitcoin, created in 2009, was the first cryptocurrency. Its mysterious creator, known only as Satoshi Nakamoto, wanted to create money free from government control. Since then, thousands of alternative cryptocurrencies have emerged, each with different features and purposes.\n\nCryptocurrency prices are notoriously volatile. Values can soar or crash dramatically within days or even hours. Some people have made fortunes, while others have lost significant amounts. This volatility makes cryptocurrency a risky investment.\n\nBeyond speculation, cryptocurrencies have practical applications. They enable fast, cheap international transfers. They provide financial services to people without access to traditional banking. Some businesses accept cryptocurrency as payment.\n\nHowever, concerns remain. The energy required for some cryptocurrency networks is enormous. Criminal activity has used cryptocurrency for its relative anonymity. Many governments are still developing regulations for this new asset class.\n\nUnderstanding cryptocurrency is increasingly important as digital money continues to evolve. Whether it becomes mainstream currency or remains a niche investment remains to be seen.",
+  "questions": [
+    {"type": "multiple_choice", "question": "Who created Bitcoin?", "options": ["Mark Zuckerberg", "Satoshi Nakamoto", "Elon Musk"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is a blockchain?", "options": ["A type of bank", "A shared digital ledger", "A cryptocurrency"], "correct": 1},
+    {"type": "true_false", "question": "Cryptocurrency prices are very stable.", "correct": false},
+    {"type": "true_false", "question": "Cryptocurrency uses cryptography for security.", "correct": true},
+    {"type": "fill_gap", "question": "Bitcoin was the first cryptocurrency, created in ___.", "answer": "2009"}
+  ],
+  "vocabulary": ["cryptocurrency", "blockchain", "decentralized", "volatile", "ledger"],
+  "grammar_focus": ["present_simple", "passive_voice"]
+}

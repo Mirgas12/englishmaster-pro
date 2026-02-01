@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_17",
+  "level": "B2",
+  "title": "Biodiversity and Ecosystem Services",
+  "title_ru": "Биоразнообразие и экосистемные услуги",
+  "word_count": 300,
+  "topic": "environment",
+  "text": "The variety of life on Earth – biodiversity – is declining at an alarming rate. Scientists warn we may be entering a sixth mass extinction, with species disappearing at rates not seen since the dinosaurs vanished. Understanding why biodiversity matters, beyond its intrinsic value, reveals the profound risks we face.\n\nEcosystem services are the benefits humans derive from functioning ecosystems. Pollinating insects, including bees and butterflies, support crops worth billions annually. Forests regulate climate, filter water, and prevent erosion. Wetlands absorb floods and purify water. Coral reefs protect coastlines while supporting fisheries. These services, often taken for granted, have enormous economic value.\n\nBiodiversity underpins ecosystem resilience. Complex systems with many species can better withstand and recover from disturbances. Monocultures, whether in agriculture or forestry, are vulnerable to pests and diseases. Diverse systems are more stable and productive over time.\n\nHabitat loss drives biodiversity decline more than any other factor. Converting forests, wetlands, and grasslands to agriculture and urban areas destroys the homes of countless species. Fragmented habitats isolate populations, reducing genetic diversity and increasing extinction risk.\n\nClimate change compounds these pressures. Species must adapt, migrate, or perish as conditions shift. Those unable to move fast enough face extinction. Coral reefs, extremely sensitive to temperature, are already experiencing mass die-offs.\n\nOverexploitation – hunting, fishing, and harvesting beyond sustainable levels – directly depletes species. Invasive species, often introduced through global trade, outcompete native organisms. Pollution degrades habitats and poisons wildlife.\n\nConservation efforts offer hope but require scaling up dramatically. Protected areas must expand. Sustainable practices must become mainstream in agriculture and fishing. Restoration of degraded ecosystems can recover some lost biodiversity.\n\nThe stakes are existential. Human wellbeing ultimately depends on healthy ecosystems. Protecting biodiversity isn't just about saving pandas – it's about preserving the living systems that sustain us all.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What are ecosystem services?", "options": ["Government environmental programs", "Benefits humans derive from ecosystems", "Fees for entering parks"], "correct": 1},
+    {"type": "multiple_choice", "question": "What is the main driver of biodiversity loss?", "options": ["Climate change", "Pollution", "Habitat loss"], "correct": 2},
+    {"type": "true_false", "question": "Monocultures are more resilient than diverse systems.", "correct": false},
+    {"type": "true_false", "question": "Coral reefs are sensitive to temperature changes.", "correct": true},
+    {"type": "fill_gap", "question": "Scientists warn we may be entering a sixth mass ___.", "answer": "extinction"}
+  ],
+  "vocabulary": ["biodiversity", "ecosystem services", "resilience", "monoculture", "invasive species"],
+  "grammar_focus": ["present_continuous", "passive_voice"]
+}

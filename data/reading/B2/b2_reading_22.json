@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_22",
+  "level": "B2",
+  "title": "The Psychology of Persuasion",
+  "title_ru": "Психология убеждения",
+  "word_count": 300,
+  "topic": "psychology",
+  "text": "Understanding how persuasion works is valuable for recognizing manipulation attempts and communicating more effectively. Decades of psychological research have identified principles that explain why people change their minds or comply with requests.\n\nReciprocity describes our tendency to want to repay favors. When someone does something for us, we feel obligated to return the gesture. Marketers exploit this by offering free samples or gifts before making sales pitches. The sense of obligation persists even when the initial favor was unrequested.\n\nSocial proof relies on our tendency to look to others for guidance, especially in uncertain situations. Reviews, testimonials, and statistics about popular choices all leverage social proof. When we see others doing something, we assume it must be correct or desirable.\n\nAuthority figures command deference. Experts, officials, and even people merely dressed as authorities can influence behavior disproportionately. This explains the effectiveness of expert endorsements and why scammers often impersonate officials.\n\nLiking affects persuasion more than we typically admit. We're more easily persuaded by people we find attractive, similar to ourselves, or who compliment us. Salespeople deliberately build rapport before pitching products.\n\nScarcity increases perceived value. Limited-time offers, exclusive access, and warnings about running out all create urgency that bypasses careful consideration. The fear of missing out is a powerful motivator.\n\nCommitment and consistency mean that once we've made a decision or stated a position, we feel pressure to behave consistently with it. Getting small initial commitments makes larger ones more likely.\n\nThese principles aren't inherently manipulative – they reflect genuine aspects of human psychology. Ethical persuasion uses them to help people make decisions aligned with their interests. Awareness of these techniques helps us recognize when they're being used against our interests and make more autonomous choices.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What does reciprocity describe?", "options": ["Tendency to copy others", "Tendency to repay favors", "Tendency to trust experts"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does scarcity create?", "options": ["Relaxation", "Urgency", "Skepticism"], "correct": 1},
+    {"type": "true_false", "question": "We are less influenced by people we find attractive.", "correct": false},
+    {"type": "true_false", "question": "Social proof means looking to others for guidance.", "correct": true},
+    {"type": "fill_gap", "question": "Once we've made a commitment, we feel pressure to behave ___.", "answer": "consistently"}
+  ],
+  "vocabulary": ["persuasion", "reciprocity", "social proof", "scarcity", "compliance"],
+  "grammar_focus": ["present_simple", "gerunds"]
+}

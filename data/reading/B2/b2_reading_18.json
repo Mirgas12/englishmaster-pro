@@ -1,0 +1,18 @@
+{
+  "id": "b2_reading_18",
+  "level": "B2",
+  "title": "The Future of Work",
+  "title_ru": "Будущее работы",
+  "word_count": 305,
+  "topic": "work",
+  "text": "Technological change has always transformed work, but the current pace of automation raises unprecedented questions about the future of human employment. While some warn of mass technological unemployment, others envision a world of new opportunities. The reality will likely fall between these extremes.\n\nAutomation increasingly affects not just manual labor but cognitive work. Algorithms can now draft legal documents, diagnose diseases, and trade stocks. Jobs involving routine tasks – whether physical or mental – are most vulnerable. Paralegals, radiologists, and financial analysts face disruption alongside factory workers and truck drivers.\n\nYet history suggests caution about predictions of mass unemployment. New technologies have consistently created new types of jobs, often unimaginable beforehand. Who anticipated social media managers or app developers before the platforms existed? The challenge is that transitions can be painful, particularly for workers whose skills become obsolete.\n\nCertain capabilities remain difficult to automate. Complex social interactions, creative problem-solving, caring for others, and work requiring physical presence in unpredictable environments will likely remain human domains. Many jobs may be transformed rather than eliminated – working alongside AI rather than being replaced by it.\n\nThe distribution of benefits and burdens matters enormously. If productivity gains flow primarily to capital owners while workers face displacement, inequality will worsen dramatically. Policy choices – from education to taxation to social safety nets – will shape outcomes.\n\nEducation systems must evolve to prepare students for a rapidly changing landscape. Emphasis on adaptability, critical thinking, and social skills may matter more than specific technical training that risks obsolescence. Lifelong learning will become essential as careers evolve.\n\nAlternative visions of the future include reduced work hours, sharing productivity gains broadly, or universal basic income. Different societies will make different choices about how to distribute the fruits of automation.\n\nThe future of work isn't predetermined – it's something we collectively create through the choices we make today.",
+  "questions": [
+    {"type": "multiple_choice", "question": "What type of jobs are most vulnerable to automation?", "options": ["Creative jobs", "Jobs with routine tasks", "Social interaction jobs"], "correct": 1},
+    {"type": "multiple_choice", "question": "What does history suggest about technological unemployment fears?", "options": ["They are always correct", "They should be cautious", "They are never valid"], "correct": 1},
+    {"type": "true_false", "question": "Automation only affects manual labor.", "correct": false},
+    {"type": "true_false", "question": "Lifelong learning will become essential.", "correct": true},
+    {"type": "fill_gap", "question": "Many jobs may be ___ rather than eliminated.", "answer": "transformed"}
+  ],
+  "vocabulary": ["automation", "obsolete", "displacement", "adaptability", "universal basic income"],
+  "grammar_focus": ["future_tenses", "modal_verbs"]
+}

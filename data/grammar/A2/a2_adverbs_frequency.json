@@ -1,0 +1,285 @@
+{
+  "id": "a2_adverbs_frequency",
+  "level": "A2",
+  "title": "Adverbs of Frequency",
+  "title_ru": "Наречия частотности",
+  "estimatedMinutes": 25,
+  "prerequisites": ["a1_present_simple"],
+
+  "phases": {
+    "discover": {
+      "type": "text_with_highlights",
+      "instruction": "Read about daily habits. Notice the highlighted words.",
+      "instruction_ru": "Прочитай о ежедневных привычках. Обрати внимание на выделенные слова.",
+      "content": {
+        "text": "My morning routine: I <highlight>always</highlight> wake up at 7 AM. I <highlight>usually</highlight> take a shower first. I <highlight>often</highlight> eat breakfast at home, but <highlight>sometimes</highlight> I skip it. I <highlight>rarely</highlight> drink coffee - I prefer tea. I <highlight>never</highlight> leave home without my phone! My bus is <highlight>usually</highlight> on time, but it's <highlight>occasionally</highlight> late. I'm <highlight>hardly ever</highlight> late for work.",
+        "question": "Where do these words appear in the sentence? What do they tell us?",
+        "question_ru": "Где эти слова появляются в предложении? Что они нам говорят?"
+      }
+    },
+
+    "understand": {
+      "theory": {
+        "title": "Adverbs of Frequency - How often?",
+        "title_ru": "Наречия частотности - Как часто?",
+        "points": [
+          {
+            "rule": "Position: before main verb, after 'be'",
+            "rule_ru": "Позиция: перед основным глаголом, после 'be'",
+            "example": "I always eat breakfast. She is always happy.",
+            "marker": "position"
+          },
+          {
+            "rule": "Always (100%) → Never (0%)",
+            "rule_ru": "Always (100%) → Never (0%)",
+            "example": "always > usually > often > sometimes > rarely > never",
+            "marker": "scale"
+          },
+          {
+            "rule": "Sometimes, usually, often can start a sentence",
+            "rule_ru": "Sometimes, usually, often могут начинать предложение",
+            "example": "Sometimes I work from home. Usually I take the bus.",
+            "marker": "flexible"
+          },
+          {
+            "rule": "Hardly ever = almost never",
+            "rule_ru": "Hardly ever = почти никогда",
+            "example": "I hardly ever eat fast food. (= almost never)",
+            "marker": "hardly ever"
+          }
+        ],
+        "comparison_table": [
+          {"adverb": "always", "percentage": "100%", "example": "I always brush my teeth."},
+          {"adverb": "usually", "percentage": "80%", "example": "I usually walk to work."},
+          {"adverb": "often", "percentage": "60%", "example": "I often read before bed."},
+          {"adverb": "sometimes", "percentage": "40%", "example": "I sometimes eat out."},
+          {"adverb": "occasionally", "percentage": "20%", "example": "I occasionally go to the gym."},
+          {"adverb": "rarely/seldom", "percentage": "10%", "example": "I rarely eat sweets."},
+          {"adverb": "hardly ever", "percentage": "5%", "example": "I hardly ever watch TV."},
+          {"adverb": "never", "percentage": "0%", "example": "I never smoke."}
+        ]
+      },
+      "duration_minutes": 5
+    },
+
+    "notice": {
+      "type": "consciousness_raising",
+      "instruction": "Find all adverbs of frequency. Note their position in the sentence.",
+      "instruction_ru": "Найди все наречия частотности. Отметь их позицию в предложении.",
+      "tasks": [
+        {
+          "text": "My sister has interesting habits. She always wakes up early, even on weekends. She usually exercises before breakfast. She is never late for anything! She often works from home. Sometimes she goes to a cafe to work. She rarely eats junk food. She hardly ever watches TV. She occasionally reads fiction, but she usually reads non-fiction. I'm always amazed by her discipline!",
+          "find": [
+            {"adverb": "always", "position": "before main verb 'wakes'"},
+            {"adverb": "usually", "position": "before main verb 'exercises'"},
+            {"adverb": "never", "position": "after 'is'"},
+            {"adverb": "often", "position": "before main verb 'works'"},
+            {"adverb": "Sometimes", "position": "start of sentence"},
+            {"adverb": "rarely", "position": "before main verb 'eats'"},
+            {"adverb": "hardly ever", "position": "before main verb 'watches'"},
+            {"adverb": "occasionally", "position": "before main verb 'reads'"},
+            {"adverb": "usually", "position": "before main verb 'reads'"},
+            {"adverb": "always", "position": "after 'am'"}
+          ]
+        }
+      ],
+      "reflection_question": "Why 'She is never late' but 'She never eats fast food'?",
+      "reflection_question_ru": "Почему 'She is never late', но 'She never eats fast food'?"
+    },
+
+    "practice": {
+      "exercises": [
+        {
+          "type": "fill_gap_context",
+          "instruction": "Put the adverb in the correct position.",
+          "sentences": [
+            {"sentence": "I ___ drink coffee in the morning. (always)", "answer": "always drink"},
+            {"sentence": "She ___ ___ late. (is/never)", "answer": "is never"},
+            {"sentence": "He ___ ___ to the gym. (goes/often)", "answer": "often goes"},
+            {"sentence": "We ___ ___ eat out. (rarely)", "answer": "rarely eat"},
+            {"sentence": "___ I work from home. (sometimes)", "answer": "Sometimes"},
+            {"sentence": "They ___ ___ on time. (are/usually)", "answer": "are usually"},
+            {"sentence": "I ___ ___ watch horror movies. (hardly ever)", "answer": "hardly ever watch"},
+            {"sentence": "My parents ___ ___ help me. (always)", "answer": "always help"},
+            {"sentence": "It ___ ___ cold here. (is/never)", "answer": "is never"},
+            {"sentence": "She ___ ___ sick. (is/occasionally)", "answer": "is occasionally"}
+          ]
+        },
+        {
+          "type": "choose_correct",
+          "instruction": "Choose the sentence with correct word order.",
+          "questions": [
+            {
+              "sentence": "Which is correct?",
+              "options": ["I go always to work.", "I always go to work.", "Always I go to work."],
+              "correct": 1,
+              "explanation": "Adverb before main verb"
+            },
+            {
+              "sentence": "Which is correct?",
+              "options": ["She never is late.", "She is never late.", "Never she is late."],
+              "correct": 1,
+              "explanation": "Adverb after 'be'"
+            },
+            {
+              "sentence": "Which is correct?",
+              "options": ["He drinks usually tea.", "He usually drinks tea.", "Usually he drinks tea."],
+              "correct": 1,
+              "explanation": "Adverb before main verb (or at start)"
+            },
+            {
+              "sentence": "Which is correct?",
+              "options": ["We hardly watch ever TV.", "We hardly ever watch TV.", "We watch hardly ever TV."],
+              "correct": 1,
+              "explanation": "'Hardly ever' stays together, before verb"
+            },
+            {
+              "sentence": "Which is correct?",
+              "options": ["Sometimes I eat out.", "I eat sometimes out.", "I eat out sometimes."],
+              "correct": 0,
+              "explanation": "Sometimes can start a sentence"
+            }
+          ]
+        },
+        {
+          "type": "error_correction",
+          "instruction": "Find and correct the mistake.",
+          "sentences": [
+            {
+              "incorrect": "I go always to the gym.",
+              "correct": "I always go to the gym.",
+              "explanation": "Adverb before main verb"
+            },
+            {
+              "incorrect": "She is late never.",
+              "correct": "She is never late.",
+              "explanation": "Adverb after 'be', before adjective"
+            },
+            {
+              "incorrect": "He watches TV ever hardly.",
+              "correct": "He hardly ever watches TV.",
+              "explanation": "'Hardly ever' together, before verb"
+            }
+          ]
+        }
+      ],
+      "total_exercises": 18,
+      "pass_threshold": 0.7
+    },
+
+    "produce": {
+      "type": "free_writing",
+      "instruction": "Write about your daily habits using adverbs of frequency.",
+      "instruction_ru": "Напиши о своих ежедневных привычках, используя наречия частотности.",
+      "prompts": [
+        "What do you always do?",
+        "What do you usually do?",
+        "What do you sometimes do?",
+        "What do you rarely/never do?"
+      ],
+      "example": "I always wake up at 7 AM. I usually take a shower in the morning. I often eat breakfast at home, but sometimes I eat at work. I rarely skip meals. I never drink alcohol. I am usually in a good mood. I occasionally feel stressed, but I always try to stay positive.",
+      "ai_check": true,
+      "criteria": [
+        "Uses at least 5 different adverbs",
+        "Correct position before main verb",
+        "Correct position after 'be'",
+        "At least 6 sentences"
+      ]
+    },
+
+    "input_flood": {
+      "description": "Read 5 texts with many adverbs of frequency.",
+      "texts": [
+        {
+          "id": "input_flood_1",
+          "title": "Healthy Lifestyle",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "I try to live healthily. I always eat breakfast. I usually have fruit and yogurt. I often go to the gym - about three times a week. I sometimes skip exercise when I'm tired. I rarely eat fast food. I never smoke. I am usually in bed by 11 PM. I occasionally stay up late on weekends."
+        },
+        {
+          "id": "input_flood_2",
+          "title": "Work Habits",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "I usually arrive at work at 9 AM. I'm never late. I always check my emails first. I often have meetings in the morning. I sometimes work through lunch. I rarely leave before 6 PM. I occasionally work overtime. I hardly ever work on weekends - only in emergencies."
+        },
+        {
+          "id": "input_flood_3",
+          "title": "Family Traditions",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "Our family has many traditions. We always have dinner together on Sundays. We usually visit my grandparents monthly. We often play board games. Sometimes we go on picnics. We rarely argue - we're a close family. We never forget each other's birthdays. We are usually happy when we're together."
+        },
+        {
+          "id": "input_flood_4",
+          "title": "Travel Preferences",
+          "level": "A2",
+          "word_count": 65,
+          "target_structures": 9,
+          "content": "When I travel, I usually stay in hotels. I sometimes try hostels. I always book in advance. I often travel alone. I rarely go on group tours. I never travel without insurance. I usually take many photos. I am never bored on trips - I always find interesting things to do."
+        },
+        {
+          "id": "input_flood_5",
+          "title": "Learning English",
+          "level": "A2",
+          "word_count": 70,
+          "target_structures": 10,
+          "content": "I study English every day. I always use this app. I usually practice for 30 minutes. I often listen to podcasts. Sometimes I watch movies in English. I rarely speak English at work. I never miss a lesson. I am usually motivated, but occasionally I feel lazy. I hardly ever give up!"
+        }
+      ]
+    },
+
+    "review": {
+      "grammar_cards": [
+        {
+          "type": "fill_gap",
+          "front": "I ___ (always) eat breakfast.",
+          "back": "I always eat breakfast.\n\nAdverb before main verb"
+        },
+        {
+          "type": "fill_gap",
+          "front": "She ___ (is/never) late.",
+          "back": "She is never late.\n\nAdverb after 'be'"
+        },
+        {
+          "type": "transformation",
+          "front": "Put 'usually' in:\n\"I go to the gym.\"",
+          "back": "I usually go to the gym.\n\nBefore main verb"
+        },
+        {
+          "type": "error_correction",
+          "front": "Find the error:\n\"I go often to the park.\"",
+          "back": "I often go to the park.\n\nAdverb before verb"
+        },
+        {
+          "type": "fill_gap",
+          "front": "I ___ ___ watch TV. (hardly ever)",
+          "back": "I hardly ever watch TV.\n\n'Hardly ever' together, before verb"
+        }
+      ]
+    }
+  },
+
+  "test": {
+    "questions": 10,
+    "pass_threshold": 0.7,
+    "time_limit_minutes": 5,
+    "question_types": ["fill_gap", "choose_correct", "error_correction"]
+  },
+
+  "metadata": {
+    "common_errors": [
+      "Wrong position (I go always)",
+      "Adverb before 'be' (He never is late)",
+      "Splitting 'hardly ever'",
+      "Wrong order with auxiliaries"
+    ],
+    "related_topics": ["a1_present_simple", "a1_present_continuous"],
+    "ielts_relevance": "High - used in Speaking Part 1",
+    "frequency_in_english": "Very high"
+  }
+}
