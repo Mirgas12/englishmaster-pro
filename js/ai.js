@@ -1,9 +1,16 @@
 /**
  * AI module for Gemini and LanguageTool integration
- * Supports both local development (direct API) and Vercel deployment (serverless proxy)
+ * Supports multiple deployment modes:
  *
- * On Vercel: API keys are stored as Environment Variables, requests go through /api/* proxies
- * On localhost: Direct API calls using keys from config.local.js
+ * 1. VERCEL (recommended): API keys in Environment Variables, requests via /api/* proxies
+ * 2. LOCAL: Direct API calls using keys from config.local.js
+ * 3. GITHUB PAGES: No serverless support, falls back to local mode (limited AI)
+ *
+ * Detection priority:
+ * - localhost/127.0.0.1 → LOCAL
+ * - *.vercel.app → VERCEL
+ * - *.github.io → LOCAL (no serverless on GitHub Pages)
+ * - Custom domain → VERCEL (assumes Vercel deployment with custom domain)
  */
 
 import Config from './config.js';
@@ -11,7 +18,8 @@ import Config from './config.js';
 class AI {
     constructor() {
         // Detect deployment mode
-        this.isVercel = this.detectVercelDeployment();
+        this.deploymentMode = this.detectDeploymentMode();
+        this.isVercel = this.deploymentMode === 'vercel';
 
         // Set endpoints based on deployment
         if (this.isVercel) {
@@ -20,32 +28,58 @@ class AI {
             this.grammarUrl = '/api/grammar-check';
             console.log('AI: Running in Vercel mode (using server proxies)');
         } else {
-            // Local development - direct API calls
+            // Local/GitHub Pages - direct API calls
             this.geminiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
             this.grammarUrl = Config.languageToolUrl;
-            console.log('AI: Running in local mode (direct API calls)');
+            console.log(`AI: Running in ${this.deploymentMode} mode (direct API calls)`);
         }
     }
 
     /**
-     * Detect if running on Vercel/production deployment
+     * Detect deployment environment
+     * @returns {'local' | 'vercel' | 'github-pages' | 'static'}
      */
-    detectVercelDeployment() {
+    detectDeploymentMode() {
         const hostname = window.location.hostname;
 
-        // Local development
-        if (hostname === 'localhost' || hostname === '127.0.0.1' || hostname.startsWith('192.168.')) {
-            return false;
+        // 1. Local development
+        if (hostname === 'localhost' ||
+            hostname === '127.0.0.1' ||
+            hostname.startsWith('192.168.') ||
+            hostname.startsWith('10.') ||
+            hostname.endsWith('.local')) {
+            return 'local';
         }
 
-        // Vercel domains
-        if (hostname.includes('vercel.app') || hostname.includes('.vercel.')) {
-            return true;
+        // 2. Vercel domains (serverless available)
+        if (hostname.includes('vercel.app') ||
+            hostname.includes('.vercel.') ||
+            hostname.endsWith('-vercel.app')) {
+            return 'vercel';
         }
 
-        // Custom domain - assume Vercel if not localhost
-        // (API routes will be available)
-        return true;
+        // 3. GitHub Pages (NO serverless, static only)
+        if (hostname.includes('github.io') ||
+            hostname.includes('githubusercontent.com')) {
+            return 'github-pages';
+        }
+
+        // 4. Netlify (has serverless, but different path)
+        if (hostname.includes('netlify.app') ||
+            hostname.includes('netlify.com')) {
+            // Netlify uses /.netlify/functions/ - not supported yet
+            return 'static';
+        }
+
+        // 5. Custom domain - check if API routes exist
+        // Assume Vercel if deployed with custom domain (most common case)
+        // User can override via config if needed
+        if (Config.forceLocalMode) {
+            return 'static';
+        }
+
+        // Default: assume Vercel with custom domain
+        return 'vercel';
     }
 
     /**

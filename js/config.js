@@ -39,6 +39,11 @@ const Config = {
     // Free Dictionary API - fully public, no key needed
     dictionaryApiUrl: "https://api.dictionaryapi.dev/api/v2/entries/en",
 
+    // Force local mode (direct API calls) even on custom domains
+    // Set to true if hosting on a platform without serverless (e.g., static hosting)
+    // When true, you MUST provide geminiApiKey above (will be visible in browser!)
+    forceLocalMode: false,
+
     // CEFR Level hours (Cambridge official)
     levelHours: {
         A1: 95,
@@ -80,6 +85,10 @@ const Config = {
         if (typeof LocalConfig !== 'undefined') {
             Object.assign(this.firebase, LocalConfig.firebase || {});
             this.geminiApiKey = LocalConfig.geminiApiKey || this.geminiApiKey;
+            // Allow override of deployment mode detection
+            if (LocalConfig.forceLocalMode !== undefined) {
+                this.forceLocalMode = LocalConfig.forceLocalMode;
+            }
         }
     }
 };
