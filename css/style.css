@@ -701,6 +701,26 @@ html, body {
     font-size: var(--font-size-sm);
 }
 
+/* Vocabulary Tags */
+.vocab-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    background: var(--primary-light);
+    color: var(--primary);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-xs);
+}
+
+/* Recommendation Card */
+.recommendation-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
 /* Skill Progress */
 .skill-progress {
     display: flex;

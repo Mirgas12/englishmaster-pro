@@ -1633,34 +1633,245 @@ class UI {
     // ==================== IMMERSION ====================
 
     /**
-     * Show placeholder for Immersion section (not implemented per TZ)
+     * Show Immersion section with AI-generated recommendations
      */
     showImmersionPlaceholder() {
         const container = document.getElementById('immersion-list');
         if (!container) return;
 
         const isRu = i18n.getLocale() === 'ru';
+        const level = this.profile.levels?.overall || 'A1';
 
         container.innerHTML = `
-            <div class="card text-center" style="padding: 32px;">
-                <div style="font-size: 48px; margin-bottom: 16px;">🎬</div>
-                <h3 class="card-title mb-md">${isRu ? 'Раздел в разработке' : 'Section in Development'}</h3>
+            <div class="card">
                 <p class="text-hint mb-md">
                     ${isRu
-                        ? 'Здесь будут фильмы, сериалы, подкасты и видео с YouTube для практики английского по вашему уровню.'
-                        : 'Movies, TV shows, podcasts and YouTube videos for English practice at your level will be here.'
+                        ? `Рекомендации фильмов и сериалов для уровня <strong>${level}</strong>. Смотрите с английскими субтитрами для лучшего результата!`
+                        : `Movie and TV show recommendations for level <strong>${level}</strong>. Watch with English subtitles for best results!`
                     }
                 </p>
-                <p class="text-hint">
-                    ${isRu ? 'Пока вы можете использовать:' : 'For now, you can use:'}
-                </p>
-                <ul style="text-align: left; margin-top: 12px; list-style: disc; padding-left: 24px;">
-                    <li><a href="https://www.youtube.com/@EngVid" target="_blank" style="color: var(--primary);">EngVid (YouTube)</a></li>
-                    <li><a href="https://www.youtube.com/@BBCLearningEnglish" target="_blank" style="color: var(--primary);">BBC Learning English</a></li>
-                    <li><a href="https://www.netflix.com" target="_blank" style="color: var(--primary);">Netflix</a> ${isRu ? '(с субтитрами)' : '(with subtitles)'}</li>
+                <button class="btn btn-primary btn-block" id="generate-recommendations">
+                    ${isRu ? '🎬 Получить рекомендации' : '🎬 Get Recommendations'}
+                </button>
+            </div>
+            <div id="recommendations-list" class="mt-md"></div>
+        `;
+
+        // Add event listener for generate button
+        document.getElementById('generate-recommendations')?.addEventListener('click', () => {
+            this.generateImmersionRecommendations(level);
+        });
+
+        // Auto-load recommendations on first visit
+        this.generateImmersionRecommendations(level);
+    }
+
+    /**
+     * Generate movie/series recommendations using AI
+     */
+    async generateImmersionRecommendations(level) {
+        const container = document.getElementById('recommendations-list');
+        const button = document.getElementById('generate-recommendations');
+        if (!container) return;
+
+        const isRu = i18n.getLocale() === 'ru';
+
+        // Show loading
+        button.disabled = true;
+        button.innerHTML = isRu ? '⏳ Загрузка...' : '⏳ Loading...';
+
+        container.innerHTML = `
+            <div class="card text-center">
+                <div class="spinner" style="margin: 20px auto;"></div>
+                <p class="text-hint">${isRu ? 'Генерируем рекомендации...' : 'Generating recommendations...'}</p>
+            </div>
+        `;
+
+        try {
+            // Import AI module dynamically
+            const AI = (await import('./ai.js')).default;
+
+            const prompt = `Generate 5 movie/TV series recommendations for learning English at ${level} level.
+For each recommendation provide:
+1. Title (original English)
+2. Type (movie/series/cartoon/documentary)
+3. Year
+4. Why it's good for this level (1 sentence)
+5. Key vocabulary topics learner will encounter
+
+Format as JSON array:
+[{"title": "...", "type": "...", "year": "...", "reason": "...", "vocabulary": ["topic1", "topic2"]}]
+
+Level guidelines:
+- A1: Simple children's content, slow speech (Peppa Pig, Bluey, Finding Nemo)
+- A2: Simple sitcoms, animated movies (Extra English, Simpsons, Toy Story)
+- B1: Popular sitcoms, mainstream movies (Friends, Big Bang Theory, Forrest Gump)
+- B2: Drama series, complex plots (The Office, Stranger Things, Black Mirror)
+- C1: Fast-paced dialogue, sophisticated content (Sherlock, House of Cards, Succession)
+
+Return ONLY the JSON array, no other text.`;
+
+            const response = await AI.generateText(prompt);
+
+            // Parse JSON from response
+            let recommendations;
+            try {
+                // Try to extract JSON from response
+                const jsonMatch = response.match(/\[[\s\S]*\]/);
+                if (jsonMatch) {
+                    recommendations = JSON.parse(jsonMatch[0]);
+                } else {
+                    throw new Error('No JSON found');
+                }
+            } catch (e) {
+                // Fallback recommendations if AI fails
+                recommendations = this.getFallbackRecommendations(level);
+            }
+
+            this.renderImmersionRecommendations(container, recommendations, level, isRu);
+
+        } catch (error) {
+            console.error('Failed to generate recommendations:', error);
+            // Use fallback
+            const recommendations = this.getFallbackRecommendations(level);
+            this.renderImmersionRecommendations(container, recommendations, level, isRu);
+        }
+
+        // Reset button
+        button.disabled = false;
+        button.innerHTML = isRu ? '🔄 Ещё рекомендации' : '🔄 More Recommendations';
+    }
+
+    /**
+     * Fallback recommendations if AI is unavailable
+     */
+    getFallbackRecommendations(level) {
+        const recommendations = {
+            'A1': [
+                { title: 'Peppa Pig', type: 'cartoon', year: '2004-', reason: 'Simple vocabulary, slow clear speech, everyday situations', vocabulary: ['family', 'animals', 'daily routines'] },
+                { title: 'Bluey', type: 'cartoon', year: '2018-', reason: 'Natural family conversations, Australian English', vocabulary: ['games', 'emotions', 'family'] },
+                { title: 'Finding Nemo', type: 'movie', year: '2003', reason: 'Clear speech, emotional story, simple plot', vocabulary: ['ocean', 'animals', 'adventure'] },
+                { title: 'Paddington', type: 'movie', year: '2014', reason: 'British English, polite expressions, humor', vocabulary: ['home', 'manners', 'London'] },
+                { title: 'Super Simple Songs', type: 'series', year: '2005-', reason: 'Educational songs, repetitive vocabulary', vocabulary: ['numbers', 'colors', 'body parts'] }
+            ],
+            'A2': [
+                { title: 'Extra English', type: 'series', year: '2002', reason: 'Made for learners, clear speech, subtitles', vocabulary: ['daily life', 'relationships', 'work'] },
+                { title: 'The Simpsons', type: 'series', year: '1989-', reason: 'American culture, humor, varied vocabulary', vocabulary: ['family', 'school', 'work'] },
+                { title: 'Toy Story', type: 'movie', year: '1995', reason: 'Clear dialogue, friendship themes', vocabulary: ['toys', 'emotions', 'adventure'] },
+                { title: 'Shrek', type: 'movie', year: '2001', reason: 'Humor, fairy tale vocabulary, memorable quotes', vocabulary: ['fairy tales', 'humor', 'friendship'] },
+                { title: 'Young Sheldon', type: 'series', year: '2017-', reason: 'Clear speech, family situations, humor', vocabulary: ['school', 'science', 'family'] }
+            ],
+            'B1': [
+                { title: 'Friends', type: 'series', year: '1994-2004', reason: 'Natural conversations, American slang, humor', vocabulary: ['relationships', 'work', 'daily life'] },
+                { title: 'How I Met Your Mother', type: 'series', year: '2005-2014', reason: 'Modern vocabulary, dating culture', vocabulary: ['dating', 'friendship', 'New York'] },
+                { title: 'The Big Bang Theory', type: 'series', year: '2007-2019', reason: 'Geek culture, science terms, humor', vocabulary: ['science', 'technology', 'relationships'] },
+                { title: 'Modern Family', type: 'series', year: '2009-2020', reason: 'Family dynamics, diverse characters', vocabulary: ['family', 'parenting', 'American culture'] },
+                { title: 'Forrest Gump', type: 'movie', year: '1994', reason: 'American history, clear narration', vocabulary: ['history', 'emotions', 'life lessons'] }
+            ],
+            'B2': [
+                { title: 'The Office (US)', type: 'series', year: '2005-2013', reason: 'Workplace humor, subtle comedy, mockumentary style', vocabulary: ['business', 'office life', 'relationships'] },
+                { title: 'Stranger Things', type: 'series', year: '2016-', reason: 'Suspense, 80s culture, varied dialogue', vocabulary: ['supernatural', 'friendship', 'science'] },
+                { title: 'Black Mirror', type: 'series', year: '2011-', reason: 'Technology themes, British English, complex plots', vocabulary: ['technology', 'society', 'ethics'] },
+                { title: 'The Crown', type: 'series', year: '2016-', reason: 'British English, formal speech, history', vocabulary: ['royalty', 'politics', 'history'] },
+                { title: 'Breaking Bad', type: 'series', year: '2008-2013', reason: 'Intense dialogue, character development', vocabulary: ['crime', 'chemistry', 'morality'] }
+            ],
+            'C1': [
+                { title: 'Sherlock', type: 'series', year: '2010-2017', reason: 'Fast dialogue, complex vocabulary, British English', vocabulary: ['detective', 'deduction', 'London'] },
+                { title: 'House of Cards', type: 'series', year: '2013-2018', reason: 'Political vocabulary, sophisticated dialogue', vocabulary: ['politics', 'power', 'manipulation'] },
+                { title: 'Peaky Blinders', type: 'series', year: '2013-2022', reason: 'British accents, historical slang', vocabulary: ['crime', 'history', 'business'] },
+                { title: 'True Detective', type: 'series', year: '2014-', reason: 'Complex narratives, philosophical themes', vocabulary: ['crime', 'philosophy', 'psychology'] },
+                { title: 'Succession', type: 'series', year: '2018-2023', reason: 'Business jargon, fast-paced dialogue', vocabulary: ['business', 'family', 'media'] }
+            ]
+        };
+
+        return recommendations[level] || recommendations['B1'];
+    }
+
+    /**
+     * Render recommendations list
+     */
+    renderImmersionRecommendations(container, recommendations, level, isRu) {
+        const typeEmojis = {
+            'movie': '🎬',
+            'series': '📺',
+            'cartoon': '🎨',
+            'documentary': '📚'
+        };
+
+        const typeLabels = {
+            'movie': isRu ? 'Фильм' : 'Movie',
+            'series': isRu ? 'Сериал' : 'Series',
+            'cartoon': isRu ? 'Мультфильм' : 'Cartoon',
+            'documentary': isRu ? 'Документальный' : 'Documentary'
+        };
+
+        let html = '';
+
+        for (const item of recommendations) {
+            const emoji = typeEmojis[item.type] || '🎬';
+            const typeLabel = typeLabels[item.type] || item.type;
+            const vocabTags = item.vocabulary?.map(v => `<span class="vocab-tag">${v}</span>`).join('') || '';
+
+            html += `
+                <div class="card recommendation-card" style="margin-bottom: 12px;">
+                    <div style="display: flex; gap: 12px; align-items: flex-start;">
+                        <div style="font-size: 32px;">${emoji}</div>
+                        <div style="flex: 1;">
+                            <h4 style="margin: 0 0 4px 0;">${item.title}</h4>
+                            <p class="text-hint" style="font-size: 12px; margin: 0 0 8px 0;">
+                                ${typeLabel} • ${item.year}
+                            </p>
+                            <p style="font-size: 14px; margin: 0 0 8px 0;">${item.reason}</p>
+                            <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                                ${vocabTags}
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 12px; display: flex; gap: 8px;">
+                        <button class="btn btn-secondary btn-sm" onclick="window.open('https://www.google.com/search?q=${encodeURIComponent(item.title + ' watch online')}', '_blank')">
+                            ${isRu ? '🔍 Найти' : '🔍 Find'}
+                        </button>
+                        <button class="btn btn-secondary btn-sm" onclick="UI.markAsWatched('${item.title.replace(/'/g, "\\'")}')">
+                            ${isRu ? '✅ Посмотрел' : '✅ Watched'}
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Add tips
+        html += `
+            <div class="card" style="background: var(--warning-light); margin-top: 16px;">
+                <h4 style="margin: 0 0 8px 0;">💡 ${isRu ? 'Советы для просмотра' : 'Watching Tips'}</h4>
+                <ul style="margin: 0; padding-left: 20px; font-size: 14px;">
+                    <li>${isRu ? 'Смотрите с английскими субтитрами' : 'Watch with English subtitles'}</li>
+                    <li>${isRu ? 'Записывайте новые слова и фразы' : 'Write down new words and phrases'}</li>
+                    <li>${isRu ? 'Пересматривайте сложные сцены' : 'Rewatch difficult scenes'}</li>
+                    <li>${isRu ? 'Попробуйте повторять за героями' : 'Try shadowing the characters'}</li>
                 </ul>
             </div>
         `;
+
+        container.innerHTML = html;
+    }
+
+    /**
+     * Mark content as watched
+     */
+    async markAsWatched(title) {
+        const isRu = i18n.getLocale() === 'ru';
+
+        // Save to profile
+        if (!this.profile.immersion) {
+            this.profile.immersion = { watched: [], totalMinutes: 0 };
+        }
+
+        if (!this.profile.immersion.watched.includes(title)) {
+            this.profile.immersion.watched.push(title);
+            await Database.saveProfile(this.profile);
+        }
+
+        this.showToast(isRu ? `"${title}" добавлен в просмотренные!` : `"${title}" marked as watched!`);
     }
 
     // ==================== PLACEMENT TEST ====================
