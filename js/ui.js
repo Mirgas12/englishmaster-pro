@@ -100,11 +100,7 @@ class UI {
         const settings = this.profile.settings;
 
         // Dark mode
-        if (settings.darkMode) {
-            document.documentElement.classList.add('dark-mode');
-        } else {
-            document.documentElement.classList.remove('dark-mode');
-        }
+        this.applyDarkMode(settings.darkMode || false);
         const darkModeToggle = document.getElementById('setting-dark-mode');
         if (darkModeToggle) darkModeToggle.checked = settings.darkMode || false;
 
@@ -123,9 +119,49 @@ class UI {
     }
 
     /**
+     * Apply dark mode with proper color overrides
+     */
+    applyDarkMode(isDark) {
+        const root = document.documentElement;
+
+        if (isDark) {
+            root.classList.add('dark-mode');
+            // Force dark colors via inline styles to override Telegram theme
+            root.style.setProperty('--tg-theme-bg-color', '#1a1a1a', 'important');
+            root.style.setProperty('--tg-theme-text-color', '#ffffff', 'important');
+            root.style.setProperty('--tg-theme-hint-color', '#888888', 'important');
+            root.style.setProperty('--tg-theme-secondary-bg-color', '#2d2d2d', 'important');
+            root.style.setProperty('--tg-theme-button-color', '#5ebbff', 'important');
+            document.body.style.backgroundColor = '#1a1a1a';
+            document.body.style.color = '#ffffff';
+        } else {
+            root.classList.remove('dark-mode');
+            // Restore Telegram theme or defaults
+            if (this.tg?.themeParams) {
+                const tp = this.tg.themeParams;
+                root.style.setProperty('--tg-theme-bg-color', tp.bg_color || '#ffffff');
+                root.style.setProperty('--tg-theme-text-color', tp.text_color || '#000000');
+                root.style.setProperty('--tg-theme-hint-color', tp.hint_color || '#999999');
+                root.style.setProperty('--tg-theme-secondary-bg-color', tp.secondary_bg_color || '#f0f0f0');
+                root.style.setProperty('--tg-theme-button-color', tp.button_color || '#2481cc');
+            } else {
+                root.style.setProperty('--tg-theme-bg-color', '#ffffff');
+                root.style.setProperty('--tg-theme-text-color', '#000000');
+                root.style.setProperty('--tg-theme-hint-color', '#999999');
+                root.style.setProperty('--tg-theme-secondary-bg-color', '#f0f0f0');
+                root.style.setProperty('--tg-theme-button-color', '#2481cc');
+            }
+            document.body.style.backgroundColor = '';
+            document.body.style.color = '';
+        }
+    }
+
+    /**
      * Update all UI text based on current language
      */
     updateUIText() {
+        const isRu = i18n.getLocale() === 'ru';
+
         // Update navigation
         const navItems = {
             'dashboard': i18n.t('nav.home'),
@@ -145,7 +181,7 @@ class UI {
         // Update profile labels
         const profileLevel = document.getElementById('profile-level');
         if (profileLevel) {
-            profileLevel.textContent = i18n.t('profile.level', { level: this.profile.levels?.overall || 'A1' });
+            profileLevel.textContent = i18n.t('profile.level', { level: this.profile?.levels?.overall || 'A1' });
         }
 
         // Update module names on dashboard
@@ -167,6 +203,118 @@ class UI {
                 if (nameEl) nameEl.textContent = moduleNames[module];
             }
         });
+
+        // Update vocabulary screen
+        const vocabScreen = document.getElementById('vocabulary-screen');
+        if (vocabScreen) {
+            const title = vocabScreen.querySelector('.card-title');
+            if (title) title.textContent = i18n.t('vocab.chooseMode');
+
+            const modes = vocabScreen.querySelectorAll('[data-mode]');
+            modes.forEach(btn => {
+                const mode = btn.dataset.mode;
+                if (mode === 'receptive') btn.textContent = i18n.t('vocab.receptiveMode');
+                if (mode === 'productive') btn.textContent = i18n.t('vocab.productiveMode');
+                if (mode === 'spelling') btn.textContent = i18n.t('vocab.spellingMode');
+                if (mode === 'timed') btn.textContent = i18n.t('vocab.timedMode');
+            });
+        }
+
+        // Update speaking screen
+        const speakingScreen = document.getElementById('speaking-screen');
+        if (speakingScreen) {
+            const titles = speakingScreen.querySelectorAll('.card-title');
+            if (titles[1]) titles[1].textContent = isRu ? 'Режим практики' : 'Practice Mode';
+
+            const modes = speakingScreen.querySelectorAll('[data-speaking-mode]');
+            modes.forEach(btn => {
+                const mode = btn.dataset.speakingMode;
+                if (mode === 'pronunciation') btn.textContent = i18n.t('speaking.pronunciation');
+                if (mode === 'shadowing') btn.textContent = i18n.t('speaking.shadowing');
+                if (mode === 'conversation') btn.textContent = i18n.t('speaking.conversation');
+            });
+        }
+
+        // Update listening screen
+        const listeningScreen = document.getElementById('listening-screen');
+        if (listeningScreen) {
+            const titles = listeningScreen.querySelectorAll('.card-title');
+            if (titles[0]) titles[0].textContent = i18n.t('listening.title');
+            if (titles[1]) titles[1].textContent = i18n.t('listening.chooseType');
+
+            const modes = listeningScreen.querySelectorAll('[data-listening-mode]');
+            modes.forEach(btn => {
+                const mode = btn.dataset.listeningMode;
+                if (mode === 'dictation') btn.textContent = i18n.t('listening.dictation');
+                if (mode === 'comprehension') btn.textContent = i18n.t('listening.comprehension');
+                if (mode === 'transcription') btn.textContent = i18n.t('listening.transcription');
+            });
+        }
+
+        // Update writing screen
+        const writingScreen = document.getElementById('writing-screen');
+        if (writingScreen) {
+            const title = writingScreen.querySelector('.card-title');
+            if (title) title.textContent = i18n.t('writing.title');
+            const submitBtn = document.getElementById('submit-writing');
+            if (submitBtn) submitBtn.textContent = i18n.t('writing.submit');
+        }
+
+        // Update IELTS screen
+        const ieltsScreen = document.getElementById('ielts-screen');
+        if (ieltsScreen) {
+            const title = ieltsScreen.querySelector('.card-title');
+            if (title) title.textContent = i18n.t('ielts.title');
+            const fullTestBtn = document.getElementById('ielts-full-test');
+            if (fullTestBtn) fullTestBtn.textContent = i18n.t('ielts.fullTest');
+            const sectionTestBtn = document.getElementById('ielts-section-test');
+            if (sectionTestBtn) sectionTestBtn.textContent = i18n.t('ielts.sectionTest');
+        }
+
+        // Update grammar screen
+        const grammarScreen = document.getElementById('grammar-screen');
+        if (grammarScreen) {
+            const title = grammarScreen.querySelector('.card-title');
+            if (title) title.textContent = i18n.t('grammar.topics');
+        }
+
+        // Update reading screen
+        const readingScreen = document.getElementById('reading-screen');
+        if (readingScreen) {
+            const title = readingScreen.querySelector('.card-title');
+            if (title) title.textContent = i18n.t('reading.title');
+        }
+
+        // Update vocabulary section labels
+        const vocabTitle = document.querySelector('.vocab-section .card-title');
+        if (vocabTitle) vocabTitle.textContent = i18n.t('dashboard.vocabulary');
+
+        // Update Study Hub
+        const studyScreen = document.getElementById('study-screen');
+        if (studyScreen) {
+            const quickActionsTitle = studyScreen.querySelector('.card-title');
+            if (quickActionsTitle && quickActionsTitle.textContent.includes('Quick')) {
+                quickActionsTitle.textContent = i18n.t('study.quickActions');
+            }
+            const smartBtn = document.getElementById('start-smart-session');
+            if (smartBtn) smartBtn.textContent = i18n.t('study.smartSession');
+            const reviewBtn = document.getElementById('start-review-session');
+            if (reviewBtn) reviewBtn.textContent = i18n.t('study.reviewDue');
+        }
+
+        // Update progress screen
+        const progressScreen = document.getElementById('progress-screen');
+        if (progressScreen) {
+            const title = progressScreen.querySelector('.card-title');
+            if (title) title.textContent = i18n.t('progress.title');
+        }
+
+        // Update profile screen
+        const profileScreen = document.getElementById('profile-screen');
+        if (profileScreen) {
+            const settingsTitle = profileScreen.querySelector('.card-title');
+            if (settingsTitle) settingsTitle.textContent = i18n.t('profile.settings');
+        }
 
         // Update i18n-marked elements
         i18n.updateUI();
@@ -513,7 +661,7 @@ class UI {
                 this.profile.settings = {};
             }
             const isDark = e.target.checked;
-            document.documentElement.classList.toggle('dark-mode', isDark);
+            this.applyDarkMode(isDark);
             this.profile.settings.darkMode = isDark;
             await Database.saveProfile(this.profile);
             this.showToast(i18n.t('common.saved'));

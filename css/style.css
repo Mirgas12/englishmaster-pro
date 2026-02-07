@@ -92,24 +92,72 @@
 }
 
 /* Dark Theme Support - via class (for manual toggle) */
+html.dark-mode,
+html.dark-mode body,
 .dark-mode {
-    --tg-theme-bg-color: #1a1a1a;
-    --tg-theme-text-color: #ffffff;
-    --tg-theme-hint-color: #888888;
-    --tg-theme-secondary-bg-color: #2d2d2d;
-    --tg-theme-link-color: #5ebbff;
-    --tg-theme-button-color: #5ebbff;
+    --tg-theme-bg-color: #1a1a1a !important;
+    --tg-theme-text-color: #ffffff !important;
+    --tg-theme-hint-color: #888888 !important;
+    --tg-theme-secondary-bg-color: #2d2d2d !important;
+    --tg-theme-link-color: #5ebbff !important;
+    --tg-theme-button-color: #5ebbff !important;
+    --tg-theme-button-text-color: #ffffff !important;
 
-    --primary-light: rgba(94, 187, 255, 0.15);
-    --success-light: rgba(76, 175, 80, 0.15);
-    --warning-light: rgba(255, 152, 0, 0.15);
-    --error-light: rgba(244, 67, 54, 0.15);
-    --info-light: rgba(33, 150, 243, 0.15);
+    --primary: #5ebbff !important;
+    --primary-light: rgba(94, 187, 255, 0.15) !important;
+    --primary-dark: #3aa3f5 !important;
+    --success-light: rgba(76, 175, 80, 0.15) !important;
+    --warning-light: rgba(255, 152, 0, 0.15) !important;
+    --error-light: rgba(244, 67, 54, 0.15) !important;
+    --info-light: rgba(33, 150, 243, 0.15) !important;
 
-    --shadow-sm: 0 1px 2px rgba(0,0,0,0.2);
-    --shadow-md: 0 4px 6px rgba(0,0,0,0.3);
-    --shadow-lg: 0 10px 15px rgba(0,0,0,0.4);
-    --color-overlay: rgba(0, 0, 0, 0.7);
+    --color-surface: #1a1a1a !important;
+    --color-surface-elevated: #2d2d2d !important;
+    --color-text-primary: #ffffff !important;
+    --color-text-secondary: #888888 !important;
+    --color-border: #3d3d3d !important;
+
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.3) !important;
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.4) !important;
+    --shadow-lg: 0 10px 15px rgba(0,0,0,0.5) !important;
+    --color-overlay: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Force dark mode colors on all elements */
+html.dark-mode body {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+html.dark-mode .card {
+    background-color: #2d2d2d !important;
+    border-color: #3d3d3d !important;
+}
+
+html.dark-mode .header {
+    background-color: #1a1a1a !important;
+    border-color: #3d3d3d !important;
+}
+
+html.dark-mode .bottom-nav {
+    background-color: #1a1a1a !important;
+    border-color: #3d3d3d !important;
+}
+
+html.dark-mode .module-card {
+    background-color: #2d2d2d !important;
+}
+
+html.dark-mode input,
+html.dark-mode select,
+html.dark-mode textarea {
+    background-color: #3d3d3d !important;
+    color: #ffffff !important;
+    border-color: #4d4d4d !important;
+}
+
+html.dark-mode .text-hint {
+    color: #888888 !important;
 }
 
 /* Reset */
@@ -157,8 +205,9 @@ html, body {
 .main {
     flex: 1;
     padding: var(--space-md);
-    padding-bottom: calc(80px + env(safe-area-inset-bottom));
+    padding-bottom: calc(120px + env(safe-area-inset-bottom));
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Cards */
