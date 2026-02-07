@@ -46,7 +46,7 @@ class Vocabulary {
     async loadStarterPacks() {
         for (const level of Vocabulary.LEVELS) {
             try {
-                const response = await fetch(`data/vocabulary/${level.toLowerCase()}_vocabulary.json`);
+                const response = await fetch(`data/vocabulary/${level}.json`);
                 if (response.ok) {
                     const data = await response.json();
                     this.starterPacks[level] = data;

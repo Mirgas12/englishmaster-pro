@@ -820,7 +820,8 @@
 
             } catch (error) {
                 console.error('App initialization failed:', error);
-                showErrorScreen('Не удалось загрузить приложение. Проверьте подключение к интернету.');
+                const errorDetails = error?.message || error?.toString() || 'Unknown error';
+                showErrorScreen(`Не удалось загрузить приложение: ${errorDetails}`);
             }
         });
 

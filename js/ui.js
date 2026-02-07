@@ -67,19 +67,16 @@ class UI {
      * Initialize all modules
      */
     async initModules() {
-        const initPromises = [];
-
         // Initialize vocabulary with error handling
         try {
-            initPromises.push(Vocabulary.init());
+            await Vocabulary.init();
         } catch (e) {
             console.warn('Vocabulary init warning:', e);
+            // Continue without vocabulary - non-critical
         }
 
         // These modules load data dynamically, no init needed
         // Grammar, Reading, Immersion - load on demand
-
-        await Promise.all(initPromises);
     }
 
     /**
