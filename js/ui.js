@@ -426,19 +426,35 @@ class UI {
         if (!this.tg) return;
 
         // Notify Telegram that app is ready
-        this.tg.ready();
+        try {
+            this.tg.ready();
+        } catch (e) {
+            console.warn('Telegram ready() not supported:', e.message);
+        }
 
         // Expand to fullscreen immediately
-        this.tg.expand();
+        try {
+            this.tg.expand();
+        } catch (e) {
+            console.warn('Telegram expand() not supported:', e.message);
+        }
 
         // Request fullscreen mode (for newer Telegram versions)
-        if (this.tg.requestFullscreen) {
-            this.tg.requestFullscreen();
+        try {
+            if (this.tg.requestFullscreen) {
+                this.tg.requestFullscreen();
+            }
+        } catch (e) {
+            console.warn('Telegram requestFullscreen() not supported:', e.message);
         }
 
         // Disable vertical swipes to prevent accidental closing
-        if (this.tg.disableVerticalSwipes) {
-            this.tg.disableVerticalSwipes();
+        try {
+            if (this.tg.disableVerticalSwipes) {
+                this.tg.disableVerticalSwipes();
+            }
+        } catch (e) {
+            console.warn('Telegram disableVerticalSwipes() not supported:', e.message);
         }
 
         // Apply Telegram theme
@@ -454,7 +470,13 @@ class UI {
         }
 
         // Setup back button handler
-        this.tg.BackButton.onClick(() => this.goBack());
+        try {
+            if (this.tg.BackButton) {
+                this.tg.BackButton.onClick(() => this.goBack());
+            }
+        } catch (e) {
+            console.warn('Telegram BackButton not supported:', e.message);
+        }
 
         // Load user profile from Telegram
         this.loadTelegramUser();
