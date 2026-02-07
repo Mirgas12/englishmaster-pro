@@ -86,35 +86,99 @@ class UI {
      * Apply user settings
      */
     applySettings() {
-        const settings = this.profile?.settings || {};
+        // Ensure settings object exists
+        if (!this.profile.settings) {
+            this.profile.settings = {
+                darkMode: false,
+                language: 'ru',
+                dailyGoalMinutes: 30,
+                notifications: true,
+                soundEffects: true
+            };
+        }
+
+        const settings = this.profile.settings;
 
         // Dark mode
         if (settings.darkMode) {
             document.documentElement.classList.add('dark-mode');
-            const darkModeToggle = document.getElementById('setting-dark-mode');
-            if (darkModeToggle) darkModeToggle.checked = true;
+        } else {
+            document.documentElement.classList.remove('dark-mode');
         }
+        const darkModeToggle = document.getElementById('setting-dark-mode');
+        if (darkModeToggle) darkModeToggle.checked = settings.darkMode || false;
 
         // Language
-        if (settings.language) {
-            i18n.setLocale(settings.language);
-            const langSelect = document.getElementById('setting-language');
-            if (langSelect) langSelect.value = settings.language;
-        }
+        const lang = settings.language || 'ru';
+        i18n.setLocale(lang);
+        const langSelect = document.getElementById('setting-language');
+        if (langSelect) langSelect.value = lang;
 
         // Daily goal
-        if (settings.dailyGoalMinutes) {
-            const goalSelect = document.getElementById('setting-daily-goal');
-            if (goalSelect) goalSelect.value = settings.dailyGoalMinutes;
+        const goalSelect = document.getElementById('setting-daily-goal');
+        if (goalSelect) goalSelect.value = settings.dailyGoalMinutes || 30;
+
+        // Update all UI text with current language
+        this.updateUIText();
+    }
+
+    /**
+     * Update all UI text based on current language
+     */
+    updateUIText() {
+        // Update navigation
+        const navItems = {
+            'dashboard': i18n.t('nav.home'),
+            'study': i18n.t('nav.study'),
+            'progress': i18n.t('nav.progress'),
+            'profile': i18n.t('nav.profile')
+        };
+
+        document.querySelectorAll('.nav-item').forEach(item => {
+            const nav = item.dataset.nav;
+            if (navItems[nav]) {
+                const span = item.querySelector('span:not(.nav-icon)');
+                if (span) span.textContent = navItems[nav];
+            }
+        });
+
+        // Update profile labels
+        const profileLevel = document.getElementById('profile-level');
+        if (profileLevel) {
+            profileLevel.textContent = i18n.t('profile.level', { level: this.profile.levels?.overall || 'A1' });
         }
+
+        // Update module names on dashboard
+        const moduleNames = {
+            'vocabulary': i18n.t('modules.vocabulary'),
+            'grammar': i18n.t('modules.grammar'),
+            'reading': i18n.t('modules.reading'),
+            'listening': i18n.t('modules.listening'),
+            'writing': i18n.t('modules.writing'),
+            'speaking': i18n.t('modules.speaking'),
+            'immersion': i18n.t('modules.immersion'),
+            'ielts': i18n.t('modules.ielts')
+        };
+
+        document.querySelectorAll('.module-card[data-module]').forEach(card => {
+            const module = card.dataset.module;
+            if (moduleNames[module]) {
+                const nameEl = card.querySelector('.module-name');
+                if (nameEl) nameEl.textContent = moduleNames[module];
+            }
+        });
+
+        // Update i18n-marked elements
+        i18n.updateUI();
     }
 
     /**
      * Load dashboard data
      */
     async loadDashboard() {
-        // User info
-        const userName = this.tg?.initDataUnsafe?.user?.first_name || 'User';
+        // User info from Telegram
+        const tgUser = this.tg?.initDataUnsafe?.user;
+        const userName = tgUser?.first_name || 'User';
         const greeting = document.getElementById('user-greeting');
         if (greeting) greeting.textContent = i18n.t('dashboard.greeting', { name: userName });
 
@@ -140,6 +204,54 @@ class UI {
 
         // Module levels
         this.updateModuleLevels();
+
+        // Update profile screen info
+        this.updateProfileScreen();
+    }
+
+    /**
+     * Update profile screen with user data
+     */
+    updateProfileScreen() {
+        const tgUser = this.tg?.initDataUnsafe?.user;
+
+        // Profile name
+        const profileName = document.getElementById('profile-name');
+        if (profileName) {
+            if (tgUser) {
+                const fullName = [tgUser.first_name, tgUser.last_name].filter(Boolean).join(' ');
+                profileName.textContent = fullName || tgUser.username || 'User';
+            } else {
+                profileName.textContent = 'User';
+            }
+        }
+
+        // Avatar
+        const avatar = document.getElementById('profile-avatar');
+        if (avatar) {
+            const initial = (tgUser?.first_name || 'U')[0].toUpperCase();
+            avatar.textContent = initial;
+        }
+
+        // Level
+        const profileLevel = document.getElementById('profile-level');
+        if (profileLevel) {
+            const level = this.profile.levels?.overall || 'A1';
+            profileLevel.textContent = i18n.t('profile.level', { level });
+        }
+
+        // Joined date
+        const profileJoined = document.getElementById('profile-joined');
+        if (profileJoined) {
+            const createdAt = this.profile.createdAt || Date.now();
+            const date = new Date(createdAt);
+            const locale = i18n.getLocale();
+            const monthNames = locale === 'ru'
+                ? ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
+                : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            const dateStr = `${monthNames[date.getMonth()]} ${date.getFullYear()}`;
+            profileJoined.textContent = i18n.t('profile.joined', { date: dateStr });
+        }
     }
 
     /**
@@ -168,8 +280,21 @@ class UI {
     setupTelegram() {
         if (!this.tg) return;
 
+        // Notify Telegram that app is ready
         this.tg.ready();
+
+        // Expand to fullscreen immediately
         this.tg.expand();
+
+        // Request fullscreen mode (for newer Telegram versions)
+        if (this.tg.requestFullscreen) {
+            this.tg.requestFullscreen();
+        }
+
+        // Disable vertical swipes to prevent accidental closing
+        if (this.tg.disableVerticalSwipes) {
+            this.tg.disableVerticalSwipes();
+        }
 
         // Apply Telegram theme
         const root = document.documentElement;
@@ -185,6 +310,39 @@ class UI {
 
         // Setup back button handler
         this.tg.BackButton.onClick(() => this.goBack());
+
+        // Load user profile from Telegram
+        this.loadTelegramUser();
+    }
+
+    /**
+     * Load Telegram user data into profile
+     */
+    loadTelegramUser() {
+        if (!this.tg?.initDataUnsafe?.user) return;
+
+        const user = this.tg.initDataUnsafe.user;
+
+        // Update profile name display
+        const profileName = document.getElementById('profile-name');
+        if (profileName) {
+            const fullName = [user.first_name, user.last_name].filter(Boolean).join(' ');
+            profileName.textContent = fullName || user.username || 'User';
+        }
+
+        // Update avatar with first letter
+        const avatar = document.getElementById('profile-avatar');
+        if (avatar) {
+            const initial = (user.first_name || user.username || 'U')[0].toUpperCase();
+            avatar.textContent = initial;
+        }
+
+        // Update greeting on dashboard
+        const greeting = document.getElementById('user-greeting');
+        if (greeting) {
+            const name = user.first_name || user.username || 'User';
+            greeting.textContent = i18n.t('dashboard.greeting', { name });
+        }
     }
 
     /**
@@ -334,20 +492,31 @@ class UI {
         document.getElementById('media-pause')?.addEventListener('click', () => this.pauseMedia());
         document.getElementById('media-replay')?.addEventListener('click', () => this.replayMedia());
 
-        // Settings changes
+        // Settings changes - Language
         document.getElementById('setting-language')?.addEventListener('change', async (e) => {
-            i18n.setLocale(e.target.value);
+            // Ensure settings object exists
+            if (!this.profile.settings) {
+                this.profile.settings = {};
+            }
             this.profile.settings.language = e.target.value;
+            i18n.setLocale(e.target.value);
             await Database.saveProfile(this.profile);
-            this.refreshCurrentScreen();
+            // Update all UI text
+            this.updateUIText();
+            this.showToast(i18n.t('common.saved'));
         });
 
         // Dark mode toggle
         document.getElementById('setting-dark-mode')?.addEventListener('change', async (e) => {
+            // Ensure settings object exists
+            if (!this.profile.settings) {
+                this.profile.settings = {};
+            }
             const isDark = e.target.checked;
             document.documentElement.classList.toggle('dark-mode', isDark);
             this.profile.settings.darkMode = isDark;
             await Database.saveProfile(this.profile);
+            this.showToast(i18n.t('common.saved'));
         });
 
         // Daily goal change
@@ -381,6 +550,53 @@ class UI {
                 await Database.clearAllData();
                 location.reload();
             }
+        });
+
+        // Speaking mode buttons
+        document.querySelectorAll('[data-speaking-mode]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const mode = btn.dataset.speakingMode;
+                this.startSpeakingSession(mode);
+            });
+        });
+
+        // Listening mode buttons
+        document.querySelectorAll('[data-listening-mode]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const mode = btn.dataset.listeningMode;
+                this.startListeningSession(mode);
+            });
+        });
+
+        // IELTS buttons
+        document.getElementById('ielts-full-test')?.addEventListener('click', () => {
+            this.startIELTSTest('full');
+        });
+
+        document.getElementById('ielts-section-test')?.addEventListener('click', () => {
+            this.startIELTSTest('section');
+        });
+
+        // IELTS section cards
+        document.querySelectorAll('[data-ielts]').forEach(card => {
+            card.addEventListener('click', () => {
+                const section = card.dataset.ielts;
+                this.openIELTSSection(section);
+            });
+        });
+
+        // Quick Actions buttons
+        document.getElementById('start-smart-session')?.addEventListener('click', () => {
+            this.startSmartSession();
+        });
+
+        document.getElementById('start-review-session')?.addEventListener('click', () => {
+            this.startReviewSession();
+        });
+
+        // Submit writing button
+        document.getElementById('submit-writing')?.addEventListener('click', () => {
+            this.submitWritingTask();
         });
 
         // Writing word count
@@ -503,8 +719,8 @@ class UI {
                 break;
 
             case 'immersion':
-                const immersionLevel = document.getElementById('immersion-level-select')?.value || 'A1';
-                await this.loadImmersionQuizzes(immersionLevel);
+                // Immersion section is not implemented per TZ - show placeholder
+                this.showImmersionPlaceholder();
                 break;
 
             case 'vocabulary':
@@ -1417,247 +1633,34 @@ class UI {
     // ==================== IMMERSION ====================
 
     /**
-     * Load immersion quizzes for level
+     * Show placeholder for Immersion section (not implemented per TZ)
      */
-    async loadImmersionQuizzes(level) {
+    showImmersionPlaceholder() {
         const container = document.getElementById('immersion-list');
         if (!container) return;
 
-        container.innerHTML = `<div class="card"><p class="text-hint">${i18n.t('common.loading')}</p></div>`;
+        const isRu = i18n.getLocale() === 'ru';
 
-        try {
-            const quizzes = [];
-            for (let i = 1; i <= 15; i++) {
-                const id = `${level.toLowerCase()}_immersion_${i.toString().padStart(2, '0')}`;
-                try {
-                    const response = await fetch(`data/immersion/${level}/${id}.json`);
-                    if (response.ok) {
-                        quizzes.push(await response.json());
+        container.innerHTML = `
+            <div class="card text-center" style="padding: 32px;">
+                <div style="font-size: 48px; margin-bottom: 16px;">🎬</div>
+                <h3 class="card-title mb-md">${isRu ? 'Раздел в разработке' : 'Section in Development'}</h3>
+                <p class="text-hint mb-md">
+                    ${isRu
+                        ? 'Здесь будут фильмы, сериалы, подкасты и видео с YouTube для практики английского по вашему уровню.'
+                        : 'Movies, TV shows, podcasts and YouTube videos for English practice at your level will be here.'
                     }
-                } catch (e) {
-                    // Skip missing files
-                }
-            }
-
-            this.renderImmersionList(container, quizzes, level);
-        } catch (e) {
-            container.innerHTML = `<div class="card"><p class="text-hint">Error loading quizzes</p></div>`;
-        }
-    }
-
-    /**
-     * Render immersion quizzes list
-     */
-    renderImmersionList(container, quizzes, level) {
-        container.innerHTML = '';
-
-        if (quizzes.length === 0) {
-            container.innerHTML = `<div class="card"><p class="text-hint">No quizzes available for this level</p></div>`;
-            return;
-        }
-
-        const list = Utils.createElement('div', { className: 'topic-list' });
-
-        for (const quiz of quizzes) {
-            const item = Utils.createElement('div', {
-                className: 'topic-item',
-                onClick: () => this.openImmersionQuiz(quiz, level)
-            }, [
-                Utils.createElement('div', { className: 'topic-info' }, [
-                    Utils.createElement('div', {
-                        className: 'topic-title',
-                        textContent: i18n.getLocale() === 'ru' ? quiz.title_ru || quiz.title : quiz.title
-                    }),
-                    Utils.createElement('div', {
-                        className: 'topic-subtitle',
-                        textContent: `${quiz.duration_seconds}s • ${quiz.media_type}`
-                    })
-                ]),
-                Utils.createElement('div', { className: 'topic-status new', textContent: '○' })
-            ]);
-            list.appendChild(item);
-        }
-
-        container.appendChild(list);
-    }
-
-    /**
-     * Open immersion quiz
-     */
-    openImmersionQuiz(quiz, level) {
-        this.currentImmersionQuiz = quiz;
-        this.immersionAnswers = {};
-
-        const titleEl = document.getElementById('immersion-title');
-        if (titleEl) titleEl.textContent = i18n.getLocale() === 'ru' ? quiz.title_ru || quiz.title : quiz.title;
-
-        const infoEl = document.getElementById('immersion-info');
-        if (infoEl) infoEl.textContent = `${level} • ${quiz.duration_seconds}s • ${quiz.media_type}`;
-
-        const transcriptEl = document.getElementById('immersion-transcript');
-        if (transcriptEl) transcriptEl.textContent = quiz.transcript;
-
-        const transcriptCard = document.getElementById('immersion-transcript-card');
-        if (transcriptCard) transcriptCard.style.display = 'none';
-
-        this.renderImmersionQuestions(quiz.questions);
-
-        this.showScreen('immersion-quiz-screen');
-    }
-
-    /**
-     * Render immersion questions
-     */
-    renderImmersionQuestions(questions) {
-        const container = document.getElementById('immersion-questions');
-        if (!container) return;
-
-        container.innerHTML = '';
-
-        questions.forEach((q, idx) => {
-            const questionEl = Utils.createElement('div', { className: 'question-item' }, [
-                Utils.createElement('p', { className: 'question-text', textContent: `${idx + 1}. ${q.question}` })
-            ]);
-
-            if (q.type === 'multiple_choice') {
-                const optionsList = Utils.createElement('div', { className: 'options-list' });
-                q.options.forEach((opt, optIdx) => {
-                    const optionItem = Utils.createElement('div', {
-                        className: 'option-item',
-                        dataset: { question: idx, option: optIdx },
-                        onClick: (e) => this.selectImmersionOption(e.currentTarget, idx)
-                    }, [
-                        Utils.createElement('div', { className: 'option-radio' }),
-                        Utils.createElement('span', { textContent: opt })
-                    ]);
-                    optionsList.appendChild(optionItem);
-                });
-                questionEl.appendChild(optionsList);
-            } else if (q.type === 'true_false') {
-                const optionsList = Utils.createElement('div', { className: 'options-list' });
-                ['True', 'False'].forEach((opt, optIdx) => {
-                    const optionItem = Utils.createElement('div', {
-                        className: 'option-item',
-                        dataset: { question: idx, option: optIdx === 0 },
-                        onClick: (e) => this.selectImmersionOption(e.currentTarget, idx)
-                    }, [
-                        Utils.createElement('div', { className: 'option-radio' }),
-                        Utils.createElement('span', { textContent: opt })
-                    ]);
-                    optionsList.appendChild(optionItem);
-                });
-                questionEl.appendChild(optionsList);
-            } else if (q.type === 'fill_gap') {
-                questionEl.appendChild(Utils.createElement('input', {
-                    type: 'text',
-                    className: 'input mt-sm',
-                    placeholder: 'Type your answer...',
-                    dataset: { question: idx },
-                    onInput: (e) => {
-                        this.immersionAnswers[idx] = e.target.value;
-                    }
-                }));
-            }
-
-            container.appendChild(questionEl);
-        });
-    }
-
-    /**
-     * Select immersion option
-     */
-    selectImmersionOption(element, questionIdx) {
-        const questionItems = document.querySelectorAll(`#immersion-questions .option-item[data-question="${questionIdx}"]`);
-        questionItems.forEach(item => item.classList.remove('selected'));
-        element.classList.add('selected');
-
-        const optionValue = element.dataset.option;
-        this.immersionAnswers[questionIdx] = optionValue === 'true' || optionValue === 'false'
-            ? optionValue === 'true'
-            : parseInt(optionValue);
-    }
-
-    /**
-     * Check immersion answers
-     */
-    checkImmersionAnswers() {
-        if (!this.currentImmersionQuiz) return;
-
-        const questions = this.currentImmersionQuiz.questions;
-        let correct = 0;
-
-        questions.forEach((q, idx) => {
-            const userAnswer = this.immersionAnswers[idx];
-            const correctAnswer = q.type === 'fill_gap' ? q.answer : q.correct;
-
-            let isCorrect = false;
-            if (q.type === 'fill_gap') {
-                isCorrect = userAnswer?.toLowerCase().trim() === correctAnswer.toLowerCase().trim();
-            } else {
-                isCorrect = userAnswer === correctAnswer;
-            }
-
-            if (isCorrect) correct++;
-
-            const questionItems = document.querySelectorAll(`#immersion-questions .option-item[data-question="${idx}"]`);
-            questionItems.forEach(item => {
-                const optVal = item.dataset.option;
-                const isThis = optVal === 'true' || optVal === 'false'
-                    ? (optVal === 'true') === correctAnswer
-                    : parseInt(optVal) === correctAnswer;
-
-                if (isThis) {
-                    item.classList.add('correct');
-                } else if (item.classList.contains('selected')) {
-                    item.classList.add('incorrect');
-                }
-            });
-        });
-
-        this.showToast(`Score: ${correct}/${questions.length} (${Math.round(correct / questions.length * 100)}%)`);
-    }
-
-    /**
-     * Toggle transcript visibility
-     */
-    toggleTranscript() {
-        const card = document.getElementById('immersion-transcript-card');
-        if (card) {
-            card.style.display = card.style.display === 'none' ? 'block' : 'none';
-        }
-    }
-
-    /**
-     * Play media (TTS)
-     */
-    playMedia() {
-        if (!this.currentImmersionQuiz?.transcript) return;
-
-        if ('speechSynthesis' in window) {
-            const utterance = new SpeechSynthesisUtterance(this.currentImmersionQuiz.transcript);
-            utterance.lang = 'en-US';
-            utterance.rate = 0.9;
-            speechSynthesis.speak(utterance);
-        }
-    }
-
-    /**
-     * Pause media
-     */
-    pauseMedia() {
-        if ('speechSynthesis' in window) {
-            speechSynthesis.pause();
-        }
-    }
-
-    /**
-     * Replay media
-     */
-    replayMedia() {
-        if ('speechSynthesis' in window) {
-            speechSynthesis.cancel();
-            this.playMedia();
-        }
+                </p>
+                <p class="text-hint">
+                    ${isRu ? 'Пока вы можете использовать:' : 'For now, you can use:'}
+                </p>
+                <ul style="text-align: left; margin-top: 12px; list-style: disc; padding-left: 24px;">
+                    <li><a href="https://www.youtube.com/@EngVid" target="_blank" style="color: var(--primary);">EngVid (YouTube)</a></li>
+                    <li><a href="https://www.youtube.com/@BBCLearningEnglish" target="_blank" style="color: var(--primary);">BBC Learning English</a></li>
+                    <li><a href="https://www.netflix.com" target="_blank" style="color: var(--primary);">Netflix</a> ${isRu ? '(с субтитрами)' : '(with subtitles)'}</li>
+                </ul>
+            </div>
+        `;
     }
 
     // ==================== PLACEMENT TEST ====================
@@ -1896,6 +1899,101 @@ class UI {
         if (module) {
             this.initModuleScreen(module);
         }
+    }
+
+    // ==================== SPEAKING ====================
+
+    /**
+     * Start speaking session
+     */
+    startSpeakingSession(mode) {
+        this.showToast(i18n.t('common.comingSoon') + ' - ' + mode);
+        // TODO: Implement full speaking functionality with Speech Recognition API
+    }
+
+    // ==================== LISTENING ====================
+
+    /**
+     * Start listening session
+     */
+    startListeningSession(mode) {
+        this.showToast(i18n.t('common.comingSoon') + ' - ' + mode);
+        // TODO: Implement full listening functionality with audio playback
+    }
+
+    // ==================== IELTS ====================
+
+    /**
+     * Start IELTS test
+     */
+    startIELTSTest(type) {
+        if (type === 'full') {
+            this.showToast('Полный тест IELTS - в разработке');
+        } else {
+            this.showToast('Выберите секцию для теста');
+        }
+    }
+
+    /**
+     * Open IELTS section
+     */
+    openIELTSSection(section) {
+        this.showToast(`IELTS ${section} - в разработке`);
+        // TODO: Implement IELTS section practice
+    }
+
+    // ==================== QUICK ACTIONS ====================
+
+    /**
+     * Start smart session (AI picks)
+     */
+    async startSmartSession() {
+        // Check what needs practice most
+        const dueCounts = Vocabulary.getDueCounts();
+
+        if (dueCounts.overdue.receptive > 0 || dueCounts.overdue.productive > 0) {
+            // Start vocabulary review
+            this.openModule('vocabulary');
+            this.showToast('Начинаем повторение слов!');
+        } else {
+            // Suggest grammar or reading
+            this.openModule('grammar');
+            this.showToast('Изучаем грамматику!');
+        }
+    }
+
+    /**
+     * Start review session for due cards
+     */
+    async startReviewSession() {
+        const dueCounts = Vocabulary.getDueCounts();
+        const total = dueCounts.overdue.receptive + dueCounts.overdue.productive;
+
+        if (total === 0) {
+            this.showToast('Нет карточек для повторения!');
+            return;
+        }
+
+        this.openModule('vocabulary');
+        this.startVocabularySession('receptive');
+    }
+
+    // ==================== WRITING ====================
+
+    /**
+     * Submit writing task for assessment
+     */
+    async submitWritingTask() {
+        const input = document.getElementById('writing-input');
+        const text = input?.value || '';
+
+        if (text.trim().split(/\s+/).length < 50) {
+            this.showToast('Напишите минимум 50 слов');
+            return;
+        }
+
+        this.showToast('Отправка на проверку... (в разработке)');
+        // TODO: Implement AI assessment with Gemini API
     }
 }
 
